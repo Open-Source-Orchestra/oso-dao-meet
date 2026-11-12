@@ -421,7 +421,7 @@ body.no-webgl .transcript-header .dialog-close { display: none; }
   .top-actions { gap: 4px; }
   .icon-button, .tool-button { width: 35px; height: 38px; min-height: 38px; border-radius: 8px; }
   #gallery-button { display: none; }
-  #circle-button, #reset-camera { display: none; }
+  #circle-button, #meeting-one-button, #reset-camera { display: none; }
   .print-button { font-size: .57rem; padding: 7px 9px; }
   .vr-status { display: none; }
   #VRButton { width: 38px !important; min-height: 38px; overflow: hidden; padding: 4px !important; font-size: 0 !important; }

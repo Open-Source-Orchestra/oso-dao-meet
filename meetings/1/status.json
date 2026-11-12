@@ -1,0 +1,30 @@
+{
+  "schema": "oso-dao-proposal-meeting-v1",
+  "meeting": 1,
+  "title": "Open Source Orchestra DAO Proposal Meeting #1",
+  "circle": "First Circle",
+  "session": "A",
+  "startedAt": "2026-11-12T17:36:00Z",
+  "bangkokStart": "2026-11-13T00:36:00+07:00",
+  "publicRecapStatus": "published",
+  "daoStatus": "proposal and public community ledger; not on-chain or adopted",
+  "decisions": "no final governance, treasury, membership or Safe decision claimed",
+  "distributionConsent": {
+    "reportedBy": "Shaka",
+    "reportedAt": "2026-11-12T18:44:33Z",
+    "firstNamesOnly": ["Ben", "Levi", "Utkarsh"],
+    "scope": "careful public recap and consent-safe notes; no additional identity claims"
+  },
+  "recording": {
+    "expected": true,
+    "review": "private watch and local review",
+    "publicUrl": null,
+    "publicDownload": null,
+    "rawTranscript": null,
+    "notes": "publish only after consent-safe review"
+  },
+  "attendeeList": null,
+  "privateMeetLinks": null,
+  "next": "merge both time-zone circles; third meetup open-invite for all, details TBA",
+  "takedown": "https://opensourceorchestra.org/takedown/"
+}

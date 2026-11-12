@@ -7,6 +7,8 @@
   "items": [],
   "publicMeetLinks": null,
   "attendeeData": null,
+  "publicRecap": "/meetings/1/",
+  "distributionConsentFirstNamesOnly": ["Ben", "Levi", "Utkarsh"],
   "releaseRequirements": [
     "Shaka's explicit blessing for the specific item and release surface",
     "explicit recording consent before capture",
