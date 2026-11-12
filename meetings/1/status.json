@@ -7,6 +7,12 @@
   "startedAt": "2026-11-12T17:36:00Z",
   "bangkokStart": "2026-11-13T00:36:00+07:00",
   "publicRecapStatus": "published",
+  "softAnnouncement": {
+    "account": "Shakaleikaumaka",
+    "url": "https://x.com/Shakaleikaumaka/status/2120954614702817296",
+    "postedAt": "2026-11-12T18:59:20Z",
+    "createStatus": 201
+  },
   "daoStatus": "proposal and public community ledger; not on-chain or adopted",
   "decisions": "no final governance, treasury, membership or Safe decision claimed",
   "distributionConsent": {
