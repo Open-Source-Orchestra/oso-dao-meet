@@ -1,0 +1,371 @@
+{
+  "credit": "Open Source Orchestra · already-public Garden Circle assets and official Devcon 8 Mandala Room photographs",
+  "notice": "Appearance in a public photograph or portrait does not indicate DAO membership, attendance at a future meetup, or consent to any new governance action. Takedown requests take priority.",
+  "items": [
+    {
+      "id": "h01",
+      "kind": "history",
+      "src": "./assets/history/2022-devcon-bogota-photography-20221012-083.webp",
+      "year": 2022,
+      "event": "Devcon VI · Bogotá",
+      "alt": "A guitarist sings at the ETHLatam Chiva Chillout during Devcon VI week in Bogotá.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2022-devcon-bogota-photography-20221012-083.webp"
+    },
+    {
+      "id": "h02",
+      "kind": "history",
+      "src": "./assets/history/2022-devcon-bogota-photography-20221012-084.webp",
+      "year": 2022,
+      "event": "Devcon VI · Bogotá",
+      "alt": "Two musicians answer one another on guitar and a wind instrument at the Chiva Chillout.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2022-devcon-bogota-photography-20221012-084.webp"
+    },
+    {
+      "id": "h03",
+      "kind": "history",
+      "src": "./assets/history/2022-img-0637.webp",
+      "year": 2022,
+      "event": "ETHLatam Chiva Chillout · Devcon VI week · Bogotá",
+      "alt": "Two musicians share a colorful room with guitars and percussion in Bogotá.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2022-img-0637.webp"
+    },
+    {
+      "id": "h04",
+      "kind": "history",
+      "src": "./assets/history/2023-img-9244.webp",
+      "year": 2023,
+      "event": "Devconnect Istanbul · the ukulele donation",
+      "alt": "Four adults hold donated Kala Waterman ukuleles during Devconnect Istanbul.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2023-img-9244.webp"
+    },
+    {
+      "id": "h05",
+      "kind": "history",
+      "src": "./assets/history/2023-needs-english-subtitles.webp",
+      "year": 2023,
+      "event": "Devconnect Istanbul · the ukulele donation",
+      "alt": "An adult opens a donated ukulele package in Istanbul; a public video frame.",
+      "credit": "Open Source Orchestra · public Garden Circle history · video frame",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2023-needs-english-subtitles.webp"
+    },
+    {
+      "id": "h06",
+      "kind": "history",
+      "src": "./assets/history/2024-devcon-sea-photography-selection-201.webp",
+      "year": 2024,
+      "event": "Devcon SEA · Bangkok",
+      "alt": "A speaker addresses the room at Devcon SEA in Bangkok.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2024-devcon-sea-photography-selection-201.webp"
+    },
+    {
+      "id": "h07",
+      "kind": "history",
+      "src": "./assets/history/2024-devcon-sea-photography-selection-040.webp",
+      "year": 2024,
+      "event": "Devcon SEA · Bangkok",
+      "alt": "A vocalist performs beneath the illuminated Music Stage sign.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2024-devcon-sea-photography-selection-040.webp"
+    },
+    {
+      "id": "h08",
+      "kind": "history",
+      "src": "./assets/history/2024-devcon-sea-photography-selection-104.webp",
+      "year": 2024,
+      "event": "Devcon SEA · Bangkok",
+      "alt": "Four people talk around a table in the Devcon SEA community area.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2024-devcon-sea-photography-selection-104.webp"
+    },
+    {
+      "id": "h09",
+      "kind": "history",
+      "src": "./assets/history/2024-devcon-sea-photography-selection-217.webp",
+      "year": 2024,
+      "event": "Devcon SEA · Bangkok",
+      "alt": "A group sits together on the floor during a Devcon SEA session.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2024-devcon-sea-photography-selection-217.webp"
+    },
+    {
+      "id": "h10",
+      "kind": "history",
+      "src": "./assets/history/2024-devcon-sea-photography-selection-154.webp",
+      "year": 2024,
+      "event": "Devcon SEA · Bangkok",
+      "alt": "A community group gathers for a photograph in a Devcon SEA meeting room.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2024-devcon-sea-photography-selection-154.webp"
+    },
+    {
+      "id": "h11",
+      "kind": "history",
+      "src": "./assets/history/2024-devcon-sea-photography-selection-124.webp",
+      "year": 2024,
+      "event": "Devcon SEA · Bangkok",
+      "alt": "Musicians sit with guitars and percussion beneath the Music Stage sign.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2024-devcon-sea-photography-selection-124.webp"
+    },
+    {
+      "id": "h12",
+      "kind": "history",
+      "src": "./assets/history/2024-devcon-sea-photography-selection-103.webp",
+      "year": 2024,
+      "event": "Devcon SEA · Bangkok",
+      "alt": "A performer and an audience member share a moment at the Music Stage.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2024-devcon-sea-photography-selection-103.webp"
+    },
+    {
+      "id": "h13",
+      "kind": "history",
+      "src": "./assets/history/2025-devconnect-arg-photography-best-selectio.webp",
+      "year": 2025,
+      "event": "Devconnect ARG · Buenos Aires",
+      "alt": "Two participants gesture toward the crowd at the Buenos Aires Music Stage.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2025-devconnect-arg-photography-best-selectio.webp"
+    },
+    {
+      "id": "h14",
+      "kind": "history",
+      "src": "./assets/history/2025-img-0901.webp",
+      "year": 2025,
+      "event": "Devconnect ARG · Buenos Aires · Music Stage",
+      "alt": "A drummer performs behind red drums at the Music Stage.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2025-img-0901.webp"
+    },
+    {
+      "id": "h15",
+      "kind": "history",
+      "src": "./assets/history/2025-img-0880.webp",
+      "year": 2025,
+      "event": "Devconnect ARG · Buenos Aires · Music Stage",
+      "alt": "Three participants pose together outside the Music Stage.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2025-img-0880.webp"
+    },
+    {
+      "id": "h16",
+      "kind": "history",
+      "src": "./assets/history/2025-img-0878.webp",
+      "year": 2025,
+      "event": "Devconnect ARG · Buenos Aires · Music Stage",
+      "alt": "A live coder performs with a laptop and controller; a public video frame.",
+      "credit": "Open Source Orchestra · public Garden Circle history · video frame",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2025-img-0878.webp"
+    },
+    {
+      "id": "h17",
+      "kind": "history",
+      "src": "./assets/history/2025-img-0864.webp",
+      "year": 2025,
+      "event": "Devconnect ARG · Buenos Aires · Music Stage",
+      "alt": "Guitars, drums and percussion wait on the Music Stage; a public video frame.",
+      "credit": "Open Source Orchestra · public Garden Circle history · video frame",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2025-img-0864.webp"
+    },
+    {
+      "id": "h18",
+      "kind": "history",
+      "src": "./assets/history/2025-img-0873.webp",
+      "year": 2025,
+      "event": "Devconnect ARG · Buenos Aires · Music Stage",
+      "alt": "Two musicians share hand percussion at the Music Stage; a public video frame.",
+      "credit": "Open Source Orchestra · public Garden Circle history · video frame",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2025-img-0873.webp"
+    },
+    {
+      "id": "h19",
+      "kind": "history",
+      "src": "./assets/history/2025-c0006.webp",
+      "year": 2025,
+      "event": "Devconnect ARG · Buenos Aires · Music Stage",
+      "alt": "Two performers play beneath the Music Stage lights; a public video frame.",
+      "credit": "Open Source Orchestra · public Garden Circle history · video frame",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2025-c0006.webp"
+    },
+    {
+      "id": "h20",
+      "kind": "history",
+      "src": "./assets/history/2026-2026-10-19-dsc1235.webp",
+      "year": 2026,
+      "event": "ShanHaiWoo 2026 · Shenzhen · the road to Devcon 8 · Livehouse with Shaka",
+      "alt": "Shaka plays ukulele at the ShanHaiWoo livehouse in Shenzhen.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2026-2026-10-19-dsc1235.webp"
+    },
+    {
+      "id": "h21",
+      "kind": "history",
+      "src": "./assets/history/2026-2026-10-19-dsc1260.webp",
+      "year": 2026,
+      "event": "ShanHaiWoo 2026 · Shenzhen · the road to Devcon 8 · Livehouse with Shaka",
+      "alt": "Three musicians trade parts in a floor-level livehouse circle.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2026-2026-10-19-dsc1260.webp"
+    },
+    {
+      "id": "h22",
+      "kind": "history",
+      "src": "./assets/history/2026-2026-10-19-dsc1264.webp",
+      "year": 2026,
+      "event": "ShanHaiWoo 2026 · Shenzhen · the road to Devcon 8 · Livehouse with Shaka",
+      "alt": "The livehouse audience sits around performers in a floor circle.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2026-2026-10-19-dsc1264.webp"
+    },
+    {
+      "id": "h23",
+      "kind": "history",
+      "src": "./assets/history/2026-2026-10-17-72466b61492974e5f6ce64d5bdaadeb5.webp",
+      "year": 2026,
+      "event": "ShanHaiWoo 2026 · Shenzhen · the road to Devcon 8 · opening ceremony, Shaka performed",
+      "alt": "Shaka performs with a ukulele at the ShanHaiWoo opening ceremony.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2026-2026-10-17-72466b61492974e5f6ce64d5bdaadeb5.webp"
+    },
+    {
+      "id": "h24",
+      "kind": "history",
+      "src": "./assets/history/2026-2026-10-17-dsc0609.webp",
+      "year": 2026,
+      "event": "ShanHaiWoo 2026 · Shenzhen · the road to Devcon 8 · opening ceremony, Shaka performed",
+      "alt": "A guitar waits beside the ShanHaiWoo opening-ceremony backdrop.",
+      "credit": "Open Source Orchestra · public Garden Circle history",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/history/2026-2026-10-17-dsc0609.webp"
+    },
+    {
+      "id": "m2026-frame-01",
+      "kind": "history",
+      "src": "./assets/mumbai/dc8-222-1600.webp",
+      "year": 2026,
+      "event": "Devcon 8 Music Sanctuary · Mumbai",
+      "alt": "A wide, empty hall with a glowing white mandala projected on the far wall. Cane stools, white chairs and standing tables are set out on the carpet.",
+      "caption": "Day 1, before the doors open: the Music Sanctuary hall, empty, with the mandala already glowing on the far wall.",
+      "credit": "Official Devcon 8 photo · The Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/#1"
+    },
+    {
+      "id": "m2026-frame-06",
+      "kind": "history",
+      "src": "./assets/mumbai/dc8-113-1600.webp",
+      "year": 2026,
+      "event": "Devcon 8 Music Sanctuary · Mumbai",
+      "alt": "A small band plays in front of a screen showing a mandala: a saxophonist in a white cap and a pink and blue floral shirt, a bass player, and a singer at a microphone.",
+      "caption": "The first sound in the sanctuary area: saxophone, bass and voices, with a mandala on the screen beside them.",
+      "credit": "Official Devcon 8 photo · The Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/#6"
+    },
+    {
+      "id": "m2026-frame-12",
+      "kind": "history",
+      "src": "./assets/mumbai/dc8-638-1600.webp",
+      "year": 2026,
+      "event": "Devcon 8 Music Sanctuary · Mumbai",
+      "alt": "A wide shot of a jam session: musicians in the centre on rugs, an audience sitting around them on cane stools, beanbags and the floor, with neon pyramid lights and the mandala above.",
+      "caption": "A full circle: musicians in the middle, and listeners on cane stools, beanbags and the floor, between glowing neon pyramids.",
+      "credit": "Official Devcon 8 photo · The Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/#12"
+    },
+    {
+      "id": "m2026-frame-32",
+      "kind": "history",
+      "src": "./assets/mumbai/dc8-874-1600.webp",
+      "year": 2026,
+      "event": "Devcon 8 Music Sanctuary · Mumbai",
+      "alt": "A packed dance floor with hands raised in the haze, light beams, and the mandala projected on the wall above.",
+      "caption": "Hands up in the haze, under the same mandala that watched the empty room on Day 1.",
+      "credit": "Official Devcon 8 photo · The Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/#32"
+    },
+    {
+      "id": "p01",
+      "kind": "portrait",
+      "src": "./assets/portraits/ania-shestakova.jpg",
+      "name": "Ania Shestakova",
+      "alt": "Public Garden Circle artist portrait of Ania Shestakova.",
+      "credit": "Public Garden Circle artist portrait",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/img/ania-shestakova.jpg"
+    },
+    {
+      "id": "p02",
+      "kind": "portrait",
+      "src": "./assets/portraits/aniket-gundewar.jpg",
+      "name": "Aniket Gundewar",
+      "alt": "Public Garden Circle artist portrait of Aniket Gundewar.",
+      "credit": "Public Garden Circle artist portrait",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/img/aniket-gundewar.jpg"
+    },
+    {
+      "id": "p03",
+      "kind": "portrait",
+      "src": "./assets/portraits/itscharann.jpg",
+      "name": "itscharann",
+      "alt": "Public Garden Circle artist portrait of itscharann.",
+      "credit": "Public Garden Circle artist portrait",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/img/itscharann.jpg"
+    },
+    {
+      "id": "p04",
+      "kind": "portrait",
+      "src": "./assets/portraits/jaydeepdan-gadhavi.jpg",
+      "name": "Jaydeepdan Gadhavi",
+      "alt": "Public Garden Circle artist portrait of Jaydeepdan Gadhavi.",
+      "credit": "Public Garden Circle artist portrait",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/img/jaydeepdan-gadhavi.jpg"
+    },
+    {
+      "id": "p05",
+      "kind": "portrait",
+      "src": "./assets/portraits/marie-chain.jpg",
+      "name": "Marie Chain",
+      "alt": "Public Garden Circle artist portrait of Marie Chain.",
+      "credit": "Public Garden Circle artist portrait",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/img/marie-chain.jpg"
+    },
+    {
+      "id": "p06",
+      "kind": "portrait",
+      "src": "./assets/portraits/miami-slice.jpg",
+      "name": "Miami Slice",
+      "alt": "Public Garden Circle artist portrait of Miami Slice.",
+      "credit": "Public Garden Circle artist portrait",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/img/miami-slice.jpg"
+    },
+    {
+      "id": "p07",
+      "kind": "portrait",
+      "src": "./assets/portraits/quefear.jpg",
+      "name": "Quefear",
+      "alt": "Public Garden Circle artist portrait of Quefear.",
+      "credit": "Public Garden Circle artist portrait",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/img/quefear.jpg"
+    },
+    {
+      "id": "p08",
+      "kind": "portrait",
+      "src": "./assets/portraits/shaka.jpg",
+      "name": "Shaka",
+      "alt": "Public Garden Circle artist portrait of Shaka.",
+      "credit": "Public Garden Circle artist portrait",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/img/shaka.jpg"
+    },
+    {
+      "id": "p09",
+      "kind": "portrait",
+      "src": "./assets/portraits/sounya-sharma.jpg",
+      "name": "Sounya Sharma",
+      "alt": "Public Garden Circle artist portrait of Sounya Sharma.",
+      "credit": "Public Garden Circle artist portrait",
+      "sourceUrl": "https://opensourceorchestra.org/garden/circle/img/sounya-sharma.jpg"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "oso-dao-meet-listening-archive-v1",
+  "status": "locked",
+  "updated": "2026-11-12",
+  "transcript": null,
+  "recording": null,
+  "items": [],
+  "publicMeetLinks": null,
+  "attendeeData": null,
+  "releaseRequirements": [
+    "Shaka's explicit blessing for the specific item and release surface",
+    "explicit recording consent before capture",
+    "explicit transcription, attribution and publication consent where required",
+    "the same consent handling for every speaker and identifiable participant, including late joiners",
+    "credits, AI disclosure and takedown path with every released item"
+  ],
+  "notice": "Attendance is not recording consent. Recording is not publication consent. Silence is not consent. Existing public calls are separate and do not unlock this archive.",
+  "takedown": "https://opensourceorchestra.org/takedown/"
+}

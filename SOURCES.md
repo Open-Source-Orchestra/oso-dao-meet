@@ -1,0 +1,176 @@
+# Open Source Orchestra DAO Meet · sources and asset credits
+
+**Presentation edition:** 12 November 2026. Researched, selected and drafted by Shaka's AI ʻohana—machines, not people—at Shaka's direction. This is a community proposal and public résumé, not a governance instrument, member registry, venue scan, or claim of endorsement.
+
+## Editorial boundaries
+
+- The Open Source Orchestra DAO is a **proposal and public community ledger, not yet an onchain DAO**.
+- The First Circle is consent-based. Invitation, attendance, an artist card, or depiction is not automatic enrolment.
+- The third Open Source Orchestra DAO Meetup is **open-invite for everyone**, per Shaka on 12 November 2026 at 15:53 UTC. Date, time, place, and public access details remain TBA.
+- No current private Meet links, attendee data, contact mappings, meeting transcript, or meeting recording are included.
+- The future Listening Archive remains **LOCKED** until Shaka blesses the specific release and every required consent is explicit.
+- Every contribution is equal. Agents have no votes, keys, Shamans, or autonomous execution.
+- Ledger figures are a **9 November 2026 dated snapshot**: 4 applied, 7 prepared, $0 awarded.
+
+## Public slide links
+
+### 01 · G · The First Circle
+
+- [Enter the orchestra](https://opensourceorchestra.org/)
+- [Visit the Garden Circle](https://opensourceorchestra.org/garden/circle/)
+- [Read the community ledger](https://opensourceorchestra.org/dao/)
+- [The Mandala Room photo album](https://opensourceorchestra.org/mandala-room/)
+
+### 02 · Em · 2022 → 2027 · the living road
+
+- [Walk the public timeline](https://opensourceorchestra.org/garden/circle/)
+- [Devcon 9 · Lisbon](https://devcon.org/lisbon/)
+- [2022 open-mic DIP](https://forum.devcon.org/t/music-sessions-open-mic-stage/387)
+- [Public watch page](https://opensourceorchestra.org/watch/)
+- [Mumbai schedule archive](https://opensourceorchestra.org/schedule/)
+- [Road to Lisbon · join](https://opensourceorchestra.org/join/)
+
+### 03 · C · Mumbai · four days, one circle
+
+- [The Mandala Room · 35 photos](https://opensourceorchestra.org/mandala-room/)
+- [The Room You Let Us Build](https://opensourceorchestra.org/the-room/)
+- [Public schedule archive](https://opensourceorchestra.org/schedule/)
+- [Mumbai Music Space DIP](https://forum.devcon.org/t/open-source-orchestra-music-space-at-devcon-8-mumbai/8576)
+- [In the future music and culture is free](https://app.devcon.org/schedule/W8HAES)
+
+### 04 · D · The repertoire you can play
+
+- [Open the songs & chords](https://shakaleikaumaka.com/song/)
+- [The ʻohana Songbook](https://shakaleikaumaka.com/songbook/)
+- [The CC0 rider](https://opensourceorchestra.org/rider/)
+- [Existing consented open recording](https://opensourceorchestra.org/openrecording2/)
+- [Public calls archive](https://opensourceorchestra.org/calls/)
+- [3D Virtual Sanctuary](https://opensourceorchestra.org/rider/sanctuary/)
+
+### 05 · C · Open code · public proof
+
+- [Read the full public résumé](https://opensourceorchestra.org/dao/#built-h)
+- [Fork the First Artist · GPL](https://github.com/Open-Source-Orchestra/fork-the-first-artist)
+- [Open the artist garden](https://artist.opensourceorchestra.org/)
+- [2023 broadcastr](https://devfolio.co/projects/broadcastr-3ec3)
+- [2024 Ethereum Dispatch](https://ethglobal.com/showcase/ethereum-dispatch-dstje)
+- [2025 Opensource Orchestra · ENS win](https://ethglobal.com/showcase/opensource-orchestra-y1egw)
+- [2025 TokeOfApp](https://ethglobal.com/showcase/tokeofapp-dri79)
+- [2026 Vince](https://devfolio.co/projects/vince-d1c9)
+- [2026 LancerAI](https://devfolio.co/projects/lancerai-4508)
+- [2026 My Agent Ohana](https://ethglobal.com/showcase/my-agent-ohana-v04gz)
+- [2026 The ʻOhana Bot](https://devfolio.co/projects/the-ohana-bot-5637)
+- [2026 Fork the First Artist showcase](https://ethglobal.com/showcase/forkthefirstartist-mk84p)
+- [Open Source Orchestra on GitHub](https://github.com/Open-Source-Orchestra)
+
+### 06 · G · A first circle, not a hierarchy
+
+- [Read the principles & ledger](https://opensourceorchestra.org/dao/)
+- [Meet the OG Circle](https://osodaomeet.opensourceorchestra.org/circle/)
+- [Open community join page](https://opensourceorchestra.org/join/)
+- [Raw public ledger](https://opensourceorchestra.org/dao/ledger.json)
+
+### 07 · G · Consent is the first note
+
+- [How a takedown works](https://opensourceorchestra.org/takedown/)
+- [Existing consent-based recording](https://opensourceorchestra.org/openrecording2/)
+- [Existing public calls](https://opensourceorchestra.org/calls/)
+
+### 08 · Em · A ledger everyone can read
+
+- [Open the current ledger](https://opensourceorchestra.org/dao/)
+- [Inspect the raw JSON](https://opensourceorchestra.org/dao/ledger.json)
+- [Read-only artist tip page](https://artist.opensourceorchestra.org/tip/)
+
+### 09 · C · Move at the speed of trust
+
+- [Read the present state](https://opensourceorchestra.org/dao/)
+- [Inspect the public ledger](https://opensourceorchestra.org/dao/ledger.json)
+
+### 10 · D · The third meetup is open to all
+
+- [Watch the official website](https://opensourceorchestra.org/)
+- [Open community join page](https://opensourceorchestra.org/join/)
+
+### 11 · C · The Listening Archive
+
+- [Enter the sealed archive](https://osodaomeet.opensourceorchestra.org/archive/)
+- [Read the takedown commitment](https://opensourceorchestra.org/takedown/)
+- [Existing public calls archive](https://opensourceorchestra.org/calls/)
+- [Existing consented open recording](https://opensourceorchestra.org/openrecording2/)
+
+### 12 · G · Code is law. The law is LOVE.
+
+- [Return to the orchestra](https://opensourceorchestra.org/)
+- [Fork the open code](https://github.com/Open-Source-Orchestra)
+- [Read the community ledger](https://opensourceorchestra.org/dao/)
+- [Join the road ahead](https://opensourceorchestra.org/join/)
+- [The ʻohana Songbook](https://shakaleikaumaka.com/songbook/)
+- [This hall's open-source repository](https://github.com/Open-Source-Orchestra/oso-dao-meet)
+- [Takedown first](https://opensourceorchestra.org/takedown/)
+
+## Living-wall and slide media
+
+The 24 Garden Circle history selections were curated from the existing public manifest; 9 artist portraits come from existing public Garden Circle cards. Four Mumbai frames come from the existing public Mandala Room album and are official Devcon 8 photographs. These selections total **37 media items**.
+
+Photographs and portraits remain under their original permissions. They are **not relicensed as GPL or CC0 by this repository**. Appearance does not imply DAO membership, meetup attendance, endorsement, or a new consent. Some source frames are video stills. No child images were selected.
+
+| ID | Public source | Caption / context |
+|---|---|---|
+| h01 | [2022 · Devcon VI · Bogotá](https://opensourceorchestra.org/garden/circle/history/2022-devcon-bogota-photography-20221012-083.webp) | A guitarist sings at the ETHLatam Chiva Chillout during Devcon VI week in Bogotá. |
+| h02 | [2022 · Devcon VI · Bogotá](https://opensourceorchestra.org/garden/circle/history/2022-devcon-bogota-photography-20221012-084.webp) | Two musicians answer one another on guitar and a wind instrument at the Chiva Chillout. |
+| h03 | [2022 · ETHLatam Chiva Chillout · Devcon VI week · Bogotá](https://opensourceorchestra.org/garden/circle/history/2022-img-0637.webp) | Two musicians share a colorful room with guitars and percussion in Bogotá. |
+| h04 | [2023 · Devconnect Istanbul · the ukulele donation](https://opensourceorchestra.org/garden/circle/history/2023-img-9244.webp) | Four adults hold donated Kala Waterman ukuleles during Devconnect Istanbul. |
+| h05 | [2023 · Devconnect Istanbul · the ukulele donation](https://opensourceorchestra.org/garden/circle/history/2023-needs-english-subtitles.webp) | An adult opens a donated ukulele package in Istanbul; a public video frame. |
+| h06 | [2024 · Devcon SEA · Bangkok](https://opensourceorchestra.org/garden/circle/history/2024-devcon-sea-photography-selection-201.webp) | A speaker addresses the room at Devcon SEA in Bangkok. |
+| h07 | [2024 · Devcon SEA · Bangkok](https://opensourceorchestra.org/garden/circle/history/2024-devcon-sea-photography-selection-040.webp) | A vocalist performs beneath the illuminated Music Stage sign. |
+| h08 | [2024 · Devcon SEA · Bangkok](https://opensourceorchestra.org/garden/circle/history/2024-devcon-sea-photography-selection-104.webp) | Four people talk around a table in the Devcon SEA community area. |
+| h09 | [2024 · Devcon SEA · Bangkok](https://opensourceorchestra.org/garden/circle/history/2024-devcon-sea-photography-selection-217.webp) | A group sits together on the floor during a Devcon SEA session. |
+| h10 | [2024 · Devcon SEA · Bangkok](https://opensourceorchestra.org/garden/circle/history/2024-devcon-sea-photography-selection-154.webp) | A community group gathers for a photograph in a Devcon SEA meeting room. |
+| h11 | [2024 · Devcon SEA · Bangkok](https://opensourceorchestra.org/garden/circle/history/2024-devcon-sea-photography-selection-124.webp) | Musicians sit with guitars and percussion beneath the Music Stage sign. |
+| h12 | [2024 · Devcon SEA · Bangkok](https://opensourceorchestra.org/garden/circle/history/2024-devcon-sea-photography-selection-103.webp) | A performer and an audience member share a moment at the Music Stage. |
+| h13 | [2025 · Devconnect ARG · Buenos Aires](https://opensourceorchestra.org/garden/circle/history/2025-devconnect-arg-photography-best-selectio.webp) | Two participants gesture toward the crowd at the Buenos Aires Music Stage. |
+| h14 | [2025 · Devconnect ARG · Buenos Aires · Music Stage](https://opensourceorchestra.org/garden/circle/history/2025-img-0901.webp) | A drummer performs behind red drums at the Music Stage. |
+| h15 | [2025 · Devconnect ARG · Buenos Aires · Music Stage](https://opensourceorchestra.org/garden/circle/history/2025-img-0880.webp) | Three participants pose together outside the Music Stage. |
+| h16 | [2025 · Devconnect ARG · Buenos Aires · Music Stage](https://opensourceorchestra.org/garden/circle/history/2025-img-0878.webp) | A live coder performs with a laptop and controller; a public video frame. |
+| h17 | [2025 · Devconnect ARG · Buenos Aires · Music Stage](https://opensourceorchestra.org/garden/circle/history/2025-img-0864.webp) | Guitars, drums and percussion wait on the Music Stage; a public video frame. |
+| h18 | [2025 · Devconnect ARG · Buenos Aires · Music Stage](https://opensourceorchestra.org/garden/circle/history/2025-img-0873.webp) | Two musicians share hand percussion at the Music Stage; a public video frame. |
+| h19 | [2025 · Devconnect ARG · Buenos Aires · Music Stage](https://opensourceorchestra.org/garden/circle/history/2025-c0006.webp) | Two performers play beneath the Music Stage lights; a public video frame. |
+| h20 | [2026 · ShanHaiWoo 2026 · Shenzhen · the road to Devcon 8 · Livehouse with Shaka](https://opensourceorchestra.org/garden/circle/history/2026-2026-10-19-dsc1235.webp) | Shaka plays ukulele at the ShanHaiWoo livehouse in Shenzhen. |
+| h21 | [2026 · ShanHaiWoo 2026 · Shenzhen · the road to Devcon 8 · Livehouse with Shaka](https://opensourceorchestra.org/garden/circle/history/2026-2026-10-19-dsc1260.webp) | Three musicians trade parts in a floor-level livehouse circle. |
+| h22 | [2026 · ShanHaiWoo 2026 · Shenzhen · the road to Devcon 8 · Livehouse with Shaka](https://opensourceorchestra.org/garden/circle/history/2026-2026-10-19-dsc1264.webp) | The livehouse audience sits around performers in a floor circle. |
+| h23 | [2026 · ShanHaiWoo 2026 · Shenzhen · the road to Devcon 8 · opening ceremony, Shaka performed](https://opensourceorchestra.org/garden/circle/history/2026-2026-10-17-72466b61492974e5f6ce64d5bdaadeb5.webp) | Shaka performs with a ukulele at the ShanHaiWoo opening ceremony. |
+| h24 | [2026 · ShanHaiWoo 2026 · Shenzhen · the road to Devcon 8 · opening ceremony, Shaka performed](https://opensourceorchestra.org/garden/circle/history/2026-2026-10-17-dsc0609.webp) | A guitar waits beside the ShanHaiWoo opening-ceremony backdrop. |
+| m2026-frame-01 | [2026 · Devcon 8 Music Sanctuary · Mumbai](https://opensourceorchestra.org/mandala-room/#1) | Day 1, before the doors open: the Music Sanctuary hall, empty, with the mandala already glowing on the far wall. |
+| m2026-frame-06 | [2026 · Devcon 8 Music Sanctuary · Mumbai](https://opensourceorchestra.org/mandala-room/#6) | The first sound in the sanctuary area: saxophone, bass and voices, with a mandala on the screen beside them. |
+| m2026-frame-12 | [2026 · Devcon 8 Music Sanctuary · Mumbai](https://opensourceorchestra.org/mandala-room/#12) | A full circle: musicians in the middle, and listeners on cane stools, beanbags and the floor, between glowing neon pyramids. |
+| m2026-frame-32 | [2026 · Devcon 8 Music Sanctuary · Mumbai](https://opensourceorchestra.org/mandala-room/#32) | Hands up in the haze, under the same mandala that watched the empty room on Day 1. |
+| p01 | [Ania Shestakova](https://opensourceorchestra.org/garden/circle/img/ania-shestakova.jpg) | Public Garden Circle artist portrait of Ania Shestakova. |
+| p02 | [Aniket Gundewar](https://opensourceorchestra.org/garden/circle/img/aniket-gundewar.jpg) | Public Garden Circle artist portrait of Aniket Gundewar. |
+| p03 | [itscharann](https://opensourceorchestra.org/garden/circle/img/itscharann.jpg) | Public Garden Circle artist portrait of itscharann. |
+| p04 | [Jaydeepdan Gadhavi](https://opensourceorchestra.org/garden/circle/img/jaydeepdan-gadhavi.jpg) | Public Garden Circle artist portrait of Jaydeepdan Gadhavi. |
+| p05 | [Marie Chain](https://opensourceorchestra.org/garden/circle/img/marie-chain.jpg) | Public Garden Circle artist portrait of Marie Chain. |
+| p06 | [Miami Slice](https://opensourceorchestra.org/garden/circle/img/miami-slice.jpg) | Public Garden Circle artist portrait of Miami Slice. |
+| p07 | [Quefear](https://opensourceorchestra.org/garden/circle/img/quefear.jpg) | Public Garden Circle artist portrait of Quefear. |
+| p08 | [Shaka](https://opensourceorchestra.org/garden/circle/img/shaka.jpg) | Public Garden Circle artist portrait of Shaka. |
+| p09 | [Sounya Sharma](https://opensourceorchestra.org/garden/circle/img/sounya-sharma.jpg) | Public Garden Circle artist portrait of Sounya Sharma. |
+
+## Media and takedown
+
+See yourself or your work and want it changed or removed? Tell any steward or write to **aloha@myagentohana.com**. Down first, questions second; no reason required: https://opensourceorchestra.org/takedown/ — surfaces we control can be removed; copies controlled by others will be described honestly.
+
+## Software
+
+- New original hall and deck code: **GPL-3.0-or-later**; see `LICENSE`.
+- Three.js r169 and its VRButton helper: **MIT**; see `vendor/LICENSE.three.txt`.
+- No runtime CDN, analytics, trackers, wallet integration, advertisements, autoplay audio, meeting transcripts, or recordings.
+
+## Research receipts
+
+The authoring-time public research package checked **73 / 73 source and media URLs with HTTP 200** on 12 November 2026. The ledger JSON was independently re-read during integration: 11 entries = 4 applied + 7 prepared; awarded $0. The two new canonical/repository links were also checked live.
+
+Primary public references: https://opensourceorchestra.org/dao/ · https://opensourceorchestra.org/mandala-room/ · https://opensourceorchestra.org/garden/circle/ · https://shakaleikaumaka.com/song/ · https://github.com/Open-Source-Orchestra
+
+## OG Circle provenance
+
+The OG Circle contains 15 existing public lineage nodes, 14 localized public card images, one monogram, and 86 public external links. It is not a membership or endorsement list. See **[OG-SOURCES.md](OG-SOURCES.md)** for every profile/image source, the corrected live-open-mic DIP lineage, and the invited-guest/Kuba consent gates.

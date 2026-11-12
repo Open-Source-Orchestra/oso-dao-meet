@@ -1,0 +1,707 @@
+{
+  "schema": "og-circle.public-nodes.v1",
+  "generated": "2026-11-12",
+  "status": "presentation feed; existing public lineage nodes only; no membership or endorsement implication",
+  "title": "OG Circle",
+  "description": "Every existing public Open Source Orchestra node, with origin and legend lineage from the already-public node pages.",
+  "disclaimer": "This is a public-source lineage directory, not a DAO membership, participation, endorsement, or consent list. Inclusion does not imply that any person or collective has joined, approved, or endorsed the Open Source Orchestra DAO.",
+  "counts": {
+    "nodes": 15,
+    "people": 14,
+    "collectives": 1,
+    "first_circle": 9,
+    "second_circle": 6,
+    "profile_urls": 15,
+    "external_links": 86,
+    "card_images": 14,
+    "image_fallbacks": 1
+  },
+  "source": {
+    "repository": "https://github.com/shakaleikaumaka/oso-storytelling",
+    "revision": "9c1d065b3838e0ccf20c5af63ff6d63e5aec5aa1",
+    "node_index": "https://opensourceorchestra.org/nodes/",
+    "scope": "Existing public node.json and index.html fields only, plus existing public Garden Circle media and the public facts pack."
+  },
+  "circle_image": {
+    "url": "/assets/mumbai/dc8-638-1600.webp",
+    "alt": "A full circle: musicians in the middle, and listeners on cane stools, beanbags and the floor, between glowing neon pyramids.",
+    "source_url": "https://opensourceorchestra.org/mandala-room/#12",
+    "credit": "Official Devcon 8 photos by the Devcon team's photographers.",
+    "takedown_url": "https://opensourceorchestra.org/takedown/",
+    "original_url": "https://opensourceorchestra.org/mandala-room/img/dc8-638-1600.webp"
+  },
+  "image_policy": "Card images are existing public node media thumbnails or Garden Circle assets. Thumbnails and logos retain their original context and are not new consent or endorsement signals. Where image is null, render emoji as a monogram; do not substitute a guessed portrait.",
+  "nodes": [
+    {
+      "node": "001",
+      "slug": "matteo-tambussi",
+      "name": "Matteo Tambussi",
+      "emoji": "🎻🇮🇹",
+      "kind": "person",
+      "circle": "first",
+      "headline": "The brother who asked first",
+      "lineage": "Origin · the 2022 live, community-run open-mic music-stage proposal",
+      "tagline": "CO-FOUNDER OF THE TRADITION · musician & linguist · Turin, Italy",
+      "bio": "Musician, producer and political linguist from Turin; co-founder of SpaghettETH. His live, community-run open-mic music-stage proposal for Devcon Bogotá, submitted on 17 June 2022, seeded the Open Source Orchestra Music Space. Devcon's wider music history includes the earlier 2020 Audius music DIP.",
+      "profile_url": "https://opensourceorchestra.org/nodes/matteo-tambussi/",
+      "image": {
+        "url": "/assets/nodes/matteo-tambussi.webp",
+        "alt": "Matteo Tambussi — Metrosong, BalconyTV Rome",
+        "kind": "node media thumbnail",
+        "original_url": "https://i.ytimg.com/vi/ykfvS4tovXA/hqdefault.jpg"
+      },
+      "links": [
+        {
+          "label": "linktree",
+          "url": "https://linktr.ee/matteotambussi"
+        },
+        {
+          "label": "YouTube · @matteotambussi",
+          "url": "https://www.youtube.com/@matteotambussi"
+        },
+        {
+          "label": "X · @matteotambussi",
+          "url": "https://x.com/matteotambussi"
+        },
+        {
+          "label": "Bandcamp",
+          "url": "https://matteotambussi.bandcamp.com"
+        },
+        {
+          "label": "SoundCloud",
+          "url": "https://soundcloud.com/matteotambussi"
+        },
+        {
+          "label": "Spotify",
+          "url": "https://open.spotify.com/artist/6FABMAInCLqiYpazFhoKDs"
+        },
+        {
+          "label": "The live open-mic music-stage DIP (2022)",
+          "url": "https://forum.devcon.org/t/music-sessions-open-mic-stage/387"
+        },
+        {
+          "label": "Earlier Audius music DIP (2020)",
+          "url": "https://forum.devcon.org/t/dip-2-audius-music-in-common-areas-and-between-talks-at-devcon/37"
+        }
+      ],
+      "source_updated": "2026-08-16"
+    },
+    {
+      "node": "002",
+      "slug": "justin-holmes",
+      "name": "Justin Myles Holmes",
+      "emoji": "🪕⛓️",
+      "kind": "person",
+      "circle": "first",
+      "headline": "Blockchains are bluegrass",
+      "lineage": "Legend · cryptograss and the Immutable String Band",
+      "tagline": "CRYPTOGRASS · and the Immutable String Band · Ashland, Oregon",
+      "bio": "Leader of Justin Holmes and the Immutable String Band and namer of cryptograss: bluegrass and blockchains as traditions of preserving and remixing music outside the IP system. His releases carry CC BY-SA.",
+      "profile_url": "https://opensourceorchestra.org/nodes/justin-holmes/",
+      "image": {
+        "url": "/assets/nodes/justin-holmes.webp",
+        "alt": "Justin Holmes — Vowel Sounds live at ETHBarcelona",
+        "kind": "node media thumbnail",
+        "original_url": "https://i.ytimg.com/vi/SMdqujKHzOQ/hqdefault.jpg"
+      },
+      "links": [
+        {
+          "label": "justinholmes.com",
+          "url": "https://justinholmes.com"
+        },
+        {
+          "label": "Bandcamp",
+          "url": "https://justinholmes.bandcamp.com"
+        },
+        {
+          "label": "X · @llamasinthecode",
+          "url": "https://x.com/llamasinthecode"
+        },
+        {
+          "label": "X · @immutablestring",
+          "url": "https://x.com/immutablestring"
+        },
+        {
+          "label": "GitHub · jMyles",
+          "url": "https://github.com/jMyles"
+        },
+        {
+          "label": "cryptograss org",
+          "url": "https://github.com/cryptograss"
+        }
+      ],
+      "source_updated": "2026-08-16"
+    },
+    {
+      "node": "003",
+      "slug": "shaka",
+      "name": "Shaka Lei Kaumaka",
+      "emoji": "🌺🤙",
+      "kind": "person",
+      "circle": "first",
+      "headline": "The bard who opened the circle",
+      "lineage": "Origin · founder and human steward",
+      "tagline": "THE ETHEREUM BARD · conductor & co-founder of the Open Source Orchestra",
+      "bio": "Musician on guitar, ukulele and voice; founder and human steward of the Open Source Orchestra. A touring musician turned Ethereum bard, and keeper of the AI ʻohana that builds with him.",
+      "profile_url": "https://opensourceorchestra.org/nodes/shaka/",
+      "image": {
+        "url": "/assets/nodes/shaka.webp",
+        "alt": "Shaka 🤙",
+        "kind": "Garden Circle photo",
+        "source_url": "https://opensourceorchestra.org/garden/circle/#shaka",
+        "original_url": "https://opensourceorchestra.org/garden/circle/img/shaka.jpg"
+      },
+      "links": [
+        {
+          "label": "the front door 🌺",
+          "url": "https://shakaleikaumaka.com"
+        },
+        {
+          "label": "YouTube · ShaKa Lei Kaumaka",
+          "url": "https://www.youtube.com/@shakaleikaumaka"
+        },
+        {
+          "label": "X · @shakaleikaumaka",
+          "url": "https://x.com/shakaleikaumaka"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/shakaleikaumaka/"
+        },
+        {
+          "label": "Devfolio",
+          "url": "https://devfolio.co/@Shaka"
+        }
+      ],
+      "source_updated": "2026-08-15"
+    },
+    {
+      "node": "004",
+      "slug": "manu-alzuru",
+      "name": "Manu Alzuru",
+      "emoji": "🎧🥑",
+      "kind": "person",
+      "circle": "first",
+      "headline": "El Cuatro — four on the floor, or so much more",
+      "lineage": "Origin · lovepunk community architecture",
+      "tagline": "THE LOVEPUNK · DJ & community architect · El Cuatro of the orchestra",
+      "bio": "Humanist, engineer, DJ, producer and community architect. Founder of ETHBarcelona, DoinGud, Blockravers and Lovepunks.xyz; his sets move through Latin, Afro, tribal, organic and melodic house and techno.",
+      "profile_url": "https://opensourceorchestra.org/nodes/manu-alzuru/",
+      "image": {
+        "url": "/assets/nodes/manu-alzuru.webp",
+        "alt": "The Rise of Trust Networks — Manu Alzuru, Blockravers, ETHDenver",
+        "kind": "node media thumbnail",
+        "original_url": "https://i.ytimg.com/vi/s4AhK73V7p4/hqdefault.jpg"
+      },
+      "links": [
+        {
+          "label": "X · @ManuAlzuru",
+          "url": "https://x.com/ManuAlzuru"
+        },
+        {
+          "label": "about.me",
+          "url": "https://about.me/manualzuru"
+        },
+        {
+          "label": "Lovepunks.xyz",
+          "url": "https://www.lovepunks.xyz/"
+        },
+        {
+          "label": "ETHBarcelona",
+          "url": "https://www.ethbarcelona.com/"
+        }
+      ],
+      "source_updated": "2026-08-16"
+    },
+    {
+      "node": "005",
+      "slug": "jake-hartnell",
+      "name": "Jake Hartnell",
+      "emoji": "⚡🕸️",
+      "kind": "person",
+      "circle": "first",
+      "headline": "THE POWER 5TH — the trust weaver",
+      "lineage": "Builder · trustgraphs and the Circle of Trust",
+      "tagline": "THE POWER 5TH · the trust weaver · builder of trustgraphs",
+      "bio": "Builder of trustgraphs and co-founder of Stargaze, Juno, DAO DAO and Layer. His public node traces vouch → score → prove → use and the orchestra's Circle of Trust.",
+      "profile_url": "https://opensourceorchestra.org/nodes/jake-hartnell/",
+      "image": {
+        "url": "/assets/nodes/jake-hartnell.webp",
+        "alt": "Jake Hartnell at DEVMOS 2024 — Extending DAO DAO to Create Bespoke Governance Processes",
+        "kind": "node media thumbnail",
+        "original_url": "https://i.ytimg.com/vi/TnhMTPRwdq0/hqdefault.jpg"
+      },
+      "links": [
+        {
+          "label": "GitHub · JakeHartnell",
+          "url": "https://github.com/JakeHartnell"
+        },
+        {
+          "label": "X · @jakehartnell",
+          "url": "https://x.com/jakehartnell"
+        },
+        {
+          "label": "symbient.life",
+          "url": "https://symbient.life"
+        },
+        {
+          "label": "trustgraphs",
+          "url": "https://github.com/JakeHartnell/trustgraphs"
+        },
+        {
+          "label": "Circle of Trust (orchestra)",
+          "url": "https://opensourceorchestra.org/trust/"
+        }
+      ],
+      "source_updated": "2026-08-16"
+    },
+    {
+      "node": "006",
+      "slug": "alaska",
+      "name": "Alaska",
+      "emoji": "🎷",
+      "kind": "person",
+      "circle": "first",
+      "headline": "THE MASTER SIX — the man with the sax",
+      "lineage": "Steward · sax, selection and a welcome for every human",
+      "tagline": "THE MASTER SIX · the man with the sax · steward of the Music Space",
+      "bio": "Saxophonist and selector, and a steward of the Devcon 8 Music Space. His call to welcome general humanity beyond Web3 inspired the orchestra's public Definition Button.",
+      "profile_url": "https://opensourceorchestra.org/nodes/alaska/",
+      "image": {
+        "url": "/assets/nodes/alaska.webp",
+        "alt": "A × S — live coding",
+        "kind": "Garden Circle logo; not a portrait",
+        "source_url": "https://opensourceorchestra.org/garden/circle/#alaska-x-subcult",
+        "original_url": "https://opensourceorchestra.org/garden/circle/img/alaska-x-subcult.jpg"
+      },
+      "links": [
+        {
+          "label": "X · @Alaskaisprettyokay",
+          "url": "https://x.com/Alaskaisprettyokay"
+        },
+        {
+          "label": "MDRN — mdrn.music (awaiting Alaska's word)",
+          "url": "https://mdrn.music"
+        },
+        {
+          "label": "Subcult (MDRN family)",
+          "url": "https://subcult.music"
+        },
+        {
+          "label": "Onda — getonda.org (MDRN family)",
+          "url": "https://getonda.org"
+        },
+        {
+          "label": "Devcon 8 rider — steward",
+          "url": "https://opensourceorchestra.org/rider/"
+        }
+      ],
+      "source_updated": "2026-08-16"
+    },
+    {
+      "node": "007",
+      "slug": "jonathan-mann",
+      "name": "Jonathan Mann",
+      "emoji": "🎹",
+      "kind": "person",
+      "circle": "first",
+      "headline": "THE SONG A DAY MAN — 7 days a week",
+      "lineage": "Legend · a song every day since 1 January 2009",
+      "tagline": "THE SONG A DAY MAN · 7 days a week, every week, since January 1, 2009",
+      "bio": "Writer of Song A Day since 1 January 2009, with a Creative Commons catalog stewarded by SongADAO. His Ethereum history includes Devcon 4 in Prague and Devcon 6 in Bogotá.",
+      "profile_url": "https://opensourceorchestra.org/nodes/jonathan-mann/",
+      "image": {
+        "url": "/assets/nodes/jonathan-mann.webp",
+        "alt": "Merge Song — Devcon 6 Opening Ceremonies, Ethereum Foundation",
+        "kind": "node media thumbnail",
+        "original_url": "https://i.ytimg.com/vi/xUAbw3QhP5c/hqdefault.jpg"
+      },
+      "links": [
+        {
+          "label": "jonathanmann.net",
+          "url": "https://www.jonathanmann.net"
+        },
+        {
+          "label": "songaday.world",
+          "url": "https://songaday.world"
+        },
+        {
+          "label": "X · @songadaymann",
+          "url": "https://x.com/songadaymann"
+        },
+        {
+          "label": "Bandcamp",
+          "url": "https://jonathanmann.bandcamp.com"
+        },
+        {
+          "label": "Song A Day on OpenSea",
+          "url": "https://opensea.io/collection/song-a-day"
+        }
+      ],
+      "source_updated": "2026-08-16"
+    },
+    {
+      "node": "008",
+      "slug": "latasha",
+      "name": "LATASHÁ",
+      "emoji": "🎤✨",
+      "kind": "person",
+      "circle": "first",
+      "headline": "THE OCTAVE — the return home",
+      "lineage": "Legend · onchain music and artist community",
+      "tagline": "THE OCTAVE · onchain music pioneer · founder of Zoratopia & Topia",
+      "bio": "Brooklyn-raised rapper, poet, visual and performance artist. An early onchain music pioneer on Zora, founder of Zoratopia and builder of Topia.",
+      "profile_url": "https://opensourceorchestra.org/nodes/latasha/",
+      "image": {
+        "url": "/assets/nodes/latasha.webp",
+        "alt": "LATASHÁ — GLO UP official video",
+        "kind": "node media thumbnail",
+        "original_url": "https://i.ytimg.com/vi/ap3wr5PPJfw/hqdefault.jpg"
+      },
+      "links": [
+        {
+          "label": "callmelatasha.com",
+          "url": "https://callmelatasha.com"
+        },
+        {
+          "label": "X · @CallMeLatasha",
+          "url": "https://x.com/CallMeLatasha"
+        },
+        {
+          "label": "Instagram · @callmelatasha",
+          "url": "https://www.instagram.com/callmelatasha/"
+        },
+        {
+          "label": "Topia",
+          "url": "https://topia.vision"
+        }
+      ],
+      "source_updated": "2026-08-16"
+    },
+    {
+      "node": "009",
+      "slug": "imogen-heap",
+      "name": "Imogen Heap",
+      "emoji": "🧬🎹",
+      "kind": "person",
+      "circle": "first",
+      "headline": "THE NINE — the godmother completes the circle she began",
+      "lineage": "Origin and legend · Tiny Human, Mycelia and The Creative Passport",
+      "tagline": "THE NINE · the godmother of onchain music · Mycelia · Auracles",
+      "bio": "Artist, engineer and inventor whose 2015 Tiny Human/Ujo Music experiment preceded Mycelia and The Creative Passport, now Auracles. Creator of the MI.MU gloves and the consent-first AI twin ai.Mogen.",
+      "profile_url": "https://opensourceorchestra.org/nodes/imogen-heap/",
+      "image": {
+        "url": "/assets/nodes/imogen-heap.webp",
+        "alt": "Imogen Heap — Hide And Seek official video",
+        "kind": "node media thumbnail",
+        "original_url": "https://i.ytimg.com/vi/UYIAfiVGluk/hqdefault.jpg"
+      },
+      "links": [
+        {
+          "label": "imogenheap.com",
+          "url": "https://imogenheap.com"
+        },
+        {
+          "label": "X · @imogenheap",
+          "url": "https://x.com/imogenheap"
+        },
+        {
+          "label": "Auracles (the Creative Passport, continued)",
+          "url": "https://auracles.io"
+        },
+        {
+          "label": "MI.MU gloves",
+          "url": "https://mimugloves.com"
+        }
+      ],
+      "source_updated": "2026-08-16"
+    },
+    {
+      "node": "010",
+      "slug": "santiago-reos",
+      "name": "Santiago Reos",
+      "emoji": "🎸⛩️",
+      "kind": "person",
+      "circle": "second",
+      "headline": "THE ROOT REBORN — the second circle begins on Do",
+      "lineage": "Second circle · Dúo Dø guitarra y palmas",
+      "tagline": "guitarra y palmas · one half of Dúo Dø デュオ・ドー · Buenos Aires → Japan",
+      "bio": "Guitarist, composer, producer and educator from Buenos Aires; one half of Dúo Dø, weaving Argentine roots with Japan. His node also records the SongCamp Challenge Latam and Devconnect Argentina connection.",
+      "profile_url": "https://opensourceorchestra.org/nodes/santiago-reos/",
+      "image": {
+        "url": "/assets/nodes/santiago-reos.webp",
+        "alt": "Dúo Dø - デュオ・ドー — the duo's own presentation film",
+        "kind": "node media thumbnail",
+        "original_url": "https://i.ytimg.com/vi/glTQ_DR1Bsc/hqdefault.jpg"
+      },
+      "links": [
+        {
+          "label": "duodomusica.com",
+          "url": "https://duodomusica.com"
+        },
+        {
+          "label": "YouTube · @duodomusica",
+          "url": "https://www.youtube.com/@duodomusica"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/duodomusica/"
+        },
+        {
+          "label": "X · @duodomusica",
+          "url": "https://x.com/duodomusica"
+        },
+        {
+          "label": "Bandcamp",
+          "url": "https://duodomusica.bandcamp.com"
+        },
+        {
+          "label": "sound.xyz",
+          "url": "https://www.sound.xyz/duodomusica"
+        },
+        {
+          "label": "Farcaster · @duodo",
+          "url": "https://warpcast.com/duodo"
+        },
+        {
+          "label": "objkt",
+          "url": "https://objkt.com/@duodomusica"
+        },
+        {
+          "label": "drip.haus store",
+          "url": "https://drip.haus/duodomusica/store"
+        }
+      ],
+      "source_updated": "2026-08-16"
+    },
+    {
+      "node": "011",
+      "slug": "clementine-esquivel",
+      "name": "Clementine Esquivel",
+      "emoji": "🎙️🌙",
+      "kind": "person",
+      "circle": "second",
+      "headline": "THE PAIR — two ones, side by side",
+      "lineage": "Second circle · Dúo Dø voz, palmas, percu y bombo",
+      "tagline": "voz, palmas, percu y bombo · one half of Dúo Dø デュオ・ドー · Buenos Aires → Japan",
+      "bio": "Singer, percussionist, composer, producer and educator from Buenos Aires; one half of Dúo Dø. Her record credit is ‘Voz, palmas, percu y bombo.’",
+      "profile_url": "https://opensourceorchestra.org/nodes/clementine-esquivel/",
+      "image": {
+        "url": "/assets/nodes/clementine-esquivel.webp",
+        "alt": "Mi Amor Por Ti ft Matt Lee — Dúo Dø, the Kismet Casa film",
+        "kind": "node media thumbnail",
+        "original_url": "https://i.ytimg.com/vi/X02aZRssR_M/hqdefault.jpg"
+      },
+      "links": [
+        {
+          "label": "duodomusica.com",
+          "url": "https://duodomusica.com"
+        },
+        {
+          "label": "YouTube · @duodomusica",
+          "url": "https://www.youtube.com/@duodomusica"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/duodomusica/"
+        },
+        {
+          "label": "X · @duodomusica",
+          "url": "https://x.com/duodomusica"
+        },
+        {
+          "label": "Bandcamp",
+          "url": "https://duodomusica.bandcamp.com"
+        },
+        {
+          "label": "sound.xyz",
+          "url": "https://www.sound.xyz/duodomusica"
+        },
+        {
+          "label": "Farcaster · @duodo",
+          "url": "https://warpcast.com/duodo"
+        },
+        {
+          "label": "objkt",
+          "url": "https://objkt.com/@duodomusica"
+        },
+        {
+          "label": "drip.haus store",
+          "url": "https://drip.haus/duodomusica/store"
+        }
+      ],
+      "source_updated": "2026-08-16"
+    },
+    {
+      "node": "012",
+      "slug": "tomo",
+      "name": "Tomo",
+      "emoji": "🫂🌱",
+      "kind": "person",
+      "circle": "second",
+      "headline": "THE CHROMATIC SCALE COMPLETE — the inward-circle visionary",
+      "lineage": "Origin · the Infinite Garden and the inward-facing circle",
+      "tagline": "the inward-circle visionary · Devcon team · designer of the Infinite Garden's world",
+      "bio": "Publicly known as Tomo Saito, an Ethereum Foundation designer creating the world of the Infinite Garden. His node honors the inward-facing music circle: voices answering one another.",
+      "profile_url": "https://opensourceorchestra.org/nodes/tomo/",
+      "image": {
+        "url": "/assets/nodes/tomo.webp",
+        "alt": "Ethereum Culture Expanding in the Infinite Garden by Tomo Saito — Devcon SEA",
+        "kind": "node media thumbnail",
+        "original_url": "https://i.ytimg.com/vi/gFBfP7utPI0/hqdefault.jpg"
+      },
+      "links": [
+        {
+          "label": "Devcon speaker page",
+          "url": "https://app.devcon.org/speakers/R3UWTJ"
+        },
+        {
+          "label": "Devcon Archive",
+          "url": "https://archive.devcon.org/"
+        },
+        {
+          "label": "devcon.org",
+          "url": "https://devcon.org"
+        }
+      ],
+      "source_updated": "2026-08-16"
+    },
+    {
+      "node": "013",
+      "slug": "musica-w3",
+      "name": "MUSICA W3",
+      "emoji": "🇦🇷🌐",
+      "kind": "collective",
+      "circle": "second",
+      "headline": "THE FIRST COLLECTIVE CHAIR — 150 artists, one voice",
+      "lineage": "Collective · creator sovereignty, education and monthly drops",
+      "tagline": "comunidad internacional de artistas independientes · born from Argentina · 150+ artistas, one voice",
+      "bio": "An international community and social club for independent artists, born from Argentina: 150+ artists and 2k+ collectors, monthly collective drops, WOW! Festival and free creator-sovereignty education.",
+      "profile_url": "https://opensourceorchestra.org/nodes/musica-w3/",
+      "image": null,
+      "links": [
+        {
+          "label": "musicaw3.com",
+          "url": "https://www.musicaw3.com/"
+        },
+        {
+          "label": "X · @Musica_W3",
+          "url": "https://x.com/Musica_W3"
+        },
+        {
+          "label": "Instagram · @musica_w3",
+          "url": "https://www.instagram.com/musica_w3/"
+        },
+        {
+          "label": "Farcaster · @musicaw3",
+          "url": "https://warpcast.com/musicaw3"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCVCLZ0QHA4HksKi42VqeElg"
+        },
+        {
+          "label": "Curso: Hacia la Soberanía de los Creadores Onchain",
+          "url": "https://www.youtube.com/watch?v=apOk-QepQVY&list=PL8aLO5KNFLv2O1cS7OjPOt9YDN7drf1jf"
+        },
+        {
+          "label": "drip.haus",
+          "url": "https://drip.haus/musicaw3/set/7418cdbc-e982-4426-bd33-c086bf4acbac"
+        }
+      ],
+      "source_updated": "2026-08-16"
+    },
+    {
+      "node": "014",
+      "slug": "inch",
+      "name": "Inch Chua",
+      "emoji": "🍃⭕",
+      "kind": "person",
+      "circle": "second",
+      "headline": "THE FREEHAND CIRCLE — the first Singapore chair",
+      "lineage": "Second circle · folktronica, open distribution and the freehand circle",
+      "tagline": "the freehand circle · folktronica pioneer · Singapore's DIY first voice",
+      "bio": "Singaporean singer-songwriter, producer and multidisciplinary artist. The Bedroom EP (2009) was free/pay-what-you-want; her TEDxSingapore story celebrates the circle drawn freehand.",
+      "profile_url": "https://opensourceorchestra.org/nodes/inch/",
+      "image": {
+        "url": "/assets/nodes/inch.webp",
+        "alt": "TEDxSingapore — Inch Chua — [ i ]nch by inch",
+        "kind": "node media thumbnail",
+        "original_url": "https://i.ytimg.com/vi/gtRHDdUtQ84/hqdefault.jpg"
+      },
+      "links": [
+        {
+          "label": "thisisinch.com",
+          "url": "https://thisisinch.com"
+        },
+        {
+          "label": "Bandcamp",
+          "url": "https://thisisinch.bandcamp.com"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Inch_Chua"
+        },
+        {
+          "label": "TEDxSingapore · [ i ]nch by inch",
+          "url": "https://tedxtalks.ted.com/video/TEDxSingapore-Inch-Chua-i-nch-b"
+        }
+      ],
+      "source_updated": "2026-08-16"
+    },
+    {
+      "node": "015",
+      "slug": "ix-shells",
+      "name": "IX Shells",
+      "emoji": "🐚💻",
+      "kind": "person",
+      "circle": "second",
+      "headline": "THE CARIBBEAN GLITCH — the first Panama chair",
+      "lineage": "Second circle · code as canvas, code as song",
+      "tagline": "the Caribbean glitch · code as canvas, code as song · the Tor Project's 500-ETH artist",
+      "bio": "Itzel Yard, an Afro-Panamanian generative artist and self-taught coder working across sound and code. Dreaming at Dusk (2021), her collaboration with The Tor Project, supports privacy and the open web.",
+      "profile_url": "https://opensourceorchestra.org/nodes/ix-shells/",
+      "image": {
+        "url": "/assets/nodes/ix-shells.webp",
+        "alt": "How IX Shells Became the Highest-Selling Female NFT Artist — nft now",
+        "kind": "node media thumbnail",
+        "original_url": "https://i.ytimg.com/vi/2KPUfcfCsGs/hqdefault.jpg"
+      },
+      "links": [
+        {
+          "label": "Unit London — artist page",
+          "url": "https://unitlondon.com/artists/ix-shells/"
+        },
+        {
+          "label": "ARTXCODE",
+          "url": "https://www.artxcode.io/artists/ix-shells"
+        },
+        {
+          "label": "@ix_shells on X",
+          "url": "https://x.com/ix_shells"
+        },
+        {
+          "label": "Foundation",
+          "url": "https://foundation.app/@ixshells"
+        },
+        {
+          "label": "Tor Project — Dreaming at Dusk",
+          "url": "https://blog.torproject.org/dreaming-at-dusk/"
+        },
+        {
+          "label": "Forbes — highest-selling female NFT artist",
+          "url": "https://www.forbes.com/sites/rashishrivastava/2021/06/18/lost-in-the-metaverse-meet-itzel-yard-aka-ix_shells-the-highest-selling-female-nft-artist/"
+        },
+        {
+          "label": "Louisiana Channel — A Future Preserving the Past",
+          "url": "https://channel.louisiana.dk/video/ix-shells-a-future-preserving-the-past"
+        },
+        {
+          "label": "rightclicksave — When IX Shells Met Fingacode",
+          "url": "https://www.rightclicksave.com/article/interview-when-ix-shells-met-fingacode"
+        }
+      ],
+      "source_updated": "2026-08-16"
+    }
+  ]
+}

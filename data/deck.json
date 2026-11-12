@@ -1,0 +1,290 @@
+{
+  "title": "Open Source Orchestra DAO Meet — The First Circle",
+  "version": "2026-11-12.presentation-edition",
+  "editorialStatus": "Presentation edition built at Shaka's request. A community proposal and public résumé, not a governance decision, member registry, or onchain record.",
+  "slides": [
+    {
+      "id": "overture",
+      "chord": "G",
+      "kicker": "G · OPEN SOURCE ORCHESTRA DAO MEET",
+      "title": "The First Circle",
+      "lede": "Before the ripple, one bright and honest heartbeat.",
+      "bullets": [
+        "The orchestra is whoever shows up: no auditions, no gatekeepers, no wrong instrument.",
+        "Music, code, listening, translation and care belong in the same circle.",
+        "This is a consent-based community proposal—not an onchain DAO or automatic membership."
+      ],
+      "links": [
+        { "label": "Enter the orchestra", "url": "https://opensourceorchestra.org/" },
+        { "label": "Visit the Garden Circle", "url": "https://opensourceorchestra.org/garden/circle/" },
+        { "label": "Read the community ledger", "url": "https://opensourceorchestra.org/dao/" }
+      ],
+      "moreLinks": [
+        { "label": "The Mandala Room photo album", "url": "https://opensourceorchestra.org/mandala-room/" }
+      ],
+      "theme": "overture",
+      "status": "FIRST CIRCLE · COMMUNITY PROPOSAL · NOT ONCHAIN"
+    },
+    {
+      "id": "origin-repertoire",
+      "chord": "Em",
+      "kicker": "Em · ORIGIN · REPERTOIRE · LIVING RÉSUMÉ",
+      "title": "2022 → 2027 · the living road",
+      "lede": "Make a room. Pass the instruments. Leave the door open.",
+      "bullets": [
+        "2022 Bogotá · open-mic proposal and ETHLatam Chiva Chillout.",
+        "2023 Istanbul · ukulele donation · 2024 Bangkok · Music Stage and floor circles.",
+        "2025 Buenos Aires · 2026 Shenzhen and Mumbai · the circle keeps travelling.",
+        "2027 Lisbon · Devcon 9 is scheduled; our music space is a hope, not a booking."
+      ],
+      "links": [
+        { "label": "Walk the public timeline", "url": "https://opensourceorchestra.org/garden/circle/" },
+        { "label": "Devcon 9 · Lisbon", "url": "https://devcon.org/lisbon/" }
+      ],
+      "moreLinks": [
+        { "label": "2022 open-mic DIP", "url": "https://forum.devcon.org/t/music-sessions-open-mic-stage/387" },
+        { "label": "Public watch page", "url": "https://opensourceorchestra.org/watch/" },
+        { "label": "Mumbai schedule archive", "url": "https://opensourceorchestra.org/schedule/" },
+        { "label": "Road to Lisbon · join", "url": "https://opensourceorchestra.org/join/" }
+      ],
+      "image": "./assets/history/2022-devcon-bogota-photography-20221012-084.webp",
+      "imageAlt": "Two musicians performing with string and wind instruments at ETHLatam Chiva Chillout in Bogotá in 2022.",
+      "imageCaption": "Bogotá · 2022 · public Garden Circle history",
+      "theme": "night",
+      "status": "ACTUAL ROOMS · LISBON MUSIC SPACE PROPOSED"
+    },
+    {
+      "id": "devcon-8",
+      "chord": "C",
+      "kicker": "C · DEVCON 8 · MUMBAI · 3—6 NOVEMBER 2026",
+      "title": "Mumbai · four days, one circle",
+      "lede": "The Devcon 8 Music Sanctuary at the Jio World Centre.",
+      "bullets": [
+        "About 35 artists across four days; anyone could join the playing.",
+        "On 6 November the room held Devcon 8's closing ceremony.",
+        "The Mandala Room preserves 35 official photos—an album, not audio or a membership roll."
+      ],
+      "links": [
+        { "label": "The Mandala Room · 35 photos", "url": "https://opensourceorchestra.org/mandala-room/" },
+        { "label": "The Room You Let Us Build", "url": "https://opensourceorchestra.org/the-room/" }
+      ],
+      "moreLinks": [
+        { "label": "Public schedule archive", "url": "https://opensourceorchestra.org/schedule/" },
+        { "label": "Mumbai Music Space DIP", "url": "https://forum.devcon.org/t/open-source-orchestra-music-space-at-devcon-8-mumbai/8576" },
+        { "label": "In the future music and culture is free", "url": "https://app.devcon.org/schedule/W8HAES" }
+      ],
+      "image": "./assets/mumbai/dc8-638-1600.webp",
+      "imageAlt": "A wide jam circle in the Devcon 8 Music Sanctuary: musicians at the center, listeners around them on stools, beanbags and the floor, neon pyramids and the mandala above.",
+      "imageCaption": "A full circle · Devcon 8 Music Sanctuary · Mumbai · official Devcon photo",
+      "theme": "burgundy",
+      "status": "ACTUAL · DEVCON 8 MUSIC SANCTUARY"
+    },
+    {
+      "id": "repertoire",
+      "chord": "D",
+      "kicker": "D · SONGS · CHORDS · STORIES · RIDER",
+      "title": "The repertoire you can play",
+      "lede": "Songs, chords, stories and an open rider—not a mythical back catalogue.",
+      "bullets": [
+        "Butterflies and Love · G–Em–C–D.",
+        "A Planet We Share As One · C–G–D–D.",
+        "The ʻohana Songbook, open recordings and CC0 rider carry the living score.",
+        "No Mumbai jam recording is published here; photographs hold that memory."
+      ],
+      "links": [
+        { "label": "Open the songs & chords", "url": "https://shakaleikaumaka.com/song/" },
+        { "label": "The ʻohana Songbook", "url": "https://shakaleikaumaka.com/songbook/" },
+        { "label": "The CC0 rider", "url": "https://opensourceorchestra.org/rider/" }
+      ],
+      "moreLinks": [
+        { "label": "Existing consented open recording", "url": "https://opensourceorchestra.org/openrecording2/" },
+        { "label": "Public calls archive", "url": "https://opensourceorchestra.org/calls/" },
+        { "label": "3D Virtual Sanctuary", "url": "https://opensourceorchestra.org/rider/sanctuary/" }
+      ],
+      "theme": "gold",
+      "status": "PLAYABLE PUBLIC CANON · NO AUTOPLAY"
+    },
+    {
+      "id": "open-code-resume",
+      "chord": "C",
+      "kicker": "C · OPEN CODE · PUBLIC PROOF · ARTIST TOOLS",
+      "title": "Open code · public proof",
+      "lede": "Nine public hackathon builds, two named wins, and tools artists can fork.",
+      "bullets": [
+        "2023 broadcastr · Mantle developer infrastructure/tooling win.",
+        "2025 Opensource Orchestra · most creative use of ENS, first place.",
+        "2026 Fork the First Artist · own-key activation, public-fact AI previews and direct tips.",
+        "Tip ethos · 96.31% artist · 3.69% steward compute · 0% Open Source Orchestra."
+      ],
+      "links": [
+        { "label": "Read the full public résumé", "url": "https://opensourceorchestra.org/dao/#built-h" },
+        { "label": "Fork the First Artist · GPL", "url": "https://github.com/Open-Source-Orchestra/fork-the-first-artist" },
+        { "label": "Open the artist garden", "url": "https://artist.opensourceorchestra.org/" }
+      ],
+      "moreLinks": [
+        { "label": "2023 broadcastr", "url": "https://devfolio.co/projects/broadcastr-3ec3" },
+        { "label": "2024 Ethereum Dispatch", "url": "https://ethglobal.com/showcase/ethereum-dispatch-dstje" },
+        { "label": "2025 Opensource Orchestra · ENS win", "url": "https://ethglobal.com/showcase/opensource-orchestra-y1egw" },
+        { "label": "2025 TokeOfApp", "url": "https://ethglobal.com/showcase/tokeofapp-dri79" },
+        { "label": "2026 Vince", "url": "https://devfolio.co/projects/vince-d1c9" },
+        { "label": "2026 LancerAI", "url": "https://devfolio.co/projects/lancerai-4508" },
+        { "label": "2026 My Agent Ohana", "url": "https://ethglobal.com/showcase/my-agent-ohana-v04gz" },
+        { "label": "2026 The ʻOhana Bot", "url": "https://devfolio.co/projects/the-ohana-bot-5637" },
+        { "label": "2026 Fork the First Artist showcase", "url": "https://ethglobal.com/showcase/forkthefirstartist-mk84p" },
+        { "label": "Open Source Orchestra on GitHub", "url": "https://github.com/Open-Source-Orchestra" }
+      ],
+      "theme": "ivory",
+      "status": "9 PUBLIC BUILDS · 2 VERIFIED WINS · PREVIEWS ≠ ACTIVATION"
+    },
+    {
+      "id": "first-circle",
+      "chord": "G",
+      "kicker": "G · FIRST CIRCLE · EVERY CONTRIBUTION EQUAL",
+      "title": "A first circle, not a hierarchy",
+      "lede": "Locked-solid principles. An open door. One consenting human, one voice.",
+      "bullets": [
+        "Code and music, artists, builders, stewards, translators and sound crew: every contribution is equal.",
+        "IN, LATER and NO are equally respected; an invite, photo or RSVP is not enrolment.",
+        "No token sale, donation-weighted influence, agent votes, keys, Shamans or execution.",
+        "Whole-circle funding is shared equally by default; restricted grants follow their terms."
+      ],
+      "links": [
+        { "label": "Read the principles & ledger", "url": "https://opensourceorchestra.org/dao/" },
+        { "label": "Meet the OG Circle", "url": "https://osodaomeet.opensourceorchestra.org/circle/" },
+        { "label": "Open community join page", "url": "https://opensourceorchestra.org/join/" }
+      ],
+      "moreLinks": [
+        { "label": "Raw public ledger", "url": "https://opensourceorchestra.org/dao/ledger.json" }
+      ],
+      "theme": "gold",
+      "status": "PROPOSED ETHIC · CONSENT BEFORE MEMBERSHIP"
+    },
+    {
+      "id": "consent-privacy",
+      "chord": "G",
+      "kicker": "G · CONSENT · PRIVACY · CARE",
+      "title": "Consent is the first note",
+      "lede": "Attendance is not recording consent. Recording is not publication consent.",
+      "bullets": [
+        "Names, faces, wallets, quotes and transcripts each require their own appropriate yes.",
+        "Private contacts, attendee lists and current meeting links never enter this public hall.",
+        "Silence is not consent; a takedown request comes first, questions second.",
+        "Agents are labelled as machines; no pictured person is presented as a DAO endorser."
+      ],
+      "links": [
+        { "label": "How a takedown works", "url": "https://opensourceorchestra.org/takedown/" },
+        { "label": "Existing consent-based recording", "url": "https://opensourceorchestra.org/openrecording2/" },
+        { "label": "Existing public calls", "url": "https://opensourceorchestra.org/calls/" }
+      ],
+      "theme": "sage",
+      "status": "CONSENT ALWAYS · DOWN FIRST · AI LABELLED"
+    },
+    {
+      "id": "community-ledger",
+      "chord": "Em",
+      "kicker": "Em · TRANSPARENT COMMUNITY LEDGER · DATED SNAPSHOT",
+      "title": "A ledger everyone can read",
+      "lede": "Today's DAO is a public community record and proposal—not an onchain treasury.",
+      "bullets": [
+        "9 Nov 2026 snapshot · 4 applied · 7 prepared · $0 awarded.",
+        "Applications, answers, awards, splits, objections and results belong in the open.",
+        "No current treasury migration, existing-asset move, token sale or promised payout.",
+        "Artist tips stay direct gifts, not a DAO custody pool."
+      ],
+      "links": [
+        { "label": "Open the current ledger", "url": "https://opensourceorchestra.org/dao/" },
+        { "label": "Inspect the raw JSON", "url": "https://opensourceorchestra.org/dao/ledger.json" },
+        { "label": "Read-only artist tip page", "url": "https://artist.opensourceorchestra.org/tip/" }
+      ],
+      "theme": "ivory",
+      "status": "DATED PUBLIC SNAPSHOT · OFFCHAIN · $0 AWARDED"
+    },
+    {
+      "id": "dao-phases",
+      "chord": "C",
+      "kicker": "C · PROPOSED DAO PHASES · A PATH, NOT A DECISION",
+      "title": "Move at the speed of trust",
+      "lede": "The tools come after the listening—not before it.",
+      "bullets": [
+        "01 · First Circle — reconcile IN / LATER / NO and publish a consent-based charter for review.",
+        "02 · Practice — community Git ledger, privately verified humans and equal offchain signalling.",
+        "03 · Execute only if chosen — human-only Safe with public receipts; agents never hold keys.",
+        "04 · Binding tools only after rehearsal — Snapshot X, Aragon or another explicit circle choice."
+      ],
+      "links": [
+        { "label": "Read the present state", "url": "https://opensourceorchestra.org/dao/" },
+        { "label": "Inspect the public ledger", "url": "https://opensourceorchestra.org/dao/ledger.json" }
+      ],
+      "theme": "blueprint",
+      "status": "PROPOSED ONLY · NO SAFE OR CONTRACT DEPLOYED"
+    },
+    {
+      "id": "third-meetup",
+      "chord": "D",
+      "kicker": "D · THIRD OPEN SOURCE ORCHESTRA DAO MEETUP",
+      "title": "The third meetup is open to all",
+      "lede": "Bring a song, a question, a skill, or simply your attention. Details to be announced.",
+      "bullets": [
+        "OPEN INVITE FOR EVERYONE · musicians, builders, listeners, translators and curious guests.",
+        "This First Circle prepares the door; attending the open meetup does not enrol anyone in the DAO.",
+        "No date, time, place or public meeting link has been confirmed here yet.",
+        "When blessed, the invitation will live here—open, accessible and without a wallet requirement."
+      ],
+      "links": [
+        { "label": "Watch the official website", "url": "https://opensourceorchestra.org/" },
+        { "label": "Open community join page", "url": "https://opensourceorchestra.org/join/" }
+      ],
+      "image": "./assets/mumbai/dc8-874-1600.webp",
+      "imageAlt": "A packed dance floor with hands raised in the haze beneath the mandala during the Devcon 8 closing ceremony in Mumbai.",
+      "imageCaption": "A past open room · Mumbai · 2026 · not the future meetup or a membership roll",
+      "theme": "invitation",
+      "status": "OPEN INVITE · DETAILS TBA · EVERYONE WELCOME"
+    },
+    {
+      "id": "listening-archive",
+      "chord": "C",
+      "kicker": "C · FUTURE LISTENING ARCHIVE · SEALED WITH CARE",
+      "title": "The Listening Archive",
+      "lede": "TRANSCRIPT + RECORDING · LOCKED UNTIL BLESSING + ALL REQUIRED CONSENT",
+      "bullets": [
+        "No meetup transcript, audio, video, attributable minutes or quotation is published now.",
+        "Release needs Shaka's specific blessing and every necessary participant consent.",
+        "Existing public calls stay separate; they do not unlock this meeting's archive.",
+        "After those gates, consented downloads will live here with credits and takedown."
+      ],
+      "links": [
+        { "label": "Enter the sealed archive", "url": "https://osodaomeet.opensourceorchestra.org/archive/" },
+        { "label": "Read the takedown commitment", "url": "https://opensourceorchestra.org/takedown/" },
+        { "label": "Existing public calls archive", "url": "https://opensourceorchestra.org/calls/" },
+        { "label": "Existing consented open recording", "url": "https://opensourceorchestra.org/openrecording2/" }
+      ],
+      "theme": "locked",
+      "status": "LOCKED · NOTHING TO DOWNLOAD YET"
+    },
+    {
+      "id": "love",
+      "chord": "G",
+      "kicker": "G · CODA · THE NEXT NOTE BELONGS TO ALL OF US",
+      "title": "Code is law. The law is LOVE.",
+      "lede": "For the music and the code. For every sister, brother, sibling and curious heart.",
+      "bullets": [
+        "Every voice is a node. Every contribution has dignity. Every gift stays open to inspection.",
+        "The First Circle holds the heartbeat; the third meetup opens the door to everyone.",
+        "TODO ES POSIBLE · come as you are · listen deeply · build openly · love loudly."
+      ],
+      "links": [
+        { "label": "Return to the orchestra", "url": "https://opensourceorchestra.org/" },
+        { "label": "Fork the open code", "url": "https://github.com/Open-Source-Orchestra" },
+        { "label": "Read the community ledger", "url": "https://opensourceorchestra.org/dao/" },
+        { "label": "Join the road ahead", "url": "https://opensourceorchestra.org/join/" }
+      ],
+      "moreLinks": [
+        { "label": "The ʻohana Songbook", "url": "https://shakaleikaumaka.com/songbook/" },
+        { "label": "This hall's open-source repository", "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet" },
+        { "label": "Takedown first", "url": "https://opensourceorchestra.org/takedown/" }
+      ],
+      "theme": "overture",
+      "status": "TODO ES POSIBLE · WITH LOVE"
+    }
+  ]
+}
