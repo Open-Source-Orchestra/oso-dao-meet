@@ -80,7 +80,7 @@
 
 - [Open the current ledger](https://opensourceorchestra.org/dao/)
 - [Inspect the raw JSON](https://opensourceorchestra.org/dao/ledger.json)
-- [Read-only artist tip page](https://artist.opensourceorchestra.org/tip/)
+- [Artist-first tip page · mainnet and practice testnets](https://artist.opensourceorchestra.org/tip/)
 
 ### 09 · C · Move at the speed of trust
 
@@ -108,6 +108,21 @@
 - [The ʻohana Songbook](https://shakaleikaumaka.com/songbook/)
 - [This hall's open-source repository](https://github.com/Open-Source-Orchestra/oso-dao-meet)
 - [Takedown first](https://opensourceorchestra.org/takedown/)
+
+## AI steward narration
+
+**Voice generated:** 12 November 2026 at 19:14 UTC; the exact final caption/manifest timestamp is recorded in `data/narration.json`. The optional **Listen to the hall** edition is a twelve-movement, 9:25 synthetic narrated version of this presentation. Its visible and spoken disclosure is: **AI-agent-steward synthetic narration authorized by Shaka; not a live or new recording of Shaka. An AI speaker, not human presence or meeting attendance; based only on cited public records.**
+
+- **Script and claim map:** `scripts/narration-source.json` contains twelve original editorial scripts and **36 claim-level public references**. Runtime `data/narration.json` repeats those references beside the exact spoken text, measured duration, byte size and SHA-256 for every movement. The complete readable document is `/narration/`; downloads are `/narration/transcript.txt`, `/narration/narration.vtt` and `/narration/narration.srt`.
+- **Raw meeting boundary:** no participant voice, attendee quotation, attendee list, raw meeting transcript or raw meeting recording is used or included. The Meeting #1 raw-media lane remains separate. The machine-readable Listening Archive still has `status=locked`, `items=[]` and null transcript/recording. Narration downloads do not unlock that archive.
+- **Voice authorization:** Shaka explicitly requested this narrated AI-steward edition on 12 November 2026. The pre-existing authorized Fish zero-shot steward lane (`s2.1-pro-free`) created the audio through `scripts/build_narration.py`. No substitute voice or new paid account was used. The private voice reference and key are not shipped.
+- **Scope of permission:** this documents authorization for the disclosed synthetic editorial narration in this hall, not a general license to clone, reuse or redistribute Shaka's voice for another work, endorsement, quotation or claim of human presence. Narration is original agent-attributed speech, not testimony from Shaka or any participant.
+- **File inventory:** exactly twelve local mono MP3 files, 44.1 kHz, 96 kbps, one per movement under `assets/narration/audio/`; total measured duration **564.610 seconds** and **6,782,481 bytes**. The exact ffprobe results are recorded in `/workspace/oso-dao-meet-qa/narration-ffprobe.json` (QA only).
+- **Caption timing:** each movement's VTT/SRT cue runs from zero to its actual measured duration. Full-deck VTT/SRT offsets describe a gapless concatenation of those twelve editorial movements; they are not word-level transcriptions or a single raw recording. Captions and the readable script change with the projector movement.
+- **Controls and fallback:** narration is off by default and never autoplays. The panel offers play/pause, previous/next, seek, speech-speed selection, a synchronized caption, per-slide sources, and MP3/VTT/SRT/plain-text downloads. `?slide=dao-phases&hall=prague&listen=1` opens the selected hall/player without starting sound. `/narration/` provides twelve native audio controls plus the complete script and references without JavaScript.
+- **Loading and network behavior:** no narration JSON or audio is requested on initial hall load. Opening the panel fetches only the local manifest; choosing Play attaches the caption URL and requests only local media. No third-party runtime, analytics, tracker, wallet call, voice API or meeting service is contacted by this static edition.
+- **Current-fact caveats:** the live tip configuration was checked on 12 November 2026 at about 19:06 UTC (`enabled=true`, `mainnetLive=true`, `batch=false`). The narration does not describe tips as read-only or a custody pool: a fan reviews and signs from their own wallet, transfers can have real irreversible value and gas costs, configuration and supported networks can change, and artist activation is not implied by a preview/card. The ledger remains a **9 November 2026 snapshot** with 4 applied, 7 prepared and no listed award.
+- **Not governance material:** the script is public educational/editorial copy only. It approves no membership, charter, grant, Safe, token, strategy, payout, contract deployment or funds action and invents no future venue or Devcon endorsement. The Lisbon music space is a proposed community process for Devcon 9 (publicly scheduled 11–13 October 2027), not an approved music-space booking.
 
 ## Living-wall and slide media
 
@@ -167,7 +182,7 @@ See yourself or your work and want it changed or removed? Tell any steward or wr
 
 ## Research receipts
 
-The authoring-time public research package checked **73 / 73 source and media URLs with HTTP 200** on 12 November 2026. The ledger JSON was independently re-read during integration: 11 entries = 4 applied + 7 prepared; awarded $0. The two new canonical/repository links were also checked live.
+The narration claim audit rechecked **36 claim references / 19 unique URLs** on 12 November 2026: all **18 external URLs returned HTTP 200**, while the new canonical `/narration/` self-reference awaits the parent's deployment. Live facts were independently confirmed: 4 applied + 7 prepared entries, no listed award, official Devcon 9 dates, and the live tip configuration's enabled/mainnetLive/batch-off flags. See `/workspace/oso-dao-meet-qa/narration-public-sources.json` and `narration-live-facts.json` for the QA-only receipts. The original authoring-time public research package checked **73 / 73 source and media URLs with HTTP 200** on 12 November 2026. The ledger JSON was independently re-read during integration: 11 entries = 4 applied + 7 prepared; awarded $0. The two new canonical/repository links were also checked live.
 
 Primary public references: https://opensourceorchestra.org/dao/ · https://opensourceorchestra.org/mandala-room/ · https://opensourceorchestra.org/garden/circle/ · https://shakaleikaumaka.com/song/ · https://github.com/Open-Source-Orchestra
 

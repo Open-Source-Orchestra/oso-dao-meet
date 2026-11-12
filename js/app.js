@@ -1,3 +1,5 @@
+import { createNarration } from './narration.js';
+
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => [...document.querySelectorAll(selector)];
 const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -55,6 +57,7 @@ const state = {
   ready: false, entered: false, readingOnly: false,
   playing: false, playTimer: null, toastTimer: null, photoTimer: null
 };
+let narration = null;
 
 function escapeHTML(value) {
   return String(value ?? '').replace(/[&<>'"]/g, (character) => ({
@@ -93,10 +96,12 @@ function updateUrl() {
   const url = new URL(window.location.href);
   url.searchParams.set('slide', state.slides[state.index].id);
   url.searchParams.set('hall', state.hallId);
+  if (narration?.isOpen()) url.searchParams.set('listen', '1');
+  else url.searchParams.delete('listen');
   history.replaceState({ slide: state.slides[state.index].id, hall: state.hallId }, '', url);
 }
 
-function setSlide(index, { updateHistory = true, announce = true, fromPlayback = false } = {}) {
+function setSlide(index, { updateHistory = true, announce = true, fromPlayback = false, fromNarration = false } = {}) {
   if (!state.slides.length) return;
   const nextIndex = (index + state.slides.length) % state.slides.length;
   state.index = nextIndex;
@@ -119,6 +124,7 @@ function setSlide(index, { updateHistory = true, announce = true, fromPlayback =
   $$('[data-slide-article]').forEach((article) => article.classList.toggle('is-current', article.dataset.slideArticle === slide.id));
   document.title = `${slide.title} · Open Source Orchestra DAO Meet`;
   state.hall?.setSlide(slide, nextIndex);
+  narration?.syncSlide(nextIndex, { fromNarration });
   if (updateHistory) updateUrl();
   if (announce && !fromPlayback) ui.announcer.textContent = `${label}. ${slide.lede}`;
   if (state.playing && !fromPlayback) restartPlaybackTimer();
@@ -166,6 +172,7 @@ function renderGallery() {
 function openDialog(dialog, { scrollCurrent = false } = {}) {
   if (!dialog || dialog.open) return;
   stopPlayback();
+  narration?.pause();
   $$('dialog[open]').forEach((open) => {
     if (open !== dialog && open !== ui.transcript) open.close();
   });
@@ -194,6 +201,7 @@ function restartPlaybackTimer() {
 
 function startPlayback() {
   if (state.playing || !state.ready || state.readingOnly) return;
+  narration?.pause();
   state.playing = true;
   updatePlayButton();
   restartPlaybackTimer();
@@ -228,6 +236,7 @@ function enterExperience() {
 function chooseReadableEdition(reason = 'Readable edition selected. The complete twelve-movement deck, public links, and image credits remain available below.') {
   state.readingOnly = true;
   stopPlayback();
+  narration?.close({ updateHistory: false });
   ui.body.classList.add('no-webgl');
   $('#fallback-reason').hidden = false;
   $('#fallback-reason').textContent = reason;
@@ -284,7 +293,16 @@ async function boot() {
     renderGallery();
     setVenue(state.hallId, { updateHistory: false, announce: false });
     setSlide(state.index, { updateHistory: false, announce: false });
+    narration = createNarration({
+      getSlides: () => state.slides,
+      getIndex: () => state.index,
+      setSlide: (index) => setSlide(index, { fromNarration: true }),
+      pauseSlideshow: stopPlayback,
+      onEnter: enterExperience
+    });
+    const openNarrationFromDeepLink = new URLSearchParams(window.location.search).get('listen') === '1';
     updateUrl();
+    if (openNarrationFromDeepLink) narration.open();
     if (state.readingOnly) return;
 
     const slideImages = await loadSlideImages();
@@ -313,7 +331,7 @@ async function boot() {
     state.ready = true;
     ui.enter.disabled = false;
     ui.enterLabel.textContent = 'Enter the hall';
-    ui.entryLoad.innerHTML = `<span class="loading-note"></span> The hall is ready · ${state.slides.length} movements · no sound, no trackers`;
+    ui.entryLoad.innerHTML = `<span class="loading-note"></span> The hall is ready · ${state.slides.length} movements · optional narration · no trackers`;
   } catch (error) {
     console.warn('The 3D hall could not start; using the complete readable edition.', error.message);
     chooseReadableEdition('The interactive hall could not start in this browser. The complete accessible deck is shown instead; no editorial content is lost.');
@@ -459,6 +477,10 @@ document.addEventListener('keydown', (event) => {
     event.preventDefault(); openDialog(ui.gallery);
   } else if (key === 't') {
     event.preventDefault(); openDialog(ui.transcript, { scrollCurrent: true });
+  } else if (key === 'l') {
+    event.preventDefault();
+    if (narration?.isOpen()) narration.close();
+    else narration?.open();
   } else if (key === 'r') {
     event.preventDefault(); state.hall?.resetCamera();
   } else if (key === 'escape') {
@@ -470,13 +492,16 @@ motionQuery.addEventListener('change', () => {
   if (motionQuery.matches) stopPlayback();
 });
 document.addEventListener('visibilitychange', () => {
-  if (document.hidden) stopPlayback();
+  if (document.hidden) { stopPlayback(); narration?.pause(); }
 });
 window.addEventListener('popstate', () => {
   if (!state.slides.length) return;
+  const wantsNarration = new URLSearchParams(window.location.search).get('listen') === '1';
+  if (!wantsNarration && narration?.isOpen()) narration.close({ updateHistory: false });
   readDeepLink();
   setVenue(state.hallId, { updateHistory: false, announce: false });
   setSlide(state.index, { updateHistory: false });
+  if (wantsNarration && !narration?.isOpen()) narration?.open();
 });
 
 boot();

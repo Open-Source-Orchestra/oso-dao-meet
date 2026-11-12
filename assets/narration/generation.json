@@ -1,0 +1,79 @@
+{
+  "schema": "oso-narration-generation-cache-v1",
+  "generatedAt": "2026-11-12T19:33:28Z",
+  "model": "s2.1-pro-free",
+  "audio": {
+    "overture": {
+      "sourceSha256": "f569097c54969b0d83c3edda5e44ea5a2cc5f3fa5faa980021cd51c7bbc16fc7",
+      "audioSha256": "4f52f39a108c69a08e2bc804b94e9ba226bb1e4e3905aabfd7efefb522f95e87",
+      "duration": 43.598,
+      "bytes": 523772
+    },
+    "origin-repertoire": {
+      "sourceSha256": "81d21965b126d1985db1f4e08b32d49bce7fc2620a94114cad2fbc5ed31ffa40",
+      "audioSha256": "3de8c1e2aea5cf0d54e9111ee6d0e0c141cfe5c4e7c56105dbe00332de3a2afe",
+      "duration": 47.83,
+      "bytes": 574563
+    },
+    "devcon-8": {
+      "sourceSha256": "0d14e167d5fdfe5b6cc6f40c88f5af8c14ade4cd42edc9595f642d6c3f670e46",
+      "audioSha256": "bf586cc04786f14cbe655c16552623ba7969ad4a15dd45b0e2be9fdf8fee55ff",
+      "duration": 41.273,
+      "bytes": 495874
+    },
+    "repertoire": {
+      "sourceSha256": "7e94840a0f67a52caadd6af858334a51f19a5c79008135dad8554ab7bb54166f",
+      "audioSha256": "d625a6951a005a07a657f955e308c1247d26edcfe603d717d2e931f197d73024",
+      "duration": 45.558,
+      "bytes": 547285
+    },
+    "open-code-resume": {
+      "sourceSha256": "8f3c049a71b80508503d96c3653982d61460bd83fd09e54ca9f41108e376c831",
+      "audioSha256": "8ce159d44fae9552e566951fc3f0b26e30e96d9269adc23ff2b67f5f3f13dd39",
+      "duration": 48.771,
+      "bytes": 585847
+    },
+    "first-circle": {
+      "sourceSha256": "019970ede2e7e0200123da5eac9a7ad1c1d02b097ead2217c3bb8cd529baa1af",
+      "audioSha256": "d56aa425e3d2c3fd1e82ae4e65d6a0fa18346b36a224c2dc506906f4b6076a09",
+      "duration": 48.353,
+      "bytes": 580828
+    },
+    "consent-privacy": {
+      "sourceSha256": "9fc00c1da7114375ddad096bc65e516c53fc3faa16b1015cfe8c5e23aef3e9da",
+      "audioSha256": "9464cff99f789d703b3674cdc7e00ec30bb8532bb7b59c16a59cdc1e28bf2333",
+      "duration": 49.58,
+      "bytes": 595564
+    },
+    "community-ledger": {
+      "sourceSha256": "0339a1707a98c431a4046b657eddd19420933b608a9d2b36b65898e6707e14fd",
+      "audioSha256": "11a288ea1f9770a49d5f4dd1086781edf663aa649fbd0d3a8eaf24b1b5025895",
+      "duration": 50.26,
+      "bytes": 603715
+    },
+    "dao-phases": {
+      "sourceSha256": "ce6c440f90ac1d96d0050957da46c8eb50bf76dd82fa30385addc28c7c70b5ed",
+      "audioSha256": "23363a2c2f735a6f1886bbe8b466a202e5126166be4c4e773a9789899a9ab8d9",
+      "duration": 48.483,
+      "bytes": 582393
+    },
+    "third-meetup": {
+      "sourceSha256": "5eed8493ac1a2152f315eae5a97505d2df1533b72bf6e496eea0ab8e77d2f6ee",
+      "audioSha256": "916eea91590b2280e02ceaeec692a69de513f71c7851094f85b5acfc72e16950",
+      "duration": 46.446,
+      "bytes": 557945
+    },
+    "listening-archive": {
+      "sourceSha256": "76567ab428b9dc6011a931eedf4dbd7cb11e805730f1453d6a969149fda5bcc6",
+      "audioSha256": "c40bd6e4792439ca5e97880974b70762709c1c54c526f7133dd16057456bdf1d",
+      "duration": 48.065,
+      "bytes": 577385
+    },
+    "love": {
+      "sourceSha256": "998cf86a14319216749d1fa4a75317ae399fb0847fb9a6d289582b7dc230b4e4",
+      "audioSha256": "b19a984314c954e535ef774fae888848bf001bb0a13ec7110ba2a37b55fb3bf2",
+      "duration": 46.393,
+      "bytes": 557310
+    }
+  }
+}

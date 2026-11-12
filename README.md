@@ -1,6 +1,6 @@
 # Open Source Orchestra DAO Meet — The First Circle
 
-A self-contained, walkable Three.js concert hall and twelve-movement virtual-reality-ready slide deck, with a complete OG Circle and a consent-sealed Listening Archive.
+A self-contained, walkable Three.js concert hall and twelve-movement virtual-reality-ready slide deck, with opt-in sourced AI-steward narration, a complete OG Circle, and a consent-sealed Listening Archive.
 
 **Canonical home:** https://osodaomeet.opensourceorchestra.org/
 
@@ -15,7 +15,8 @@ A self-contained, walkable Three.js concert hall and twelve-movement virtual-rea
   - **Mumbai:** Jio World Centre Mumbai memory — fan ribs, burgundy, jewel-like gold.
   - **Prague:** Smetana Hall / Municipal House Prague-inspired — ivory warmth, floral arches, balcony light.
   - **Cannes:** Palais des Festivals Cannes-inspired — geometric fins, bronze/night palette, red-carpet emphasis.
-- Slide-specific real HTTPS links in the DOM action dock, a twelve-stop rail, previous/next controls, optional 14-second slideshow, deep links, theater/camera controls, mobile walking pad, and local WebXR support.
+- Slide-specific real HTTPS links in the DOM action dock, a twelve-stop rail, previous/next controls, optional 14-second silent slideshow, deep links, theater/camera controls, mobile walking pad, and local WebXR support.
+- **Listen to the hall:** twelve optional synthetic AI-agent-steward narrated movements, **9 minutes 25 seconds** total, explicitly authorized by Shaka and never represented as a live/new Shaka recording. Play/pause, previous/next, seek and speed controls synchronize the existing projector and readable captions. Every slide has claim-level public sources, MP3/VTT/SRT links and an accessible full transcript. Off by default; no autoplay, no third-party runtime media calls, and no participant voices/words.
 - Full semantic transcript and credited gallery, complete no-JavaScript and no-WebGL editions, reduced-motion behavior, takedown route, and AI disclosure.
 - **`/circle/`:** all 15 existing public lineage nodes, 14 localized public card images and one monogram, 86 source-exact public links, the corrected Bogotá DIP history, and explicit non-membership/non-endorsement language. The invited guest remains unnamed and unpublished pending their own APPROVE; Kuba has only a minimal consent-gated remembrance chair.
 - **`/archive/`:** a machine- and human-readable locked archive with **no meeting transcript or recording**. Future downloads appear only after specific blessing and every required consent.
@@ -26,16 +27,16 @@ A self-contained, walkable Three.js concert hall and twelve-movement virtual-rea
 ES modules and JSON loading require HTTP rather than `file://`.
 
 ```bash
-cd /shared/oso-dao-meet-src
+cd /path/to/oso-dao-meet
 python -m http.server 18743 --bind 127.0.0.1
 # open http://127.0.0.1:18743/
 ```
 
-No `npm install`, bundler, environment file, backend, service worker, API key, font service, tracker, or runtime CDN is needed. Everything the experience requests at runtime is inside this directory. External sites are reached only when a visitor explicitly follows a labeled link.
+No `npm install`, bundler, environment file, backend, service worker, API key, font service, tracker, or runtime CDN is needed. Everything the experience requests at runtime—including optional narration—is inside this directory. External sites are reached only when a visitor explicitly follows a labeled link. Initial hall load makes no narration request; opening the player reads `data/narration.json`, and only Play attaches caption media and requests that movement's local MP3. The independently readable `/narration/` page requires no JavaScript.
 
 ## Deploy — GitHub Pages + custom subdomain
 
-Copy the **entire directory** including `vendor/`, `assets/`, `data/`, `js/`, `css/`, `circle/`, and `archive/` to the repository root. GitHub Pages serves `main` from `/`; `CNAME` contains `osodaomeet.opensourceorchestra.org`. Cloudflare DNS is a DNS-only CNAME to `open-source-orchestra.github.io`. Preserve the relative file layout. No SPA rewrite is required.
+Copy the **entire directory** including `vendor/`, `assets/` (with `assets/narration/`), `data/`, `js/`, `css/`, `circle/`, `narration/`, and `archive/` to the repository root. GitHub Pages serves `main` from `/`; `CNAME` contains `osodaomeet.opensourceorchestra.org`. Cloudflare DNS is a DNS-only CNAME to `open-source-orchestra.github.io`. Preserve the relative file layout. No SPA rewrite is required.
 
 HTTPS must be verified on the public hostname before `https_enforced` is enabled. WebXR immersive sessions require a secure context and a capable browser/headset. A normal desktop can use every non-VR function. Test a real headset before describing the production site as headset-certified. Do not add trackers or third-party runtime imports when integrating.
 
@@ -56,6 +57,10 @@ HTTPS must be verified on the public hostname before `https_enforced` is enabled
 | Click a living wall | Change that frame and show its credit |
 | G | Living-wall gallery and captions |
 | T | Complete semantic transcript, scrolled to current slide |
+| L / Listen to the hall | Open or close optional narrated player; opening alone never plays audio |
+| Narration Play / Pause | Start/pause current synthetic editorial movement |
+| Narration Previous / Next | Change projector, script, caption and audio together |
+| Narration seek / speed | Seek within the actual MP3 / choose 0.75×, 1×, 1.25× or 1.5× |
 | H or ? | Help, controls, boundaries, AI/takedown disclosure |
 | F | Toggle fullscreen where the browser grants it |
 | Escape | Close an open native panel/dialog |
@@ -71,9 +76,10 @@ Use either parameter alone or both:
 /?slide=overture&hall=mumbai
 /?slide=community-ledger&hall=prague
 /?slide=listening-archive&hall=cannes
+/?slide=dao-phases&hall=prague&listen=1
 ```
 
-Valid hall IDs: `mumbai`, `prague`, `cannes`. Unknown values fall back to `overture` and `mumbai`; the URL is normalized to a valid state. Navigation uses `history.replaceState`, so a slide change does not create a long trail of browser-history entries.
+Valid hall IDs: `mumbai`, `prague`, `cannes`. Unknown values fall back to `overture` and `mumbai`; the URL is normalized to a valid state. Navigation uses `history.replaceState`, so a slide change does not create a long trail of browser-history entries. `listen=1` opens the narrated panel on the chosen movement **without playing audio**. Closing narration removes that parameter. The complete sourced transcript also has fragment links such as `/narration/#dao-phases`.
 
 Slide IDs: `overture`, `origin-repertoire`, `devcon-8`, `repertoire`, `open-code-resume`, `first-circle`, `consent-privacy`, `community-ledger`, `dao-phases`, `third-meetup`, `listening-archive`, `love`.
 
@@ -84,6 +90,24 @@ Primary editorial source: **`data/deck.json`**. Each slide contains `id`, `chord
 Available visual themes: `overture`, `night`, `burgundy`, `ivory`, `gold`, `sage`, `blueprint`, `invitation`, `locked`. Canvas slides are 1600×900. Three to four concise bullets work best; the DOM transcript always carries the full text. Slide links must use HTTPS.
 
 **Important:** `index.html` contains the authored no-JavaScript transcript. When changing deck copy, update both `data/deck.json` and the matching `data-slide-article` in `index.html`, then run `node scripts/validate.mjs` and browser tests. The runtime replaces this static transcript from JSON when JavaScript is available; without JavaScript, the HTML transcript is the complete source of truth.
+
+## Narrated edition — source, generation and captions
+
+The authored script and its 36 claim-level public references live in `scripts/narration-source.json`. The runtime manifest, actual durations/bytes/hashes, exact scripts and references are in `data/narration.json`. The generated static fallback is `/narration/`.
+
+```bash
+# Recheck local audio and regenerate captions, transcript and runtime manifest:
+python3 scripts/build_narration.py
+
+# Create missing/changed movement audio only in the pre-authorized agent workspace:
+python3 scripts/build_narration.py --synthesize
+```
+
+Synthesis directly reuses the existing authorized Fish Shaka-steward lane (`s2.1-pro-free`); the private reference and credential must already exist in that authorized workspace. The script has **no edge/other-voice fallback**, never sends the audio, and never needs credentials at website runtime. Do not add credentials/reference media to this repository. If authorized synthesis is unavailable, retain `/narration/` as the static accessible fallback rather than substituting another voice.
+
+Readable transcripts use natural **AI** and **DAO** typography; the build's `speech_text()` applies explicit letter pronunciation only at synthesis time, without changing the editorial words. Each per-slide VTT/SRT cue spans that slide's measured MP3 duration, and the visible caption follows the projector. Full-deck VTT/SRT cues are sequential offsets for a gapless editorial concatenation—not a raw recording, attendee transcript, or claim of word-level timing. New generation should re-measure durations and refresh `generatedAt`; `assets/narration/generation.json` caches source/audio hashes for resumable synthesis and contains no secrets. Code validates that only these twelve disclosed editorial MP3s are allowed: every unexpected audio file, including any raw meeting audio, still fails release validation.
+
+The voice/reuse permission is limited to this specifically disclosed synthetic edition. See the detailed provenance in `SOURCES.md#ai-steward-narration` and `ASSET-CREDITS.md`.
 
 ## Editorial and safety boundaries
 
@@ -103,6 +127,11 @@ Available visual themes: `overture`, `night`, `burgundy`, `ivory`, `gold`, `sage
 index.html             Entry, semantic controls/dialogs, full no-JS transcript
 css/styles.css         Gold/ivory/burgundy/deep-night art direction + responsive/fallback UI
 js/app.js              Deck state, links, deep links, dialogs, controls, slideshow, fallbacks
+js/narration.js         Opt-in synchronized media player and caption controls
+narration/             Full static sourced transcript + VTT/SRT/plain-text downloads
+assets/narration/      Twelve authorized synthetic MP3s + per-slide VTT/SRT + hashes
+scripts/build_narration.py  Authorized synthesis / measured-caption builder
+scripts/narration-source.json  Exact scripts and claim-level source map
 js/hall.js             Three.js architecture, raycasting, camera, venues, photo textures, XR
 js/slides.js           Deterministic 1600×900 slide painter
 vendor/                Pinned Three.js r169, VRButton, full MIT notice

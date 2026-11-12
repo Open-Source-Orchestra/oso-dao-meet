@@ -5,7 +5,7 @@ import json
 import re
 import sys
 
-ROOT = Path(sys.argv[1]) if len(sys.argv) > 1 else Path('/shared/oso-dao-meet-src')
+ROOT = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else Path(__file__).resolve().parents[1]
 errors = []
 checks = 0
 
@@ -81,8 +81,41 @@ for tag in re.findall(r'<(?:script|img|link)\b[^>]*>', index):
 
 for forbidden in ['meet.google.com/', '2089999549', 'BEGIN PRIVATE KEY', 'seed phrase:', '/workspace/vault', '/shared/letters', '/shared/ethglobal-mumbai-2026/dao/CASE-STUDY']:
     require(forbidden not in index, f'forbidden private/internal material in index: {forbidden}')
-for ext in ['*.mp3', '*.mp4', '*.wav', '*.m4a', '*.webm']:
+# Only the twelve specifically disclosed synthetic editorial MP3s are permitted.
+# This exception never includes raw meeting audio, voices, transcripts or participant recordings.
+narration = load('data/narration.json')
+narration_source = load('scripts/narration-source.json')
+require(narration['schema'] == 'oso-ai-steward-narration-v1', 'narration must declare editorial AI-steward schema')
+require(narration['usage'] == {'autoplay': False, 'defaultEnabled': False, 'preload': 'none', 'runtimeExternalRequests': False}, 'narration must be lazy, local, opt-in and never autoplay')
+require(narration['voice']['notHumanRecording'] is True and narration['voice']['authorizedByShaka'] is True, 'narration must be explicitly authorized synthetic speech')
+require('AI-agent-steward synthetic narration authorized by Shaka' in index, 'visible player authorization missing')
+require('not a live or new recording of Shaka' in index, 'visible no-live/new-human-recording disclosure missing')
+require(len(narration['slides']) == 12 and len(narration_source['slides']) == 12, 'narration must cover all twelve movements')
+allowed_audio = set()
+for n, slide in enumerate(narration['slides'], 1):
+    require(slide['id'] == slides[n - 1]['id'], f'narration {n} does not match projector')
+    audio = ROOT / slide['audio'].removeprefix('./')
+    require(audio.is_file(), f'missing authorized synthetic movement audio: {audio.name}')
+    allowed_audio.add(audio.resolve())
+    require(slide['audio'].startswith('./assets/narration/audio/'), f'narration audio outside dedicated editorial path: {audio.name}')
+    require(slide['bytes'] == audio.stat().st_size, f'measured narration bytes stale: {audio.name}')
+    for caption in ['vtt', 'srt']:
+        path = ROOT / slide[caption].removeprefix('./')
+        require(path.is_file() and slide['text'] in path.read_text(), f'inexact/missing {caption}: {slide["id"]}')
+        require(slide[caption].startswith('./assets/narration/captions/'), f'caption outside editorial path: {path.name}')
+    require(len(slide['sources']) >= 2, f'insufficient claim-level narration sources: {slide["id"]}')
+    for source in slide['sources']:
+        require(source['url'].startswith('https://'), f'non-public narration source: {source["url"]}')
+        require('meet.google.com' not in source['url'] and 'zoom.us' not in source['url'], f'private meeting source leaked: {source["url"]}')
+        require(len(source['claim']) > 20, f'unclear narration claim mapping: {slide["id"]}')
+for path in ROOT.rglob('*.mp3'):
+    require(path.resolve() in allowed_audio, f'unexpected recording outside authorized editorial narration: {path}')
+for ext in ['*.mp4', '*.wav', '*.m4a', '*.webm']:
     require(not list(ROOT.rglob(ext)), f'unexpected published recording: {ext}')
+require((ROOT / 'narration/index.html').is_file(), 'static narrated transcript missing')
+require((ROOT / 'narration/transcript.txt').is_file(), 'plain narrated transcript missing')
+require((ROOT / 'narration/narration.vtt').is_file(), 'full-deck VTT missing')
+require((ROOT / 'narration/narration.srt').is_file(), 'full-deck SRT missing')
 
 archive = load('archive/status.json')
 require(archive['status'] == 'locked', 'archive must be locked')

@@ -2,7 +2,67 @@
 
 Verified locally on **12 November 2026, UTC**. The integrated edition includes the verified presentation content, 37 living-wall assets, the complete OG Circle, share/print controls, and the sealed archive. Physical-headset certification remains a follow-up, not a claim.
 
-## Integrated presentation results (final)
+## Optional AI-steward narrated edition (current)
+
+Verified locally on **12 November 2026, UTC** in `/workspace/oso-dao-meet`. The original archive/circle/meeting files were not changed. The separate raw-recording review is the parent's lane; the public Listening Archive still verifies `locked`, `items=[]`, and null transcript/recording.
+
+| Suite / evidence | Result |
+|---|---|
+| Structural, editorial, provenance, fallback and privacy checks | **641 / 641 PASS** · `node scripts/validate.mjs` |
+| Final release gates, including raw-media exclusion | **652 / 652 PASS** · `python3 scripts/validate_final.py .` |
+| Narration-specific real-browser suite | **51 PASS · 0 FAIL · process exit 0** · `/workspace/oso-dao-meet-qa/narration-results.json` |
+| Original hall regression, isolated output copy | **71 PASS · 0 FAIL · 1 existing headless-fullscreen SKIP** · `/workspace/oso-dao-meet-qa/narration-regression-results.json` |
+| Browser diagnostics | **0** exceptions, console errors, unexpected request failures, HTTP ≥400 responses, or third-party runtime requests in successful test paths |
+| axe accessibility | **0 violations / 0 nodes** in original suite's eight views and narration's desktop, mobile, static-transcript and reduced-motion views |
+| Actual generated audio | **12 mono MP3s · 44.1 kHz · 96 kbps · 564.610 s (9:25) · 6,782,481 bytes** · `narration-ffprobe.json` |
+| Audio signal levels | All 12 non-silent; measured max peaks **−1.8 to −1.9 dB**, mean levels **−16.4 to −17.4 dB** · `narration-audio-levels.log` |
+| Independent offline speech spot-check | **3 / 3 sampled tracks** (opening, artist tips, closing) transcribed with cached `faster-whisper-medium.en`, CPU int8, no network; required disclosure and caveats all recovered. Approx. normalized word-error metrics **4.84% / 9.35% / 5.26%** · `narration-whisper-results.json` |
+| Public claim sources | **18 / 18 external URLs HTTP 200**; the new canonical `/narration/` self-reference intentionally remains pending parent deployment · `narration-public-sources.json` |
+| Byte-range serving | Local range server: `206` with exactly 1024 requested bytes matching the MP3, 127-byte suffix, and explicit `416` for an unsatisfiable range · `narration-qa.cjs` |
+
+### Narrated controls and boundaries exercised
+
+- Initial hall contains only one empty `preload="none"` audio element; **zero narration JSON or MP3 requests** before the listener chooses the feature.
+- Listen opens the manifest and panel **without audio playback or MP3 requests**. Only Play attaches the per-slide VTT and begins real media loading/decoding.
+- Play/pause truthfully changes audio state; pause freezes `currentTime`; seek sets actual time; 0.75×–1.5× speed controls change `playbackRate` and carry to the next movement.
+- Previous/next synchronize the existing projector, local audio, visible caption, download URLs, and deck deep link. End-of-track continuation advances to the next narrated movement, not the silent slideshow's 14-second timer.
+- `?slide=dao-phases&hall=prague&listen=1` initializes the correct hall and script with audio still paused. Closing pauses and removes `listen=1`. Keyboard **L** opens/closes; arrow input on seek does not change slides.
+- Dialog opening and closing the narration both pause audio. Mobile controls are at least 44 px high at 390×844; no horizontal overflow was found.
+- The visible and spoken disclosure identifies authorized AI-agent-steward synthetic narration, not a live/new Shaka recording, human presence or meeting attendance. No attendee voice or quotation is included.
+- Static `/narration/` has **12 articles, 12 native non-autoplay audio controls, 36 claim-level references**, the exact readable script, measured durations, generated timestamp and MP3/VTT/SRT/plain-text links without JavaScript. Actual no-JS mode requests no MP3.
+- Deliberately unavailable MP3 responses leave the readable caption, sources, transcript/download links and previous/next navigation usable, with no uncaught browser exception. The deliberate failure route is not counted as a release diagnostic.
+- No-WebGL and reduced-motion paths retain the readable deck and source links and never start sound automatically.
+
+### Resolved QA findings
+
+1. **Deep-link ordering bug:** boot's URL normalization originally removed `listen=1` before checking it. The requested flag is now captured before normalization. A focused browser probe and the complete rerun prove movement 9 / Prague opens with its correct source still paused.
+2. **Axe/navigation harness race:** injecting axe into a genuinely JavaScript-disabled context caused `Execution context was destroyed`. Functional no-JS assertions now complete first. A fresh, network-idle audit page then verifies **byte-identical `body.innerHTML` and zero authored scripts** before running axe. This does not bypass or mock an accessibility violation: desktop/mobile/reduced-motion axe checks also pass, and the static audit found 0 violations.
+3. The narrated runner now always writes `narration-results.json` and exits nonzero on any recorded failure. The final recorded run is **51 PASS / 0 FAIL / exit 0**.
+
+The known headless fullscreen skip comes from the original suite and is **not** treated as a new pass. Earlier headed-fullscreen evidence remains in the historical suite below. Audio checks used real browser decoding, ffprobe, signal-level measurement and offline ASR sampling; these are not a substitute for a final human listening/taste review. Local range support is verified, but the parent must verify production HTTPS, caching and byte-range behavior after deployment.
+
+### Reproduce the narrated checks
+
+```bash
+cd /workspace/oso-dao-meet
+python3 scripts/build_narration.py
+node scripts/validate.mjs
+python3 scripts/validate_final.py .
+
+# Owned local range-enabled preview (stop this exact PID after review):
+node /workspace/oso-dao-meet-qa/narration-range-server.cjs  # 127.0.0.1:18813
+
+# The baseline harness uses the same server on port 18745:
+PORT=18745 node /workspace/oso-dao-meet-qa/narration-range-server.cjs
+cd /workspace/oso-dao-meet-qa
+node narration-qa.cjs
+node narration-regression.cjs
+
+# Optional independent three-track speech check, cached model only, serial:
+/workspace/whisper-venv/bin/python narration-whisper.py
+```
+
+## Integrated presentation results (prior base before narration)
 
 | Suite | Result | Evidence |
 |---|---|---|
@@ -91,7 +151,7 @@ The single listed `SKIP` in `core-results.json` is the **headless Chromium fulls
 
 - AI assistance and venue-interpretation disclaimers are present.
 - No deployed/adopted/onchain assertion, token sale, funds movement, formal-membership inference from photos, or agent votes/keys.
-- No `meet.google`, Zoom, `mailto:`, Drive, attendee payload, email address, audio, video, iframe, or remote script ships in the initial page.
+- No `meet.google`, Zoom, `mailto:`, Drive, attendee payload, email address, raw meeting audio, video, iframe, or remote script ships in the initial page. The optional narration's single initial audio element has no source, no autoplay and `preload=none`.
 - No runtime `fetch()` or `import()` targets an external origin.
 - Third meetup explicitly says details are to be announced and that no meeting link is published yet.
 - Listening Archive explicitly remains locked pending blessing and every required consent; no fake empty player is used.

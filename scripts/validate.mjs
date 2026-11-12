@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /* Optional authoring-time validation. This is not a build or runtime dependency. */
-import { readFileSync, existsSync, readdirSync } from 'node:fs';
+import { readFileSync, existsSync, readdirSync, statSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -100,10 +100,54 @@ check(!invite?.links.some((link) => /meet\.google|zoom\.us/i.test(link.url)), 'T
 check(/LOCKED/.test(locked?.status || '') && /ALL REQUIRED CONSENT/.test(locked?.lede || ''), 'Listening Archive must remain locked pending all required consent.');
 check(!locked?.image, 'Listening Archive must not carry an image.');
 
-const ownRuntime = [html, app, hall, painter, css, read('data/deck.json'), read('data/media.json')].join('\n');
+const narration = json('data/narration.json');
+const narrationSource = json('scripts/narration-source.json');
+const narrationJS = read('js/narration.js');
+const narrationStatic = read('narration/index.html');
+const disclosure = 'AI-agent-steward synthetic narration authorized by Shaka; not a live or new recording of Shaka. An AI speaker, not human presence or meeting attendance; based only on cited public records.';
+check(narration.schema === 'oso-ai-steward-narration-v1', 'Narration schema must identify editorial AI speech.');
+check(narration.disclosure === disclosure && narrationSource.disclosure === disclosure, 'Narration requires the exact visible synthetic-voice disclosure.');
+check(plain(html).includes(disclosure) && plain(narrationStatic).includes(disclosure), 'Player and static transcript must visibly disclose AI authorship, authorization and no live/new Shaka recording.');
+check(narration.usage.autoplay === false && narration.usage.defaultEnabled === false && narration.usage.preload === 'none', 'Narration must be off, lazy and non-autoplay by default.');
+check(narration.voice.notHumanRecording === true && narration.voice.authorizedByShaka === true, 'Narration provenance must record authorization and synthetic provenance.');
+check(/preload="none"/.test(html) && !/<audio\b[^>]*autoplay/i.test(html), 'Initial audio element must be silent and must not autoplay.');
+check(!/<(?:video|iframe|embed|object)\b/i.test(html), 'No embedded meeting media or third-party frame may ship.');
+check(!/\.autoplay\s*=\s*true/i.test(narrationJS), 'Narration controller must not enable media autoplay.');
+check(!narrationJS.includes("tts.synth") && !narrationJS.includes('edge_tts'), 'Runtime must not synthesize or substitute voices.');
+check(narration.slides.length === 12 && narrationSource.slides.length === 12, 'Narration must contain exactly twelve movements.');
+check(narration.totalBytes > 500000 && narration.totalDuration >= 480 && narration.totalDuration <= 720, 'Narration should remain a substantive 8–12 minute deck.');
+for (const [index, item] of narration.slides.entries()) {
+  const label = `Narration ${index + 1} (${item.id || 'missing id'})`;
+  const source = narrationSource.slides[index];
+  check(item.id === deck.slides[index].id && source.id === item.id, `${label}: must match the existing slide and narration source.`);
+  check(item.title === deck.slides[index].title && item.text === source.text, `${label}: transcript must be synchronized with the slide and voice script.`);
+  check(item.audio.startsWith('./assets/narration/audio/') && existsSync(resolve(root, item.audio)), `${label}: synthetic editorial MP3 must be local.`);
+  for (const key of ['vtt', 'srt']) {
+    check(item[key].startsWith('./assets/narration/captions/') && existsSync(resolve(root, item[key])), `${label}: ${key.toUpperCase()} must be local.`);
+    const captions = read(item[key]);
+    check(captions.includes(item.text), `${label}: ${key.toUpperCase()} must contain the exact spoken script.`);
+    check(!/meet\.google|zoom\.us|@gmail\.com|BEGIN PRIVATE KEY/i.test(captions), `${label}: captions must not expose private material.`);
+  }
+  check(existsSync(resolve(root, item.audio)) && statSync(resolve(root, item.audio)).size === item.bytes, `${label}: measured audio size must be accurate.`);
+  check(item.duration > 12 && item.duration < 180, `${label}: duration outside expected spoken-movement range.`);
+  check(/^[a-f0-9]{64}$/.test(item.sha256), `${label}: SHA-256 provenance missing.`);
+  check(Array.isArray(item.sources) && item.sources.length >= 2, `${label}: at least two claim-level sources required.`);
+  for (const ref of item.sources) {
+    check(typeof ref.claim === 'string' && ref.claim.length > 20 && typeof ref.label === 'string' && ref.label.length > 3, `${label}: each reference must identify its exact claim and label.`);
+    try { check(new URL(ref.url).protocol === 'https:', `${label}: public source must be HTTPS.`); }
+    catch { check(false, `${label}: malformed source URL.`); }
+    check(!/meet\.google|zoom\.us|@gmail\.com|privatediary/i.test(ref.url), `${label}: no private/meeting material may be cited.`);
+  }
+}
+check((narrationStatic.match(/<article id=/g) || []).length === 12, 'Static narrated transcript must contain twelve semantic articles.');
+check((narrationStatic.match(/<audio\b/g) || []).length === 12 && !/<audio\b[^>]*autoplay/i.test(narrationStatic), 'Static fallback must offer twelve native non-autoplay audio controls.');
+check(read('narration/transcript.txt').includes(narration.disclosure), 'Plain transcript must repeat disclosure.');
+check(read('narration/narration.vtt').startsWith('WEBVTT\n\n') && (read('narration/narration.vtt').match(/-->/g) || []).length === 12, 'Full-deck VTT must contain all twelve measured cues.');
+check((read('narration/narration.srt').match(/-->/g) || []).length === 12, 'Full-deck SRT must contain all twelve measured cues.');
+
+const ownRuntime = [html, app, hall, painter, narrationJS, css, read('data/deck.json'), read('data/media.json'), read('data/narration.json')].join('\n');
 check(!/meet\.google|zoom\.us|mailto:|drive\.google|@gmail\.com/i.test(ownRuntime), 'No private meeting, email, or Drive link may ship.');
-check(!/<(?:audio|video|iframe)\b/i.test(html), 'No embedded media or iframe may ship in the initial document.');
-check(!/(?:fetch|import)\s*\(\s*['"`]https?:/i.test(app + hall), 'Runtime JavaScript must not fetch or import an external service.');
+check(!/(?:fetch|import)\s*\(\s*['"`]https?:/i.test(app + hall + narrationJS), 'Runtime JavaScript must not fetch or import an external service.');
 check(!/@import\s+(?:url\()?\s*['"`]?https?:/i.test(css), 'CSS must not load external resources.');
 check(!/\b(?:approved|adopted|deployed)\s+(?:DAO|dao)\b/.test(deck.slides.map((slide) => slide.status).join(' ')), 'Slide statuses must not assert DAO approval, adoption, or deployment.');
 

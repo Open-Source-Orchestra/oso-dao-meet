@@ -194,7 +194,7 @@
       "links": [
         { "label": "Open the current ledger", "url": "https://opensourceorchestra.org/dao/" },
         { "label": "Inspect the raw JSON", "url": "https://opensourceorchestra.org/dao/ledger.json" },
-        { "label": "Read-only artist tip page", "url": "https://artist.opensourceorchestra.org/tip/" }
+        { "label": "Artist-first tip page · mainnet and practice testnets", "url": "https://artist.opensourceorchestra.org/tip/" }
       ],
       "theme": "ivory",
       "status": "DATED PUBLIC SNAPSHOT · OFFCHAIN · $0 AWARDED"

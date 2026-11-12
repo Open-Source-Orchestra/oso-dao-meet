@@ -44,6 +44,7 @@
         <button id="gallery-button" class="tool-button compact-label" type="button" aria-haspopup="dialog" title="Living walls · G"><span aria-hidden="true">▦</span><span>Living walls</span></button>
         <a id="circle-button" class="tool-button compact-label" href="./circle/" title="Meet every existing public node in the OG Circle"><span aria-hidden="true">♬</span><span>OG Circle</span></a>
         <a id="meeting-one-button" class="tool-button compact-label" href="./meetings/1/" title="Read the public-safe Proposal Meeting #1 recap"><span aria-hidden="true">①</span><span>Meeting #1</span></a>
+        <a id="narration-open" class="tool-button compact-label" href="./narration/" aria-label="Open optional AI steward narration" title="Listen to the hall · optional synthetic AI narration"><span aria-hidden="true">♪</span><span>Listen</span></a>
         <button id="transcript-button" class="tool-button compact-label" type="button" aria-haspopup="dialog" title="Accessible transcript · T"><span aria-hidden="true">≡</span><span>Transcript</span></button>
         <button id="share-button" class="icon-button" type="button" title="Share this exact movement" aria-label="Share this exact movement">↗</button>
         <button id="reset-camera" class="icon-button" type="button" title="Return to the best seat · R" aria-label="Return camera to the best seat">⌂</button>
@@ -108,7 +109,7 @@
 
   <div id="toast" class="toast" role="status" hidden></div>
   <div id="slide-announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
-  <p id="canvas-description" class="sr-only">The projector is a twelve-movement accessible slide deck. Click it for the next movement. Use Left and Right Arrow or Space to navigate. Drag to look, W A S D to walk, Q and E for height, R for the best seat, F for fullscreen, H for help, and T for the complete readable transcript. Every wall photograph has a caption and credit in Living walls. No audio plays.</p>
+  <p id="canvas-description" class="sr-only">The projector is a twelve-movement accessible slide deck. Click it for the next movement. Use Left and Right Arrow or Space to navigate. Drag to look, W A S D to walk, Q and E for height, R for the best seat, F for fullscreen, H for help, and T for the complete readable transcript. Every wall photograph has a caption and credit in Living walls. Optional AI steward narration starts only when you open Listen to the hall and press Play.</p>
 
   <section id="entry-screen" role="dialog" aria-modal="true" aria-labelledby="entry-title" aria-describedby="entry-description">
     <div class="entry-architecture" aria-hidden="true">
@@ -126,12 +127,13 @@
       <p class="entry-intro">Walk into a living score. A giant stage screen, an orchestra at rest, and public memories that change with every movement.</p>
       <button id="enter-button" class="enter-button" type="button" disabled><span id="enter-label">Preparing the hall</span><b aria-hidden="true">→</b></button>
       <p id="entry-load-state" class="entry-load-state" role="status"><span class="loading-note"></span> Tuning the room and drawing the first movement…</p>
+      <p class="entry-listen-wrap"><a id="entry-listen" class="entry-listen-button" href="./narration/" aria-label="Listen to the hall with optional authorized synthetic AI steward narration"><span>♪ Listen to the hall</span><small>Optional AI steward narration authorized by Shaka · not a live or new Shaka recording</small></a></p>
       <a id="entry-read" class="entry-read" href="#transcript-content">Read the accessible deck instead</a><span aria-hidden="true"> · </span><a class="entry-read" href="./meetings/1/">Proposal Meeting #1 · public recap</a>
     </div>
     <div class="entry-bottom">
       <p><strong id="entry-hall-name">MUMBAI · MEMORY</strong><span id="entry-hall-note">Jio World Centre memory — an artistic interpretation, never an exact digital twin or venue affiliation.</span></p>
       <p class="entry-controls"><span>DRAG</span> look around <i>·</i> <span>WASD</span> walk <i>·</i> <span>CLICK SCREEN</span> next movement <i>·</i> <span>H</span> help</p>
-      <p class="entry-disclosure">AI-assisted artistic work · no audio autoplay · no trackers · community proposal, not onchain</p>
+      <p class="entry-disclosure">AI-assisted artistic work · optional authorized synthetic narration · no audio autoplay · no trackers · community proposal, not onchain</p>
     </div>
   </section>
 
@@ -181,14 +183,14 @@
           <div><dt>Click projector / → / Space</dt><dd>Next movement</dd></div>
           <div><dt>← / P</dt><dd>Previous / play or pause</dd></div>
           <div><dt>Click a wall photo</dt><dd>Change that living frame</dd></div>
-          <div><dt>G / T</dt><dd>Living walls / transcript</dd></div>
+          <div><dt>G / T / L</dt><dd>Living walls / transcript / optional narration</dd></div>
           <div><dt>F / H / Esc</dt><dd>Fullscreen / help / close panels</dd></div>
         </dl></section>
       </div>
-      <section class="help-note"><h3>WebXR & motion</h3><p>On a capable HTTPS WebXR device, a local <strong>Enter VR</strong> button appears in the top bar. Controller select advances the slide. Reduced-motion preferences disable ambient hall movement and prevent automatic playback; every control still works manually. No sound is loaded or played.</p></section>
+      <section class="help-note"><h3>WebXR, motion & optional narration</h3><p>On a capable HTTPS WebXR device, a local <strong>Enter VR</strong> button appears in the top bar. Controller select advances the slide. Reduced-motion preferences disable ambient hall movement and prevent automatic slideshow playback. Every control still works manually. <strong>Listen to the hall</strong> opens optional AI-agent-steward synthetic narration authorized by Shaka, not a live or new recording of Shaka and not meeting audio. Audio never autoplays; press Play for speech, then use pause, previous, next, seek and speed controls. Synchronized movement captions, a complete sourced transcript, and downloads are available.</p></section>
       <section class="help-note"><h3>Honest boundaries</h3><p>The DAO material is a <strong>community proposal, not deployed, adopted, or onchain</strong>. Agents have no votes or keys. There is no token sale and no funds movement. The Listening Archive remains locked pending blessing and all required consent. Photos never imply formal membership.</p></section>
-      <section class="help-note"><h3>AI & takedown disclosure</h3><p>This is an AI-assisted artistic world, not a venue scan, meeting record, or governance instrument. If a public photograph includes you and you would rather it did not, the commitment is takedown first, questions second.</p>
-        <div class="inline-links"><a href="./meetings/1/">Proposal Meeting #1</a><a href="./circle/">Meet the OG Circle</a><a href="./archive/">Sealed Listening Archive</a><a href="https://opensourceorchestra.org/takedown/" target="_blank" rel="noopener noreferrer">How a takedown works ↗</a><a href="./SOURCES.md">Asset sources & credits</a></div>
+      <section class="help-note"><h3>AI & takedown disclosure</h3><p>This is an AI-assisted artistic world, not a venue scan, meeting record, or governance instrument. Optional narration is original editorial speech based on cited public records; the separate raw archive stays locked. If a public photograph includes you and you would rather it did not, the commitment is takedown first, questions second.</p>
+        <div class="inline-links"><a href="./narration/">Sourced narration transcript</a><a href="./meetings/1/">Proposal Meeting #1</a><a href="./circle/">Meet the OG Circle</a><a href="./archive/">Sealed Listening Archive</a><a href="https://opensourceorchestra.org/takedown/" target="_blank" rel="noopener noreferrer">How a takedown works ↗</a><a href="./SOURCES.md">Asset sources & credits</a></div>
       </section>
     </div>
   </dialog>
@@ -215,6 +217,7 @@
         <p id="fallback-reason" hidden></p>
         <p><strong>A proposal in public.</strong> No DAO deployment, adoption, onchain state, formal membership, token sale, or funds movement is claimed. AI agents assist but have no votes or keys. The third meetup is an open future invitation; its details are to be announced and no meeting link is published here.</p>
         <p>All three halls are artistic interpretations without venue affiliation. The future Listening Archive transcript and recording are <strong>LOCKED</strong> pending blessing and all required consent. <a href="https://opensourceorchestra.org/takedown/" target="_blank" rel="noopener noreferrer">Takedown requests come first.</a></p>
+        <p><strong>Optional narration:</strong> the <a href="./narration/">Listen to the hall transcript</a> is AI-agent-steward synthetic narration authorized by Shaka, not a live or new recording of Shaka. An AI speaker, not human presence or meeting attendance; based only on cited public records. No attendee voice or words appear there. It includes the complete readable script, per-movement captions, measured durations and downloads.</p>
       </div>
       <main id="transcript-content" class="transcript-content" tabindex="-1">
         <article id="transcript-overture" data-slide-article="overture">
@@ -255,7 +258,7 @@
         <article id="transcript-community-ledger" data-slide-article="community-ledger">
           <div class="transcript-movement">MOVEMENT 08 / 12 · Em · DATED PUBLIC SNAPSHOT · OFFCHAIN · $0 AWARDED</div><h3>A ledger everyone can read</h3><p class="transcript-kicker">Em · TRANSPARENT COMMUNITY LEDGER · DATED SNAPSHOT</p><p class="transcript-lede">Today&#x27;s DAO is a public community record and proposal—not an onchain treasury.</p>
           <ul><li>9 Nov 2026 snapshot · 4 applied · 7 prepared · $0 awarded.</li><li>Applications, answers, awards, splits, objections and results belong in the open.</li><li>No current treasury migration, existing-asset move, token sale or promised payout.</li><li>Artist tips stay direct gifts, not a DAO custody pool.</li></ul>
-          <p class="transcript-links"><a href="https://opensourceorchestra.org/dao/" target="_blank" rel="noopener noreferrer">Open the current ledger ↗</a><a href="https://opensourceorchestra.org/dao/ledger.json" target="_blank" rel="noopener noreferrer">Inspect the raw JSON ↗</a><a href="https://artist.opensourceorchestra.org/tip/" target="_blank" rel="noopener noreferrer">Read-only artist tip page ↗</a></p>
+          <p class="transcript-links"><a href="https://opensourceorchestra.org/dao/" target="_blank" rel="noopener noreferrer">Open the current ledger ↗</a><a href="https://opensourceorchestra.org/dao/ledger.json" target="_blank" rel="noopener noreferrer">Inspect the raw JSON ↗</a><a href="https://artist.opensourceorchestra.org/tip/" target="_blank" rel="noopener noreferrer">Artist-first tip page · mainnet and practice testnets ↗</a></p>
         </article>
         <article id="transcript-dao-phases" data-slide-article="dao-phases">
           <div class="transcript-movement">MOVEMENT 09 / 12 · C · PROPOSED ONLY · NO SAFE OR CONTRACT DEPLOYED</div><h3>Move at the speed of trust</h3><p class="transcript-kicker">C · PROPOSED DAO PHASES · A PATH, NOT A DECISION</p><p class="transcript-lede">The tools come after the listening—not before it.</p>
@@ -278,9 +281,32 @@
           <p class="transcript-links"><a href="https://opensourceorchestra.org/" target="_blank" rel="noopener noreferrer">Return to the orchestra ↗</a><a href="https://github.com/Open-Source-Orchestra" target="_blank" rel="noopener noreferrer">Fork the open code ↗</a><a href="https://opensourceorchestra.org/dao/" target="_blank" rel="noopener noreferrer">Read the community ledger ↗</a><a href="https://opensourceorchestra.org/join/" target="_blank" rel="noopener noreferrer">Join the road ahead ↗</a><a href="https://shakaleikaumaka.com/songbook/" target="_blank" rel="noopener noreferrer">The ʻohana Songbook ↗</a><a href="https://github.com/Open-Source-Orchestra/oso-dao-meet" target="_blank" rel="noopener noreferrer">This hall&#x27;s open-source repository ↗</a><a href="https://opensourceorchestra.org/takedown/" target="_blank" rel="noopener noreferrer">Takedown first ↗</a></p>
         </article>
       </main>
-      <footer class="transcript-footer"><p>AI-assisted artistic hall · no venue affiliation · no audio · no trackers · <a href="./SOURCES.md">asset credits</a></p><p>Open Source Orchestra DAO Meet — The First Circle</p></footer>
+      <footer class="transcript-footer"><p>AI-assisted artistic hall · no venue affiliation · optional steward narration · no trackers · <a href="./SOURCES.md">asset credits</a></p><p>Open Source Orchestra DAO Meet — The First Circle</p></footer>
     </div>
   </dialog>
+
+  <aside id="narration-panel" class="narration-panel" aria-labelledby="narration-title" aria-describedby="narration-disclosure" hidden>
+    <header class="narration-header">
+      <div><span class="dialog-kicker">LISTEN TO THE HALL · ORIGINAL EDITORIAL SPEECH</span><p id="narration-position" class="narration-position">TWELVE MOVEMENTS · OFF UNTIL YOU CHOOSE PLAY</p><h2 id="narration-title">AI steward narration</h2></div>
+      <button id="narration-close" class="dialog-close" type="button" aria-label="Pause and close narration">×</button>
+    </header>
+    <p id="narration-disclosure" class="narration-disclosure"><strong>AI-agent-steward synthetic narration authorized by Shaka; not a live or new recording of Shaka.</strong> An AI speaker, not human presence or meeting attendance; based only on cited public records.</p>
+    <audio id="narration-audio" preload="none" aria-label="Optional synthetic AI steward narration" aria-describedby="narration-disclosure narration-caption">
+      <track id="narration-track" kind="captions" srclang="en" label="English movement captions" default>
+      Your browser cannot use this optional audio player. <a href="./narration/">Read the complete sourced narration transcript instead.</a>
+    </audio>
+    <div class="narration-controls" aria-label="Narration playback controls">
+      <button id="narration-prev" type="button" disabled>← Previous</button>
+      <button id="narration-play" class="narration-play" type="button" aria-pressed="false" disabled>Play</button>
+      <button id="narration-next" type="button" disabled>Next →</button>
+    </div>
+    <div class="narration-seek-row"><label class="sr-only" for="narration-seek">Seek within current narrated movement</label><input id="narration-seek" type="range" min="0" max="0" step="0.01" value="0" disabled><output id="narration-time" for="narration-seek">0:00 / 0:00</output></div>
+    <label class="narration-speed-label" for="narration-speed">Speech speed <select id="narration-speed"><option value="0.75">0.75×</option><option value="1" selected>1× · original</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></label>
+    <p id="narration-status" class="narration-status" role="status" aria-live="polite">Nothing will play until you press Play. The readable narration is available even if audio fails.</p>
+    <div class="narration-caption-wrap"><h3>Movement caption <span>· synchronized when the slide changes</span></h3><p id="narration-caption" class="narration-caption" tabindex="0">Open the narrated edition to read the current movement, or use the complete transcript link below.</p></div>
+    <nav class="narration-downloads" aria-label="Narration transcript and downloads"><a id="narration-transcript-link" href="./narration/" target="_blank" rel="noopener noreferrer">Full sourced transcript ↗</a><a id="narration-download" href="./narration/" download>Movement MP3</a><a id="narration-vtt" href="./narration/narration.vtt" download>WebVTT</a><a id="narration-srt" href="./narration/narration.srt" download>SRT</a><a href="./narration/transcript.txt" download>Plain text</a></nav>
+    <p class="narration-boundary">Editorial speech only. No attendee voices or words. The <a href="./archive/">raw Listening Archive</a> remains separately locked pending specific blessing and every required consent.</p>
+  </aside>
 
   <noscript>
     <style>
