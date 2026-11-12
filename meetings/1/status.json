@@ -27,7 +27,10 @@
     "publicUrl": null,
     "publicDownload": null,
     "rawTranscript": null,
-    "notes": "publish only after consent-safe review"
+    "verifiedSegmentSeconds": 3231.584,
+    "transcription": "local faster-whisper large-v3-turbo; media never uploaded to a transcription service",
+    "notes": "published high-level consent-safe themes only; no raw media or full participant transcript",
+    "publicNotes": "/meetings/1/notes/"
   },
   "attendeeList": null,
   "privateMeetLinks": null,
