@@ -32,6 +32,11 @@
     "notes": "published high-level consent-safe themes only; no raw media or full participant transcript",
     "publicNotes": "/meetings/1/notes/"
   },
+  "notesDistribution": {
+    "postedAt": "2026-11-12T20:33Z",
+    "groups": ["Open Source Orchestra main", "Devcon Music Sanctuary", "Music Sanctuary Stewards", "Fork the First Artist builders"],
+    "scope": "high-level consent-safe themes and public notes link only"
+  },
   "attendeeList": null,
   "privateMeetLinks": null,
   "next": "merge both time-zone circles; third meetup open-invite for all, details TBA",
