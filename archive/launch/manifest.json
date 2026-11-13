@@ -1,0 +1,69 @@
+{
+  "schema": "official-launch-archive-v1",
+  "created_at": "2026-11-13T05:55:00Z",
+  "canonical": "https://osodaomeet.opensourceorchestra.org/",
+  "archive": "https://osodaomeet.opensourceorchestra.org/archive/launch/",
+  "source": {
+    "hall": {
+      "repository": "https://github.com/Open-Source-Orchestra/oso-dao-meet",
+      "commit": "9ef8b5a7fa26546e4ad034d764607a681cfde38f",
+      "bundle": "oso-dao-meet-main.bundle"
+    },
+    "zu": {
+      "repository": "https://github.com/Open-Source-Orchestra/zu-chiangmai",
+      "commit": "4e4e93d7e24a94f716b46871cfdd8c9709fdfd95",
+      "bundle": "zu-chiangmai-main.bundle"
+    },
+    "zu_site_worker": "fa4248aa-e057-4850-9060-2ae5e8812a53",
+    "zu_schedule_worker": "9d07f4c8-1931-426b-8d17-218317938131"
+  },
+  "https": {
+    "cloudflare_edge_verified": true,
+    "github_origin_certificate": "pending",
+    "https_enforced": false,
+    "note": "Do not claim the direct GitHub-origin certificate is fixed."
+  },
+  "official_urls": [
+    "https://osodaomeet.opensourceorchestra.org/",
+    "https://osodaomeet.opensourceorchestra.org/circle/",
+    "https://osodaomeet.opensourceorchestra.org/meetings/1/",
+    "https://osodaomeet.opensourceorchestra.org/meetings/1/notes/",
+    "https://osodaomeet.opensourceorchestra.org/narration/",
+    "https://osodaomeet.opensourceorchestra.org/dreams/",
+    "https://zuchiangmai.app/",
+    "https://zuchiangmai.app/pit/"
+  ],
+  "aliases": {
+    "osodao.org": "301 to canonical with full path and query",
+    "osodao.com": "301 to canonical with full path and query",
+    "osodao.app": "301 to canonical with full path and query",
+    "www.zuchiangmai.app": "301 to apex with full path and query",
+    "http variants": "301 to HTTPS with full path and query"
+  },
+  "verification": {
+    "doors": {
+      "live": 390,
+      "repair": 0
+    },
+    "hall_browser": 70,
+    "hall_structural": 362,
+    "hall_release_gates": 415,
+    "narration_audio_http": 206,
+    "meeting_notes_axe_violations": 0,
+    "zu_hero_photos": 16,
+    "zu_agenda_listings": 199,
+    "zu_milestones": 16,
+    "zu_pit_recordings": 29,
+    "wayback_captures_verified": 7
+  },
+  "raw_meeting_media": {
+    "recording": "full broadcast and sharing consent confirmed by Shaka at 2026-11-13T05:21:00Z; raw video file not attached or hosted in this archive",
+    "recording_consent_supersedes": "earlier consent-blocked or sealed-awaiting-consent wording",
+    "full_participant_transcript": "not released; not separately addressed by the correction",
+    "public_recap_and_consent_safe_notes": "published",
+    "drive_url": null,
+    "attendee_list": null
+  },
+  "public_recap": "https://osodaomeet.opensourceorchestra.org/meetings/1/notes/",
+  "takedown": "https://opensourceorchestra.org/takedown/"
+}

@@ -1,0 +1,34 @@
+{
+  "x_announcement": "https://x.com/Shakaleikaumaka/status/2120954614702817296",
+  "x_reply": {
+    "posted": false,
+    "reason": "402 credits depleted; no duplicate attempted"
+  },
+  "telegram_recap": {
+    "main": 3108,
+    "sanctuary": 475,
+    "stewards": 617,
+    "ftfa": 33
+  },
+  "telegram_notes": {
+    "main": 3110,
+    "sanctuary": 477,
+    "stewards": 619,
+    "ftfa": 35
+  },
+  "official_link_updates": {
+    "edited_in_place": 9,
+    "new_posts": 0
+  },
+  "direct_hall_ready_message": 447,
+  "notes": "Only public group names and message IDs are recorded. No direct-chat ID, private Drive file ID, attendee list, email address, raw media or full transcript is included.",
+  "recordingConsent": {
+    "status": "confirmed",
+    "reportedBy": "Shaka",
+    "reportedAt": "2026-11-13T05:21:00Z",
+    "scope": "full broadcast and sharing consent for the Meeting #1 recording",
+    "supersedes": "earlier consent-blocked or sealed-awaiting-consent wording",
+    "attachment": "raw video file is not attached or hosted in this archive",
+    "fullParticipantTranscript": "not released; not separately addressed"
+  }
+}

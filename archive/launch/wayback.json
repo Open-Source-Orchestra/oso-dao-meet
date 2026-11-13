@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://osodaomeet.opensourceorchestra.org/",
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20261113054744/https://osodaomeet.opensourceorchestra.org/",
+    "capture": "https://web.archive.org/web/20261113054744/https://osodaomeet.opensourceorchestra.org/",
+    "verify_status": 200,
+    "verify_title": "Open Source Orchestra DAO Meet \u2014 The First Circle"
+  },
+  {
+    "url": "https://osodaomeet.opensourceorchestra.org/circle/",
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20261113054808/https://osodaomeet.opensourceorchestra.org/circle/",
+    "capture": "https://web.archive.org/web/20261113054808/https://osodaomeet.opensourceorchestra.org/circle/",
+    "verify_status": 200,
+    "verify_title": "The OG Circle \u00b7 Open Source Orchestra DAO Meet"
+  },
+  {
+    "url": "https://osodaomeet.opensourceorchestra.org/meetings/1/notes/",
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20261113054840/https://osodaomeet.opensourceorchestra.org/meetings/1/notes/",
+    "capture": "https://web.archive.org/web/20261113054840/https://osodaomeet.opensourceorchestra.org/meetings/1/notes/",
+    "verify_status": 200,
+    "verify_title": "Recording-reviewed notes \u00b7 Proposal Meeting #1 \u00b7 Open Source Orchestra"
+  },
+  {
+    "url": "https://zuchiangmai.app/",
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20261113054901/https://zuchiangmai.app/",
+    "capture": "https://web.archive.org/web/20261113054901/https://zuchiangmai.app/",
+    "verify_status": 200,
+    "verify_title": "ZU / CHIANG MAI \u00e2\u0080\u0094 Living Field Guide"
+  },
+  {
+    "url": "https://osodaomeet.opensourceorchestra.org/narration/",
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20261113054941/https://osodaomeet.opensourceorchestra.org/narration/",
+    "capture": "https://web.archive.org/web/20261113054941/https://osodaomeet.opensourceorchestra.org/narration/",
+    "verify_status": 200,
+    "verify_title": "Listen to the hall \u2014 sourced AI steward transcript"
+  },
+  {
+    "url": "https://osodaomeet.opensourceorchestra.org/dreams/",
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20261113055011/https://osodaomeet.opensourceorchestra.org/dreams/",
+    "capture": "https://web.archive.org/web/20261113055011/https://osodaomeet.opensourceorchestra.org/dreams/",
+    "verify_status": 200,
+    "verify_title": "Four new doors. Two worlds. One open invitation."
+  },
+  {
+    "url": "https://zuchiangmai.app/pit/",
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20261113055035/https://zuchiangmai.app/pit/",
+    "capture": "https://web.archive.org/web/20261113055035/https://zuchiangmai.app/pit/",
+    "verify_status": 200,
+    "verify_title": "The PIT \u00e2\u0080\u0094 ZU / CHIANG MAI memory room"
+  }
+]
