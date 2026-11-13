@@ -1,8 +1,8 @@
 Listen to the hall — The First Circle
 
 AI-agent-steward synthetic narration authorized by Shaka; not a live or new recording of Shaka. An AI speaker, not human presence or meeting attendance; based only on cited public records.
-This optional narration is newly synthesized editorial speech, not participant audio, meeting minutes, or the separate consent-gated Listening Archive.
-Generated 2026-11-12T19:33:28Z
+This optional narration is newly synthesized editorial speech, not participant audio or meeting minutes. Meeting #1 recording broadcast and sharing consent is confirmed; no raw meeting media or full participant transcript is attached here. See the dated written correction at movement 11.
+Generated 2026-11-13T05:32:31Z
 Total measured audio: 9:25
 
 MOVEMENT 01 / 12 · The First Circle · 0:44
@@ -116,13 +116,17 @@ Sources:
   Open join — review and card approval: https://opensourceorchestra.org/join/
 
 MOVEMENT 11 / 12 · The Listening Archive · 0:48
+Recording-consent correction · 13 November 2026, 05:21 UTC
+Shaka confirmed that Meeting #1 had full consent for the recording to be broadcast and shared everywhere. The ʻohana has already shown the OSO DAO care. This supersedes the original narration's statement that the recording remained consent-blocked. The high-level public notes remain available. The raw video file is not attached or hosted on this site in this update, and the full participant transcript was not separately addressed or released.
+Historical audio limitation: The original 12 November synthetic audio and its matching caption cues below are unchanged and contain superseded archive-lock wording. No new voice was synthesized for this correction; rely on this dated written update for current status.
+Original 12 November script and matching audio (historical):
 This is the right place to repeat the boundary between the voice you are hearing now and a meeting record. This movement is newly synthesized editorial speech. It contains no participant quotation and no attendee voice. The separate Listening Archive stays locked: its machine-readable item list is empty, and its transcript and recording fields are null. No raw meetup transcript, audio, video, attributable minutes or quotation is published in this narrated edition. Any future raw release still requires Shaka's specific blessing for that release and every required participant consent. Existing public calls and older open recordings do not unlock a new meeting record. You can download this narration's script, captions and sources because they are editorial artifacts, not because the archive's consent gate has been opened.
 MP3: assets/narration/audio/11-listening-archive.mp3
 Sources:
-- The Listening Archive remains locked with an empty items list, and transcript and recording are null.
-  Machine-readable sealed archive status: https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/archive/status.json
-- Raw meeting material requires specific release blessing and all required consent; existing public calls do not unlock it.
-  Sealed Listening Archive: https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/archive/index.html
+- Full Meeting #1 recording broadcast and sharing consent is confirmed; the archive attaches no raw media or full participant transcript.
+  Machine-readable archive status · consent confirmed, media not attached: https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/archive/status.json
+- Shaka's 13 November correction supersedes earlier consent-blocked wording for the recording; the high-level public notes remain available.
+  Meeting #1 recording-consent correction: https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/meetings/1/status.json
 - This narrated edition contains editorial speech only and does not publish participant voices or words.
   Narration disclosure and scope: https://osodaomeet.opensourceorchestra.org/narration/
 

@@ -1,10 +1,31 @@
 # Testing — presentation edition
 
-Verified locally on **12 November 2026, UTC**. The integrated edition includes the verified presentation content, 37 living-wall assets, the complete OG Circle, share/print controls, and the sealed archive. Physical-headset certification remains a follow-up, not a claim.
+## 13 November 2026 recording-consent correction (current)
 
-## Optional AI-steward narrated edition (current)
+Verified locally on **13 November 2026, UTC** after Shaka's 05:21 UTC correction. Public wording now confirms full Meeting #1 recording broadcast/share consent, keeps the high-level notes available, attaches no raw video or full participant transcript, and makes no governance/funding decision claim.
 
-Verified locally on **12 November 2026, UTC** in `/workspace/oso-dao-meet`. The original archive/circle/meeting files were not changed. The separate raw-recording review is the parent's lane; the public Listening Archive still verifies `locked`, `items=[]`, and null transcript/recording.
+| Suite / evidence | Result |
+|---|---|
+| Structural, editorial, fallback, privacy and correction checks | **648 / 648 PASS** · `node scripts/validate.mjs` |
+| Release gates, including raw-media exclusion and conservative status JSON | **661 PASS** · `python3 scripts/validate_final.py .` |
+| Focused real-browser correction suite | **117 PASS · 0 FAIL · 0 diagnostics** · `/workspace/oso-dao-meet-qa/consent-correction-results.json` |
+| Desktop/mobile axe accessibility | **0 violation rules / 0 nodes in all 12 tested views** · notes, recap, meetings index, archive, narration and main panel at 1440×960 and 390×844 |
+| No-JavaScript functional fallback | **PASS** · corrected movement readable at 390×844 with no overflow or stale lock status. Axe injection is **SKIPPED** in this view only because axe requires a JavaScript runtime; the equivalent main JS and static views passed axe. |
+| Narration integrity | **12 / 12 MP3 SHA-256 checks unchanged** · no synthesis, raw meeting media or full participant transcript added |
+
+The focused suite also verifies corrected JSON, no recording URL/download invention, no autoplay or pre-Play MP3 request, no Drive/private Meet payload, no horizontal overflow, and a visible dated correction before movement 11's historical audio. Screenshots are `/workspace/oso-dao-meet-qa/consent-correction-*.png`; the harness is `/workspace/oso-dao-meet-qa/consent-correction-qa.cjs`.
+
+**Intentional historical limitation:** movement 11's original 12 November synthetic audio and matching SRT/VTT spoken cues retain superseded lock wording verbatim so they continue to match the unchanged audio. A prominent dated written correction appears beside the static player, in the live panel, manifest, plain transcript and non-spoken WebVTT `NOTE` blocks. No new voice was synthesized.
+
+## Historical 12 November 2026 baselines — superseded archive status
+
+**All results below this point are dated historical evidence, not current archive/consent assertions.** They were captured before the 13 November correction, when the site represented the archive as locked/sealed. Their old lock wording is retained only to describe what those earlier test runs asserted; current results are above.
+
+Verified locally on **12 November 2026, UTC**. The integrated edition included the verified presentation content, 37 living-wall assets, the complete OG Circle, share/print controls, and the then-sealed archive. Physical-headset certification remains a follow-up, not a claim.
+
+### Optional AI-steward narrated edition (12 November historical baseline)
+
+Verified locally on **12 November 2026, UTC** in `/workspace/oso-dao-meet`. At that historical checkpoint, the original archive/circle/meeting files were not changed and the public Listening Archive verified `locked`, `items=[]`, and null transcript/recording. The 13 November status and correction results above supersede that consent status.
 
 | Suite / evidence | Result |
 |---|---|

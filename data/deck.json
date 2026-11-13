@@ -1,6 +1,6 @@
 {
   "title": "Open Source Orchestra DAO Meet — The First Circle",
-  "version": "2026-11-12.presentation-edition",
+  "version": "2026-11-13.recording-consent-correction",
   "editorialStatus": "Presentation edition built at Shaka's request. A community proposal and public résumé, not a governance decision, member registry, or onchain record.",
   "slides": [
     {
@@ -243,23 +243,23 @@
     {
       "id": "listening-archive",
       "chord": "C",
-      "kicker": "C · FUTURE LISTENING ARCHIVE · SEALED WITH CARE",
+      "kicker": "C · LISTENING ARCHIVE · RECORDING CONSENT CONFIRMED",
       "title": "The Listening Archive",
-      "lede": "TRANSCRIPT + RECORDING · LOCKED UNTIL BLESSING + ALL REQUIRED CONSENT",
+      "lede": "MEETING #1 RECORDING · FULL BROADCAST + SHARING CONSENT",
       "bullets": [
-        "No meetup transcript, audio, video, attributable minutes or quotation is published now.",
-        "Release needs Shaka's specific blessing and every necessary participant consent.",
-        "Existing public calls stay separate; they do not unlock this meeting's archive.",
-        "After those gates, consented downloads will live here with credits and takedown."
+        "13 Nov · Shaka confirmed full consent to broadcast and share the recording everywhere.",
+        "The ʻohana has already shown the OSO DAO care; public notes remain available.",
+        "Raw video is not attached or hosted on this site in this update; no download is claimed.",
+        "Full participant transcript was not separately addressed and is not released."
       ],
       "links": [
-        { "label": "Enter the sealed archive", "url": "https://osodaomeet.opensourceorchestra.org/archive/" },
+        { "label": "Open the Listening Archive", "url": "https://osodaomeet.opensourceorchestra.org/archive/" },
         { "label": "Read the takedown commitment", "url": "https://opensourceorchestra.org/takedown/" },
         { "label": "Existing public calls archive", "url": "https://opensourceorchestra.org/calls/" },
         { "label": "Existing consented open recording", "url": "https://opensourceorchestra.org/openrecording2/" }
       ],
-      "theme": "locked",
-      "status": "LOCKED · NOTHING TO DOWNLOAD YET"
+      "theme": "sage",
+      "status": "CONSENT CONFIRMED · MEDIA NOT ATTACHED"
     },
     {
       "id": "love",

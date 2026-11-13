@@ -67,7 +67,10 @@ export function createNarration(options) {
     if (!item || !slide) return;
     ui.position.textContent = `MOVEMENT ${String(options.getIndex() + 1).padStart(2, '0')} / 12 · ${timecode(item.duration)} · SYNTHETIC AI STEWARD`;
     ui.title.textContent = slide.title;
-    ui.caption.textContent = item.text;
+    const update = item.writtenUpdate;
+    ui.caption.textContent = update
+      ? `${update.title}\n${update.text}\n\nHistorical audio limitation: ${update.audioNote}\n\nOriginal 12 November script and matching audio (historical):\n${item.text}`
+      : item.text;
     ui.transcript.href = `./narration/#${encodeURIComponent(item.id)}`;
     ui.download.href = item.audio;
     ui.vtt.href = item.vtt;

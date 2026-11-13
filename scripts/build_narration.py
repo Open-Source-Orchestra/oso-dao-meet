@@ -69,6 +69,10 @@ def check_source(source, deck):
         for ref in slide["sources"]:
             check(ref.get("claim") and ref.get("label"), f"{slide['id']}: incomplete source claim")
             check(ref.get("url", "").startswith("https://"), f"{slide['id']}: source must be public HTTPS")
+        update = slide.get("writtenUpdate")
+        if update:
+            check(all(update.get(key) for key in ["date", "title", "text", "audioNote"]), f"{slide['id']}: incomplete written status correction")
+            check(not blocked.search(update["text"] + update["audioNote"]), f"{slide['id']}: forbidden material in written correction")
     check("synthetic narration that Shaka authorized" in source["slides"][0]["text"], "spoken intro must disclose authorized synthetic narration")
     check("not a live or new recording of Shaka" in source["slides"][0]["text"], "spoken intro must say this is not a live/new Shaka recording")
     check("meeting attendee" in source["slides"][0]["text"], "spoken intro must reject simulated meeting attendance")
@@ -172,8 +176,11 @@ def vtt_time(seconds: float, srt=False):
     return f"{hours:02d}:{minutes:02d}:{secs:02d}{separator}{millis:03d}"
 
 
-def captions(text: str, start: float, end: float, srt=False):
-    return (f"1\n{srt and ''}" if srt else "WEBVTT\n\n") + f"{vtt_time(start, srt)} --> {vtt_time(end, srt)}\n{text}\n"
+def captions(text: str, start: float, end: float, srt=False, note: str = ""):
+    prefix = f"1\n{srt and ''}" if srt else "WEBVTT\n\n"
+    if note and not srt:
+        prefix += f"NOTE {note}\n\n"
+    return prefix + f"{vtt_time(start, srt)} --> {vtt_time(end, srt)}\n{text}\n"
 
 
 def clock(seconds: float):
@@ -188,11 +195,20 @@ def render_static(source, records, generated_at: str, total_duration: float):
             f'<li><strong>{html.escape(ref["claim"])}</strong><br><a href="{html.escape(ref["url"], quote=True)}" rel="noopener noreferrer">{html.escape(ref["label"])} ↗</a></li>'
             for ref in authored["sources"]
         )
+        update = authored.get("writtenUpdate")
+        correction = ""
+        audio_label = ""
+        script_label = ""
+        if update:
+            correction = f'''<aside class="notice status-correction" role="note" aria-label="{html.escape(update['title'], quote=True)}"><h3>{html.escape(update['title'])}</h3><p><strong>{html.escape(update['text'])}</strong></p><p>{html.escape(update['audioNote'])}</p><p><a href="../meetings/1/notes/">Read the existing high-level public notes</a> · <a href="../archive/">Current archive status</a></p></aside>'''
+            audio_label = '<p class="audio-history"><strong>Original 12 November audio and matching captions</strong> · historical; see the current written correction above.</p>'
+            script_label = '<p class="script-label"><strong>Original 12 November script, retained verbatim to match the unchanged historical audio:</strong></p>'
         items.append(f'''<article id="{html.escape(authored['id'])}">
 <p class="movement">MOVEMENT {index:02d} / 12 · {clock(record['duration'])} · <a href="../?slide={html.escape(authored['id'])}&amp;listen=1">Open this movement in the hall</a></p>
 <h2>{html.escape(record['title'])}</h2>
-<div class="listen"><audio controls preload="none" src="../{record['audio'].removeprefix('./')}" aria-label="Movement {index}, {html.escape(record['title'])}, synthetic AI steward narration"><track kind="captions" src="../{record['vtt'].removeprefix('./')}" srclang="en" label="English" default>Your browser cannot play this optional audio. Read the complete text below or <a href="../{record['audio'].removeprefix('./')}" download>download the MP3</a>.</audio><div class="file-links"><a href="../{record['audio'].removeprefix('./')}" download>MP3 · {record['bytes']:,} bytes</a><a href="../{record['vtt'].removeprefix('./')}" download>WebVTT</a><a href="../{record['srt'].removeprefix('./')}" download>SRT</a></div></div>
-<p class="script">{html.escape(authored['text'])}</p>
+{correction}
+<div class="listen">{audio_label}<audio controls preload="none" src="../{record['audio'].removeprefix('./')}" aria-label="Movement {index}, {html.escape(record['title'])}, synthetic AI steward narration"><track kind="captions" src="../{record['vtt'].removeprefix('./')}" srclang="en" label="English" default>Your browser cannot play this optional audio. Read the complete text below or <a href="../{record['audio'].removeprefix('./')}" download>download the MP3</a>.</audio><div class="file-links"><a href="../{record['audio'].removeprefix('./')}" download>MP3 · {record['bytes']:,} bytes</a><a href="../{record['vtt'].removeprefix('./')}" download>WebVTT</a><a href="../{record['srt'].removeprefix('./')}" download>SRT</a></div></div>
+{script_label}<p class="script">{html.escape(authored['text'])}</p>
 <details open><summary>Sources for this movement · {len(authored['sources'])} claims</summary><ol class="sources">{refs}</ol></details>
 </article>''')
     page = f'''<!doctype html>
@@ -205,7 +221,7 @@ def render_static(source, records, generated_at: str, total_duration: float):
 <nav class="downloads" aria-label="Full narration downloads"><a href="./transcript.txt" download>Plain transcript</a><a href="./narration.vtt" download>Full-deck WebVTT</a><a href="./narration.srt" download>Full-deck SRT</a><a href="../data/narration.json" download>Narration data + measured durations</a><a href="../SOURCES.md#ai-steward-narration">Credits and rights</a><a href="../">Return to the hall</a></nav>
 <p>Generated {html.escape(generated_at)}. Each movement cites the public records behind its factual claims. The ledger and live tip configuration may change; consult their current public versions. This presentation proposes nothing onchain, approves no membership or governance change, and asks for no wallet, token, rank, donation or funds movement.</p></header>
 <main>{''.join(items)}</main>
-<footer><p>Prepared by Shaka's AI agent steward under his explicit authorization for this narrated edition. The closing movement is original agent-attributed language, not testimony or a quotation from a participant.</p><p>Voice generation used the pre-existing authorized Fish reference lane; the private voice reference and credentials are not shipped. A single slide-specific MP3 is only requested after a visitor opens narration or chooses its native audio control. Static text works without JavaScript.</p><p>Takedown first: <a href="https://opensourceorchestra.org/takedown/">Open Source Orchestra takedown commitment</a>. <a href="../archive/">The separate raw Listening Archive remains locked.</a></p></footer>
+<footer><p>Prepared by Shaka's AI agent steward under his explicit authorization for this narrated edition. The closing movement is original agent-attributed language, not testimony or a quotation from a participant.</p><p>Voice generation used the pre-existing authorized Fish reference lane; the private voice reference and credentials are not shipped. A single slide-specific MP3 is only requested after a visitor opens narration or chooses its native audio control. Static text works without JavaScript.</p><p>Takedown first: <a href="https://opensourceorchestra.org/takedown/">Open Source Orchestra takedown commitment</a>. <a href="../archive/">Listening Archive: recording consent confirmed, media not attached.</a> Movement 11's original audio and matching caption cues are historical; the adjacent 13 November written correction is current.</p></footer>
 </body></html>'''
     return page
 
@@ -236,7 +252,9 @@ def build(args):
         check(12 <= audio_duration <= 180, f"{slug}: implausible duration {audio_duration}s")
         vtt = f"assets/narration/captions/{slug}.vtt"
         srt = f"assets/narration/captions/{slug}.srt"
-        write_text(ROOT / vtt, captions(authored["text"], 0, audio_duration))
+        update = authored.get("writtenUpdate")
+        note = "" if not update else f"{update['title']}. {update['text']} Historical audio limitation: {update['audioNote']}"
+        write_text(ROOT / vtt, captions(authored["text"], 0, audio_duration, note=note))
         write_text(ROOT / srt, captions(authored["text"], 0, audio_duration, srt=True))
         record = {
             "id": authored["id"], "ordinal": index, "title": deck_slide["title"],
@@ -244,6 +262,8 @@ def build(args):
             "duration": audio_duration, "bytes": audio_path.stat().st_size,
             "sha256": sha(audio_path), "vtt": f"./{vtt}", "srt": f"./{srt}", "sources": authored["sources"]
         }
+        if update:
+            record["writtenUpdate"] = update
         records.append(record)
         total_duration += audio_duration
         audio_manifest[authored["id"]] = {"sourceSha256": source_hash, "audioSha256": record["sha256"], "duration": audio_duration, "bytes": record["bytes"]}
@@ -251,6 +271,10 @@ def build(args):
     generated_at = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
     full_vtt = "WEBVTT\n\n"
+    for authored in source["slides"]:
+        update = authored.get("writtenUpdate")
+        if update:
+            full_vtt += f"NOTE {update['title']}. {update['text']} Historical audio limitation: {update['audioNote']}\n\n"
     full_srt = []
     full_text = [source["title"], "", DISCLOSURE, source["recordingBoundary"], f"Generated {generated_at}", f"Total measured audio: {clock(total_duration)}", ""]
     offset = 0.0
@@ -258,7 +282,11 @@ def build(args):
         end = offset + record["duration"]
         full_vtt += f"{number}\n{vtt_time(offset)} --> {vtt_time(end)}\n{record['title']}: {authored['text']}\n\n"
         full_srt.append(f"{number}\n{vtt_time(offset, True)} --> {vtt_time(end, True)}\n{record['title']}: {authored['text']}\n")
-        full_text += [f"MOVEMENT {number:02d} / 12 · {record['title']} · {clock(record['duration'])}", authored["text"], f"MP3: {record['audio'].removeprefix('./')}", "Sources:"]
+        full_text.append(f"MOVEMENT {number:02d} / 12 · {record['title']} · {clock(record['duration'])}")
+        update = authored.get("writtenUpdate")
+        if update:
+            full_text += [update["title"], update["text"], f"Historical audio limitation: {update['audioNote']}", "Original 12 November script and matching audio (historical):"]
+        full_text += [authored["text"], f"MP3: {record['audio'].removeprefix('./')}", "Sources:"]
         full_text += [f"- {ref['claim']}\n  {ref['label']}: {ref['url']}" for ref in authored["sources"]]
         full_text.append("")
         offset = end

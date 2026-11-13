@@ -411,7 +411,7 @@ dialog::backdrop { background: rgba(5, 3, 8, .72); backdrop-filter: blur(9px); -
 .narration-caption-wrap { margin-top: 13px; padding-top: 13px; border-top: 1px solid var(--line); }
 .narration-caption-wrap h3 { margin: 0 0 9px; color: var(--gold); font-size: 9px; font-weight: 650; letter-spacing: .1em; text-transform: uppercase; }
 .narration-caption-wrap h3 span { color: #9d8fa1; font-size: 7px; font-weight: 400; letter-spacing: .01em; text-transform: none; }
-.narration-caption { margin: 0; color: #e6d9df; font: 13px/1.7 var(--serif); }
+.narration-caption { margin: 0; color: #e6d9df; font: 13px/1.7 var(--serif); white-space: pre-line; }
 .narration-downloads { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; margin-top: 15px; }
 .narration-downloads a { padding: 8px; border: 1px solid var(--line); border-radius: 6px; font-size: 9px; line-height: 1.4; text-align: center; text-decoration: none; }
 .narration-downloads a:hover { border-color: var(--gold); background: rgba(229,193,123,.06); }

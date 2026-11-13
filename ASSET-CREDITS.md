@@ -7,8 +7,8 @@
 - The Open Source Orchestra DAO is a **proposal and public community ledger, not yet an onchain DAO**.
 - The First Circle is consent-based. Invitation, attendance, an artist card, or depiction is not automatic enrolment.
 - The third Open Source Orchestra DAO Meetup is **open-invite for everyone**, per Shaka on 12 November 2026 at 15:53 UTC. Date, time, place, and public access details remain TBA.
-- No current private Meet links, attendee data, contact mappings, meeting transcript, or meeting recording are included.
-- The future Listening Archive remains **LOCKED** until Shaka blesses the specific release and every required consent is explicit.
+- No current private Meet links, attendee data, contact mappings, full participant transcript, or raw meeting media are attached to this site.
+- **Recording-consent correction · 13 November 2026, 05:21 UTC:** Shaka confirmed that Meeting #1 had full consent for the recording to be broadcast and shared everywhere. The ʻohana has already shown the OSO DAO care. This supersedes earlier consent-blocked/sealed wording. The high-level public notes remain available; the raw video file is not attached or hosted on this site in this update. The full participant transcript was not separately addressed and is not released.
 - Every contribution is equal. Agents have no votes, keys, Shamans, or autonomous execution.
 - Ledger figures are a **9 November 2026 dated snapshot**: 4 applied, 7 prepared, $0 awarded.
 
@@ -94,7 +94,7 @@
 
 ### 11 · C · The Listening Archive
 
-- [Enter the sealed archive](https://osodaomeet.opensourceorchestra.org/archive/)
+- [Open the Listening Archive · recording consent confirmed](https://osodaomeet.opensourceorchestra.org/archive/)
 - [Read the takedown commitment](https://opensourceorchestra.org/takedown/)
 - [Existing public calls archive](https://opensourceorchestra.org/calls/)
 - [Existing consented open recording](https://opensourceorchestra.org/openrecording2/)
@@ -114,7 +114,7 @@
 **Voice generated:** 12 November 2026 at 19:14 UTC; the exact final caption/manifest timestamp is recorded in `data/narration.json`. The optional **Listen to the hall** edition is a twelve-movement, 9:25 synthetic narrated version of this presentation. Its visible and spoken disclosure is: **AI-agent-steward synthetic narration authorized by Shaka; not a live or new recording of Shaka. An AI speaker, not human presence or meeting attendance; based only on cited public records.**
 
 - **Script and claim map:** `scripts/narration-source.json` contains twelve original editorial scripts and **36 claim-level public references**. Runtime `data/narration.json` repeats those references beside the exact spoken text, measured duration, byte size and SHA-256 for every movement. The complete readable document is `/narration/`; downloads are `/narration/transcript.txt`, `/narration/narration.vtt` and `/narration/narration.srt`.
-- **Raw meeting boundary:** no participant voice, attendee quotation, attendee list, raw meeting transcript or raw meeting recording is used or included. The Meeting #1 raw-media lane remains separate. The machine-readable Listening Archive still has `status=locked`, `items=[]` and null transcript/recording. Narration downloads do not unlock that archive.
+- **Raw meeting boundary and 13 November correction:** no participant voice, new attendee quotation, attendee list, full participant transcript or raw meeting media is used or included in this narrated edition. Full Meeting #1 recording broadcast/share consent is confirmed, but the raw video file remains unattached on this site in this update. The machine-readable Listening Archive has `status=consent_confirmed_media_not_attached`, `items=[]` and null transcript/recording attachment fields. Movement 11's original 12 November synthetic audio and matching caption cues remain byte-for-byte/verbatim historical artifacts with superseded lock wording; a prominent dated written correction is adjacent in the static page, live panel, manifest, plain transcript and WebVTT notes. No new voice was synthesized.
 - **Voice authorization:** Shaka explicitly requested this narrated AI-steward edition on 12 November 2026. The pre-existing authorized Fish zero-shot steward lane (`s2.1-pro-free`) created the audio through `scripts/build_narration.py`. No substitute voice or new paid account was used. The private voice reference and key are not shipped.
 - **Scope of permission:** this documents authorization for the disclosed synthetic editorial narration in this hall, not a general license to clone, reuse or redistribute Shaka's voice for another work, endorsement, quotation or claim of human presence. Narration is original agent-attributed speech, not testimony from Shaka or any participant.
 - **File inventory:** exactly twelve local mono MP3 files, 44.1 kHz, 96 kbps, one per movement under `assets/narration/audio/`; total measured duration **564.610 seconds** and **6,782,481 bytes**. The exact ffprobe results are recorded in `/workspace/oso-dao-meet-qa/narration-ffprobe.json` (QA only).

@@ -92,13 +92,16 @@ check(read('vendor/THREE-LICENSE.txt').includes('Permission is hereby granted'),
 
 const phaseSlide = deck.slides.find((slide) => slide.id === 'dao-phases');
 const invite = deck.slides.find((slide) => slide.id === 'third-meetup');
-const locked = deck.slides.find((slide) => slide.id === 'listening-archive');
+const archiveSlide = deck.slides.find((slide) => slide.id === 'listening-archive');
 check(/PROPOSED ONLY/.test(phaseSlide?.status || '') && /NO SAFE OR CONTRACT DEPLOYED/.test(phaseSlide?.status || ''), 'DAO phases must remain explicitly proposed, not deployed or adopted.');
 check(invite?.title === 'The third meetup is open to all', 'Third meetup must remain an open invitation for everyone.');
 check(invite?.bullets.some((line) => line.includes('No date, time, place or public meeting link has been confirmed here yet.')), 'Third meetup must say details are not yet published.');
 check(!invite?.links.some((link) => /meet\.google|zoom\.us/i.test(link.url)), 'Third meetup must not contain a current meeting link.');
-check(/LOCKED/.test(locked?.status || '') && /ALL REQUIRED CONSENT/.test(locked?.lede || ''), 'Listening Archive must remain locked pending all required consent.');
-check(!locked?.image, 'Listening Archive must not carry an image.');
+check(/CONSENT CONFIRMED/.test(archiveSlide?.status || '') && /FULL BROADCAST \+ SHARING CONSENT/.test(archiveSlide?.lede || ''), 'Listening Archive must confirm full recording broadcast and sharing consent.');
+check(archiveSlide?.bullets.some((line) => /not attached or hosted/.test(line) && /no download is claimed/i.test(line)), 'Listening Archive must not imply that raw video is attached or downloadable.');
+check(archiveSlide?.bullets.some((line) => /Full participant transcript was not separately addressed and is not released/.test(line)), 'Listening Archive must keep the full participant transcript unreleased.');
+check(!/LOCKED UNTIL|SEALED WITH CARE/.test(`${archiveSlide?.status || ''} ${archiveSlide?.lede || ''} ${archiveSlide?.kicker || ''}`), 'Listening Archive must not retain superseded consent-lock wording.');
+check(!archiveSlide?.image, 'Listening Archive must not carry an image.');
 
 const narration = json('data/narration.json');
 const narrationSource = json('scripts/narration-source.json');
@@ -115,6 +118,12 @@ check(!/<(?:video|iframe|embed|object)\b/i.test(html), 'No embedded meeting medi
 check(!/\.autoplay\s*=\s*true/i.test(narrationJS), 'Narration controller must not enable media autoplay.');
 check(!narrationJS.includes("tts.synth") && !narrationJS.includes('edge_tts'), 'Runtime must not synthesize or substitute voices.');
 check(narration.slides.length === 12 && narrationSource.slides.length === 12, 'Narration must contain exactly twelve movements.');
+const archiveNarration = narration.slides.find((item) => item.id === 'listening-archive');
+const archiveCorrection = archiveNarration?.writtenUpdate;
+check(archiveCorrection?.date === '2026-11-13' && /full consent/.test(archiveCorrection?.text || '') && /broadcast and shared everywhere/.test(archiveCorrection?.text || ''), 'Movement 11 must carry the dated full-recording broadcast/share consent correction.');
+check(/not attached or hosted/.test(archiveCorrection?.text || '') && /full participant transcript was not separately addressed or released/.test(archiveCorrection?.text || ''), 'Movement 11 correction must distinguish unattached raw video and the unreleased full participant transcript.');
+check(/No new voice was synthesized/.test(archiveCorrection?.audioNote || '') && /superseded archive-lock wording/.test(archiveCorrection?.audioNote || ''), 'Movement 11 must disclose unchanged historical audio and superseded lock wording.');
+check(narrationSource.slides.find((item) => item.id === 'listening-archive')?.writtenUpdate?.text === archiveCorrection?.text, 'Movement 11 correction must match its authored source.');
 check(narration.totalBytes > 500000 && narration.totalDuration >= 480 && narration.totalDuration <= 720, 'Narration should remain a substantive 8–12 minute deck.');
 for (const [index, item] of narration.slides.entries()) {
   const label = `Narration ${index + 1} (${item.id || 'missing id'})`;

@@ -1,21 +1,30 @@
 {
   "schema": "oso-dao-meet-listening-archive-v1",
-  "status": "locked",
-  "updated": "2026-11-12",
+  "status": "consent_confirmed_media_not_attached",
+  "updated": "2026-11-13",
   "transcript": null,
   "recording": null,
   "items": [],
   "publicMeetLinks": null,
   "attendeeData": null,
   "publicRecap": "/meetings/1/",
+  "publicNotes": "/meetings/1/notes/",
   "distributionConsentFirstNamesOnly": ["Ben", "Levi", "Utkarsh"],
-  "releaseRequirements": [
-    "Shaka's explicit blessing for the specific item and release surface",
-    "explicit recording consent before capture",
-    "explicit transcription, attribution and publication consent where required",
-    "the same consent handling for every speaker and identifiable participant, including late joiners",
-    "credits, AI disclosure and takedown path with every released item"
+  "distributionConsentScope": "earlier public recap and high-level notes only",
+  "recordingConsent": {
+    "status": "confirmed",
+    "reportedBy": "Shaka",
+    "reportedAt": "2026-11-13T05:21:00Z",
+    "scope": "full consent for the Meeting #1 recording to be broadcast and shared everywhere",
+    "supersedes": "earlier consent-blocked or sealed-awaiting-consent wording"
+  },
+  "mediaAttachment": "the raw video file is not attached or hosted on this site in this update; no download is claimed",
+  "fullParticipantTranscript": "not released; not separately addressed by the 2026-11-13 correction",
+  "publicationBoundaries": [
+    "the existing high-level public notes remain available",
+    "no raw video file, full participant transcript, Drive URL or ID, attendee list, screenshots, private Meet links or wallet mappings are attached",
+    "corrections, AI disclosure and the takedown path remain in effect"
   ],
-  "notice": "Attendance is not recording consent. Recording is not publication consent. Silence is not consent. Existing public calls are separate and do not unlock this archive.",
+  "notice": "Meeting #1 recording broadcast and sharing consent is confirmed. This archive currently attaches no raw media or full participant transcript; consent confirmation is not a claim that a file is hosted here.",
   "takedown": "https://opensourceorchestra.org/takedown/"
 }

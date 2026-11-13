@@ -2,9 +2,9 @@
   "schema": "oso-ai-steward-narration-v1",
   "title": "Listen to the hall — The First Circle",
   "language": "en",
-  "generatedAt": "2026-11-12T19:33:28Z",
+  "generatedAt": "2026-11-13T05:32:31Z",
   "disclosure": "AI-agent-steward synthetic narration authorized by Shaka; not a live or new recording of Shaka. An AI speaker, not human presence or meeting attendance; based only on cited public records.",
-  "recordingBoundary": "This optional narration is newly synthesized editorial speech, not participant audio, meeting minutes, or the separate consent-gated Listening Archive.",
+  "recordingBoundary": "This optional narration is newly synthesized editorial speech, not participant audio or meeting minutes. Meeting #1 recording broadcast and sharing consent is confirmed; no raw meeting media or full participant transcript is attached here. See the dated written correction at movement 11.",
   "voice": {
     "kind": "authorized synthetic zero-shot clone through the existing Fish steward lane",
     "model": "s2.1-pro-free",
@@ -324,21 +324,27 @@
       "srt": "./assets/narration/captions/11-listening-archive.srt",
       "sources": [
         {
-          "claim": "The Listening Archive remains locked with an empty items list, and transcript and recording are null.",
-          "label": "Machine-readable sealed archive status",
+          "claim": "Full Meeting #1 recording broadcast and sharing consent is confirmed; the archive attaches no raw media or full participant transcript.",
+          "label": "Machine-readable archive status · consent confirmed, media not attached",
           "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/archive/status.json"
         },
         {
-          "claim": "Raw meeting material requires specific release blessing and all required consent; existing public calls do not unlock it.",
-          "label": "Sealed Listening Archive",
-          "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/archive/index.html"
+          "claim": "Shaka's 13 November correction supersedes earlier consent-blocked wording for the recording; the high-level public notes remain available.",
+          "label": "Meeting #1 recording-consent correction",
+          "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/meetings/1/status.json"
         },
         {
           "claim": "This narrated edition contains editorial speech only and does not publish participant voices or words.",
           "label": "Narration disclosure and scope",
           "url": "https://osodaomeet.opensourceorchestra.org/narration/"
         }
-      ]
+      ],
+      "writtenUpdate": {
+        "date": "2026-11-13",
+        "title": "Recording-consent correction · 13 November 2026, 05:21 UTC",
+        "text": "Shaka confirmed that Meeting #1 had full consent for the recording to be broadcast and shared everywhere. The ʻohana has already shown the OSO DAO care. This supersedes the original narration's statement that the recording remained consent-blocked. The high-level public notes remain available. The raw video file is not attached or hosted on this site in this update, and the full participant transcript was not separately addressed or released.",
+        "audioNote": "The original 12 November synthetic audio and its matching caption cues below are unchanged and contain superseded archive-lock wording. No new voice was synthesized for this correction; rely on this dated written update for current status."
+      }
     },
     {
       "id": "love",

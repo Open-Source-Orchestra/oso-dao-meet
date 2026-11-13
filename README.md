@@ -1,6 +1,6 @@
 # Open Source Orchestra DAO Meet — The First Circle
 
-A self-contained, walkable Three.js concert hall and twelve-movement virtual-reality-ready slide deck, with opt-in sourced AI-steward narration, a complete OG Circle, and a consent-sealed Listening Archive.
+A self-contained, walkable Three.js concert hall and twelve-movement virtual-reality-ready slide deck, with opt-in sourced AI-steward narration, a complete OG Circle, and a Listening Archive whose Meeting #1 recording broadcast/share consent is confirmed while its raw media remains unattached on this site.
 
 **Canonical home:** https://osodaomeet.opensourceorchestra.org/
 
@@ -19,7 +19,7 @@ A self-contained, walkable Three.js concert hall and twelve-movement virtual-rea
 - **Listen to the hall:** twelve optional synthetic AI-agent-steward narrated movements, **9 minutes 25 seconds** total, explicitly authorized by Shaka and never represented as a live/new Shaka recording. Play/pause, previous/next, seek and speed controls synchronize the existing projector and readable captions. Every slide has claim-level public sources, MP3/VTT/SRT links and an accessible full transcript. Off by default; no autoplay, no third-party runtime media calls, and no participant voices/words.
 - Full semantic transcript and credited gallery, complete no-JavaScript and no-WebGL editions, reduced-motion behavior, takedown route, and AI disclosure.
 - **`/circle/`:** all 15 existing public lineage nodes, 14 localized public card images and one monogram, 86 source-exact public links, the corrected Bogotá DIP history, and explicit non-membership/non-endorsement language. The invited guest remains unnamed and unpublished pending their own APPROVE; Kuba has only a minimal consent-gated remembrance chair.
-- **`/archive/`:** a machine- and human-readable locked archive with **no meeting transcript or recording**. Future downloads appear only after specific blessing and every required consent.
+- **`/archive/`:** machine- and human-readable status confirming full consent for the Meeting #1 recording to be broadcast and shared everywhere. The high-level public notes remain available. No raw video file or full participant transcript is attached to this site in the 13 November status-only update; no recording download is claimed.
 - Musical chord spine: **G · Em · C · D · C · G**, twice. Shareable deep links and an accessible **Print / save PDF** score.
 
 ## Run locally — no build step
@@ -107,6 +107,8 @@ Synthesis directly reuses the existing authorized Fish Shaka-steward lane (`s2.1
 
 Readable transcripts use natural **AI** and **DAO** typography; the build's `speech_text()` applies explicit letter pronunciation only at synthesis time, without changing the editorial words. Each per-slide VTT/SRT cue spans that slide's measured MP3 duration, and the visible caption follows the projector. Full-deck VTT/SRT cues are sequential offsets for a gapless editorial concatenation—not a raw recording, attendee transcript, or claim of word-level timing. New generation should re-measure durations and refresh `generatedAt`; `assets/narration/generation.json` caches source/audio hashes for resumable synthesis and contains no secrets. Code validates that only these twelve disclosed editorial MP3s are allowed: every unexpected audio file, including any raw meeting audio, still fails release validation.
 
+A movement may also carry a non-spoken `writtenUpdate` for a dated factual correction. Movement 11 uses this to present Shaka's 13 November full-recording broadcast/share consent confirmation beside the unchanged 12 November audio and its explicitly historical script/caption cues. The update is rendered in the static page, live panel, manifest, plain transcript and WebVTT `NOTE` metadata; it does not trigger synthesis or alter the MP3. SRT has no standard comment block, so its original spoken cue remains verbatim and is labelled as historical in the surrounding page and documentation.
+
 The voice/reuse permission is limited to this specifically disclosed synthetic edition. See the detailed provenance in `SOURCES.md#ai-steward-narration` and `ASSET-CREDITS.md`.
 
 ## Editorial and safety boundaries
@@ -116,7 +118,7 @@ The voice/reuse permission is limited to this specifically disclosed synthetic e
 - AI agents assist only: no votes and no keys.
 - No token sale, financial return, or funds movement.
 - The third meetup is an **open future invitation for everyone**. Details remain to be announced. No current Meet URL, attendee details, or email address is shipped.
-- The future Listening Archive transcript and recording are **LOCKED** pending blessing and all required consent. Only lock-status metadata exists; no media or transcript payload exists.
+- **Meeting #1 recording consent is confirmed:** on 13 November 2026 at 05:21 UTC, Shaka confirmed full consent for the recording to be broadcast and shared everywhere, superseding earlier consent-blocked wording. The high-level public notes remain available. The raw video file is not attached or hosted on this site in this status-only update, and the full participant transcript was not separately addressed or released. Only status metadata and editorial notes are present; no raw media or participant-transcript payload is added.
 - Public image reuse follows the supplied approved Garden Circle and Mandala Room bundles. Takedown requests come first.
 - Public node cards are lineage, never DAO membership, endorsement, voting power, or activation. The invited guest's private draft is not shipped. Kuba has only a minimal remembrance chair; no rich tribute, photo, audio, or lore.
 - Venue names describe artistic interpretations only; no affiliation or exact digital-twin claim.
@@ -140,7 +142,7 @@ assets/portraits/      9 approved public artist portraits
 assets/mumbai/         4 official Devcon 8 Mandala Room frames
 assets/nodes/          14 localized public OG node images
 circle/                OG Circle static lounge and node search
-archive/               Sealed Listening Archive + status.json
+archive/               Listening Archive consent/status + status.json (no raw media attached)
 data/deck.json         Twelve-slide editorial source and honest statuses
 data/media.json        Asset registry, alt text, public captions, and credits
 data/nodes.json        15 existing public lineage nodes + 86 links

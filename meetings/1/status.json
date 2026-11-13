@@ -19,17 +19,26 @@
     "reportedBy": "Shaka",
     "reportedAt": "2026-11-12T18:44:33Z",
     "firstNamesOnly": ["Ben", "Levi", "Utkarsh"],
-    "scope": "careful public recap and consent-safe notes; no additional identity claims"
+    "scope": "earlier careful public recap and high-level notes only; not the later full-recording consent correction"
+  },
+  "recordingConsent": {
+    "status": "confirmed",
+    "reportedBy": "Shaka",
+    "reportedAt": "2026-11-13T05:21:00Z",
+    "scope": "full consent for the Meeting #1 recording to be broadcast and shared everywhere",
+    "supersedes": "earlier wording that described the recording as consent-blocked or sealed awaiting consent"
   },
   "recording": {
-    "expected": true,
-    "review": "private watch and local review",
+    "review": "private watch and local review completed on 2026-11-12",
+    "consentStatus": "full broadcast and sharing consent confirmed",
+    "attachmentStatus": "not_attached_to_this_site",
     "publicUrl": null,
     "publicDownload": null,
     "rawTranscript": null,
+    "fullTranscriptStatus": "not released; not separately addressed by the 2026-11-13 correction",
     "verifiedSegmentSeconds": 3231.584,
     "transcription": "local faster-whisper large-v3-turbo; media never uploaded to a transcription service",
-    "notes": "published high-level consent-safe themes only; no raw media or full participant transcript",
+    "notes": "published high-level notes remain available; the raw video file is not attached or hosted on this site in this update",
     "publicNotes": "/meetings/1/notes/"
   },
   "notesDistribution": {
