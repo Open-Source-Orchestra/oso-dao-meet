@@ -4,6 +4,9 @@
   "language": "en",
   "disclosure": "AI-agent-steward synthetic narration authorized by Shaka; not a live or new recording of Shaka. An AI speaker, not human presence or meeting attendance; based only on cited public records.",
   "recordingBoundary": "This optional narration is newly synthesized editorial speech, not participant audio or meeting minutes. Meeting #1 recording broadcast and sharing consent is confirmed; no raw meeting media or full participant transcript is attached here. See the dated written correction at movement 11.",
+  "errata": [
+    {"date": "2026-11-14", "movement": "origin-repertoire", "title": "Errata · 14 November 2026 · Devcon IX dates", "text": "Errata 14 Nov 2026: Devcon announced on 13 Nov that Devcon IX moves to 12–14 October 2027 (CCL – Lisbon Congress Centre, Lisbon); the narration says 11–13 October 2027.", "audioNote": "The 12 November synthetic audio, its matching captions and the verbatim script are unchanged so they keep matching each other; no new voice was synthesized. Rely on this dated written errata for the current dates.", "url": "https://devcon.org/lisbon/"}
+  ],
   "slides": [
     {
       "id": "overture",
@@ -16,10 +19,11 @@
     },
     {
       "id": "origin-repertoire",
+      "errata": {"date": "2026-11-14", "movement": "origin-repertoire", "title": "Errata · 14 November 2026 · Devcon IX dates", "text": "Errata 14 Nov 2026: Devcon announced on 13 Nov that Devcon IX moves to 12–14 October 2027 (CCL – Lisbon Congress Centre, Lisbon); the narration says 11–13 October 2027.", "audioNote": "The 12 November synthetic audio, its matching captions and the verbatim script are unchanged so they keep matching each other; no new voice was synthesized. Rely on this dated written errata for the current dates.", "url": "https://devcon.org/lisbon/"},
       "text": "The public Garden Circle tells a travelling history: Bogotá in twenty twenty-two, Istanbul in twenty twenty-three, Bangkok in twenty twenty-four, Buenos Aires in twenty twenty-five, then Shenzhen and Mumbai in twenty twenty-six. These are memories of real rooms, not proof of membership in a future DAO. The publicly shared Road to Lisbon now points toward Devcon nine, scheduled for October eleventh through thirteenth, twenty twenty-seven. The community hopes to propose a music space when Devcon opens that process. Devcon has not approved it, and no venue, booking, funding, or appearance is promised. The open join page welcomes musicians, developers, designers, translators, sound crew, listeners, and people whose role has not been named yet. Remote contribution is welcome too.",
       "sources": [
         {"claim": "The dated public history runs from Bogotá 2022 through Shenzhen and Mumbai 2026.", "label": "Garden Circle — public chronology", "url": "https://opensourceorchestra.org/garden/circle/"},
-        {"claim": "Devcon 9 is publicly scheduled in Lisbon on 11–13 October 2027.", "label": "Official Devcon 9 Lisbon page", "url": "https://devcon.org/lisbon/"},
+        {"claim": "The narration says Devcon 9 is scheduled in Lisbon on 11–13 October 2027; since 13 November 2026 the official Devcon page gives 12–14 October 2027 (see the dated errata).", "label": "Official Devcon 9 Lisbon page", "url": "https://devcon.org/lisbon/"},
         {"claim": "An Open Source Orchestra music space is a future proposal, not an approved Devcon 9 booking; remote participation is welcomed.", "label": "Road to Lisbon — honest status", "url": "https://opensourceorchestra.org/join/"}
       ]
     },

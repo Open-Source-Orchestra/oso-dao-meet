@@ -125,6 +125,11 @@ check(/not attached or hosted/.test(archiveCorrection?.text || '') && /full part
 check(/No new voice was synthesized/.test(archiveCorrection?.audioNote || '') && /superseded archive-lock wording/.test(archiveCorrection?.audioNote || ''), 'Movement 11 must disclose unchanged historical audio and superseded lock wording.');
 check(narrationSource.slides.find((item) => item.id === 'listening-archive')?.writtenUpdate?.text === archiveCorrection?.text, 'Movement 11 correction must match its authored source.');
 check(narration.totalBytes > 500000 && narration.totalDuration >= 480 && narration.totalDuration <= 720, 'Narration should remain a substantive 8–12 minute deck.');
+const devconErrata = narration.errata?.find((item) => item.movement === 'origin-repertoire');
+check(devconErrata?.date === '2026-11-14' && /12–14 October 2027/.test(devconErrata?.text || '') && /narration says 11–13/.test(devconErrata?.text || ''), 'Devcon IX date errata (12–14 October 2027) must be recorded against movement 2 without rewriting the recorded script.');
+check(/no new voice was synthesized/i.test(devconErrata?.audioNote || '') && narration.slides[1].errata?.text === devconErrata?.text && narrationSource.slides[1].errata?.text === devconErrata?.text, 'Movement 2 errata must match its authored source and keep the historical audio unchanged.');
+check(plain(narrationStatic).includes(devconErrata?.text || '∅') && read('narration/transcript.txt').includes(devconErrata?.text || '∅') && read('narration/narration.vtt').includes(devconErrata?.text || '∅'), 'Devcon IX errata must be visible on the static narration page, plain transcript and WebVTT notes.');
+check(narrationJS.includes('item.errata') && /dates superseded/.test(narrationJS), 'Live narration panel must surface the dated errata beside the historical script.');
 for (const [index, item] of narration.slides.entries()) {
   const label = `Narration ${index + 1} (${item.id || 'missing id'})`;
   const source = narrationSource.slides[index];

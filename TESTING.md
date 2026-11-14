@@ -1,5 +1,15 @@
 # Testing — presentation edition
 
+## 14 November 2026 Devcon IX date errata (current)
+
+Devcon announced on 13 November 2026 that Devcon IX moves to **12–14 October 2027** (CCL – Lisbon Congress Centre). Movement 2 of the narration, recorded 12 November, says 11–13 October 2027. The recorded audio, its captions and the verbatim script are **unchanged** so they keep matching each other; a dated written errata now appears in the `/narration/` header and beside movement 2, in `data/narration.json` (`errata`, top level and on slide 2), the plain transcript, the full-deck and movement-2 WebVTT `NOTE` blocks and the live narration panel. Movement 2's claim-level source line now records both the spoken and the current official dates.
+
+| Suite / evidence | Result |
+|---|---|
+| Structural, editorial, fallback, privacy, Meeting #2 and errata checks | **686 / 686 PASS** · `node scripts/validate.mjs` (4 new errata gates) |
+| Release gates | **760 PASS** · `python3 scripts/validate_final.py .` |
+| Narration integrity | **12 / 12 MP3 SHA-256 unchanged** before and after `python3 scripts/build_narration.py` (no `--synthesize`; no new voice) |
+
 ## 14 November 2026 Meeting #2 publication (current)
 
 Verified locally on **14 November 2026, UTC** after Shaka's 04:20 UTC confirmation that Meeting #2 (13 November, 07:11 UTC) was recorded with consent and may be transcribed, published and shared. New routes: `/meetings/2/` recap, `/meetings/2/notes/` ten themes, `/meetings/2/transcript/` complete timestamped transcript (HTML, TXT, WebVTT, JSON) and `/meetings/2/audio/` mono MP3 player. The raw 1280×720 video stays private.

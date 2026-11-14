@@ -68,9 +68,14 @@ export function createNarration(options) {
     ui.position.textContent = `MOVEMENT ${String(options.getIndex() + 1).padStart(2, '0')} / 12 · ${timecode(item.duration)} · SYNTHETIC AI STEWARD`;
     ui.title.textContent = slide.title;
     const update = item.writtenUpdate;
-    ui.caption.textContent = update
+    const erratum = item.errata;
+    let caption = update
       ? `${update.title}\n${update.text}\n\nHistorical audio limitation: ${update.audioNote}\n\nOriginal 12 November script and matching audio (historical):\n${item.text}`
       : item.text;
+    if (erratum) {
+      caption = `${erratum.title}\n${erratum.text}\n\nHistorical audio limitation: ${erratum.audioNote}\n\nOriginal 12 November script and matching audio (historical, dates superseded):\n${item.text}`;
+    }
+    ui.caption.textContent = caption;
     ui.transcript.href = `./narration/#${encodeURIComponent(item.id)}`;
     ui.download.href = item.audio;
     ui.vtt.href = item.vtt;

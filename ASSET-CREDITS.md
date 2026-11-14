@@ -25,6 +25,7 @@
 
 - [Walk the public timeline](https://opensourceorchestra.org/garden/circle/)
 - [Devcon 9 · Lisbon](https://devcon.org/lisbon/)
+  - **Errata 14 Nov 2026:** Devcon announced on 13 Nov 2026 that Devcon IX moves to **12–14 October 2027** (CCL – Lisbon Congress Centre); movement 2 of the narration (recorded 12 Nov) says 11–13 October 2027. The audio, captions and verbatim script are unchanged; a dated written errata appears on `/narration/`, in `data/narration.json` (`errata`), the plain transcript and the WebVTT notes.
 - [2022 open-mic DIP](https://forum.devcon.org/t/music-sessions-open-mic-stage/387)
 - [Public watch page](https://opensourceorchestra.org/watch/)
 - [Mumbai schedule archive](https://opensourceorchestra.org/schedule/)

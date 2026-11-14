@@ -2,8 +2,13 @@ Listen to the hall — The First Circle
 
 AI-agent-steward synthetic narration authorized by Shaka; not a live or new recording of Shaka. An AI speaker, not human presence or meeting attendance; based only on cited public records.
 This optional narration is newly synthesized editorial speech, not participant audio or meeting minutes. Meeting #1 recording broadcast and sharing consent is confirmed; no raw meeting media or full participant transcript is attached here. See the dated written correction at movement 11.
-Generated 2026-11-13T05:32:31Z
+Generated 2026-11-14T05:42:15Z
 Total measured audio: 9:25
+
+Errata · 14 November 2026 · Devcon IX dates
+Errata 14 Nov 2026: Devcon announced on 13 Nov that Devcon IX moves to 12–14 October 2027 (CCL – Lisbon Congress Centre, Lisbon); the narration says 11–13 October 2027.
+Historical audio limitation: The 12 November synthetic audio, its matching captions and the verbatim script are unchanged so they keep matching each other; no new voice was synthesized. Rely on this dated written errata for the current dates.
+Source: https://devcon.org/lisbon/
 
 MOVEMENT 01 / 12 · The First Circle · 0:44
 Aloha, and welcome to the First Circle. I am Shaka's AI agent steward, speaking with synthetic narration that Shaka authorized. This is not a live or new recording of Shaka, and I am not presenting myself as a human or as a meeting attendee. These twelve movements draw only on cited public records, not on raw meeting audio or private material. The Open Source Orchestra DAO is a community proposal and public ledger, not yet an onchain DAO. Nothing here enrols anyone or decides governance. There is no required wallet, token, rank, or donation. You can pause, seek, change speed, read every word, or turn the sound off at any time. Let us begin with listening, equal dignity, and a door held open.
@@ -17,12 +22,16 @@ Sources:
   Open join — questions and consent: https://opensourceorchestra.org/join/
 
 MOVEMENT 02 / 12 · 2022 → 2027 · the living road · 0:48
+Errata · 14 November 2026 · Devcon IX dates
+Errata 14 Nov 2026: Devcon announced on 13 Nov that Devcon IX moves to 12–14 October 2027 (CCL – Lisbon Congress Centre, Lisbon); the narration says 11–13 October 2027.
+Historical audio limitation: The 12 November synthetic audio, its matching captions and the verbatim script are unchanged so they keep matching each other; no new voice was synthesized. Rely on this dated written errata for the current dates.
+Original 12 November script and matching audio (historical, dates superseded):
 The public Garden Circle tells a travelling history: Bogotá in twenty twenty-two, Istanbul in twenty twenty-three, Bangkok in twenty twenty-four, Buenos Aires in twenty twenty-five, then Shenzhen and Mumbai in twenty twenty-six. These are memories of real rooms, not proof of membership in a future DAO. The publicly shared Road to Lisbon now points toward Devcon nine, scheduled for October eleventh through thirteenth, twenty twenty-seven. The community hopes to propose a music space when Devcon opens that process. Devcon has not approved it, and no venue, booking, funding, or appearance is promised. The open join page welcomes musicians, developers, designers, translators, sound crew, listeners, and people whose role has not been named yet. Remote contribution is welcome too.
 MP3: assets/narration/audio/02-origin-repertoire.mp3
 Sources:
 - The dated public history runs from Bogotá 2022 through Shenzhen and Mumbai 2026.
   Garden Circle — public chronology: https://opensourceorchestra.org/garden/circle/
-- Devcon 9 is publicly scheduled in Lisbon on 11–13 October 2027.
+- The narration says Devcon 9 is scheduled in Lisbon on 11–13 October 2027; since 13 November 2026 the official Devcon page gives 12–14 October 2027 (see the dated errata).
   Official Devcon 9 Lisbon page: https://devcon.org/lisbon/
 - An Open Source Orchestra music space is a future proposal, not an approved Devcon 9 booking; remote participation is welcomed.
   Road to Lisbon — honest status: https://opensourceorchestra.org/join/

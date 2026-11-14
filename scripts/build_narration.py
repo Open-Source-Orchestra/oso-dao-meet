@@ -55,6 +55,20 @@ def check(condition, message):
         raise ValueError(message)
 
 
+def check_erratum(erratum, blocked, label):
+    """A dated written errata: the historical audio and verbatim script stay unchanged; only the written note is current."""
+    check(all(erratum.get(key) for key in ["date", "title", "text", "audioNote", "url", "movement"]), f"{label}: incomplete errata")
+    check(re.fullmatch(r"\d{4}-\d{2}-\d{2}", erratum["date"]), f"{label}: errata date must be ISO")
+    check(erratum["url"].startswith("https://"), f"{label}: errata source must be public HTTPS")
+    check(not blocked.search(erratum["text"] + erratum["audioNote"]), f"{label}: forbidden material in errata")
+
+
+def render_erratum(erratum):
+    return (f'<aside class="notice errata" role="note" aria-label="{html.escape(erratum["title"], quote=True)}"><h3>{html.escape(erratum["title"])}</h3>'
+            f'<p><strong>{html.escape(erratum["text"])}</strong></p><p>{html.escape(erratum["audioNote"])}</p>'
+            f'<p><a href="{html.escape(erratum["url"], quote=True)}" rel="noopener noreferrer">Official Devcon IX page ↗</a> · <a href="#{html.escape(erratum["movement"], quote=True)}">Movement with the superseded dates</a></p></aside>')
+
+
 def check_source(source, deck):
     check(source["schema"] == "oso-ai-steward-narration-source-v1", "unexpected narration schema")
     check(source["disclosure"] == DISCLOSURE, "the required exact disclosure changed")
@@ -73,6 +87,12 @@ def check_source(source, deck):
         if update:
             check(all(update.get(key) for key in ["date", "title", "text", "audioNote"]), f"{slide['id']}: incomplete written status correction")
             check(not blocked.search(update["text"] + update["audioNote"]), f"{slide['id']}: forbidden material in written correction")
+        erratum = slide.get("errata")
+        if erratum:
+            check_erratum(erratum, blocked, slide["id"])
+    for erratum in source.get("errata", []):
+        check_erratum(erratum, blocked, "deck")
+        check(any(slide["id"] == erratum["movement"] for slide in source["slides"]), f"errata movement unknown: {erratum['movement']}")
     check("synthetic narration that Shaka authorized" in source["slides"][0]["text"], "spoken intro must disclose authorized synthetic narration")
     check("not a live or new recording of Shaka" in source["slides"][0]["text"], "spoken intro must say this is not a live/new Shaka recording")
     check("meeting attendee" in source["slides"][0]["text"], "spoken intro must reject simulated meeting attendance")
@@ -196,11 +216,13 @@ def render_static(source, records, generated_at: str, total_duration: float):
             for ref in authored["sources"]
         )
         update = authored.get("writtenUpdate")
-        correction = ""
+        correction = render_erratum(authored["errata"]) if authored.get("errata") else ""
         audio_label = ""
         script_label = ""
+        if authored.get("errata"):
+            script_label = '<p class="script-label"><strong>Original 12 November script, retained verbatim to match the unchanged historical audio (see the dated errata above):</strong></p>'
         if update:
-            correction = f'''<aside class="notice status-correction" role="note" aria-label="{html.escape(update['title'], quote=True)}"><h3>{html.escape(update['title'])}</h3><p><strong>{html.escape(update['text'])}</strong></p><p>{html.escape(update['audioNote'])}</p><p><a href="../meetings/1/notes/">Read the existing high-level public notes</a> · <a href="../archive/">Current archive status</a></p></aside>'''
+            correction += f'''<aside class="notice status-correction" role="note" aria-label="{html.escape(update['title'], quote=True)}"><h3>{html.escape(update['title'])}</h3><p><strong>{html.escape(update['text'])}</strong></p><p>{html.escape(update['audioNote'])}</p><p><a href="../meetings/1/notes/">Read the existing high-level public notes</a> · <a href="../archive/">Current archive status</a></p></aside>'''
             audio_label = '<p class="audio-history"><strong>Original 12 November audio and matching captions</strong> · historical; see the current written correction above.</p>'
             script_label = '<p class="script-label"><strong>Original 12 November script, retained verbatim to match the unchanged historical audio:</strong></p>'
         items.append(f'''<article id="{html.escape(authored['id'])}">
@@ -219,7 +241,7 @@ def render_static(source, records, generated_at: str, total_duration: float):
 <header><p class="kicker">OPEN SOURCE ORCHESTRA · THE FIRST CIRCLE</p><h1>Listen to the hall</h1><p>Optional twelve-movement AI steward narration · {clock(total_duration)} total measured audio · English</p>
 <div class="notice" role="note" aria-label="Synthetic narration disclosure"><p><strong>{html.escape(DISCLOSURE)}</strong></p><p>{html.escape(source['recordingBoundary'])}</p><p>Audio is always optional and never autoplays. Use the controls on each movement, or read the complete transcript below. No meeting-attendee voices or words are published here.</p></div>
 <nav class="downloads" aria-label="Full narration downloads"><a href="./transcript.txt" download>Plain transcript</a><a href="./narration.vtt" download>Full-deck WebVTT</a><a href="./narration.srt" download>Full-deck SRT</a><a href="../data/narration.json" download>Narration data + measured durations</a><a href="../SOURCES.md#ai-steward-narration">Credits and rights</a><a href="../">Return to the hall</a></nav>
-<p>Generated {html.escape(generated_at)}. Each movement cites the public records behind its factual claims. The ledger and live tip configuration may change; consult their current public versions. This presentation proposes nothing onchain, approves no membership or governance change, and asks for no wallet, token, rank, donation or funds movement.</p></header>
+{''.join(render_erratum(e) for e in source.get("errata", []))}<p>Generated {html.escape(generated_at)}. Each movement cites the public records behind its factual claims. The ledger and live tip configuration may change; consult their current public versions. This presentation proposes nothing onchain, approves no membership or governance change, and asks for no wallet, token, rank, donation or funds movement.</p></header>
 <main>{''.join(items)}</main>
 <footer><p>Prepared by Shaka's AI agent steward under his explicit authorization for this narrated edition. The closing movement is original agent-attributed language, not testimony or a quotation from a participant.</p><p>Voice generation used the pre-existing authorized Fish reference lane; the private voice reference and credentials are not shipped. A single slide-specific MP3 is only requested after a visitor opens narration or chooses its native audio control. Static text works without JavaScript.</p><p>Takedown first: <a href="https://opensourceorchestra.org/takedown/">Open Source Orchestra takedown commitment</a>. <a href="../archive/">Listening Archive: recording consent confirmed, media not attached.</a> Movement 11's original audio and matching caption cues are historical; the adjacent 13 November written correction is current.</p></footer>
 </body></html>'''
@@ -254,6 +276,9 @@ def build(args):
         srt = f"assets/narration/captions/{slug}.srt"
         update = authored.get("writtenUpdate")
         note = "" if not update else f"{update['title']}. {update['text']} Historical audio limitation: {update['audioNote']}"
+        erratum = authored.get("errata")
+        if erratum:
+            note = (note + " " if note else "") + f"{erratum['title']}. {erratum['text']} Historical audio limitation: {erratum['audioNote']}"
         write_text(ROOT / vtt, captions(authored["text"], 0, audio_duration, note=note))
         write_text(ROOT / srt, captions(authored["text"], 0, audio_duration, srt=True))
         record = {
@@ -264,6 +289,8 @@ def build(args):
         }
         if update:
             record["writtenUpdate"] = update
+        if erratum:
+            record["errata"] = erratum
         records.append(record)
         total_duration += audio_duration
         audio_manifest[authored["id"]] = {"sourceSha256": source_hash, "audioSha256": record["sha256"], "duration": audio_duration, "bytes": record["bytes"]}
@@ -271,12 +298,16 @@ def build(args):
     generated_at = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
     full_vtt = "WEBVTT\n\n"
+    for erratum in source.get("errata", []):
+        full_vtt += f"NOTE {erratum['title']}. {erratum['text']} Historical audio limitation: {erratum['audioNote']}\n\n"
     for authored in source["slides"]:
         update = authored.get("writtenUpdate")
         if update:
             full_vtt += f"NOTE {update['title']}. {update['text']} Historical audio limitation: {update['audioNote']}\n\n"
     full_srt = []
     full_text = [source["title"], "", DISCLOSURE, source["recordingBoundary"], f"Generated {generated_at}", f"Total measured audio: {clock(total_duration)}", ""]
+    for erratum in source.get("errata", []):
+        full_text += [erratum["title"], erratum["text"], f"Historical audio limitation: {erratum['audioNote']}", f"Source: {erratum['url']}", ""]
     offset = 0.0
     for number, (authored, record) in enumerate(zip(source["slides"], records), 1):
         end = offset + record["duration"]
@@ -284,6 +315,9 @@ def build(args):
         full_srt.append(f"{number}\n{vtt_time(offset, True)} --> {vtt_time(end, True)}\n{record['title']}: {authored['text']}\n")
         full_text.append(f"MOVEMENT {number:02d} / 12 · {record['title']} · {clock(record['duration'])}")
         update = authored.get("writtenUpdate")
+        erratum = authored.get("errata")
+        if erratum:
+            full_text += [erratum["title"], erratum["text"], f"Historical audio limitation: {erratum['audioNote']}", "Original 12 November script and matching audio (historical, dates superseded):"]
         if update:
             full_text += [update["title"], update["text"], f"Historical audio limitation: {update['audioNote']}", "Original 12 November script and matching audio (historical):"]
         full_text += [authored["text"], f"MP3: {record['audio'].removeprefix('./')}", "Sources:"]
@@ -302,6 +336,8 @@ def build(args):
         "usage": {"autoplay": False, "defaultEnabled": False, "preload": "none", "runtimeExternalRequests": False},
         "totalDuration": total_duration, "totalBytes": sum(r["bytes"] for r in records), "slides": records
     }
+    if source.get("errata"):
+        manifest["errata"] = source["errata"]
     write_text(DATA, json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
     write_text(META, json.dumps({"schema": "oso-narration-generation-cache-v1", "generatedAt": generated_at, "model": model, "audio": audio_manifest}, indent=2) + "\n")
     print(f"[narration] complete: 12 movements · {clock(total_duration)} ({total_duration:.3f}s) · {manifest['totalBytes']:,} bytes")
