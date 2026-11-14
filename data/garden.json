@@ -1,0 +1,135 @@
+{
+  "schema": "oso-theater-garden-v1",
+  "credit": "Official Devcon 8 photographs already published in the Open Source Orchestra Mandala Room (opensourceorchestra.org/mandala-room/). Infinite-garden background only.",
+  "notice": "Appearance in a public photograph does not indicate DAO membership, meeting attendance or consent to any new governance action. Takedown requests take priority: https://opensourceorchestra.org/takedown/",
+  "items": [
+    {
+      "id": "g01",
+      "src": "./assets/garden/dc8-222-800.webp",
+      "alt": "A wide, empty hall with a glowing white mandala projected on the far wall. Cane stools, white chairs and standing tables are set out on the carpet.",
+      "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+      "credit": "official Devcon 8 photograph · already public in the Open Source Orchestra Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/img/dc8-222-800.webp"
+    },
+    {
+      "id": "g02",
+      "src": "./assets/garden/dc8-218-800.webp",
+      "alt": "Round cane stools with dark cushions arranged in a circle on the carpet, with instruments, a screen and the glowing mandala behind them.",
+      "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+      "credit": "official Devcon 8 photograph · already public in the Open Source Orchestra Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/img/dc8-218-800.webp"
+    },
+    {
+      "id": "g03",
+      "src": "./assets/garden/dc8-219-800.webp",
+      "alt": "Close view of two dhol drums and other drums lying on a red Persian rug, with guitars, ukuleles and a drum kit on stands behind, under the mandala.",
+      "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+      "credit": "official Devcon 8 photograph · already public in the Open Source Orchestra Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/img/dc8-219-800.webp"
+    },
+    {
+      "id": "g04",
+      "src": "./assets/garden/dc8-390-800.webp",
+      "alt": "The mandala, reflected in a pane of glass, floats over people lounging on red beanbags in pink and blue light.",
+      "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+      "credit": "official Devcon 8 photograph · already public in the Open Source Orchestra Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/img/dc8-390-800.webp"
+    },
+    {
+      "id": "g05",
+      "src": "./assets/garden/dc8-492-800.webp",
+      "alt": "A wide view of the sanctuary stage: a saxophonist and a guitarist stand on rugs among keyboards, drums and microphones, with the mandala projected high on the wall.",
+      "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+      "credit": "official Devcon 8 photograph · already public in the Open Source Orchestra Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/img/dc8-492-800.webp"
+    },
+    {
+      "id": "g06",
+      "src": "./assets/garden/dc8-638-800.webp",
+      "alt": "A wide shot of a jam session: musicians in the centre on rugs, an audience sitting around them on cane stools, beanbags and the floor, with neon pyramid lights and the mandala above.",
+      "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+      "credit": "official Devcon 8 photograph · already public in the Open Source Orchestra Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/img/dc8-638-800.webp"
+    },
+    {
+      "id": "g07",
+      "src": "./assets/garden/dc8-642-800.webp",
+      "alt": "Seen from behind the performers: a singer in a teal kurta, a seated guitarist and a singer in a white saree face a large audience sitting on the floor.",
+      "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+      "credit": "official Devcon 8 photograph · already public in the Open Source Orchestra Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/img/dc8-642-800.webp"
+    },
+    {
+      "id": "g08",
+      "src": "./assets/garden/dc8-799-800.webp",
+      "alt": "A huge hall in red light. A band plays in the centre on rugs while hundreds of people sit on the floor all around them.",
+      "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+      "credit": "official Devcon 8 photograph · already public in the Open Source Orchestra Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/img/dc8-799-800.webp"
+    },
+    {
+      "id": "g09",
+      "src": "./assets/garden/dc8-800-800.webp",
+      "alt": "Seen from behind a pianist and a singer: the band and a vast audience seated on the floor under red lights and a patterned ceiling.",
+      "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+      "credit": "official Devcon 8 photograph · already public in the Open Source Orchestra Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/img/dc8-800-800.webp"
+    },
+    {
+      "id": "g10",
+      "src": "./assets/garden/dc8-943-800.webp",
+      "alt": "A performer in a white T-shirt, seen from behind, faces a large audience sitting on the floor of a blue-lit hall.",
+      "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+      "credit": "official Devcon 8 photograph · already public in the Open Source Orchestra Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/img/dc8-943-800.webp"
+    },
+    {
+      "id": "g11",
+      "src": "./assets/garden/dc8-874-800.webp",
+      "alt": "A packed dance floor with hands raised in the haze, light beams, and the mandala projected on the wall above.",
+      "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+      "credit": "official Devcon 8 photograph · already public in the Open Source Orchestra Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/img/dc8-874-800.webp"
+    },
+    {
+      "id": "g12",
+      "src": "./assets/garden/dc8-907-800.webp",
+      "alt": "A crowd with hands in the air fills the floor of a hall washed in purple light, with the mandala glowing high on the wall.",
+      "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+      "credit": "official Devcon 8 photograph · already public in the Open Source Orchestra Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/img/dc8-907-800.webp"
+    },
+    {
+      "id": "g13",
+      "src": "./assets/garden/dc8-846-800.webp",
+      "alt": "Silver and pink confetti pours over a smiling crowd sitting on the floor, many holding up phones.",
+      "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+      "credit": "official Devcon 8 photograph · already public in the Open Source Orchestra Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/img/dc8-846-800.webp"
+    },
+    {
+      "id": "g14",
+      "src": "./assets/garden/dc8-833-800.webp",
+      "alt": "A long line of people in matching olive-green jackets stands arm in arm across the stage, beneath the mandala.",
+      "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+      "credit": "official Devcon 8 photograph · already public in the Open Source Orchestra Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/img/dc8-833-800.webp"
+    },
+    {
+      "id": "g15",
+      "src": "./assets/garden/dc8-836-800.webp",
+      "alt": "On stage under the mandala, people gather around a tall brass oil lamp as it is lit, one holding a microphone.",
+      "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+      "credit": "official Devcon 8 photograph · already public in the Open Source Orchestra Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/img/dc8-836-800.webp"
+    },
+    {
+      "id": "g16",
+      "src": "./assets/garden/dc8-790-800.webp",
+      "alt": "Close-up of hands playing a djembe, with microphones and colourful light around it.",
+      "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+      "credit": "official Devcon 8 photograph · already public in the Open Source Orchestra Mandala Room",
+      "sourceUrl": "https://opensourceorchestra.org/mandala-room/img/dc8-790-800.webp"
+    }
+  ]
+}

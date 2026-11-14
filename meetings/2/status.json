@@ -40,7 +40,8 @@
       "hostedOnThisSite": false,
       "format": "1280x720 H.264 + 48 kHz stereo AAC MP4",
       "bytes": 761909162,
-      "note": "kept private by the ʻohana; whether to host the video elsewhere is Shaka's decision"
+      "note": "kept private by the ʻohana; whether to host the video elsewhere is Shaka's decision",
+      "status": "kept private; 720p re-encode hosted on theater.opensourceorchestra.org"
     },
     "publicAudio": "/meetings/2/audio/oso-dao-proposal-meeting-2-2026-11-13.mp3",
     "publicAudioPage": "/meetings/2/audio/",
@@ -56,7 +57,15 @@
     "transcription": "local faster-whisper large-v3-turbo on CPU; media never uploaded to a transcription service; editorial speaker labels from what is said, not voice identification",
     "googleTranscript": "none existed for this meeting; only the recording appeared in Meet history",
     "redactions": "private meeting links, contact details and personal circumstances removed where present; spelling of names and project terms normalized",
-    "publicNotes": "/meetings/2/notes/"
+    "publicNotes": "/meetings/2/notes/",
+    "publicVideo": {
+      "url": "https://theater.opensourceorchestra.org/oso-dao-proposal-meeting-2-2026-11-13-720p.mp4",
+      "encoding": "720p H.264 CRF 23 + AAC 96k, faststart",
+      "bytes": 662724224,
+      "sha256": "7c6878e1f71201f98631e229228c19837d7e33a75cf91b3c1627054e37c59f3c",
+      "host": "Cloudflare R2 · theater.opensourceorchestra.org"
+    },
+    "theaterChannel": 3
   },
   "notesDistribution": {
     "postedAt": "2026-11-14T05:08Z",

@@ -1,10 +1,40 @@
 {
   "schema": "oso-dao-meet-listening-archive-v1",
-  "status": "consent_confirmed_media_not_attached",
+  "status": "published_with_consent",
   "updated": "2026-11-14",
   "transcript": null,
   "recording": null,
-  "items": [],
+  "items": [
+    {
+      "channel": 1,
+      "id": "weekly-call-2",
+      "title": "Weekly call #2 · 27 October 2026",
+      "status": "published_with_consent",
+      "video": "https://archive.org/download/oso-weekly-call-2-2026-10-27/weekly-call-2-2026-10-27.mp4",
+      "captions": "/data/transcripts/weekly-call-2.vtt",
+      "home": "https://opensourceorchestra.org/openrecording2/"
+    },
+    {
+      "channel": 2,
+      "id": "meeting-1",
+      "title": "Proposal Meeting #1 · 12 November 2026",
+      "status": "published_with_consent",
+      "video": "https://theater.opensourceorchestra.org/oso-dao-proposal-meeting-1-2026-11-12-720p.mp4",
+      "audio": "/meetings/1/audio/oso-dao-proposal-meeting-1-2026-11-12.mp3",
+      "captions": "/meetings/1/transcript/transcript.vtt",
+      "transcript": "/meetings/1/transcript/"
+    },
+    {
+      "channel": 3,
+      "id": "meeting-2",
+      "title": "Proposal Meeting #2 · 13 November 2026",
+      "status": "published_with_consent",
+      "video": "https://theater.opensourceorchestra.org/oso-dao-proposal-meeting-2-2026-11-13-720p.mp4",
+      "audio": "/meetings/2/audio/oso-dao-proposal-meeting-2-2026-11-13.mp3",
+      "captions": "/meetings/2/transcript/transcript.vtt",
+      "transcript": "/meetings/2/transcript/"
+    }
+  ],
   "publicMeetLinks": null,
   "attendeeData": null,
   "publicRecap": "/meetings/1/",
@@ -22,24 +52,36 @@
     "scope": "full consent for the Meeting #1 recording to be broadcast and shared everywhere",
     "supersedes": "earlier consent-blocked or sealed-awaiting-consent wording"
   },
-  "mediaAttachment": "the raw video file is not attached or hosted on this site in this update; no download is claimed",
-  "fullParticipantTranscript": "not released; not separately addressed by the 2026-11-13 correction",
+  "mediaAttachment": "the consented 720p films stream from theater.opensourceorchestra.org (Meetings #1 and #2) and archive.org (weekly call #2); mono MP3s, captions and transcripts are on this site; the raw originals are not hosted",
+  "fullParticipantTranscript": "Meeting #1 and #2 public-safe transcripts published with editorial first-name speaker labels and personal circumstances removed; a later arrival in Meeting #1 is not named",
   "publicationBoundaries": [
     "the existing high-level public notes remain available",
-    "no raw video file, full participant transcript, Drive URL or ID, attendee list, screenshots, private Meet links or wallet mappings are attached",
+    "no Drive URL or ID, attendee list, screenshots, private Meet links or wallet mappings are attached; raw originals are not hosted",
+    "captions and transcripts: first names only, editorial speaker labels, personal circumstances removed",
     "corrections, AI disclosure and the takedown path remain in effect",
-    "Meeting #2 audio and transcript are published only because Shaka confirmed consent on 2026-11-14; private links, contact details and personal circumstances remain removed"
+    "consent confirmation for one meeting is never a claim about another"
   ],
-  "notice": "Meeting #1 recording broadcast and sharing consent is confirmed; its raw media and full participant transcript are not attached here. Meeting #2 (13 November 2026) is published with consent: public recap, high-level notes, full timestamped transcript and a mono MP3 of the recording. Consent confirmation for one meeting is never a claim about another.",
+  "notice": "Weekly call #2, Meeting #1 and Meeting #2 are published with consent as films, audio and transcripts (theater channels 1–3). Consent confirmation for one meeting is never a claim about another.",
   "takedown": "https://opensourceorchestra.org/takedown/",
   "meetings": {
     "1": {
-      "status": "consent_confirmed_media_not_attached",
+      "status": "published_with_consent",
       "recap": "/meetings/1/",
       "notes": "/meetings/1/notes/",
-      "recording": null,
-      "transcript": null,
-      "note": "Meeting #1 recording broadcast/share consent confirmed 2026-11-13; raw media and full participant transcript not attached here"
+      "transcript": "/meetings/1/transcript/",
+      "audio": "/meetings/1/audio/oso-dao-proposal-meeting-1-2026-11-12.mp3",
+      "audioPage": "/meetings/1/audio/",
+      "video": "https://theater.opensourceorchestra.org/oso-dao-proposal-meeting-1-2026-11-12-720p.mp4",
+      "channel": 2,
+      "durationSeconds": 3231.584,
+      "consent": {
+        "status": "confirmed",
+        "reportedBy": "Shaka",
+        "reportedAt": "2026-11-13T05:21:00Z",
+        "scope": "full consent for the Meeting #1 recording to be broadcast and shared everywhere"
+      },
+      "rawVideo": "kept private; a 720p re-encode is hosted at theater.opensourceorchestra.org",
+      "published": "2026-11-14"
     },
     "2": {
       "status": "published_with_consent",
@@ -55,8 +97,29 @@
         "reportedAt": "2026-11-14T04:20:00Z",
         "scope": "Meeting #2 recording, transcript and notes may be published and shared with the ʻohana and orchestra; participants gave a thumbs-up to recording at the opening"
       },
-      "rawVideo": "kept private; not hosted on this site",
-      "published": "2026-11-14"
+      "rawVideo": "kept private; a 720p re-encode is hosted at theater.opensourceorchestra.org",
+      "published": "2026-11-14",
+      "video": "https://theater.opensourceorchestra.org/oso-dao-proposal-meeting-2-2026-11-13-720p.mp4",
+      "channel": 3
+    },
+    "weekly-call-2": {
+      "status": "published_with_consent",
+      "channel": 1,
+      "home": "https://opensourceorchestra.org/openrecording2/",
+      "video": "https://archive.org/download/oso-weekly-call-2-2026-10-27/weekly-call-2-2026-10-27.mp4",
+      "captions": "/data/transcripts/weekly-call-2.vtt",
+      "consent": {
+        "status": "confirmed",
+        "reportedBy": "everyone on the call, on the recording",
+        "reportedAt": "2026-10-27",
+        "scope": "asked at 00:06, confirmed 00:35 and 01:02; everyone named in the transcript consented"
+      }
     }
+  },
+  "theater": {
+    "channels": "/data/channels.json",
+    "readable": "/channels/",
+    "ledger": "/meetings/",
+    "orderedBy": "Shaka, 2026-11-14 07:23 UTC: put every consented meeting in the projector"
   }
 }

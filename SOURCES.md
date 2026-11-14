@@ -190,3 +190,11 @@ Primary public references: https://opensourceorchestra.org/dao/ · https://opens
 ## OG Circle provenance
 
 The OG Circle contains 15 existing public lineage nodes, 14 localized public card images, one monogram, and 86 public external links. It is not a membership or endorsement list. See **[OG-SOURCES.md](OG-SOURCES.md)** for every profile/image source, the corrected live-open-mic DIP lineage, and the invited-guest/Kuba consent gates.
+
+## The Theater (14 November 2026)
+
+- `assets/garden/dc8-*-800.webp` — 16 official Devcon 8 photographs already published in the Open Source Orchestra Mandala Room (https://opensourceorchestra.org/mandala-room/), used only as the drifting infinite-garden background and the living wall. Manifest with alt text and provenance: `data/garden.json`. Excluded frames never enter the garden.
+- `assets/channels/poster-*.jpg` — title cards generated locally (PIL, DejaVu fonts) over blurred garden photographs; no new photographs.
+- `assets/channels/yt-7IWn-YjNRlk.jpg`, `assets/channels/yt-vf3ZitSmXDw.jpg` — YouTube thumbnails of Shaka's own published videos (channels Música con JAMón and ShaKa Lei Kaumaka), self-hosted so nothing loads from YouTube before an explicit click.
+- Films: channel 1 streams the already-public archive.org item `oso-weekly-call-2-2026-10-27`; channels 2–3 stream 720p re-encodes of the consented Meeting #1 and #2 recordings from `theater.opensourceorchestra.org` (Cloudflare R2). SHA-256 and bytes are recorded in `data/channels.json` and each meeting's `status.json`. Raw originals are not hosted.
+- Captions: Meeting #1 and #2 public-safe transcripts (local faster-whisper, editorial first-name labels); weekly call #2 captions re-timed (−412.5 s) from the public archive.org notetaker transcript.

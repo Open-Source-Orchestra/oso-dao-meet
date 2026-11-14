@@ -2,7 +2,7 @@
   "schema": "oso-ai-steward-narration-v1",
   "title": "Listen to the hall — The First Circle",
   "language": "en",
-  "generatedAt": "2026-11-14T05:42:15Z",
+  "generatedAt": "2026-11-14T07:55:15Z",
   "disclosure": "AI-agent-steward synthetic narration authorized by Shaka; not a live or new recording of Shaka. An AI speaker, not human presence or meeting attendance; based only on cited public records.",
   "recordingBoundary": "This optional narration is newly synthesized editorial speech, not participant audio or meeting minutes. Meeting #1 recording broadcast and sharing consent is confirmed; no raw meeting media or full participant transcript is attached here. See the dated written correction at movement 11.",
   "voice": {
@@ -352,6 +352,14 @@
         "title": "Recording-consent correction · 13 November 2026, 05:21 UTC",
         "text": "Shaka confirmed that Meeting #1 had full consent for the recording to be broadcast and shared everywhere. The ʻohana has already shown the OSO DAO care. This supersedes the original narration's statement that the recording remained consent-blocked. The high-level public notes remain available. The raw video file is not attached or hosted on this site in this update, and the full participant transcript was not separately addressed or released.",
         "audioNote": "The original 12 November synthetic audio and its matching caption cues below are unchanged and contain superseded archive-lock wording. No new voice was synthesized for this correction; rely on this dated written update for current status."
+      },
+      "errata": {
+        "date": "2026-11-14",
+        "movement": "listening-archive",
+        "title": "Update · 14 November 2026 · the recordings now play in the theater",
+        "text": "Update 14 Nov 2026: on Shaka's order, every meeting recorded with consent to publish now plays on the projector — weekly call #2 (27 October), Proposal Meeting #1 (12 November, full broadcast-and-share consent confirmed 13 November) and Proposal Meeting #2 (13 November, confirmed 14 November) — as 720p films with public-safe captions, audio and transcripts; the narration below still says the raw video is not attached.",
+        "audioNote": "The 12 November synthetic audio, its matching captions and the verbatim script are unchanged so they keep matching each other; no new voice was synthesized. Rely on this dated written update for the current status.",
+        "url": "https://osodaomeet.opensourceorchestra.org/channels/"
       }
     },
     {
@@ -392,6 +400,14 @@
       "text": "Errata 14 Nov 2026: Devcon announced on 13 Nov that Devcon IX moves to 12–14 October 2027 (CCL – Lisbon Congress Centre, Lisbon); the narration says 11–13 October 2027.",
       "audioNote": "The 12 November synthetic audio, its matching captions and the verbatim script are unchanged so they keep matching each other; no new voice was synthesized. Rely on this dated written errata for the current dates.",
       "url": "https://devcon.org/lisbon/"
+    },
+    {
+      "date": "2026-11-14",
+      "movement": "listening-archive",
+      "title": "Update · 14 November 2026 · the recordings now play in the theater",
+      "text": "Update 14 Nov 2026: on Shaka's order, every meeting recorded with consent to publish now plays on the projector — weekly call #2 (27 October), Proposal Meeting #1 (12 November, full broadcast-and-share consent confirmed 13 November) and Proposal Meeting #2 (13 November, confirmed 14 November) — as 720p films with public-safe captions, audio and transcripts; the narration below still says the raw video is not attached.",
+      "audioNote": "The 12 November synthetic audio, its matching captions and the verbatim script are unchanged so they keep matching each other; no new voice was synthesized. Rely on this dated written update for the current status.",
+      "url": "https://osodaomeet.opensourceorchestra.org/channels/"
     }
   ]
 }

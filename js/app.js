@@ -1,28 +1,30 @@
 import { createNarration } from './narration.js';
+import { createTheater } from './theater.js';
 
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => [...document.querySelectorAll(selector)];
 const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
 const PLAY_INTERVAL = 14000;
 
+// One theater, three lightings. The old three-hall navigation is gone; these are palettes for the same room.
 const VENUES = {
   mumbai: {
-    name: 'Mumbai · Memory', entry: 'MUMBAI · MEMORY',
-    long: 'Jio World Centre Mumbai memory',
-    detail: 'A contemporary fan-vaulted reverie. Not an affiliated venue or exact digital twin.',
-    entryNote: 'Jio World Centre memory — an artistic interpretation, never an exact digital twin or venue affiliation.'
+    name: 'The Theater · Memory gold', entry: 'THE THEATER · MEMORY GOLD', short: 'Memory gold',
+    long: 'Memory gold lighting (a Mumbai memory)',
+    detail: 'The orchestra pit on the floor, the living wall of public memories, the projector as six channels. Not an affiliated venue or digital twin.',
+    entryNote: 'One room, three lightings — an artistic interpretation, never an exact digital twin or venue affiliation.'
   },
   prague: {
-    name: 'Prague · Art Nouveau', entry: 'PRAGUE · ART NOUVEAU',
-    long: 'Smetana Hall / Municipal House Prague-inspired',
-    detail: 'Ivory warmth, floral gold, and graceful arches. A Prague-inspired fantasy, not a scale model.',
-    entryNote: 'Smetana Hall / Municipal House Prague-inspired — an artistic fantasy without affiliation or scale-model claims.'
+    name: 'The Theater · Art Nouveau ivory', entry: 'THE THEATER · ART NOUVEAU IVORY', short: 'Art Nouveau ivory',
+    long: 'Art Nouveau ivory lighting (Prague-inspired)',
+    detail: 'Ivory warmth, floral gold, graceful arches — the same theater in Prague-inspired light. Not a scale model.',
+    entryNote: 'One room in Prague-inspired ivory light — an artistic fantasy without affiliation or scale-model claims.'
   },
   cannes: {
-    name: 'Cannes · Premiere Night', entry: 'CANNES · PREMIERE NIGHT',
-    long: 'Palais des Festivals Cannes-inspired',
-    detail: 'Geometric bronze and red-carpet night. An interpretation only, with no festival affiliation.',
-    entryNote: 'Palais des Festivals Cannes-inspired — an artistic interpretation only, with no festival affiliation.'
+    name: 'The Theater · Premiere night', entry: 'THE THEATER · PREMIERE NIGHT', short: 'Premiere night',
+    long: 'Premiere night lighting (Cannes-inspired)',
+    detail: 'Geometric bronze and a red-carpet night — the same theater in Cannes-inspired light. No festival affiliation.',
+    entryNote: 'One room in Cannes-inspired premiere light — an artistic interpretation only, with no festival affiliation.'
   }
 };
 
@@ -58,6 +60,7 @@ const state = {
   playing: false, playTimer: null, toastTimer: null, photoTimer: null
 };
 let narration = null;
+let theater = null;
 
 function escapeHTML(value) {
   return String(value ?? '').replace(/[&<>'"]/g, (character) => ({
@@ -135,7 +138,7 @@ function setVenue(hallId, { updateHistory = true, announce = true } = {}) {
   state.hallId = hallId;
   const venue = VENUES[hallId];
   ui.body.dataset.hall = hallId;
-  $('#venue-current').textContent = venue.name;
+  $('#venue-current').textContent = venue.short;
   $('#scene-title').textContent = venue.name;
   $('#scene-detail').textContent = venue.detail;
   $('#entry-hall-name').textContent = venue.entry;
@@ -143,7 +146,7 @@ function setVenue(hallId, { updateHistory = true, announce = true } = {}) {
   $$('[data-hall-choice]').forEach((button) => button.setAttribute('aria-checked', String(button.dataset.hallChoice === hallId)));
   state.hall?.setVenue(hallId);
   if (updateHistory) updateUrl();
-  if (announce) showToast(`${venue.long}. Artistic interpretation only; no venue affiliation or exact digital twin.`, 4800);
+  if (announce) showToast(`${venue.long}. Same theater, different light; no venue affiliation or exact digital twin.`, 4800);
 }
 
 function renderRail() {
@@ -300,9 +303,24 @@ async function boot() {
       pauseSlideshow: stopPlayback,
       onEnter: enterExperience
     });
+    theater = createTheater({
+      hall: null, narration, showToast,
+      onEnter: enterExperience,
+      stopSlideshow: stopPlayback,
+      setSlide: (index) => setSlide(index)
+    });
+    let channelDeepLink = null;
+    try {
+      await theater.load();
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('channel')) channelDeepLink = { channelId: params.get('channel'), seekTo: params.get('t') ? Number(params.get('t')) : null };
+    } catch (error) {
+      console.warn('The channels could not be prepared; the readable channels edition remains linked.', error.message);
+    }
     const openNarrationFromDeepLink = new URLSearchParams(window.location.search).get('listen') === '1';
     updateUrl();
     if (openNarrationFromDeepLink) narration.open();
+    if (channelDeepLink && !state.readingOnly) theater.open({ ...channelDeepLink, updateHistory: false });
     if (state.readingOnly) return;
 
     const slideImages = await loadSlideImages();
@@ -315,11 +333,14 @@ async function boot() {
     }
     const { OrchestraHall } = await import('./hall.js');
     if (state.readingOnly) return;
+    let garden = [];
+    try { garden = (await (await fetch('./data/garden.json')).json()).items || []; } catch { garden = []; }
     state.hall = new OrchestraHall({
       container: ui.hallShell,
       vrHost: $('#vr-host'),
       slides: state.slides,
       media: state.media,
+      garden,
       slideImages,
       reducedMotion: () => motionQuery.matches,
       onNext: () => setSlide(state.index + 1),
@@ -328,10 +349,12 @@ async function boot() {
     });
     state.hall.setSlide(state.slides[state.index], state.index);
     state.hall.setVenue(state.hallId);
+    state.hall.onProjectorFilm = () => theater?.open();
+    theater?.setHall(state.hall);
     state.ready = true;
     ui.enter.disabled = false;
     ui.enterLabel.textContent = 'Enter the hall';
-    ui.entryLoad.innerHTML = `<span class="loading-note"></span> The hall is ready · ${state.slides.length} movements · optional narration · no trackers`;
+    ui.entryLoad.innerHTML = `<span class="loading-note"></span> The theater is ready · ${state.slides.length} movements · ${theater?.channels().length || 0} channels · optional narration · no trackers`;
   } catch (error) {
     console.warn('The 3D hall could not start; using the complete readable edition.', error.message);
     chooseReadableEdition('The interactive hall could not start in this browser. The complete accessible deck is shown instead; no editorial content is lost.');
@@ -375,6 +398,17 @@ $$('[data-hall-choice]').forEach((button) => button.addEventListener('click', ()
   state.hall?.canvas.focus({ preventScroll: true });
 }));
 $('#help-button').addEventListener('click', () => openDialog(ui.help));
+$('#channels-button').addEventListener('click', () => {
+  if (!theater) return;
+  closeDialogs();
+  if (theater.isOpen()) theater.close(); else theater.open();
+  $('#channels-button').setAttribute('aria-expanded', String(theater.isOpen()));
+});
+$('#entry-channels').addEventListener('click', (event) => {
+  if (!theater || !theater.channels().length) return;
+  event.preventDefault();
+  theater.open();
+});
 $('#about-button').addEventListener('click', () => openDialog(ui.help));
 $('#gallery-button').addEventListener('click', () => openDialog(ui.gallery));
 $('#photo-gallery-link').addEventListener('click', () => {
@@ -452,6 +486,7 @@ $$('[data-move]').forEach((button) => {
 document.addEventListener('keydown', (event) => {
   if (event.ctrlKey || event.metaKey || event.altKey || event.repeat) return;
   if ($('dialog[open]') && !state.readingOnly) return;
+  if (theater?.isOpen()) return;
   if (!state.entered || state.readingOnly) return;
   const tag = document.activeElement?.tagName;
   if (['INPUT', 'TEXTAREA', 'SELECT'].includes(tag)) return;
@@ -481,6 +516,8 @@ document.addEventListener('keydown', (event) => {
     event.preventDefault();
     if (narration?.isOpen()) narration.close();
     else narration?.open();
+  } else if (key === 'c') {
+    event.preventDefault(); $('#channels-button').click();
   } else if (key === 'r') {
     event.preventDefault(); state.hall?.resetCamera();
   } else if (key === 'escape') {
@@ -494,6 +531,7 @@ motionQuery.addEventListener('change', () => {
 document.addEventListener('visibilitychange', () => {
   if (document.hidden) { stopPlayback(); narration?.pause(); }
 });
+$('#channels-button').addEventListener('keydown', (event) => { if (event.key === 'Escape' && theater?.isOpen()) theater.close(); });
 window.addEventListener('popstate', () => {
   if (!state.slides.length) return;
   const wantsNarration = new URLSearchParams(window.location.search).get('listen') === '1';
@@ -502,6 +540,9 @@ window.addEventListener('popstate', () => {
   setVenue(state.hallId, { updateHistory: false, announce: false });
   setSlide(state.index, { updateHistory: false });
   if (wantsNarration && !narration?.isOpen()) narration?.open();
+  const wantsChannel = new URLSearchParams(window.location.search).get('channel');
+  if (wantsChannel && theater && !theater.isOpen()) theater.open({ channelId: wantsChannel, updateHistory: false });
+  else if (!wantsChannel && theater?.isOpen()) theater.close({ updateHistory: false });
 });
 
 boot();

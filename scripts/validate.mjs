@@ -97,9 +97,10 @@ check(/PROPOSED ONLY/.test(phaseSlide?.status || '') && /NO SAFE OR CONTRACT DEP
 check(invite?.title === 'The third meetup is open to all', 'Third meetup must remain an open invitation for everyone.');
 check(invite?.bullets.some((line) => line.includes('No date, time, place or public meeting link has been confirmed here yet.')), 'Third meetup must say details are not yet published.');
 check(!invite?.links.some((link) => /meet\.google|zoom\.us/i.test(link.url)), 'Third meetup must not contain a current meeting link.');
-check(/CONSENT CONFIRMED/.test(archiveSlide?.status || '') && /FULL BROADCAST \+ SHARING CONSENT/.test(archiveSlide?.lede || ''), 'Listening Archive must confirm full recording broadcast and sharing consent.');
-check(archiveSlide?.bullets.some((line) => /not attached or hosted/.test(line) && /no download is claimed/i.test(line)), 'Listening Archive must not imply that raw video is attached or downloadable.');
-check(archiveSlide?.bullets.some((line) => /Full participant transcript was not separately addressed and is not released/.test(line)), 'Listening Archive must keep the full participant transcript unreleased.');
+check(/PUBLISHED WITH CONSENT/.test(archiveSlide?.status || '') && /NOW PLAYING ON THE PROJECTOR/.test(archiveSlide?.lede || ''), 'Listening Archive must state that the consented meetings now play on the projector.');
+check(archiveSlide?.bullets.some((line) => /13 Nov/.test(line) && /full consent to broadcast and share/.test(line)), 'Listening Archive must keep the dated Meeting #1 broadcast/share consent.');
+check(archiveSlide?.bullets.some((line) => /raw originals stay private/.test(line)), 'Listening Archive must say the raw originals stay private.');
+check(archiveSlide?.bullets.some((line) => /First names only/.test(line) && /takedown door/.test(line)), 'Listening Archive must keep first-names-only and the takedown door.');
 check(!/LOCKED UNTIL|SEALED WITH CARE/.test(`${archiveSlide?.status || ''} ${archiveSlide?.lede || ''} ${archiveSlide?.kicker || ''}`), 'Listening Archive must not retain superseded consent-lock wording.');
 check(!archiveSlide?.image, 'Listening Archive must not carry an image.');
 
@@ -114,14 +115,18 @@ check(plain(html).includes(disclosure) && plain(narrationStatic).includes(disclo
 check(narration.usage.autoplay === false && narration.usage.defaultEnabled === false && narration.usage.preload === 'none', 'Narration must be off, lazy and non-autoplay by default.');
 check(narration.voice.notHumanRecording === true && narration.voice.authorizedByShaka === true, 'Narration provenance must record authorization and synthetic provenance.');
 check(/preload="none"/.test(html) && !/<audio\b[^>]*autoplay/i.test(html), 'Initial audio element must be silent and must not autoplay.');
-check(!/<(?:video|iframe|embed|object)\b/i.test(html), 'No embedded meeting media or third-party frame may ship.');
+check(!/<(?:iframe|embed|object)\b/i.test(html), 'No third-party frame may ship in the HTML; YouTube channels load only after an explicit click.');
+check((html.match(/<video\b/g) || []).length === 1 && /<video[^>]*preload="none"/.test(html) && !/<video[^>]*autoplay/i.test(html) && !/<video[^>]*\bsrc=/.test(html), 'The theater video element must be single, silent, source-less and non-autoplay until a channel is chosen.');
 check(!/\.autoplay\s*=\s*true/i.test(narrationJS), 'Narration controller must not enable media autoplay.');
 check(!narrationJS.includes("tts.synth") && !narrationJS.includes('edge_tts'), 'Runtime must not synthesize or substitute voices.');
 check(narration.slides.length === 12 && narrationSource.slides.length === 12, 'Narration must contain exactly twelve movements.');
 const archiveNarration = narration.slides.find((item) => item.id === 'listening-archive');
 const archiveCorrection = archiveNarration?.writtenUpdate;
 check(archiveCorrection?.date === '2026-11-13' && /full consent/.test(archiveCorrection?.text || '') && /broadcast and shared everywhere/.test(archiveCorrection?.text || ''), 'Movement 11 must carry the dated full-recording broadcast/share consent correction.');
-check(/not attached or hosted/.test(archiveCorrection?.text || '') && /full participant transcript was not separately addressed or released/.test(archiveCorrection?.text || ''), 'Movement 11 correction must distinguish unattached raw video and the unreleased full participant transcript.');
+check(/not attached or hosted/.test(archiveCorrection?.text || '') && /full participant transcript was not separately addressed or released/.test(archiveCorrection?.text || ''), 'Movement 11 historical correction text must stay verbatim (dated 13 Nov).');
+const theaterErrata = narration.errata?.find((item) => item.movement === 'listening-archive');
+check(theaterErrata?.date === '2026-11-14' && /now plays on the projector/.test(theaterErrata?.text || '') && /raw video is not attached/.test(theaterErrata?.text || '') && narration.slides[10].errata?.text === theaterErrata?.text, 'Movement 11 must carry the dated 14 Nov written update that the consented films now play in the theater, without rewriting the recorded script.');
+check(plain(narrationStatic).includes(theaterErrata?.text || '∅') && read('narration/transcript.txt').includes(theaterErrata?.text || '∅') && read('narration/narration.vtt').includes(theaterErrata?.text || '∅'), 'Theater update must be visible on the static narration page, plain transcript and WebVTT notes.');
 check(/No new voice was synthesized/.test(archiveCorrection?.audioNote || '') && /superseded archive-lock wording/.test(archiveCorrection?.audioNote || ''), 'Movement 11 must disclose unchanged historical audio and superseded lock wording.');
 check(narrationSource.slides.find((item) => item.id === 'listening-archive')?.writtenUpdate?.text === archiveCorrection?.text, 'Movement 11 correction must match its authored source.');
 check(narration.totalBytes > 500000 && narration.totalDuration >= 480 && narration.totalDuration <= 720, 'Narration should remain a substantive 8–12 minute deck.');
@@ -179,12 +184,84 @@ for (const relative of ['meetings/2/index.html', 'meetings/2/notes/index.html', 
   check(/opensourceorchestra\.org\/takedown\//.test(page), `${relative}: takedown path required.`);
 }
 check(read('meetings/2/transcript/transcript.vtt').startsWith('WEBVTT\n') && read('meetings/2/transcript/transcript.txt').includes('Proposal Meeting #2'), 'Meeting 2 plain and WebVTT transcripts required.');
-check(/href="\.\/2\/"/.test(read('meetings/index.html')) && /href="\.\/meetings\/2\/"/.test(html), 'Meetings index and hall must link Meeting #2.');
-check(json('archive/status.json').meetings['2'].status === 'published_with_consent' && json('archive/status.json').meetings['1'].status === 'consent_confirmed_media_not_attached', 'Archive must distinguish Meeting 1 and Meeting 2 statuses.');
+check(/href="\.\/2\/"/.test(read('meetings/index.html')) && /href="\.\/meetings\/"/.test(html), 'Meetings ledger must link Meeting #2 and the hall must link the ledger.');
+check(json('archive/status.json').meetings['2'].status === 'published_with_consent' && json('archive/status.json').meetings['1'].status === 'published_with_consent', 'Archive must record both proposal meetings as published with consent.');
 
-const ownRuntime = [html, app, hall, painter, narrationJS, css, read('data/deck.json'), read('data/media.json'), read('data/narration.json')].join('\n');
+// The Theater (14 Nov 2026): one room, six channels, every film recorded with consent to publish.
+const channels = json('data/channels.json');
+const garden = json('data/garden.json');
+const theaterJS = read('js/theater.js');
+const channelsStatic = read('channels/index.html');
+const ledger = read('meetings/index.html');
+const archiveStatus = json('archive/status.json');
+check(channels.schema === 'oso-theater-channels-v1' && channels.channels.length === 6, 'The theater must list exactly six channels.');
+check(channels.channels.map((channel) => channel.number).join(',') === '1,2,3,4,5,6', 'Channels must be numbered 1–6 in order.');
+check(channels.channels.map((channel) => channel.kind).join(',') === 'video,video,video,deck,youtube,youtube', 'Channels 1–3 films, 4 deck, 5–6 YouTube.');
+check(/publicinform\.com\/#consent/.test(channels.protocol.url) && /takedown\//.test(channels.protocol.takedown), 'Theater must link the PIT protocol and the takedown door.');
+for (const channel of channels.channels) {
+  const label = `Channel ${channel.number} (${channel.id})`;
+  check(/^[a-z0-9-]+$/.test(channel.id) && channel.title && channel.lede && channel.consent?.line && channel.consent?.status, `${label}: id, title, lede and consent line are required.`);
+  check(Array.isArray(channel.speakers) && channel.speakers.length >= 1 && channel.speakers.every((name) => !/\s[A-Z][a-z]+$/.test(name) || /AI steward/.test(name)), `${label}: who spoke must be first names only.`);
+  check(Array.isArray(channel.links) && channel.links.length >= 2 && channel.links.every((link) => /^(https:\/\/|\/)/.test(link.url)), `${label}: links must be public HTTPS or same-site.`);
+  check(channel.media?.poster && existsSync(resolve(root, channel.media.poster)), `${label}: poster must be a local asset.`);
+  check(channelsStatic.includes(`id="${channel.id}"`) && ledger.includes(`id="${channel.id}"`), `${label}: must appear in the readable channels edition and the public media files ledger.`);
+  const straight = (text) => plain(text).replace(/[’‘]/g, "'").toLowerCase();
+  check(straight(channelsStatic).includes(straight(channel.consent.line).slice(0, 40)) || channel.kind !== 'video', `${label}: consent line must be visible in the readable edition.`);
+  if (channel.kind === 'video') {
+    const video = channel.media.video;
+    check(channels.mediaOrigins.video.some((origin) => video.url.startsWith(origin)), `${label}: film must stream from an allowed origin.`);
+    check(/^published_with_consent$/.test(channel.consent.status) && /consent/i.test(channel.consent.line) && channel.consent.confirmedAt, `${label}: films require explicit consent facts.`);
+    check(Number.isInteger(video.bytes) && video.bytes > 100000000, `${label}: measured film bytes required.`);
+    check(channel.id === 'weekly-call-2' || /^[a-f0-9]{64}$/.test(video.sha256 || ''), `${label}: SHA-256 provenance required for films we encoded.`);
+    check(channel.media.captions && existsSync(resolve(root, channel.media.captions)) && read(channel.media.captions).startsWith('WEBVTT'), `${label}: WebVTT captions required.`);
+    check(channel.media.transcript && existsSync(resolve(root, channel.media.transcript)), `${label}: karaoke transcript JSON required.`);
+    const captions = read(channel.media.captions);
+    check(!/meet\.google|zoom\.us|drive\.google|@gmail|NavPoint|\bKEW\b|\bBrent\b|\bBlake\b/i.test(captions), `${label}: captions must not expose private or shielded material.`);
+    check(Array.isArray(channel.chapters) && channel.chapters.length >= 8 && channel.chapters.every((chapter, index, list) => index === 0 || chapter.start > list[index - 1].start), `${label}: at least eight monotonic chapters required.`);
+    check(channel.durationSeconds > 3000 && channel.chapters.every((chapter) => chapter.start < channel.durationSeconds), `${label}: chapters must fall inside the film.`);
+  }
+  if (channel.kind === 'youtube') {
+    check(channels.mediaOrigins.youtube.includes(channel.media.youtubeId) && channel.media.embed === `https://www.youtube-nocookie.com/embed/${channel.media.youtubeId}?rel=0`, `${label}: only the two blessed YouTube ids via youtube-nocookie.`);
+    check(/Shaka/.test(channel.consent.line) && /own/.test(channel.consent.line), `${label}: YouTube channels must be Shaka's own published videos.`);
+    check(/growing|grow/i.test(channel.lede), `${label}: must be framed as an example of growing the public media files.`);
+  }
+}
+check(theaterJS.includes("youtube-nocookie.com/embed/") && !/<iframe/i.test(html) && theaterJS.includes('state.origins.youtube.includes'), 'YouTube embeds are runtime-only, click-to-load, id-allowlisted.');
+check(!/autoplay/i.test(theaterJS.replace(/No autoplay|no autoplay|autoplay, no trackers/g, '')) && !/\.play\(\)(?![^\n]*catch)/.test(theaterJS.split('\n').filter((line) => line.includes('.play()') && !line.includes('catch')).join('')), 'Theater must never autoplay.');
+check(theaterJS.includes("preload") || /preload="none"/.test(html), 'Theater video must be lazy.');
+check(theaterJS.includes('setVideo') && hall.includes('VideoTexture') && hall.includes('setVideo(videoElement)'), 'The playing film must be mirrored onto the hall projector.');
+check(hall.includes('buildOrchestraPit') && hall.includes("dataset.pit = 'floor'"), 'The orchestra pit must sit on the floor of the one theater.');
+check(hall.includes('this.garden') && hall.includes('historyItems = [...this.garden'), 'The living wall must lead with the garden photographs.');
+check(garden.schema === 'oso-theater-garden-v1' && garden.items.length === 16 && garden.items.every((item) => item.src.startsWith('./assets/garden/') && existsSync(resolve(root, item.src)) && /mandala-room/.test(item.sourceUrl) && item.alt.length > 25), 'Garden must hold 16 already-public Mandala Room photographs with alt text and provenance.');
+check(readdirSync(resolve(root, 'assets/garden')).filter((file) => file.endsWith('.webp')).length === 16, 'Exactly 16 garden files on disk.');
+check(!/dc8-906|dc8-392/.test(read('data/garden.json') + readdirSync(resolve(root, 'assets/garden')).join(' ')), 'Excluded photographs must never enter the garden.');
+check(/garden-drift/.test(css) && /flutter-rise/.test(css) && /prefers-reduced-motion: reduce\) \{ \.garden-photo/.test(css), 'Garden drift and butterflies must exist and stand still under reduced motion.');
+check(/id="channels-button"/.test(html) && /id="theater"/.test(html) && /id="channel-dial"/.test(html) && /id="karaoke-lines"/.test(html) && /role="tablist"/.test(html), 'Theater markup: channels button, dial, karaoke transcriber.');
+check(/#theater\{display:none!important\}/.test(html) && /\/channels\//.test(html), 'No-JS: the theater hides and the readable channels edition is linked.');
+check(!/<button id="venue-button"[^>]*title="Choose an artistic hall"/.test(html) && /LIGHTING/.test(html) && /ONE THEATER/.test(html), 'One theater: the three halls survive only as a lighting toggle.');
+check(!/<(?:script|img|link)\b[^>]*(?:src|href)="https?:/i.test(channelsStatic.replace(/<link rel="canonical"[^>]*>/, '')) && !/<(?:script|img|link)\b[^>]*(?:src|href)="https?:/i.test(ledger.replace(/<link rel="canonical"[^>]*>/, '')), 'Readable channels edition and ledger must not load external runtime resources.');
+check((channelsStatic.match(/<video\b/g) || []).length === 3 && !/<video[^>]*autoplay/i.test(channelsStatic) && (channelsStatic.match(/preload="none"/g) || []).length === 3 && !/<iframe/i.test(channelsStatic), 'Readable edition: three lazy native films, no iframes.');
+check(/opensourceorchestra\.org\/takedown\//.test(channelsStatic) && /publicinform\.com\/#consent/.test(channelsStatic) && /opensourceorchestra\.org\/takedown\//.test(ledger) && /publicinform\.com\/#consent/.test(ledger), 'Takedown door and PIT protocol on the readable edition and the ledger.');
+check(archiveStatus.status === 'published_with_consent' && archiveStatus.meetings['1'].status === 'published_with_consent' && archiveStatus.meetings['2'].status === 'published_with_consent' && archiveStatus.meetings['weekly-call-2'].status === 'published_with_consent' && archiveStatus.items.length === 3, 'Archive status must list the three consented films.');
+const meeting1 = json('meetings/1/status.json');
+const transcript1 = json('meetings/1/transcript/transcript.json');
+check(meeting1.recording.status === 'published_with_consent' && meeting1.recordingConsent.reportedAt === '2026-11-13T05:21:00Z' && meeting1.recording.publicVideo.url === channels.channels[1].media.video.url && meeting1.recording.publicVideo.sha256 === channels.channels[1].media.video.sha256, 'Meeting 1 status must match the channel registry.');
+check(transcript1.meeting === 1 && transcript1.turns.length >= 20 && transcript1.stats.words > 5000 && transcript1.turns.every((turn) => transcript1.speakers[turn.speaker]), 'Meeting 1 transcript must be complete with declared speakers.');
+check(transcript1.turns.every((turn) => turn.segments.every((seg) => !/meet\.google|zoom\.us|drive\.google|@gmail|\+?\d[\d\s().-]{8,}\d|NavPoint|\bKEW\b|19-year-old/i.test(seg.text))), 'Meeting 1 transcript must not contain private links, contacts, ages or shielded names.');
+for (const relative of ['meetings/1/index.html', 'meetings/1/transcript/index.html', 'meetings/1/audio/index.html', 'channels/index.html', 'meetings/index.html']) {
+  const page = read(relative);
+  check(/published with consent/i.test(plain(page)) && /proposal/i.test(plain(page)), `${relative}: must state consent and proposal status.`);
+  check(!/meet\.google|drive\.google|@gmail|18OXbtj|\/workspace\//i.test(page), `${relative}: no private link, Drive ID, email or internal path may ship.`);
+  check(!/<(?:audio|video)\b[^>]*autoplay/i.test(page), `${relative}: media must never autoplay.`);
+}
+const wc2 = json('data/transcripts/weekly-call-2.json');
+check(wc2.cues.length > 250 && wc2.cues.every((cue, index, list) => cue.end > cue.start && (index === 0 || cue.start >= list[index - 1].start)) && wc2.cues[wc2.cues.length - 1].end <= 5831.21, 'Weekly call #2 karaoke cues must be monotonic and inside the film.');
+check(Object.keys(wc2.speakers).every((name) => !/\s/.test(name)), 'Weekly call #2 karaoke labels must be first names only.');
+check(hall.includes("'Memory gold'") && app.includes('One theater, three lightings'), 'Lighting presets replace the three-hall navigation.');
+
+const ownRuntime = [html, app, hall, painter, narrationJS, theaterJS, css, read('data/deck.json'), read('data/media.json'), read('data/narration.json'), read('data/channels.json'), read('data/garden.json')].join('\n');
 check(!/meet\.google|zoom\.us|mailto:|drive\.google|@gmail\.com/i.test(ownRuntime), 'No private meeting, email, or Drive link may ship.');
-check(!/(?:fetch|import)\s*\(\s*['"`]https?:/i.test(app + hall + narrationJS), 'Runtime JavaScript must not fetch or import an external service.');
+check(!/(?:fetch|import)\s*\(\s*['"`]https?:/i.test(app + hall + narrationJS + theaterJS), 'Runtime JavaScript must not fetch or import an external service.');
 check(!/@import\s+(?:url\()?\s*['"`]?https?:/i.test(css), 'CSS must not load external resources.');
 check(!/\b(?:approved|adopted|deployed)\s+(?:DAO|dao)\b/.test(deck.slides.map((slide) => slide.status).join(' ')), 'Slide statuses must not assert DAO approval, adoption, or deployment.');
 
@@ -196,4 +273,5 @@ if (failures.length) {
   console.log(`PASS ${checks}/${checks} structural, editorial, fallback, privacy, and local-asset checks.`);
   console.log('PASS 12 synchronized slide articles; 24 Garden Circle history photos + 4 Mumbai frames; 9 portraits; 14 OG node images; Three.js r169 + local VRButton.');
   console.log('PASS no build step, runtime CDN, private meeting link, email link, or onchain/adoption claim; Meeting #2 audio + transcript published only with confirmed consent.');
+  console.log('PASS the theater: one room, orchestra pit on the floor, 16-photo living wall, six channels (3 consented films + deck + 2 blessed YouTube ids), karaoke transcribers, no autoplay.');
 }

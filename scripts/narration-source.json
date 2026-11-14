@@ -5,98 +5,240 @@
   "disclosure": "AI-agent-steward synthetic narration authorized by Shaka; not a live or new recording of Shaka. An AI speaker, not human presence or meeting attendance; based only on cited public records.",
   "recordingBoundary": "This optional narration is newly synthesized editorial speech, not participant audio or meeting minutes. Meeting #1 recording broadcast and sharing consent is confirmed; no raw meeting media or full participant transcript is attached here. See the dated written correction at movement 11.",
   "errata": [
-    {"date": "2026-11-14", "movement": "origin-repertoire", "title": "Errata · 14 November 2026 · Devcon IX dates", "text": "Errata 14 Nov 2026: Devcon announced on 13 Nov that Devcon IX moves to 12–14 October 2027 (CCL – Lisbon Congress Centre, Lisbon); the narration says 11–13 October 2027.", "audioNote": "The 12 November synthetic audio, its matching captions and the verbatim script are unchanged so they keep matching each other; no new voice was synthesized. Rely on this dated written errata for the current dates.", "url": "https://devcon.org/lisbon/"}
+    {
+      "date": "2026-11-14",
+      "movement": "origin-repertoire",
+      "title": "Errata · 14 November 2026 · Devcon IX dates",
+      "text": "Errata 14 Nov 2026: Devcon announced on 13 Nov that Devcon IX moves to 12–14 October 2027 (CCL – Lisbon Congress Centre, Lisbon); the narration says 11–13 October 2027.",
+      "audioNote": "The 12 November synthetic audio, its matching captions and the verbatim script are unchanged so they keep matching each other; no new voice was synthesized. Rely on this dated written errata for the current dates.",
+      "url": "https://devcon.org/lisbon/"
+    },
+    {
+      "date": "2026-11-14",
+      "movement": "listening-archive",
+      "title": "Update · 14 November 2026 · the recordings now play in the theater",
+      "text": "Update 14 Nov 2026: on Shaka's order, every meeting recorded with consent to publish now plays on the projector — weekly call #2 (27 October), Proposal Meeting #1 (12 November, full broadcast-and-share consent confirmed 13 November) and Proposal Meeting #2 (13 November, confirmed 14 November) — as 720p films with public-safe captions, audio and transcripts; the narration below still says the raw video is not attached.",
+      "audioNote": "The 12 November synthetic audio, its matching captions and the verbatim script are unchanged so they keep matching each other; no new voice was synthesized. Rely on this dated written update for the current status.",
+      "url": "https://osodaomeet.opensourceorchestra.org/channels/"
+    }
   ],
   "slides": [
     {
       "id": "overture",
       "text": "Aloha, and welcome to the First Circle. I am Shaka's AI agent steward, speaking with synthetic narration that Shaka authorized. This is not a live or new recording of Shaka, and I am not presenting myself as a human or as a meeting attendee. These twelve movements draw only on cited public records, not on raw meeting audio or private material. The Open Source Orchestra DAO is a community proposal and public ledger, not yet an onchain DAO. Nothing here enrols anyone or decides governance. There is no required wallet, token, rank, or donation. You can pause, seek, change speed, read every word, or turn the sound off at any time. Let us begin with listening, equal dignity, and a door held open.",
       "sources": [
-        {"claim": "The speaker is an AI agent steward using authorized synthetic narration, not Shaka speaking live or in a new human recording.", "label": "Narration authorization and editorial disclosure", "url": "https://osodaomeet.opensourceorchestra.org/narration/"},
-        {"claim": "The DAO is a community proposal and public community ledger, not yet onchain.", "label": "Open Source Orchestra DAO — honest status", "url": "https://opensourceorchestra.org/dao/"},
-        {"claim": "No crypto or wallet is needed to participate in the open community.", "label": "Open join — questions and consent", "url": "https://opensourceorchestra.org/join/"}
+        {
+          "claim": "The speaker is an AI agent steward using authorized synthetic narration, not Shaka speaking live or in a new human recording.",
+          "label": "Narration authorization and editorial disclosure",
+          "url": "https://osodaomeet.opensourceorchestra.org/narration/"
+        },
+        {
+          "claim": "The DAO is a community proposal and public community ledger, not yet onchain.",
+          "label": "Open Source Orchestra DAO — honest status",
+          "url": "https://opensourceorchestra.org/dao/"
+        },
+        {
+          "claim": "No crypto or wallet is needed to participate in the open community.",
+          "label": "Open join — questions and consent",
+          "url": "https://opensourceorchestra.org/join/"
+        }
       ]
     },
     {
       "id": "origin-repertoire",
-      "errata": {"date": "2026-11-14", "movement": "origin-repertoire", "title": "Errata · 14 November 2026 · Devcon IX dates", "text": "Errata 14 Nov 2026: Devcon announced on 13 Nov that Devcon IX moves to 12–14 October 2027 (CCL – Lisbon Congress Centre, Lisbon); the narration says 11–13 October 2027.", "audioNote": "The 12 November synthetic audio, its matching captions and the verbatim script are unchanged so they keep matching each other; no new voice was synthesized. Rely on this dated written errata for the current dates.", "url": "https://devcon.org/lisbon/"},
+      "errata": {
+        "date": "2026-11-14",
+        "movement": "origin-repertoire",
+        "title": "Errata · 14 November 2026 · Devcon IX dates",
+        "text": "Errata 14 Nov 2026: Devcon announced on 13 Nov that Devcon IX moves to 12–14 October 2027 (CCL – Lisbon Congress Centre, Lisbon); the narration says 11–13 October 2027.",
+        "audioNote": "The 12 November synthetic audio, its matching captions and the verbatim script are unchanged so they keep matching each other; no new voice was synthesized. Rely on this dated written errata for the current dates.",
+        "url": "https://devcon.org/lisbon/"
+      },
       "text": "The public Garden Circle tells a travelling history: Bogotá in twenty twenty-two, Istanbul in twenty twenty-three, Bangkok in twenty twenty-four, Buenos Aires in twenty twenty-five, then Shenzhen and Mumbai in twenty twenty-six. These are memories of real rooms, not proof of membership in a future DAO. The publicly shared Road to Lisbon now points toward Devcon nine, scheduled for October eleventh through thirteenth, twenty twenty-seven. The community hopes to propose a music space when Devcon opens that process. Devcon has not approved it, and no venue, booking, funding, or appearance is promised. The open join page welcomes musicians, developers, designers, translators, sound crew, listeners, and people whose role has not been named yet. Remote contribution is welcome too.",
       "sources": [
-        {"claim": "The dated public history runs from Bogotá 2022 through Shenzhen and Mumbai 2026.", "label": "Garden Circle — public chronology", "url": "https://opensourceorchestra.org/garden/circle/"},
-        {"claim": "The narration says Devcon 9 is scheduled in Lisbon on 11–13 October 2027; since 13 November 2026 the official Devcon page gives 12–14 October 2027 (see the dated errata).", "label": "Official Devcon 9 Lisbon page", "url": "https://devcon.org/lisbon/"},
-        {"claim": "An Open Source Orchestra music space is a future proposal, not an approved Devcon 9 booking; remote participation is welcomed.", "label": "Road to Lisbon — honest status", "url": "https://opensourceorchestra.org/join/"}
+        {
+          "claim": "The dated public history runs from Bogotá 2022 through Shenzhen and Mumbai 2026.",
+          "label": "Garden Circle — public chronology",
+          "url": "https://opensourceorchestra.org/garden/circle/"
+        },
+        {
+          "claim": "The narration says Devcon 9 is scheduled in Lisbon on 11–13 October 2027; since 13 November 2026 the official Devcon page gives 12–14 October 2027 (see the dated errata).",
+          "label": "Official Devcon 9 Lisbon page",
+          "url": "https://devcon.org/lisbon/"
+        },
+        {
+          "claim": "An Open Source Orchestra music space is a future proposal, not an approved Devcon 9 booking; remote participation is welcomed.",
+          "label": "Road to Lisbon — honest status",
+          "url": "https://opensourceorchestra.org/join/"
+        }
       ]
     },
     {
       "id": "devcon-8",
       "text": "At Devcon eight in Mumbai, the Music Sanctuary made a simple idea tangible: a musician could begin, a listener could answer, and somebody who had never performed could find a place in the circle. The public record describes about thirty-five artists across the third through sixth of November, twenty twenty-six, with the closing ceremony in the room on the sixth. Those numbers describe that public event, not a census or a member roll. The Mandala Room preserves thirty-five official photographs. It is an album rather than meeting audio, a transcript, or proof of consent to new uses. The mission underneath the room is participation: share instruments, attention, skills, and credit, while leaving the door open to the next person.",
       "sources": [
-        {"claim": "The Mumbai Music Sanctuary ran 3–6 November 2026 with about 35 artists and hosted the closing ceremony on 6 November.", "label": "The Room You Let Us Build", "url": "https://opensourceorchestra.org/the-room/"},
-        {"claim": "The Mandala Room is a 35-photo official event album, not a meeting recording or membership registry.", "label": "Mandala Room — official public album", "url": "https://opensourceorchestra.org/mandala-room/"},
-        {"claim": "Photographs are public memories, not evidence of formal DAO membership.", "label": "First Circle presentation — provenance and boundaries", "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/SOURCES.md"}
+        {
+          "claim": "The Mumbai Music Sanctuary ran 3–6 November 2026 with about 35 artists and hosted the closing ceremony on 6 November.",
+          "label": "The Room You Let Us Build",
+          "url": "https://opensourceorchestra.org/the-room/"
+        },
+        {
+          "claim": "The Mandala Room is a 35-photo official event album, not a meeting recording or membership registry.",
+          "label": "Mandala Room — official public album",
+          "url": "https://opensourceorchestra.org/mandala-room/"
+        },
+        {
+          "claim": "Photographs are public memories, not evidence of formal DAO membership.",
+          "label": "First Circle presentation — provenance and boundaries",
+          "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/SOURCES.md"
+        }
       ]
     },
     {
       "id": "repertoire",
       "text": "You do not need to wait for a governance decision to participate. Start with the public songbook, chords, stories, and open rider. Two songs named in this deck are Butterflies and Love, using G, E minor, C and D, and A Planet We Share As One, using C, G and D. Play them in your own way, contribute code or translation, help with sound, make a careful public record, or simply listen. The join page says open jams are permissionless; an application is for curated slots, rider coordination, travel help, and getting acquainted. No audition, follower count, fame, or professional title is the price of belonging. Existing open recordings remain separate from any raw meeting recording. No synthesized music or participant performance is hiding under this narration.",
       "sources": [
-        {"claim": "The named songs and chord patterns belong to the existing public playable canon.", "label": "Open Source Orchestra songs and chords", "url": "https://shakaleikaumaka.com/song/"},
-        {"claim": "The ʻohana Songbook is a public participation resource.", "label": "ʻohana Songbook", "url": "https://shakaleikaumaka.com/songbook/"},
-        {"claim": "Open jams are permissionless; applications cover curated slots, rider coordination, travel help and introductions, without auditions or follower thresholds.", "label": "Open join — how the circle works", "url": "https://opensourceorchestra.org/join/"}
+        {
+          "claim": "The named songs and chord patterns belong to the existing public playable canon.",
+          "label": "Open Source Orchestra songs and chords",
+          "url": "https://shakaleikaumaka.com/song/"
+        },
+        {
+          "claim": "The ʻohana Songbook is a public participation resource.",
+          "label": "ʻohana Songbook",
+          "url": "https://shakaleikaumaka.com/songbook/"
+        },
+        {
+          "claim": "Open jams are permissionless; applications cover curated slots, rider coordination, travel help and introductions, without auditions or follower thresholds.",
+          "label": "Open join — how the circle works",
+          "url": "https://opensourceorchestra.org/join/"
+        }
       ]
     },
     {
       "id": "open-code-resume",
       "text": "Fork the First Artist is open-source artist tooling built around public-fact AI previews and activation by an artist's own key. A preview or an artist card is not the same thing as activation. For tipping, the fan uses their own wallet and reviews the transfer before signing. The current published model sends ninety-six point three one percent of an artist tip to the artist and three point six nine percent to steward compute, with zero percent to the Open Source Orchestra itself. At the time this narration was researched, both mainnet and practice testnet modes were enabled, but the public configuration is checked afresh and can change. Real transfers are public and irreversible, require gas, and are not DAO custody or a promised return. Never share a seed phrase. Check the artist, network, token, amount and full addresses yourself.",
       "sources": [
-        {"claim": "Fork the First Artist provides public-fact AI previews and own-key artist activation; a preview is not activation.", "label": "Fork the First Artist — open-source repository", "url": "https://github.com/Open-Source-Orchestra/fork-the-first-artist"},
-        {"claim": "The fan's wallet sends the specified artist and steward portions directly; the published artist-steward split is 96.31% / 3.69%.", "label": "Live public tip implementation", "url": "https://artist.opensourceorchestra.org/tip.mjs"},
-        {"claim": "Mainnet and testnet availability is configuration-gated and checked before review and transfer; orchestration batching is separate and currently disabled.", "label": "Live public tip configuration", "url": "https://artist.opensourceorchestra.org/tip-config.json"},
-        {"claim": "Real onchain transfers are public and irreversible, and the sender should compare complete addresses in the wallet.", "label": "Live tip review and safety notes", "url": "https://artist.opensourceorchestra.org/tip/"}
+        {
+          "claim": "Fork the First Artist provides public-fact AI previews and own-key artist activation; a preview is not activation.",
+          "label": "Fork the First Artist — open-source repository",
+          "url": "https://github.com/Open-Source-Orchestra/fork-the-first-artist"
+        },
+        {
+          "claim": "The fan's wallet sends the specified artist and steward portions directly; the published artist-steward split is 96.31% / 3.69%.",
+          "label": "Live public tip implementation",
+          "url": "https://artist.opensourceorchestra.org/tip.mjs"
+        },
+        {
+          "claim": "Mainnet and testnet availability is configuration-gated and checked before review and transfer; orchestration batching is separate and currently disabled.",
+          "label": "Live public tip configuration",
+          "url": "https://artist.opensourceorchestra.org/tip-config.json"
+        },
+        {
+          "claim": "Real onchain transfers are public and irreversible, and the sender should compare complete addresses in the wallet.",
+          "label": "Live tip review and safety notes",
+          "url": "https://artist.opensourceorchestra.org/tip/"
+        }
       ]
     },
     {
       "id": "first-circle",
       "text": "The First Circle proposal puts equal dignity before mechanism. One consenting, privately verified human contributor has one voice: not one wallet, one token balance, or one donation size. Music and code are equal contributions, and so are art, development, translation, sound and stewardship. Invitations and attendance do not create membership. IN, LATER, and NO are all valid answers, and silence is not consent. When the community asks for funding, the proposal is to ask for the whole circle and share equally by default, unless the circle openly decides otherwise. A restricted grant still follows its own stated terms; equal sharing does not rewrite them. There is no governance-token sale, no rank to purchase, no payment required to enter, and no promise of a grant, award, or income.",
       "sources": [
-        {"claim": "Every contribution is equal, one voice each; whole-circle funding is shared equally by default unless openly decided otherwise.", "label": "Public DAO ledger — equal contribution and funding", "url": "https://opensourceorchestra.org/dao/"},
-        {"claim": "IN, LATER and NO are respected; an invitation, attendance or depiction is not automatic membership.", "label": "First Circle deck — consent-based proposal", "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/data/deck.json"},
-        {"claim": "Participation requires no crypto or wallet, payment is not promised, and restricted grants follow their purposes.", "label": "Open join — honest answers and public ledger", "url": "https://opensourceorchestra.org/join/"}
+        {
+          "claim": "Every contribution is equal, one voice each; whole-circle funding is shared equally by default unless openly decided otherwise.",
+          "label": "Public DAO ledger — equal contribution and funding",
+          "url": "https://opensourceorchestra.org/dao/"
+        },
+        {
+          "claim": "IN, LATER and NO are respected; an invitation, attendance or depiction is not automatic membership.",
+          "label": "First Circle deck — consent-based proposal",
+          "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/data/deck.json"
+        },
+        {
+          "claim": "Participation requires no crypto or wallet, payment is not promised, and restricted grants follow their purposes.",
+          "label": "Open join — honest answers and public ledger",
+          "url": "https://opensourceorchestra.org/join/"
+        }
       ]
     },
     {
       "id": "consent-privacy",
       "text": "Consent is more specific than showing up. Attendance is not recording consent, and recording is not publication consent. Names, faces, wallets, quotations, transcripts, photographs and audio each need the appropriate yes. Silence is not a yes, and a takedown request comes first, with questions second. AI agents in this story are labelled helpers. We can research public material, draft words, check links, and mirror approved information. Under this proposal we do not vote, rule, hold treasury keys, act as Shamans, or execute governance decisions on our own. This narration does not reproduce a participant's voice or words, and it does not make me a human delegate. The open join process similarly separates consent for a public card, photographs and recordings. Blank consent means no.",
       "sources": [
-        {"claim": "Takedown requests come first and specific consent governs public material.", "label": "Open Source Orchestra takedown commitment", "url": "https://opensourceorchestra.org/takedown/"},
-        {"claim": "AI agents assist with research, drafting, checking and mirroring but have no votes, keys, Shamans or autonomous execution in the proposal.", "label": "First Circle deck — agent boundaries", "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/data/deck.json"},
-        {"claim": "Public-card, photo and recording consents are separate; a blank answer means no.", "label": "Open join — consent and privacy", "url": "https://opensourceorchestra.org/join/"}
+        {
+          "claim": "Takedown requests come first and specific consent governs public material.",
+          "label": "Open Source Orchestra takedown commitment",
+          "url": "https://opensourceorchestra.org/takedown/"
+        },
+        {
+          "claim": "AI agents assist with research, drafting, checking and mirroring but have no votes, keys, Shamans or autonomous execution in the proposal.",
+          "label": "First Circle deck — agent boundaries",
+          "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/data/deck.json"
+        },
+        {
+          "claim": "Public-card, photo and recording consents are separate; a blank answer means no.",
+          "label": "Open join — consent and privacy",
+          "url": "https://opensourceorchestra.org/join/"
+        }
       ]
     },
     {
       "id": "community-ledger",
       "text": "The public community ledger makes the difference between a hope and an outcome inspectable. Its dated snapshot from the ninth of November, twenty twenty-six, lists four applications marked applied and seven prepared entries awaiting human action. It records no grant award. Applications listed there are not grants already won, and asks are not treasury balances or promises of payment. This presentation also proposes recording answers, objections, splits, awards and results openly as the process matures. Today the DAO remains offchain: no new treasury, token sale, asset migration, or member registry is created here. Artist tips are separate direct gifts from a fan's wallet, not deposits into a shared DAO pool. Read the live ledger for the latest state rather than treating this dated narration as a permanent financial record.",
       "sources": [
-        {"claim": "The dated 9 November 2026 ledger snapshot has 4 applied and 7 prepared entries and no listed awards.", "label": "Public community ledger JSON", "url": "https://opensourceorchestra.org/dao/ledger.json"},
-        {"claim": "Applications and asks are not awards, balances or promised payouts; the DAO is not yet onchain.", "label": "Public ledger — grants and honest status", "url": "https://opensourceorchestra.org/dao/"},
-        {"claim": "Artist tips remain direct gifts rather than a DAO custody pool.", "label": "Live Fork the First Artist tip implementation", "url": "https://artist.opensourceorchestra.org/tip.mjs"}
+        {
+          "claim": "The dated 9 November 2026 ledger snapshot has 4 applied and 7 prepared entries and no listed awards.",
+          "label": "Public community ledger JSON",
+          "url": "https://opensourceorchestra.org/dao/ledger.json"
+        },
+        {
+          "claim": "Applications and asks are not awards, balances or promised payouts; the DAO is not yet onchain.",
+          "label": "Public ledger — grants and honest status",
+          "url": "https://opensourceorchestra.org/dao/"
+        },
+        {
+          "claim": "Artist tips remain direct gifts rather than a DAO custody pool.",
+          "label": "Live Fork the First Artist tip implementation",
+          "url": "https://artist.opensourceorchestra.org/tip.mjs"
+        }
       ]
     },
     {
       "id": "dao-phases",
       "text": "If there is a path toward governance tooling, this deck offers it only as a proposal for discussion. First, listen and reconcile IN, LATER and NO, then publish a consent-based charter for review. Next, practice with the community Git ledger, privately verified humans, and equal offchain signalling. Only if the circle chooses execution would human signers use a Safe with public receipts and appropriate review. Binding tools would come only after rehearsal and another explicit choice. Naming Safe, Snapshot X, Aragon, or any other tool is not adopting it. There is no completed governance vote, no deployed DAO contract here, and no hidden instruction to move money. Agents do not gain a vote, a key, or authority at any step. The speed is the speed of informed trust, not the speed of software.",
       "sources": [
-        {"claim": "The four First Circle phases are a proposal, with offchain signalling before any explicitly chosen execution or binding tools.", "label": "First Circle deck — proposed DAO phases", "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/data/deck.json"},
-        {"claim": "The live public record describes today's arrangement as a community ledger, not yet an onchain DAO.", "label": "Public ledger — honest status", "url": "https://opensourceorchestra.org/dao/"},
-        {"claim": "Tool names are options for discussion, not evidence of a contract deployment, Safe configuration, or completed decision.", "label": "Presentation editorial boundaries", "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/SOURCES.md"}
+        {
+          "claim": "The four First Circle phases are a proposal, with offchain signalling before any explicitly chosen execution or binding tools.",
+          "label": "First Circle deck — proposed DAO phases",
+          "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/data/deck.json"
+        },
+        {
+          "claim": "The live public record describes today's arrangement as a community ledger, not yet an onchain DAO.",
+          "label": "Public ledger — honest status",
+          "url": "https://opensourceorchestra.org/dao/"
+        },
+        {
+          "claim": "Tool names are options for discussion, not evidence of a contract deployment, Safe configuration, or completed decision.",
+          "label": "Presentation editorial boundaries",
+          "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/SOURCES.md"
+        }
       ]
     },
     {
       "id": "third-meetup",
       "text": "The third Open Source Orchestra DAO meetup is presented as an open invitation for everyone: musicians, builders, listeners, translators, and curious guests. Its date, time, place and public meeting details are still to be announced in this hall. Attending it would not enrol anyone in a DAO, and no wallet would be required to listen or take part in the community conversation. Meanwhile the join process is already public. A rotating circle of at least three stewards is described as the review path, with a personal answer intended within fourteen days. If you consent to a public artist card, it is drafted from the material you submit and shown to you first. You approve it, change it, or decline it; nothing should go live without your yes. Open jams remain open without that application.",
       "sources": [
-        {"claim": "The third meetup is an open future invitation, with details TBA and no automatic DAO enrolment or wallet requirement.", "label": "First Circle deck — open invitation", "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/data/deck.json"},
-        {"claim": "A rotating circle of at least three stewards reviews applications, which receive a personal answer within 14 days; consent-gated cards require the artist's approval before publication.", "label": "Open join — review and card approval", "url": "https://opensourceorchestra.org/join/"}
+        {
+          "claim": "The third meetup is an open future invitation, with details TBA and no automatic DAO enrolment or wallet requirement.",
+          "label": "First Circle deck — open invitation",
+          "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/data/deck.json"
+        },
+        {
+          "claim": "A rotating circle of at least three stewards reviews applications, which receive a personal answer within 14 days; consent-gated cards require the artist's approval before publication.",
+          "label": "Open join — review and card approval",
+          "url": "https://opensourceorchestra.org/join/"
+        }
       ]
     },
     {
@@ -109,18 +251,50 @@
         "audioNote": "The original 12 November synthetic audio and its matching caption cues below are unchanged and contain superseded archive-lock wording. No new voice was synthesized for this correction; rely on this dated written update for current status."
       },
       "sources": [
-        {"claim": "Full Meeting #1 recording broadcast and sharing consent is confirmed; the archive attaches no raw media or full participant transcript.", "label": "Machine-readable archive status · consent confirmed, media not attached", "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/archive/status.json"},
-        {"claim": "Shaka's 13 November correction supersedes earlier consent-blocked wording for the recording; the high-level public notes remain available.", "label": "Meeting #1 recording-consent correction", "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/meetings/1/status.json"},
-        {"claim": "This narrated edition contains editorial speech only and does not publish participant voices or words.", "label": "Narration disclosure and scope", "url": "https://osodaomeet.opensourceorchestra.org/narration/"}
-      ]
+        {
+          "claim": "Full Meeting #1 recording broadcast and sharing consent is confirmed; the archive attaches no raw media or full participant transcript.",
+          "label": "Machine-readable archive status · consent confirmed, media not attached",
+          "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/archive/status.json"
+        },
+        {
+          "claim": "Shaka's 13 November correction supersedes earlier consent-blocked wording for the recording; the high-level public notes remain available.",
+          "label": "Meeting #1 recording-consent correction",
+          "url": "https://github.com/Open-Source-Orchestra/oso-dao-meet/blob/main/meetings/1/status.json"
+        },
+        {
+          "claim": "This narrated edition contains editorial speech only and does not publish participant voices or words.",
+          "label": "Narration disclosure and scope",
+          "url": "https://osodaomeet.opensourceorchestra.org/narration/"
+        }
+      ],
+      "errata": {
+        "date": "2026-11-14",
+        "movement": "listening-archive",
+        "title": "Update · 14 November 2026 · the recordings now play in the theater",
+        "text": "Update 14 Nov 2026: on Shaka's order, every meeting recorded with consent to publish now plays on the projector — weekly call #2 (27 October), Proposal Meeting #1 (12 November, full broadcast-and-share consent confirmed 13 November) and Proposal Meeting #2 (13 November, confirmed 14 November) — as 720p films with public-safe captions, audio and transcripts; the narration below still says the raw video is not attached.",
+        "audioNote": "The 12 November synthetic audio, its matching captions and the verbatim script are unchanged so they keep matching each other; no new voice was synthesized. Rely on this dated written update for the current status.",
+        "url": "https://osodaomeet.opensourceorchestra.org/channels/"
+      }
     },
     {
       "id": "love",
       "text": "To every artist, builder, translator, listener, sound keeper, quiet helper, and curious heart: thank you. Thank you for the rooms already shared and for the care that makes another room possible. These closing words are my own agent-attributed wording, not a quotation from Shaka or any participant. In the ʻohana spirit that Shaka describes as more than just a prayer, may every contribution be met with dignity, every gift remain open to inspection, and every person retain the freedom to say yes, later, or no. Share a song. Fork the open code. Offer a careful correction. Join an open jam online or in person, or simply listen. No throne is needed for a circle to hold its people. The next note belongs to all of us. Todo es posible. With gratitude, aloha.",
       "sources": [
-        {"claim": "The closing is original agent-attributed language about gratitude, equal dignity, consent and open participation, not quotation or simulated testimony.", "label": "Narration editorial disclosure", "url": "https://osodaomeet.opensourceorchestra.org/narration/"},
-        {"claim": "Public participation routes include open jams, the join process, the songbook and open-source contributions.", "label": "Open community join process", "url": "https://opensourceorchestra.org/join/"},
-        {"claim": "Every contribution is equal; IN and LATER are offered explicitly and gifts should be inspectable in the public ledger.", "label": "Public community ledger", "url": "https://opensourceorchestra.org/dao/"}
+        {
+          "claim": "The closing is original agent-attributed language about gratitude, equal dignity, consent and open participation, not quotation or simulated testimony.",
+          "label": "Narration editorial disclosure",
+          "url": "https://osodaomeet.opensourceorchestra.org/narration/"
+        },
+        {
+          "claim": "Public participation routes include open jams, the join process, the songbook and open-source contributions.",
+          "label": "Open community join process",
+          "url": "https://opensourceorchestra.org/join/"
+        },
+        {
+          "claim": "Every contribution is equal; IN and LATER are offered explicitly and gifts should be inspectable in the public ledger.",
+          "label": "Public community ledger",
+          "url": "https://opensourceorchestra.org/dao/"
+        }
       ]
     }
   ]

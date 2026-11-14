@@ -1,4 +1,23 @@
-# Testing — presentation edition
+# Testing — the Theater edition
+
+## 14 November 2026 · The Theater: one room, six channels (current)
+
+Shaka (14 Nov, 07:23 and 07:36 UTC) asked for one theater — the orchestra pit on the floor, the living wall, the projector as a channel switcher — playing **every meeting we recorded and had consent to publish**, with karaoke transcribers, the narrated deck as channel 4, and two of his own YouTube videos as channels 5–6, framed as examples of growing the OSO DAO public media files. The three halls survive only as a lighting toggle.
+
+| Suite / evidence | Result |
+|---|---|
+| Structural, editorial, fallback, privacy, Meeting #1/#2, theater, garden and karaoke checks | **803 / 803 PASS** · `node scripts/validate.mjs` |
+| Release gates (films off-Pages with SHA-256, consented MP3s, forbidden-material scans, six channels, YouTube id allowlist, sitemap) | **913 PASS** · `python3 scripts/validate_final.py .` |
+| Narration integrity | **12 / 12 MP3 SHA-256 unchanged** after `python3 scripts/build_narration.py` (dated 14 Nov written update on movement 11; no new voice) |
+| Real-browser theater suite | `/workspace/oso-dao-meet-qa/theater-qa.cjs` · results `theater-<tag>-results.json` (local / production / preview) |
+| Axe (WCAG 2.1 A/AA) | 0 violations with the theater open at 1440×960 and 390×844, and on `/channels/`, `/meetings/`, `/meetings/1/`, `/meetings/1/transcript/`, `/meetings/1/audio/`, `/archive/` |
+| No external request before an explicit choice | verified: no film, YouTube or ytimg bytes until Play / Load |
+| Reduced motion | garden drift and butterflies `animation-name: none`, photos remain visible |
+| No-JS | theater hidden; `/channels/` readable with three native lazy films, consent lines and takedown; ledger `/meetings/` lists six files |
+| Films | Meeting #1 `oso-dao-proposal-meeting-1-2026-11-12-720p.mp4` 438,969,537 B · Meeting #2 `oso-dao-proposal-meeting-2-2026-11-13-720p.mp4` 662,724,224 B on `theater.opensourceorchestra.org` (R2: 200, Range 206, CORS); weekly call #2 from archive.org (Range 206, CORS). SHA-256 in `data/channels.json` and the meetings' `status.json` |
+
+Headless Chromium has no H.264 decoder, so karaoke sync is exercised through a synthetic time position; real playback was verified by hand in a desktop browser against production.
+
 
 ## 14 November 2026 Devcon IX date errata (current)
 

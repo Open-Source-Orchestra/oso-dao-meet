@@ -4,19 +4,19 @@ import { createSlideCanvas } from './slides.js';
 
 const VENUES = {
   mumbai: {
-    label: 'Mumbai · Memory',
+    label: 'Memory gold',
     background: 0x08050d, fog: 0x0d0711, wall: 0x27101c, panel: 0x46162b,
     ceiling: 0x160d1b, gold: 0xd5aa5d, floor: 0x4b281d, carpet: 0x721b36,
     seat: 0x69182f, curtains: 0x5f1028, light: 0xffd1a0, exposure: 1.12
   },
   prague: {
-    label: 'Prague · Art Nouveau',
+    label: 'Art Nouveau ivory',
     background: 0x19131a, fog: 0x241923, wall: 0x77685f, panel: 0x65414b,
     ceiling: 0x4d444b, gold: 0xe3bd72, floor: 0x684733, carpet: 0x71344c,
     seat: 0x754457, curtains: 0x65313f, light: 0xffe6c4, exposure: 1.23
   },
   cannes: {
-    label: 'Cannes · Premiere Night',
+    label: 'Premiere night',
     background: 0x070810, fog: 0x0b0c17, wall: 0x171724, panel: 0x29233a,
     ceiling: 0x10111c, gold: 0xc5975e, floor: 0x3a2a28, carpet: 0x8e1831,
     seat: 0x471320, curtains: 0x40101e, light: 0xffdab0, exposure: 1.15
@@ -121,8 +121,9 @@ function createPlaceholderTexture(label) {
 
 /** A hand-built, dependency-light concert hall with raycastable slides and memories. */
 export class OrchestraHall {
-  constructor({ container, vrHost, slides, media, slideImages, reducedMotion, onNext, onPhoto, onToast }) {
+  constructor({ container, vrHost, slides, media, garden = [], slideImages, reducedMotion, onNext, onPhoto, onToast }) {
     this.container = container;
+    this.garden = garden;
     this.vrHost = vrHost;
     this.slides = slides;
     this.media = media;
@@ -154,7 +155,7 @@ export class OrchestraHall {
     this.renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     this.renderer.domElement.id = 'hall-canvas';
     this.renderer.domElement.tabIndex = 0;
-    this.renderer.domElement.setAttribute('aria-label', 'Interactive 3D orchestra hall. Drag to look, use W A S D to walk, and click the stage screen for the next slide.');
+    this.renderer.domElement.setAttribute('aria-label', 'Interactive 3D theater: the orchestra pit on the floor, the living wall, and the projector. Drag to look, use W A S D to walk, click the stage screen for the next slide, and press C for the channels.');
     this.renderer.domElement.setAttribute('aria-describedby', 'canvas-description');
     this.renderer.domElement.dataset.webgl = 'ready';
     this.container.appendChild(this.renderer.domElement);
@@ -169,6 +170,7 @@ export class OrchestraHall {
     this.buildBalconies();
     this.buildChandeliers();
     this.buildVenueDetails();
+    this.buildOrchestraPit();
     this.buildPhotoWalls();
     this.setupInteraction();
     this.setupXR();
@@ -326,7 +328,7 @@ export class OrchestraHall {
     this.screenTexture.anisotropy = Math.min(8, this.renderer.capabilities.getMaxAnisotropy());
     this.screenMaterial = new THREE.MeshBasicMaterial({ map: this.screenTexture, toneMapped: false });
     this.projector = mesh(this.scene, new THREE.PlaneGeometry(12.8, 7.2), this.screenMaterial, [0, 7.8, -12.23]);
-    this.projector.userData = { kind: 'projector', label: 'Advance the slide' };
+    this.projector.userData = { kind: 'projector', label: 'Advance the slide or open the channels' };
     this.interactive.push(this.projector);
     const z = -12.16;
     box(this.scene, [13.18, 0.16, 0.18], m.paleGold, [0, 11.48, z]);
@@ -553,7 +555,8 @@ export class OrchestraHall {
 
   buildPhotoWalls() {
     const m = this.materials;
-    this.historyItems = this.media.filter((item) => item.kind === 'history');
+    // The living wall leads with the already-public Devcon 8 Mandala Room photographs, then the Garden Circle history.
+    this.historyItems = [...this.garden.map((item) => ({ ...item, kind: 'history', year: 2026, event: item.event || 'Devcon 8 Music Sanctuary · Mumbai' })), ...this.media.filter((item) => item.kind === 'history')];
     this.portraitItems = this.media.filter((item) => item.kind === 'portrait');
     const addFrame = ({ pool, position, rotationY = 0, width = 3.45, height = 2.2, poolIndex = 0 }) => {
       const group = new THREE.Group();
@@ -666,6 +669,86 @@ export class OrchestraHall {
     const next = ((frame.userData.currentIndex ?? 0) + 1) % items.length;
     frame.userData.currentIndex = next;
     this.assignPhoto(frame, items[next], true);
+  }
+
+  buildOrchestraPit() {
+    // The orchestra pit on the floor: a circle on rugs between the stage apron and the first row, the way the sanctuary sat.
+    const m = this.materials;
+    const pit = new THREE.Group();
+    pit.position.set(0, 0, -3.1);
+    const rug = cylinder(pit, [3.6, 3.6, 0.05, 48], m.carpet, [0, 0.03, 0]);
+    rug.receiveShadow = true;
+    mesh(pit, new THREE.TorusGeometry(3.55, 0.035, 8, 64), m.gold, [0, 0.06, 0], [Math.PI / 2, 0, 0]);
+    cylinder(pit, [2.2, 2.2, 0.03, 48], m.curtains, [0, 0.06, 0]);
+    mesh(pit, new THREE.TorusGeometry(2.15, 0.028, 8, 56), m.darkGold, [0, 0.08, 0], [Math.PI / 2, 0, 0]);
+    // A ring of cane stools and cushions, every seat equal.
+    for (let i = 0; i < 12; i += 1) {
+      const angle = (i / 12) * Math.PI * 2 + Math.PI / 12;
+      const x = Math.cos(angle) * 2.95, z = Math.sin(angle) * 2.95;
+      if (i % 3 === 0) {
+        const cushion = mesh(pit, sphereGeometry(0.34, 12), i % 2 ? m.seat : m.instrumentLight, [x, 0.16, z]);
+        cushion.scale.set(1.15, 0.42, 1.15);
+      } else {
+        cylinder(pit, [0.3, 0.26, 0.42, 14], m.instrument, [x, 0.21, z]);
+        cylinder(pit, [0.31, 0.31, 0.05, 14], m.seatDark, [x, 0.45, z]);
+      }
+    }
+    // Instruments resting in the circle: a djembe, a cajón, a dhol on its side, a small keyboard, ukuleles on a stand.
+    cylinder(pit, [0.26, 0.17, 0.62, 18], m.instrumentLight, [1.3, 0.31, 0.9]);
+    cylinder(pit, [0.28, 0.28, 0.05, 18], m.ivory, [1.3, 0.64, 0.9]);
+    box(pit, [0.38, 0.5, 0.32], m.wood, [-1.4, 0.25, 1.1]);
+    cylinder(pit, [0.2, 0.2, 0.012, 24], m.black, [-1.4, 0.26, 1.27], [Math.PI / 2, 0, 0]);
+    const dhol = cylinder(pit, [0.26, 0.26, 0.78, 20], m.instrument, [0.2, 0.27, -1.5], [0, 0, Math.PI / 2]);
+    dhol.rotation.y = 0.5;
+    [-0.4, 0.4].forEach((dx) => cylinder(pit, [0.27, 0.27, 0.04, 20], m.ivory, [0.2 + Math.cos(0.5) * dx, 0.27, -1.5 - Math.sin(0.5) * dx], [0, 0.5, Math.PI / 2]));
+    box(pit, [1.3, 0.1, 0.36], m.black, [-0.9, 0.42, -0.9], [0, 0.35, 0]);
+    box(pit, [1.16, 0.03, 0.26], m.ivory, [-0.9, 0.48, -0.9], [0, 0.35, 0]);
+    [-0.45, 0.45].forEach((dx) => cylinder(pit, [0.03, 0.03, 0.4, 8], m.darkGold, [-0.9 + dx, 0.2, -0.9]));
+    const stand = new THREE.Group();
+    stand.position.set(1.9, 0, -0.5);
+    cylinder(stand, [0.03, 0.03, 1.1, 8], m.darkGold, [0, 0.55, 0]);
+    box(stand, [0.9, 0.03, 0.03], m.darkGold, [0, 1.05, 0]);
+    [-0.3, 0, 0.3].forEach((dx, i) => {
+      const uke = new THREE.Group();
+      uke.position.set(dx, 0.38, 0.06);
+      uke.scale.setScalar(0.32);
+      const lower = mesh(uke, sphereGeometry(0.48, 14), i % 2 ? m.instrument : m.instrumentLight, [0, 0.64, 0]);
+      lower.scale.set(1, 0.85, 0.38);
+      const upper = mesh(uke, sphereGeometry(0.34, 14), m.instrumentLight, [0, 1.19, 0]);
+      upper.scale.set(1, 0.82, 0.35);
+      box(uke, [0.14, 1.18, 0.12], m.wood, [0, 1.93, 0]);
+      [-0.045, 0, 0.045].forEach((sx) => box(uke, [0.009, 1.85, 0.012], m.string, [sx, 1.55, -0.22]));
+      stand.add(uke);
+    });
+    pit.add(stand);
+    // Soft floor lanterns around the circle; warm, never flashing.
+    for (let i = 0; i < 6; i += 1) {
+      const angle = (i / 6) * Math.PI * 2;
+      mesh(pit, sphereGeometry(0.075, 10), m.warmWhite, [Math.cos(angle) * 3.75, 0.1, Math.sin(angle) * 3.75]);
+    }
+    const glow = new THREE.PointLight(0xffc98a, 18, 9, 1.9);
+    glow.position.set(0, 1.4, 0);
+    pit.add(glow);
+    this.scene.add(pit);
+    this.pit = pit;
+    this.canvas.dataset.pit = 'floor';
+  }
+
+  /** Put a film in the projector: mirror a playing <video> onto the big screen; null restores the slide. */
+  setVideo(videoElement) {
+    if (videoElement) {
+      if (!this.videoTexture || this.videoTexture.image !== videoElement) {
+        this.videoTexture?.dispose();
+        this.videoTexture = new THREE.VideoTexture(videoElement);
+        this.videoTexture.colorSpace = THREE.SRGBColorSpace;
+      }
+      this.screenMaterial.map = this.videoTexture;
+      this.canvas.dataset.projector = 'film';
+    } else {
+      this.screenMaterial.map = this.screenTexture;
+      this.canvas.dataset.projector = 'deck';
+    }
+    this.screenMaterial.needsUpdate = true;
   }
 
   setSlide(slide, index) {
@@ -822,7 +905,7 @@ export class OrchestraHall {
   activateAt(event) {
     const hit = this.hitAt(event);
     if (!hit) return;
-    if (hit.userData.kind === 'projector') this.onNext?.();
+    if (hit.userData.kind === 'projector') { if (this.canvas.dataset.projector === 'film' && this.onProjectorFilm) this.onProjectorFilm(); else this.onNext?.(); }
     if (hit.userData.kind === 'photo') this.advancePhoto(hit);
   }
 
@@ -832,7 +915,7 @@ export class OrchestraHall {
     this.canvas.dataset.hoverTarget = hit?.userData.kind || '';
     const hint = document.getElementById('object-hint');
     if (hit) {
-      hint.textContent = hit.userData.kind === 'projector' ? 'Next movement →' : 'Change this living frame ↻';
+      hint.textContent = hit.userData.kind === 'projector' ? (this.canvas.dataset.projector === 'film' ? 'Open the channels 📺' : 'Next movement →') : 'Change this living frame ↻';
       hint.style.left = `${event.clientX + 14}px`;
       hint.style.top = `${event.clientY + 14}px`;
       hint.hidden = false;
@@ -925,7 +1008,7 @@ export class OrchestraHall {
 }
 
 export const HALL_VENUES = Object.freeze({
-  mumbai: 'Jio World Centre Mumbai memory',
-  prague: 'Smetana Hall / Municipal House Prague-inspired',
-  cannes: 'Palais des Festivals Cannes-inspired'
+  mumbai: 'Memory gold · Mumbai memory lighting',
+  prague: 'Art Nouveau ivory · Prague-inspired lighting',
+  cannes: 'Premiere night · Cannes-inspired lighting'
 });

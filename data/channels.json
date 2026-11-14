@@ -1,0 +1,505 @@
+{
+  "schema": "oso-theater-channels-v1",
+  "updated": "2026-11-14",
+  "theater": "Open Source Orchestra DAO Meet · The Theater — one room: the orchestra pit on the floor, the living wall of public memories, and the projector as a six-channel switcher.",
+  "ledger": "/meetings/",
+  "protocol": {
+    "name": "PIT protocol · publicinform",
+    "url": "https://publicinform.com/#consent",
+    "summary": "Consent is asked out loud at the top, on the recording itself; nothing goes public until everyone on the call has said yes and the transcript has been checked; takedown comes first, questions second.",
+    "takedown": "https://opensourceorchestra.org/takedown/",
+    "growing": "Every blessed recording and transcript becomes a public media file at /meetings/. Record your circle the same way, ask consent on the recording, and add yours."
+  },
+  "mediaOrigins": {
+    "video": [
+      "https://theater.opensourceorchestra.org/",
+      "https://archive.org/download/oso-weekly-call-2-2026-10-27/"
+    ],
+    "youtube": [
+      "7IWn-YjNRlk",
+      "vf3ZitSmXDw"
+    ]
+  },
+  "channels": [
+    {
+      "id": "weekly-call-2",
+      "number": 1,
+      "kind": "video",
+      "title": "Weekly call #2 · right before Devcon 8",
+      "subtitle": "Open Recording #2 · the Music Space family deciding how four days on the floor of Devcon 8 would breathe",
+      "lede": "1h37 of musicians, stewards and friends across India, the US and Thailand — the sanctuary, continuous flow, India × the West, the cultural floor, sound check, stewards and the jam.",
+      "recordedAt": "2026-10-27T16:06:00Z",
+      "dateLabel": "27 October 2026 · 16:06 UTC",
+      "durationSeconds": 5831.21,
+      "durationLabel": "1:37:11",
+      "speakers": [
+        "Shaka",
+        "Aakash",
+        "Nidhi",
+        "Sonya",
+        "Devang",
+        "Jaydeep",
+        "Levi"
+      ],
+      "speakersNote": "first names as labelled by the notetaker on the already-public transcript",
+      "consent": {
+        "status": "published_with_consent",
+        "line": "Recorded with everyone's consent, asked out loud on the recording itself (00:06, confirmed 00:35 and 01:02). Everyone named in the transcript consented to this recording being public.",
+        "confirmedBy": "everyone on the call, on the recording",
+        "confirmedAt": "2026-10-27",
+        "home": "https://opensourceorchestra.org/openrecording2/"
+      },
+      "media": {
+        "video": {
+          "url": "https://archive.org/download/oso-weekly-call-2-2026-10-27/weekly-call-2-2026-10-27.mp4",
+          "type": "video/mp4",
+          "bytes": 445416974,
+          "host": "Internet Archive · item oso-weekly-call-2-2026-10-27",
+          "note": "already public; byte-range streaming with CORS"
+        },
+        "audio": {
+          "url": "https://archive.org/download/oso-weekly-call-2-2026-10-27/weekly-call-2-2026-10-27.mp3",
+          "bytes": 99522669
+        },
+        "poster": "./assets/channels/poster-weekly-call-2.jpg",
+        "captions": "./data/transcripts/weekly-call-2.vtt",
+        "transcript": "./data/transcripts/weekly-call-2.json"
+      },
+      "chapters": [
+        {
+          "start": 0,
+          "title": "Opening · consent asked on the recording, introductions"
+        },
+        {
+          "start": 430.5,
+          "title": "What the sanctuary is"
+        },
+        {
+          "start": 1518.5,
+          "title": "Continuous flow — a shared heartbeat"
+        },
+        {
+          "start": 2185.5,
+          "title": "India × the West"
+        },
+        {
+          "start": 2961.5,
+          "title": "The cultural floor"
+        },
+        {
+          "start": 4031.5,
+          "title": "Sound check"
+        },
+        {
+          "start": 4148.5,
+          "title": "Stewards"
+        },
+        {
+          "start": 5185.5,
+          "title": "The jam"
+        }
+      ],
+      "links": [
+        {
+          "label": "Open Recording #2 · home page",
+          "url": "https://opensourceorchestra.org/openrecording2/"
+        },
+        {
+          "label": "All public calls",
+          "url": "https://opensourceorchestra.org/calls/"
+        },
+        {
+          "label": "archive.org item",
+          "url": "https://archive.org/details/oso-weekly-call-2-2026-10-27"
+        },
+        {
+          "label": "Public transcript (archive.org)",
+          "url": "https://archive.org/download/oso-weekly-call-2-2026-10-27/weekly-call-2-2026-10-27-transcript.txt"
+        }
+      ],
+      "ledgerEntry": "/meetings/#weekly-call-2"
+    },
+    {
+      "id": "meeting-1",
+      "number": 2,
+      "kind": "video",
+      "title": "Proposal Meeting #1 · The First Circle",
+      "subtitle": "Devcon 8 retro and the road to Lisbon · Session A",
+      "lede": "Shaka opens the first proposal circle after Devcon 8 with Ben, Levi and Utkarsh: how a no-commission orchestra might one day fund flights, housing and a shared backline retroactively and equally, from EthCC in Cannes to Devcon 9 in Lisbon. Levi describes his co-op’s approach to rights and revenue splits, Utkarsh’s x402 agent-tipping work is recapped, and the circle agrees only to keep talking — the DAO stays a proposal, in Shaka’s words “just a prayer.”",
+      "recordedAt": "2026-11-12T17:36:00Z",
+      "dateLabel": "12 November 2026 · 17:36 UTC · 00:36 Bangkok",
+      "durationSeconds": 3231.584,
+      "durationLabel": "53:51",
+      "speakers": [
+        "Shaka",
+        "Ben",
+        "Levi",
+        "Utkarsh"
+      ],
+      "speakersNote": "first names only, as already public; a later arrival is labelled Guest",
+      "consent": {
+        "status": "published_with_consent",
+        "line": "Recorded with everyone's consent to publish: full consent for this recording to be broadcast and shared everywhere, confirmed by Shaka Lei Kaumaka on 13 November 2026 (05:21 UTC).",
+        "confirmedBy": "Shaka",
+        "confirmedAt": "2026-11-13T05:21:00Z",
+        "home": "/meetings/1/"
+      },
+      "media": {
+        "video": {
+          "url": "https://theater.opensourceorchestra.org/oso-dao-proposal-meeting-1-2026-11-12-720p.mp4",
+          "type": "video/mp4",
+          "bytes": 438969537,
+          "sha256": "6901aad415e68014f7a9ce234a92d9525a7a5c75cb982b1bd94162a2c4ff4942",
+          "host": "Cloudflare R2 · theater.opensourceorchestra.org",
+          "note": "720p H.264 web re-encode of the consented 1280×720 recording; byte-range streaming with CORS"
+        },
+        "audio": {
+          "url": "/meetings/1/audio/oso-dao-proposal-meeting-1-2026-11-12.mp3",
+          "bytes": 25853012,
+          "sha256": "a3447d03b0dd34afd9226e404b0c76d7aa2915b2661b5030336da31be6b20f3a"
+        },
+        "poster": "./assets/channels/poster-meeting-1.jpg",
+        "captions": "./meetings/1/transcript/transcript.vtt",
+        "transcript": "./meetings/1/transcript/transcript.json"
+      },
+      "chapters": [
+        {
+          "start": 0,
+          "title": "Aloha · recording on · the road to Lisbon"
+        },
+        {
+          "start": 59.0,
+          "title": "Introductions: Ben, Levi and Utkarsh"
+        },
+        {
+          "start": 146.8,
+          "title": "Devcon 8 story · x402 agent tips for the orchestra"
+        },
+        {
+          "start": 380.5,
+          "title": "No commission · retroactive, equal support"
+        },
+        {
+          "start": 574.9,
+          "title": "Ben: carrying participants from event to event"
+        },
+        {
+          "start": 710.2,
+          "title": "A giving pool · every ripple equal · humble DAO experiment"
+        },
+        {
+          "start": 960.2,
+          "title": "The broken guitar and a community backline"
+        },
+        {
+          "start": 1110.8,
+          "title": "Young builders, housing and basic costs"
+        },
+        {
+          "start": 1305.3,
+          "title": "Levi: Amerge co-op, rights and revenue splits"
+        },
+        {
+          "start": 1716.8,
+          "title": "Open door becomes sanctuary · GitHub org and agents"
+        },
+        {
+          "start": 2010.7,
+          "title": "EthCC in Cannes · instruments on every continent"
+        },
+        {
+          "start": 2259.6,
+          "title": "The year ahead: Denver, New York, Japan, Lisbon"
+        },
+        {
+          "start": 2424.0,
+          "title": "Retroactive proposals after a threshold"
+        },
+        {
+          "start": 2499.6,
+          "title": "Ben: plan the events, fund the core, play virtually"
+        },
+        {
+          "start": 2677.4,
+          "title": "Builders who came before · agents as artist stewards"
+        },
+        {
+          "start": 3093.9,
+          "title": "Closing: weekly calls, consent, 'just a prayer'"
+        }
+      ],
+      "links": [
+        {
+          "label": "Recap",
+          "url": "/meetings/1/"
+        },
+        {
+          "label": "High-level notes",
+          "url": "/meetings/1/notes/"
+        },
+        {
+          "label": "Full transcript",
+          "url": "/meetings/1/transcript/"
+        },
+        {
+          "label": "Audio",
+          "url": "/meetings/1/audio/"
+        }
+      ],
+      "ledgerEntry": "/meetings/#meeting-1"
+    },
+    {
+      "id": "meeting-2",
+      "number": 3,
+      "kind": "video",
+      "title": "Proposal Meeting #2 · The second circle",
+      "subtitle": "From the lobby of 4Seas, Chiang Mai · Session B",
+      "lede": "Shaka hosts Aakaash, Sha and Vipul: no token for OSO, gift first and receipts after, a European backline for the road to Lisbon, a Devcon 9 song, copyright care — and a tour of this very hall.",
+      "recordedAt": "2026-11-13T07:11:00Z",
+      "dateLabel": "13 November 2026 · 07:11 UTC · 14:11 Bangkok",
+      "durationSeconds": 3407.709,
+      "durationLabel": "56:47",
+      "speakers": [
+        "Shaka",
+        "Aakaash",
+        "Sha",
+        "Vipul"
+      ],
+      "speakersNote": "first names only, as spoken and as Shaka wrote them; two 4Seas hosts say hello at the close",
+      "consent": {
+        "status": "published_with_consent",
+        "line": "Recorded with everyone's consent to publish — participants gave a thumbs-up to recording at the opening — confirmed by Shaka Lei Kaumaka on 14 November 2026 (04:20 UTC).",
+        "confirmedBy": "Shaka",
+        "confirmedAt": "2026-11-14T04:20:00Z",
+        "home": "/meetings/2/"
+      },
+      "media": {
+        "video": {
+          "url": "https://theater.opensourceorchestra.org/oso-dao-proposal-meeting-2-2026-11-13-720p.mp4",
+          "type": "video/mp4",
+          "bytes": 662724224,
+          "sha256": "7c6878e1f71201f98631e229228c19837d7e33a75cf91b3c1627054e37c59f3c",
+          "host": "Cloudflare R2 · theater.opensourceorchestra.org",
+          "note": "720p H.264 web re-encode of the consented 1280×720 recording; byte-range streaming with CORS"
+        },
+        "audio": {
+          "url": "/meetings/2/audio/oso-dao-proposal-meeting-2-2026-11-13.mp3",
+          "bytes": 27261952,
+          "sha256": "876ccf701890b77e8a74bb120156cf20be2d10f667bb21ffc6daf738324adc14"
+        },
+        "poster": "./assets/channels/poster-meeting-2.jpg",
+        "captions": "./meetings/2/transcript/transcript.vtt",
+        "transcript": "./meetings/2/transcript/transcript.json"
+      },
+      "chapters": [
+        {
+          "start": 1.74,
+          "title": "Opening · consent, three Devcons, the road to Lisbon"
+        },
+        {
+          "start": 85.9,
+          "title": "No token for OSO · a DAO experiment to play more music"
+        },
+        {
+          "start": 197.9,
+          "title": "Donations, osoartist.eth subnames and agent tipping (as described)"
+        },
+        {
+          "start": 334.1,
+          "title": "Aakaash · from an ETH Mumbai night jam to the Road to Devcon 8"
+        },
+        {
+          "start": 460.6,
+          "title": "Sha · singing unscheduled at Devcon 8, calling in from Goa"
+        },
+        {
+          "start": 670.6,
+          "title": "Vipul · company secretary, advocate, copyright care"
+        },
+        {
+          "start": 723.6,
+          "title": "Gift first, receipts after · the retroactive-DAO idea"
+        },
+        {
+          "start": 906.1,
+          "title": "A guitar dropped on three continents · a European backline"
+        },
+        {
+          "start": 1101.3,
+          "title": "Aakaash · what Devcon 8 gave back; India’s artists"
+        },
+        {
+          "start": 1292.8,
+          "title": "Sanctuary on the ground floor · holding the schedule lightly"
+        },
+        {
+          "start": 1842.4,
+          "title": "Sha’s ideas · a Devcon 9 song, local giving, local players, new gear"
+        },
+        {
+          "start": 2028.4,
+          "title": "Shaka · DIPs, consent on a ledger, agents that assist, the hall tour"
+        },
+        {
+          "start": 2933.4,
+          "title": "Aakaash · excited to play again; the stage where people found courage"
+        },
+        {
+          "start": 3105.5,
+          "title": "Sha · a break from attack mode; being"
+        },
+        {
+          "start": 3229.1,
+          "title": "Closing · 4Seas, Chiang Mai, an open invitation"
+        }
+      ],
+      "links": [
+        {
+          "label": "Recap",
+          "url": "/meetings/2/"
+        },
+        {
+          "label": "High-level notes",
+          "url": "/meetings/2/notes/"
+        },
+        {
+          "label": "Full transcript",
+          "url": "/meetings/2/transcript/"
+        },
+        {
+          "label": "Audio",
+          "url": "/meetings/2/audio/"
+        }
+      ],
+      "ledgerEntry": "/meetings/#meeting-2"
+    },
+    {
+      "id": "deck",
+      "number": 4,
+      "kind": "deck",
+      "title": "The deck · twelve movements with AI steward narration",
+      "subtitle": "The First Circle slides, read by the authorized synthetic Shaka-agent steward voice",
+      "lede": "Twelve movements, G–Em–C–D–C–G twice: origin, Devcon 8, the repertoire, open code, the first circle, consent, the ledger, the phases, the open invitation, the Listening Archive and love. Captions and the complete sourced transcript stay readable.",
+      "recordedAt": "2026-11-12",
+      "dateLabel": "Synthesized 12 November 2026 · written errata 13–14 November",
+      "durationSeconds": 565,
+      "durationLabel": "9:25",
+      "speakers": [
+        "AI steward (synthetic)"
+      ],
+      "speakersNote": "AI-agent-steward synthetic narration authorized by Shaka; not a live or new recording of Shaka",
+      "consent": {
+        "status": "authorized_synthetic",
+        "line": "Original editorial AI speech authorized by Shaka; based only on cited public records. Not a human recording and not meeting audio.",
+        "confirmedBy": "Shaka",
+        "confirmedAt": "2026-11-12",
+        "home": "/narration/"
+      },
+      "media": {
+        "poster": "./assets/channels/poster-deck.jpg",
+        "captions": "./narration/narration.vtt",
+        "transcript": "./data/narration.json"
+      },
+      "chapters": [],
+      "links": [
+        {
+          "label": "Sourced narration transcript",
+          "url": "/narration/"
+        },
+        {
+          "label": "Accessible deck",
+          "url": "/#transcript-content"
+        }
+      ],
+      "ledgerEntry": "/meetings/#deck"
+    },
+    {
+      "id": "todo-es-posible",
+      "number": 5,
+      "kind": "youtube",
+      "title": "Todo Es Posible · Música con JAMón",
+      "subtitle": "The OSO motto — ‘everything is possible’ · Pinolero demo track 2",
+      "lede": "A song from Shaka’s Música con JAMón channel: the motto the whole orchestra plays under. An example of how OSO DAO public media files grow — recorded, blessed, shared.",
+      "recordedAt": null,
+      "dateLabel": "YouTube · Música con JAMón",
+      "durationSeconds": null,
+      "durationLabel": "",
+      "speakers": [
+        "Shaka"
+      ],
+      "speakersNote": "Shaka’s own channel",
+      "consent": {
+        "status": "owner_published",
+        "line": "Published by Shaka on his own YouTube channel Música con JAMón; shown here as his example of growing the OSO DAO public media files.",
+        "confirmedBy": "Shaka",
+        "confirmedAt": "2026-11-14",
+        "home": "https://www.youtube.com/watch?v=7IWn-YjNRlk"
+      },
+      "media": {
+        "youtubeId": "7IWn-YjNRlk",
+        "watch": "https://www.youtube.com/watch?v=7IWn-YjNRlk",
+        "embed": "https://www.youtube-nocookie.com/embed/7IWn-YjNRlk?rel=0",
+        "poster": "./assets/channels/yt-7IWn-YjNRlk.jpg",
+        "channel": "https://www.youtube.com/@musicaconjamon5581"
+      },
+      "chapters": [],
+      "links": [
+        {
+          "label": "Watch on YouTube",
+          "url": "https://www.youtube.com/watch?v=7IWn-YjNRlk"
+        },
+        {
+          "label": "Música con JAMón",
+          "url": "https://www.youtube.com/@musicaconjamon5581"
+        }
+      ],
+      "ledgerEntry": "/meetings/#todo-es-posible"
+    },
+    {
+      "id": "devcon-6",
+      "number": 6,
+      "kind": "youtube",
+      "title": "Devcon 6 · Chiva Chillout Lounge · Bogotá 2022",
+      "subtitle": "Where the first OSO DIP activated the Music Stage",
+      "lede": "From Shaka’s shakaleikaumaka channel: the Devcon 6 chiva chillout lounge in Bogotá, 2022 — the first Open Source Orchestra Devcon Improvement Proposal in action. An example of how OSO DAO public media files grow.",
+      "recordedAt": "2022-10",
+      "dateLabel": "YouTube · ShaKa Lei Kaumaka · Devcon VI, Bogotá, October 2022",
+      "durationSeconds": null,
+      "durationLabel": "",
+      "speakers": [
+        "Shaka"
+      ],
+      "speakersNote": "Shaka’s own channel",
+      "consent": {
+        "status": "owner_published",
+        "line": "Published by Shaka on his own YouTube channel shakaleikaumaka; shown here as his example of growing the OSO DAO public media files.",
+        "confirmedBy": "Shaka",
+        "confirmedAt": "2026-11-14",
+        "home": "https://www.youtube.com/watch?v=vf3ZitSmXDw"
+      },
+      "media": {
+        "youtubeId": "vf3ZitSmXDw",
+        "watch": "https://www.youtube.com/watch?v=vf3ZitSmXDw",
+        "embed": "https://www.youtube-nocookie.com/embed/vf3ZitSmXDw?rel=0",
+        "poster": "./assets/channels/yt-vf3ZitSmXDw.jpg",
+        "channel": "https://www.youtube.com/@shakaleikaumaka"
+      },
+      "chapters": [],
+      "links": [
+        {
+          "label": "Watch on YouTube",
+          "url": "https://www.youtube.com/watch?v=vf3ZitSmXDw"
+        },
+        {
+          "label": "ShaKa Lei Kaumaka on YouTube",
+          "url": "https://www.youtube.com/@shakaleikaumaka"
+        },
+        {
+          "label": "2022 open-mic DIP",
+          "url": "https://forum.devcon.org/t/music-sessions-open-mic-stage/387"
+        }
+      ],
+      "ledgerEntry": "/meetings/#devcon-6"
+    }
+  ]
+}

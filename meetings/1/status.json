@@ -18,7 +18,11 @@
   "distributionConsent": {
     "reportedBy": "Shaka",
     "reportedAt": "2026-11-12T18:44:33Z",
-    "firstNamesOnly": ["Ben", "Levi", "Utkarsh"],
+    "firstNamesOnly": [
+      "Ben",
+      "Levi",
+      "Utkarsh"
+    ],
     "scope": "earlier careful public recap and high-level notes only; not the later full-recording consent correction"
   },
   "recordingConsent": {
@@ -31,23 +35,48 @@
   "recording": {
     "review": "private watch and local review completed on 2026-11-12",
     "consentStatus": "full broadcast and sharing consent confirmed",
-    "attachmentStatus": "not_attached_to_this_site",
-    "publicUrl": null,
-    "publicDownload": null,
+    "attachmentStatus": "published_with_consent",
+    "publicUrl": "https://theater.opensourceorchestra.org/oso-dao-proposal-meeting-1-2026-11-12-720p.mp4",
+    "publicDownload": "https://theater.opensourceorchestra.org/oso-dao-proposal-meeting-1-2026-11-12-720p.mp4",
     "rawTranscript": null,
-    "fullTranscriptStatus": "not released; not separately addressed by the 2026-11-13 correction",
+    "fullTranscriptStatus": "public-safe transcript published 2026-11-14: editorial first-name speaker labels, a later arrival not named, personal circumstances removed",
     "verifiedSegmentSeconds": 3231.584,
     "transcription": "local faster-whisper large-v3-turbo; media never uploaded to a transcription service",
-    "notes": "published high-level notes remain available; the raw video file is not attached or hosted on this site in this update",
-    "publicNotes": "/meetings/1/notes/"
+    "notes": "published high-level notes remain available; film, audio, captions and transcript published 2026-11-14 on Shaka's order to put every consented meeting in the projector",
+    "publicNotes": "/meetings/1/notes/",
+    "publicVideo": {
+      "url": "https://theater.opensourceorchestra.org/oso-dao-proposal-meeting-1-2026-11-12-720p.mp4",
+      "encoding": "720p H.264 CRF 23 + AAC 96k, faststart",
+      "bytes": 438969537,
+      "sha256": "6901aad415e68014f7a9ce234a92d9525a7a5c75cb982b1bd94162a2c4ff4942",
+      "host": "Cloudflare R2 · theater.opensourceorchestra.org"
+    },
+    "publicAudio": "/meetings/1/audio/oso-dao-proposal-meeting-1-2026-11-12.mp3",
+    "publicAudioBytes": 25853012,
+    "publicAudioSha256": "a3447d03b0dd34afd9226e404b0c76d7aa2915b2661b5030336da31be6b20f3a",
+    "publicTranscript": "/meetings/1/transcript/",
+    "captions": "/meetings/1/transcript/transcript.vtt",
+    "rawVideo": {
+      "hostedOnThisSite": false,
+      "status": "kept private; 720p re-encode hosted on theater.opensourceorchestra.org"
+    },
+    "status": "published_with_consent",
+    "durationSeconds": 3231.584,
+    "theaterChannel": 2
   },
   "notesDistribution": {
     "postedAt": "2026-11-12T20:33Z",
-    "groups": ["Open Source Orchestra main", "Devcon Music Sanctuary", "Music Sanctuary Stewards", "Fork the First Artist builders"],
+    "groups": [
+      "Open Source Orchestra main",
+      "Devcon Music Sanctuary",
+      "Music Sanctuary Stewards",
+      "Fork the First Artist builders"
+    ],
     "scope": "high-level consent-safe themes and public notes link only"
   },
   "attendeeList": null,
   "privateMeetLinks": null,
   "next": "merge both time-zone circles; third meetup open-invite for all, details TBA",
-  "takedown": "https://opensourceorchestra.org/takedown/"
+  "takedown": "https://opensourceorchestra.org/takedown/",
+  "published": "2026-11-14"
 }

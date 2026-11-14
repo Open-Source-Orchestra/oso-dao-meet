@@ -4,19 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#110b17">
-  <meta name="description" content="Step into Open Source Orchestra DAO Meet — The First Circle. A walkable artistic concert hall, living public memories, and a consent-centered community proposal.">
+  <meta name="description" content="Open Source Orchestra DAO Meet — The Theater. One room: the orchestra pit on the floor, the living wall of Devcon memories, and a six-channel projector that plays every meeting we recorded with consent, with karaoke transcribers.">
   <meta name="referrer" content="no-referrer">
   <title>Open Source Orchestra DAO Meet — The First Circle</title>
   <link rel="canonical" href="https://osodaomeet.opensourceorchestra.org/">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://osodaomeet.opensourceorchestra.org/">
   <meta property="og:title" content="Open Source Orchestra DAO Meet — The First Circle">
-  <meta property="og:description" content="A walkable virtual orchestra hall, living public memories, the OG Circle, and a consent-first community proposal. Code is law. The law is LOVE.">
+  <meta property="og:description" content="One theater: the orchestra pit, the living wall, and a six-channel projector — every consented meeting with karaoke transcribers, the narrated deck, and Shaka’s own songs. Code is law. The law is LOVE.">
   <meta property="og:image" content="https://osodaomeet.opensourceorchestra.org/assets/og-oso-dao-meet.jpg">
   <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Open Source Orchestra DAO Meet — The First Circle">
-  <meta name="twitter:description" content="The orchestra that will heal the world. Enter the living virtual hall.">
+  <meta name="twitter:description" content="The orchestra that will heal the world. Enter the theater: six channels, every meeting with consent, karaoke transcribers.">
   <meta name="twitter:image" content="https://osodaomeet.opensourceorchestra.org/assets/og-oso-dao-meet.jpg">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='43' fill='%23110b17' stroke='%23dfbb73' stroke-width='4'/%3E%3Cpath d='M28 61V37l10 12 12-20 12 20 10-12v24' fill='none' stroke='%23f8edda' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="./css/styles.css">
@@ -33,13 +33,14 @@
     <header id="topbar" class="chrome hall-ui">
       <div class="brand-lockup" aria-label="Open Source Orchestra DAO Meet">
         <span class="brand-sigil" aria-hidden="true"><i></i><i></i><i></i></span>
-        <span class="brand-words"><strong>OPEN SOURCE ORCHESTRA</strong><small>DAO MEET · THE FIRST CIRCLE</small></span>
+        <span class="brand-words"><strong>OPEN SOURCE ORCHESTRA</strong><small>DAO MEET · THE THEATER</small></span>
       </div>
       <nav class="top-actions" aria-label="Hall and deck tools">
         <span id="vr-status" class="vr-status" hidden>VR not detected</span>
         <div id="vr-host" class="vr-host"></div>
-        <button id="venue-button" class="tool-button venue-button" type="button" aria-haspopup="dialog" title="Choose an artistic hall">
-          <span aria-hidden="true">◈</span><span><small>HALL</small><strong id="venue-current">Mumbai · Memory</strong></span>
+        <button id="channels-button" class="tool-button" type="button" title="Channels · the projector plays every consented meeting · C" aria-controls="theater" aria-expanded="false" disabled><span aria-hidden="true">📺</span><span><small>PROJECTOR</small><strong>Channels</strong></span></button>
+        <button id="venue-button" class="tool-button venue-button" type="button" aria-haspopup="dialog" title="Change the theater lighting">
+          <span aria-hidden="true">◈</span><span><small>LIGHTING</small><strong id="venue-current">Memory gold</strong></span>
         </button>
         <button id="gallery-button" class="tool-button compact-label" type="button" aria-haspopup="dialog" title="Living walls · G"><span aria-hidden="true">▦</span><span>Living walls</span></button>
         <a id="circle-button" class="tool-button compact-label" href="./circle/" title="Meet every existing public node in the OG Circle"><span aria-hidden="true">♬</span><span>OG Circle</span></a>
@@ -55,9 +56,9 @@
     </header>
 
     <aside id="scene-caption" class="scene-caption hall-ui" aria-live="polite">
-      <span class="scene-eyebrow">ARTISTIC INTERPRETATION</span>
-      <strong id="scene-title">Mumbai · Memory</strong>
-      <span id="scene-detail">A contemporary fan-vaulted reverie. Not an affiliated venue or exact digital twin.</span>
+      <span class="scene-eyebrow">ONE THEATER · ARTISTIC INTERPRETATION</span>
+      <strong id="scene-title">The Theater · Memory gold</strong>
+      <span id="scene-detail">The orchestra pit on the floor, the living wall of public memories, the projector as six channels. Not an affiliated venue or digital twin.</span>
     </aside>
 
     <div id="object-hint" class="object-hint" hidden aria-hidden="true"></div>
@@ -110,7 +111,7 @@
 
   <div id="toast" class="toast" role="status" hidden></div>
   <div id="slide-announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
-  <p id="canvas-description" class="sr-only">The projector is a twelve-movement accessible slide deck. Click it for the next movement. Use Left and Right Arrow or Space to navigate. Drag to look, W A S D to walk, Q and E for height, R for the best seat, F for fullscreen, H for help, and T for the complete readable transcript. Every wall photograph has a caption and credit in Living walls. Optional AI steward narration starts only when you open Listen to the hall and press Play.</p>
+  <p id="canvas-description" class="sr-only">One theater: the orchestra pit on the floor, the living wall along the sides, and the projector. The projector shows the twelve-movement accessible slide deck and, through Channels (C), every meeting recorded with consent, with a karaoke transcriber. Click it for the next movement. Use Left and Right Arrow or Space to navigate. Drag to look, W A S D to walk, Q and E for height, R for the best seat, F for fullscreen, H for help, and T for the complete readable transcript. Every wall photograph has a caption and credit in Living walls. Optional AI steward narration starts only when you open Listen to the hall and press Play.</p>
 
   <section id="entry-screen" role="dialog" aria-modal="true" aria-labelledby="entry-title" aria-describedby="entry-description">
     <div class="entry-architecture" aria-hidden="true">
@@ -118,22 +119,22 @@
       <span class="entry-column column-left"></span><span class="entry-column column-right"></span>
       <span class="entry-orbit orbit-one"></span><span class="entry-orbit orbit-two"></span>
     </div>
-    <div class="entry-topline"><span>OPEN SOURCE ORCHESTRA</span><span>VIRTUAL CONCERT HALL · VOL. I</span></div>
+    <div class="entry-topline"><span>OPEN SOURCE ORCHESTRA</span><span>THE THEATER · VOL. II</span></div>
     <div class="entry-content">
       <div class="entry-emblem" aria-hidden="true"><span></span><b>O</b><i></i></div>
-      <p class="entry-kicker">DAO MEET · THE FIRST CIRCLE</p>
+      <p class="entry-kicker">DAO MEET · THE THEATER · ONE ROOM</p>
       <h1 id="entry-title">Open Source<br><em>Orchestra</em></h1>
       <p id="entry-description" class="entry-tagline">The orchestra that will heal the world.</p>
       <div class="entry-rule" aria-hidden="true"><span></span><b>✦</b><span></span></div>
-      <p class="entry-intro">Walk into a living score. A giant stage screen, an orchestra at rest, and public memories that change with every movement.</p>
+      <p class="entry-intro">Walk into one living theater: the orchestra pit on the floor, the living wall of Devcon memories, and a projector with six channels — every meeting we recorded with consent, with karaoke transcribers.</p>
       <button id="enter-button" class="enter-button" type="button" disabled><span id="enter-label">Preparing the hall</span><b aria-hidden="true">→</b></button>
       <p id="entry-load-state" class="entry-load-state" role="status"><span class="loading-note"></span> Tuning the room and drawing the first movement…</p>
       <p class="entry-listen-wrap"><a id="entry-listen" class="entry-listen-button" href="./narration/" aria-label="Listen to the hall with optional authorized synthetic AI steward narration"><span>♪ Listen to the hall</span><small>Optional AI steward narration authorized by Shaka · not a live or new Shaka recording</small></a></p>
-      <a id="entry-read" class="entry-read" href="#transcript-content">Read the accessible deck instead</a><span aria-hidden="true"> · </span><a class="entry-read" href="./meetings/1/">Proposal Meeting #1 · public recap</a><span aria-hidden="true"> · </span><a class="entry-read" href="./meetings/2/">Proposal Meeting #2 · transcript + audio</a>
+      <a id="entry-read" class="entry-read" href="#transcript-content">Read the accessible deck instead</a><span aria-hidden="true"> · </span><a id="entry-channels" class="entry-read" href="./channels/">📺 Six channels · every meeting with consent</a><span aria-hidden="true"> · </span><a class="entry-read" href="./meetings/">Public media files ledger</a>
     </div>
     <div class="entry-bottom">
-      <p><strong id="entry-hall-name">MUMBAI · MEMORY</strong><span id="entry-hall-note">Jio World Centre memory — an artistic interpretation, never an exact digital twin or venue affiliation.</span></p>
-      <p class="entry-controls"><span>DRAG</span> look around <i>·</i> <span>WASD</span> walk <i>·</i> <span>CLICK SCREEN</span> next movement <i>·</i> <span>H</span> help</p>
+      <p><strong id="entry-hall-name">THE THEATER · MEMORY GOLD</strong><span id="entry-hall-note">One room, three lightings — an artistic interpretation, never an exact digital twin or venue affiliation.</span></p>
+      <p class="entry-controls"><span>DRAG</span> look around <i>·</i> <span>WASD</span> walk <i>·</i> <span>CLICK SCREEN</span> next movement <i>·</i> <span>C</span> channels <i>·</i> <span>H</span> help</p>
       <p class="entry-disclosure">AI-assisted artistic work · optional authorized synthetic narration · no audio autoplay · no trackers · community proposal, not onchain</p>
     </div>
   </section>
@@ -141,24 +142,24 @@
   <dialog id="venue-dialog" class="modal-dialog venue-dialog" aria-labelledby="venue-title">
     <div class="dialog-card wide-card">
       <header class="dialog-header">
-        <div><span class="dialog-kicker">THREE ROOMS · ONE ORCHESTRA</span><h2 id="venue-title">Choose your hall</h2></div>
+        <div><span class="dialog-kicker">ONE THEATER · THREE LIGHTINGS</span><h2 id="venue-title">Change the lighting</h2></div>
         <button class="dialog-close" type="button" data-close aria-label="Close venue selector">×</button>
       </header>
-      <p class="dialog-intro">Three honest artistic interpretations. None is an exact digital twin, an official virtual venue, or a claim of affiliation.</p>
-      <div class="venue-options" role="radiogroup" aria-label="Artistic hall interpretation">
+      <p class="dialog-intro">One theater, lit three ways. Each palette is an honest artistic memory — none is an exact digital twin, an official virtual venue, or a claim of affiliation.</p>
+      <div class="venue-options" role="radiogroup" aria-label="Theater lighting">
         <button class="venue-option mumbai-option" type="button" data-hall-choice="mumbai" role="radio" aria-checked="true">
           <span class="venue-art" aria-hidden="true"><i></i><i></i><i></i><i></i><b>01</b></span>
-          <span class="venue-copy"><small>MUMBAI · MEMORY</small><strong>Jio World Centre<br>Mumbai memory</strong><span>Fan-vaulted gold, deep burgundy, and contemporary jewel-like details.</span><em>Artistic interpretation · not a scan or affiliated venue</em></span>
+          <span class="venue-copy"><small>MEMORY GOLD</small><strong>Mumbai<br>memory light</strong><span>Fan-vaulted gold, deep burgundy, and contemporary jewel-like details.</span><em>Artistic interpretation · not a scan or affiliated venue</em></span>
           <span class="venue-selected">SELECTED</span>
         </button>
         <button class="venue-option prague-option" type="button" data-hall-choice="prague" role="radio" aria-checked="false">
           <span class="venue-art" aria-hidden="true"><i></i><i></i><i></i><i></i><b>02</b></span>
-          <span class="venue-copy"><small>PRAGUE · ART NOUVEAU</small><strong>Smetana Hall /<br>Municipal House inspired</strong><span>Ivory warmth, floral gold, graceful arches, and balcony light.</span><em>Prague-inspired fantasy · not a scale model</em></span>
+          <span class="venue-copy"><small>ART NOUVEAU IVORY</small><strong>Prague-inspired<br>ivory light</strong><span>Ivory warmth, floral gold, graceful arches, and balcony light.</span><em>Prague-inspired fantasy · not a scale model</em></span>
           <span class="venue-selected">SELECTED</span>
         </button>
         <button class="venue-option cannes-option" type="button" data-hall-choice="cannes" role="radio" aria-checked="false">
           <span class="venue-art" aria-hidden="true"><i></i><i></i><i></i><i></i><b>03</b></span>
-          <span class="venue-copy"><small>CANNES · PREMIERE NIGHT</small><strong>Palais des Festivals<br>Cannes inspired</strong><span>Geometric bronze fins, a night palette, and red-carpet emphasis.</span><em>Interpretation only · no festival affiliation</em></span>
+          <span class="venue-copy"><small>PREMIERE NIGHT</small><strong>Cannes-inspired<br>night light</strong><span>Geometric bronze fins, a night palette, and red-carpet emphasis.</span><em>Interpretation only · no festival affiliation</em></span>
           <span class="venue-selected">SELECTED</span>
         </button>
       </div>
@@ -184,14 +185,15 @@
           <div><dt>Click projector / → / Space</dt><dd>Next movement</dd></div>
           <div><dt>← / P</dt><dd>Previous / play or pause</dd></div>
           <div><dt>Click a wall photo</dt><dd>Change that living frame</dd></div>
-          <div><dt>G / T / L</dt><dd>Living walls / transcript / optional narration</dd></div>
+          <div><dt>C</dt><dd>Channels · the projector plays every consented meeting (1–6 pick a channel, ← → switch)</dd></div>
+          <div><dt>G / T / L</dt><dd>Living wall / transcript / optional narration</dd></div>
           <div><dt>F / H / Esc</dt><dd>Fullscreen / help / close panels</dd></div>
         </dl></section>
       </div>
       <section class="help-note"><h3>WebXR, motion & optional narration</h3><p>On a capable HTTPS WebXR device, a local <strong>Enter VR</strong> button appears in the top bar. Controller select advances the slide. Reduced-motion preferences disable ambient hall movement and prevent automatic slideshow playback. Every control still works manually. <strong>Listen to the hall</strong> opens optional AI-agent-steward synthetic narration authorized by Shaka, not a live or new recording of Shaka and not meeting audio. Audio never autoplays; press Play for speech, then use pause, previous, next, seek and speed controls. Synchronized movement captions, a complete sourced transcript, and downloads are available.</p></section>
-      <section class="help-note"><h3>Honest boundaries</h3><p>The DAO material is a <strong>community proposal, not deployed, adopted, or onchain</strong>. Agents have no votes or keys. There is no token sale and no funds movement. On 13 November, Shaka confirmed full consent for the Meeting #1 recording to be broadcast and shared everywhere. Its raw video is not attached to this site in this update; the full participant transcript was not separately addressed or released. Photos never imply formal membership.</p></section>
+      <section class="help-note"><h3>Honest boundaries</h3><p>The DAO material is a <strong>community proposal, not deployed, adopted, or onchain</strong>. Agents have no votes or keys. There is no token sale and no funds movement. On 13 November, Shaka confirmed full consent for the Meeting #1 recording to be broadcast and shared everywhere, and on 14 November he confirmed Meeting #2 and asked for every consented meeting to play in the projector. Channels 1–3 therefore stream those recordings (the raw originals stay private; the 720p films live at theater.opensourceorchestra.org and archive.org), each with its consent line, public-safe captions and a takedown door. Photos never imply formal membership.</p></section>
       <section class="help-note"><h3>AI & takedown disclosure</h3><p>This is an AI-assisted artistic world, not a venue scan, meeting record, or governance instrument. Optional narration is original editorial speech based on cited public records. Its original 12 November movement 11 audio and matching caption cues retain superseded archive-lock wording; a prominent dated written correction supplies the current confirmed recording-consent status without synthesizing a new voice. If a public photograph includes you and you would rather it did not, the commitment is takedown first, questions second.</p>
-        <div class="inline-links"><a href="./narration/#listening-archive">Sourced narration + consent correction</a><a href="./meetings/1/">Proposal Meeting #1</a><a href="./meetings/2/">Proposal Meeting #2 · published with consent</a><a href="./circle/">Meet the OG Circle</a><a href="./archive/">Listening Archive · consent confirmed</a><a href="https://opensourceorchestra.org/takedown/" target="_blank" rel="noopener noreferrer">How a takedown works ↗</a><a href="./SOURCES.md">Asset sources & credits</a></div>
+        <div class="inline-links"><a href="./channels/">Six channels · readable edition</a><a href="./meetings/">Public media files ledger</a><a href="./narration/#listening-archive">Sourced narration + consent correction</a><a href="./meetings/1/">Proposal Meeting #1</a><a href="./meetings/2/">Proposal Meeting #2 · published with consent</a><a href="./circle/">Meet the OG Circle</a><a href="./archive/">Listening Archive · consent confirmed</a><a href="https://opensourceorchestra.org/takedown/" target="_blank" rel="noopener noreferrer">How a takedown works ↗</a><a href="./SOURCES.md">Asset sources & credits</a></div>
       </section>
     </div>
   </dialog>
@@ -217,7 +219,7 @@
       <div class="transcript-notice">
         <p id="fallback-reason" hidden></p>
         <p><strong>A proposal in public.</strong> No DAO deployment, adoption, onchain state, formal membership, token sale, or funds movement is claimed. AI agents assist but have no votes or keys. The third meetup is an open future invitation; its details are to be announced and no meeting link is published here.</p>
-        <p>All three halls are artistic interpretations without venue affiliation. <strong>Meeting #1 recording consent is confirmed:</strong> Shaka confirmed on 13 November that the recording may be broadcast and shared everywhere. The raw video is not attached to this site in this update; the full participant transcript was not separately addressed or released. <a href="https://opensourceorchestra.org/takedown/" target="_blank" rel="noopener noreferrer">Takedown requests come first.</a></p>
+        <p>All three halls are artistic interpretations without venue affiliation. <strong>Every meeting in the projector was recorded with consent to publish:</strong> Shaka confirmed Meeting #1 on 13 November (broadcast and share everywhere) and Meeting #2 on 14 November; weekly call #2 asked consent on the recording itself. The films, public-safe captions and transcripts are listed in the <a href="./channels/">readable channels edition</a> and the <a href="./meetings/">public media files ledger</a>; the raw originals stay private. <a href="https://opensourceorchestra.org/takedown/" target="_blank" rel="noopener noreferrer">Takedown requests come first.</a></p>
         <p><strong>Optional narration:</strong> the <a href="./narration/">Listen to the hall transcript</a> is AI-agent-steward synthetic narration authorized by Shaka, not a live or new recording of Shaka. An AI speaker, not human presence or meeting attendance; based only on cited public records. No attendee voice or words appear there. It includes the complete readable script, per-movement captions, measured durations and downloads.</p>
       </div>
       <main id="transcript-content" class="transcript-content" tabindex="-1">
@@ -272,9 +274,9 @@
           <p class="transcript-links"><a href="https://opensourceorchestra.org/" target="_blank" rel="noopener noreferrer">Watch the official website ↗</a><a href="https://opensourceorchestra.org/join/" target="_blank" rel="noopener noreferrer">Open community join page ↗</a></p>
         </article>
         <article id="transcript-listening-archive" data-slide-article="listening-archive" class="locked-article">
-          <div class="transcript-movement">MOVEMENT 11 / 12 · C · CONSENT CONFIRMED · MEDIA NOT ATTACHED</div><h3>The Listening Archive</h3><p class="transcript-kicker">C · LISTENING ARCHIVE · RECORDING CONSENT CONFIRMED</p><p class="transcript-lede">MEETING #1 RECORDING · FULL BROADCAST + SHARING CONSENT</p>
-          <ul><li>13 Nov · Shaka confirmed full consent to broadcast and share the recording everywhere.</li><li>The ʻohana has already shown the OSO DAO care; public notes remain available.</li><li>Raw video is not attached or hosted on this site in this update; no download is claimed.</li><li>Full participant transcript was not separately addressed and is not released.</li></ul>
-          <p class="transcript-links"><a href="https://osodaomeet.opensourceorchestra.org/archive/" target="_blank" rel="noopener noreferrer">Open the Listening Archive ↗</a><a href="https://opensourceorchestra.org/takedown/" target="_blank" rel="noopener noreferrer">Read the takedown commitment ↗</a><a href="https://opensourceorchestra.org/calls/" target="_blank" rel="noopener noreferrer">Existing public calls archive ↗</a><a href="https://opensourceorchestra.org/openrecording2/" target="_blank" rel="noopener noreferrer">Existing consented open recording ↗</a></p>
+          <div class="transcript-movement">MOVEMENT 11 / 12 · C · PUBLISHED WITH CONSENT · CHANNELS 1–3 LIVE</div><h3>The Listening Archive</h3><p class="transcript-kicker">C · LISTENING ARCHIVE · PUBLISHED WITH CONSENT</p><p class="transcript-lede">EVERY CONSENTED MEETING · NOW PLAYING ON THE PROJECTOR</p>
+          <ul><li>13 Nov · Shaka confirmed full consent to broadcast and share the Meeting #1 recording everywhere.</li><li>14 Nov · Shaka put every consented meeting in the projector: weekly call #2, Meeting #1 and Meeting #2.</li><li>Channels 1–3 stream the films with public-safe captions and karaoke transcribers; raw originals stay private.</li><li>First names only, editorial speaker labels, a takedown door on every channel — consent for one circle is never a claim about another.</li></ul>
+          <p class="transcript-links"><a href="https://osodaomeet.opensourceorchestra.org/channels/" target="_blank" rel="noopener noreferrer">Open the channels ↗</a><a href="https://osodaomeet.opensourceorchestra.org/meetings/" target="_blank" rel="noopener noreferrer">Public media files ledger ↗</a><a href="https://osodaomeet.opensourceorchestra.org/archive/" target="_blank" rel="noopener noreferrer">Open the Listening Archive ↗</a><a href="https://opensourceorchestra.org/takedown/" target="_blank" rel="noopener noreferrer">Read the takedown commitment ↗</a><a href="https://opensourceorchestra.org/calls/" target="_blank" rel="noopener noreferrer">Existing public calls archive ↗</a><a href="https://opensourceorchestra.org/openrecording2/" target="_blank" rel="noopener noreferrer">Existing consented open recording ↗</a></p>
         </article>
         <article id="transcript-love" data-slide-article="love">
           <div class="transcript-movement">MOVEMENT 12 / 12 · G · TODO ES POSIBLE · WITH LOVE</div><h3>Code is law. The law is LOVE.</h3><p class="transcript-kicker">G · CODA · THE NEXT NOTE BELONGS TO ALL OF US</p><p class="transcript-lede">For the music and the code. For every sister, brother, sibling and curious heart.</p>
@@ -306,8 +308,42 @@
     <p id="narration-status" class="narration-status" role="status" aria-live="polite">Nothing will play until you press Play. The readable narration is available even if audio fails.</p>
     <div class="narration-caption-wrap"><h3>Movement caption <span>· synchronized when the slide changes</span></h3><p id="narration-caption" class="narration-caption" tabindex="0">Open the narrated edition to read the current movement, or use the complete transcript link below.</p></div>
     <nav class="narration-downloads" aria-label="Narration transcript and downloads"><a id="narration-transcript-link" href="./narration/" target="_blank" rel="noopener noreferrer">Full sourced transcript ↗</a><a id="narration-download" href="./narration/" download>Movement MP3</a><a id="narration-vtt" href="./narration/narration.vtt" download>WebVTT</a><a id="narration-srt" href="./narration/narration.srt" download>SRT</a><a href="./narration/transcript.txt" download>Plain text</a></nav>
-    <p class="narration-boundary"><strong>13 November 2026 recording-consent correction:</strong> Shaka confirmed full consent for the Meeting #1 recording to be broadcast and shared everywhere. The <a href="./meetings/1/notes/">high-level public notes</a> remain available; no raw video is attached to this site in this update, and the full participant transcript was not separately addressed or released. Movement 11's original 12 November synthetic audio and matching caption cues retain superseded lock wording; read the <a href="./narration/#listening-archive">dated written correction</a>. No new voice was synthesized.</p>
+    <p class="narration-boundary"><strong>13 November 2026 recording-consent correction:</strong> Shaka confirmed full consent for the Meeting #1 recording to be broadcast and shared everywhere. The <a href="./meetings/1/notes/">high-level public notes</a> remain available, and since 14 November the recording itself plays on <a href="./channels/">channel 2 of the projector</a> with public-safe captions and a <a href="./meetings/1/transcript/">transcript</a>. Movement 11's original 12 November synthetic audio and matching caption cues retain superseded lock wording; read the <a href="./narration/#listening-archive">dated written correction</a>. No new voice was synthesized.</p>
   </aside>
+
+  <section id="theater" class="theater" hidden aria-labelledby="theater-title" data-kind="video">
+    <div class="garden" aria-hidden="true"><div id="garden-photos"></div><div id="garden-flutter"></div></div>
+    <div class="theater-shell">
+      <header class="theater-header">
+        <div><span class="dialog-kicker">THE PROJECTOR · SIX CHANNELS · PIT PROTOCOL · PUBLICINFORM</span><h2 id="theater-title">Channels</h2><p>Every film here was recorded with consent to publish. Nothing plays until you press Play. Switch channels with the dial, ← →, the number keys, or a swipe. Esc returns to the hall.</p></div>
+        <button id="theater-close" class="dialog-close" type="button" aria-label="Close the channels and return to the hall">×</button>
+      </header>
+      <nav id="channel-dial" class="channel-dial" role="tablist" aria-label="Channels"></nav>
+      <div class="screen-wrap">
+        <figure id="screen" class="screen" role="tabpanel" aria-label="Projector screen">
+          <video id="channel-video" controls playsinline preload="none" crossorigin="anonymous" aria-describedby="theater-status">
+            <track id="channel-track" kind="captions" srclang="en" label="English captions" default>
+          </video>
+          <div id="screen-embed" class="screen-embed" hidden></div>
+          <div id="screen-deck" hidden></div>
+        </figure>
+      </div>
+      <div class="screen-tools" aria-label="Playback tools">
+        <label>Chapter <select id="channel-chapters" disabled aria-label="Jump to a chapter"></select></label>
+        <label>Speed <select id="channel-speed" aria-label="Playback speed"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="2">2×</option></select></label>
+        <button id="channel-share" type="button" title="Share this channel and moment">↗ Share this moment</button>
+        <a id="channel-open" class="tool-link" href="./channels/" target="_blank" rel="noopener noreferrer" hidden>Open the file ↗</a>
+        <p id="theater-status" role="status" aria-live="polite">Choose a channel. Nothing plays until you press Play.</p>
+      </div>
+      <aside id="karaoke" class="karaoke" aria-label="Karaoke transcriber" hidden>
+        <header><h3 id="karaoke-title">Karaoke transcriber</h3><p id="karaoke-note"></p></header>
+        <ol id="karaoke-lines"></ol>
+      </aside>
+      <section id="now-playing" class="now-playing" aria-live="polite"></section>
+      <p id="theater-growing" class="theater-growing" hidden></p>
+    </div>
+    <div id="theater-announcer" class="sr-only" aria-live="polite"></div>
+  </section>
 
   <noscript>
     <style>
@@ -317,7 +353,8 @@
       #transcript-dialog .transcript-shell{max-height:none!important;overflow:visible!important}
       #transcript-dialog .transcript-content{overflow:visible!important}
       #transcript-dialog .transcript-header{position:static!important}
-      #transcript-dialog .transcript-notice:before{display:block;margin:0 0 18px;color:#f2cf88;font-size:0.72rem;letter-spacing:.14em;content:"JAVASCRIPT IS OFF · THE COMPLETE ACCESSIBLE DECK IS BELOW"}
+      #theater{display:none!important}
+      #transcript-dialog .transcript-notice:before{display:block;margin:0 0 18px;color:#f2cf88;font-size:0.72rem;letter-spacing:.14em;content:"JAVASCRIPT IS OFF · THE COMPLETE ACCESSIBLE DECK IS BELOW · THE SIX CHANNELS ARE READABLE AT /channels/"}
     </style>
   </noscript>
 </body>

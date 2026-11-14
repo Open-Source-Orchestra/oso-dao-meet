@@ -1,5 +1,7 @@
 # Open Source Orchestra DAO Meet — The First Circle
 
+**14 November 2026 · The Theater.** One room — the orchestra pit on the floor, the living wall of Devcon 8 memories, and the projector as a six-channel switcher: weekly call #2 (archive.org), Proposal Meeting #1 and #2 (720p films on theater.opensourceorchestra.org, every one recorded with consent to publish) with karaoke transcribers, the narrated deck, and two of Shaka’s own YouTube videos as examples of growing the public media files. Readable edition: `/channels/` · ledger: `/meetings/` · press **C** in the hall.
+
 A self-contained, walkable Three.js concert hall and twelve-movement virtual-reality-ready slide deck, with opt-in sourced AI-steward narration, a complete OG Circle, a Listening Archive whose Meeting #1 recording broadcast/share consent is confirmed while its raw media remains unattached on this site, and Proposal Meeting #2 (13 November 2026) published in full with consent: recap, ten-theme notes, complete timestamped transcript and a mono MP3 of the recording.
 
 **Canonical home:** https://osodaomeet.opensourceorchestra.org/
