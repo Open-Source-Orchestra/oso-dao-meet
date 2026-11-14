@@ -1,6 +1,6 @@
 # Open Source Orchestra DAO Meet — The First Circle
 
-A self-contained, walkable Three.js concert hall and twelve-movement virtual-reality-ready slide deck, with opt-in sourced AI-steward narration, a complete OG Circle, and a Listening Archive whose Meeting #1 recording broadcast/share consent is confirmed while its raw media remains unattached on this site.
+A self-contained, walkable Three.js concert hall and twelve-movement virtual-reality-ready slide deck, with opt-in sourced AI-steward narration, a complete OG Circle, a Listening Archive whose Meeting #1 recording broadcast/share consent is confirmed while its raw media remains unattached on this site, and Proposal Meeting #2 (13 November 2026) published in full with consent: recap, ten-theme notes, complete timestamped transcript and a mono MP3 of the recording.
 
 **Canonical home:** https://osodaomeet.opensourceorchestra.org/
 

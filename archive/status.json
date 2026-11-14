@@ -1,7 +1,7 @@
 {
   "schema": "oso-dao-meet-listening-archive-v1",
   "status": "consent_confirmed_media_not_attached",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "transcript": null,
   "recording": null,
   "items": [],
@@ -9,7 +9,11 @@
   "attendeeData": null,
   "publicRecap": "/meetings/1/",
   "publicNotes": "/meetings/1/notes/",
-  "distributionConsentFirstNamesOnly": ["Ben", "Levi", "Utkarsh"],
+  "distributionConsentFirstNamesOnly": [
+    "Ben",
+    "Levi",
+    "Utkarsh"
+  ],
   "distributionConsentScope": "earlier public recap and high-level notes only",
   "recordingConsent": {
     "status": "confirmed",
@@ -23,8 +27,36 @@
   "publicationBoundaries": [
     "the existing high-level public notes remain available",
     "no raw video file, full participant transcript, Drive URL or ID, attendee list, screenshots, private Meet links or wallet mappings are attached",
-    "corrections, AI disclosure and the takedown path remain in effect"
+    "corrections, AI disclosure and the takedown path remain in effect",
+    "Meeting #2 audio and transcript are published only because Shaka confirmed consent on 2026-11-14; private links, contact details and personal circumstances remain removed"
   ],
-  "notice": "Meeting #1 recording broadcast and sharing consent is confirmed. This archive currently attaches no raw media or full participant transcript; consent confirmation is not a claim that a file is hosted here.",
-  "takedown": "https://opensourceorchestra.org/takedown/"
+  "notice": "Meeting #1 recording broadcast and sharing consent is confirmed; its raw media and full participant transcript are not attached here. Meeting #2 (13 November 2026) is published with consent: public recap, high-level notes, full timestamped transcript and a mono MP3 of the recording. Consent confirmation for one meeting is never a claim about another.",
+  "takedown": "https://opensourceorchestra.org/takedown/",
+  "meetings": {
+    "1": {
+      "status": "consent_confirmed_media_not_attached",
+      "recap": "/meetings/1/",
+      "notes": "/meetings/1/notes/",
+      "recording": null,
+      "transcript": null,
+      "note": "Meeting #1 recording broadcast/share consent confirmed 2026-11-13; raw media and full participant transcript not attached here"
+    },
+    "2": {
+      "status": "published_with_consent",
+      "recap": "/meetings/2/",
+      "notes": "/meetings/2/notes/",
+      "transcript": "/meetings/2/transcript/",
+      "audio": "/meetings/2/audio/oso-dao-proposal-meeting-2-2026-11-13.mp3",
+      "audioPage": "/meetings/2/audio/",
+      "durationSeconds": 3407.709,
+      "consent": {
+        "status": "confirmed",
+        "reportedBy": "Shaka",
+        "reportedAt": "2026-11-14T04:20:00Z",
+        "scope": "Meeting #2 recording, transcript and notes may be published and shared with the ʻohana and orchestra; participants gave a thumbs-up to recording at the opening"
+      },
+      "rawVideo": "kept private; not hosted on this site",
+      "published": "2026-11-14"
+    }
+  }
 }

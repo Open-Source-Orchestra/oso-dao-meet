@@ -108,8 +108,45 @@ for n, slide in enumerate(narration['slides'], 1):
         require(source['url'].startswith('https://'), f'non-public narration source: {source["url"]}')
         require('meet.google.com' not in source['url'] and 'zoom.us' not in source['url'], f'private meeting source leaked: {source["url"]}')
         require(len(source['claim']) > 20, f'unclear narration claim mapping: {slide["id"]}')
+# Meeting #2 (13 November 2026): Shaka confirmed on 2026-11-14 that the recording may be published.
+# Exactly one consented mono MP3 of that meeting is permitted, and only in its dedicated route.
+import hashlib
+meeting2 = load('meetings/2/status.json')
+require(meeting2['meeting'] == 2 and meeting2['schema'] == 'oso-dao-proposal-meeting-v1', 'meeting 2 status schema')
+require(meeting2['recordingConsent']['status'] == 'confirmed' and meeting2['recordingConsent']['reportedAt'] == '2026-11-14T04:20:00Z', 'meeting 2 consent must be confirmed with its exact date')
+require(meeting2['recording']['status'] == 'published_with_consent', 'meeting 2 recording status must be published_with_consent')
+require(meeting2['recording']['rawVideo']['hostedOnThisSite'] is False, 'meeting 2 raw video must stay private')
+require('proposal' in meeting2['daoStatus'] and 'not on-chain' in meeting2['daoStatus'], 'meeting 2 DAO status must stay a proposal, not on-chain')
+require(meeting2['privateMeetLinks'] is None, 'meeting 2 must not publish private Meet links')
+m2_audio_rel = meeting2['recording']['publicAudio']
+require(m2_audio_rel == '/meetings/2/audio/oso-dao-proposal-meeting-2-2026-11-13.mp3', 'meeting 2 audio must live in its dedicated route')
+m2_audio = ROOT / m2_audio_rel.lstrip('/')
+require(m2_audio.is_file(), 'meeting 2 consented audio missing')
+require(m2_audio.stat().st_size == meeting2['recording']['publicAudioBytes'] and m2_audio.stat().st_size < 90 * 1024 * 1024, 'meeting 2 audio bytes stale or over the 90 MB hosting limit')
+require(hashlib.sha256(m2_audio.read_bytes()).hexdigest() == meeting2['recording']['publicAudioSha256'], 'meeting 2 audio SHA-256 mismatch')
+allowed_audio.add(m2_audio.resolve())
+for rel in ['meetings/2/index.html', 'meetings/2/notes/index.html', 'meetings/2/audio/index.html', 'meetings/2/transcript/index.html', 'meetings/2/transcript/transcript.txt', 'meetings/2/transcript/transcript.vtt', 'meetings/2/transcript/transcript.json']:
+    require((ROOT / rel).is_file(), f'meeting 2 route missing: {rel}')
+    text = (ROOT / rel).read_text()
+    for forbidden in ['meet.google.com', 'drive.google', '18OXbtj', '1ycip3', '2089999549', '@gmail', 'BEGIN PRIVATE KEY', '/workspace/']:
+        require(forbidden not in text, f'forbidden private material in {rel}: {forbidden}')
+    require(not re.search(r'\b(?:NavPoint|KEW|Brent|Blake)\b', text), f'family-shield material in {rel}')
+    for sentence in re.split(r'(?<=[.!?])\s+', re.sub(r'<[^>]+>', ' ', text)):
+        if re.search(r'\bDAO\b.{0,40}\b(?:approved|adopted|deployed|launched|live|on-chain)\b|\b(?:approved|adopted|deployed|launched)\s+(?:the\s+)?DAO\b', sentence, re.I):
+            require(re.search(r'\b(?:not|never|no|neither|nor|remains?|proposal)\b', sentence, re.I), f'invented DAO adoption claim in {rel}: {sentence[:120]}')
+m2_transcript = load('meetings/2/transcript/transcript.json')
+require(m2_transcript['meeting'] == 2 and m2_transcript['consent']['status'] == 'published_with_consent', 'meeting 2 transcript consent status')
+require(len(m2_transcript['turns']) >= 20 and m2_transcript['stats']['words'] > 5000, 'meeting 2 transcript must be the complete conversation, not an excerpt')
+require(all(turn['speaker'] in m2_transcript['speakers'] for turn in m2_transcript['turns']), 'meeting 2 transcript speakers must be declared')
+require(m2_transcript['turns'][-1]['end'] <= meeting2['recording']['durationSeconds'] + 1, 'meeting 2 transcript exceeds recording length')
+require(meeting2['recording']['durationSeconds'] == 3407.709, 'meeting 2 measured duration must be exact')
+sitemap = (ROOT / 'sitemap.xml').read_text()
+for route in ['/meetings/2/', '/meetings/2/notes/', '/meetings/2/transcript/', '/meetings/2/audio/']:
+    require(f'https://osodaomeet.opensourceorchestra.org{route}</loc>' in sitemap, f'sitemap missing {route}')
+require('href="./meetings/2/"' in index, 'hall must link Meeting #2')
+require('href="./2/"' in (ROOT / 'meetings/index.html').read_text(), 'meetings index must link Meeting #2')
 for path in ROOT.rglob('*.mp3'):
-    require(path.resolve() in allowed_audio, f'unexpected recording outside authorized editorial narration: {path}')
+    require(path.resolve() in allowed_audio, f'unexpected recording outside authorized editorial narration or the consented Meeting #2 audio: {path}')
 for ext in ['*.mp4', '*.wav', '*.m4a', '*.webm']:
     require(not list(ROOT.rglob(ext)), f'unexpected published recording: {ext}')
 require((ROOT / 'narration/index.html').is_file(), 'static narrated transcript missing')
@@ -125,6 +162,8 @@ require('broadcast and shared everywhere' in archive['recordingConsent']['scope'
 require('not attached or hosted' in archive['mediaAttachment'], 'archive must not imply that raw video is attached or hosted')
 require(archive['fullParticipantTranscript'].startswith('not released; not separately addressed'), 'full participant transcript must remain unreleased and unaddressed by the correction')
 require(archive['items'] == [], 'archive must contain no downloadable items in this status-only update')
+require(archive['meetings']['1']['status'] == 'consent_confirmed_media_not_attached', 'archive meeting 1 status')
+require(archive['meetings']['2']['status'] == 'published_with_consent' and archive['meetings']['2']['transcript'] == '/meetings/2/transcript/', 'archive must list Meeting #2 as published with consent')
 require(archive['transcript'] is None and archive['recording'] is None, 'archive media attachments must remain null')
 meeting = load('meetings/1/status.json')
 require(meeting['recordingConsent']['status'] == 'confirmed', 'meeting status must confirm recording consent')
@@ -160,4 +199,4 @@ if errors:
     raise SystemExit(1)
 print(f'PASS {checks} release-gate checks')
 print(f'  12 slides · {len(set(all_links))} unique public links · 37 curated media items')
-print('  chord spine G–Em–C–D–C–G twice · recording consent confirmed · no raw media attached')
+print('  chord spine G–Em–C–D–C–G twice · Meeting #1 consent confirmed, media not attached · Meeting #2 published with consent (audio + transcript), raw video private')

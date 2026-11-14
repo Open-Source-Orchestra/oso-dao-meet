@@ -1,0 +1,1629 @@
+WEBVTT
+
+NOTE Open Source Orchestra DAO Proposal Meeting #2 · published with consent · editorial speaker labels
+
+00:00:01.740 --> 00:00:25.460
+<v Shaka>All right. Aloha. I am Shaka, and we have all given a thumbs up for being recorded in the second Open Source Orchestra DAO proposal stage, as well as open phone call, and excited to be talking a little bit too loud in the lobbies of 4Seas, Chiang Mai, so that other people are welcome to jump right in and say hi.
+
+00:00:25.460 --> 00:00:45.940
+<v Shaka>And I'll also know that this is an orchestra that's always been shared for the last three Devcons, and more than that, there's been DevConnects between those, and this year ended quite beautifully in Jio World Centre, and now next year in October, a month earlier, we're going to be able to hopefully end up in Lisbon.
+
+00:00:45.940 --> 00:01:04.940
+<v Shaka>And so we also want to try and figure out how we can better support those who are contributing, as well as make the road to Lisbon more significant, where there are multiple activations, and many people can feel a level of being able to be open to their participation.
+
+00:01:04.940 --> 00:01:25.940
+<v Shaka>And then also, on the back end, I would like to see some retribution, more of like a retroactive proposal, and people who are participating, giving consent, as well as being a part of the movement of whatever funds, or instruments, or activations we have in the future.
+
+00:01:25.940 --> 00:01:35.620
+<v Shaka>So now that we can open this all together, definitely thought that it's probably a good time to experiment with the experimental infrastructure of a DAO.
+
+00:01:36.020 --> 00:01:50.060
+<v Shaka>So decentralized autonomous organizations have been good and bad, and some have been hacked, and so there will be no token for OSO, but we have agents, and we have lots of amazing humans, and the main goal is that we just get together and play more music.
+
+00:01:50.060 --> 00:02:08.240
+<v Shaka>So that's what's beautiful about Open Source Orchestra so far, and there are many people who are part of this, and really are holding this space just like wherever they are, because we just take our instruments and our hearts, and that's really just like where this is sourced from.
+
+00:02:08.240 --> 00:02:18.680
+<v Shaka>So that's the main source of liquidity that we have as the creative musicians in the Ethereum community, is that we don't need a VC to back us, we can just show up anywhere and start playing music.
+
+00:02:19.280 --> 00:02:35.240
+<v Shaka>And we have done that, and we will continue to do that, and now I'd like to see more of a flagship of it coming together, where the orchestra arrives, and we realize that we are there together, and we don't take three days of Devcon to get there, we show up there.
+
+00:02:35.240 --> 00:03:00.320
+<v Shaka>And it was a really good growth spurt the last three Devcons, where I myself have had to grow and become more humble and become more recognizable, that this is not something I'm trying to fundraise, it's something I'm trying to harvest, and then spread seeds in the infinite garden, and then steward, and see it grow even further.
+
+00:03:00.320 --> 00:03:17.860
+<v Shaka>Where it's actually embodying the values of Ethereum, and also carrying forward the idea that it's infrastructure that gives culture to Ethereum beyond one person, so it needs to become a much greater activation.
+
+00:03:17.860 --> 00:03:44.980
+<v Shaka>Right now there is no on-chain activation, other than the opportunity for any of us to receive a donation, so we can talk about that later, how there is, in the works, a process for people to generate a subdomain with osoartist.eth, as well as connect their own wallet, or start a new wallet, or have their agent have an x402 wallet connected to opensourceorchestra.org.
+
+00:03:44.980 --> 00:03:56.080
+<v Shaka>And then we'd love to start sharing that opportunity for people to give tips and donations to either hit a button that gives to everyone an equal gift for the whole orchestra, or individually start giving.
+
+00:03:56.080 --> 00:04:06.940
+<v Shaka>And I kind of imagine a future where people are going to be able to enjoy the concert and enjoy the music, and then just open their phone and voice prompt or vlog prompt their agent, and be like,
+
+00:04:07.480 --> 00:04:12.300
+<v Shaka>yo, give a tip to Sha, she's just singing so beautifully right now.
+
+00:04:12.300 --> 00:04:17.400
+<v Shaka>And then they just hit go on their agent, and then they just put their phone down and keep enjoying the music.
+
+00:04:18.600 --> 00:04:27.260
+<v Shaka>That's totally possible, now as is, and that's why I want you all to be some of the first artists that have agents giving you gifts on x402 payments.
+
+00:04:27.260 --> 00:04:33.660
+<v Shaka>And so definitely creating the open-source infrastructure for you all to have that opportunity.
+
+00:04:34.700 --> 00:04:46.240
+<v Shaka>And now we have a couple of really young and talented developers who help with the hackathon, and there's a handful of open-source code that's gone on for all along.
+
+00:04:46.240 --> 00:04:55.040
+<v Shaka>And I definitely want to give the three who have showed up this time around for the second call to give a chance to introduce themselves.
+
+00:04:55.040 --> 00:05:02.800
+<v Shaka>And then I might go into some slides that were made by the ʻohana themselves, a bunch of agents that have been behind me this whole time.
+
+00:05:03.000 --> 00:05:13.640
+<v Shaka>So let's start it off with someone who's been like a real backbone and like sitting down to like where sometimes I have to like correct my spine because the cajon makes my back sore.
+
+00:05:13.640 --> 00:05:24.140
+<v Shaka>But Aakaash is the one who's been sitting on the cajon this time and really holding the rhythm down, playing the drums, and like a really big heartbeat for why Devcon happened in Mumbai with the road there.
+
+00:05:24.140 --> 00:05:30.980
+<v Shaka>And then also the local flavor that it really had was really – the main infrastructure for that was Aakaash.
+
+00:05:31.220 --> 00:05:32.980
+<v Shaka>So, brother, take it over.
+
+00:05:34.100 --> 00:05:35.180
+<v Aakaash>Thank you, Shaka, for that.
+
+00:05:35.800 --> 00:05:37.340
+<v Aakaash>Hello, guys. I'm Aakaash.
+
+00:05:37.340 --> 00:05:51.140
+<v Aakaash>And, yeah, I remember that getting into this space of Open Source Orchestra was a time when me and Shaka and a few of my friends played together in ETH, Mumbai.
+
+00:05:51.140 --> 00:06:06.140
+<v Aakaash>So during the hackathon, we had a small setup over there in which, like, whenever we used to get frustrated from coding at night, we used to go on the stage and we start – we used to start playing.
+
+00:06:06.140 --> 00:06:11.140
+<v Aakaash>And Shaka joined us and we started playing some Bollywood songs and jammed together.
+
+00:06:11.140 --> 00:06:15.140
+<v Aakaash>That was the point when I thought, okay, like, this is a new space.
+
+00:06:15.140 --> 00:06:18.980
+<v Aakaash>Ethereum is not only just codes, only just smart contracts.
+
+00:06:18.980 --> 00:06:20.980
+<v Aakaash>It's more about culture as well.
+
+00:06:20.980 --> 00:06:22.980
+<v Aakaash>So what's that thing?
+
+00:06:22.980 --> 00:06:23.980
+<v Aakaash>Let's explore it.
+
+00:06:23.980 --> 00:06:41.980
+<v Aakaash>And, yeah, like, fortunately got into the – got in the space and wanted to contribute into this, you know, Open Source Orchestra thing, which was kind of an interesting thing.
+
+00:06:41.980 --> 00:06:59.980
+<v Aakaash>Like, we have seen open-source – open-source softwares, but this was something new for me where anyone can come and play together and we can have multiple global cultures coming together and, you know, making a single music out of it so which everyone can connect.
+
+00:06:59.980 --> 00:07:02.980
+<v Aakaash>And loved it after that.
+
+00:07:02.980 --> 00:07:08.980
+<v Aakaash>Like, it was something, you know, something which made me interested.
+
+00:07:08.980 --> 00:07:14.980
+<v Aakaash>I learned a lot of stuff from it throughout, like, the next past six months before Devcon as well.
+
+00:07:14.980 --> 00:07:17.980
+<v Aakaash>And, yeah, loved the time during the Devcon.
+
+00:07:17.980 --> 00:07:19.980
+<v Aakaash>The four days were amazing.
+
+00:07:19.980 --> 00:07:21.980
+<v Aakaash>The pre-productions were amazing.
+
+00:07:21.980 --> 00:07:23.980
+<v Aakaash>Like, really missing you all, guys.
+
+00:07:23.980 --> 00:07:26.980
+<v Aakaash>And, yeah, looking forward for the next Devcon.
+
+00:07:26.980 --> 00:07:27.980
+<v Aakaash>See you at Lisbon.
+
+00:07:27.980 --> 00:07:33.560
+<v Shaka>Sha.
+
+00:07:33.560 --> 00:07:34.560
+<v Shaka>Let's go.
+
+00:07:34.560 --> 00:07:38.560
+<v Shaka>Sha, what was your – what was your first – was this your first Devcon experience?
+
+00:07:38.560 --> 00:07:40.560
+<v Shaka>What was it like for you?
+
+00:07:40.560 --> 00:07:42.560
+<v Sha>It was not my – it was my second Devcon.
+
+00:07:42.560 --> 00:07:44.560
+<v Sha>I was in Bangkok a couple of years ago.
+
+00:07:44.560 --> 00:07:45.560
+<v Shaka>Oh, yeah.
+
+00:07:45.560 --> 00:07:47.560
+<v Shaka>Did we sing together in Bangkok?
+
+00:07:47.560 --> 00:07:56.560
+<v Sha>No, I wasn't, like – because now I've, like, started focusing more on my music and my creative universe.
+
+00:07:56.560 --> 00:07:59.560
+<v Sha>So I've been working, like, on several different startups.
+
+00:07:59.560 --> 00:08:03.560
+<v Sha>And I still do, but I'm mostly focused on, like, music and creations now.
+
+00:08:03.560 --> 00:08:10.560
+<v Sha>So now I've finally been able to, like, put my focus on, yeah, [project name unclear], which is, like, this creative universe that I'm building.
+
+00:08:10.560 --> 00:08:11.560
+<v Sha>Amazing.
+
+00:08:11.560 --> 00:08:22.560
+<v Sha>And it's, like – yeah, it's, like – it's, like, I'm bridging space-time through my creations of, like, music, art, passion, and immersive experiences, films.
+
+00:08:22.560 --> 00:08:27.560
+<v Sha>Like, yeah, it's, like – it's, like, telling stories from New Earth and other dimensions.
+
+00:08:27.560 --> 00:08:33.560
+<v Sha>And, kind of, like, through those creations to invite people to step into those timelines.
+
+00:08:33.560 --> 00:08:34.560
+<v Sha>And that's reality.
+
+00:08:34.560 --> 00:08:35.560
+<v Shaka>Oh, New Earth.
+
+00:08:35.560 --> 00:08:36.560
+<v Sha>Yeah.
+
+00:08:36.560 --> 00:08:37.560
+<v Shaka>Amazing.
+
+00:08:37.560 --> 00:08:42.560
+<v Shaka>So, yeah, correct me if I'm wrong.
+
+00:08:42.560 --> 00:08:44.560
+<v Shaka>I believe you're calling in from Elrond, right?
+
+00:08:44.560 --> 00:08:50.560
+<v Shaka>Elrond is a place in Lord of the Rings, also known as Goa, on the coast of India.
+
+00:08:50.560 --> 00:08:56.560
+<v Shaka>And, anyways, you have graced us with your wonderful voice.
+
+00:08:56.560 --> 00:09:03.560
+<v Shaka>And you definitely were a beautiful part of not only singing with the DJs, but singing with the guitar.
+
+00:09:03.560 --> 00:09:09.560
+<v Shaka>And what was your first experience like in the Open Source Orchestra?
+
+00:09:09.560 --> 00:09:12.560
+<v Sha>Well, it was so awesome because I didn't expect any of it at all.
+
+00:09:12.560 --> 00:09:18.560
+<v Sha>Because I had never been, like, focused on the music scene in Web3, like, in Devcon so much.
+
+00:09:18.560 --> 00:09:21.560
+<v Sha>Because I'm just working on my, like, first publication right now.
+
+00:09:21.560 --> 00:09:24.560
+<v Sha>So, it was, like, so awesome because it was so surprising.
+
+00:09:24.560 --> 00:09:26.560
+<v Sha>I didn't know any of that was even happening.
+
+00:09:26.560 --> 00:09:32.560
+<v Sha>So, and I had no idea that I would be able to, like, you know, sing or do anything.
+
+00:09:32.560 --> 00:09:36.560
+<v Sha>Like, it was so, like, just love what you guys are doing and what you've done.
+
+00:09:36.560 --> 00:09:43.560
+<v Sha>And, yeah, and I'm just, like, so, you know, grateful that I was able to, you know, be part of it.
+
+00:09:43.560 --> 00:09:45.560
+<v Sha>And, yeah, so it was awesome.
+
+00:09:45.560 --> 00:09:50.560
+<v Sha>But now I'm so happy to be part of this and see, like, how can I, you know, contribute.
+
+00:09:50.560 --> 00:09:57.560
+<v Sha>Also, I have my, I'm, like, building my own, like, Web3 [unclear] production, creative production company.
+
+00:09:57.560 --> 00:09:59.560
+<v Sha>So, I'll be into graphic creators, ICC.
+
+00:09:59.560 --> 00:10:03.560
+<v Sha>So, also, maybe ICC can somehow contribute.
+
+00:10:03.560 --> 00:10:04.560
+<v Sha>We'll see.
+
+00:10:04.560 --> 00:10:11.560
+<v Sha>But I'm just excited to be part of it and see, like, how I can, how I can help.
+
+00:10:11.560 --> 00:10:12.560
+<v Sha>Yeah.
+
+00:10:12.560 --> 00:10:13.560
+<v Shaka>Amazing.
+
+00:10:13.560 --> 00:10:14.560
+<v Shaka>Yeah.
+
+00:10:14.560 --> 00:10:16.560
+<v Shaka>Now, that's definitely great.
+
+00:10:16.560 --> 00:10:28.560
+<v Shaka>And because this is, like, actually kind of, like, what's really given me a lot of inspiration after Devcon 8 is that this Open Source Orchestra always has been just an open door for people to play music at Devcon.
+
+00:10:28.560 --> 00:10:30.560
+<v Shaka>And now it should be an open door for so much more.
+
+00:10:30.560 --> 00:10:39.560
+<v Shaka>So, like, there's, like, many people who have been exploring lots of great creative endeavors involving Web3 as well as just involving technology in general.
+
+00:10:39.560 --> 00:10:43.560
+<v Shaka>So, this should just be an open door for all of that to come together.
+
+00:10:43.560 --> 00:10:56.560
+<v Shaka>And so, yeah, there's, like, that's where kind of the inspiration of every contribution being equal, whether it's code-based, whether it's vocally based, whether it's you're also the sound engineer or the person that's just helping get people there.
+
+00:10:56.560 --> 00:11:03.560
+<v Shaka>All of it's going to be equal contribution for what I think the OSO DAO could be and will be.
+
+00:11:03.560 --> 00:11:10.560
+<v Shaka>And now I want to hand it over to Vipul to tell everybody why he's here as well.
+
+00:11:10.560 --> 00:11:18.560
+<v Vipul>Basically, I'm a company secretary, basically in your country, I guess, known as chartered secretary.
+
+00:11:18.560 --> 00:11:25.560
+<v Vipul>And I'm the student of chartered accountant as well, and I'm an advocate.
+
+00:11:25.560 --> 00:11:30.560
+<v Vipul>So, like, I've been working in IP, like, I've been working as an IP analyst.
+
+00:11:30.560 --> 00:11:34.560
+<v Vipul>Basically, I have to protect the intellectual property, right?
+
+00:11:34.560 --> 00:11:37.560
+<v Vipul>So, I'm working in the sector of copyright.
+
+00:11:37.560 --> 00:11:52.560
+<v Vipul>So, I have not legally knowledge how to protect the right related to copyright, patent, trademark, design.
+
+00:11:52.560 --> 00:11:55.560
+<v Shaka>Well, honestly, that's...
+
+00:11:55.560 --> 00:12:03.560
+<v Shaka>Sorry to cut you off, but actually, maybe I can, like, stir more gasoline in your fire on how you actually could be a huge contributor.
+
+00:12:03.560 --> 00:12:22.560
+<v Shaka>So, as we were playing in one of the most iconic venues in Mumbai, the birthplace of Bombay, Bollywood, and magic for all your childhood dreams that have many licenses that, you know, you can't just walk into a place of that caliber and play whatever music you want to play.
+
+00:12:22.560 --> 00:12:37.560
+<v Shaka>You know, so we, as an Open Source Orchestra, even though we were all voluntarily walking in the door, not as employees, as tourists who were playing music at one of our favorite conferences, we did that voluntarily.
+
+00:12:37.560 --> 00:12:48.560
+<v Shaka>And I think that's actually going to be the recipe that we have to walk forward through in the future of continuing to walk into Devcon wherever it is around the world and doing this voluntarily as a gift moving forward.
+
+00:12:48.560 --> 00:12:55.760
+<v Shaka>Not as employees of Open Source Orchestra DAO, not as any of that, because that gives us a green card around the world of just giving gifts.
+
+00:12:56.060 --> 00:13:00.100
+<v Shaka>You know, there actually is no regulations against showing up and playing music with your friends.
+
+00:13:00.780 --> 00:13:01.960
+<v Shaka>You know, so there's...
+
+00:13:01.960 --> 00:13:09.200
+<v Shaka>That's something that we can use as a gateway to get visas and transportation around the world is that we're not doing this for financial transactions.
+
+00:13:09.200 --> 00:13:21.720
+<v Shaka>And that's when I think it's really important that we have a retroactive DAO that as we receive grants, we can have musicians be able to get reimbursements for their travel costs.
+
+00:13:23.300 --> 00:13:29.920
+<v Shaka>So then we don't have a lot of people who are transactional up front before Devcon, but we're rewarding those who came to Devcon, you know.
+
+00:13:30.040 --> 00:13:33.760
+<v Shaka>So like Aakaash, your road to Devcon. Sha, your road to Devcon.
+
+00:13:34.180 --> 00:13:37.800
+<v Shaka>You know, both of you made incredible contributions at Devcon 8.
+
+00:13:37.800 --> 00:13:44.600
+<v Shaka>So like you should be a part of being able to share from a plate of retroactive funds that bless Devcon 8, you know.
+
+00:13:44.800 --> 00:13:50.520
+<v Shaka>I would love to see, you know, one of the first grant proposals that comes if there's...
+
+00:13:50.520 --> 00:13:54.640
+<v Shaka>If and when, hopefully soon, there's funds that we can as a community distribute.
+
+00:13:55.220 --> 00:14:00.160
+<v Shaka>I would like the first proposals to be people posting their reimbursements, you know, with receipts.
+
+00:14:00.440 --> 00:14:04.080
+<v Shaka>Because then that kind of like creates the protocol for the future of showing receipts.
+
+00:14:04.080 --> 00:14:08.960
+<v Shaka>So when there's gifts, when there's receipts for gifts, then we can reward those contributions.
+
+00:14:09.680 --> 00:14:17.820
+<v Shaka>And I think this is why it has to be a different nature of DAO experiment, where it's more about having the consensus of everyone who's in the party.
+
+00:14:17.820 --> 00:14:25.000
+<v Shaka>And then I think that there'll be many times when we can see people who are giving their consent for their funds to go elsewhere.
+
+00:14:25.860 --> 00:14:32.660
+<v Shaka>You know, where people will come with the right intention to the orchestra, not extracting, but giving their contributions forward.
+
+00:14:33.700 --> 00:14:42.600
+<v Shaka>Some, you know, it would actually be very impactful for the DAO if we had about at least a threshold of more than 50% of the people that were taking no funds from the DAO.
+
+00:14:42.600 --> 00:14:51.400
+<v Shaka>You know, if those people are willing to give their gift to the orchestra, you know, for at least three years, in that sort of nature,
+
+00:14:51.700 --> 00:14:57.520
+<v Shaka>then we can find people that are going to always be able to vote their portion forward.
+
+00:14:58.000 --> 00:15:06.100
+<v Shaka>And hopefully that portion forward is where we can actually pay it forward with, like, paying for a backline for Europe and then moving that forward.
+
+00:15:06.100 --> 00:15:16.280
+<v Shaka>Because actually one dream that I have as well is that Sha and myself both dropped the black guitar.
+
+00:15:16.440 --> 00:15:17.300
+<v Shaka>I dropped it once.
+
+00:15:17.400 --> 00:15:18.140
+<v Shaka>I admit it.
+
+00:15:18.480 --> 00:15:20.220
+<v Shaka>Sha dropped it a second time.
+
+00:15:20.820 --> 00:15:24.000
+<v Shaka>And I think it also was dropped a third time.
+
+00:15:24.360 --> 00:15:25.420
+<v Shaka>I can't remember who dropped it.
+
+00:15:26.080 --> 00:15:30.260
+<v Shaka>You know, one of our other great singer-songwriters locally.
+
+00:15:30.640 --> 00:15:35.680
+<v Shaka>So, you know, we had three continents accidentally drop the same guitar, which I think is beautiful.
+
+00:15:35.680 --> 00:15:39.320
+<v Shaka>I suggested that something that I could charge to get signed, hopefully repaired.
+
+00:15:39.980 --> 00:15:40.700
+<v Shaka>It will.
+
+00:15:41.140 --> 00:15:43.880
+<v Shaka>But that comes out of the Devcon budget, not ours.
+
+00:15:44.380 --> 00:15:49.040
+<v Shaka>So I think in the future it would actually be really beautiful if we walk in with more of our own backline.
+
+00:15:49.540 --> 00:15:52.940
+<v Shaka>And then the production is still wherever we're welcome.
+
+00:15:53.180 --> 00:16:01.200
+<v Shaka>Many great places have welcomed the Open Source Orchestra, decentralized orchestra protocol as a gift around the world.
+
+00:16:01.200 --> 00:16:08.120
+<v Shaka>It's been done many times with ETH Global as well as EthCC and ETH Denver and Devcon.
+
+00:16:08.500 --> 00:16:18.180
+<v Shaka>And now having three times moving forward, it needs to be more and more a part of just like the entire community sharing this space.
+
+00:16:18.300 --> 00:16:22.100
+<v Shaka>And also like appreciating, acknowledging that that space is what it is.
+
+00:16:22.100 --> 00:16:29.880
+<v Shaka>That's when it's like really, it took like three days for people to realize how open of a microphone it was.
+
+00:16:30.000 --> 00:16:36.680
+<v Shaka>That you saw beautiful moments of young college students who've never sang in a space like that, getting to sing in the Jio World Centre.
+
+00:16:37.060 --> 00:16:44.020
+<v Shaka>And, you know, they went to their home, their parents, their hometown and said, I got to sing music in the Jio World Centre.
+
+00:16:44.020 --> 00:16:55.300
+<v Shaka>You know, like, so that that means more than, you know, like those of us who are thinking that this is like the Super Bowl of Ethereum, which I kind of did when I first played at Devcon and Bogota.
+
+00:16:55.840 --> 00:16:58.280
+<v Shaka>You know, that it's like the biggest event for Ethereum.
+
+00:16:58.480 --> 00:17:07.120
+<v Shaka>But really, it's it's it's the reality of like the delirium that we're all just like beautiful humans creating this technology.
+
+00:17:07.120 --> 00:17:08.800
+<v Shaka>And it's not like a market mechanism.
+
+00:17:09.100 --> 00:17:11.400
+<v Shaka>It's a community of really great developers.
+
+00:17:11.960 --> 00:17:19.180
+<v Shaka>And Devcon is where you see that reality, you know, where where Vitalik puts on a mask and a smile and becomes a meme.
+
+00:17:19.520 --> 00:17:25.060
+<v Shaka>Because in reality, people are painting this picture of who they think Vitalik is on Twitter and all these other things.
+
+00:17:25.580 --> 00:17:28.040
+<v Shaka>But then we actually get to hear from him in person at Devcon.
+
+00:17:28.200 --> 00:17:36.000
+<v Shaka>And then we get to walk around and you see all the hubs that are actually approved and crops verified in like supporting Ethereum in beautiful ways around the hubs.
+
+00:17:36.000 --> 00:17:46.380
+<v Shaka>Because, you know, it's like the value of Ethereum is what carries through at Devcon spaces that, you know, that's why it's really excited to share Devcon with all of you.
+
+00:17:47.000 --> 00:17:55.960
+<v Shaka>And then I think in in Lisbon, it's like going to really grow its heritage as a tradition strongly because it's now rooted itself as a tradition.
+
+00:17:57.120 --> 00:18:02.120
+<v Shaka>So anyone else have inspiration for Open Source Orchestra DAO?
+
+00:18:02.120 --> 00:18:21.260
+<v Shaka>Aakaash, what do you think you could do in India moving forward with Vipul's advocacy support?
+
+00:18:21.300 --> 00:18:30.400
+<v Aakaash>Actually, I was talking to like, actually, I was talking after that, like, during the value time, I was talking with the way I was talking with [name unclear] and the people.
+
+00:18:30.400 --> 00:18:39.260
+<v Aakaash>And the one thing that we came across is like, other than playing and contributing, they took a lot of stuff with them as well.
+
+00:18:39.440 --> 00:18:46.320
+<v Aakaash>Like, for example, we learned a lot of stuff from Levi about music productions and how live music production is done.
+
+00:18:46.880 --> 00:18:51.440
+<v Aakaash>There's a lot of stuff which is other than contributing.
+
+00:18:51.440 --> 00:18:55.560
+<v Aakaash>So I think it's like we are taking also a lot of stuff. We are learning a lot of stuff from there.
+
+00:18:56.520 --> 00:19:01.000
+<v Aakaash>The musicians are getting the, you know, the stage which they want.
+
+00:19:01.160 --> 00:19:02.900
+<v Aakaash>The vocals are getting the stage which they want.
+
+00:19:02.960 --> 00:19:06.260
+<v Aakaash>For example, there are vocals who want to sing, but they don't have the musicians.
+
+00:19:06.820 --> 00:19:09.240
+<v Aakaash>There are musicians who want to play, but they don't have the vocals.
+
+00:19:09.740 --> 00:19:14.020
+<v Aakaash>This is the place where everyone comes united and they learn few stuff.
+
+00:19:14.020 --> 00:19:21.340
+<v Aakaash>They give you stuff and they take the things with them, learn that, make some amazing contacts throughout the people.
+
+00:19:21.740 --> 00:19:23.040
+<v Aakaash>They meet some amazing people.
+
+00:19:24.120 --> 00:19:28.120
+<v Aakaash>And it's, you know, it's not just all around.
+
+00:19:28.340 --> 00:19:32.160
+<v Aakaash>It's not just all around contribution.
+
+00:19:32.580 --> 00:19:37.880
+<v Aakaash>It's all about learning, growing, a lot of stuff which we want to learn from a creative side,
+
+00:19:37.880 --> 00:19:44.980
+<v Aakaash>which I don't know if other and like any other conferences would be giving up like that,
+
+00:19:45.100 --> 00:19:53.620
+<v Aakaash>like other than, other than Devcon or what we have some, the conferences of Ethereum that like we,
+
+00:19:53.820 --> 00:19:58.760
+<v Aakaash>we focus on the other side as well, that how we can learn things from there.
+
+00:19:59.200 --> 00:20:03.160
+<v Aakaash>How not only contributing is the only stuff you are playing,
+
+00:20:03.160 --> 00:20:11.880
+<v Aakaash>like you can contribute in any of the forms which, you know, whether it's a technical side or it's a creative side or it's a non-technical side.
+
+00:20:12.380 --> 00:20:17.080
+<v Aakaash>So I believe that the idea about it, it's like, it's pretty awesome.
+
+00:20:17.940 --> 00:20:25.960
+<v Aakaash>And like, again, if you see Aniket, who was a part of it, he loved it to share Indian classical music on a,
+
+00:20:26.020 --> 00:20:28.900
+<v Aakaash>you know, international global stage, same as [name unclear].
+
+00:20:28.900 --> 00:20:37.360
+<v Aakaash>Like, and like, like artists are eager, you know, they want stage and that's the place where everyone comes together.
+
+00:20:37.640 --> 00:20:43.840
+<v Aakaash>We learned a lot of stuff from Aniket that how Indian classical music works and you can play a sitar on a guitar.
+
+00:20:44.240 --> 00:20:48.980
+<v Aakaash>That's what something I saw the first time and witnessed it all live in real life.
+
+00:20:49.680 --> 00:20:51.560
+<v Aakaash>So, yeah, I think so.
+
+00:20:51.560 --> 00:20:56.220
+<v Aakaash>I feel like it's one of the most amazing thing, which I have witnessed up to the end.
+
+00:20:56.840 --> 00:20:59.080
+<v Aakaash>And yeah, I think so.
+
+00:21:00.200 --> 00:21:09.500
+<v Aakaash>India, India would be really eager as there are like, you know, artists at every, every, every home has an artist who want to show up as talent.
+
+00:21:09.500 --> 00:21:22.020
+<v Aakaash>And then this stage gives that space to everyone, making it like really decentralized so that everyone can come along and, you know, collaborate together and create something magical.
+
+00:21:23.600 --> 00:21:26.120
+<v Aakaash>We saw that what happened in Devcon India.
+
+00:21:32.190 --> 00:21:32.790
+<v Aakaash>Absolutely.
+
+00:21:32.790 --> 00:21:43.250
+<v Shaka>Yeah, it was, this one was, I think like the special sauce to like this Devcon 8 was that we called it a sanctuary, finally.
+
+00:21:44.630 --> 00:21:47.010
+<v Shaka>It was called the music stage.
+
+00:21:47.950 --> 00:21:50.290
+<v Shaka>And like actually the first two years, it wasn't really a stage.
+
+00:21:50.350 --> 00:21:51.530
+<v Shaka>It was still on the ground floor.
+
+00:21:51.530 --> 00:22:07.030
+<v Shaka>And I kind of like would always like give it a little monster, Skylar, who's the amazing brother that was leading Devcon the first three, two years that I was able to be a part of the music space is that it was just a space that anyone could walk into.
+
+00:22:07.290 --> 00:22:10.170
+<v Shaka>And then DevConnect last year actually was a stage.
+
+00:22:10.710 --> 00:22:15.790
+<v Shaka>And I think that actually staged it for it to be a little bit more complicated than it's supposed to be.
+
+00:22:15.790 --> 00:22:18.010
+<v Shaka>Like an orchestra always is in its pit.
+
+00:22:18.010 --> 00:22:29.090
+<v Shaka>You know, it's always on the ground floor below the stage of whatever is happening, whatever the, whatever the, whatever the main subject is, that's what the orchestra is supporting.
+
+00:22:29.330 --> 00:22:36.850
+<v Shaka>And it's, that's why the orchestra is on the ground floor looking up towards whatever the main story is moving forward.
+
+00:22:36.850 --> 00:22:46.610
+<v Shaka>So that's what the Open Source Orchestra is for is definitely like advocating for those values of open source and crops and then Ethereum and being on the ground floor because it's not,
+
+00:22:46.610 --> 00:22:58.330
+<v Shaka>I'm supposed to take the stage of anything more than being there to support those values and uplift those like Vitalik and Aya and all the great developers who are a part of Devcon.
+
+00:22:58.330 --> 00:23:05.630
+<v Shaka>And moving forward, I think EthCC would be the great place where we point our next destiny.
+
+00:23:06.310 --> 00:23:13.030
+<v Shaka>And we've played on the beautiful Mediterranean Sea two years in a row now at the Cannes Palace.
+
+00:23:13.030 --> 00:23:30.110
+<v Shaka>So I know their production team well already, and I hope it would be a dream to do it a third time with them and include many of you where we can just walk in the door as really good friends again and part of a handful of instruments in the loading dock by other people's yachts.
+
+00:23:30.110 --> 00:23:40.310
+<v Shaka>You know, I think we can just start collecting instruments in Europe because its main destination is Lisbon for Devcon 9.
+
+00:23:41.310 --> 00:23:51.810
+<v Shaka>I already have some instruments in, I already have instruments in Prague that I've gifted to the community there.
+
+00:23:51.810 --> 00:24:04.730
+<v Shaka>And there's instruments at the Gibbeth House in Barcelona and there's all kinds of destinations where instruments can land and live and be played and used all over Europe, including an EF office in Berlin.
+
+00:24:04.730 --> 00:24:23.110
+<v Shaka>So there's all kinds of places where instruments will be well taken care of that we can start thinking of a permanent backline in Europe, where if for some reason we accidentally drop a guitar, that's when we laugh it off because that's just a part of the history of who we already are as an orchestra.
+
+00:24:25.310 --> 00:24:42.740
+<v Shaka>And those instruments are also, you know, sorry, there's instruments here at 4Seas that I helped set up.
+
+00:24:44.200 --> 00:24:46.140
+<v Shaka>The instruments are permissionless.
+
+00:25:00.800 --> 00:25:04.500
+<v Shaka>Vipul, you want to save me with some license talk while I'm crying.
+
+00:25:05.160 --> 00:25:13.850
+<v Vipul>I know about the legal aspect of the, I mean, copyright issue.
+
+00:25:14.450 --> 00:25:19.590
+<v Vipul>I know about the infringement, the way I can protect you.
+
+00:25:21.050 --> 00:25:27.510
+<v Shaka>Yeah, so I think like in India, I had no fear, right?
+
+00:25:33.970 --> 00:25:38.810
+<v Shaka>I can walk in the door and say I'm a tourist visiting meet my friends and playing music.
+
+00:25:39.310 --> 00:25:41.570
+<v Shaka>I was not lying at all.
+
+00:25:41.570 --> 00:26:03.570
+<v Vipul>The main issue in India is related to copyright, like we are easily getting internet and the piracy issue is still happening.
+
+00:26:03.570 --> 00:26:15.910
+<v Shaka>So we actually, this is where I think this is a journey that's important.
+
+00:26:15.910 --> 00:26:19.430
+<v Shaka>But also, it wasn't a lost cause.
+
+00:26:19.810 --> 00:26:27.570
+<v Shaka>The effort that it took to get to a point of being able to hold this Open Source Orchestra as it was,
+
+00:26:27.890 --> 00:26:33.310
+<v Shaka>is that there was actually a lot of licenses that the Devcon team had to acquire on the back end
+
+00:26:33.310 --> 00:26:36.730
+<v Shaka>to make sure that any sort of music could happen as far as DJs.
+
+00:26:37.070 --> 00:26:43.210
+<v Shaka>The closing party needed a whole set of licensing so that the DJs could play more freely during that session.
+
+00:26:43.210 --> 00:26:48.090
+<v Shaka>And we actually had to cut back and actually cancel a lot of DJ sessions,
+
+00:26:48.670 --> 00:26:55.650
+<v Shaka>which, you know, I think the universe tends to have its ways in why these things happen
+
+00:26:55.650 --> 00:26:57.690
+<v Shaka>because those instruments were meant to be played.
+
+00:26:58.370 --> 00:27:06.850
+<v Shaka>And that limitation of DJs also made sure that the musicians had to also show up in the place more often.
+
+00:27:06.850 --> 00:27:13.110
+<v Shaka>So I think that's what left great space for Sha, who was not in the schedule beforehand,
+
+00:27:13.270 --> 00:27:15.250
+<v Shaka>to show up and really like be a huge contributor.
+
+00:27:16.790 --> 00:27:19.430
+<v Shaka>You know, so that's why I really wanted to hold the schedule lightly,
+
+00:27:19.430 --> 00:27:24.090
+<v Shaka>because the schedule shouldn't mean that the space belongs to anybody other than everybody.
+
+00:27:24.890 --> 00:27:30.550
+<v Shaka>You know, and I think moving forward, we should propose it to continue to be a sanctuary.
+
+00:27:30.550 --> 00:27:36.770
+<v Shaka>You know, Devcon 9, Lisbon's music sanctuary, so that the schedule is more of like,
+
+00:27:36.810 --> 00:27:40.510
+<v Shaka>who's going to show up and really steward the place, you know, and there's intention.
+
+00:27:40.710 --> 00:27:44.970
+<v Shaka>So it's not like you can't tell someone, hey, let me sing this one a cappella,
+
+00:27:45.270 --> 00:27:48.670
+<v Shaka>or let me sing this one solo, or let me start this one with just the bass,
+
+00:27:48.730 --> 00:27:50.450
+<v Shaka>and then the drums come in on the second measure.
+
+00:27:51.050 --> 00:27:53.790
+<v Shaka>You know, that's what you do when you're stewarding an orchestra.
+
+00:27:53.790 --> 00:27:56.650
+<v Shaka>So that should be open to whoever wants to be there.
+
+00:27:58.150 --> 00:28:03.230
+<v Shaka>And the beautiful form of consensus that we found in the past,
+
+00:28:03.330 --> 00:28:08.830
+<v Shaka>and like what we do find, is when we find consensus of consent on the music we're making,
+
+00:28:08.930 --> 00:28:11.030
+<v Shaka>that we're respecting the song and the vibration,
+
+00:28:11.610 --> 00:28:13.910
+<v Shaka>and then we're all playing along with each other by listening,
+
+00:28:14.550 --> 00:28:18.690
+<v Shaka>and always like being present with those surrounding us.
+
+00:28:18.690 --> 00:28:26.450
+<v Shaka>And then that's when you see this visual form of consent that's like a musical expression of consensus.
+
+00:28:26.950 --> 00:28:33.430
+<v Shaka>So that layer of harmony is exactly what we need to express the values and the core ideas of Ethereum,
+
+00:28:33.630 --> 00:28:36.250
+<v Shaka>and what people are perceiving as Web3.
+
+00:28:36.930 --> 00:28:39.870
+<v Shaka>It can translate to more like a web humanity,
+
+00:28:40.450 --> 00:28:46.130
+<v Shaka>where AI understands the technical side of crypto super well.
+
+00:28:46.130 --> 00:28:49.490
+<v Shaka>So that actually becomes more of like an identity layer,
+
+00:28:49.670 --> 00:28:58.090
+<v Shaka>where I would even say like that's 50% of like what receiving a gift can look like for the opensourceorchestra.org,
+
+00:28:58.170 --> 00:29:00.030
+<v Shaka>is that you have your address on Ethereum,
+
+00:29:00.610 --> 00:29:03.330
+<v Shaka>and people can use that address to give you a gift,
+
+00:29:03.870 --> 00:29:09.930
+<v Shaka>and you sign and you receive that gift via yourself or via an agent.
+
+00:29:09.930 --> 00:29:22.730
+<v Shaka>And it communicates itself just as 50% as identity and peer-to-peer that it doesn't have to be super transactional,
+
+00:29:23.130 --> 00:29:25.210
+<v Shaka>or like you have to pay to be there,
+
+00:29:25.270 --> 00:29:29.490
+<v Shaka>or you have to have a license or a copyright in order to put this music there.
+
+00:29:29.770 --> 00:29:33.690
+<v Shaka>I would actually think that it's more powerful if we start putting the music there for free.
+
+00:29:33.690 --> 00:29:38.450
+<v Shaka>If we start traveling the world as a gift, where we're giving music as a gift,
+
+00:29:38.590 --> 00:29:40.610
+<v Shaka>where we're not charging it and using it as a business,
+
+00:29:41.150 --> 00:29:46.950
+<v Shaka>and then just using great identity layers like Ethereum and having agents that are identified as being my agents,
+
+00:29:47.590 --> 00:29:53.910
+<v Shaka>this is a place where people can actually give me gifts and verify that I'm the person that they're gifting.
+
+00:29:54.670 --> 00:29:58.050
+<v Shaka>And then also I have the receipts and the verifications that moving forward,
+
+00:29:58.150 --> 00:30:00.490
+<v Shaka>I'm continuing to give these spaces as a gift.
+
+00:30:00.490 --> 00:30:11.030
+<v Shaka>So that's really where I would love to see the Open Source Orchestra DAO be a place where people can show their receipts,
+
+00:30:11.690 --> 00:30:17.050
+<v Shaka>because people have already sat in the seat and listened to their music in the theater.
+
+00:30:17.790 --> 00:30:21.990
+<v Shaka>So I'll give both of you an example of anyone.
+
+00:30:22.150 --> 00:30:23.910
+<v Shaka>I'll do a popcorn style right now,
+
+00:30:23.910 --> 00:30:26.510
+<v Shaka>and then after a little bit of popcorn,
+
+00:30:26.650 --> 00:30:27.550
+<v Shaka>if anyone has any thoughts,
+
+00:30:27.630 --> 00:30:31.830
+<v Shaka>I'll show a little bit of a website together.
+
+00:30:32.550 --> 00:30:38.130
+<v Shaka>Thanks to Kimi K3 and sometimes Fable until the subscription runs out.
+
+00:30:41.040 --> 00:30:41.520
+<v Shaka>Anyways.
+
+00:30:42.420 --> 00:30:43.420
+<v Sha>Maybe I can...
+
+00:30:44.020 --> 00:30:47.400
+<v Sha>Yeah, I would love to share a couple of thoughts I just had.
+
+00:30:47.400 --> 00:30:56.380
+<v Sha>So, yeah, well, first of all, like, what you said was so, I mean, it's so amazing, like, again,
+
+00:30:56.480 --> 00:31:01.360
+<v Sha>just the way that also the space was made so welcoming, you know, it just was beautiful.
+
+00:31:02.500 --> 00:31:07.300
+<v Sha>And, you know, that kind of energy is just amazing, you know.
+
+00:31:07.300 --> 00:31:11.660
+<v Sha>And, yeah, so I was about to say that.
+
+00:31:12.000 --> 00:31:18.260
+<v Sha>But a few thoughts that I had about this, like, for Lisbon or, like, just kind of ideas to throw out there is, like,
+
+00:31:18.800 --> 00:31:20.820
+<v Sha>that just came to me right now.
+
+00:31:21.620 --> 00:31:25.920
+<v Sha>One was, like, you know, I don't know if there's any kind of...
+
+00:31:25.920 --> 00:31:27.860
+<v Sha>I don't know what I already planned or whatever, like,
+
+00:31:28.220 --> 00:31:32.280
+<v Sha>but it would be really cool, like, if we could, for example, record a song,
+
+00:31:32.580 --> 00:31:37.060
+<v Sha>like, we could record something that would be, like, the Devcon 9 song.
+
+00:31:38.020 --> 00:31:40.860
+<v Sha>And we could record it, you know, maybe Levi could work on it, whatever.
+
+00:31:41.060 --> 00:31:43.400
+<v Sha>We could all record something wherever we are.
+
+00:31:43.780 --> 00:31:49.100
+<v Sha>We could make a song which we would, like, release, you know, at Devcon 9 or something before,
+
+00:31:49.780 --> 00:31:52.860
+<v Sha>like, kind of, like, you know, it would be, like, a Devcon anthem, whatever,
+
+00:31:53.860 --> 00:31:55.640
+<v Sha>but, like, a song we could do.
+
+00:31:56.600 --> 00:31:57.200
+<v Sha>That was one idea.
+
+00:31:59.080 --> 00:32:02.720
+<v Sha>And we could, of course, like, then we could also play it, like, you know,
+
+00:32:02.720 --> 00:32:05.840
+<v Sha>we could kind of, everyone would know their part, right?
+
+00:32:05.840 --> 00:32:08.700
+<v Sha>We could also play it together there.
+
+00:32:09.560 --> 00:32:13.360
+<v Sha>And another thing that came to our mind was, like, yeah, if we had fun,
+
+00:32:14.140 --> 00:32:16.900
+<v Sha>like, I think it would also be really cool if we were able to, like,
+
+00:32:17.380 --> 00:32:21.140
+<v Sha>you know, donate some money to, like, wherever there is a event,
+
+00:32:21.240 --> 00:32:24.100
+<v Sha>like, the Devcon, and we're there, you know, if we had extra money,
+
+00:32:24.480 --> 00:32:27.860
+<v Sha>we could donate to some, like, local music, you know, initiatives.
+
+00:32:27.860 --> 00:32:32.220
+<v Sha>Like, if there's some local, like, for example, for some unprivileged kids,
+
+00:32:32.320 --> 00:32:36.240
+<v Sha>like a music school, like, it would be really cool to be able to, like, donate
+
+00:32:36.240 --> 00:32:37.020
+<v Sha>to something like that.
+
+00:32:38.920 --> 00:32:44.280
+<v Sha>And then another thing was, like, yeah, I'm not sure how, but it would be nice
+
+00:32:44.280 --> 00:32:48.160
+<v Sha>if we had some people in this, like, also from the local area.
+
+00:32:48.160 --> 00:32:53.520
+<v Sha>Like, I don't know if there are any in the music group or, like, who are kind of
+
+00:32:53.520 --> 00:32:58.880
+<v Sha>from Portugal or somewhere around, who knows what they'll have, like, you know,
+
+00:32:58.920 --> 00:33:05.920
+<v Sha>they might have some cool instruments or whatever that are, like, easier to, like,
+
+00:33:06.000 --> 00:33:08.440
+<v Sha>bring if we have, like, if we're connected to them.
+
+00:33:08.440 --> 00:33:13.400
+<v Sha>And then another thing that came to my mind was, like, you know, it would be also cool,
+
+00:33:13.540 --> 00:33:18.580
+<v Sha>like, if we were able to show kind of, like, what's the future of music in Devcon,
+
+00:33:18.740 --> 00:33:22.180
+<v Sha>you know, what is, like, some, like, really futuristic stuff, like, maybe some,
+
+00:33:22.280 --> 00:33:26.620
+<v Sha>like, the newest, like, tech, you know, music tech, like, equipment or something
+
+00:33:26.620 --> 00:33:27.460
+<v Sha>that has come out.
+
+00:33:27.940 --> 00:33:32.180
+<v Sha>Maybe if we had, like, some partner, you're, like, a sponsor who would want to, like,
+
+00:33:32.180 --> 00:33:37.300
+<v Sha>showcase their new music tech, maybe we would be able to, like, get it there
+
+00:33:37.300 --> 00:33:41.320
+<v Sha>without, you know, spending any money, just that, them wanting to, like,
+
+00:33:41.360 --> 00:33:43.400
+<v Sha>promote their equipment.
+
+00:33:43.840 --> 00:33:47.940
+<v Sha>So, yeah, those were the things that I kind of came to.
+
+00:33:48.420 --> 00:33:58.960
+<v Shaka>I love all those ideas, especially the one where we do some music together,
+
+00:33:59.100 --> 00:34:04.320
+<v Shaka>where we, like, kind of, like, do it properly, where, like, we work on one MP3 flyer
+
+00:34:04.320 --> 00:34:08.720
+<v Shaka>together, which I think we definitely can pass that around really open source.
+
+00:34:08.720 --> 00:34:11.860
+<v Shaka>We sample each other as well as, like, grow different songs.
+
+00:34:12.160 --> 00:34:17.620
+<v Shaka>And Levi did do a live recording that he's, that can be kind of our first single
+
+00:34:17.620 --> 00:34:19.640
+<v Shaka>as Open Source Orchestra live recording.
+
+00:34:19.760 --> 00:34:23.760
+<v Shaka>And then we should definitely build off that momentum and do another, as many
+
+00:34:23.760 --> 00:34:26.520
+<v Shaka>symphonies as we can with the orchestra.
+
+00:34:26.820 --> 00:34:33.880
+<v Shaka>And then the idea of, like, people's tech that's surrounding it, you know,
+
+00:34:33.880 --> 00:34:40.260
+<v Shaka>like, I think that's, like, part of the, part of the power of just being present is
+
+00:34:40.260 --> 00:34:47.840
+<v Shaka>that, you know, we really have to respect that the place where we're getting to play
+
+00:34:47.840 --> 00:34:54.460
+<v Shaka>music and where we're kind of really in charge of hosting a really positive vibration, there's
+
+00:34:54.460 --> 00:34:58.700
+<v Shaka>a lot of other protocols that are paying, you know, a lot of their sponsorship bill just
+
+00:34:58.700 --> 00:35:06.860
+<v Shaka>to be there and we can share up to a limit of, like, how much we care as long as we're
+
+00:35:06.860 --> 00:35:12.180
+<v Shaka>also there to be there, you know, you know, so, like, even if it's, like, a music-related
+
+00:35:12.180 --> 00:35:17.280
+<v Shaka>project, it's still really important that we be there, you know, that we play music and
+
+00:35:17.280 --> 00:35:20.880
+<v Shaka>that we show up and we're present as far as just, like, holding that vibration in the
+
+00:35:20.880 --> 00:35:21.300
+<v Shaka>space.
+
+00:35:21.300 --> 00:35:23.320
+<v Shaka>And then, actually, it's more powerful.
+
+00:35:23.960 --> 00:35:30.160
+<v Shaka>That's why Open Source Orchestra has been an invitation that continues to get its approved
+
+00:35:30.160 --> 00:35:35.240
+<v Shaka>proposal, which that's where it started and where it's probably will need to start again
+
+00:35:35.240 --> 00:35:39.660
+<v Shaka>next year is a Devcon improvement proposal that's signed off and written by all of us
+
+00:35:39.660 --> 00:35:43.560
+<v Shaka>because that's open for the community and that's how all the hubs start, you know, so
+
+00:35:43.560 --> 00:35:48.480
+<v Shaka>every proposal is equal for Devcon, you know, so we're just, like, following that same
+
+00:35:48.480 --> 00:35:57.480
+<v Shaka>inspiration and it's, yeah, DAO will be hopefully no complication and it's an experiment
+
+00:35:57.480 --> 00:36:03.820
+<v Shaka>that, like, everyone, I think, can have positive feedback and contributions on the code base
+
+00:36:03.820 --> 00:36:07.940
+<v Shaka>and the tech base if it's open source, then that means that my agents can easily fork
+
+00:36:07.940 --> 00:36:12.380
+<v Shaka>in what's already there and Open Source Orchestra already is a GitHub organization that
+
+00:36:12.380 --> 00:36:17.020
+<v Shaka>people can make contributions and the agents can present it to me and, like, I would even
+
+00:36:17.020 --> 00:36:23.640
+<v Shaka>love to, in the future, investigate more filing systems where agents are co-stewarded by the
+
+00:36:23.640 --> 00:36:29.260
+<v Shaka>orchestra where we not only have multi-sigs for the treasury, but we also have multi-agents
+
+00:36:29.260 --> 00:36:31.400
+<v Shaka>that are like a buzz together.
+
+00:36:31.640 --> 00:36:36.960
+<v Shaka>They kind of have this shared hive of files that their personalities and their code of laws
+
+00:36:36.960 --> 00:36:41.200
+<v Shaka>are shared amongst, like, a group of people that then, like, the Open Source Orchestra
+
+00:36:41.200 --> 00:36:47.560
+<v Shaka>doesn't even run through my own compute. It runs through a shared local model that multiple
+
+00:36:47.560 --> 00:36:54.140
+<v Shaka>people are able to prompt to. I think there's a lot of places that we can explore as far as mixing
+
+00:36:54.140 --> 00:36:59.660
+<v Shaka>agents with an orchestra as well because we can figure out, as well as agents are doing great
+
+00:36:59.660 --> 00:37:05.340
+<v Shaka>orchestration, how do we mix that world of human orchestration with agent orchestration, I think
+
+00:37:05.340 --> 00:37:12.360
+<v Shaka>it's a really cool experiment to try and tackle this next year. Um, so there's a lot of potential.
+
+00:37:13.620 --> 00:37:14.100
+<v Shaka>Yeah.
+
+00:37:16.400 --> 00:37:25.320
+<v Shaka>And, um, speaking of, let me share my screen of things that I could, we have no idea that I could dream
+
+00:37:25.320 --> 00:37:40.840
+<v Shaka>into existence. Um, thanks to the agents. So if you go to osodaomeet.opensourceorchestra.org,
+
+00:37:40.840 --> 00:37:45.520
+<v Shaka>you can actually see that there's, um, a place where you can kind of have some initial thoughts
+
+00:37:45.520 --> 00:37:52.160
+<v Shaka>from me and the agents on the history. Um, and then you can also listen to, uh, my clone voice
+
+00:37:52.160 --> 00:38:00.540
+<v Shaka>of it. Um, I'm not going to play it now, but if you're smart. Yep. So I gave consent to my agents
+
+00:38:00.540 --> 00:38:06.600
+<v Shaka>to use my voice. So that's why you can hear there, but you can play that back later. Um, there is like
+
+00:38:06.600 --> 00:38:14.080
+<v Shaka>a real strong OG circle behind the Open Source Orchestra, um, which you can also find there in the OG
+
+00:38:14.080 --> 00:38:22.960
+<v Shaka>circle and, um, people like Matteo who did the first proposal at Devcon Bogota. Um, him and I played
+
+00:38:22.960 --> 00:38:29.460
+<v Shaka>music right around the time that he made that proposal at ETH Prague. And, um, there was already that
+
+00:38:29.460 --> 00:38:35.620
+<v Shaka>shared consent, um, that music needed to be there at Devcon. And because, um, I was recommended to be
+
+00:38:35.620 --> 00:38:42.060
+<v Shaka>right upon or alongside that proposal. And, um, it was around, I remember, um, it was in Istanbul
+
+00:38:42.060 --> 00:38:46.860
+<v Shaka>where Matteo was also there jamming. Here's Matteo right there where he said, you know what, you really
+
+00:38:46.860 --> 00:38:52.220
+<v Shaka>need a name for this thing now. And at that point I had already been like, had strong conviction that
+
+00:38:52.220 --> 00:38:56.560
+<v Shaka>Open Source Orchestra was the name, but I would say that the protocol definitely started around,
+
+00:38:56.560 --> 00:39:04.180
+<v Shaka>um, for me, for my journey. Um, it was Amsterdam with Justin Holmes, um, who does vowel sounds.
+
+00:39:04.720 --> 00:39:11.600
+<v Shaka>Um, but Justin, Matteo, and many people, um, have been doing, um, music in the blockchain. Like
+
+00:39:11.600 --> 00:39:18.760
+<v Shaka>Imogen Heap, um, definitely is one person who's, um, I think one of the first NFTs and Santiago Rose
+
+00:39:18.760 --> 00:39:24.660
+<v Shaka>and Clementine were duo Do and Tomo is, um, a designer and a huge part of the Ethereum foundation.
+
+00:39:25.320 --> 00:39:32.660
+<v Shaka>Um, and then Inch is a great, uh, singer from Singapore, who is a huge part of, uh, the show
+
+00:39:32.660 --> 00:39:39.640
+<v Shaka>in, uh, Bangkok. So I would say that like, there's so many people that, um, have already been a part
+
+00:39:39.640 --> 00:39:46.460
+<v Shaka>of like what you call a tradition of a protocol of Open Source Orchestra at Devcon. Um, since it's
+
+00:39:46.460 --> 00:39:51.980
+<v Shaka>like Devcon six was when it really had its, um, proposal strongly there, but there was also
+
+00:39:51.980 --> 00:39:59.680
+<v Shaka>Audius who did a music proposal earlier on, as you can see here. Um, and I think that, you know,
+
+00:39:59.960 --> 00:40:10.100
+<v Shaka>20 early, uh, 2020. So I guess, you know, when music is, um, seen as a really strong substance for
+
+00:40:10.100 --> 00:40:16.080
+<v Shaka>the culture of a space, then, um, it really does require all of us to be present and take care of it.
+
+00:40:16.080 --> 00:40:22.900
+<v Shaka>And I think we're actually taking pieces off of the Devcon plate if we're, um, able to provide the
+
+00:40:22.900 --> 00:40:27.960
+<v Shaka>backline, um, because they were the ones that paid and help us find all those instruments. And,
+
+00:40:27.960 --> 00:40:34.040
+<v Shaka>you know, like Carlota did an amazing job checking in with, um, a handful of us weekly. Um, so the
+
+00:40:34.040 --> 00:40:39.160
+<v Shaka>bridge is built, um, and hopefully in the future we can continue to work, um, alongside Devcon as we
+
+00:40:39.160 --> 00:40:46.920
+<v Shaka>have, um, since I got to play for, uh, closing ceremony in DevConnect Amsterdam. And that's when I
+
+00:40:46.920 --> 00:40:53.780
+<v Shaka>first met Skylar, as well as, um, Natalia, who is a major, major part of Devcon still, um, being the
+
+00:40:53.780 --> 00:40:59.640
+<v Shaka>lead of production. And so being able to coordinate with her on a really professional level of playing
+
+00:40:59.640 --> 00:41:03.340
+<v Shaka>music and making sure that the backline and that the sound engineers knew what was going
+
+00:41:03.340 --> 00:41:07.520
+<v Shaka>to happen, um, it's always taken communication that this year it's accelerated because of
+
+00:41:07.520 --> 00:41:13.820
+<v Shaka>agents. And so next year it can accelerate because we're having lots of humans. Um, and you know,
+
+00:41:13.820 --> 00:41:27.140
+<v Shaka>uh, I think that, uh, I, I really believe that, um, I'm going to stop sharing here. I really believe
+
+00:41:27.140 --> 00:41:36.020
+<v Shaka>that, uh, finding a place where everyone's consent matters first, but then once you're consensually
+
+00:41:36.020 --> 00:41:41.220
+<v Shaka>like contributing on a level where like, all right, beyond just showing up and playing in the circle
+
+00:41:41.220 --> 00:41:45.560
+<v Shaka>in the future, there should be a consent level where people are, people are willing to,
+
+00:41:45.640 --> 00:41:51.220
+<v Shaka>like sign in with their, with their wallet address that could be a sec, a separate address. It could
+
+00:41:51.220 --> 00:41:58.160
+<v Shaka>just be a subdename that's protected by a steward agent. Um, but just some sort of, um, consent on a
+
+00:41:58.160 --> 00:42:02.680
+<v Shaka>ledger basis that they're jumping into the orchestra because then it's going to be really easy for us to
+
+00:42:02.680 --> 00:42:08.220
+<v Shaka>reward people on the backend. Um, retroactively, as long as we just keep continue to mix the consent
+
+00:42:08.220 --> 00:42:14.820
+<v Shaka>level of, um, mixing agents with their, um, addresses, um, on the blockchain, then
+
+00:42:14.820 --> 00:42:21.220
+<v Shaka>it really is an Open Source Orchestra where we're using open source technology and open ledgers to
+
+00:42:21.220 --> 00:42:26.540
+<v Shaka>then mix the beauty of people playing music together in, um, the greatest venues around the world as
+
+00:42:26.540 --> 00:42:32.320
+<v Shaka>we've done the old stock exchange in Amsterdam, um, to the Queen Sirikit in Bangkok and the
+
+00:42:32.320 --> 00:42:39.760
+<v Shaka>La Rural in Argentina, which is a huge iconic rodeo of Buenos Aires and then Jio World Centre as this year. So
+
+00:42:39.760 --> 00:42:45.880
+<v Shaka>I don't know what the venue is for Lisbon, but the website is there actually. Um, I'm definitely
+
+00:42:45.880 --> 00:42:50.520
+<v Shaka>going to link the opensourceorchestra.org to the new Devcon, uh, website with their already
+
+00:42:50.520 --> 00:42:57.760
+<v Shaka>advertising towards Lisbon and it's epic. Um, and yeah, I guess I should share my screen again. Um,
+
+00:43:00.900 --> 00:43:05.440
+<v Shaka>you should definitely all go to the website and look at the pre video. There's a video that leads up to
+
+00:43:05.440 --> 00:43:10.600
+<v Shaka>this, but you can already join the wait list. Um, you can see past archives. You can watch all the
+
+00:43:10.600 --> 00:43:16.060
+<v Shaka>talks from Devcon eight. Um, so since I was at the music circle, the archive is actually really great.
+
+00:43:16.060 --> 00:43:22.320
+<v Shaka>Um, this is, uh, I can, I can tell we're in the age of, of, of beautiful AI vibe coding because the
+
+00:43:22.320 --> 00:43:30.040
+<v Shaka>Devcon archive is the best it's been. And, um, yeah, I think that it's, uh, really important that,
+
+00:43:30.040 --> 00:43:35.920
+<v Shaka>uh, we keep sharing the knowledge as well as the music. So, um, we all kind of gave our consent
+
+00:43:35.920 --> 00:43:40.640
+<v Shaka>for the photos and the recordings, and that's just kind of open source content. So we're going
+
+00:43:40.640 --> 00:43:45.640
+<v Shaka>to try and find different ways between opensourceorchestra.org and Devcon's already on top of it
+
+00:43:45.640 --> 00:43:50.280
+<v Shaka>because they're the, they're professional in the org. So like that content's already available
+
+00:43:50.280 --> 00:43:55.940
+<v Shaka>and also shared to like be used by us. So like any of us can use that Google drive that I shared with
+
+00:43:55.940 --> 00:44:01.020
+<v Shaka>all the photos and there'll be more coming with like videos where we can start, um, doing all kinds
+
+00:44:01.020 --> 00:44:06.340
+<v Shaka>of cuts and content and like really sharing the magic of what happened. And then that's a great
+
+00:44:06.340 --> 00:44:10.700
+<v Shaka>opportunity for us to also like be able to like a cost. If you go out there and share some of the
+
+00:44:10.700 --> 00:44:16.340
+<v Shaka>recordings of you playing drums and all this, that you list some of the, um, x402 payment options or,
+
+00:44:16.340 --> 00:44:22.160
+<v Shaka>uh, DNS names, um, for the artists are there so that maybe someone has the curve of generosity
+
+00:44:22.160 --> 00:44:27.980
+<v Shaka>that they want to give a gift, like in retroactive, um, contribution to the gift and maybe they were
+
+00:44:27.980 --> 00:44:32.780
+<v Shaka>there and they enjoyed the music or they're enjoying that content because now we can start
+
+00:44:32.780 --> 00:44:38.740
+<v Shaka>sharing the content everywhere that that gift becomes a smart transaction that legally is still
+
+00:44:38.740 --> 00:44:43.400
+<v Shaka>allowed. Right. That's actually where I think it's kind of beautiful that there's that conversation
+
+00:44:43.400 --> 00:44:48.860
+<v Shaka>of copyright and licensing and what does Open Source Orchestra mean? Well, if we continue to have it
+
+00:44:48.860 --> 00:44:55.080
+<v Shaka>be like an open source type narrative, a word, they're doing it voluntarily where we are volunteers.
+
+00:44:55.080 --> 00:44:59.540
+<v Shaka>Um, and the forefront, we are showing up as tourists playing music around the world.
+
+00:44:59.900 --> 00:45:05.120
+<v Shaka>Well, retroactively, whatever we receive is also a gift and made anywhere in the world. It's actually
+
+00:45:05.120 --> 00:45:11.060
+<v Shaka>legal to send gifts across borders. Um, but selling things across border, that's a different type of
+
+00:45:11.060 --> 00:45:16.220
+<v Shaka>transaction, but we've already given the gift. Uh, we did it. We all gave the gift at Devcon eight and,
+
+00:45:16.220 --> 00:45:22.100
+<v Shaka>um, you know, we'll set ourselves up so that we're not being transactional before Devcon nine. We're
+
+00:45:22.100 --> 00:45:31.820
+<v Shaka>actually being more transparent and, and intentional on supporting Devcon and its values. Um, so with that,
+
+00:45:31.820 --> 00:45:41.100
+<v Shaka>you know, I think everyone should go check out the devcon.org slash Lisbon site and also open source
+
+00:45:41.100 --> 00:45:49.980
+<v Shaka>orchestra.org. Now has all kinds of domains that you can find. Um, we'll update the schedule. People
+
+00:45:49.980 --> 00:46:01.240
+<v Shaka>can start making contributions. Um, there is a, sometimes if he's awake, I think right now, um, well,
+
+00:46:01.240 --> 00:46:06.680
+<v Shaka>yeah, actually there is, so there's a, uh, a little agent that you can talk to, uh, as well as the old
+
+00:46:06.680 --> 00:46:12.680
+<v Shaka>schedule being there, but we'll have to change this up. There's, um, this used to be where Devcon eight was
+
+00:46:12.680 --> 00:46:17.160
+<v Shaka>pointed at. And then I'm going to add like a little unicorn that points towards the Devcon website
+
+00:46:17.160 --> 00:46:23.880
+<v Shaka>again. And the Mandala room has like some good flashbacks that my agents were able to generate
+
+00:46:23.880 --> 00:46:34.010
+<v Shaka>with the pictures, um, of Devcon. Uh, so definitely encourage you all like taking your own approach,
+
+00:46:34.010 --> 00:46:40.170
+<v Shaka>uh, and share using the content that we'll openly and collaboratively share. And then, uh, my agents
+
+00:46:40.170 --> 00:46:46.730
+<v Shaka>will be there to reshare on Twitter, um, as well as telegrams, a great place to, um, activate prompts
+
+00:46:46.730 --> 00:46:51.530
+<v Shaka>for my agent ʻohana. And I think in the next couple of months too, I definitely want to think more
+
+00:46:51.530 --> 00:46:57.050
+<v Shaka>intentionally on showing everyone how I've been building the ʻohana. This is my Taurus browser and,
+
+00:46:58.650 --> 00:47:06.570
+<v Shaka>do have invites. So send me a DM if you want to get an invite, um, to use the Taurus, um, areas. And
+
+00:47:06.570 --> 00:47:11.690
+<v Shaka>these guys are red right now because I think I just burned my subscription and all my inference costs.
+
+00:47:11.690 --> 00:47:17.610
+<v Shaka>So definitely Shaka is open for donations to try and keep the ʻohana running. Um, I have to wait till
+
+00:47:17.610 --> 00:47:22.730
+<v Shaka>3am and then my cloud subscription kicks back in. So actually it'll be heavy hacking over the weekend.
+
+00:47:23.290 --> 00:47:28.970
+<v Shaka>And, um, anyone that wants to make contributions just get, get, definitely give me a ping and like,
+
+00:47:28.970 --> 00:47:33.850
+<v Shaka>I'll have the agents, um, take a look at them. Cause I think, uh, we already have a handful of
+
+00:47:33.850 --> 00:47:40.650
+<v Shaka>hackers. Actually we had a hacker at ETH Mumbai, ETHGlobal Mumbai. He was 15 years
+
+00:47:40.650 --> 00:47:46.010
+<v Shaka>old. He ended up joining my team because the team formation, um, and another great developer who was
+
+00:47:46.010 --> 00:47:53.130
+<v Shaka>in the earlier phone call, um, [name unclear], he, he, uh, had already a team together. And so I got a kid
+
+00:47:53.130 --> 00:47:57.290
+<v Shaka>flew out with his dad from Japan at 15 years old, was writing smart contracts and helped write the
+
+00:47:57.290 --> 00:48:02.410
+<v Shaka>ENS contracts. We have like a 15 year old prodigy developer who helped create the subdomains for
+
+00:48:02.410 --> 00:48:09.130
+<v Shaka>opensourceorchestra.org. So, um, definitely, um, my subscription kits back in this evening.
+
+00:48:09.130 --> 00:48:12.730
+<v Shaka>And then I'm going to be able to go to town. I'm just getting everyone set up with what they want
+
+00:48:12.730 --> 00:48:18.570
+<v Shaka>to have with the wallets and everything we are in build mode, right? This is the DAO is a proposal
+
+00:48:18.570 --> 00:48:25.130
+<v Shaka>and the code is all open source, but also in, um, openly being built in public. I like actually
+
+00:48:25.130 --> 00:48:29.770
+<v Shaka>sending everything to archive.org. Um, just so I can maybe some point look back at all the websites
+
+00:48:29.770 --> 00:48:35.530
+<v Shaka>and what they used to be like. Um, so it's, it's going to be fun to keep, uh, sharing, uh,
+
+00:48:35.530 --> 00:48:41.370
+<v Shaka>opensourceorchestra.org with everybody and seeing it get all kinds of different subdomains as well
+
+00:48:41.370 --> 00:48:48.890
+<v Shaka>as our artists profiles and, um, where we get a play all over the place. Uh, all right. Well,
+
+00:48:48.890 --> 00:48:53.370
+<v Shaka>we are almost close to an hour. Anyone else want to give some inspirational words of power?
+
+00:48:53.370 --> 00:49:06.600
+<v Aakaash>I think we are really, really excited to play again. Uh, looking forward to play again. I talk
+
+00:49:06.600 --> 00:49:12.360
+<v Aakaash>with everyone and everyone's saying same thing. Same with Levi. He said, like, it was amazing four
+
+00:49:12.360 --> 00:49:20.520
+<v Aakaash>days. Uh, it must be for a week at least. And, uh, people are a bit upset as well that why next
+
+00:49:20.520 --> 00:49:27.880
+<v Aakaash>Devcon is only for three days. So let's see, like, how we can make much more out of these three days.
+
+00:49:27.880 --> 00:49:36.680
+<v Aakaash>And yep, I'm excited to be the part, excited in the way how we can contribute and learn much more stuff.
+
+00:49:37.400 --> 00:49:43.400
+<v Aakaash>So like, I started playing music when I was, like, I started to sing when I was in my fourth grade,
+
+00:49:43.400 --> 00:49:49.400
+<v Aakaash>when I was, I think so, uh, 11 years old or something. And after that, I started singing.
+
+00:49:49.400 --> 00:49:56.600
+<v Aakaash>And when once puberty hit it, my voice was gone. And after I started playing percussion. So learning a lot
+
+00:49:56.600 --> 00:50:03.640
+<v Aakaash>of stuff, uh, this stage brought me back to my nostalgic, you know, school choir time where we
+
+00:50:03.640 --> 00:50:12.440
+<v Aakaash>used to sing hymns, where we used to sing amazing songs. And yeah, like, uh, I think so. This is,
+
+00:50:12.440 --> 00:50:19.320
+<v Aakaash>this is quite cool and amazing space when everyone gets, you know, when everyone gets out of their
+
+00:50:19.320 --> 00:50:27.960
+<v Aakaash>state of mind talking about a lot of professional stuff, they come to the music. I have seen this
+
+00:50:27.960 --> 00:50:32.680
+<v Aakaash>personally that people used to go on the first floor, second floor, third floor. And once they are
+
+00:50:32.680 --> 00:50:38.360
+<v Aakaash>done with everything, the place where they find peace was at the music stage. They used to come there,
+
+00:50:38.360 --> 00:50:46.360
+<v Aakaash>start walking and used to jam with us. There was a place where people, people would remove their shyness.
+
+00:50:46.360 --> 00:50:53.960
+<v Aakaash>And the people who don't like, who haven't got a stage to come together and sing once took the
+
+00:50:53.960 --> 00:51:00.120
+<v Aakaash>courage in themselves and came there and sang for the first time in their lifetime as well. Like I got,
+
+00:51:00.120 --> 00:51:05.960
+<v Aakaash>I came to like few of the people that like were singing for the first time on a stage. So it was
+
+00:51:05.960 --> 00:51:11.640
+<v Aakaash>like quite amazing that we can help these people to get encouraged and gather some courage and,
+
+00:51:11.640 --> 00:51:20.840
+<v Aakaash>you know, come out of the stage fear as well as come in the contents of music. I think that it grows
+
+00:51:20.840 --> 00:51:28.760
+<v Aakaash>exponentially in the next upcoming years of Devcon. And not only in Devcon, we find this music stage as a,
+
+00:51:29.560 --> 00:51:36.280
+<v Aakaash>you know, as a meaningful and profound stage at every event of Ethereum. And other ecosystem also
+
+00:51:36.280 --> 00:51:43.880
+<v Aakaash>can also take these things out of Ethereum and start to embed in their own things. So yeah, like,
+
+00:51:43.880 --> 00:51:45.480
+<v Aakaash>that was the amazing set.
+
+00:51:45.480 --> 00:51:57.740
+<v Shaka>How about you, Sha? Any last statements from Elrond in The Divine?
+
+00:51:57.740 --> 00:52:08.540
+<v Sha>Yeah, well, I'm a little so awesome that music has like, that's a great space now because of you guys,
+
+00:52:08.540 --> 00:52:15.740
+<v Sha>what you've been working on and everyone who's been part of it. And like, yeah, it felt like Aakaash was kind
+
+00:52:15.740 --> 00:52:21.660
+<v Sha>of saying like, you know, everyone in those, all these conferences and all these events, everyone
+
+00:52:21.660 --> 00:52:27.340
+<v Sha>is kind of about this kind of attack mode all the time, you know, like network, network, you know,
+
+00:52:27.340 --> 00:52:33.420
+<v Sha>sometimes a little bit, you know, people are like in the kind of rush kind of the mentality often,
+
+00:52:33.420 --> 00:52:38.060
+<v Sha>but it's like that music space has like something different, you know, it's like people come there,
+
+00:52:38.060 --> 00:52:42.460
+<v Sha>it's not anymore about like, oh, how can I be productive, I have to do something, I have to
+
+00:52:42.460 --> 00:52:46.460
+<v Sha>achieve something, you know, and I just feel like the energy is like completely different, you know,
+
+00:52:46.460 --> 00:52:51.340
+<v Sha>people can like, I don't know, it's like giving their nervous system a break, you know, like, hey,
+
+00:52:51.340 --> 00:52:57.100
+<v Sha>you can just be here, like, just be, you don't have to do anything, you know, just enjoy the present
+
+00:52:57.100 --> 00:53:04.620
+<v Sha>moment to be in the, being that like, that which is the only thing that really exists, but maybe there
+
+00:53:04.620 --> 00:53:10.300
+<v Sha>is nowhere else in the conference where it's always a step into that beingness, so I mean,
+
+00:53:10.300 --> 00:53:15.580
+<v Sha>it's a beautiful thing to be able to like give that, you know, that is a massive gift to people.
+
+00:53:16.940 --> 00:53:24.300
+<v Sha>And yeah, and I'm just happy personally to be part of it now. So yeah, excited to see
+
+00:53:24.300 --> 00:53:31.820
+<v Sha>what's, what's going to happen on this journey. Whoops. Yeah, that's all.
+
+00:53:49.100 --> 00:54:01.590
+<v Shaka>[crosstalk as Shaka steps outside] You're good hearing me, right?
+
+00:54:01.590 --> 00:54:09.530
+<v Shaka>Yes. Yeah. Yeah, I just wanted to step outside because they're starting a,
+
+00:54:11.370 --> 00:54:18.810
+<v Shaka>starting a session in 4Seas. And then, oh, maybe I could even end with an introduction.
+
+00:54:20.250 --> 00:54:25.850
+<v Shaka>Zeke, I'm on a call that I'm just wrapping up. It's actually a recorded call for the open source
+
+00:54:25.850 --> 00:54:30.170
+<v Shaka>orchestra. Is it all right if I introduce you and end it with you because you're the host for me
+
+00:54:30.170 --> 00:54:35.850
+<v Shaka>for this month? I'll do it. So anyways, yeah, thank you so much, Sha. Thank you much, Aakaash. And
+
+00:54:35.850 --> 00:54:41.530
+<v Shaka>I really think that an Open Source Orchestra having its own protocol and DAO could be really influential
+
+00:54:41.530 --> 00:54:46.250
+<v Shaka>and powerful and moving that forward takes the Devcon everywhere. And I'm really excited because
+
+00:54:46.250 --> 00:54:53.450
+<v Shaka>I left 4Seas earlier this year and last year around this time, I actually hauled all the way from their
+
+00:54:53.450 --> 00:54:58.170
+<v Shaka>property in the mountain village, a piano that belonged to a friend's daughter and an old guitar
+
+00:54:58.170 --> 00:55:04.410
+<v Shaka>that was gaining dust and found some drumsticks under the ground and a drum kit up there and pieced it all
+
+00:55:04.410 --> 00:55:08.970
+<v Shaka>together and brought it over to their property in Nimman. And now I get to come back and see just like
+
+00:55:08.970 --> 00:55:13.930
+<v Shaka>music in the air all the time and really professional bands showing up for their nomad markets.
+
+00:55:13.930 --> 00:55:20.010
+<v Shaka>And so I want to hand it over just to say hello really quickly and goodbye from where I'm having
+
+00:55:20.010 --> 00:55:24.170
+<v Shaka>an amazing time for the rest of the year. If anyone wants to come by and play music here at 4Seas
+
+00:55:25.050 --> 00:55:31.370
+<v Shaka>in Chiang Mai, definitely it's open all the time, 24 hour co-working. And you can always tell that
+
+00:55:31.370 --> 00:55:35.450
+<v Shaka>there's something happening when there's lots of shoes in front of the door. And if anyone wants to
+
+00:55:35.450 --> 00:55:42.490
+<v Shaka>explore Thailand, definitely come Northern Thailand to see Chiang Mai. And I'll be here till the end of
+
+00:55:42.490 --> 00:55:48.010
+<v Shaka>the new year where we have a hackathon and summit right after Christmas. So definitely if you are
+
+00:55:48.010 --> 00:55:55.850
+<v Shaka>lonely in the times of holidays, come spend it with us. And thank you, my best friends from China.
+
+00:55:55.850 --> 00:56:05.050
+<v Shaka with the 4Seas hosts>Hello, hello. Yeah, he's the main host with the mostest as well as many because the team just keeps
+
+00:56:05.050 --> 00:56:11.050
+<v Shaka with the 4Seas hosts>growing. And here's someone else who's on the team from GCC as well as beyond because the family is
+
+00:56:11.050 --> 00:56:19.450
+<v Shaka with the 4Seas hosts>very strongly united here. And actually, Chiang Mai is a great place where lots of the community from
+
+00:56:19.450 --> 00:56:25.290
+<v Shaka with the 4Seas hosts>China likes to be for next year. So definitely do not miss out on the Christmas dumplings, right? Or the
+
+00:56:25.290 --> 00:56:33.130
+<v Shaka with the 4Seas hosts>tofu. Yeah, the tofu is okay. Okay, but yeah, much love Open Source Orchestra friends who don't see
+
+00:56:33.130 --> 00:56:38.170
+<v Shaka with the 4Seas hosts>this recording. Yeah, welcome to Chiang Mai anytime. Yes, those instruments are permissionless here too.
+
+00:56:38.170 --> 00:56:47.709
+<v Shaka with the 4Seas hosts>Love you. Love you. Goodbye. Bye-bye. Awesome. Thank you. Bye-bye.

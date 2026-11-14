@@ -1,0 +1,58 @@
+{
+  "schema": "oso-dao-proposal-meeting-v1",
+  "meeting": 2,
+  "title": "Open Source Orchestra DAO Proposal Meeting #2",
+  "circle": "First Circle",
+  "session": "B",
+  "startedAt": "2026-11-13T07:11:00Z",
+  "bangkokStart": "2026-11-13T14:11:00+07:00",
+  "indiaStart": "2026-11-13T12:41:00+05:30",
+  "hostedFrom": "lobby of 4Seas, Chiang Mai (stated in the recording)",
+  "publicRecapStatus": "published",
+  "daoStatus": "proposal and public community ledger; not on-chain or adopted",
+  "decisions": "no final governance, treasury, membership, token or Safe decision claimed; retroactive reimbursement, backline, tipping and sanctuary ideas remain proposals",
+  "participants": {
+    "host": "Shaka",
+    "guests": ["Aakaash", "Sha", "Vipul"],
+    "naming": "first names only, as stated by Shaka and in the recording; no surnames, contacts or identity claims beyond what was said",
+    "rolesStated": {
+      "Aakaash": "cajon/drums and a backbone of the Road to Devcon 8 in Mumbai",
+      "Sha": "singer and creator who joined the Devcon 8 music sanctuary unscheduled",
+      "Vipul": "company secretary and advocate working in intellectual property/copyright, India"
+    }
+  },
+  "recordingConsent": {
+    "status": "confirmed",
+    "reportedBy": "Shaka",
+    "reportedAt": "2026-11-14T04:20:00Z",
+    "scope": "meeting two was recorded and we have consent to publish it; transcribe, publish and share notes with the ʻohana and orchestra",
+    "inRecording": "at the opening Shaka states that everyone gave a thumbs-up to being recorded"
+  },
+  "recording": {
+    "status": "published_with_consent",
+    "durationSeconds": 3407.709,
+    "durationLabel": "56:47.709",
+    "rawVideo": {
+      "hostedOnThisSite": false,
+      "format": "1280x720 H.264 + 48 kHz stereo AAC MP4",
+      "bytes": 761909162,
+      "note": "kept private by the ʻohana; whether to host the video elsewhere is Shaka's decision"
+    },
+    "publicAudio": "/meetings/2/audio/oso-dao-proposal-meeting-2-2026-11-13.mp3",
+    "publicAudioPage": "/meetings/2/audio/",
+    "publicAudioFormat": "mono MP3 · 44.1 kHz · 64 kbps",
+    "publicAudioBytes": 27261952,
+    "publicAudioSha256": "876ccf701890b77e8a74bb120156cf20be2d10f667bb21ffc6daf738324adc14",
+    "publicTranscript": "/meetings/2/transcript/",
+    "transcriptFormats": ["/meetings/2/transcript/transcript.txt", "/meetings/2/transcript/transcript.vtt", "/meetings/2/transcript/transcript.json"],
+    "transcription": "local faster-whisper large-v3-turbo on CPU; media never uploaded to a transcription service; editorial speaker labels from what is said, not voice identification",
+    "googleTranscript": "none existed for this meeting; only the recording appeared in Meet history",
+    "redactions": "private meeting links, contact details and personal circumstances removed where present; spelling of names and project terms normalized",
+    "publicNotes": "/meetings/2/notes/"
+  },
+  "notesDistribution": null,
+  "attendeeList": "the four participants named above by first name; no other attendee data",
+  "privateMeetLinks": null,
+  "next": "merge both time-zone circles; third meetup open-invite for all, details TBA",
+  "takedown": "https://opensourceorchestra.org/takedown/"
+}

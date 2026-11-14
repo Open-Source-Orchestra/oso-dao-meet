@@ -1,6 +1,23 @@
 # Testing — presentation edition
 
-## 13 November 2026 recording-consent correction (current)
+## 14 November 2026 Meeting #2 publication (current)
+
+Verified locally on **14 November 2026, UTC** after Shaka's 04:20 UTC confirmation that Meeting #2 (13 November, 07:11 UTC) was recorded with consent and may be transcribed, published and shared. New routes: `/meetings/2/` recap, `/meetings/2/notes/` ten themes, `/meetings/2/transcript/` complete timestamped transcript (HTML, TXT, WebVTT, JSON) and `/meetings/2/audio/` mono MP3 player. The raw 1280×720 video stays private.
+
+| Suite / evidence | Result |
+|---|---|
+| Structural, editorial, fallback, privacy and Meeting #2 checks | **682 / 682 PASS** · `node scripts/validate.mjs` |
+| Release gates, including the single consented MP3 allowance, SHA-256, duration, sitemap/hall links and negation-aware DAO-claim scan | **760 PASS** · `python3 scripts/validate_final.py .` |
+| Focused real-browser Meeting #2 suite | **143 PASS · 0 FAIL · 0 diagnostics** · `/workspace/oso-dao-meet-qa/meeting-2-local-results.json` |
+| Desktop/mobile axe accessibility | **0 violation rules / 0 nodes in all 12 tested views** · recap, notes, transcript, audio, meetings index and archive at 1440×960 and 390×844 |
+| No-JavaScript | **PASS** · 26 speaker turns readable and native audio control present at 390×844; download link present on the audio page |
+| Media behaviour | **zero MP3 requests before interaction** on both the transcript and audio pages; clicking a timestamp or chapter seeks the real decoded audio (duration 3407.7 s); captions track is the transcript WebVTT |
+| Byte-range serving | `206` with exactly 1024 bytes matching the committed MP3, 127-byte suffix, explicit `416`, full GET 27,261,952 bytes |
+| Hall | Meeting #2 toolbar button present; no horizontal overflow at 390×844 |
+
+Transcription used local `faster-whisper large-v3-turbo` (CPU int8); media never left the machine. Speaker labels are editorial. Three short lines were omitted as personal circumstances, and a few mis-heard names/project terms were normalized; both are documented in the transcript JSON. The five expected `net::ERR_ABORTED` media requests recorded during seeking are normal `<audio>` range re-requests and are counted separately from diagnostics.
+
+## 13 November 2026 recording-consent correction (superseded as current; still accurate for Meeting #1)
 
 Verified locally on **13 November 2026, UTC** after Shaka's 05:21 UTC correction. Public wording now confirms full Meeting #1 recording broadcast/share consent, keeps the high-level notes available, attaches no raw video or full participant transcript, and makes no governance/funding decision claim.
 

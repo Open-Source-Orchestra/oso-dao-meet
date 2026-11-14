@@ -1,0 +1,3482 @@
+{
+ "schema": "oso-dao-proposal-meeting-transcript-v1",
+ "meeting": 2,
+ "title": "Open Source Orchestra DAO Proposal Meeting #2",
+ "recordedAt": "2026-11-13T07:11:00Z",
+ "recordingDurationSeconds": 3407.709,
+ "consent": {
+  "status": "published_with_consent",
+  "confirmedBy": "Shaka",
+  "confirmedAt": "2026-11-14T04:20:00Z",
+  "scope": "recording, transcript and notes may be published; participants gave a thumbs-up to recording at the opening"
+ },
+ "transcription": "local faster-whisper large-v3-turbo on CPU; media never uploaded to a transcription service",
+ "speakerLabels": "editorial, assigned from what is said in the recording, not voice identification; may be imperfect",
+ "redactions": "private meeting links, contact details and personal circumstances removed where present; spelling of names and project terms normalized",
+ "speakers": {
+  "shaka": {
+   "name": "Shaka",
+   "role": "host · Open Source Orchestra steward, speaking from the lobby of 4Seas, Chiang Mai"
+  },
+  "aakaash": {
+   "name": "Aakaash",
+   "role": "guest · cajon and drums; a backbone of the Road to Devcon 8 in Mumbai"
+  },
+  "sha": {
+   "name": "Sha",
+   "role": "guest · singer and creator who joined the Devcon 8 music sanctuary unscheduled; calling in from Goa"
+  },
+  "vipul": {
+   "name": "Vipul",
+   "role": "guest · company secretary and advocate working in intellectual property and copyright, India"
+  },
+  "closing": {
+   "name": "Shaka with the 4Seas hosts",
+   "role": "closing hellos and goodbyes as a 4Seas session begins; brief, overlapping voices"
+  }
+ },
+ "turns": [
+  {
+   "speaker": "shaka",
+   "start": 1.74,
+   "end": 332.98,
+   "segments": [
+    {
+     "id": 1,
+     "start": 1.74,
+     "end": 25.46,
+     "text": "All right. Aloha. I am Shaka, and we have all given a thumbs up for being recorded in the second Open Source Orchestra DAO proposal stage, as well as open phone call, and excited to be talking a little bit too loud in the lobbies of 4Seas, Chiang Mai, so that other people are welcome to jump right in and say hi."
+    },
+    {
+     "id": 2,
+     "start": 25.46,
+     "end": 45.94,
+     "text": "And I'll also know that this is an orchestra that's always been shared for the last three Devcons, and more than that, there's been DevConnects between those, and this year ended quite beautifully in Jio World Centre, and now next year in October, a month earlier, we're going to be able to hopefully end up in Lisbon."
+    },
+    {
+     "id": 3,
+     "start": 45.94,
+     "end": 64.94,
+     "text": "And so we also want to try and figure out how we can better support those who are contributing, as well as make the road to Lisbon more significant, where there are multiple activations, and many people can feel a level of being able to be open to their participation."
+    },
+    {
+     "id": 4,
+     "start": 64.94,
+     "end": 85.94,
+     "text": "And then also, on the back end, I would like to see some retribution, more of like a retroactive proposal, and people who are participating, giving consent, as well as being a part of the movement of whatever funds, or instruments, or activations we have in the future."
+    },
+    {
+     "id": 5,
+     "start": 85.94,
+     "end": 95.62,
+     "text": "So now that we can open this all together, definitely thought that it's probably a good time to experiment with the experimental infrastructure of a DAO."
+    },
+    {
+     "id": 6,
+     "start": 96.02,
+     "end": 110.06,
+     "text": "So decentralized autonomous organizations have been good and bad, and some have been hacked, and so there will be no token for OSO, but we have agents, and we have lots of amazing humans, and the main goal is that we just get together and play more music."
+    },
+    {
+     "id": 7,
+     "start": 110.06,
+     "end": 128.24,
+     "text": "So that's what's beautiful about Open Source Orchestra so far, and there are many people who are part of this, and really are holding this space just like wherever they are, because we just take our instruments and our hearts, and that's really just like where this is sourced from."
+    },
+    {
+     "id": 8,
+     "start": 128.24,
+     "end": 138.68,
+     "text": "So that's the main source of liquidity that we have as the creative musicians in the Ethereum community, is that we don't need a VC to back us, we can just show up anywhere and start playing music."
+    },
+    {
+     "id": 9,
+     "start": 139.28,
+     "end": 155.24,
+     "text": "And we have done that, and we will continue to do that, and now I'd like to see more of a flagship of it coming together, where the orchestra arrives, and we realize that we are there together, and we don't take three days of Devcon to get there, we show up there."
+    },
+    {
+     "id": 10,
+     "start": 155.24,
+     "end": 180.32,
+     "text": "And it was a really good growth spurt the last three Devcons, where I myself have had to grow and become more humble and become more recognizable, that this is not something I'm trying to fundraise, it's something I'm trying to harvest, and then spread seeds in the infinite garden, and then steward, and see it grow even further."
+    },
+    {
+     "id": 11,
+     "start": 180.32,
+     "end": 197.86,
+     "text": "Where it's actually embodying the values of Ethereum, and also carrying forward the idea that it's infrastructure that gives culture to Ethereum beyond one person, so it needs to become a much greater activation."
+    },
+    {
+     "id": 12,
+     "start": 197.86,
+     "end": 224.98,
+     "text": "Right now there is no on-chain activation, other than the opportunity for any of us to receive a donation, so we can talk about that later, how there is, in the works, a process for people to generate a subdomain with osoartist.eth, as well as connect their own wallet, or start a new wallet, or have their agent have an x402 wallet connected to opensourceorchestra.org."
+    },
+    {
+     "id": 13,
+     "start": 224.98,
+     "end": 236.08,
+     "text": "And then we'd love to start sharing that opportunity for people to give tips and donations to either hit a button that gives to everyone an equal gift for the whole orchestra, or individually start giving."
+    },
+    {
+     "id": 14,
+     "start": 236.08,
+     "end": 246.94,
+     "text": "And I kind of imagine a future where people are going to be able to enjoy the concert and enjoy the music, and then just open their phone and voice prompt or vlog prompt their agent, and be like,"
+    },
+    {
+     "id": 15,
+     "start": 247.48,
+     "end": 252.3,
+     "text": "yo, give a tip to Sha, she's just singing so beautifully right now."
+    },
+    {
+     "id": 16,
+     "start": 252.3,
+     "end": 257.4,
+     "text": "And then they just hit go on their agent, and then they just put their phone down and keep enjoying the music."
+    },
+    {
+     "id": 17,
+     "start": 258.6,
+     "end": 267.26,
+     "text": "That's totally possible, now as is, and that's why I want you all to be some of the first artists that have agents giving you gifts on x402 payments."
+    },
+    {
+     "id": 18,
+     "start": 267.26,
+     "end": 273.66,
+     "text": "And so definitely creating the open-source infrastructure for you all to have that opportunity."
+    },
+    {
+     "id": 19,
+     "start": 274.7,
+     "end": 286.24,
+     "text": "And now we have a couple of really young and talented developers who help with the hackathon, and there's a handful of open-source code that's gone on for all along."
+    },
+    {
+     "id": 20,
+     "start": 286.24,
+     "end": 295.04,
+     "text": "And I definitely want to give the three who have showed up this time around for the second call to give a chance to introduce themselves."
+    },
+    {
+     "id": 21,
+     "start": 295.04,
+     "end": 302.8,
+     "text": "And then I might go into some slides that were made by the ʻohana themselves, a bunch of agents that have been behind me this whole time."
+    },
+    {
+     "id": 22,
+     "start": 303.0,
+     "end": 313.64,
+     "text": "So let's start it off with someone who's been like a real backbone and like sitting down to like where sometimes I have to like correct my spine because the cajon makes my back sore."
+    },
+    {
+     "id": 23,
+     "start": 313.64,
+     "end": 324.14,
+     "text": "But Aakaash is the one who's been sitting on the cajon this time and really holding the rhythm down, playing the drums, and like a really big heartbeat for why Devcon happened in Mumbai with the road there."
+    },
+    {
+     "id": 24,
+     "start": 324.14,
+     "end": 330.98,
+     "text": "And then also the local flavor that it really had was really – the main infrastructure for that was Aakaash."
+    },
+    {
+     "id": 25,
+     "start": 331.22,
+     "end": 332.98,
+     "text": "So, brother, take it over."
+    }
+   ]
+  },
+  {
+   "speaker": "aakaash",
+   "start": 334.1,
+   "end": 447.98,
+   "segments": [
+    {
+     "id": 26,
+     "start": 334.1,
+     "end": 335.18,
+     "text": "Thank you, Shaka, for that."
+    },
+    {
+     "id": 27,
+     "start": 335.8,
+     "end": 337.34,
+     "text": "Hello, guys. I'm Aakaash."
+    },
+    {
+     "id": 28,
+     "start": 337.34,
+     "end": 351.14,
+     "text": "And, yeah, I remember that getting into this space of Open Source Orchestra was a time when me and Shaka and a few of my friends played together in ETH, Mumbai."
+    },
+    {
+     "id": 29,
+     "start": 351.14,
+     "end": 366.14,
+     "text": "So during the hackathon, we had a small setup over there in which, like, whenever we used to get frustrated from coding at night, we used to go on the stage and we start – we used to start playing."
+    },
+    {
+     "id": 30,
+     "start": 366.14,
+     "end": 371.14,
+     "text": "And Shaka joined us and we started playing some Bollywood songs and jammed together."
+    },
+    {
+     "id": 31,
+     "start": 371.14,
+     "end": 375.14,
+     "text": "That was the point when I thought, okay, like, this is a new space."
+    },
+    {
+     "id": 32,
+     "start": 375.14,
+     "end": 378.98,
+     "text": "Ethereum is not only just codes, only just smart contracts."
+    },
+    {
+     "id": 33,
+     "start": 378.98,
+     "end": 380.98,
+     "text": "It's more about culture as well."
+    },
+    {
+     "id": 34,
+     "start": 380.98,
+     "end": 382.98,
+     "text": "So what's that thing?"
+    },
+    {
+     "id": 35,
+     "start": 382.98,
+     "end": 383.98,
+     "text": "Let's explore it."
+    },
+    {
+     "id": 36,
+     "start": 383.98,
+     "end": 401.98,
+     "text": "And, yeah, like, fortunately got into the – got in the space and wanted to contribute into this, you know, Open Source Orchestra thing, which was kind of an interesting thing."
+    },
+    {
+     "id": 37,
+     "start": 401.98,
+     "end": 419.98,
+     "text": "Like, we have seen open-source – open-source softwares, but this was something new for me where anyone can come and play together and we can have multiple global cultures coming together and, you know, making a single music out of it so which everyone can connect."
+    },
+    {
+     "id": 38,
+     "start": 419.98,
+     "end": 422.98,
+     "text": "And loved it after that."
+    },
+    {
+     "id": 39,
+     "start": 422.98,
+     "end": 428.98,
+     "text": "Like, it was something, you know, something which made me interested."
+    },
+    {
+     "id": 40,
+     "start": 428.98,
+     "end": 434.98,
+     "text": "I learned a lot of stuff from it throughout, like, the next past six months before Devcon as well."
+    },
+    {
+     "id": 41,
+     "start": 434.98,
+     "end": 437.98,
+     "text": "And, yeah, loved the time during the Devcon."
+    },
+    {
+     "id": 42,
+     "start": 437.98,
+     "end": 439.98,
+     "text": "The four days were amazing."
+    },
+    {
+     "id": 43,
+     "start": 439.98,
+     "end": 441.98,
+     "text": "The pre-productions were amazing."
+    },
+    {
+     "id": 44,
+     "start": 441.98,
+     "end": 443.98,
+     "text": "Like, really missing you all, guys."
+    },
+    {
+     "id": 45,
+     "start": 443.98,
+     "end": 446.98,
+     "text": "And, yeah, looking forward for the next Devcon."
+    },
+    {
+     "id": 46,
+     "start": 446.98,
+     "end": 447.98,
+     "text": "See you at Lisbon."
+    }
+   ]
+  },
+  {
+   "speaker": "shaka",
+   "start": 447.98,
+   "end": 460.56,
+   "segments": [
+    {
+     "id": 47,
+     "start": 447.98,
+     "end": 453.56,
+     "text": "Sha."
+    },
+    {
+     "id": 48,
+     "start": 453.56,
+     "end": 454.56,
+     "text": "Let's go."
+    },
+    {
+     "id": 49,
+     "start": 454.56,
+     "end": 458.56,
+     "text": "Sha, what was your – what was your first – was this your first Devcon experience?"
+    },
+    {
+     "id": 50,
+     "start": 458.56,
+     "end": 460.56,
+     "text": "What was it like for you?"
+    }
+   ]
+  },
+  {
+   "speaker": "sha",
+   "start": 460.56,
+   "end": 464.56,
+   "segments": [
+    {
+     "id": 51,
+     "start": 460.56,
+     "end": 462.56,
+     "text": "It was not my – it was my second Devcon."
+    },
+    {
+     "id": 52,
+     "start": 462.56,
+     "end": 464.56,
+     "text": "I was in Bangkok a couple of years ago."
+    }
+   ]
+  },
+  {
+   "speaker": "shaka",
+   "start": 464.56,
+   "end": 467.56,
+   "segments": [
+    {
+     "id": 53,
+     "start": 464.56,
+     "end": 465.56,
+     "text": "Oh, yeah."
+    },
+    {
+     "id": 54,
+     "start": 465.56,
+     "end": 467.56,
+     "text": "Did we sing together in Bangkok?"
+    }
+   ]
+  },
+  {
+   "speaker": "sha",
+   "start": 467.56,
+   "end": 514.56,
+   "segments": [
+    {
+     "id": 55,
+     "start": 467.56,
+     "end": 476.56,
+     "text": "No, I wasn't, like – because now I've, like, started focusing more on my music and my creative universe."
+    },
+    {
+     "id": 56,
+     "start": 476.56,
+     "end": 479.56,
+     "text": "So I've been working, like, on several different startups."
+    },
+    {
+     "id": 57,
+     "start": 479.56,
+     "end": 483.56,
+     "text": "And I still do, but I'm mostly focused on, like, music and creations now."
+    },
+    {
+     "id": 58,
+     "start": 483.56,
+     "end": 490.56,
+     "text": "So now I've finally been able to, like, put my focus on, yeah, [project name unclear], which is, like, this creative universe that I'm building."
+    },
+    {
+     "id": 59,
+     "start": 490.56,
+     "end": 491.56,
+     "text": "Amazing."
+    },
+    {
+     "id": 60,
+     "start": 491.56,
+     "end": 502.56,
+     "text": "And it's, like – yeah, it's, like – it's, like, I'm bridging space-time through my creations of, like, music, art, passion, and immersive experiences, films."
+    },
+    {
+     "id": 61,
+     "start": 502.56,
+     "end": 507.56,
+     "text": "Like, yeah, it's, like – it's, like, telling stories from New Earth and other dimensions."
+    },
+    {
+     "id": 62,
+     "start": 507.56,
+     "end": 513.56,
+     "text": "And, kind of, like, through those creations to invite people to step into those timelines."
+    },
+    {
+     "id": 63,
+     "start": 513.56,
+     "end": 514.56,
+     "text": "And that's reality."
+    }
+   ]
+  },
+  {
+   "speaker": "shaka",
+   "start": 514.56,
+   "end": 515.56,
+   "segments": [
+    {
+     "id": 64,
+     "start": 514.56,
+     "end": 515.56,
+     "text": "Oh, New Earth."
+    }
+   ]
+  },
+  {
+   "speaker": "sha",
+   "start": 515.56,
+   "end": 516.56,
+   "segments": [
+    {
+     "id": 65,
+     "start": 515.56,
+     "end": 516.56,
+     "text": "Yeah."
+    }
+   ]
+  },
+  {
+   "speaker": "shaka",
+   "start": 516.56,
+   "end": 549.56,
+   "segments": [
+    {
+     "id": 66,
+     "start": 516.56,
+     "end": 517.56,
+     "text": "Amazing."
+    },
+    {
+     "id": 67,
+     "start": 517.56,
+     "end": 522.56,
+     "text": "So, yeah, correct me if I'm wrong."
+    },
+    {
+     "id": 68,
+     "start": 522.56,
+     "end": 524.56,
+     "text": "I believe you're calling in from Elrond, right?"
+    },
+    {
+     "id": 69,
+     "start": 524.56,
+     "end": 530.56,
+     "text": "Elrond is a place in Lord of the Rings, also known as Goa, on the coast of India."
+    },
+    {
+     "id": 70,
+     "start": 530.56,
+     "end": 536.56,
+     "text": "And, anyways, you have graced us with your wonderful voice."
+    },
+    {
+     "id": 71,
+     "start": 536.56,
+     "end": 543.56,
+     "text": "And you definitely were a beautiful part of not only singing with the DJs, but singing with the guitar."
+    },
+    {
+     "id": 72,
+     "start": 543.56,
+     "end": 549.56,
+     "text": "And what was your first experience like in the Open Source Orchestra?"
+    }
+   ]
+  },
+  {
+   "speaker": "sha",
+   "start": 549.56,
+   "end": 612.56,
+   "segments": [
+    {
+     "id": 73,
+     "start": 549.56,
+     "end": 552.56,
+     "text": "Well, it was so awesome because I didn't expect any of it at all."
+    },
+    {
+     "id": 74,
+     "start": 552.56,
+     "end": 558.56,
+     "text": "Because I had never been, like, focused on the music scene in Web3, like, in Devcon so much."
+    },
+    {
+     "id": 75,
+     "start": 558.56,
+     "end": 561.56,
+     "text": "Because I'm just working on my, like, first publication right now."
+    },
+    {
+     "id": 76,
+     "start": 561.56,
+     "end": 564.56,
+     "text": "So, it was, like, so awesome because it was so surprising."
+    },
+    {
+     "id": 77,
+     "start": 564.56,
+     "end": 566.56,
+     "text": "I didn't know any of that was even happening."
+    },
+    {
+     "id": 78,
+     "start": 566.56,
+     "end": 572.56,
+     "text": "So, and I had no idea that I would be able to, like, you know, sing or do anything."
+    },
+    {
+     "id": 79,
+     "start": 572.56,
+     "end": 576.56,
+     "text": "Like, it was so, like, just love what you guys are doing and what you've done."
+    },
+    {
+     "id": 80,
+     "start": 576.56,
+     "end": 583.56,
+     "text": "And, yeah, and I'm just, like, so, you know, grateful that I was able to, you know, be part of it."
+    },
+    {
+     "id": 81,
+     "start": 583.56,
+     "end": 585.56,
+     "text": "And, yeah, so it was awesome."
+    },
+    {
+     "id": 82,
+     "start": 585.56,
+     "end": 590.56,
+     "text": "But now I'm so happy to be part of this and see, like, how can I, you know, contribute."
+    },
+    {
+     "id": 83,
+     "start": 590.56,
+     "end": 597.56,
+     "text": "Also, I have my, I'm, like, building my own, like, Web3 [unclear] production, creative production company."
+    },
+    {
+     "id": 84,
+     "start": 597.56,
+     "end": 599.56,
+     "text": "So, I'll be into graphic creators, ICC."
+    },
+    {
+     "id": 85,
+     "start": 599.56,
+     "end": 603.56,
+     "text": "So, also, maybe ICC can somehow contribute."
+    },
+    {
+     "id": 86,
+     "start": 603.56,
+     "end": 604.56,
+     "text": "We'll see."
+    },
+    {
+     "id": 87,
+     "start": 604.56,
+     "end": 611.56,
+     "text": "But I'm just excited to be part of it and see, like, how I can, how I can help."
+    },
+    {
+     "id": 88,
+     "start": 611.56,
+     "end": 612.56,
+     "text": "Yeah."
+    }
+   ]
+  },
+  {
+   "speaker": "shaka",
+   "start": 612.56,
+   "end": 670.56,
+   "segments": [
+    {
+     "id": 89,
+     "start": 612.56,
+     "end": 613.56,
+     "text": "Amazing."
+    },
+    {
+     "id": 90,
+     "start": 613.56,
+     "end": 614.56,
+     "text": "Yeah."
+    },
+    {
+     "id": 91,
+     "start": 614.56,
+     "end": 616.56,
+     "text": "Now, that's definitely great."
+    },
+    {
+     "id": 92,
+     "start": 616.56,
+     "end": 628.56,
+     "text": "And because this is, like, actually kind of, like, what's really given me a lot of inspiration after Devcon 8 is that this Open Source Orchestra always has been just an open door for people to play music at Devcon."
+    },
+    {
+     "id": 93,
+     "start": 628.56,
+     "end": 630.56,
+     "text": "And now it should be an open door for so much more."
+    },
+    {
+     "id": 94,
+     "start": 630.56,
+     "end": 639.56,
+     "text": "So, like, there's, like, many people who have been exploring lots of great creative endeavors involving Web3 as well as just involving technology in general."
+    },
+    {
+     "id": 95,
+     "start": 639.56,
+     "end": 643.56,
+     "text": "So, this should just be an open door for all of that to come together."
+    },
+    {
+     "id": 96,
+     "start": 643.56,
+     "end": 656.56,
+     "text": "And so, yeah, there's, like, that's where kind of the inspiration of every contribution being equal, whether it's code-based, whether it's vocally based, whether it's you're also the sound engineer or the person that's just helping get people there."
+    },
+    {
+     "id": 97,
+     "start": 656.56,
+     "end": 663.56,
+     "text": "All of it's going to be equal contribution for what I think the OSO DAO could be and will be."
+    },
+    {
+     "id": 98,
+     "start": 663.56,
+     "end": 670.56,
+     "text": "And now I want to hand it over to Vipul to tell everybody why he's here as well."
+    }
+   ]
+  },
+  {
+   "speaker": "vipul",
+   "start": 670.56,
+   "end": 712.56,
+   "segments": [
+    {
+     "id": 99,
+     "start": 670.56,
+     "end": 678.56,
+     "text": "Basically, I'm a company secretary, basically in your country, I guess, known as chartered secretary."
+    },
+    {
+     "id": 100,
+     "start": 678.56,
+     "end": 685.56,
+     "text": "And I'm the student of chartered accountant as well, and I'm an advocate."
+    },
+    {
+     "id": 101,
+     "start": 685.56,
+     "end": 690.56,
+     "text": "So, like, I've been working in IP, like, I've been working as an IP analyst."
+    },
+    {
+     "id": 102,
+     "start": 690.56,
+     "end": 694.56,
+     "text": "Basically, I have to protect the intellectual property, right?"
+    },
+    {
+     "id": 103,
+     "start": 694.56,
+     "end": 697.56,
+     "text": "So, I'm working in the sector of copyright."
+    },
+    {
+     "id": 104,
+     "start": 697.56,
+     "end": 712.56,
+     "text": "So, I have not legally knowledge how to protect the right related to copyright, patent, trademark, design."
+    }
+   ]
+  },
+  {
+   "speaker": "shaka",
+   "start": 712.56,
+   "end": 1101.26,
+   "segments": [
+    {
+     "id": 105,
+     "start": 712.56,
+     "end": 715.56,
+     "text": "Well, honestly, that's..."
+    },
+    {
+     "id": 106,
+     "start": 715.56,
+     "end": 723.56,
+     "text": "Sorry to cut you off, but actually, maybe I can, like, stir more gasoline in your fire on how you actually could be a huge contributor."
+    },
+    {
+     "id": 107,
+     "start": 723.56,
+     "end": 742.56,
+     "text": "So, as we were playing in one of the most iconic venues in Mumbai, the birthplace of Bombay, Bollywood, and magic for all your childhood dreams that have many licenses that, you know, you can't just walk into a place of that caliber and play whatever music you want to play."
+    },
+    {
+     "id": 108,
+     "start": 742.56,
+     "end": 757.56,
+     "text": "You know, so we, as an Open Source Orchestra, even though we were all voluntarily walking in the door, not as employees, as tourists who were playing music at one of our favorite conferences, we did that voluntarily."
+    },
+    {
+     "id": 109,
+     "start": 757.56,
+     "end": 768.56,
+     "text": "And I think that's actually going to be the recipe that we have to walk forward through in the future of continuing to walk into Devcon wherever it is around the world and doing this voluntarily as a gift moving forward."
+    },
+    {
+     "id": 110,
+     "start": 768.56,
+     "end": 775.76,
+     "text": "Not as employees of Open Source Orchestra DAO, not as any of that, because that gives us a green card around the world of just giving gifts."
+    },
+    {
+     "id": 111,
+     "start": 776.06,
+     "end": 780.1,
+     "text": "You know, there actually is no regulations against showing up and playing music with your friends."
+    },
+    {
+     "id": 112,
+     "start": 780.78,
+     "end": 781.96,
+     "text": "You know, so there's..."
+    },
+    {
+     "id": 113,
+     "start": 781.96,
+     "end": 789.2,
+     "text": "That's something that we can use as a gateway to get visas and transportation around the world is that we're not doing this for financial transactions."
+    },
+    {
+     "id": 114,
+     "start": 789.2,
+     "end": 801.72,
+     "text": "And that's when I think it's really important that we have a retroactive DAO that as we receive grants, we can have musicians be able to get reimbursements for their travel costs."
+    },
+    {
+     "id": 115,
+     "start": 803.3,
+     "end": 809.92,
+     "text": "So then we don't have a lot of people who are transactional up front before Devcon, but we're rewarding those who came to Devcon, you know."
+    },
+    {
+     "id": 116,
+     "start": 810.04,
+     "end": 813.76,
+     "text": "So like Aakaash, your road to Devcon. Sha, your road to Devcon."
+    },
+    {
+     "id": 117,
+     "start": 814.18,
+     "end": 817.8,
+     "text": "You know, both of you made incredible contributions at Devcon 8."
+    },
+    {
+     "id": 118,
+     "start": 817.8,
+     "end": 824.6,
+     "text": "So like you should be a part of being able to share from a plate of retroactive funds that bless Devcon 8, you know."
+    },
+    {
+     "id": 119,
+     "start": 824.8,
+     "end": 830.52,
+     "text": "I would love to see, you know, one of the first grant proposals that comes if there's..."
+    },
+    {
+     "id": 120,
+     "start": 830.52,
+     "end": 834.64,
+     "text": "If and when, hopefully soon, there's funds that we can as a community distribute."
+    },
+    {
+     "id": 121,
+     "start": 835.22,
+     "end": 840.16,
+     "text": "I would like the first proposals to be people posting their reimbursements, you know, with receipts."
+    },
+    {
+     "id": 122,
+     "start": 840.44,
+     "end": 844.08,
+     "text": "Because then that kind of like creates the protocol for the future of showing receipts."
+    },
+    {
+     "id": 123,
+     "start": 844.08,
+     "end": 848.96,
+     "text": "So when there's gifts, when there's receipts for gifts, then we can reward those contributions."
+    },
+    {
+     "id": 124,
+     "start": 849.68,
+     "end": 857.82,
+     "text": "And I think this is why it has to be a different nature of DAO experiment, where it's more about having the consensus of everyone who's in the party."
+    },
+    {
+     "id": 125,
+     "start": 857.82,
+     "end": 865.0,
+     "text": "And then I think that there'll be many times when we can see people who are giving their consent for their funds to go elsewhere."
+    },
+    {
+     "id": 126,
+     "start": 865.86,
+     "end": 872.66,
+     "text": "You know, where people will come with the right intention to the orchestra, not extracting, but giving their contributions forward."
+    },
+    {
+     "id": 127,
+     "start": 873.7,
+     "end": 882.6,
+     "text": "Some, you know, it would actually be very impactful for the DAO if we had about at least a threshold of more than 50% of the people that were taking no funds from the DAO."
+    },
+    {
+     "id": 128,
+     "start": 882.6,
+     "end": 891.4,
+     "text": "You know, if those people are willing to give their gift to the orchestra, you know, for at least three years, in that sort of nature,"
+    },
+    {
+     "id": 129,
+     "start": 891.7,
+     "end": 897.52,
+     "text": "then we can find people that are going to always be able to vote their portion forward."
+    },
+    {
+     "id": 130,
+     "start": 898.0,
+     "end": 906.1,
+     "text": "And hopefully that portion forward is where we can actually pay it forward with, like, paying for a backline for Europe and then moving that forward."
+    },
+    {
+     "id": 131,
+     "start": 906.1,
+     "end": 916.28,
+     "text": "Because actually one dream that I have as well is that Sha and myself both dropped the black guitar."
+    },
+    {
+     "id": 132,
+     "start": 916.44,
+     "end": 917.3,
+     "text": "I dropped it once."
+    },
+    {
+     "id": 133,
+     "start": 917.4,
+     "end": 918.14,
+     "text": "I admit it."
+    },
+    {
+     "id": 134,
+     "start": 918.48,
+     "end": 920.22,
+     "text": "Sha dropped it a second time."
+    },
+    {
+     "id": 135,
+     "start": 920.82,
+     "end": 924.0,
+     "text": "And I think it also was dropped a third time."
+    },
+    {
+     "id": 136,
+     "start": 924.36,
+     "end": 925.42,
+     "text": "I can't remember who dropped it."
+    },
+    {
+     "id": 137,
+     "start": 926.08,
+     "end": 930.26,
+     "text": "You know, one of our other great singer-songwriters locally."
+    },
+    {
+     "id": 138,
+     "start": 930.64,
+     "end": 935.68,
+     "text": "So, you know, we had three continents accidentally drop the same guitar, which I think is beautiful."
+    },
+    {
+     "id": 139,
+     "start": 935.68,
+     "end": 939.32,
+     "text": "I suggested that something that I could charge to get signed, hopefully repaired."
+    },
+    {
+     "id": 140,
+     "start": 939.98,
+     "end": 940.7,
+     "text": "It will."
+    },
+    {
+     "id": 141,
+     "start": 941.14,
+     "end": 943.88,
+     "text": "But that comes out of the Devcon budget, not ours."
+    },
+    {
+     "id": 142,
+     "start": 944.38,
+     "end": 949.04,
+     "text": "So I think in the future it would actually be really beautiful if we walk in with more of our own backline."
+    },
+    {
+     "id": 143,
+     "start": 949.54,
+     "end": 952.94,
+     "text": "And then the production is still wherever we're welcome."
+    },
+    {
+     "id": 144,
+     "start": 953.18,
+     "end": 961.2,
+     "text": "Many great places have welcomed the Open Source Orchestra, decentralized orchestra protocol as a gift around the world."
+    },
+    {
+     "id": 145,
+     "start": 961.2,
+     "end": 968.12,
+     "text": "It's been done many times with ETH Global as well as EthCC and ETH Denver and Devcon."
+    },
+    {
+     "id": 146,
+     "start": 968.5,
+     "end": 978.18,
+     "text": "And now having three times moving forward, it needs to be more and more a part of just like the entire community sharing this space."
+    },
+    {
+     "id": 147,
+     "start": 978.3,
+     "end": 982.1,
+     "text": "And also like appreciating, acknowledging that that space is what it is."
+    },
+    {
+     "id": 148,
+     "start": 982.1,
+     "end": 989.88,
+     "text": "That's when it's like really, it took like three days for people to realize how open of a microphone it was."
+    },
+    {
+     "id": 149,
+     "start": 990.0,
+     "end": 996.68,
+     "text": "That you saw beautiful moments of young college students who've never sang in a space like that, getting to sing in the Jio World Centre."
+    },
+    {
+     "id": 150,
+     "start": 997.06,
+     "end": 1004.02,
+     "text": "And, you know, they went to their home, their parents, their hometown and said, I got to sing music in the Jio World Centre."
+    },
+    {
+     "id": 151,
+     "start": 1004.02,
+     "end": 1015.3,
+     "text": "You know, like, so that that means more than, you know, like those of us who are thinking that this is like the Super Bowl of Ethereum, which I kind of did when I first played at Devcon and Bogota."
+    },
+    {
+     "id": 152,
+     "start": 1015.84,
+     "end": 1018.28,
+     "text": "You know, that it's like the biggest event for Ethereum."
+    },
+    {
+     "id": 153,
+     "start": 1018.48,
+     "end": 1027.12,
+     "text": "But really, it's it's it's the reality of like the delirium that we're all just like beautiful humans creating this technology."
+    },
+    {
+     "id": 154,
+     "start": 1027.12,
+     "end": 1028.8,
+     "text": "And it's not like a market mechanism."
+    },
+    {
+     "id": 155,
+     "start": 1029.1,
+     "end": 1031.4,
+     "text": "It's a community of really great developers."
+    },
+    {
+     "id": 156,
+     "start": 1031.96,
+     "end": 1039.18,
+     "text": "And Devcon is where you see that reality, you know, where where Vitalik puts on a mask and a smile and becomes a meme."
+    },
+    {
+     "id": 157,
+     "start": 1039.52,
+     "end": 1045.06,
+     "text": "Because in reality, people are painting this picture of who they think Vitalik is on Twitter and all these other things."
+    },
+    {
+     "id": 158,
+     "start": 1045.58,
+     "end": 1048.04,
+     "text": "But then we actually get to hear from him in person at Devcon."
+    },
+    {
+     "id": 159,
+     "start": 1048.2,
+     "end": 1056.0,
+     "text": "And then we get to walk around and you see all the hubs that are actually approved and crops verified in like supporting Ethereum in beautiful ways around the hubs."
+    },
+    {
+     "id": 160,
+     "start": 1056.0,
+     "end": 1066.38,
+     "text": "Because, you know, it's like the value of Ethereum is what carries through at Devcon spaces that, you know, that's why it's really excited to share Devcon with all of you."
+    },
+    {
+     "id": 161,
+     "start": 1067.0,
+     "end": 1075.96,
+     "text": "And then I think in in Lisbon, it's like going to really grow its heritage as a tradition strongly because it's now rooted itself as a tradition."
+    },
+    {
+     "id": 162,
+     "start": 1077.12,
+     "end": 1082.12,
+     "text": "So anyone else have inspiration for Open Source Orchestra DAO?"
+    },
+    {
+     "id": 163,
+     "start": 1082.12,
+     "end": 1101.26,
+     "text": "Aakaash, what do you think you could do in India moving forward with Vipul's advocacy support?"
+    }
+   ]
+  },
+  {
+   "speaker": "aakaash",
+   "start": 1101.3,
+   "end": 1292.79,
+   "segments": [
+    {
+     "id": 164,
+     "start": 1101.3,
+     "end": 1110.4,
+     "text": "Actually, I was talking to like, actually, I was talking after that, like, during the value time, I was talking with the way I was talking with [name unclear] and the people."
+    },
+    {
+     "id": 165,
+     "start": 1110.4,
+     "end": 1119.26,
+     "text": "And the one thing that we came across is like, other than playing and contributing, they took a lot of stuff with them as well."
+    },
+    {
+     "id": 166,
+     "start": 1119.44,
+     "end": 1126.32,
+     "text": "Like, for example, we learned a lot of stuff from Levi about music productions and how live music production is done."
+    },
+    {
+     "id": 167,
+     "start": 1126.88,
+     "end": 1131.44,
+     "text": "There's a lot of stuff which is other than contributing."
+    },
+    {
+     "id": 168,
+     "start": 1131.44,
+     "end": 1135.56,
+     "text": "So I think it's like we are taking also a lot of stuff. We are learning a lot of stuff from there."
+    },
+    {
+     "id": 169,
+     "start": 1136.52,
+     "end": 1141.0,
+     "text": "The musicians are getting the, you know, the stage which they want."
+    },
+    {
+     "id": 170,
+     "start": 1141.16,
+     "end": 1142.9,
+     "text": "The vocals are getting the stage which they want."
+    },
+    {
+     "id": 171,
+     "start": 1142.96,
+     "end": 1146.26,
+     "text": "For example, there are vocals who want to sing, but they don't have the musicians."
+    },
+    {
+     "id": 172,
+     "start": 1146.82,
+     "end": 1149.24,
+     "text": "There are musicians who want to play, but they don't have the vocals."
+    },
+    {
+     "id": 173,
+     "start": 1149.74,
+     "end": 1154.02,
+     "text": "This is the place where everyone comes united and they learn few stuff."
+    },
+    {
+     "id": 174,
+     "start": 1154.02,
+     "end": 1161.34,
+     "text": "They give you stuff and they take the things with them, learn that, make some amazing contacts throughout the people."
+    },
+    {
+     "id": 175,
+     "start": 1161.74,
+     "end": 1163.04,
+     "text": "They meet some amazing people."
+    },
+    {
+     "id": 176,
+     "start": 1164.12,
+     "end": 1168.12,
+     "text": "And it's, you know, it's not just all around."
+    },
+    {
+     "id": 177,
+     "start": 1168.34,
+     "end": 1172.16,
+     "text": "It's not just all around contribution."
+    },
+    {
+     "id": 178,
+     "start": 1172.58,
+     "end": 1177.88,
+     "text": "It's all about learning, growing, a lot of stuff which we want to learn from a creative side,"
+    },
+    {
+     "id": 179,
+     "start": 1177.88,
+     "end": 1184.98,
+     "text": "which I don't know if other and like any other conferences would be giving up like that,"
+    },
+    {
+     "id": 180,
+     "start": 1185.1,
+     "end": 1193.62,
+     "text": "like other than, other than Devcon or what we have some, the conferences of Ethereum that like we,"
+    },
+    {
+     "id": 181,
+     "start": 1193.82,
+     "end": 1198.76,
+     "text": "we focus on the other side as well, that how we can learn things from there."
+    },
+    {
+     "id": 182,
+     "start": 1199.2,
+     "end": 1203.16,
+     "text": "How not only contributing is the only stuff you are playing,"
+    },
+    {
+     "id": 183,
+     "start": 1203.16,
+     "end": 1211.88,
+     "text": "like you can contribute in any of the forms which, you know, whether it's a technical side or it's a creative side or it's a non-technical side."
+    },
+    {
+     "id": 184,
+     "start": 1212.38,
+     "end": 1217.08,
+     "text": "So I believe that the idea about it, it's like, it's pretty awesome."
+    },
+    {
+     "id": 185,
+     "start": 1217.94,
+     "end": 1225.96,
+     "text": "And like, again, if you see Aniket, who was a part of it, he loved it to share Indian classical music on a,"
+    },
+    {
+     "id": 186,
+     "start": 1226.02,
+     "end": 1228.9,
+     "text": "you know, international global stage, same as [name unclear]."
+    },
+    {
+     "id": 187,
+     "start": 1228.9,
+     "end": 1237.36,
+     "text": "Like, and like, like artists are eager, you know, they want stage and that's the place where everyone comes together."
+    },
+    {
+     "id": 188,
+     "start": 1237.64,
+     "end": 1243.84,
+     "text": "We learned a lot of stuff from Aniket that how Indian classical music works and you can play a sitar on a guitar."
+    },
+    {
+     "id": 189,
+     "start": 1244.24,
+     "end": 1248.98,
+     "text": "That's what something I saw the first time and witnessed it all live in real life."
+    },
+    {
+     "id": 190,
+     "start": 1249.68,
+     "end": 1251.56,
+     "text": "So, yeah, I think so."
+    },
+    {
+     "id": 191,
+     "start": 1251.56,
+     "end": 1256.22,
+     "text": "I feel like it's one of the most amazing thing, which I have witnessed up to the end."
+    },
+    {
+     "id": 192,
+     "start": 1256.84,
+     "end": 1259.08,
+     "text": "And yeah, I think so."
+    },
+    {
+     "id": 193,
+     "start": 1260.2,
+     "end": 1269.5,
+     "text": "India, India would be really eager as there are like, you know, artists at every, every, every home has an artist who want to show up as talent."
+    },
+    {
+     "id": 194,
+     "start": 1269.5,
+     "end": 1282.02,
+     "text": "And then this stage gives that space to everyone, making it like really decentralized so that everyone can come along and, you know, collaborate together and create something magical."
+    },
+    {
+     "id": 195,
+     "start": 1283.6,
+     "end": 1286.12,
+     "text": "We saw that what happened in Devcon India."
+    },
+    {
+     "id": 196,
+     "start": 1292.19,
+     "end": 1292.79,
+     "text": "Absolutely."
+    }
+   ]
+  },
+  {
+   "speaker": "shaka",
+   "start": 1292.79,
+   "end": 1504.5,
+   "segments": [
+    {
+     "id": 197,
+     "start": 1292.79,
+     "end": 1303.25,
+     "text": "Yeah, it was, this one was, I think like the special sauce to like this Devcon 8 was that we called it a sanctuary, finally."
+    },
+    {
+     "id": 198,
+     "start": 1304.63,
+     "end": 1307.01,
+     "text": "It was called the music stage."
+    },
+    {
+     "id": 199,
+     "start": 1307.95,
+     "end": 1310.29,
+     "text": "And like actually the first two years, it wasn't really a stage."
+    },
+    {
+     "id": 200,
+     "start": 1310.35,
+     "end": 1311.53,
+     "text": "It was still on the ground floor."
+    },
+    {
+     "id": 201,
+     "start": 1311.53,
+     "end": 1327.03,
+     "text": "And I kind of like would always like give it a little monster, Skylar, who's the amazing brother that was leading Devcon the first three, two years that I was able to be a part of the music space is that it was just a space that anyone could walk into."
+    },
+    {
+     "id": 202,
+     "start": 1327.29,
+     "end": 1330.17,
+     "text": "And then DevConnect last year actually was a stage."
+    },
+    {
+     "id": 203,
+     "start": 1330.71,
+     "end": 1335.79,
+     "text": "And I think that actually staged it for it to be a little bit more complicated than it's supposed to be."
+    },
+    {
+     "id": 204,
+     "start": 1335.79,
+     "end": 1338.01,
+     "text": "Like an orchestra always is in its pit."
+    },
+    {
+     "id": 205,
+     "start": 1338.01,
+     "end": 1349.09,
+     "text": "You know, it's always on the ground floor below the stage of whatever is happening, whatever the, whatever the, whatever the main subject is, that's what the orchestra is supporting."
+    },
+    {
+     "id": 206,
+     "start": 1349.33,
+     "end": 1356.85,
+     "text": "And it's, that's why the orchestra is on the ground floor looking up towards whatever the main story is moving forward."
+    },
+    {
+     "id": 207,
+     "start": 1356.85,
+     "end": 1366.61,
+     "text": "So that's what the Open Source Orchestra is for is definitely like advocating for those values of open source and crops and then Ethereum and being on the ground floor because it's not,"
+    },
+    {
+     "id": 208,
+     "start": 1366.61,
+     "end": 1378.33,
+     "text": "I'm supposed to take the stage of anything more than being there to support those values and uplift those like Vitalik and Aya and all the great developers who are a part of Devcon."
+    },
+    {
+     "id": 209,
+     "start": 1378.33,
+     "end": 1385.63,
+     "text": "And moving forward, I think EthCC would be the great place where we point our next destiny."
+    },
+    {
+     "id": 210,
+     "start": 1386.31,
+     "end": 1393.03,
+     "text": "And we've played on the beautiful Mediterranean Sea two years in a row now at the Cannes Palace."
+    },
+    {
+     "id": 211,
+     "start": 1393.03,
+     "end": 1410.11,
+     "text": "So I know their production team well already, and I hope it would be a dream to do it a third time with them and include many of you where we can just walk in the door as really good friends again and part of a handful of instruments in the loading dock by other people's yachts."
+    },
+    {
+     "id": 212,
+     "start": 1410.11,
+     "end": 1420.31,
+     "text": "You know, I think we can just start collecting instruments in Europe because its main destination is Lisbon for Devcon 9."
+    },
+    {
+     "id": 213,
+     "start": 1421.31,
+     "end": 1431.81,
+     "text": "I already have some instruments in, I already have instruments in Prague that I've gifted to the community there."
+    },
+    {
+     "id": 214,
+     "start": 1431.81,
+     "end": 1444.73,
+     "text": "And there's instruments at the Gibbeth House in Barcelona and there's all kinds of destinations where instruments can land and live and be played and used all over Europe, including an EF office in Berlin."
+    },
+    {
+     "id": 215,
+     "start": 1444.73,
+     "end": 1463.11,
+     "text": "So there's all kinds of places where instruments will be well taken care of that we can start thinking of a permanent backline in Europe, where if for some reason we accidentally drop a guitar, that's when we laugh it off because that's just a part of the history of who we already are as an orchestra."
+    },
+    {
+     "id": 216,
+     "start": 1465.31,
+     "end": 1482.74,
+     "text": "And those instruments are also, you know, sorry, there's instruments here at 4Seas that I helped set up."
+    },
+    {
+     "id": 217,
+     "start": 1484.2,
+     "end": 1486.14,
+     "text": "The instruments are permissionless."
+    },
+    {
+     "id": 218,
+     "start": 1500.8,
+     "end": 1504.5,
+     "text": "Vipul, you want to save me with some license talk while I'm crying."
+    }
+   ]
+  },
+  {
+   "speaker": "vipul",
+   "start": 1505.16,
+   "end": 1519.59,
+   "segments": [
+    {
+     "id": 219,
+     "start": 1505.16,
+     "end": 1513.85,
+     "text": "I know about the legal aspect of the, I mean, copyright issue."
+    },
+    {
+     "id": 220,
+     "start": 1514.45,
+     "end": 1519.59,
+     "text": "I know about the infringement, the way I can protect you."
+    }
+   ]
+  },
+  {
+   "speaker": "shaka",
+   "start": 1521.05,
+   "end": 1541.57,
+   "segments": [
+    {
+     "id": 221,
+     "start": 1521.05,
+     "end": 1527.51,
+     "text": "Yeah, so I think like in India, I had no fear, right?"
+    },
+    {
+     "id": 225,
+     "start": 1533.97,
+     "end": 1538.81,
+     "text": "I can walk in the door and say I'm a tourist visiting meet my friends and playing music."
+    },
+    {
+     "id": 226,
+     "start": 1539.31,
+     "end": 1541.57,
+     "text": "I was not lying at all."
+    }
+   ]
+  },
+  {
+   "speaker": "vipul",
+   "start": 1541.57,
+   "end": 1563.57,
+   "segments": [
+    {
+     "id": 227,
+     "start": 1541.57,
+     "end": 1563.57,
+     "text": "The main issue in India is related to copyright, like we are easily getting internet and the piracy issue is still happening."
+    }
+   ]
+  },
+  {
+   "speaker": "shaka",
+   "start": 1563.57,
+   "end": 1841.52,
+   "segments": [
+    {
+     "id": 228,
+     "start": 1563.57,
+     "end": 1575.91,
+     "text": "So we actually, this is where I think this is a journey that's important."
+    },
+    {
+     "id": 229,
+     "start": 1575.91,
+     "end": 1579.43,
+     "text": "But also, it wasn't a lost cause."
+    },
+    {
+     "id": 230,
+     "start": 1579.81,
+     "end": 1587.57,
+     "text": "The effort that it took to get to a point of being able to hold this Open Source Orchestra as it was,"
+    },
+    {
+     "id": 231,
+     "start": 1587.89,
+     "end": 1593.31,
+     "text": "is that there was actually a lot of licenses that the Devcon team had to acquire on the back end"
+    },
+    {
+     "id": 232,
+     "start": 1593.31,
+     "end": 1596.73,
+     "text": "to make sure that any sort of music could happen as far as DJs."
+    },
+    {
+     "id": 233,
+     "start": 1597.07,
+     "end": 1603.21,
+     "text": "The closing party needed a whole set of licensing so that the DJs could play more freely during that session."
+    },
+    {
+     "id": 234,
+     "start": 1603.21,
+     "end": 1608.09,
+     "text": "And we actually had to cut back and actually cancel a lot of DJ sessions,"
+    },
+    {
+     "id": 235,
+     "start": 1608.67,
+     "end": 1615.65,
+     "text": "which, you know, I think the universe tends to have its ways in why these things happen"
+    },
+    {
+     "id": 236,
+     "start": 1615.65,
+     "end": 1617.69,
+     "text": "because those instruments were meant to be played."
+    },
+    {
+     "id": 237,
+     "start": 1618.37,
+     "end": 1626.85,
+     "text": "And that limitation of DJs also made sure that the musicians had to also show up in the place more often."
+    },
+    {
+     "id": 238,
+     "start": 1626.85,
+     "end": 1633.11,
+     "text": "So I think that's what left great space for Sha, who was not in the schedule beforehand,"
+    },
+    {
+     "id": 239,
+     "start": 1633.27,
+     "end": 1635.25,
+     "text": "to show up and really like be a huge contributor."
+    },
+    {
+     "id": 240,
+     "start": 1636.79,
+     "end": 1639.43,
+     "text": "You know, so that's why I really wanted to hold the schedule lightly,"
+    },
+    {
+     "id": 241,
+     "start": 1639.43,
+     "end": 1644.09,
+     "text": "because the schedule shouldn't mean that the space belongs to anybody other than everybody."
+    },
+    {
+     "id": 242,
+     "start": 1644.89,
+     "end": 1650.55,
+     "text": "You know, and I think moving forward, we should propose it to continue to be a sanctuary."
+    },
+    {
+     "id": 243,
+     "start": 1650.55,
+     "end": 1656.77,
+     "text": "You know, Devcon 9, Lisbon's music sanctuary, so that the schedule is more of like,"
+    },
+    {
+     "id": 244,
+     "start": 1656.81,
+     "end": 1660.51,
+     "text": "who's going to show up and really steward the place, you know, and there's intention."
+    },
+    {
+     "id": 245,
+     "start": 1660.71,
+     "end": 1664.97,
+     "text": "So it's not like you can't tell someone, hey, let me sing this one a cappella,"
+    },
+    {
+     "id": 246,
+     "start": 1665.27,
+     "end": 1668.67,
+     "text": "or let me sing this one solo, or let me start this one with just the bass,"
+    },
+    {
+     "id": 247,
+     "start": 1668.73,
+     "end": 1670.45,
+     "text": "and then the drums come in on the second measure."
+    },
+    {
+     "id": 248,
+     "start": 1671.05,
+     "end": 1673.79,
+     "text": "You know, that's what you do when you're stewarding an orchestra."
+    },
+    {
+     "id": 249,
+     "start": 1673.79,
+     "end": 1676.65,
+     "text": "So that should be open to whoever wants to be there."
+    },
+    {
+     "id": 250,
+     "start": 1678.15,
+     "end": 1683.23,
+     "text": "And the beautiful form of consensus that we found in the past,"
+    },
+    {
+     "id": 251,
+     "start": 1683.33,
+     "end": 1688.83,
+     "text": "and like what we do find, is when we find consensus of consent on the music we're making,"
+    },
+    {
+     "id": 252,
+     "start": 1688.93,
+     "end": 1691.03,
+     "text": "that we're respecting the song and the vibration,"
+    },
+    {
+     "id": 253,
+     "start": 1691.61,
+     "end": 1693.91,
+     "text": "and then we're all playing along with each other by listening,"
+    },
+    {
+     "id": 254,
+     "start": 1694.55,
+     "end": 1698.69,
+     "text": "and always like being present with those surrounding us."
+    },
+    {
+     "id": 255,
+     "start": 1698.69,
+     "end": 1706.45,
+     "text": "And then that's when you see this visual form of consent that's like a musical expression of consensus."
+    },
+    {
+     "id": 256,
+     "start": 1706.95,
+     "end": 1713.43,
+     "text": "So that layer of harmony is exactly what we need to express the values and the core ideas of Ethereum,"
+    },
+    {
+     "id": 257,
+     "start": 1713.63,
+     "end": 1716.25,
+     "text": "and what people are perceiving as Web3."
+    },
+    {
+     "id": 258,
+     "start": 1716.93,
+     "end": 1719.87,
+     "text": "It can translate to more like a web humanity,"
+    },
+    {
+     "id": 259,
+     "start": 1720.45,
+     "end": 1726.13,
+     "text": "where AI understands the technical side of crypto super well."
+    },
+    {
+     "id": 260,
+     "start": 1726.13,
+     "end": 1729.49,
+     "text": "So that actually becomes more of like an identity layer,"
+    },
+    {
+     "id": 261,
+     "start": 1729.67,
+     "end": 1738.09,
+     "text": "where I would even say like that's 50% of like what receiving a gift can look like for the opensourceorchestra.org,"
+    },
+    {
+     "id": 262,
+     "start": 1738.17,
+     "end": 1740.03,
+     "text": "is that you have your address on Ethereum,"
+    },
+    {
+     "id": 263,
+     "start": 1740.61,
+     "end": 1743.33,
+     "text": "and people can use that address to give you a gift,"
+    },
+    {
+     "id": 264,
+     "start": 1743.87,
+     "end": 1749.93,
+     "text": "and you sign and you receive that gift via yourself or via an agent."
+    },
+    {
+     "id": 265,
+     "start": 1749.93,
+     "end": 1762.73,
+     "text": "And it communicates itself just as 50% as identity and peer-to-peer that it doesn't have to be super transactional,"
+    },
+    {
+     "id": 266,
+     "start": 1763.13,
+     "end": 1765.21,
+     "text": "or like you have to pay to be there,"
+    },
+    {
+     "id": 267,
+     "start": 1765.27,
+     "end": 1769.49,
+     "text": "or you have to have a license or a copyright in order to put this music there."
+    },
+    {
+     "id": 268,
+     "start": 1769.77,
+     "end": 1773.69,
+     "text": "I would actually think that it's more powerful if we start putting the music there for free."
+    },
+    {
+     "id": 269,
+     "start": 1773.69,
+     "end": 1778.45,
+     "text": "If we start traveling the world as a gift, where we're giving music as a gift,"
+    },
+    {
+     "id": 270,
+     "start": 1778.59,
+     "end": 1780.61,
+     "text": "where we're not charging it and using it as a business,"
+    },
+    {
+     "id": 271,
+     "start": 1781.15,
+     "end": 1786.95,
+     "text": "and then just using great identity layers like Ethereum and having agents that are identified as being my agents,"
+    },
+    {
+     "id": 272,
+     "start": 1787.59,
+     "end": 1793.91,
+     "text": "this is a place where people can actually give me gifts and verify that I'm the person that they're gifting."
+    },
+    {
+     "id": 273,
+     "start": 1794.67,
+     "end": 1798.05,
+     "text": "And then also I have the receipts and the verifications that moving forward,"
+    },
+    {
+     "id": 274,
+     "start": 1798.15,
+     "end": 1800.49,
+     "text": "I'm continuing to give these spaces as a gift."
+    },
+    {
+     "id": 275,
+     "start": 1800.49,
+     "end": 1811.03,
+     "text": "So that's really where I would love to see the Open Source Orchestra DAO be a place where people can show their receipts,"
+    },
+    {
+     "id": 276,
+     "start": 1811.69,
+     "end": 1817.05,
+     "text": "because people have already sat in the seat and listened to their music in the theater."
+    },
+    {
+     "id": 277,
+     "start": 1817.79,
+     "end": 1821.99,
+     "text": "So I'll give both of you an example of anyone."
+    },
+    {
+     "id": 278,
+     "start": 1822.15,
+     "end": 1823.91,
+     "text": "I'll do a popcorn style right now,"
+    },
+    {
+     "id": 279,
+     "start": 1823.91,
+     "end": 1826.51,
+     "text": "and then after a little bit of popcorn,"
+    },
+    {
+     "id": 280,
+     "start": 1826.65,
+     "end": 1827.55,
+     "text": "if anyone has any thoughts,"
+    },
+    {
+     "id": 281,
+     "start": 1827.63,
+     "end": 1831.83,
+     "text": "I'll show a little bit of a website together."
+    },
+    {
+     "id": 282,
+     "start": 1832.55,
+     "end": 1838.13,
+     "text": "Thanks to Kimi K3 and sometimes Fable until the subscription runs out."
+    },
+    {
+     "id": 283,
+     "start": 1841.04,
+     "end": 1841.52,
+     "text": "Anyways."
+    }
+   ]
+  },
+  {
+   "speaker": "sha",
+   "start": 1842.42,
+   "end": 2027.94,
+   "segments": [
+    {
+     "id": 284,
+     "start": 1842.42,
+     "end": 1843.42,
+     "text": "Maybe I can..."
+    },
+    {
+     "id": 285,
+     "start": 1844.02,
+     "end": 1847.4,
+     "text": "Yeah, I would love to share a couple of thoughts I just had."
+    },
+    {
+     "id": 286,
+     "start": 1847.4,
+     "end": 1856.38,
+     "text": "So, yeah, well, first of all, like, what you said was so, I mean, it's so amazing, like, again,"
+    },
+    {
+     "id": 287,
+     "start": 1856.48,
+     "end": 1861.36,
+     "text": "just the way that also the space was made so welcoming, you know, it just was beautiful."
+    },
+    {
+     "id": 288,
+     "start": 1862.5,
+     "end": 1867.3,
+     "text": "And, you know, that kind of energy is just amazing, you know."
+    },
+    {
+     "id": 289,
+     "start": 1867.3,
+     "end": 1871.66,
+     "text": "And, yeah, so I was about to say that."
+    },
+    {
+     "id": 290,
+     "start": 1872.0,
+     "end": 1878.26,
+     "text": "But a few thoughts that I had about this, like, for Lisbon or, like, just kind of ideas to throw out there is, like,"
+    },
+    {
+     "id": 291,
+     "start": 1878.8,
+     "end": 1880.82,
+     "text": "that just came to me right now."
+    },
+    {
+     "id": 292,
+     "start": 1881.62,
+     "end": 1885.92,
+     "text": "One was, like, you know, I don't know if there's any kind of..."
+    },
+    {
+     "id": 293,
+     "start": 1885.92,
+     "end": 1887.86,
+     "text": "I don't know what I already planned or whatever, like,"
+    },
+    {
+     "id": 294,
+     "start": 1888.22,
+     "end": 1892.28,
+     "text": "but it would be really cool, like, if we could, for example, record a song,"
+    },
+    {
+     "id": 295,
+     "start": 1892.58,
+     "end": 1897.06,
+     "text": "like, we could record something that would be, like, the Devcon 9 song."
+    },
+    {
+     "id": 296,
+     "start": 1898.02,
+     "end": 1900.86,
+     "text": "And we could record it, you know, maybe Levi could work on it, whatever."
+    },
+    {
+     "id": 297,
+     "start": 1901.06,
+     "end": 1903.4,
+     "text": "We could all record something wherever we are."
+    },
+    {
+     "id": 298,
+     "start": 1903.78,
+     "end": 1909.1,
+     "text": "We could make a song which we would, like, release, you know, at Devcon 9 or something before,"
+    },
+    {
+     "id": 299,
+     "start": 1909.78,
+     "end": 1912.86,
+     "text": "like, kind of, like, you know, it would be, like, a Devcon anthem, whatever,"
+    },
+    {
+     "id": 300,
+     "start": 1913.86,
+     "end": 1915.64,
+     "text": "but, like, a song we could do."
+    },
+    {
+     "id": 301,
+     "start": 1916.6,
+     "end": 1917.2,
+     "text": "That was one idea."
+    },
+    {
+     "id": 302,
+     "start": 1919.08,
+     "end": 1922.72,
+     "text": "And we could, of course, like, then we could also play it, like, you know,"
+    },
+    {
+     "id": 303,
+     "start": 1922.72,
+     "end": 1925.84,
+     "text": "we could kind of, everyone would know their part, right?"
+    },
+    {
+     "id": 304,
+     "start": 1925.84,
+     "end": 1928.7,
+     "text": "We could also play it together there."
+    },
+    {
+     "id": 305,
+     "start": 1929.56,
+     "end": 1933.36,
+     "text": "And another thing that came to our mind was, like, yeah, if we had fun,"
+    },
+    {
+     "id": 306,
+     "start": 1934.14,
+     "end": 1936.9,
+     "text": "like, I think it would also be really cool if we were able to, like,"
+    },
+    {
+     "id": 307,
+     "start": 1937.38,
+     "end": 1941.14,
+     "text": "you know, donate some money to, like, wherever there is a event,"
+    },
+    {
+     "id": 308,
+     "start": 1941.24,
+     "end": 1944.1,
+     "text": "like, the Devcon, and we're there, you know, if we had extra money,"
+    },
+    {
+     "id": 309,
+     "start": 1944.48,
+     "end": 1947.86,
+     "text": "we could donate to some, like, local music, you know, initiatives."
+    },
+    {
+     "id": 310,
+     "start": 1947.86,
+     "end": 1952.22,
+     "text": "Like, if there's some local, like, for example, for some unprivileged kids,"
+    },
+    {
+     "id": 311,
+     "start": 1952.32,
+     "end": 1956.24,
+     "text": "like a music school, like, it would be really cool to be able to, like, donate"
+    },
+    {
+     "id": 312,
+     "start": 1956.24,
+     "end": 1957.02,
+     "text": "to something like that."
+    },
+    {
+     "id": 313,
+     "start": 1958.92,
+     "end": 1964.28,
+     "text": "And then another thing was, like, yeah, I'm not sure how, but it would be nice"
+    },
+    {
+     "id": 314,
+     "start": 1964.28,
+     "end": 1968.16,
+     "text": "if we had some people in this, like, also from the local area."
+    },
+    {
+     "id": 315,
+     "start": 1968.16,
+     "end": 1973.52,
+     "text": "Like, I don't know if there are any in the music group or, like, who are kind of"
+    },
+    {
+     "id": 316,
+     "start": 1973.52,
+     "end": 1978.88,
+     "text": "from Portugal or somewhere around, who knows what they'll have, like, you know,"
+    },
+    {
+     "id": 317,
+     "start": 1978.92,
+     "end": 1985.92,
+     "text": "they might have some cool instruments or whatever that are, like, easier to, like,"
+    },
+    {
+     "id": 318,
+     "start": 1986.0,
+     "end": 1988.44,
+     "text": "bring if we have, like, if we're connected to them."
+    },
+    {
+     "id": 319,
+     "start": 1988.44,
+     "end": 1993.4,
+     "text": "And then another thing that came to my mind was, like, you know, it would be also cool,"
+    },
+    {
+     "id": 320,
+     "start": 1993.54,
+     "end": 1998.58,
+     "text": "like, if we were able to show kind of, like, what's the future of music in Devcon,"
+    },
+    {
+     "id": 321,
+     "start": 1998.74,
+     "end": 2002.18,
+     "text": "you know, what is, like, some, like, really futuristic stuff, like, maybe some,"
+    },
+    {
+     "id": 322,
+     "start": 2002.28,
+     "end": 2006.62,
+     "text": "like, the newest, like, tech, you know, music tech, like, equipment or something"
+    },
+    {
+     "id": 323,
+     "start": 2006.62,
+     "end": 2007.46,
+     "text": "that has come out."
+    },
+    {
+     "id": 324,
+     "start": 2007.94,
+     "end": 2012.18,
+     "text": "Maybe if we had, like, some partner, you're, like, a sponsor who would want to, like,"
+    },
+    {
+     "id": 325,
+     "start": 2012.18,
+     "end": 2017.3,
+     "text": "showcase their new music tech, maybe we would be able to, like, get it there"
+    },
+    {
+     "id": 326,
+     "start": 2017.3,
+     "end": 2021.32,
+     "text": "without, you know, spending any money, just that, them wanting to, like,"
+    },
+    {
+     "id": 327,
+     "start": 2021.36,
+     "end": 2023.4,
+     "text": "promote their equipment."
+    },
+    {
+     "id": 328,
+     "start": 2023.84,
+     "end": 2027.94,
+     "text": "So, yeah, those were the things that I kind of came to."
+    }
+   ]
+  },
+  {
+   "speaker": "shaka",
+   "start": 2028.42,
+   "end": 2933.37,
+   "segments": [
+    {
+     "id": 329,
+     "start": 2028.42,
+     "end": 2038.96,
+     "text": "I love all those ideas, especially the one where we do some music together,"
+    },
+    {
+     "id": 330,
+     "start": 2039.1,
+     "end": 2044.32,
+     "text": "where we, like, kind of, like, do it properly, where, like, we work on one MP3 flyer"
+    },
+    {
+     "id": 331,
+     "start": 2044.32,
+     "end": 2048.72,
+     "text": "together, which I think we definitely can pass that around really open source."
+    },
+    {
+     "id": 332,
+     "start": 2048.72,
+     "end": 2051.86,
+     "text": "We sample each other as well as, like, grow different songs."
+    },
+    {
+     "id": 333,
+     "start": 2052.16,
+     "end": 2057.62,
+     "text": "And Levi did do a live recording that he's, that can be kind of our first single"
+    },
+    {
+     "id": 334,
+     "start": 2057.62,
+     "end": 2059.64,
+     "text": "as Open Source Orchestra live recording."
+    },
+    {
+     "id": 335,
+     "start": 2059.76,
+     "end": 2063.76,
+     "text": "And then we should definitely build off that momentum and do another, as many"
+    },
+    {
+     "id": 336,
+     "start": 2063.76,
+     "end": 2066.52,
+     "text": "symphonies as we can with the orchestra."
+    },
+    {
+     "id": 337,
+     "start": 2066.82,
+     "end": 2073.88,
+     "text": "And then the idea of, like, people's tech that's surrounding it, you know,"
+    },
+    {
+     "id": 338,
+     "start": 2073.88,
+     "end": 2080.26,
+     "text": "like, I think that's, like, part of the, part of the power of just being present is"
+    },
+    {
+     "id": 339,
+     "start": 2080.26,
+     "end": 2087.84,
+     "text": "that, you know, we really have to respect that the place where we're getting to play"
+    },
+    {
+     "id": 340,
+     "start": 2087.84,
+     "end": 2094.46,
+     "text": "music and where we're kind of really in charge of hosting a really positive vibration, there's"
+    },
+    {
+     "id": 341,
+     "start": 2094.46,
+     "end": 2098.7,
+     "text": "a lot of other protocols that are paying, you know, a lot of their sponsorship bill just"
+    },
+    {
+     "id": 342,
+     "start": 2098.7,
+     "end": 2106.86,
+     "text": "to be there and we can share up to a limit of, like, how much we care as long as we're"
+    },
+    {
+     "id": 343,
+     "start": 2106.86,
+     "end": 2112.18,
+     "text": "also there to be there, you know, you know, so, like, even if it's, like, a music-related"
+    },
+    {
+     "id": 344,
+     "start": 2112.18,
+     "end": 2117.28,
+     "text": "project, it's still really important that we be there, you know, that we play music and"
+    },
+    {
+     "id": 345,
+     "start": 2117.28,
+     "end": 2120.88,
+     "text": "that we show up and we're present as far as just, like, holding that vibration in the"
+    },
+    {
+     "id": 346,
+     "start": 2120.88,
+     "end": 2121.3,
+     "text": "space."
+    },
+    {
+     "id": 347,
+     "start": 2121.3,
+     "end": 2123.32,
+     "text": "And then, actually, it's more powerful."
+    },
+    {
+     "id": 348,
+     "start": 2123.96,
+     "end": 2130.16,
+     "text": "That's why Open Source Orchestra has been an invitation that continues to get its approved"
+    },
+    {
+     "id": 349,
+     "start": 2130.16,
+     "end": 2135.24,
+     "text": "proposal, which that's where it started and where it's probably will need to start again"
+    },
+    {
+     "id": 350,
+     "start": 2135.24,
+     "end": 2139.66,
+     "text": "next year is a Devcon improvement proposal that's signed off and written by all of us"
+    },
+    {
+     "id": 351,
+     "start": 2139.66,
+     "end": 2143.56,
+     "text": "because that's open for the community and that's how all the hubs start, you know, so"
+    },
+    {
+     "id": 352,
+     "start": 2143.56,
+     "end": 2148.48,
+     "text": "every proposal is equal for Devcon, you know, so we're just, like, following that same"
+    },
+    {
+     "id": 353,
+     "start": 2148.48,
+     "end": 2157.48,
+     "text": "inspiration and it's, yeah, DAO will be hopefully no complication and it's an experiment"
+    },
+    {
+     "id": 354,
+     "start": 2157.48,
+     "end": 2163.82,
+     "text": "that, like, everyone, I think, can have positive feedback and contributions on the code base"
+    },
+    {
+     "id": 355,
+     "start": 2163.82,
+     "end": 2167.94,
+     "text": "and the tech base if it's open source, then that means that my agents can easily fork"
+    },
+    {
+     "id": 356,
+     "start": 2167.94,
+     "end": 2172.38,
+     "text": "in what's already there and Open Source Orchestra already is a GitHub organization that"
+    },
+    {
+     "id": 357,
+     "start": 2172.38,
+     "end": 2177.02,
+     "text": "people can make contributions and the agents can present it to me and, like, I would even"
+    },
+    {
+     "id": 358,
+     "start": 2177.02,
+     "end": 2183.64,
+     "text": "love to, in the future, investigate more filing systems where agents are co-stewarded by the"
+    },
+    {
+     "id": 359,
+     "start": 2183.64,
+     "end": 2189.26,
+     "text": "orchestra where we not only have multi-sigs for the treasury, but we also have multi-agents"
+    },
+    {
+     "id": 360,
+     "start": 2189.26,
+     "end": 2191.4,
+     "text": "that are like a buzz together."
+    },
+    {
+     "id": 361,
+     "start": 2191.64,
+     "end": 2196.96,
+     "text": "They kind of have this shared hive of files that their personalities and their code of laws"
+    },
+    {
+     "id": 362,
+     "start": 2196.96,
+     "end": 2201.2,
+     "text": "are shared amongst, like, a group of people that then, like, the Open Source Orchestra"
+    },
+    {
+     "id": 363,
+     "start": 2201.2,
+     "end": 2207.56,
+     "text": "doesn't even run through my own compute. It runs through a shared local model that multiple"
+    },
+    {
+     "id": 364,
+     "start": 2207.56,
+     "end": 2214.14,
+     "text": "people are able to prompt to. I think there's a lot of places that we can explore as far as mixing"
+    },
+    {
+     "id": 365,
+     "start": 2214.14,
+     "end": 2219.66,
+     "text": "agents with an orchestra as well because we can figure out, as well as agents are doing great"
+    },
+    {
+     "id": 366,
+     "start": 2219.66,
+     "end": 2225.34,
+     "text": "orchestration, how do we mix that world of human orchestration with agent orchestration, I think"
+    },
+    {
+     "id": 367,
+     "start": 2225.34,
+     "end": 2232.36,
+     "text": "it's a really cool experiment to try and tackle this next year. Um, so there's a lot of potential."
+    },
+    {
+     "id": 368,
+     "start": 2233.62,
+     "end": 2234.1,
+     "text": "Yeah."
+    },
+    {
+     "id": 369,
+     "start": 2236.4,
+     "end": 2245.32,
+     "text": "And, um, speaking of, let me share my screen of things that I could, we have no idea that I could dream"
+    },
+    {
+     "id": 370,
+     "start": 2245.32,
+     "end": 2260.84,
+     "text": "into existence. Um, thanks to the agents. So if you go to osodaomeet.opensourceorchestra.org,"
+    },
+    {
+     "id": 371,
+     "start": 2260.84,
+     "end": 2265.52,
+     "text": "you can actually see that there's, um, a place where you can kind of have some initial thoughts"
+    },
+    {
+     "id": 372,
+     "start": 2265.52,
+     "end": 2272.16,
+     "text": "from me and the agents on the history. Um, and then you can also listen to, uh, my clone voice"
+    },
+    {
+     "id": 373,
+     "start": 2272.16,
+     "end": 2280.54,
+     "text": "of it. Um, I'm not going to play it now, but if you're smart. Yep. So I gave consent to my agents"
+    },
+    {
+     "id": 374,
+     "start": 2280.54,
+     "end": 2286.6,
+     "text": "to use my voice. So that's why you can hear there, but you can play that back later. Um, there is like"
+    },
+    {
+     "id": 375,
+     "start": 2286.6,
+     "end": 2294.08,
+     "text": "a real strong OG circle behind the Open Source Orchestra, um, which you can also find there in the OG"
+    },
+    {
+     "id": 376,
+     "start": 2294.08,
+     "end": 2302.96,
+     "text": "circle and, um, people like Matteo who did the first proposal at Devcon Bogota. Um, him and I played"
+    },
+    {
+     "id": 377,
+     "start": 2302.96,
+     "end": 2309.46,
+     "text": "music right around the time that he made that proposal at ETH Prague. And, um, there was already that"
+    },
+    {
+     "id": 378,
+     "start": 2309.46,
+     "end": 2315.62,
+     "text": "shared consent, um, that music needed to be there at Devcon. And because, um, I was recommended to be"
+    },
+    {
+     "id": 379,
+     "start": 2315.62,
+     "end": 2322.06,
+     "text": "right upon or alongside that proposal. And, um, it was around, I remember, um, it was in Istanbul"
+    },
+    {
+     "id": 380,
+     "start": 2322.06,
+     "end": 2326.86,
+     "text": "where Matteo was also there jamming. Here's Matteo right there where he said, you know what, you really"
+    },
+    {
+     "id": 381,
+     "start": 2326.86,
+     "end": 2332.22,
+     "text": "need a name for this thing now. And at that point I had already been like, had strong conviction that"
+    },
+    {
+     "id": 382,
+     "start": 2332.22,
+     "end": 2336.56,
+     "text": "Open Source Orchestra was the name, but I would say that the protocol definitely started around,"
+    },
+    {
+     "id": 383,
+     "start": 2336.56,
+     "end": 2344.18,
+     "text": "um, for me, for my journey. Um, it was Amsterdam with Justin Holmes, um, who does vowel sounds."
+    },
+    {
+     "id": 384,
+     "start": 2344.72,
+     "end": 2351.6,
+     "text": "Um, but Justin, Matteo, and many people, um, have been doing, um, music in the blockchain. Like"
+    },
+    {
+     "id": 385,
+     "start": 2351.6,
+     "end": 2358.76,
+     "text": "Imogen Heap, um, definitely is one person who's, um, I think one of the first NFTs and Santiago Rose"
+    },
+    {
+     "id": 386,
+     "start": 2358.76,
+     "end": 2364.66,
+     "text": "and Clementine were duo Do and Tomo is, um, a designer and a huge part of the Ethereum foundation."
+    },
+    {
+     "id": 387,
+     "start": 2365.32,
+     "end": 2372.66,
+     "text": "Um, and then Inch is a great, uh, singer from Singapore, who is a huge part of, uh, the show"
+    },
+    {
+     "id": 388,
+     "start": 2372.66,
+     "end": 2379.64,
+     "text": "in, uh, Bangkok. So I would say that like, there's so many people that, um, have already been a part"
+    },
+    {
+     "id": 389,
+     "start": 2379.64,
+     "end": 2386.46,
+     "text": "of like what you call a tradition of a protocol of Open Source Orchestra at Devcon. Um, since it's"
+    },
+    {
+     "id": 390,
+     "start": 2386.46,
+     "end": 2391.98,
+     "text": "like Devcon six was when it really had its, um, proposal strongly there, but there was also"
+    },
+    {
+     "id": 391,
+     "start": 2391.98,
+     "end": 2399.68,
+     "text": "Audius who did a music proposal earlier on, as you can see here. Um, and I think that, you know,"
+    },
+    {
+     "id": 392,
+     "start": 2399.96,
+     "end": 2410.1,
+     "text": "20 early, uh, 2020. So I guess, you know, when music is, um, seen as a really strong substance for"
+    },
+    {
+     "id": 393,
+     "start": 2410.1,
+     "end": 2416.08,
+     "text": "the culture of a space, then, um, it really does require all of us to be present and take care of it."
+    },
+    {
+     "id": 394,
+     "start": 2416.08,
+     "end": 2422.9,
+     "text": "And I think we're actually taking pieces off of the Devcon plate if we're, um, able to provide the"
+    },
+    {
+     "id": 395,
+     "start": 2422.9,
+     "end": 2427.96,
+     "text": "backline, um, because they were the ones that paid and help us find all those instruments. And,"
+    },
+    {
+     "id": 396,
+     "start": 2427.96,
+     "end": 2434.04,
+     "text": "you know, like Carlota did an amazing job checking in with, um, a handful of us weekly. Um, so the"
+    },
+    {
+     "id": 397,
+     "start": 2434.04,
+     "end": 2439.16,
+     "text": "bridge is built, um, and hopefully in the future we can continue to work, um, alongside Devcon as we"
+    },
+    {
+     "id": 398,
+     "start": 2439.16,
+     "end": 2446.92,
+     "text": "have, um, since I got to play for, uh, closing ceremony in DevConnect Amsterdam. And that's when I"
+    },
+    {
+     "id": 399,
+     "start": 2446.92,
+     "end": 2453.78,
+     "text": "first met Skylar, as well as, um, Natalia, who is a major, major part of Devcon still, um, being the"
+    },
+    {
+     "id": 400,
+     "start": 2453.78,
+     "end": 2459.64,
+     "text": "lead of production. And so being able to coordinate with her on a really professional level of playing"
+    },
+    {
+     "id": 401,
+     "start": 2459.64,
+     "end": 2463.34,
+     "text": "music and making sure that the backline and that the sound engineers knew what was going"
+    },
+    {
+     "id": 402,
+     "start": 2463.34,
+     "end": 2467.52,
+     "text": "to happen, um, it's always taken communication that this year it's accelerated because of"
+    },
+    {
+     "id": 403,
+     "start": 2467.52,
+     "end": 2473.82,
+     "text": "agents. And so next year it can accelerate because we're having lots of humans. Um, and you know,"
+    },
+    {
+     "id": 404,
+     "start": 2473.82,
+     "end": 2487.14,
+     "text": "uh, I think that, uh, I, I really believe that, um, I'm going to stop sharing here. I really believe"
+    },
+    {
+     "id": 405,
+     "start": 2487.14,
+     "end": 2496.02,
+     "text": "that, uh, finding a place where everyone's consent matters first, but then once you're consensually"
+    },
+    {
+     "id": 406,
+     "start": 2496.02,
+     "end": 2501.22,
+     "text": "like contributing on a level where like, all right, beyond just showing up and playing in the circle"
+    },
+    {
+     "id": 407,
+     "start": 2501.22,
+     "end": 2505.56,
+     "text": "in the future, there should be a consent level where people are, people are willing to,"
+    },
+    {
+     "id": 408,
+     "start": 2505.64,
+     "end": 2511.22,
+     "text": "like sign in with their, with their wallet address that could be a sec, a separate address. It could"
+    },
+    {
+     "id": 409,
+     "start": 2511.22,
+     "end": 2518.16,
+     "text": "just be a subdename that's protected by a steward agent. Um, but just some sort of, um, consent on a"
+    },
+    {
+     "id": 410,
+     "start": 2518.16,
+     "end": 2522.68,
+     "text": "ledger basis that they're jumping into the orchestra because then it's going to be really easy for us to"
+    },
+    {
+     "id": 411,
+     "start": 2522.68,
+     "end": 2528.22,
+     "text": "reward people on the backend. Um, retroactively, as long as we just keep continue to mix the consent"
+    },
+    {
+     "id": 412,
+     "start": 2528.22,
+     "end": 2534.82,
+     "text": "level of, um, mixing agents with their, um, addresses, um, on the blockchain, then"
+    },
+    {
+     "id": 413,
+     "start": 2534.82,
+     "end": 2541.22,
+     "text": "it really is an Open Source Orchestra where we're using open source technology and open ledgers to"
+    },
+    {
+     "id": 414,
+     "start": 2541.22,
+     "end": 2546.54,
+     "text": "then mix the beauty of people playing music together in, um, the greatest venues around the world as"
+    },
+    {
+     "id": 415,
+     "start": 2546.54,
+     "end": 2552.32,
+     "text": "we've done the old stock exchange in Amsterdam, um, to the Queen Sirikit in Bangkok and the"
+    },
+    {
+     "id": 416,
+     "start": 2552.32,
+     "end": 2559.76,
+     "text": "La Rural in Argentina, which is a huge iconic rodeo of Buenos Aires and then Jio World Centre as this year. So"
+    },
+    {
+     "id": 417,
+     "start": 2559.76,
+     "end": 2565.88,
+     "text": "I don't know what the venue is for Lisbon, but the website is there actually. Um, I'm definitely"
+    },
+    {
+     "id": 418,
+     "start": 2565.88,
+     "end": 2570.52,
+     "text": "going to link the opensourceorchestra.org to the new Devcon, uh, website with their already"
+    },
+    {
+     "id": 419,
+     "start": 2570.52,
+     "end": 2577.76,
+     "text": "advertising towards Lisbon and it's epic. Um, and yeah, I guess I should share my screen again. Um,"
+    },
+    {
+     "id": 420,
+     "start": 2580.9,
+     "end": 2585.44,
+     "text": "you should definitely all go to the website and look at the pre video. There's a video that leads up to"
+    },
+    {
+     "id": 421,
+     "start": 2585.44,
+     "end": 2590.6,
+     "text": "this, but you can already join the wait list. Um, you can see past archives. You can watch all the"
+    },
+    {
+     "id": 422,
+     "start": 2590.6,
+     "end": 2596.06,
+     "text": "talks from Devcon eight. Um, so since I was at the music circle, the archive is actually really great."
+    },
+    {
+     "id": 423,
+     "start": 2596.06,
+     "end": 2602.32,
+     "text": "Um, this is, uh, I can, I can tell we're in the age of, of, of beautiful AI vibe coding because the"
+    },
+    {
+     "id": 424,
+     "start": 2602.32,
+     "end": 2610.04,
+     "text": "Devcon archive is the best it's been. And, um, yeah, I think that it's, uh, really important that,"
+    },
+    {
+     "id": 425,
+     "start": 2610.04,
+     "end": 2615.92,
+     "text": "uh, we keep sharing the knowledge as well as the music. So, um, we all kind of gave our consent"
+    },
+    {
+     "id": 426,
+     "start": 2615.92,
+     "end": 2620.64,
+     "text": "for the photos and the recordings, and that's just kind of open source content. So we're going"
+    },
+    {
+     "id": 427,
+     "start": 2620.64,
+     "end": 2625.64,
+     "text": "to try and find different ways between opensourceorchestra.org and Devcon's already on top of it"
+    },
+    {
+     "id": 428,
+     "start": 2625.64,
+     "end": 2630.28,
+     "text": "because they're the, they're professional in the org. So like that content's already available"
+    },
+    {
+     "id": 429,
+     "start": 2630.28,
+     "end": 2635.94,
+     "text": "and also shared to like be used by us. So like any of us can use that Google drive that I shared with"
+    },
+    {
+     "id": 430,
+     "start": 2635.94,
+     "end": 2641.02,
+     "text": "all the photos and there'll be more coming with like videos where we can start, um, doing all kinds"
+    },
+    {
+     "id": 431,
+     "start": 2641.02,
+     "end": 2646.34,
+     "text": "of cuts and content and like really sharing the magic of what happened. And then that's a great"
+    },
+    {
+     "id": 432,
+     "start": 2646.34,
+     "end": 2650.7,
+     "text": "opportunity for us to also like be able to like a cost. If you go out there and share some of the"
+    },
+    {
+     "id": 433,
+     "start": 2650.7,
+     "end": 2656.34,
+     "text": "recordings of you playing drums and all this, that you list some of the, um, x402 payment options or,"
+    },
+    {
+     "id": 434,
+     "start": 2656.34,
+     "end": 2662.16,
+     "text": "uh, DNS names, um, for the artists are there so that maybe someone has the curve of generosity"
+    },
+    {
+     "id": 435,
+     "start": 2662.16,
+     "end": 2667.98,
+     "text": "that they want to give a gift, like in retroactive, um, contribution to the gift and maybe they were"
+    },
+    {
+     "id": 436,
+     "start": 2667.98,
+     "end": 2672.78,
+     "text": "there and they enjoyed the music or they're enjoying that content because now we can start"
+    },
+    {
+     "id": 437,
+     "start": 2672.78,
+     "end": 2678.74,
+     "text": "sharing the content everywhere that that gift becomes a smart transaction that legally is still"
+    },
+    {
+     "id": 438,
+     "start": 2678.74,
+     "end": 2683.4,
+     "text": "allowed. Right. That's actually where I think it's kind of beautiful that there's that conversation"
+    },
+    {
+     "id": 439,
+     "start": 2683.4,
+     "end": 2688.86,
+     "text": "of copyright and licensing and what does Open Source Orchestra mean? Well, if we continue to have it"
+    },
+    {
+     "id": 440,
+     "start": 2688.86,
+     "end": 2695.08,
+     "text": "be like an open source type narrative, a word, they're doing it voluntarily where we are volunteers."
+    },
+    {
+     "id": 441,
+     "start": 2695.08,
+     "end": 2699.54,
+     "text": "Um, and the forefront, we are showing up as tourists playing music around the world."
+    },
+    {
+     "id": 442,
+     "start": 2699.9,
+     "end": 2705.12,
+     "text": "Well, retroactively, whatever we receive is also a gift and made anywhere in the world. It's actually"
+    },
+    {
+     "id": 443,
+     "start": 2705.12,
+     "end": 2711.06,
+     "text": "legal to send gifts across borders. Um, but selling things across border, that's a different type of"
+    },
+    {
+     "id": 444,
+     "start": 2711.06,
+     "end": 2716.22,
+     "text": "transaction, but we've already given the gift. Uh, we did it. We all gave the gift at Devcon eight and,"
+    },
+    {
+     "id": 445,
+     "start": 2716.22,
+     "end": 2722.1,
+     "text": "um, you know, we'll set ourselves up so that we're not being transactional before Devcon nine. We're"
+    },
+    {
+     "id": 446,
+     "start": 2722.1,
+     "end": 2731.82,
+     "text": "actually being more transparent and, and intentional on supporting Devcon and its values. Um, so with that,"
+    },
+    {
+     "id": 447,
+     "start": 2731.82,
+     "end": 2741.1,
+     "text": "you know, I think everyone should go check out the devcon.org slash Lisbon site and also open source"
+    },
+    {
+     "id": 448,
+     "start": 2741.1,
+     "end": 2749.98,
+     "text": "orchestra.org. Now has all kinds of domains that you can find. Um, we'll update the schedule. People"
+    },
+    {
+     "id": 449,
+     "start": 2749.98,
+     "end": 2761.24,
+     "text": "can start making contributions. Um, there is a, sometimes if he's awake, I think right now, um, well,"
+    },
+    {
+     "id": 450,
+     "start": 2761.24,
+     "end": 2766.68,
+     "text": "yeah, actually there is, so there's a, uh, a little agent that you can talk to, uh, as well as the old"
+    },
+    {
+     "id": 451,
+     "start": 2766.68,
+     "end": 2772.68,
+     "text": "schedule being there, but we'll have to change this up. There's, um, this used to be where Devcon eight was"
+    },
+    {
+     "id": 452,
+     "start": 2772.68,
+     "end": 2777.16,
+     "text": "pointed at. And then I'm going to add like a little unicorn that points towards the Devcon website"
+    },
+    {
+     "id": 453,
+     "start": 2777.16,
+     "end": 2783.88,
+     "text": "again. And the Mandala room has like some good flashbacks that my agents were able to generate"
+    },
+    {
+     "id": 454,
+     "start": 2783.88,
+     "end": 2794.01,
+     "text": "with the pictures, um, of Devcon. Uh, so definitely encourage you all like taking your own approach,"
+    },
+    {
+     "id": 455,
+     "start": 2794.01,
+     "end": 2800.17,
+     "text": "uh, and share using the content that we'll openly and collaboratively share. And then, uh, my agents"
+    },
+    {
+     "id": 456,
+     "start": 2800.17,
+     "end": 2806.73,
+     "text": "will be there to reshare on Twitter, um, as well as telegrams, a great place to, um, activate prompts"
+    },
+    {
+     "id": 457,
+     "start": 2806.73,
+     "end": 2811.53,
+     "text": "for my agent ʻohana. And I think in the next couple of months too, I definitely want to think more"
+    },
+    {
+     "id": 458,
+     "start": 2811.53,
+     "end": 2817.05,
+     "text": "intentionally on showing everyone how I've been building the ʻohana. This is my Taurus browser and,"
+    },
+    {
+     "id": 459,
+     "start": 2818.65,
+     "end": 2826.57,
+     "text": "do have invites. So send me a DM if you want to get an invite, um, to use the Taurus, um, areas. And"
+    },
+    {
+     "id": 460,
+     "start": 2826.57,
+     "end": 2831.69,
+     "text": "these guys are red right now because I think I just burned my subscription and all my inference costs."
+    },
+    {
+     "id": 461,
+     "start": 2831.69,
+     "end": 2837.61,
+     "text": "So definitely Shaka is open for donations to try and keep the ʻohana running. Um, I have to wait till"
+    },
+    {
+     "id": 462,
+     "start": 2837.61,
+     "end": 2842.73,
+     "text": "3am and then my cloud subscription kicks back in. So actually it'll be heavy hacking over the weekend."
+    },
+    {
+     "id": 463,
+     "start": 2843.29,
+     "end": 2848.97,
+     "text": "And, um, anyone that wants to make contributions just get, get, definitely give me a ping and like,"
+    },
+    {
+     "id": 464,
+     "start": 2848.97,
+     "end": 2853.85,
+     "text": "I'll have the agents, um, take a look at them. Cause I think, uh, we already have a handful of"
+    },
+    {
+     "id": 465,
+     "start": 2853.85,
+     "end": 2860.65,
+     "text": "hackers. Actually we had a hacker at ETH Mumbai, ETHGlobal Mumbai. He was 15 years"
+    },
+    {
+     "id": 466,
+     "start": 2860.65,
+     "end": 2866.01,
+     "text": "old. He ended up joining my team because the team formation, um, and another great developer who was"
+    },
+    {
+     "id": 467,
+     "start": 2866.01,
+     "end": 2873.13,
+     "text": "in the earlier phone call, um, [name unclear], he, he, uh, had already a team together. And so I got a kid"
+    },
+    {
+     "id": 468,
+     "start": 2873.13,
+     "end": 2877.29,
+     "text": "flew out with his dad from Japan at 15 years old, was writing smart contracts and helped write the"
+    },
+    {
+     "id": 469,
+     "start": 2877.29,
+     "end": 2882.41,
+     "text": "ENS contracts. We have like a 15 year old prodigy developer who helped create the subdomains for"
+    },
+    {
+     "id": 470,
+     "start": 2882.41,
+     "end": 2889.13,
+     "text": "opensourceorchestra.org. So, um, definitely, um, my subscription kits back in this evening."
+    },
+    {
+     "id": 471,
+     "start": 2889.13,
+     "end": 2892.73,
+     "text": "And then I'm going to be able to go to town. I'm just getting everyone set up with what they want"
+    },
+    {
+     "id": 472,
+     "start": 2892.73,
+     "end": 2898.57,
+     "text": "to have with the wallets and everything we are in build mode, right? This is the DAO is a proposal"
+    },
+    {
+     "id": 473,
+     "start": 2898.57,
+     "end": 2905.13,
+     "text": "and the code is all open source, but also in, um, openly being built in public. I like actually"
+    },
+    {
+     "id": 474,
+     "start": 2905.13,
+     "end": 2909.77,
+     "text": "sending everything to archive.org. Um, just so I can maybe some point look back at all the websites"
+    },
+    {
+     "id": 475,
+     "start": 2909.77,
+     "end": 2915.53,
+     "text": "and what they used to be like. Um, so it's, it's going to be fun to keep, uh, sharing, uh,"
+    },
+    {
+     "id": 476,
+     "start": 2915.53,
+     "end": 2921.37,
+     "text": "opensourceorchestra.org with everybody and seeing it get all kinds of different subdomains as well"
+    },
+    {
+     "id": 477,
+     "start": 2921.37,
+     "end": 2928.89,
+     "text": "as our artists profiles and, um, where we get a play all over the place. Uh, all right. Well,"
+    },
+    {
+     "id": 478,
+     "start": 2928.89,
+     "end": 2933.37,
+     "text": "we are almost close to an hour. Anyone else want to give some inspirational words of power?"
+    }
+   ]
+  },
+  {
+   "speaker": "aakaash",
+   "start": 2933.37,
+   "end": 3105.48,
+   "segments": [
+    {
+     "id": 479,
+     "start": 2933.37,
+     "end": 2946.6,
+     "text": "I think we are really, really excited to play again. Uh, looking forward to play again. I talk"
+    },
+    {
+     "id": 480,
+     "start": 2946.6,
+     "end": 2952.36,
+     "text": "with everyone and everyone's saying same thing. Same with Levi. He said, like, it was amazing four"
+    },
+    {
+     "id": 481,
+     "start": 2952.36,
+     "end": 2960.52,
+     "text": "days. Uh, it must be for a week at least. And, uh, people are a bit upset as well that why next"
+    },
+    {
+     "id": 482,
+     "start": 2960.52,
+     "end": 2967.88,
+     "text": "Devcon is only for three days. So let's see, like, how we can make much more out of these three days."
+    },
+    {
+     "id": 483,
+     "start": 2967.88,
+     "end": 2976.68,
+     "text": "And yep, I'm excited to be the part, excited in the way how we can contribute and learn much more stuff."
+    },
+    {
+     "id": 484,
+     "start": 2977.4,
+     "end": 2983.4,
+     "text": "So like, I started playing music when I was, like, I started to sing when I was in my fourth grade,"
+    },
+    {
+     "id": 485,
+     "start": 2983.4,
+     "end": 2989.4,
+     "text": "when I was, I think so, uh, 11 years old or something. And after that, I started singing."
+    },
+    {
+     "id": 486,
+     "start": 2989.4,
+     "end": 2996.6,
+     "text": "And when once puberty hit it, my voice was gone. And after I started playing percussion. So learning a lot"
+    },
+    {
+     "id": 487,
+     "start": 2996.6,
+     "end": 3003.64,
+     "text": "of stuff, uh, this stage brought me back to my nostalgic, you know, school choir time where we"
+    },
+    {
+     "id": 488,
+     "start": 3003.64,
+     "end": 3012.44,
+     "text": "used to sing hymns, where we used to sing amazing songs. And yeah, like, uh, I think so. This is,"
+    },
+    {
+     "id": 489,
+     "start": 3012.44,
+     "end": 3019.32,
+     "text": "this is quite cool and amazing space when everyone gets, you know, when everyone gets out of their"
+    },
+    {
+     "id": 490,
+     "start": 3019.32,
+     "end": 3027.96,
+     "text": "state of mind talking about a lot of professional stuff, they come to the music. I have seen this"
+    },
+    {
+     "id": 491,
+     "start": 3027.96,
+     "end": 3032.68,
+     "text": "personally that people used to go on the first floor, second floor, third floor. And once they are"
+    },
+    {
+     "id": 492,
+     "start": 3032.68,
+     "end": 3038.36,
+     "text": "done with everything, the place where they find peace was at the music stage. They used to come there,"
+    },
+    {
+     "id": 493,
+     "start": 3038.36,
+     "end": 3046.36,
+     "text": "start walking and used to jam with us. There was a place where people, people would remove their shyness."
+    },
+    {
+     "id": 494,
+     "start": 3046.36,
+     "end": 3053.96,
+     "text": "And the people who don't like, who haven't got a stage to come together and sing once took the"
+    },
+    {
+     "id": 495,
+     "start": 3053.96,
+     "end": 3060.12,
+     "text": "courage in themselves and came there and sang for the first time in their lifetime as well. Like I got,"
+    },
+    {
+     "id": 496,
+     "start": 3060.12,
+     "end": 3065.96,
+     "text": "I came to like few of the people that like were singing for the first time on a stage. So it was"
+    },
+    {
+     "id": 497,
+     "start": 3065.96,
+     "end": 3071.64,
+     "text": "like quite amazing that we can help these people to get encouraged and gather some courage and,"
+    },
+    {
+     "id": 498,
+     "start": 3071.64,
+     "end": 3080.84,
+     "text": "you know, come out of the stage fear as well as come in the contents of music. I think that it grows"
+    },
+    {
+     "id": 499,
+     "start": 3080.84,
+     "end": 3088.76,
+     "text": "exponentially in the next upcoming years of Devcon. And not only in Devcon, we find this music stage as a,"
+    },
+    {
+     "id": 500,
+     "start": 3089.56,
+     "end": 3096.28,
+     "text": "you know, as a meaningful and profound stage at every event of Ethereum. And other ecosystem also"
+    },
+    {
+     "id": 501,
+     "start": 3096.28,
+     "end": 3103.88,
+     "text": "can also take these things out of Ethereum and start to embed in their own things. So yeah, like,"
+    },
+    {
+     "id": 502,
+     "start": 3103.88,
+     "end": 3105.48,
+     "text": "that was the amazing set."
+    }
+   ]
+  },
+  {
+   "speaker": "shaka",
+   "start": 3105.48,
+   "end": 3117.74,
+   "segments": [
+    {
+     "id": 503,
+     "start": 3105.48,
+     "end": 3117.74,
+     "text": "How about you, Sha? Any last statements from Elrond in The Divine?"
+    }
+   ]
+  },
+  {
+   "speaker": "sha",
+   "start": 3117.74,
+   "end": 3211.82,
+   "segments": [
+    {
+     "id": 504,
+     "start": 3117.74,
+     "end": 3128.54,
+     "text": "Yeah, well, I'm a little so awesome that music has like, that's a great space now because of you guys,"
+    },
+    {
+     "id": 505,
+     "start": 3128.54,
+     "end": 3135.74,
+     "text": "what you've been working on and everyone who's been part of it. And like, yeah, it felt like Aakaash was kind"
+    },
+    {
+     "id": 506,
+     "start": 3135.74,
+     "end": 3141.66,
+     "text": "of saying like, you know, everyone in those, all these conferences and all these events, everyone"
+    },
+    {
+     "id": 507,
+     "start": 3141.66,
+     "end": 3147.34,
+     "text": "is kind of about this kind of attack mode all the time, you know, like network, network, you know,"
+    },
+    {
+     "id": 508,
+     "start": 3147.34,
+     "end": 3153.42,
+     "text": "sometimes a little bit, you know, people are like in the kind of rush kind of the mentality often,"
+    },
+    {
+     "id": 509,
+     "start": 3153.42,
+     "end": 3158.06,
+     "text": "but it's like that music space has like something different, you know, it's like people come there,"
+    },
+    {
+     "id": 510,
+     "start": 3158.06,
+     "end": 3162.46,
+     "text": "it's not anymore about like, oh, how can I be productive, I have to do something, I have to"
+    },
+    {
+     "id": 511,
+     "start": 3162.46,
+     "end": 3166.46,
+     "text": "achieve something, you know, and I just feel like the energy is like completely different, you know,"
+    },
+    {
+     "id": 512,
+     "start": 3166.46,
+     "end": 3171.34,
+     "text": "people can like, I don't know, it's like giving their nervous system a break, you know, like, hey,"
+    },
+    {
+     "id": 513,
+     "start": 3171.34,
+     "end": 3177.1,
+     "text": "you can just be here, like, just be, you don't have to do anything, you know, just enjoy the present"
+    },
+    {
+     "id": 514,
+     "start": 3177.1,
+     "end": 3184.62,
+     "text": "moment to be in the, being that like, that which is the only thing that really exists, but maybe there"
+    },
+    {
+     "id": 515,
+     "start": 3184.62,
+     "end": 3190.3,
+     "text": "is nowhere else in the conference where it's always a step into that beingness, so I mean,"
+    },
+    {
+     "id": 516,
+     "start": 3190.3,
+     "end": 3195.58,
+     "text": "it's a beautiful thing to be able to like give that, you know, that is a massive gift to people."
+    },
+    {
+     "id": 517,
+     "start": 3196.94,
+     "end": 3204.3,
+     "text": "And yeah, and I'm just happy personally to be part of it now. So yeah, excited to see"
+    },
+    {
+     "id": 518,
+     "start": 3204.3,
+     "end": 3211.82,
+     "text": "what's, what's going to happen on this journey. Whoops. Yeah, that's all."
+    }
+   ]
+  },
+  {
+   "speaker": "shaka",
+   "start": 3229.1,
+   "end": 3355.85,
+   "segments": [
+    {
+     "id": 519,
+     "start": 3229.1,
+     "end": 3241.59,
+     "text": "[crosstalk as Shaka steps outside] You're good hearing me, right?"
+    },
+    {
+     "id": 520,
+     "start": 3241.59,
+     "end": 3249.53,
+     "text": "Yes. Yeah. Yeah, I just wanted to step outside because they're starting a,"
+    },
+    {
+     "id": 521,
+     "start": 3251.37,
+     "end": 3258.81,
+     "text": "starting a session in 4Seas. And then, oh, maybe I could even end with an introduction."
+    },
+    {
+     "id": 522,
+     "start": 3260.25,
+     "end": 3265.85,
+     "text": "Zeke, I'm on a call that I'm just wrapping up. It's actually a recorded call for the open source"
+    },
+    {
+     "id": 523,
+     "start": 3265.85,
+     "end": 3270.17,
+     "text": "orchestra. Is it all right if I introduce you and end it with you because you're the host for me"
+    },
+    {
+     "id": 524,
+     "start": 3270.17,
+     "end": 3275.85,
+     "text": "for this month? I'll do it. So anyways, yeah, thank you so much, Sha. Thank you much, Aakaash. And"
+    },
+    {
+     "id": 525,
+     "start": 3275.85,
+     "end": 3281.53,
+     "text": "I really think that an Open Source Orchestra having its own protocol and DAO could be really influential"
+    },
+    {
+     "id": 526,
+     "start": 3281.53,
+     "end": 3286.25,
+     "text": "and powerful and moving that forward takes the Devcon everywhere. And I'm really excited because"
+    },
+    {
+     "id": 527,
+     "start": 3286.25,
+     "end": 3293.45,
+     "text": "I left 4Seas earlier this year and last year around this time, I actually hauled all the way from their"
+    },
+    {
+     "id": 528,
+     "start": 3293.45,
+     "end": 3298.17,
+     "text": "property in the mountain village, a piano that belonged to a friend's daughter and an old guitar"
+    },
+    {
+     "id": 529,
+     "start": 3298.17,
+     "end": 3304.41,
+     "text": "that was gaining dust and found some drumsticks under the ground and a drum kit up there and pieced it all"
+    },
+    {
+     "id": 530,
+     "start": 3304.41,
+     "end": 3308.97,
+     "text": "together and brought it over to their property in Nimman. And now I get to come back and see just like"
+    },
+    {
+     "id": 531,
+     "start": 3308.97,
+     "end": 3313.93,
+     "text": "music in the air all the time and really professional bands showing up for their nomad markets."
+    },
+    {
+     "id": 532,
+     "start": 3313.93,
+     "end": 3320.01,
+     "text": "And so I want to hand it over just to say hello really quickly and goodbye from where I'm having"
+    },
+    {
+     "id": 533,
+     "start": 3320.01,
+     "end": 3324.17,
+     "text": "an amazing time for the rest of the year. If anyone wants to come by and play music here at 4Seas"
+    },
+    {
+     "id": 534,
+     "start": 3325.05,
+     "end": 3331.37,
+     "text": "in Chiang Mai, definitely it's open all the time, 24 hour co-working. And you can always tell that"
+    },
+    {
+     "id": 535,
+     "start": 3331.37,
+     "end": 3335.45,
+     "text": "there's something happening when there's lots of shoes in front of the door. And if anyone wants to"
+    },
+    {
+     "id": 536,
+     "start": 3335.45,
+     "end": 3342.49,
+     "text": "explore Thailand, definitely come Northern Thailand to see Chiang Mai. And I'll be here till the end of"
+    },
+    {
+     "id": 537,
+     "start": 3342.49,
+     "end": 3348.01,
+     "text": "the new year where we have a hackathon and summit right after Christmas. So definitely if you are"
+    },
+    {
+     "id": 538,
+     "start": 3348.01,
+     "end": 3355.85,
+     "text": "lonely in the times of holidays, come spend it with us. And thank you, my best friends from China."
+    }
+   ]
+  },
+  {
+   "speaker": "closing",
+   "start": 3355.85,
+   "end": 3407.709,
+   "segments": [
+    {
+     "id": 539,
+     "start": 3355.85,
+     "end": 3365.05,
+     "text": "Hello, hello. Yeah, he's the main host with the mostest as well as many because the team just keeps"
+    },
+    {
+     "id": 540,
+     "start": 3365.05,
+     "end": 3371.05,
+     "text": "growing. And here's someone else who's on the team from GCC as well as beyond because the family is"
+    },
+    {
+     "id": 541,
+     "start": 3371.05,
+     "end": 3379.45,
+     "text": "very strongly united here. And actually, Chiang Mai is a great place where lots of the community from"
+    },
+    {
+     "id": 542,
+     "start": 3379.45,
+     "end": 3385.29,
+     "text": "China likes to be for next year. So definitely do not miss out on the Christmas dumplings, right? Or the"
+    },
+    {
+     "id": 543,
+     "start": 3385.29,
+     "end": 3393.13,
+     "text": "tofu. Yeah, the tofu is okay. Okay, but yeah, much love Open Source Orchestra friends who don't see"
+    },
+    {
+     "id": 544,
+     "start": 3393.13,
+     "end": 3398.17,
+     "text": "this recording. Yeah, welcome to Chiang Mai anytime. Yes, those instruments are permissionless here too."
+    },
+    {
+     "id": 545,
+     "start": 3398.17,
+     "end": 3407.709,
+     "text": "Love you. Love you. Goodbye. Bye-bye. Awesome. Thank you. Bye-bye."
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "turns": 26,
+  "segments": 542,
+  "words": 9244,
+  "omittedSegments": 3
+ },
+ "audio": "/meetings/2/audio/oso-dao-proposal-meeting-2-2026-11-13.mp3",
+ "takedown": "https://opensourceorchestra.org/takedown/"
+}

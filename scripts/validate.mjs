@@ -154,6 +154,29 @@ check(read('narration/transcript.txt').includes(narration.disclosure), 'Plain tr
 check(read('narration/narration.vtt').startsWith('WEBVTT\n\n') && (read('narration/narration.vtt').match(/-->/g) || []).length === 12, 'Full-deck VTT must contain all twelve measured cues.');
 check((read('narration/narration.srt').match(/-->/g) || []).length === 12, 'Full-deck SRT must contain all twelve measured cues.');
 
+// Meeting #2 (13 Nov 2026): published with consent confirmed by Shaka on 14 Nov 2026. Still consent-first, still a proposal.
+const meeting2 = json('meetings/2/status.json');
+const transcript2 = json('meetings/2/transcript/transcript.json');
+check(meeting2.meeting === 2 && meeting2.recording.status === 'published_with_consent', 'Meeting 2 must be published with consent.');
+check(meeting2.recordingConsent.status === 'confirmed' && meeting2.recordingConsent.reportedAt === '2026-11-14T04:20:00Z', 'Meeting 2 consent must record its exact confirmation.');
+check(meeting2.recording.rawVideo.hostedOnThisSite === false && meeting2.privateMeetLinks === null, 'Meeting 2 raw video and private Meet links must stay private.');
+check(existsSync(resolve(root, meeting2.recording.publicAudio.slice(1))) && statSync(resolve(root, meeting2.recording.publicAudio.slice(1))).size === meeting2.recording.publicAudioBytes, 'Meeting 2 consented MP3 must exist with accurate measured bytes.');
+check(transcript2.meeting === 2 && transcript2.turns.length >= 20 && transcript2.stats.words > 5000, 'Meeting 2 transcript must be complete.');
+check(transcript2.turns.every((turn) => transcript2.speakers[turn.speaker]), 'Meeting 2 transcript speakers must be declared.');
+check(transcript2.turns.every((turn) => turn.segments.every((seg) => !/meet\.google|zoom\.us|drive\.google|@gmail|\+?\d[\d\s().-]{8,}\d|NavPoint|\bKEW\b/i.test(seg.text))), 'Meeting 2 transcript must not contain private links, contacts or shielded names.');
+for (const relative of ['meetings/2/index.html', 'meetings/2/notes/index.html', 'meetings/2/transcript/index.html', 'meetings/2/audio/index.html']) {
+  const page = read(relative);
+  check(/<link rel="canonical" href="https:\/\/osodaomeet\.opensourceorchestra\.org\/meetings\/2\//.test(page), `${relative}: canonical production URL required.`);
+  check(/published with consent/i.test(plain(page)) && /proposal/i.test(plain(page)), `${relative}: must state consent and proposal status.`);
+  check(!/meet\.google|drive\.google|@gmail|18OXbtj|\/workspace\//i.test(page), `${relative}: no private link, Drive ID, email or internal path may ship.`);
+  check(!/<audio\b[^>]*autoplay/i.test(page), `${relative}: audio must never autoplay.`);
+  check(!/<(?:script|img|link)\b[^>]*(?:src|href)="https?:/i.test(page.replace(/<link rel="canonical"[^>]*>/, '')), `${relative}: no external runtime resource.`);
+  check(/opensourceorchestra\.org\/takedown\//.test(page), `${relative}: takedown path required.`);
+}
+check(read('meetings/2/transcript/transcript.vtt').startsWith('WEBVTT\n') && read('meetings/2/transcript/transcript.txt').includes('Proposal Meeting #2'), 'Meeting 2 plain and WebVTT transcripts required.');
+check(/href="\.\/2\/"/.test(read('meetings/index.html')) && /href="\.\/meetings\/2\/"/.test(html), 'Meetings index and hall must link Meeting #2.');
+check(json('archive/status.json').meetings['2'].status === 'published_with_consent' && json('archive/status.json').meetings['1'].status === 'consent_confirmed_media_not_attached', 'Archive must distinguish Meeting 1 and Meeting 2 statuses.');
+
 const ownRuntime = [html, app, hall, painter, narrationJS, css, read('data/deck.json'), read('data/media.json'), read('data/narration.json')].join('\n');
 check(!/meet\.google|zoom\.us|mailto:|drive\.google|@gmail\.com/i.test(ownRuntime), 'No private meeting, email, or Drive link may ship.');
 check(!/(?:fetch|import)\s*\(\s*['"`]https?:/i.test(app + hall + narrationJS), 'Runtime JavaScript must not fetch or import an external service.');
@@ -167,5 +190,5 @@ if (failures.length) {
 } else {
   console.log(`PASS ${checks}/${checks} structural, editorial, fallback, privacy, and local-asset checks.`);
   console.log('PASS 12 synchronized slide articles; 24 Garden Circle history photos + 4 Mumbai frames; 9 portraits; 14 OG node images; Three.js r169 + local VRButton.');
-  console.log('PASS no build step, runtime CDN, embedded recording, private meeting link, email link, or onchain/adoption claim.');
+  console.log('PASS no build step, runtime CDN, private meeting link, email link, or onchain/adoption claim; Meeting #2 audio + transcript published only with confirmed consent.');
 }
