@@ -49,7 +49,8 @@
       "encoding": "720p H.264 CRF 23 + AAC 96k, faststart",
       "bytes": 438969537,
       "sha256": "6901aad415e68014f7a9ce234a92d9525a7a5c75cb982b1bd94162a2c4ff4942",
-      "host": "Cloudflare R2 · theater.opensourceorchestra.org"
+      "host": "Cloudflare R2 · theater.opensourceorchestra.org",
+      "mirror": "https://archive.org/details/oso-dao-proposal-meeting-1-2026-11-12"
     },
     "publicAudio": "/meetings/1/audio/oso-dao-proposal-meeting-1-2026-11-12.mp3",
     "publicAudioBytes": 25853012,

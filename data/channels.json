@@ -151,7 +151,13 @@
           "bytes": 438969537,
           "sha256": "6901aad415e68014f7a9ce234a92d9525a7a5c75cb982b1bd94162a2c4ff4942",
           "host": "Cloudflare R2 · theater.opensourceorchestra.org",
-          "note": "720p H.264 web re-encode of the consented 1280×720 recording; byte-range streaming with CORS"
+          "note": "720p H.264 web re-encode of the consented 1280×720 recording; byte-range streaming with CORS",
+          "mirror": {
+            "item": "https://archive.org/details/oso-dao-proposal-meeting-1-2026-11-12",
+            "url": "https://archive.org/download/oso-dao-proposal-meeting-1-2026-11-12/oso-dao-proposal-meeting-1-2026-11-12-720p.mp4",
+            "licence": "CC BY 4.0 with performer carve-out (each speaker’s words and performance remain their own)",
+            "host": "Internet Archive · permanent public-good mirror, same SHA-256"
+          }
         },
         "audio": {
           "url": "/meetings/1/audio/oso-dao-proposal-meeting-1-2026-11-12.mp3",
@@ -244,6 +250,10 @@
         {
           "label": "Audio",
           "url": "/meetings/1/audio/"
+        },
+        {
+          "label": "archive.org mirror",
+          "url": "https://archive.org/details/oso-dao-proposal-meeting-1-2026-11-12"
         }
       ],
       "ledgerEntry": "/meetings/#meeting-1"
@@ -280,7 +290,13 @@
           "bytes": 662724224,
           "sha256": "7c6878e1f71201f98631e229228c19837d7e33a75cf91b3c1627054e37c59f3c",
           "host": "Cloudflare R2 · theater.opensourceorchestra.org",
-          "note": "720p H.264 web re-encode of the consented 1280×720 recording; byte-range streaming with CORS"
+          "note": "720p H.264 web re-encode of the consented 1280×720 recording; byte-range streaming with CORS",
+          "mirror": {
+            "item": "https://archive.org/details/oso-dao-proposal-meeting-2-2026-11-13",
+            "url": "https://archive.org/download/oso-dao-proposal-meeting-2-2026-11-13/oso-dao-proposal-meeting-2-2026-11-13-720p.mp4",
+            "licence": "CC BY 4.0 with performer carve-out (each speaker’s words and performance remain their own)",
+            "host": "Internet Archive · permanent public-good mirror, same SHA-256"
+          }
         },
         "audio": {
           "url": "/meetings/2/audio/oso-dao-proposal-meeting-2-2026-11-13.mp3",
@@ -369,6 +385,10 @@
         {
           "label": "Audio",
           "url": "/meetings/2/audio/"
+        },
+        {
+          "label": "archive.org mirror",
+          "url": "https://archive.org/details/oso-dao-proposal-meeting-2-2026-11-13"
         }
       ],
       "ledgerEntry": "/meetings/#meeting-2"

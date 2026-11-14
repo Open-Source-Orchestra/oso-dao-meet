@@ -63,7 +63,8 @@
       "encoding": "720p H.264 CRF 23 + AAC 96k, faststart",
       "bytes": 662724224,
       "sha256": "7c6878e1f71201f98631e229228c19837d7e33a75cf91b3c1627054e37c59f3c",
-      "host": "Cloudflare R2 · theater.opensourceorchestra.org"
+      "host": "Cloudflare R2 · theater.opensourceorchestra.org",
+      "mirror": "https://archive.org/details/oso-dao-proposal-meeting-2-2026-11-13"
     },
     "theaterChannel": 3
   },

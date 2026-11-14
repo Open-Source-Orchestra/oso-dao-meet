@@ -22,7 +22,8 @@
       "video": "https://theater.opensourceorchestra.org/oso-dao-proposal-meeting-1-2026-11-12-720p.mp4",
       "audio": "/meetings/1/audio/oso-dao-proposal-meeting-1-2026-11-12.mp3",
       "captions": "/meetings/1/transcript/transcript.vtt",
-      "transcript": "/meetings/1/transcript/"
+      "transcript": "/meetings/1/transcript/",
+      "mirror": "https://archive.org/details/oso-dao-proposal-meeting-1-2026-11-12"
     },
     {
       "channel": 3,
@@ -32,7 +33,8 @@
       "video": "https://theater.opensourceorchestra.org/oso-dao-proposal-meeting-2-2026-11-13-720p.mp4",
       "audio": "/meetings/2/audio/oso-dao-proposal-meeting-2-2026-11-13.mp3",
       "captions": "/meetings/2/transcript/transcript.vtt",
-      "transcript": "/meetings/2/transcript/"
+      "transcript": "/meetings/2/transcript/",
+      "mirror": "https://archive.org/details/oso-dao-proposal-meeting-2-2026-11-13"
     }
   ],
   "publicMeetLinks": null,
@@ -81,7 +83,8 @@
         "scope": "full consent for the Meeting #1 recording to be broadcast and shared everywhere"
       },
       "rawVideo": "kept private; a 720p re-encode is hosted at theater.opensourceorchestra.org",
-      "published": "2026-11-14"
+      "published": "2026-11-14",
+      "mirror": "https://archive.org/details/oso-dao-proposal-meeting-1-2026-11-12"
     },
     "2": {
       "status": "published_with_consent",
@@ -100,7 +103,8 @@
       "rawVideo": "kept private; a 720p re-encode is hosted at theater.opensourceorchestra.org",
       "published": "2026-11-14",
       "video": "https://theater.opensourceorchestra.org/oso-dao-proposal-meeting-2-2026-11-13-720p.mp4",
-      "channel": 3
+      "channel": 3,
+      "mirror": "https://archive.org/details/oso-dao-proposal-meeting-2-2026-11-13"
     },
     "weekly-call-2": {
       "status": "published_with_consent",
