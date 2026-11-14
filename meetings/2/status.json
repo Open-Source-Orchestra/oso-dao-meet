@@ -13,7 +13,11 @@
   "decisions": "no final governance, treasury, membership, token or Safe decision claimed; retroactive reimbursement, backline, tipping and sanctuary ideas remain proposals",
   "participants": {
     "host": "Shaka",
-    "guests": ["Aakaash", "Sha", "Vipul"],
+    "guests": [
+      "Aakaash",
+      "Sha",
+      "Vipul"
+    ],
     "naming": "first names only, as stated by Shaka and in the recording; no surnames, contacts or identity claims beyond what was said",
     "rolesStated": {
       "Aakaash": "cajon/drums and a backbone of the Road to Devcon 8 in Mumbai",
@@ -44,13 +48,28 @@
     "publicAudioBytes": 27261952,
     "publicAudioSha256": "876ccf701890b77e8a74bb120156cf20be2d10f667bb21ffc6daf738324adc14",
     "publicTranscript": "/meetings/2/transcript/",
-    "transcriptFormats": ["/meetings/2/transcript/transcript.txt", "/meetings/2/transcript/transcript.vtt", "/meetings/2/transcript/transcript.json"],
+    "transcriptFormats": [
+      "/meetings/2/transcript/transcript.txt",
+      "/meetings/2/transcript/transcript.vtt",
+      "/meetings/2/transcript/transcript.json"
+    ],
     "transcription": "local faster-whisper large-v3-turbo on CPU; media never uploaded to a transcription service; editorial speaker labels from what is said, not voice identification",
     "googleTranscript": "none existed for this meeting; only the recording appeared in Meet history",
     "redactions": "private meeting links, contact details and personal circumstances removed where present; spelling of names and project terms normalized",
     "publicNotes": "/meetings/2/notes/"
   },
-  "notesDistribution": null,
+  "notesDistribution": {
+    "postedAt": "2026-11-14T05:08Z",
+    "groups": [
+      "Open Source Orchestra main",
+      "Devcon Music Sanctuary",
+      "Music Sanctuary Stewards",
+      "Fork the First Artist builders"
+    ],
+    "alsoSentTo": "Shaka directly",
+    "scope": "recap, notes, transcript and audio links with a short summary; posted once each",
+    "socialPosts": "none (no X/Twitter or email blast in this publication)"
+  },
   "attendeeList": "the four participants named above by first name; no other attendee data",
   "privateMeetLinks": null,
   "next": "merge both time-zone circles; third meetup open-invite for all, details TBA",
