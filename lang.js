@@ -1,4 +1,4 @@
-/*! ʻŌLELO · the ʻohana language bridge · v1.2 · CC0 · built by the ʻohana (machines, not people)
+/*! ʻŌLELO · the ʻohana language bridge · v1.3 · CC0 · built by the ʻohana (machines, not people)
  *
  *  One line on any door:
  *    <script src="https://lang.opensourceorchestra.org/lang.js" async></script>
@@ -17,7 +17,7 @@
   if (window.__olelo) return;
   window.__olelo = 1;
 
-  var VERSION = '1.2.3';
+  var VERSION = '1.3.0';
   var KEY = 'olelo';          // localStorage key (per door)
   var PARAM = 'olelo';        // URL parameter that carries the choice between doors
   var HOME = 'https://lang.opensourceorchestra.org/';
@@ -283,8 +283,38 @@
       '#olelo-gt .goog-logo-link,#olelo-gt .goog-te-gadget span{display:none!important}';
     (doc.head || html).appendChild(st);
   }
+  // Names are never translated (law, 31 Oct + MING 15 Nov): "Open Source Orchestra" and "ʻohana" stay as written.
+  // Wrapped in translate="no" spans only when a machine translation is about to run; default visits are untouched.
+  var PROTECT = /(^|[^A-Za-z0-9_])(Open Source Orchestra|[ʻ'‘’`]?[Oo]hana)(?![A-Za-z0-9_])/g;
+  var XHTML = 'http://www.w3.org/1999/xhtml';
+  function protectNames(root) {
+    if (!root || !doc.createTreeWalker) return;
+    try {
+      var w = doc.createTreeWalker(root, 4 /* SHOW_TEXT */, null), list = [], n;
+      while ((n = w.nextNode())) {
+        var par = n.parentNode, v = n.nodeValue;
+        if (!par || !v || v.length < 4 || par.namespaceURI !== XHTML) continue;
+        if (/^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA|CODE|PRE|TITLE|OPTION)$/.test(par.nodeName)) continue;
+        if (par.closest && par.closest('.notranslate,[translate="no"],#olelo')) continue;
+        PROTECT.lastIndex = 0;
+        if (PROTECT.test(v)) list.push(n);
+      }
+      for (var i = 0; i < list.length; i++) {
+        var t = list[i], s = t.nodeValue, frag = doc.createDocumentFragment(), last = 0, m;
+        PROTECT.lastIndex = 0;
+        while ((m = PROTECT.exec(s))) {
+          var at = m.index + m[1].length;
+          if (at > last) frag.appendChild(doc.createTextNode(s.slice(last, at)));
+          var sp = doc.createElement('span'); sp.className = 'notranslate olelo-name'; sp.setAttribute('translate', 'no'); sp.textContent = m[2];
+          frag.appendChild(sp); last = at + m[2].length;
+        }
+        if (last < s.length) frag.appendChild(doc.createTextNode(s.slice(last)));
+        if (t.parentNode) t.parentNode.replaceChild(frag, t);
+      }
+    } catch (e) {}
+  }
   function gtApply(c) {
-    gtCSS(); setGTCookie(c);
+    gtCSS(); setGTCookie(c); protectNames(doc.body); protecting = true;
     if (translated() && html.getAttribute('lang') === c) return;        // already showing it (the cookie did it)
     gtReady(function (ok) {
       if (!ok) { if (gt.foreign && chosen === c) foreignReload(c); else hint(); return; }
@@ -316,6 +346,7 @@
     }
     setTimeout(function () { if (translated() && chosen === want) location.reload(); }, done ? 900 : 50);
   }
+  var protecting = false;
   var hinted = false;
   function hint() {
     if (hinted || !chosen || same(chosen, BASE)) return; hinted = true;
@@ -649,12 +680,12 @@
           if (m.type === 'attributes') { if (m.target.tagName === 'A') q.push(m.target); else if (m.target.tagName === 'IFRAME') q.push(m.target); continue; }
           for (var j = 0; j < m.addedNodes.length; j++) {
             var n = m.addedNodes[j];
-            if (n.nodeType === 1 && (n.tagName === 'A' || n.tagName === 'IFRAME' || (n.firstElementChild && n.tagName !== 'FONT'))) q.push(n);
+            if (n.nodeType === 1 && n.tagName !== 'FONT' && (n.tagName === 'A' || n.tagName === 'IFRAME' || n.firstElementChild || protecting)) q.push(n);
           }
         }
         if (q.length && !tm) tm = setTimeout(function () {
           var list = q; q = []; tm = null;
-          for (var k = 0; k < list.length; k++) { decorateIn(list[k]); scanFrames(list[k]); if (list[k].tagName === 'IFRAME') tell(list[k]); }
+          for (var k = 0; k < list.length; k++) { decorateIn(list[k]); scanFrames(list[k]); if (list[k].tagName === 'IFRAME') tell(list[k]); if (protecting) protectNames(list[k]); }
         }, 120);
       }).observe(doc.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['href', 'src'] });
     }
