@@ -265,6 +265,26 @@ check(!/(?:fetch|import)\s*\(\s*['"`]https?:/i.test(app + hall + narrationJS + t
 check(!/@import\s+(?:url\()?\s*['"`]?https?:/i.test(css), 'CSS must not load external resources.');
 check(!/\b(?:approved|adopted|deployed)\s+(?:DAO|dao)\b/.test(deck.slides.map((slide) => slide.status).join(' ')), 'Slide statuses must not assert DAO approval, adoption, or deployment.');
 
+
+// ʻŌlelo language bridge (Shaka, 15 Nov 2026: one language choice carries across every door; a 🌐 on every page).
+// First-party /lang.js on every scripted page — production serves it from the ohana-olelo Worker route on this host
+// (5-minute cache); the vendored copy keeps local runs identical. Google Translate loads only after a visitor chose.
+const langJS = read('lang.js');
+check(/ʻŌLELO · the ʻohana language bridge/.test(langJS) && /var VERSION = '\d+\.\d+\.\d+'/.test(langJS), 'lang.js (the ʻŌlelo language bridge) must be vendored at the repository root.');
+check(/function gtLoad\(\)/.test(langJS) && !/^\s*(?:var|let|const)\s+\w+\s*=\s*document\.createElement\('script'\)/m.test(langJS.split('function gtLoad()')[0]), 'lang.js may create the Google Translate script only inside gtLoad() — never on a default visit.');
+(function walk(dir) {
+  for (const name of readdirSync(dir)) {
+    if (name.startsWith('.') || name === 'node_modules' || name === 'vendor') continue;
+    const full = resolve(dir, name);
+    if (statSync(full).isDirectory()) { walk(full); continue; }
+    if (!name.endsWith('.html')) continue;
+    const rel = full.slice(root.length + 1);
+    const page = readFileSync(full, 'utf8');
+    if (/http-equiv=["']?Content-Security-Policy/i.test(page)) continue; // script-free by design (dreams)
+    check((page.match(/<script src="\/lang\.js" async><\/script>/g) || []).length === 1, `${rel}: must carry the ʻŌlelo language bridge exactly once (<script src="/lang.js" async>).`);
+  }
+})(root);
+
 if (failures.length) {
   console.error(`FAIL ${failures.length} of ${checks} validation checks:`);
   failures.forEach((failure) => console.error(`  - ${failure}`));

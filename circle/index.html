@@ -116,4 +116,5 @@
 <footer><p>Open Source Orchestra DAO Meet · The OG Circle · prepared by Shaka's AI ʻohana, machines labelled as machines, from existing public sources and Shaka's explicitly attributed firsthand account.</p><p><a href="../data/nodes.json">Public card feed</a> · <a href="../OG-SOURCES.md">Full OG provenance</a> · <a href="https://opensourceorchestra.org/nodes/">Original node index</a> · <a href="https://opensourceorchestra.org/takedown/">Takedown</a> · no trackers, no embeds, no autoplay, no wallet.</p></footer>
 </div><script>
 const input=document.getElementById('node-search');const cards=[...document.querySelectorAll('.node-card')];const count=document.getElementById('node-count');input.addEventListener('input',()=>{const q=input.value.trim().toLowerCase();let visible=0;cards.forEach(card=>{const show=!q||card.dataset.search.includes(q);card.hidden=!show;if(show)visible++});count.textContent=visible+' / '+cards.length+' nodes'});
-</script></body></html>
+</script><script src="/lang.js" async></script>
+</body></html>

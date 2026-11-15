@@ -1,5 +1,17 @@
 # Testing — the Theater edition
 
+## 15 November 2026 · ʻŌlelo — one language choice for every door (current)
+
+Shaka (15 Nov, 05:27 UTC): choosing 中文 on shakaleikaumaka.com must carry over to every door we run, and the language button must be visible everywhere. The theater opened inside Shaka's open-road overlay stayed English because a Google Translate choice was a per-domain cookie that never crossed doors. Every theater page (except the script-free `/dreams/`) now carries `<script src="/lang.js" async></script>`: first-party on this host, served in production by the `ohana-olelo` Worker route `osodaomeet.opensourceorchestra.org/lang.js` (5-minute cache; the vendored root `lang.js` keeps local runs identical). It draws the 🌐 top-left, reads `?olelo=<code>` from the door that sent the visitor (or asks its parent frame), remembers it, carries it on links to every ʻohana door, and translates — Google Translate is loaded only after a visitor has chosen a language.
+
+| Suite / evidence | Result |
+|---|---|
+| Structural + new ʻŌlelo gates (vendored bridge; Google only inside `gtLoad()`; every scripted page carries `/lang.js` exactly once) | **821 / 821 PASS** · `node scripts/validate.mjs` |
+| Release gates | **915 PASS** · `python3 scripts/validate_final.py .` |
+| Real-browser theater suite with the bridge | **50 PASS · 0 FAIL** · `RESULT_TAG=olelo-local` · axe 0 violations on all eight views · "no external request before any channel is chosen" still PASS · the 5 diagnostics are the same YouTube embed aborts as the baseline run |
+| Generators | `scripts/build_narration.py` (and the external Meeting #2 transcript builder) emit the tag, so a rebuild keeps it |
+
+
 ## 14 November 2026 · The Theater: one room, six channels (current)
 
 Shaka (14 Nov, 07:23 and 07:36 UTC) asked for one theater — the orchestra pit on the floor, the living wall, the projector as a channel switcher — playing **every meeting we recorded and had consent to publish**, with karaoke transcribers, the narrated deck as channel 4, and two of his own YouTube videos as channels 5–6, framed as examples of growing the OSO DAO public media files. The three halls survive only as a lighting toggle.

@@ -244,6 +244,7 @@ def render_static(source, records, generated_at: str, total_duration: float):
 {''.join(render_erratum(e) for e in source.get("errata", []))}<p>Generated {html.escape(generated_at)}. Each movement cites the public records behind its factual claims. The ledger and live tip configuration may change; consult their current public versions. This presentation proposes nothing onchain, approves no membership or governance change, and asks for no wallet, token, rank, donation or funds movement.</p></header>
 <main>{''.join(items)}</main>
 <footer><p>Prepared by Shaka's AI agent steward under his explicit authorization for this narrated edition. The closing movement is original agent-attributed language, not testimony or a quotation from a participant.</p><p>Voice generation used the pre-existing authorized Fish reference lane; the private voice reference and credentials are not shipped. A single slide-specific MP3 is only requested after a visitor opens narration or chooses its native audio control. Static text works without JavaScript.</p><p>Takedown first: <a href="https://opensourceorchestra.org/takedown/">Open Source Orchestra takedown commitment</a>. <a href="../archive/">Listening Archive: recording consent confirmed, media not attached.</a> Movement 11's original audio and matching caption cues are historical; the adjacent 13 November written correction is current.</p></footer>
+<script src="/lang.js" async></script>
 </body></html>'''
     return page
 
