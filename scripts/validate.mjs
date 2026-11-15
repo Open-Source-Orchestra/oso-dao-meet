@@ -281,7 +281,7 @@ check(/function gtLoad\(\)/.test(langJS) && !/^\s*(?:var|let|const)\s+\w+\s*=\s*
     const rel = full.slice(root.length + 1);
     const page = readFileSync(full, 'utf8');
     if (/http-equiv=["']?Content-Security-Policy/i.test(page)) continue; // script-free by design (dreams)
-    check((page.match(/<script src="\/lang\.js"(?: data-side="right" data-top="50%")? async><\/script>/g) || []).length === 1, `${rel}: must carry the ʻŌlelo language bridge exactly once (<script src="/lang.js" async>; the hall uses data-side="right" data-top="50%" so the 🌐 never covers its left-aligned headings).`);
+    check((page.match(/<script src="\/lang\.js"(?: data-top="50%")? async><\/script>/g) || []).length === 1, `${rel}: must carry the ʻŌlelo language bridge exactly once (<script src="/lang.js" async>; the hall uses data-top="50%" — left edge, centred — so the 🌐 never covers its left-aligned headings nor the TV that host doors float on the right).`);
   }
 })(root);
 
