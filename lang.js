@@ -17,7 +17,7 @@
   if (window.__olelo) return;
   window.__olelo = 1;
 
-  var VERSION = '1.2.2';
+  var VERSION = '1.2.3';
   var KEY = 'olelo';          // localStorage key (per door)
   var PARAM = 'olelo';        // URL parameter that carries the choice between doors
   var HOME = 'https://lang.opensourceorchestra.org/';
@@ -433,7 +433,8 @@
 
   function legacyUI(ol) {
     var st = doc.createElement('style'); st.id = 'olelo-legacy-css';
-    st.textContent = '#olang{opacity:.95!important}#olang:hover,#olang:focus-visible{opacity:1!important}' +
+    // beat the old corner's own "!important" dimming (mobile .5) by specificity: the 🌐 must be seen, its chip readable
+    st.textContent = 'html body #olang{opacity:.95!important}html body #olang:hover,html body #olang:focus-visible{opacity:1!important}' +
       '#olang .olelo-chip{position:absolute;right:-7px;bottom:-5px;min-width:20px;height:18px;padding:0 5px;border-radius:9px;' +
       'background:#7cd3ff;color:#0c0b1c;font:700 10px/18px system-ui,-apple-system,"Segoe UI",sans-serif;text-align:center;letter-spacing:0;' +
       'box-shadow:0 1px 4px rgba(0,0,0,.45);pointer-events:none;white-space:nowrap}' +
