@@ -17,7 +17,7 @@
   if (window.__olelo) return;
   window.__olelo = 1;
 
-  var VERSION = '1.1.1';
+  var VERSION = '1.1.2';
   var KEY = 'olelo';          // localStorage key (per door)
   var PARAM = 'olelo';        // URL parameter that carries the choice between doors
   var HOME = 'https://lang.opensourceorchestra.org/';
@@ -538,10 +538,13 @@
       }
       return null;
     }
-    function px(v, d) { var n = parseFloat(v); return isNaN(n) ? d : n; }
+    function px(v, d, total, s) {                    // "120" = px · "50%" = centred at that share of the viewport
+      var n = parseFloat(v); if (isNaN(n)) return d;
+      return /%\s*$/.test(String(v)) ? Math.round(total * n / 100 - s / 2) : n;
+    }
     function place() {
       var mob = innerWidth <= 700, s = mob ? 38 : 54;
-      var x = px(opt('left'), mob ? 8 : 10), y = px(opt('top'), mob ? 52 : 74);
+      var x = px(opt('left'), mob ? 8 : 10, innerWidth, s), y = px(opt('top'), mob ? 52 : 74, innerHeight, s);
       var right = opt('side') === 'right';
       if (right) x = innerWidth - s - x;
       if (!opt('top')) {
