@@ -17,7 +17,7 @@
   if (window.__olelo) return;
   window.__olelo = 1;
 
-  var VERSION = '1.3.0';
+  var VERSION = '1.3.1';
   var KEY = 'olelo';          // localStorage key (per door)
   var PARAM = 'olelo';        // URL parameter that carries the choice between doors
   var HOME = 'https://lang.opensourceorchestra.org/';
@@ -310,6 +310,16 @@
         }
         if (last < s.length) frag.appendChild(doc.createTextNode(s.slice(last)));
         if (t.parentNode) t.parentNode.replaceChild(frag, t);
+      }
+      // a name split across tags (<h1>Open Source<br><em>Orchestra</em></h1>) — keep the whole element as written
+      var els = root.querySelectorAll ? root.querySelectorAll('h1,h2,h3,h4,h5,a,span,strong,em,b,p,div,li,figcaption,button,label') : [];
+      for (var j = 0; j < els.length; j++) {
+        var el = els[j];
+        if (el.children.length > 6 || el.namespaceURI !== XHTML || el.classList.contains('notranslate')) continue;
+        var tx = el.textContent || '';
+        if (tx.length > 60) continue;
+        tx = (el.innerText || tx).replace(/[\s\u200b\u00a0]+/g, ' ').trim();   // innerText: <br> counts as a space
+        if (/^(the )?open source orchestra$|^[ʻ'‘’`]?ohana$/i.test(tx) && !(el.closest && el.closest('#olelo'))) { el.classList.add('notranslate'); el.setAttribute('translate', 'no'); }
       }
     } catch (e) {}
   }
