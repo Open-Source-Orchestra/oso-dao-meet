@@ -17,7 +17,7 @@
   if (window.__olelo) return;
   window.__olelo = 1;
 
-  var VERSION = '1.1.0';
+  var VERSION = '1.1.1';
   var KEY = 'olelo';          // localStorage key (per door)
   var PARAM = 'olelo';        // URL parameter that carries the choice between doors
   var HOME = 'https://lang.opensourceorchestra.org/';
@@ -195,6 +195,7 @@
   function gtFlush() { var w = gt.waiters; gt.waiters = []; for (var i = 0; i < w.length; i++) w[i](gt.state === 'ready'); }
   function gtReady(cb) { if (gt.state === 'ready' || gt.state === 'failed') return cb(gt.state === 'ready'); gt.waiters.push(cb); gtLoad(); }
   function gtInit() {
+    var late = gt.state === 'failed';               // Google arrived after we gave up — use it after all
     try {
       var box = doc.getElementById('google_translate_element');       // the old corner's "+90 more" slot
       if (!box) {
@@ -213,22 +214,30 @@
       if (c) {
         gt.combo = c; gt.state = 'ready';
         c.addEventListener('change', function (ev) { if (ev.isTrusted && c.value) choose(c.value, 'user'); });
-        gtFlush(); return;
+        gtFlush();
+        if (late) { hinted = false; ui.setHint(false); if (toastEl) { toastEl.remove(); } apply(); }
+        return;
       }
       if (Date.now() - t0 > 8000) { gt.state = 'failed'; gtFlush(); return; }
       setTimeout(wait, 60);
     })();
   }
+  function gtFail() { if (gt.state === 'loading') { gt.state = 'failed'; gtFlush(); } }
+  function gtInject(n) {                             // one quiet retry before we call Google unreachable
+    var s = doc.createElement('script'); s.src = GT_SRC + (n ? '&r=' + n : ''); s.async = true;
+    s.onerror = function () { if (gt.state !== 'loading') return; if (!gt.retried) { gt.retried = 1; setTimeout(function () { gtInject(1); }, 1200); } else gtFail(); };
+    (doc.head || html).appendChild(s);
+  }
   function gtLoad() {
     if (gt.state !== 'idle') return;
     gt.state = 'loading';
     if (window.google && window.google.translate && window.google.translate.TranslateElement) { gtInit(); return; }
-    if (!legacyLoader) {
-      var s = doc.createElement('script'); s.src = GT_SRC; s.async = true;
-      s.onerror = function () { if (gt.state === 'loading') { gt.state = 'failed'; gtFlush(); } };
-      (doc.head || html).appendChild(s);
-    }
-    setTimeout(function () { if (gt.state === 'loading') { gt.state = 'failed'; gtFlush(); } }, legacyLoader && doc.readyState !== 'complete' ? 20000 : 9000);
+    if (!legacyLoader) gtInject(0);
+    var wait = legacyLoader && doc.readyState !== 'complete' ? 20000 : 10000;
+    setTimeout(function () {
+      if (gt.state !== 'loading') return;
+      if (!gt.retried && !legacyLoader) { gt.retried = 1; gtInject(2); setTimeout(gtFail, 10000); } else gtFail();
+    }, wait);
   }
   // The old corner loads element.js itself on window 'load' and calls googleTranslateElementInit — we take that
   // callback over so every door drives the same engine the same way (a live switch, no reload).
