@@ -94,9 +94,17 @@
 
   var root, btn, panel, audio, idx = 0, chList, trackEl, playBtn;
 
+  // per-door placement: <script src=".../tv.js" data-side="left" data-top="40%"> (defaults: right edge, vertical middle)
+  var me = document.currentScript || (function () { var s = document.querySelectorAll('script[src*="tv.js"]'); return s[s.length - 1]; })();
+  var SIDE = (me && me.dataset && me.dataset.side === 'left') ? 'left' : 'right';
+  var TOP = (me && me.dataset && /^[0-9.]+(%|px|vh)$/.test(me.dataset.top || '')) ? me.dataset.top : '50%';
+  var LEFT_CSS = '#oso-tv.tv-left{left:0;right:auto}#oso-tv.tv-left .tv-panel{left:92px;right:auto}' +
+    '#oso-tv.tv-left.is-open .tv-panel{animation-name:oso-tv-in-l}@keyframes oso-tv-in-l{from{opacity:0;transform:translateY(-50%) translateX(-10px)}to{opacity:1;transform:translateY(-50%) translateX(0)}}' +
+    '@media (max-width:480px){#oso-tv.tv-left .tv-panel{left:84px}}';
+
   function boot() {
-    var st = document.createElement('style'); st.id = 'oso-tv-css'; st.textContent = CSS; document.head.appendChild(st);
-    root = document.createElement('div'); root.id = 'oso-tv';
+    var st = document.createElement('style'); st.id = 'oso-tv-css'; st.textContent = CSS + LEFT_CSS + '#oso-tv,#oso-tv .tv-panel{top:' + TOP + '}'; document.head.appendChild(st);
+    root = document.createElement('div'); root.id = 'oso-tv'; if (SIDE === 'left') root.className = 'tv-left';
     root.innerHTML =
       '<button type="button" class="tv-btn" aria-expanded="false" aria-controls="oso-tv-panel" aria-label="Open the Open Source Orchestra theater TV: music and six channels" title="📺 The OSO Theater · press to turn on">' +
         '<span class="tv-note" aria-hidden="true">♪</span><span class="tv-note n2" aria-hidden="true">♫</span><span class="tv-note n3" aria-hidden="true">♪</span>' +
