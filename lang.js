@@ -1,4 +1,4 @@
-/*! ʻŌLELO · the ʻohana language bridge · v1.1 · CC0 · built by the ʻohana (machines, not people)
+/*! ʻŌLELO · the ʻohana language bridge · v1.2 · CC0 · built by the ʻohana (machines, not people)
  *
  *  One line on any door:
  *    <script src="https://lang.opensourceorchestra.org/lang.js" async></script>
@@ -17,7 +17,7 @@
   if (window.__olelo) return;
   window.__olelo = 1;
 
-  var VERSION = '1.1.2';
+  var VERSION = '1.2.2';
   var KEY = 'olelo';          // localStorage key (per door)
   var PARAM = 'olelo';        // URL parameter that carries the choice between doors
   var HOME = 'https://lang.opensourceorchestra.org/';
@@ -72,7 +72,15 @@
     if (a.indexOf('zh') === 0 || b.indexOf('zh') === 0) return false; // 简体 ≠ 繁體
     return a.split('-')[0] === b.split('-')[0];
   }
-  var BASE = norm(html.getAttribute('lang')) || 'en';   // the language the door is written in
+  // the language the door is written in — NOT what Google already turned it into (an older 🌐 gadget on the page
+  // may have translated it from its cookie before we arrived; Google then rewrites <html lang>)
+  var BASE = (function () {
+    if (/\btranslated-(ltr|rtl)\b/.test(html.className)) {
+      var m = (doc.cookie.match(/(?:^|;\s*)googtrans=\/([^\/;]*)\//) || [])[1];
+      return norm(m) || 'en';
+    }
+    return norm(html.getAttribute('lang')) || 'en';
+  })();
   function info(c) { return BY[(c || '').toLowerCase()] || ['en', 'English', '', 'EN']; }
 
   // ── the family: every door we run and operate ──
@@ -121,7 +129,7 @@
       var r = regDomain(); if (r) doc.cookie = e + ';domain=.' + r;
     } catch (x) {}
   }
-  function gtBase() { return BASE === 'zh-CN' || BASE === 'zh-TW' ? BASE : BASE.split('-')[0]; }
+  function gtBase() { var b = nat0 ? nat0.base : BASE; return b === 'zh-CN' || b === 'zh-TW' ? b : b.split('-')[0]; }
   function isFile(u) { return /\.(?!html?$|php$)[a-z0-9]{2,5}$/i.test(u.pathname); }
   function translated() { return /\btranslated-(ltr|rtl)\b/.test(html.className); }
   function fire(el, type) { var ev; try { ev = new Event(type, { bubbles: true }); } catch (e) { ev = doc.createEvent('HTMLEvents'); ev.initEvent(type, true, true); } el.dispatchEvent(ev); }
@@ -148,9 +156,10 @@
   var nativeBusy = 0;
   function nativeAdapter() {
     var n = window.oleloNative;
-    if (n && typeof n.set === 'function' && n.langs) return { has: function (c) { return n.langs.indexOf(c) >= 0; }, set: n.set };
+    if (n && typeof n.set === 'function' && n.langs) return { base: n.base || 'en', has: function (c) { return n.langs.indexOf(c) >= 0; }, set: n.set };
     if (typeof window.setLang === 'function' && doc.querySelector('[data-zh]')) {
       return {
+        base: 'en',
         has: function (c) { return c === 'en' || c === 'zh-CN'; },
         set: function (c) { nativeBusy++; try { window.setLang(c === 'zh-CN' ? 'zh' : 'en'); } catch (e) {} nativeBusy--; }
       };
@@ -158,6 +167,7 @@
     var modes = modeButtons();                       // 4seas-style <button data-mode="th" lang="th"> toggles
     if (modes) {
       return {
+        base: 'en',
         has: function (c) { return !!modes[c]; },
         set: function (c) {
           var btn = modes[c];
@@ -190,35 +200,40 @@
     window.setLang = wrapped;
   }
 
-  // ── Google Translate engine (only ever loaded after a choice) ──
-  var gt = { state: 'idle', combo: null, waiters: [] };
+  // ── Google Translate engine (loaded only after a visitor has chosen a language) ──
+  var gt = { state: 'idle', combo: null, waiters: [], foreign: false, inited: 0 };
   function gtFlush() { var w = gt.waiters; gt.waiters = []; for (var i = 0; i < w.length; i++) w[i](gt.state === 'ready'); }
   function gtReady(cb) { if (gt.state === 'ready' || gt.state === 'failed') return cb(gt.state === 'ready'); gt.waiters.push(cb); gtLoad(); }
-  function gtInit() {
+  function gtBox() {
+    var box = doc.getElementById('olelo-gt');
+    if (!box) {
+      box = doc.createElement('div'); box.id = 'olelo-gt'; box.className = 'notranslate';
+      box.setAttribute('inert', '');                 // engine room: off-screen, unfocusable, not announced (no aria-hidden-focus)
+      box.style.cssText = 'position:absolute!important;left:-9999px!important;top:0!important;width:1px;height:1px;overflow:hidden';
+      doc.body.appendChild(box);
+    }
+    return box;
+  }
+  function gtInit(preexisting) {
+    // preexisting = an older 🌐 script on this page already started Google Translate before we arrived
+    if (gt.inited++) return;
     var late = gt.state === 'failed';               // Google arrived after we gave up — use it after all
-    try {
-      var box = doc.getElementById('google_translate_element');       // the old corner's "+90 more" slot
-      if (!box) {
-        box = doc.getElementById('olelo-gt');
-        if (!box) {
-          box = doc.createElement('div'); box.id = 'olelo-gt'; box.setAttribute('aria-hidden', 'true');
-          box.style.cssText = 'position:absolute!important;left:-9999px!important;top:0!important;width:1px;height:1px;overflow:hidden';
-          doc.body.appendChild(box);
-        }
-      }
-      new window.google.translate.TranslateElement({ pageLanguage: gtBase(), autoDisplay: false }, box.id);
-    } catch (e) { gt.state = 'failed'; gtFlush(); return; }
+    if (gt.state === 'idle') gt.state = 'loading';
+    try { new window.google.translate.TranslateElement({ pageLanguage: gtBase(), autoDisplay: false }, gtBox().id); }
+    catch (e) { if (preexisting) gt.foreign = true; gt.state = 'failed'; gtFlush(); return; }
     var t0 = Date.now();
     (function wait() {
-      var c = doc.querySelector('select.goog-te-combo');
+      var c = doc.querySelector('#olelo-gt select.goog-te-combo') || doc.querySelector('select.goog-te-combo');
       if (c) {
-        gt.combo = c; gt.state = 'ready';
+        gt.combo = c; gt.state = 'ready'; gt.foreign = false;
+        if (gtBox().contains(c)) { var fz = gtBox().querySelectorAll('a,select,button,input,[tabindex]'); for (var z = 0; z < fz.length; z++) fz[z].setAttribute('tabindex', '-1'); }
         c.addEventListener('change', function (ev) { if (ev.isTrusted && c.value) choose(c.value, 'user'); });
         gtFlush();
         if (late) { hinted = false; ui.setHint(false); if (toastEl) { toastEl.remove(); } apply(); }
         return;
       }
-      if (Date.now() - t0 > 8000) { gt.state = 'failed'; gtFlush(); return; }
+      // an old "SIMPLE" gadget got there first: Google won't hand us a second, drivable one
+      if (Date.now() - t0 > (preexisting ? 3000 : 8000)) { if (preexisting) gt.foreign = true; gt.state = 'failed'; gtFlush(); return; }
       setTimeout(wait, 60);
     })();
   }
@@ -231,18 +246,33 @@
   function gtLoad() {
     if (gt.state !== 'idle') return;
     gt.state = 'loading';
-    if (window.google && window.google.translate && window.google.translate.TranslateElement) { gtInit(); return; }
-    if (!legacyLoader) gtInject(0);
-    var wait = legacyLoader && doc.readyState !== 'complete' ? 20000 : 10000;
+    if (window.google && window.google.translate && window.google.translate.TranslateElement) { gtInit(true); return; }
+    var pending = !!doc.querySelector('script[src*="translate_a/element.js"]');   // an old static tag is already fetching it
+    if (!pending) gtInject(0);
     setTimeout(function () {
       if (gt.state !== 'loading') return;
-      if (!gt.retried && !legacyLoader) { gt.retried = 1; gtInject(2); setTimeout(gtFail, 10000); } else gtFail();
-    }, wait);
+      if (!gt.retried) { gt.retried = 1; gtInject(2); setTimeout(gtFail, 10000); } else gtFail();
+    }, pending ? 15000 : 10000);
   }
-  // The old corner loads element.js itself on window 'load' and calls googleTranslateElementInit — we take that
-  // callback over so every door drives the same engine the same way (a live switch, no reload).
-  var legacyLoader = typeof window.googleTranslateElementInit === 'function' || !!doc.getElementById('google_translate_element');
-  window.googleTranslateElementInit = function () { if (gt.state === 'idle') gt.state = 'loading'; gtInit(); };
+  // Every door now drives ONE engine the same way: whoever loads element.js, its callback lands here.
+  window.googleTranslateElementInit = function () { gtInit(false); };
+  // An older 🌐 gadget that initialised Google first can't be driven live — let it read the cookie on a reload (once).
+  function foreignReload(c) {
+    var k = 'olelo-reload', v = c + '@' + location.pathname, done = null;
+    try { done = sessionStorage.getItem(k); } catch (e) {}
+    if (done === v) {                                 // we already reloaded for this: give Google a moment, then be honest
+      var t0 = Date.now();
+      (function watch() {
+        if (translated()) { try { sessionStorage.removeItem(k); } catch (e) {} return; }
+        if (Date.now() - t0 > 9000) { hint(); return; }
+        setTimeout(watch, 300);
+      })();
+      return;
+    }
+    try { sessionStorage.setItem(k, v); } catch (e) {}
+    setGTCookie(c);
+    location.reload();
+  }
   var cssOn = false;
   function gtCSS() {
     if (cssOn) return; cssOn = true;
@@ -255,8 +285,9 @@
   }
   function gtApply(c) {
     gtCSS(); setGTCookie(c);
+    if (translated() && html.getAttribute('lang') === c) return;        // already showing it (the cookie did it)
     gtReady(function (ok) {
-      if (!ok) { hint(); return; }
+      if (!ok) { if (gt.foreign && chosen === c) foreignReload(c); else hint(); return; }
       if (chosen !== c) return;                      // the visitor changed their mind meanwhile
       var tries = 0;
       (function go() {
@@ -298,8 +329,8 @@
     if (!c) return;
     var nat = nativeAdapter();
     if (nat && nat.has(c)) { if (translated()) gtRestore(); nat.set(c); return; }
-    if (nat && nat.has(BASE)) nat.set(BASE);
-    if (same(c, BASE)) { gtRestore(); return; }
+    if (nat) nat.set(nat.base);                      // Google translates from the door's own base text
+    if (same(c, nat ? nat.base : BASE)) { gtRestore(); return; }
     gtApply(c);
   }
 
@@ -402,11 +433,15 @@
 
   function legacyUI(ol) {
     var st = doc.createElement('style'); st.id = 'olelo-legacy-css';
-    st.textContent = '#olang .olelo-chip{position:absolute;right:-7px;bottom:-5px;min-width:20px;height:18px;padding:0 5px;border-radius:9px;' +
+    st.textContent = '#olang{opacity:.95!important}#olang:hover,#olang:focus-visible{opacity:1!important}' +
+      '#olang .olelo-chip{position:absolute;right:-7px;bottom:-5px;min-width:20px;height:18px;padding:0 5px;border-radius:9px;' +
       'background:#7cd3ff;color:#0c0b1c;font:700 10px/18px system-ui,-apple-system,"Segoe UI",sans-serif;text-align:center;letter-spacing:0;' +
       'box-shadow:0 1px 4px rgba(0,0,0,.45);pointer-events:none;white-space:nowrap}' +
       '#olangp .olelo-note{font-size:11px;color:#7ee2a0;margin:-4px 0 10px;line-height:1.4}' +
-      '#olangp .lb.olelo-on{outline:2px solid #7cd3ff;outline-offset:-2px}';
+      '#olangp .lb.olelo-on{outline:2px solid #7cd3ff;outline-offset:-2px}' +
+      '#olangp .olelo-more{display:block;width:100%;margin:2px 0 6px;min-height:30px;background:rgba(124,211,255,.08);color:#e8e6ff;' +
+      'border:1px solid rgba(124,211,255,.35);border-radius:10px;padding:5px 8px;font:12px Georgia,serif;cursor:pointer}' +
+      '#olangp .olelo-more option{background:#0c0b1c;color:#e8e6ff}#google_translate_element{display:none!important}';
     (doc.head || html).appendChild(st);
     if (getComputedStyle(ol).position === 'static') ol.style.position = 'relative';
     var chip = doc.createElement('span'); chip.className = 'olelo-chip notranslate'; chip.setAttribute('translate', 'no'); chip.setAttribute('aria-hidden', 'true');
@@ -419,6 +454,19 @@
       note.textContent = '🌊 ' + WORDS.en[1];
       var lt = panel.querySelector('.lt');
       if (lt && lt.nextSibling) panel.insertBefore(note, lt.nextSibling); else panel.appendChild(note);
+    }
+    if (panel && !panel.querySelector('.olelo-more')) {   // "+90 more" no longer loads Google up front: our own list instead
+      var sel = doc.createElement('select');
+      sel.className = 'olelo-more notranslate'; sel.setAttribute('translate', 'no'); sel.setAttribute('aria-label', '+ more languages');
+      var oh = '<option value="">+ ' + MORE.length + ' more ↓</option>';
+      for (var k = 0; k < MORE.length; k++) oh += '<option value="' + MORE[k][0] + '">' + MORE[k][1] + '</option>';
+      sel.innerHTML = oh;
+      sel.addEventListener('change', function () { var v = sel.value; if (!v) return; sel.value = ''; panel.classList.remove('open'); choose(v, 'user'); });
+      var slot = doc.getElementById('google_translate_element'), gtDiv = panel.querySelector('.gt');
+      if (gtDiv) {
+        for (var n = gtDiv.firstChild; n && n !== slot && n.nodeName !== 'BR';) { var nx = n.nextSibling; if (n.nodeType === 3) gtDiv.removeChild(n); n = nx; }
+        gtDiv.insertBefore(sel, gtDiv.firstChild);
+      } else panel.appendChild(sel);
     }
     if (typeof window.otr === 'function' && !window.otr.__olelo) {   // the old buttons now switch live and carry
       var mine = function (l) { if (panel) panel.classList.remove('open'); choose(l, 'user'); };
@@ -623,7 +671,8 @@
     set: function (c) { choose(c, 'user'); },
     base: BASE,
     langs: ALL.map(function (L) { return { code: L[0], name: L[1] }; }),
-    isFamily: isFamily
+    isFamily: isFamily,
+    engine: function () { return { state: gt.state, foreign: gt.foreign, inited: gt.inited, combo: !!gt.combo, translated: translated() }; }
   };
   if (doc.body) start(); else doc.addEventListener('DOMContentLoaded', start);
 })();
