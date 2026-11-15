@@ -15,7 +15,7 @@
   var FRONT = THEATER + '?slide=origin-repertoire&hall=mumbai&channel=devcon-6';
   var CHANNELS_JSON = THEATER + 'data/channels.json';
   var TRACKS = [
-    { t: 'I Open Sourced My Whole Universe', a: 'Shaka', u: 'https://shakaleikaumaka.com/radio-assets/i-open-sourced-my-whole-universe.mp3' },
+    { t: 'Butterflies and Love', a: 'Shaka', u: 'https://shakaleikaumaka.com/radio-assets/i-open-sourced-my-whole-universe.mp3' },
     { t: 'A Planet We Share As One', a: 'Shaka', u: 'https://shakaleikaumaka.com/radio-assets/a-planet-we-share-as-one.mp3' },
     { t: 'Be My Friend', a: 'Matteo Tambussi', u: 'https://shakaleikaumaka.com/radio-assets/matteo-tambussi--be-my-friend.mp3' },
     { t: 'Island', a: 'Matteo Tambussi', u: 'https://shakaleikaumaka.com/radio-assets/matteo-tambussi--island.mp3' }
