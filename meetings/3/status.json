@@ -1,0 +1,70 @@
+{
+  "schema": "oso-dao-proposal-meeting-v1",
+  "meeting": 3,
+  "title": "Open Source Orchestra DAO Meet #3",
+  "circle": "Third circle",
+  "startedAt": "2026-11-19T17:36:51Z",
+  "endedAt": "2026-11-19T19:23:53Z",
+  "bangkokStart": "2026-11-20T00:36:51+07:00",
+  "pacificStart": "2026-11-19T09:36:51-08:00",
+  "hostedFrom": "Chiang Mai (stated in the recording); guests joined from Leeds and Barcelona",
+  "publicRecapStatus": "published",
+  "daoStatus": "proposal and public community ledger; not on-chain or adopted",
+  "decisions": "no final governance, treasury, membership, token or funding decision claimed; Waterfall funding, school visits, a Cannes-to-Lisbon song and venue offers remain proposals or personal offers",
+  "participants": {
+    "host": "Shaka",
+    "guests": [
+      "Ben",
+      "Alaska",
+      "Mary"
+    ],
+    "naming": "first names only, as addressed in the meeting and in public posts; no surnames; Alaska is named only as Alaska",
+    "rolesStated": {
+      "Shaka": "host and steward, speaking from Chiang Mai",
+      "Ben": "guest, joined from Leeds; addressed as Ben in the meeting",
+      "Alaska": "guest, joined from Barcelona",
+      "Mary": "guest, joined by text chat while on the road, mostly listening"
+    }
+  },
+  "recordingConsent": {
+    "status": "confirmed",
+    "reportedBy": "Shaka",
+    "reportedAt": "2026-11-20T02:33:00+07:00",
+    "scope": "everyone present consented to the public video and transcript; a takedown request always wins"
+  },
+  "recording": {
+    "status": "transcript_published_video_coming_soon",
+    "durationSeconds": 6422,
+    "durationLabel": "1:47:02",
+    "rawVideo": {
+      "hostedOnThisSite": false,
+      "bytes": 1352651500,
+      "format": "Google Meet original MP4, held in the host's private Drive (not shared, not made public)",
+      "status": "kept private; a public 720p encode for theater.opensourceorchestra.org is not yet published"
+    },
+    "publicAudio": null,
+    "publicAudioPage": "/meetings/3/audio/",
+    "publicTranscript": "/meetings/3/transcript/",
+    "transcriptFormats": [
+      "/meetings/3/transcript/transcript.txt",
+      "/meetings/3/transcript/transcript.vtt",
+      "/meetings/3/transcript/transcript.json"
+    ],
+    "transcription": "automatic live captions by Googly Eye (Google Meet) during the call; editorial first-name speaker labels from the meeting display and what was said, not voice identification",
+    "redactions": "surnames and one participant's legal name removed; private meeting links, emails, phone numbers and personal referral tokens removed",
+    "publicNotes": "/meetings/3/notes/",
+    "publicVideo": {
+      "status": "coming_soon",
+      "plannedHost": "Cloudflare R2 · theater.opensourceorchestra.org",
+      "note": "The original recording is too large for this repository (1.35 GB) and remains private. It was not published via a Drive or YouTube player."
+    }
+  },
+  "attendeeList": "the four participants named above by first name; no other attendee data",
+  "privateMeetLinks": null,
+  "next": "further open meets; join via https://opensourceorchestra.org/join/",
+  "takedown": "https://opensourceorchestra.org/takedown/",
+  "licenses": {
+    "content": "CC BY-SA 4.0",
+    "code": "GPL-3.0"
+  }
+}

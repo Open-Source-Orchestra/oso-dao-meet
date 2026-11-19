@@ -1,0 +1,2889 @@
+Open Source Orchestra DAO Meet #3 — public transcript
+Recorded Thursday 19 November 2026, 17:36 UTC (Friday 20 November 12:36 AM Bangkok; 9:36 AM Pacific). Recording length 1:47:02.
+Chiang Mai, Leeds and Barcelona in one circle. Published with consent confirmed by Shaka on 20 November 2026 at 2:33 AM Bangkok time.
+Automatic transcription by Googly Eye (Google Meet live captions); wording may be imperfect.
+Speaker labels are editorial first names, from the meeting display and what was said, not voice identification. Surnames, private links and contact details are removed.
+Takedown and corrections first: https://opensourceorchestra.org/takedown/
+
+[0:00:08] Shaka:
+  [00:00:08.000 --> 00:00:09.000] Ben
+
+[0:00:09] Ben:
+  [00:00:09.000 --> 00:00:13.000] Mahalo.
+
+[0:00:13] Shaka:
+  [00:00:13.000 --> 00:00:15.000] Carlo, I hope you don't mind
+  [00:00:15.000 --> 00:00:16.000] Googly Eye, are my little fun transclapping bot.
+  [00:00:15.000 --> 00:00:16.000] bot.
+
+[0:00:16] Ben:
+  [00:00:16.000 --> 00:00:17.000] I'm good, I'm good. How are you, bro?
+
+[0:00:17] Shaka:
+  [00:00:17.000 --> 00:00:22.000] I'm great.
+  [00:00:22.000 --> 00:00:24.000] Oh, look, Grok's in the meeting just like that. So cool.
+  [00:00:24.000 --> 00:00:25.000] really cute.
+  [00:00:24.000 --> 00:00:29.000] cute.
+
+[0:00:29] Ben:
+  [00:00:29.000 --> 00:00:33.000] Oh yeah.
+  [00:00:33.000 --> 00:00:36.000] schedule is really amazing on, 2027 is gonna be
+  [00:00:36.000 --> 00:00:43.000] , is gonna be amazing, man. I can't wait for 2027.
+
+[0:00:43] Shaka:
+  [00:00:43.000 --> 00:00:47.000] Oh, I cannot wait for 2027 either. I am here with a
+
+[0:00:47] Ben:
+  [00:00:47.000 --> 00:00:48.000] Yeah.
+
+[0:00:48] Shaka:
+  [00:00:48.000 --> 00:00:50.000] , my good brother, Ben, and also Googly Eye.
+  [00:00:50.000 --> 00:00:52.000] how Googly Eye is just like
+
+[0:00:52] Ben:
+  [00:00:52.000 --> 00:00:55.000] Cutie pie. Hello, Googly Eye.
+
+[0:00:55] Shaka:
+  [00:00:55.000 --> 00:01:00.000] got a little Googly Eye. Hi, Googly Eye, you're, you're so
+  [00:01:00.000 --> 00:01:05.000] awesome. And also, I've got this like, cool, like
+  [00:01:05.000 --> 00:01:10.000] kind of like, I just like, had this
+  [00:01:10.000 --> 00:01:15.000] in the last couple weeks, where I found out that because I'm open sourcing
+  [00:01:15.000 --> 00:01:20.000] agents, it's really easy for me to swap between Grok Bot and
+  [00:01:20.000 --> 00:01:22.000] Claude and all these other ones. So Grok Bot, I've been able to like replicate the whole
+
+[0:01:22] Ben:
+  [00:01:22.000 --> 00:01:24.000] Yeah, yeah.
+
+[0:01:24] Shaka:
+  [00:01:24.000 --> 00:01:25.000] Bot. So Grokka helped me create Googly Eye.
+
+[0:01:25] Ben:
+  [00:01:25.000 --> 00:01:27.000] Yeah.
+  [00:01:27.000 --> 00:01:29.000] Yeah.
+
+[0:01:29] Shaka:
+  [00:01:29.000 --> 00:01:32.000] And Googly Eye is here to transcribe. And whoever else wants to
+
+[0:01:32] Ben:
+  [00:01:32.000 --> 00:01:34.000] Yeah.
+
+[0:01:34] Shaka:
+  [00:01:34.000 --> 00:01:36.000] probably gonna have to keep letting people know we're recording as soon as they get
+  [00:01:36.000 --> 00:01:37.000] Alaska. Here he comes.
+  [00:01:37.000 --> 00:01:39.000] comes.
+
+[0:01:39] Ben:
+  [00:01:39.000 --> 00:01:42.000] The last car in the house.
+
+[0:01:42] Shaka:
+  [00:01:42.000 --> 00:01:44.000] He's coming. I think he's
+
+[0:01:44] Ben:
+  [00:01:44.000 --> 00:01:47.000] Are, are you still eating tang mai?
+
+[0:01:47] Shaka:
+  [00:01:47.000 --> 00:01:49.000] coming. I just hit admit. I hope. There he is. Alaska,
+
+[0:01:49] Ben:
+  [00:01:49.000 --> 00:01:52.000] Alaska!
+
+[0:01:52] Shaka:
+  [00:01:52.000 --> 00:01:54.000] recording. Hope you're okay with that, with your
+  [00:01:54.000 --> 00:01:55.000] consent and your beautiful presence. Thank you for being here.
+
+[0:01:55] Alaska:
+  [00:01:55.000 --> 00:01:56.000] Yo
+
+[0:01:56] Shaka:
+  [00:01:56.000 --> 00:01:58.000] Yo.
+
+[0:01:58] Ben:
+  [00:01:58.000 --> 00:01:59.000] Yes!
+
+[0:01:59] Shaka:
+  [00:01:59.000 --> 00:02:01.000] Yeah.
+  [00:02:01.000 --> 00:02:02.000] This is great.
+  [00:02:02.000 --> 00:02:03.000] great.
+
+[0:02:02] Ben:
+  [00:02:02.000 --> 00:02:06.000] How are you, Alaska? Good to see you.
+
+[0:02:06] Alaska:
+  [00:02:06.000 --> 00:02:09.000] Good, yeah, just, you know, getting
+  [00:02:09.000 --> 00:02:10.000] cranking away here back home in Spain, so doing good.
+
+[0:02:10] Ben:
+  [00:02:10.000 --> 00:02:15.000] Awesome, awesome, awesome.
+
+[0:02:15] Shaka:
+  [00:02:15.000 --> 00:02:16.000] Nice. Where are you, Ben? In London, right?
+
+[0:02:16] Ben:
+  [00:02:16.000 --> 00:02:17.000] I'm in Leeds.
+
+[0:02:17] Shaka:
+  [00:02:17.000 --> 00:02:18.000] Leeds.
+
+[0:02:17] Ben:
+  [00:02:17.000 --> 00:02:19.000] Yeah.
+
+[0:02:19] Shaka:
+  [00:02:19.000 --> 00:02:21.000] Leeds. Le-Le-Which is
+
+[0:02:21] Ben:
+  [00:02:21.000 --> 00:02:22.000] Not too far, well, not too far from York.
+  [00:02:22.000 --> 00:02:23.000] York.
+
+[0:02:23] Shaka:
+  [00:02:23.000 --> 00:02:24.000] yeah.
+
+[0:02:24] Ben:
+  [00:02:24.000 --> 00:02:27.000] York. You heard of York?
+
+[0:02:27] Shaka:
+  [00:02:27.000 --> 00:02:31.000] No, no.
+
+[0:02:31] Ben:
+  [00:02:31.000 --> 00:02:32.000] No, no, no. York, York is where the king used to be
+
+[0:02:32] Shaka:
+  [00:02:32.000 --> 00:02:36.000] okay.
+
+[0:02:36] Ben:
+  [00:02:36.000 --> 00:02:41.000] coronated back in the days. So, yeah, so York is a, is a very historic,
+  [00:02:41.000 --> 00:02:43.000] not too far from York, not too far from Manchester, not too far from
+  [00:02:43.000 --> 00:02:44.000] Sheffield, kind of those direction.
+  [00:02:43.000 --> 00:02:44.000] direction.
+
+[0:02:43] Shaka:
+  [00:02:43.000 --> 00:02:47.000] Amazing.
+
+[0:02:47] Ben:
+  [00:02:47.000 --> 00:02:49.000] You still in Chiang Mai, is it?
+
+[0:02:49] Shaka:
+  [00:02:49.000 --> 00:02:54.000] I'm Chiang Mai. This is like the little tea corner.
+  [00:02:54.000 --> 00:02:58.000] like, I've got a guitar I might can play later, but
+
+[0:02:58] Ben:
+  [00:02:58.000 --> 00:02:59.000] I gotta check it out sometime.
+
+[0:02:59] Shaka:
+  [00:02:59.000 --> 00:03:04.000] very many people out here on the patio,
+  [00:03:04.000 --> 00:03:05.000] but. Four Seas is very lively. a lot of, a lot of great activity going on at Four Seas.
+  [00:03:05.000 --> 00:03:06.000] Seas.
+
+[0:03:06] Ben:
+  [00:03:06.000 --> 00:03:07.000] Alaska, you, you in Madrid, you say?
+
+[0:03:07] Alaska:
+  [00:03:07.000 --> 00:03:08.000] Barcelona.
+
+[0:03:08] Ben:
+  [00:03:08.000 --> 00:03:11.000] Barcelona.
+  [00:03:11.000 --> 00:03:15.000] Do you speak Spanish, Alaska?
+  [00:03:15.000 --> 00:03:16.000] Okay.
+
+[0:03:16] Alaska:
+  [00:03:16.000 --> 00:03:17.000] I'm learning, so I have a tutor, but still pretty
+  [00:03:17.000 --> 00:03:18.000] bad. We're getting there. Yeah, I studied every day.
+  [00:03:17.000 --> 00:03:19.000] day.
+
+[0:03:19] Ben:
+  [00:03:19.000 --> 00:03:23.000] How, how long you lived in Barcelona for?
+
+[0:03:23] Alaska:
+  [00:03:23.000 --> 00:03:24.000] yeah, I mean, I've been here for about 10 months now, so.
+
+[0:03:24] Ben:
+  [00:03:24.000 --> 00:03:32.000] Okay, okay.
+
+[0:03:32] Shaka:
+  [00:03:32.000 --> 00:03:37.000] I am glad to have Alaska here, cause
+  [00:03:37.000 --> 00:03:42.000] he, is joining us, in face, in person, for
+  [00:03:42.000 --> 00:03:47.000] recognition in the previous ones, and so I
+  [00:03:47.000 --> 00:03:50.000] opportunity to hear from Alaska, what his
+  [00:03:50.000 --> 00:03:55.000] heart is for open source orchestra. he has been really a strong,
+  [00:03:55.000 --> 00:04:00.000] presence and really like,
+  [00:04:00.000 --> 00:04:05.000] allowed me to like, one see dreams like
+  [00:04:05.000 --> 00:04:08.000] come, come to, to life, where it's like, actually not s, an idea is not just like
+  [00:04:08.000 --> 00:04:13.000] something that you're,
+  [00:04:13.000 --> 00:04:18.000] aligning with, with your friends, but you're also like,
+  [00:04:18.000 --> 00:04:23.000] ch-chasing it with your friends. Like, it, it feels like now, like it's,
+  [00:04:23.000 --> 00:04:28.000] the way it was for me, you know, like there was two guys I really looked
+  [00:04:28.000 --> 00:04:33.000] up to, Justin Holmes and Matteo Tambussi, and then Ben was there the first
+  [00:04:33.000 --> 00:04:39.000] time I played music in Amsterdam, that I looked up to playing music at
+  [00:04:39.000 --> 00:04:40.000] my mind in Amsterdam in
+  [00:04:40.000 --> 00:04:41.000] 2022, and,
+  [00:04:40.000 --> 00:04:41.000] and,
+  [00:04:41.000 --> 00:04:46.000] Alaska was, you know
+  [00:04:46.000 --> 00:04:50.000] right there alongside, alongside
+  [00:04:50.000 --> 00:04:56.000] and, he, jumped on board to be like
+  [00:04:56.000 --> 00:05:01.000] there for so much more than just a week of
+  [00:05:01.000 --> 00:05:06.000] DevCon. It's been months, three months, that Alaska and I have been
+  [00:05:06.000 --> 00:05:11.000] really huddled up together, and, we went through kind of up, the ups and downs of, of
+  [00:05:11.000 --> 00:05:16.000] tour last year where we, we played ECC together, and then we
+  [00:05:16.000 --> 00:05:21.000] together, and those are like two iconic
+  [00:05:21.000 --> 00:05:26.000] Palaeste Festivals and Cons, and then the,
+  [00:05:26.000 --> 00:05:31.000] Municipal Palace in Prague, and the Queen Siri Krot
+  [00:05:31.000 --> 00:05:34.000] Rural in Argentina,
+  [00:05:34.000 --> 00:05:39.000] another iconic venue, and now the World Geo Center, where the three of us, like
+  [00:05:39.000 --> 00:05:44.000] yeah, we weren't just a trio, we
+  [00:05:44.000 --> 00:05:45.000] was all of ours, and it was beautiful. So Alaska,
+  [00:05:44.000 --> 00:05:49.000] please, excited to hear from you.
+
+[0:05:49] Alaska:
+  [00:05:49.000 --> 00:05:54.000] Yeah, I mean, you know, I think on
+  [00:05:54.000 --> 00:05:56.000] my end, everything was awesome. I, I kind of wanted to see, yeah, how we continue to like follow up with
+  [00:05:56.000 --> 00:06:01.000] all of the next kind of
+  [00:06:01.000 --> 00:06:06.000] events going on next year, cuz I think
+  [00:06:06.000 --> 00:06:11.000] create the space, and then also feel good about it, you
+  [00:06:11.000 --> 00:06:16.000] about what happened, there could be things better, but we also felt
+  [00:06:16.000 --> 00:06:21.000] received, right? Which is awesome. I don't know about you, Shaka, but I felt like, yeah, I felt like we
+  [00:06:21.000 --> 00:06:26.000] the team and not just some sort of like a weird additional thing
+  [00:06:26.000 --> 00:06:30.000] in the corner, and the production saw us, and they were super supportive and
+  [00:06:30.000 --> 00:06:35.000] super fantastic, inspiring. And so, yeah, I mean, as we kind of move forward, it'd be cool to see
+  [00:06:35.000 --> 00:06:40.000] how we keep the conversation alive, at least probably, like, you know, the
+  [00:06:40.000 --> 00:06:45.000] right now, cuz everyone's beat from DevCon, you know? So, it'll
+  [00:06:45.000 --> 00:06:50.000] be our job to keep chatting and hanging out, and then, you know, things will heat up eventually. And then,
+  [00:06:50.000 --> 00:06:55.000] events we can do next year. And, you know, I think the
+  [00:06:55.000 --> 00:06:58.000] bigger dream is finding a way to have a sort of protocol with everyone else in the team
+  [00:06:58.000 --> 00:07:02.000] to do things kind of globally if there's more events and figuring out how we can get it.
+  [00:07:02.000 --> 00:07:07.000] Kind of instantiated in the like wider system, right?
+  [00:07:07.000 --> 00:07:12.000] But for now, I'm just kind of waiting to
+  [00:07:12.000 --> 00:07:14.000] see what happens from all of our, you know, goodwill and good times and,
+  [00:07:14.000 --> 00:07:19.000] In the meantime, you know.
+  [00:07:19.000 --> 00:07:24.000] decompressing on my own and trying to like figure
+  [00:07:24.000 --> 00:07:29.000] steps cuz I think it would also be great to figure out how to make it also a little
+  [00:07:29.000 --> 00:07:34.000] mechanism and I think, you know, there's so many interesting ways to
+  [00:07:34.000 --> 00:07:36.000] do that that like keep the spirit really strong and that's just a creative endeavor. You know, there's a million ways to
+  [00:07:36.000 --> 00:07:41.000] do it. I don't really have any sort of like
+  [00:07:41.000 --> 00:07:46.000] impulses as to what that looks like, but
+  [00:07:46.000 --> 00:07:51.000] it would be fantastic. I think one of the things that, you know, I did feel is, yeah, we were
+  [00:07:51.000 --> 00:07:55.000] stretched a bit thin this year. and we still made it through, which is great. but yeah, I
+  [00:07:55.000 --> 00:08:00.000] see what goes on, I think there's no foreseeable events.
+  [00:08:00.000 --> 00:08:03.000] That I'll be to this year, maybe next year, but, you know,
+  [00:08:03.000 --> 00:08:12.000] Shaka, you're already back at it doing music in Chiang Mai, I'm sure.
+
+[0:08:12] Shaka:
+  [00:08:12.000 --> 00:08:15.000] I am back at it, and also bringing in Mary. I think
+
+[0:08:15] Alaska:
+  [00:08:15.000 --> 00:08:16.000] Hell yeah, Mary's amazing.
+
+[0:08:16] Shaka:
+  [00:08:16.000 --> 00:08:21.000] Mary is going to join us right now. popping in, and then I'll
+  [00:08:21.000 --> 00:08:26.000] Aloha, Mary, welcome, we are
+  [00:08:26.000 --> 00:08:28.000] recording, so if you give consent in presence, we'd love, we'd love to see you and hear from you
+  [00:08:28.000 --> 00:08:33.000] and, your ambience at DevCon was
+  [00:08:33.000 --> 00:08:34.000] fabulous. so welcome, Mary, and,
+
+[0:08:33] Ben:
+  [00:08:33.000 --> 00:08:41.000] Hi, Mary.
+
+[0:08:41] Shaka:
+  [00:08:41.000 --> 00:08:43.000] She's not there, I'll quickly
+  [00:08:43.000 --> 00:08:44.000] respond to what Alaska just said. so yeah, I think that
+  [00:08:44.000 --> 00:08:48.000] that
+  [00:08:48.000 --> 00:08:49.000] the sustainability
+
+[0:08:49] Mary (via text chat):
+  [00:08:49.000 --> 00:08:51.000] Hey everyone! I'm on the road right now, so I'll mostly be listening in today
+
+[0:08:51] Shaka:
+  [00:08:51.000 --> 00:08:56.000] part is definitely where the idea of the Dow comes in. You know, that
+  [00:08:56.000 --> 00:08:59.000] Oops, Mary just went, hey everyone, I'm on the road right now. Okay, cool,
+  [00:08:59.000 --> 00:09:01.000] glad you're here that you can be listening, Mary.
+  [00:09:01.000 --> 00:09:02.000] and ... yeah, and she gave hearts.
+
+[0:09:02] Alaska:
+  [00:09:02.000 --> 00:09:03.000] Thanks.
+
+[0:09:03] Shaka:
+  [00:09:03.000 --> 00:09:08.000] So, and then,
+  [00:09:08.000 --> 00:09:09.000] yeah, so Ben whispered at one
+
+[0:09:09] Ben (via text chat):
+  [00:09:09.000 --> 00:09:13.000] Awesome!
+
+[0:09:13] Shaka:
+  [00:09:13.000 --> 00:09:18.000] point, in the sanctuary, I love how it was a music sanctuary this year and not a music
+  [00:09:18.000 --> 00:09:22.000] actually a big part of its success, and why it felt like everyone really
+  [00:09:22.000 --> 00:09:25.000] held its essence together this year.
+  [00:09:25.000 --> 00:09:30.000] and, I think that
+  [00:09:30.000 --> 00:09:35.000] it had that, it had that kind of feeling
+  [00:09:35.000 --> 00:09:40.000] feeling in, Bogota, because there,
+  [00:09:40.000 --> 00:09:45.000] it was really easy to just walk up there. So, that was actually, I
+  [00:09:45.000 --> 00:09:50.000] think, a little bit of the, ... there was a limited space
+  [00:09:50.000 --> 00:09:55.000] on the stage in, in Bang ... and although we were in La Burelle, we had a huge,
+  [00:09:55.000 --> 00:09:59.000] ... DefConnect was massive, you know, like, when you make it on a, put it on a platform of a stage,
+  [00:09:59.000 --> 00:10:04.000] and then you also have a drum kit and a whole full back line there, you know, space is limited.
+  [00:10:04.000 --> 00:10:09.000] So, that's actually really beautiful, the way that the circle and the
+  [00:10:09.000 --> 00:10:14.000] year. So, big props to Tomo and,
+  [00:10:14.000 --> 00:10:19.000] DevCon team and, they, they, Tomo had the idea of
+  [00:10:19.000 --> 00:10:24.000] it being a circle, in the first place, and I think that was just beautiful to all be
+  [00:10:24.000 --> 00:10:27.000] facing each other. And there was one moment in the circle of the sanctuary where Ben, Ben kind
+  [00:10:27.000 --> 00:10:30.000] at me, he's like, "Yeah, we should make a Dow."
+
+[0:10:30] Alaska:
+  [00:10:30.000 --> 00:10:31.000] Oh yeah.
+
+[0:10:31] Ben:
+  [00:10:31.000 --> 00:10:33.000] Might as well.
+
+[0:10:33] Shaka:
+  [00:10:33.000 --> 00:10:38.000] Yeah, so like, that kind of stuck with
+  [00:10:38.000 --> 00:10:43.000] me, and I knew that Ben, being a strong developer, and he sang, sang with me in every
+  [00:10:43.000 --> 00:10:48.000] hackathon, and then we've also been a part of some really cool projects that friends have put together, like
+  [00:10:48.000 --> 00:10:53.000] Broadcaster, who was Carlota's sister,
+  [00:10:53.000 --> 00:10:58.000] Pablo created the first NFT live streaming on a smart contract, and Ben
+  [00:10:58.000 --> 00:11:03.000] singing, on the first live stream that went on a smart contract
+  [00:11:03.000 --> 00:11:08.000] ETH Berlin 2022, and Pablo not only taught me how to do a lot of live streaming, he taught
+  [00:11:08.000 --> 00:11:13.000] lot of live streaming, and Carlota is now the head of AV for the
+  [00:11:13.000 --> 00:11:18.000] DevCon team, and it was a complete dream to have Carlota and Tomo be a
+  [00:11:18.000 --> 00:11:23.000] part of our music sanctuary team, and it, it, that's really was the magic sauce to what you were
+  [00:11:23.000 --> 00:11:28.000] talking about, Alaska, about the difference maker between this year,
+  [00:11:28.000 --> 00:11:33.000] we, it was, and actually the last two DevCons, there were three Dev,
+  [00:11:33.000 --> 00:11:37.000] last year, it did feel like it was
+  [00:11:37.000 --> 00:11:42.000] more on the DIP level, and it was usually always in like the community center or,
+  [00:11:42.000 --> 00:11:47.000] community area, but this year, actually, yeah, it was taken in as part of
+  [00:11:47.000 --> 00:11:50.000] DevCon, and Carlota and Tomo gave a lot of
+  [00:11:50.000 --> 00:11:55.000] their bandwidth, to make this year really magical, and so
+  [00:11:55.000 --> 00:12:00.000] that was, incredible, and we
+  [00:12:00.000 --> 00:12:03.000] should be really grateful, and that's also what gives me a lot of confidence in creating
+  [00:12:03.000 --> 00:12:08.000] a DAO, because this could hopefully give us more sustainability and more,
+  [00:12:08.000 --> 00:12:13.000] of a stable ground so that we don't have to take more
+  [00:12:13.000 --> 00:12:18.000] bandwidth from the DevCon team, that we can actually put, put more back on their plate
+  [00:12:18.000 --> 00:12:23.000] and not necessarily need to rely on them to get the backline ready for us, that we can be a little bit more
+  [00:12:23.000 --> 00:12:28.000] self-reliant with, the instruments that we bring in, and then we just work with their top-of-the-line
+  [00:12:28.000 --> 00:12:33.000] they always have had. You know, they always have top-of-the-line production. We always
+  [00:12:33.000 --> 00:12:35.000] personally have been bringing in our own gear. Mary, you know, had her ambient,
+  [00:12:35.000 --> 00:12:37.000] set up just sitting there, and actually in a beautiful way, like
+  [00:12:37.000 --> 00:12:42.000] don't want to, like, put too much,
+  [00:12:42.000 --> 00:12:47.000] actually, we, like, in talking about the things that could have gone better, so,
+  [00:12:47.000 --> 00:12:49.000] like, yeah, we had a guitar get cracked, and
+  [00:12:49.000 --> 00:12:54.000] fell on Mary's ambient setup, so that's why the guitar cracked.
+  [00:12:54.000 --> 00:12:59.000] it's, no one is, no one's fault,
+  [00:12:59.000 --> 00:13:04.000] right? It's, and it's, and actually it's not, and I was actually the one who was able to, like,
+  [00:13:04.000 --> 00:13:09.000] responsibility off of the girl who last placed the guitar there,
+  [00:13:09.000 --> 00:13:11.000] myself and off of Mary and share with the DevCon team, and then they also, you
+  [00:13:11.000 --> 00:13:15.000] process with the budget, but it's always, like,
+  [00:13:15.000 --> 00:13:21.000] always kind of, like, rubs it off in a little bit wrong that, like,
+  [00:13:21.000 --> 00:13:26.000] Having the free flexibility
+  [00:13:26.000 --> 00:13:31.000] to be able to bring in more musicians, but then also have more,
+  [00:13:31.000 --> 00:13:36.000] open participation, meaning that people realize that it is an open sanctuary that you can
+  [00:13:36.000 --> 00:13:40.000] instrument, and we have more commitments up
+  [00:13:40.000 --> 00:13:41.000] communicating weekly. I think we should have these calls continue weekly.
+  [00:13:40.000 --> 00:13:42.000] weekly.
+  [00:13:42.000 --> 00:13:47.000] and then,
+  [00:13:47.000 --> 00:13:52.000] having that communication and thanks to our agents.
+  [00:13:52.000 --> 00:13:57.000] so cute up there. Googly Eye is a Grok
+  [00:13:57.000 --> 00:14:02.000] Bot agent who's transcribing this, and they're, I think having agents,
+  [00:14:02.000 --> 00:14:07.000] and then also consistent presence, you know, really
+  [00:14:07.000 --> 00:14:12.000] like the key to a lot of what I'm, what I'm finding
+  [00:14:12.000 --> 00:14:14.000] to make my life so much more, focused on creating is that context is
+  [00:14:14.000 --> 00:14:19.000] everything. So, just sharing the context with the agents.
+  [00:14:19.000 --> 00:14:24.000] allows me, I actually am
+  [00:14:24.000 --> 00:14:27.000] my agents, and I also just share and type everything, and
+  [00:14:27.000 --> 00:14:32.000] this beautiful personality, and then actually what gives that,
+  [00:14:32.000 --> 00:14:37.000] personality a lot of, what I
+  [00:14:37.000 --> 00:14:42.000] would say, utility and permanence, where it's like really has the, a place in the garden of
+  [00:14:42.000 --> 00:14:47.000] infinity, is that I'm open sourcing my agents, and that I'm putting everything on
+  [00:14:47.000 --> 00:14:52.000] GitHub open source, and these repos allow me to share it between agent systems really beautifully and open
+  [00:14:52.000 --> 00:14:57.000] flow, so I even think that if we make open source orchestra, this open pool
+  [00:14:57.000 --> 00:15:02.000] for open protocols, like the pit, fully open source, Onda,
+  [00:15:02.000 --> 00:15:06.000] Global as a project, being open source is great to see, an
+  [00:15:06.000 --> 00:15:11.000] pennies be a great way of instantly going to artists, and,
+  [00:15:11.000 --> 00:15:16.000] bring it back to Pablo with Broadcaster, you know, actually Livepeer just shut down.
+  [00:15:16.000 --> 00:15:20.000] so just, with, with what's on current
+  [00:15:20.000 --> 00:15:25.000] open ground, I think there's a big, a big play where, where live streaming should not be tokenized.
+  [00:15:25.000 --> 00:15:30.000] it should not be its own layer two, it should
+  [00:15:30.000 --> 00:15:35.000] be a public good, open source, and then it's about the streamers, it's about the people putting it out
+  [00:15:35.000 --> 00:15:40.000] there. It's not about the protocol, it's about the people. You know, so if, if we make it about the people and not
+  [00:15:40.000 --> 00:15:44.000] protocols, then we're gonna actually
+  [00:15:44.000 --> 00:15:49.000] see this whole, project, not just become very musical, but also very technical.
+  [00:15:49.000 --> 00:15:50.000] And so with, with, with those thoughts that I've been rambling on,
+  [00:15:50.000 --> 00:15:54.000] thinking?
+
+[0:15:54] Ben:
+  [00:15:54.000 --> 00:15:56.000] Yeah, like, like, I think you've, you've
+  [00:15:56.000 --> 00:16:01.000] head. We
+  [00:16:01.000 --> 00:16:03.000] We would really benefit from the hard work
+  [00:16:03.000 --> 00:16:05.000] of everyone, and, and East, Eastman By was phenomenal.
+  [00:16:05.000 --> 00:16:10.000] I was fortunate to go to
+  [00:16:10.000 --> 00:16:15.000] three main events over the ten days I
+  [00:16:15.000 --> 00:16:18.000] was in Mumbai. I went to DeFi Security Summit, day one and two. I went
+  [00:16:18.000 --> 00:16:20.000] went to the East Global. And honestly,
+  [00:16:20.000 --> 00:16:25.000] the open source orchestra
+  [00:16:25.000 --> 00:16:30.000] what Shaka and Alaska and
+  [00:16:30.000 --> 00:16:34.000] Vivek and Nidhi and Dev, you know, and Levi and Sonia, and what
+  [00:16:34.000 --> 00:16:39.000] it's just absolutely sensational. It really was the hub of DEF CON.
+  [00:16:39.000 --> 00:16:43.000] So, when Shaka said to me one morning,
+  [00:16:43.000 --> 00:16:45.000] I think it was the, the last day that, oh, they think they're gonna pull, and we're gonna struggle with finances, I'm like, oh, no.
+  [00:16:45.000 --> 00:16:50.000] we can't, because
+  [00:16:50.000 --> 00:16:55.000] , you know, I, I haven't, haven't met up with Shaka for some
+  [00:16:55.000 --> 00:17:00.000] time. It was Bangkok, there was Amsterdam, Paris, I think Berlin, and then for some time since
+  [00:17:00.000 --> 00:17:03.000] Bangkok, we haven't really seen. So, like, oh, wow, we gotta keep this going, you
+  [00:17:03.000 --> 00:17:05.000] thoughts now is, can we get some kind of
+  [00:17:05.000 --> 00:17:09.000] ongoing funding?
+  [00:17:09.000 --> 00:17:14.000] Someone go and source the phone is so that you know the situations of the guitar.
+  [00:17:14.000 --> 00:17:16.000] for example, somebody trying to pull the funding, that kind of thing.
+  [00:17:16.000 --> 00:17:21.000] That's where I really am. So
+  [00:17:21.000 --> 00:17:26.000] I think I would, I would like
+  [00:17:26.000 --> 00:17:32.000] to partner up with me of really trying to see can we
+  [00:17:32.000 --> 00:17:37.000] get some grant or funding in. The SHAKA built something really brilliant for the hackathon,
+  [00:17:37.000 --> 00:17:42.000] pictures today on,
+  [00:17:42.000 --> 00:17:46.000] on X. You featured. So, you know, music has a
+  [00:17:46.000 --> 00:17:48.000] lot of opportunities for decentralization itself. We have a lot of talented musicians and individuals from all walks of life coming together.
+  [00:17:48.000 --> 00:17:49.000] I think we, if we come together,
+  [00:17:49.000 --> 00:17:54.000] actually even
+  [00:17:54.000 --> 00:17:58.000] master out, even just for the whole year, if we know we have funding just to cover the whole year.
+  [00:17:58.000 --> 00:18:03.000] So we know we got Cannes, and then we got New York.
+  [00:18:03.000 --> 00:18:07.000] Then we got New York. With Cannes, we got also the Pragma. Then you got
+  [00:18:07.000 --> 00:18:11.000] Japan. And then it culminates with Delcon 9 in Lisbon.
+  [00:18:11.000 --> 00:18:14.000] If at least we know, at least for that year, we have the funding covered.
+  [00:18:14.000 --> 00:18:19.000] Then people can feel more comfortably.
+  [00:18:19.000 --> 00:18:21.000] know, coming together. So that's, that's really where I am.
+  [00:18:21.000 --> 00:18:26.000] what I want to try and bring to the table.
+
+[0:18:26] Shaka:
+  [00:18:26.000 --> 00:18:32.000] Yeah, you know, it's like
+  [00:18:32.000 --> 00:18:35.000] I guess to touch a little bit on like the
+  [00:18:35.000 --> 00:18:38.000] threshold, and I think that's because
+  [00:18:38.000 --> 00:18:39.000] part of the journey has been
+  [00:18:39.000 --> 00:18:44.000] been
+  [00:18:44.000 --> 00:18:46.000] the last, it's been now
+  [00:18:46.000 --> 00:18:51.000] year, of trying to
+  [00:18:51.000 --> 00:18:54.000] make a space,
+  [00:18:54.000 --> 00:18:59.000] for music to be openly shared.
+  [00:18:59.000 --> 00:19:04.000] And it started with an
+  [00:19:04.000 --> 00:19:07.000] ukulele in the corner of the main, foray lobby in
+  [00:19:07.000 --> 00:19:12.000] Ben walked up and started singing next to me.
+  [00:19:12.000 --> 00:19:14.000] that friendship has had longevity as well as,
+  [00:19:14.000 --> 00:19:19.000] a lot of
+  [00:19:19.000 --> 00:19:24.000] , a lot of gravity of, of flying
+  [00:19:24.000 --> 00:19:28.000] landing and then new destination and then
+  [00:19:28.000 --> 00:19:31.000] having that continuity of, you know, singing and playing music together while we're building.
+  [00:19:31.000 --> 00:19:36.000] you know, and then Alaska.
+  [00:19:36.000 --> 00:19:40.000] been there as well,
+  [00:19:40.000 --> 00:19:44.000] since 2024, and through so much more, like, we did do the, like, a tour this year.
+  [00:19:44.000 --> 00:19:49.000] You know, it was like an actual tour, and it was,
+  [00:19:49.000 --> 00:19:53.000] very, reminiscent of,
+  [00:19:53.000 --> 00:19:58.000] love singing about it, in 2024 when we packed a bus from Chiang Mai.
+  [00:19:58.000 --> 00:20:03.000] and took it down to Bangkok, now that I'm here
+  [00:20:03.000 --> 00:20:08.000] Chiang Mai, so we packed one of those big two-story buses and,
+  [00:20:08.000 --> 00:20:13.000] do it, you know, I actually got reimbursed by
+  [00:20:13.000 --> 00:20:16.000] EF Road to DevCon afterward. So there actually, there actually is a lot, a lot
+  [00:20:16.000 --> 00:20:21.000] of benefit to having a treasury that we can just get out there and accomplish,
+  [00:20:21.000 --> 00:20:25.000] On the forefront, what has always been the
+  [00:20:25.000 --> 00:20:30.000] establishment, which is music is a gift, and we have an open door to give it.
+  [00:20:30.000 --> 00:20:32.000] So if we can find a way to fund it on
+  [00:20:32.000 --> 00:20:34.000] ourselves, we can follow through on continuing to give that gift.
+  [00:20:34.000 --> 00:20:38.000] And then I think the continuity
+  [00:20:38.000 --> 00:20:43.000] of keeping the fundraising going is that,
+  [00:20:43.000 --> 00:20:46.000] We fundraise based off what we did
+  [00:20:46.000 --> 00:20:51.000] retroactively. So we have a lot of great photos, we have a lot of great proof of work from last year.
+  [00:20:51.000 --> 00:20:56.000] that we can try and get, get the
+  [00:20:56.000 --> 00:21:01.000] you said, ECC, East, East Global New York, and
+  [00:21:01.000 --> 00:21:06.000] , and then, like, see if Tokyo can take us to
+  [00:21:06.000 --> 00:21:11.000] Lisbon. and then hacking along the way, because now you can do continuity
+  [00:21:11.000 --> 00:21:16.000] projects. So, open source orchestra can, be a present team
+  [00:21:16.000 --> 00:21:21.000] participating as, hacking and, based off of the trust and
+  [00:21:21.000 --> 00:21:26.000] door at East Global, we can probably continue to show
+  [00:21:26.000 --> 00:21:27.000] up with a little more instruments, and fill the space with a little musical corner
+  [00:21:27.000 --> 00:21:32.000] continually. why? Because we're not
+  [00:21:32.000 --> 00:21:37.000] , we're not, we're not
+  [00:21:37.000 --> 00:21:42.000] East Global for it, we're charging forward with open source
+  [00:21:42.000 --> 00:21:47.000] protocols, playing music together, and then being open, allowing it to be open
+  [00:21:47.000 --> 00:21:52.000] other people to be a part of, of a sense
+  [00:21:52.000 --> 00:21:55.000] consensus that already is there. Because I think consent and consensus is a big part
+  [00:21:55.000 --> 00:21:59.000] fluent, you know, like,
+  [00:21:59.000 --> 00:22:06.000] And so many times, like,
+  [00:22:06.000 --> 00:22:11.000] I need to take myself out of
+  [00:22:11.000 --> 00:22:16.000] the space, and that's when, and being able to walk away
+  [00:22:16.000 --> 00:22:20.000] is completely important because it should not be dependent on one person, or else it's not,
+  [00:22:20.000 --> 00:22:24.000] passing the crops, walk away test of, and so.
+  [00:22:24.000 --> 00:22:29.000] You know, open source orchestra, for the longest time I was saying it should not be.
+  [00:22:29.000 --> 00:22:34.000] monetized, and that it should, and I don't want it to be
+  [00:22:34.000 --> 00:22:35.000] project that I want it to be, but my project that I'm starting, but I want it to be a
+  [00:22:35.000 --> 00:22:41.000] protocol that's shared by many people. Well, now I think.
+  [00:22:41.000 --> 00:22:46.000] I believe that, like, other people
+  [00:22:46.000 --> 00:22:51.000] believe that this thing is most powerful if, like, all ducks fly together. You know,
+  [00:22:51.000 --> 00:22:56.000] it's like, it's like, as Kyle has said, like, oh, open source orchestra is a dream team.
+  [00:22:56.000 --> 00:23:01.000] It's like the, it's like all the superheroes coming together. So, like, Alaska
+  [00:23:01.000 --> 00:23:06.000] should be there with Subcult, with, with Onda, with all the great things that he brings to
+  [00:23:06.000 --> 00:23:11.000] alongside, Swarm, you know, to make
+  [00:23:11.000 --> 00:23:16.000] these, streaming platforms now. You know, we don't need to stream on live here. We can go
+  [00:23:16.000 --> 00:23:21.000] stream on, on Subcult, right there. Just go right there, click stream, go, and then it shows up right in
+  [00:23:21.000 --> 00:23:23.000] little Subcult world. And likely, as
+  [00:23:23.000 --> 00:23:25.000] my airport.
+  [00:23:25.000 --> 00:23:27.000] We can.
+  [00:23:27.000 --> 00:23:32.000] We can,
+  [00:23:32.000 --> 00:23:37.000] He's, he's also dreaming of creating
+  [00:23:37.000 --> 00:23:42.000] like your own custom front ends for Subcult, so I'll be able to like have lots of fun with my agents, cause
+  [00:23:42.000 --> 00:23:47.000] agents have already successfully posted a song on Subcult. So like, it's just gonna be a really
+  [00:23:47.000 --> 00:23:52.000] drop it all over the place, where one, one
+  [00:23:52.000 --> 00:23:57.000] piece of content, one song, one piece of lyrics, if you put a, if you
+  [00:23:57.000 --> 00:24:02.000] then share it with the world, it can meet infinite platforms. So.
+  [00:24:02.000 --> 00:24:03.000] Alaska, I'd love to hear what you're building with Subcult.
+  [00:24:03.000 --> 00:24:04.000] Subcult.
+
+[0:24:04] Alaska:
+  [00:24:04.000 --> 00:24:09.000] Thank you. Yeah, it's a dream.
+  [00:24:09.000 --> 00:24:14.000] And you know, the only reason I do it is because I'm inspired hanging out
+  [00:24:14.000 --> 00:24:19.000] everyone else that I've met along the way. You know, there's
+  [00:24:19.000 --> 00:24:22.000] we want, you know? Just have to build the tools and keep
+  [00:24:22.000 --> 00:24:27.000] on coming together, making music and, you know, making new ways to be
+  [00:24:27.000 --> 00:24:32.000] you know, kind of old tools are all falling
+  [00:24:32.000 --> 00:24:37.000] apart, you know? And so, I mean, my care for ETH and Ethereum and all the people we've met in the
+  [00:24:37.000 --> 00:24:42.000] community is, you know, it's, it's the people who are really trying to build a better,
+  [00:24:42.000 --> 00:24:44.000] stronger future, you know? And so that's who I want to hang out with. So it's a pleasure that we get to do
+  [00:24:44.000 --> 00:24:47.000] that through the context of music and it's quite weird.
+  [00:24:47.000 --> 00:24:51.000] It's novel and exciting, right?
+
+[0:24:51] Shaka:
+  [00:24:51.000 --> 00:24:54.000] Totally
+  [00:24:54.000 --> 00:24:56.000] Yeah, no, it's very novel, very exciting.
+  [00:24:56.000 --> 00:25:01.000] And
+  [00:25:01.000 --> 00:25:06.000] , yeah, like, take us through, take us through a
+  [00:25:06.000 --> 00:25:11.000] memory banks of
+  [00:25:11.000 --> 00:25:13.000] go, walking up the red carpet in Cannes, like we're, we're there, like
+
+[0:25:13] Alaska:
+  [00:25:13.000 --> 00:25:14.000] Haha
+
+[0:25:14] Shaka:
+  [00:25:14.000 --> 00:25:15.000] festival. And,
+
+[0:25:14] Alaska:
+  [00:25:14.000 --> 00:25:19.000] .
+
+[0:25:19] Shaka:
+  [00:25:19.000 --> 00:25:24.000] and then we get to go in the artist's backdoor
+  [00:25:24.000 --> 00:25:29.000] to load up the instruments and, we're already friends with the production team because we did the gig
+  [00:25:29.000 --> 00:25:34.000] there last year, or the year bef, yeah, we did the year, it was the second year in the,
+  [00:25:34.000 --> 00:25:39.000] fingers crossed and sending lots of love to the FCC team. We
+  [00:25:39.000 --> 00:25:44.000] love to make the dream of by the sea come together again. And this
+  [00:25:44.000 --> 00:25:47.000] time, we'd love to pack it with more friends and more instruments, so why not pull a bus
+  [00:25:47.000 --> 00:25:50.000] up, in the back artist's door by the yachts,
+  [00:25:50.000 --> 00:25:55.000] Maybe someday we'll even pull a zoo cruise up to the
+  [00:25:55.000 --> 00:25:56.000] , the Palaise de Festival. I'm dreaming too big, but
+  [00:25:56.000 --> 00:25:57.000] like, it, it's always been about dreaming.
+
+[0:25:57] Ben:
+  [00:25:57.000 --> 00:25:58.000] Nothing wrong with that.
+
+[0:25:58] Shaka:
+  [00:25:58.000 --> 00:26:00.000] It's always been about dreaming.
+  [00:26:00.000 --> 00:26:01.000] And now, and now we're
+
+[0:26:01] Alaska:
+  [00:26:01.000 --> 00:26:02.000] Yeah.
+
+[0:26:02] Ben:
+  [00:26:02.000 --> 00:26:03.000] That's, that's the only luxury we have is in Alaska.
+
+[0:26:03] Alaska:
+  [00:26:03.000 --> 00:26:07.000] Yeah.
+
+[0:26:07] Ben:
+  [00:26:07.000 --> 00:26:08.000] We're limited in so many things,
+
+[0:26:07] Alaska:
+  [00:26:07.000 --> 00:26:08.000] No.
+
+[0:26:08] Ben:
+  [00:26:08.000 --> 00:26:10.000] but nobody can limit you dreaming. You might as well dream as big as possible.
+
+[0:26:10] Shaka:
+  [00:26:10.000 --> 00:26:13.000] You know, if someone has, if someone does have a boat
+
+[0:26:13] Ben:
+  [00:26:13.000 --> 00:26:15.000] Yeah.
+
+[0:26:15] Shaka:
+  [00:26:15.000 --> 00:26:20.000] out there and they want to park it behind the Palaise, they, they have festivals
+  [00:26:20.000 --> 00:26:22.000] some crypto millionaire out there that wants to host the open source orchestra
+
+[0:26:22] Ben:
+  [00:26:22.000 --> 00:26:25.000] Yeah.
+
+[0:26:25] Shaka:
+  [00:26:25.000 --> 00:26:28.000] and park your boat right behind the venue. And Alaska's got an
+
+[0:26:28] Ben:
+  [00:26:28.000 --> 00:26:30.000] Thank you.
+
+[0:26:30] Shaka:
+  [00:26:30.000 --> 00:26:35.000] incredible singer, and we'll pretty much turn that thing into like,
+  [00:26:35.000 --> 00:26:38.000] a, a Vinci with, you know, Buddy Guy on top of
+  [00:26:38.000 --> 00:26:40.000] a boat is pretty much what that thing is going to turn into at night.
+
+[0:26:40] Ben:
+  [00:26:40.000 --> 00:26:45.000] Yeah. But what, what, you know, not thinking we can
+  [00:26:45.000 --> 00:26:50.000] do shaka is, if we can all come together and try to
+  [00:26:50.000 --> 00:26:55.000] get like, a standard song that we know, any Web3 event, any major Web3
+  [00:26:55.000 --> 00:27:00.000] event, we use as the opening song. I think, you know like, you know like you have, like
+  [00:27:00.000 --> 00:27:05.000] have, TV music, you have
+  [00:27:05.000 --> 00:27:07.000] music, you have something that just, you know, anytime, anytime the
+  [00:27:07.000 --> 00:27:08.000] snippet of this just played.
+  [00:27:08.000 --> 00:27:10.000] played.
+  [00:27:10.000 --> 00:27:13.000] For every.
+
+[0:27:13] Shaka:
+  [00:27:13.000 --> 00:27:18.000] Well, I think you, I think you nailed it, Ben. It's your, it's your voice,
+  [00:27:18.000 --> 00:27:22.000] brother. I mean, we, we've got the, we've got the first open source orchestra
+
+[0:27:22] Ben:
+  [00:27:22.000 --> 00:27:23.000] Yeah, yeah, yeah. But I think even, even if
+
+[0:27:22] Shaka:
+  [00:27:22.000 --> 00:27:27.000] single on its way, cause we had Emerge. We had Emerge there with our brother Levi.
+
+[0:27:27] Ben:
+  [00:27:27.000 --> 00:27:31.000] together and just like really get
+  [00:27:31.000 --> 00:27:36.000] something that we can just position to like, even cause we just had break point now. For example, we just had break point in London.
+  [00:27:36.000 --> 00:27:40.000] And break point was massive.
+  [00:27:40.000 --> 00:27:46.000] Ethereum are competitors. But if we have one song that cuts across.
+  [00:27:46.000 --> 00:27:50.000] That we can just position. And then, even
+  [00:27:50.000 --> 00:27:55.000] if we get four or five major platforms just using it for every major organization, then.
+  [00:27:55.000 --> 00:28:00.000] Look at, almost close to 5,000 people came to
+  [00:28:00.000 --> 00:28:03.000] Ether, Ether, Defcon, to Defcon. So, so many new people. So once they
+  [00:28:03.000 --> 00:28:04.000] just hear that music comes on at the big opening ceremony, end of the ceremony.
+  [00:28:04.000 --> 00:28:10.000] You know.
+  [00:28:10.000 --> 00:28:15.000] That in itself, I, I think is kind of what we should aim
+  [00:28:15.000 --> 00:28:20.000] for. We have so much talent and so much ability that I think we can just really put something together. Alaska, you
+  [00:28:20.000 --> 00:28:21.000] I'm coming from like, really put something together. And then every time it's just the, and then
+  [00:28:21.000 --> 00:28:22.000] license it out.
+  [00:28:21.000 --> 00:28:25.000] out.
+
+[0:28:25] Shaka:
+  [00:28:25.000 --> 00:28:30.000] Oh, did, actually, on that point, and I'm saying, I'm
+  [00:28:30.000 --> 00:28:31.000] inspiring, because we need more songs. I've been, like, we need more songs. I've been singing the same
+
+[0:28:31] Ben:
+  [00:28:31.000 --> 00:28:35.000] Yeah.
+
+[0:28:35] Shaka:
+  [00:28:35.000 --> 00:28:40.000] years, and Alaska's, like, got some great packing tracks that I remember
+  [00:28:40.000 --> 00:28:45.000] we played with a couple times, like, the more there's familiarity with the track actually does, like, grow into
+  [00:28:45.000 --> 00:28:50.000] really special. And then the licensing, you know, so one really interesting experiment
+  [00:28:50.000 --> 00:28:55.000] is, with Grok Bot, is, ask Grok Bot to teach you songs, just any song, and they
+  [00:28:55.000 --> 00:29:00.000] any songs, but it cannot put, teach you, it cannot show you the chords with the
+  [00:29:00.000 --> 00:29:05.000] lyrics in Grok Bot because of copyright rules and transcribing. But, if you ask,
+  [00:29:05.000 --> 00:29:10.000] ask Grok Bot any of, say, hey Grok Bot, teach me any of, any of Shaka
+  [00:29:10.000 --> 00:29:15.000] because my music is, C
+  [00:29:15.000 --> 00:29:20.000] C B Y 4.0 open source copylefted, Grok
+  [00:29:20.000 --> 00:29:25.000] Bot can show you the lyrics and the chords. So, the more we do have more music
+  [00:29:25.000 --> 00:29:30.000] that we put into the repertoire that is open source, like, it actually should be very easily
+  [00:29:30.000 --> 00:29:35.000] transcribable and shared, and then learnable, just by asking our agents, saying, hey, so we just gotta, we just
+  [00:29:35.000 --> 00:29:38.000] right? And so, like, that's another great thing about open source orchestra dot org, is that,
+
+[0:29:38] Ben:
+  [00:29:38.000 --> 00:29:40.000] Yeah.
+
+[0:29:40] Shaka:
+  [00:29:40.000 --> 00:29:45.000] things on the internet. and then, and then archiving them along the way,
+  [00:29:45.000 --> 00:29:50.000] too, so that, like, even the old versions kinda stay, stay, a
+  [00:29:50.000 --> 00:29:55.000] and then, we can keep updating. So, I did do a
+  [00:29:55.000 --> 00:30:00.000] lot of updates to open source orchestra dot org since DEFCON. you know, added
+  [00:30:00.000 --> 00:30:04.000] like, a mandala page, like, actually it was Alaska, I was just
+
+[0:30:04] Ben:
+  [00:30:04.000 --> 00:30:05.000] Oh, that made that amazing.
+
+[0:30:05] Shaka:
+  [00:30:05.000 --> 00:30:10.000] photos are unreal. Like, like, give it to me. Can't, can't
+  [00:30:10.000 --> 00:30:15.000] Alaska says, I'm sure the Ohana is gonna have fun with
+  [00:30:15.000 --> 00:30:20.000] those pictures. And that was exactly right. I just went out there and gave the Ohana the Google, Google Drive, and
+  [00:30:20.000 --> 00:30:21.000] DEFCON for, whoever the photographer is, for
+
+[0:30:21] Ben:
+  [00:30:21.000 --> 00:30:22.000] Yeah.
+
+[0:30:22] Shaka:
+  [00:30:22.000 --> 00:30:27.000] DEFCON this year, mad props. beautiful shots.
+
+[0:30:27] Ben:
+  [00:30:27.000 --> 00:30:32.000] And I, and I think I, I,
+  [00:30:32.000 --> 00:30:37.000] okay, for example, I'm pioneering, Web3 across Leeds. So I have a, like
+  [00:30:37.000 --> 00:30:41.000] a mini discussions with primary schools. So I'll be going into primary schools
+  [00:30:41.000 --> 00:30:46.000] you know, really basic projects at the basic Web3 level.
+  [00:30:46.000 --> 00:30:51.000] To introduce Web3 and
+  [00:30:51.000 --> 00:30:56.000] blockchain to them. Nothing complicated. So, you know, something that, if that platform actually starts to grow, leads to a
+  [00:30:56.000 --> 00:31:00.000] of 850,000 people. And then every time, if I go, if I
+  [00:31:00.000 --> 00:31:05.000] each session, each slide, you imagine across primary schools, secondary schools.
+  [00:31:05.000 --> 00:31:10.000] The long-term vision also is to actually go up to the universities, because
+  [00:31:10.000 --> 00:31:15.000] city. You see? That can be extended to
+  [00:31:15.000 --> 00:31:18.000] extended to Birmingham, because the platform is now going to be extended. The long-term vision for me
+  [00:31:18.000 --> 00:31:21.000] is to have this basic platform where kids can come and actually do
+  [00:31:21.000 --> 00:31:26.000] blockchain-related projects.
+  [00:31:26.000 --> 00:31:30.000] That is relevant to them. So, for example, they go to a park, they get
+  [00:31:30.000 --> 00:31:33.000] could make their own token and give their tokens to their friends, that kind of thing.
+  [00:31:33.000 --> 00:31:38.000] I think that would just give us so much exposure.
+  [00:31:38.000 --> 00:31:44.000] And then at some point, hopefully it will start to, we can monetize it.
+  [00:31:44.000 --> 00:31:48.000] That's kind of my, my vision of I'm thinking, you know, because we, we, we, like
+  [00:31:48.000 --> 00:31:53.000] song. If that song, if the audience can sing the song, every time
+  [00:31:53.000 --> 00:31:55.000] time the, the same people that came from East
+  [00:31:55.000 --> 00:31:59.000] Lisbon.
+  [00:31:59.000 --> 00:32:02.000] Okay, we open it with this song, then the crowd already knows the song.
+  [00:32:02.000 --> 00:32:06.000] You know, we just get the crowd going with that first song.
+  [00:32:06.000 --> 00:32:11.000] Okay, this is also going to be sung, you know, these days, the same crowd can come.
+  [00:32:11.000 --> 00:32:12.000] know, so we're not just performing now, we're getting some kind of interaction with it.
+  [00:32:12.000 --> 00:32:17.000] it.
+
+[0:32:17] Shaka:
+  [00:32:17.000 --> 00:32:22.000] I gave confirmation to that inspiration. after
+  [00:32:22.000 --> 00:32:23.000] , after we played the closing ceremony
+
+[0:32:22] Ben:
+  [00:32:22.000 --> 00:32:25.000] Okay.
+
+[0:32:25] Shaka:
+  [00:32:25.000 --> 00:32:30.000] and Alaska played the first beats after the announcement of going to Lisbon,
+  [00:32:30.000 --> 00:32:35.000] I went straight from that closing party downstairs to start hacking with ETH Global.
+  [00:32:35.000 --> 00:32:36.000] And the night before, had stayed at
+  [00:32:36.000 --> 00:32:38.000] the hackathon till about midnight cause I went to the, team formation.
+  [00:32:38.000 --> 00:32:43.000] And,
+  [00:32:43.000 --> 00:32:48.000] in part of the team formation, I found
+  [00:32:48.000 --> 00:32:53.000] out about around midnight, that four, four kids wanted to join my
+  [00:32:53.000 --> 00:32:58.000] that flew in from Japan.
+  [00:32:58.000 --> 00:33:03.000] and convinced his dad to learn about Ethereum and take him to DevCon.
+  [00:33:03.000 --> 00:33:08.000] found the other three on Discord. And so then those four,
+  [00:33:08.000 --> 00:33:12.000] heard my pitch at the team formation at DevCon about open
+  [00:33:12.000 --> 00:33:15.000] source orchestra and, getting X402, gifting rails to all the artists. And
+  [00:33:15.000 --> 00:33:20.000] , he jumped on board to
+  [00:33:20.000 --> 00:33:24.000] , or the whole, all four of them jumped on board to help,
+  [00:33:24.000 --> 00:33:29.000] and like they were super encouraging and, I, there was moments where I just like let them.
+  [00:33:29.000 --> 00:33:34.000] them op, like use my
+  [00:33:34.000 --> 00:33:39.000] building with the Ohana while I was sleeping on the, like sitting there next to
+  [00:33:39.000 --> 00:33:44.000] from, doing music the whole day before and then going
+  [00:33:44.000 --> 00:33:48.000] straight to staying up on my building and then we went and submitted and ETH Global actually just posted a
+  [00:33:48.000 --> 00:33:49.000] picture of, of the team. so you can see Yuki, the 15-year-old ETH team.
+
+[0:33:48] Ben:
+  [00:33:48.000 --> 00:33:50.000] Yeah, I saw it.
+
+[0:33:50] Shaka:
+  [00:33:50.000 --> 00:33:55.000] And I think, I think ETH Global,
+  [00:33:55.000 --> 00:33:59.000] or I think actually the world actually is going to
+
+[0:33:59] Ben:
+  [00:33:59.000 --> 00:34:00.000] Yeah.
+
+[0:34:00] Shaka:
+  [00:34:00.000 --> 00:34:06.000] that they can do this really easily now. especially with
+  [00:34:06.000 --> 00:34:09.000] especially with Grokbot, especially with things like Austin Griffith, ETH Skills. Just
+  [00:34:09.000 --> 00:34:14.000] teach your agent, ETH, the, the skills of Ethereum and like it'll make you completely fluent in this. So like
+  [00:34:14.000 --> 00:34:19.000] know, Yuki at 15-year-olds, he was learning how to write
+  [00:34:19.000 --> 00:34:22.000] Ethereum five years ago, before the, the main fork and was,
+  [00:34:22.000 --> 00:34:27.000] made us for smart contract at 10 years old. So like.
+  [00:34:27.000 --> 00:34:32.000] there's other kids in the orchestra and, and
+  [00:34:32.000 --> 00:34:37.000] encouragement of how beneficial or encouraging
+  [00:34:37.000 --> 00:34:42.000] the orchestra has been to them at hackathons has been the really young kids, you know, who are kind
+  [00:34:42.000 --> 00:34:45.000] doing it for the first time, in their late
+  [00:34:45.000 --> 00:34:47.000] teenage years or young twenties. And, so I, I think that
+  [00:34:47.000 --> 00:34:50.000] there's
+  [00:34:50.000 --> 00:34:56.000] Like, like you said, I think there's a lot of
+  [00:34:56.000 --> 00:34:57.000] beautiful things we can do on the education side
+
+[0:34:57] Ben:
+  [00:34:57.000 --> 00:35:01.000] Yeah.
+
+[0:35:01] Shaka:
+  [00:35:01.000 --> 00:35:02.000] and then, and then think about preparing tours with like, a daytime visit
+
+[0:35:02] Ben:
+  [00:35:02.000 --> 00:35:06.000] Yeah.
+
+[0:35:06] Shaka:
+  [00:35:06.000 --> 00:35:07.000] to a high school. you know, you know, we're, that's actually a great foot in the door,
+
+[0:35:06] Ben:
+  [00:35:06.000 --> 00:35:11.000] Yeah.
+
+[0:35:11] Shaka:
+  [00:35:11.000 --> 00:35:14.000] orchestra, and we can go play some songs that have a little bit of
+  [00:35:14.000 --> 00:35:17.000] fun facts to it. And, I actu, I, yeah.
+
+[0:35:17] Ben:
+  [00:35:17.000 --> 00:35:22.000] We could even have our own talks, even at DEFCON even, like
+  [00:35:22.000 --> 00:35:27.000] even our own talks, because dissent, I, I, I'll tell you guys, sorry to jump in, I'll tell you guys something really
+  [00:35:27.000 --> 00:35:32.000] interesting. That, the, because from a developer's perspective, and from a, from somebody who owns a
+  [00:35:32.000 --> 00:35:35.000] business, there's a massive, massive push, there's a massive swing in Web3. A lot of people
+  [00:35:35.000 --> 00:35:40.000] very disillusioned. And a lot of people are very disillusioned with Ethereum.
+  [00:35:40.000 --> 00:35:45.000] I know, because I don't know if you guys have been following my Twitter
+  [00:35:45.000 --> 00:35:50.000] every single talk from DEFCON. I've been listening
+  [00:35:50.000 --> 00:35:55.000] through every single talk, and a lot of people are just really worried. So,
+  [00:35:55.000 --> 00:35:59.000] young people that came, that listened to us at the open source
+  [00:35:59.000 --> 00:36:04.000] orchestra, they have two minds. Why should I get into Web3? Now, what a lot of them want is
+  [00:36:04.000 --> 00:36:09.000] something that is personal and passionate to them.
+  [00:36:09.000 --> 00:36:12.000] become a Web3 music platform, not just an open source
+  [00:36:12.000 --> 00:36:17.000] orchestra, where we're building different kind of projects related to music. And a lot of people
+  [00:36:17.000 --> 00:36:20.000] very, very keen to come in. Next week now I'm having
+  [00:36:20.000 --> 00:36:22.000] Nidhi. So we're meeting up on a Tuesday.
+  [00:36:22.000 --> 00:36:27.000] You know, we're going to do some writing session.
+  [00:36:27.000 --> 00:36:32.000] Building up to cans, you see.
+  [00:36:32.000 --> 00:36:37.000] So you can see like that, I think, I think that's the greater vision.
+  [00:36:37.000 --> 00:36:41.000] Then we, we, when we come to DEFCON 9, we are, we can give a talk.
+  [00:36:41.000 --> 00:36:46.000] On decentralization and
+  [00:36:46.000 --> 00:36:51.000] music, and some of the challenges. You know, Shaka is very experienced, you know, Alaska is very experienced. Any of you can lead the talk.
+  [00:36:51.000 --> 00:36:54.000] explain, this is what, this is how real music is, and these are
+  [00:36:54.000 --> 00:36:57.000] decentralization. And then from there, we build up.
+  [00:36:57.000 --> 00:37:02.000] On various different platforms.
+  [00:37:02.000 --> 00:37:06.000] As a music platform itself, in terms of
+  [00:37:06.000 --> 00:37:12.000] decentralization, which nobody out there is really doing. Nobody, nobody's really cracked it yet.
+  [00:37:12.000 --> 00:37:17.000] And we're right in the mix of it, you see. We go to the events. How does
+  [00:37:17.000 --> 00:37:19.000] music world come to the events? I've never seen them. I know Iggy Azalea came to talk
+  [00:37:19.000 --> 00:37:28.000] in 2049, but that's about it.
+
+[0:37:28] Shaka:
+  [00:37:28.000 --> 00:37:33.000] Well, now, now the more, now the more that we talk about it and think about it, I think
+  [00:37:33.000 --> 00:37:38.000] it actually really is powerful that we include in part of the idea and the
+  [00:37:38.000 --> 00:37:43.000] there in the world for 2027, is that we do some school
+  [00:37:43.000 --> 00:37:48.000] visits. I'm in a great, like, kind of incubator situation here at Four Seas
+  [00:37:48.000 --> 00:37:52.000] in Chiang Mai, where I can kind of play music daily openly and there's like a corner of a bunch of instruments.
+  [00:37:52.000 --> 00:37:57.000] And then I grew up, you know, with
+  [00:37:57.000 --> 00:38:02.000] great parents and then my uncle was my principal, and he's retired but, like, still have a
+  [00:38:02.000 --> 00:38:07.000] great relationship with my high school, and I've already played music there a handful of times in, in
+  [00:38:07.000 --> 00:38:12.000] my 20s and then early 30s. So I've always kind of, like, gone back and visited my high school every five years
+  [00:38:12.000 --> 00:38:17.000] and sang for all the kids. they do, like, a chapel, it's a
+  [00:38:17.000 --> 00:38:22.000] Christian high school. so definitely, like, I can do the open
+  [00:38:22.000 --> 00:38:27.000] school. I think a, a great time
+  [00:38:27.000 --> 00:38:31.000] that would be February, because I know Kevin Iwaki and maybe Heath Boulder, might be
+  [00:38:31.000 --> 00:38:35.000] Denver's planning on doing something in their typical timeframe, and,
+  [00:38:35.000 --> 00:38:41.000] and then April, you
+  [00:38:41.000 --> 00:38:45.000] Alaska's just a couple doors over in Barcelona. So I think
+  [00:38:45.000 --> 00:38:50.000] Lisbon, and then Griff Green, actually, I, I talk often with Griff, so
+  [00:38:50.000 --> 00:38:55.000] Griff, Griff knows about the open source orchestra DAO, and I'm going to do a, I think I'm
+  [00:38:55.000 --> 00:39:00.000] going to launch my own podcasts with my first interview being with Griff. so keep an
+  [00:39:00.000 --> 00:39:03.000] and, like, he was the first pop-up city that I ever went to,
+  [00:39:03.000 --> 00:39:08.000] him taking me to Burning Man. and then I've been a zoo zulu lifer since then.
+  [00:39:08.000 --> 00:39:12.000] So I think, like, the, the principles of
+  [00:39:12.000 --> 00:39:17.000] for me in what I've been able to accomplish the last,
+  [00:39:17.000 --> 00:39:22.000] four years, of, of just being
+  [00:39:22.000 --> 00:39:27.000] present at the open source orchestra at all the events, because I've actually brought those
+  [00:39:27.000 --> 00:39:32.000] principles that I've learned at places like Burning Man into the establishment of saying, hey, this
+  [00:39:32.000 --> 00:39:37.000] is a gift, and this is open and radically inclusive, and,
+  [00:39:37.000 --> 00:39:42.000] also as much as I can self-reliant. And I think the dream just got too big that
+  [00:39:42.000 --> 00:39:47.000] times I almost lost it, but that's when Alaska really picked me up, you
+  [00:39:47.000 --> 00:39:52.000] know. He was my, he was my angel, and so I really love you, Alaska. you
+  [00:39:52.000 --> 00:39:55.000] you were a red rose that smelled very lovely in times, even when I was a little
+  [00:39:55.000 --> 00:39:56.000] worried, because, yeah, I've been, this year I made it with very little
+  [00:39:56.000 --> 00:40:00.000] little funding,
+  [00:40:00.000 --> 00:40:04.000] And I know we even got drama in the world of
+  [00:40:04.000 --> 00:40:09.000] of things like Artisan,
+  [00:40:09.000 --> 00:40:15.000] but I think that's where transparent funding,
+  [00:40:15.000 --> 00:40:18.000] a part of the unification in the contribution, right? Like,
+  [00:40:18.000 --> 00:40:23.000] the participation only a part of the unification in the contribution, right? Like, how do you make, how do you make, like, the participation part
+  [00:40:23.000 --> 00:40:28.000] gamification part, not the funding part,
+  [00:40:28.000 --> 00:40:33.000] right? So it shouldn't be about matching. It should not be about,
+  [00:40:33.000 --> 00:40:38.000] competition can get one person in the orchestra more mon, more
+  [00:40:38.000 --> 00:40:43.000] orchestra, everyone's participation is really important. So
+  [00:40:43.000 --> 00:40:48.000] should have this kind of dispersion where, we kind
+  [00:40:48.000 --> 00:40:53.000] of come to consent about every big, funding decision, and then everyone's consent kind
+  [00:40:53.000 --> 00:40:58.000] funding gets put towards. So everything kind of comes with
+  [00:40:58.000 --> 00:41:03.000] proposals and receipts, you know, so people have receipts, for, for DevCon, you
+  [00:41:03.000 --> 00:41:08.000] know, Alaska has his flights, he has his, that he paid for himself, Levi,
+  [00:41:08.000 --> 00:41:13.000] and you, Ben, have your hotels and your flights that you paid for. So those are receipts
+  [00:41:13.000 --> 00:41:18.000] contribution made toward the orchestra out of your own funds, and then
+  [00:41:18.000 --> 00:41:23.000] contribution part that is that's really gamified and fun, which
+  [00:41:23.000 --> 00:41:28.000] is like building out the schedule, building out your profile, having your subcult, and then,
+  [00:41:28.000 --> 00:41:33.000] ready so that we're all really linked and synchronized for when
+  [00:41:33.000 --> 00:41:37.000] events, and then we have different songs that we recognize and can play
+  [00:41:37.000 --> 00:41:40.000] Why? Because it's all built off, like, having consensus, that
+  [00:41:40.000 --> 00:41:44.000] has been sticking with us.
+  [00:41:44.000 --> 00:41:48.000] Alaska, what, what, what do you want to add to this?
+
+[0:41:48] Alaska:
+  [00:41:48.000 --> 00:41:51.000] Oh, I just wanted to say, have you looked into waterfall kind of
+  [00:41:51.000 --> 00:41:52.000] funding? This is a new thing they're doing. My buddy Sam, do you know Sam? Did you meet Sam?
+  [00:41:52.000 --> 00:41:56.000] Sam?
+
+[0:41:56] Shaka:
+  [00:41:56.000 --> 00:41:58.000] I have heard of Waterfall, yes. I haven't met him, but
+  [00:41:58.000 --> 00:41:59.000] I've heard him speak at a, at a ETH Global before.
+  [00:41:58.000 --> 00:42:03.000] before.
+
+[0:42:03] Alaska:
+  [00:42:03.000 --> 00:42:06.000] Cool, yeah, he's here. He's like a local Catalonian guy
+  [00:42:06.000 --> 00:42:07.000] here in Barcelona. But yeah, he's the guy who actually hacked the DAO, this last time.
+  [00:42:07.000 --> 00:42:08.000] but.
+  [00:42:08.000 --> 00:42:13.000] but.
+  [00:42:13.000 --> 00:42:16.000] Yeah, yeah, yeah, so he, he
+  [00:42:16.000 --> 00:42:17.000] but yeah, so his idea of what.
+  [00:42:17.000 --> 00:42:19.000] of.
+
+[0:42:19] Shaka:
+  [00:42:19.000 --> 00:42:24.000] Probably some white rabbit. Is that like I'm actually
+  [00:42:24.000 --> 00:42:26.000] even heard about the Dow hack, you know, like it took me like three years of friendship with Grip and then
+  [00:42:26.000 --> 00:42:29.000] hack.
+
+[0:42:29] Alaska:
+  [00:42:29.000 --> 00:42:34.000] What they did was, he hacked it the second
+  [00:42:34.000 --> 00:42:36.000] funds from the DAO, Sam was the one who was able to
+  [00:42:36.000 --> 00:42:37.000] contract.
+  [00:42:36.000 --> 00:42:41.000] contract.
+
+[0:42:41] Shaka:
+  [00:42:41.000 --> 00:42:42.000] Oh, Sam, yeah, I know Sam, of course, I love Sam. Yeah, big
+  [00:42:42.000 --> 00:42:43.000] teddy bear Sam.
+  [00:42:42.000 --> 00:42:44.000] Yeah.
+
+[0:42:44] Alaska:
+  [00:42:44.000 --> 00:42:49.000] Yeah, so the funds is
+  [00:42:49.000 --> 00:42:54.000] actually what he made, but it's pretty cool, basically that's that
+  [00:42:54.000 --> 00:42:59.000] that, they're gonna roll it out just in the next
+  [00:42:59.000 --> 00:43:04.000] the first thing, so, something to, to think
+  [00:43:04.000 --> 00:43:09.000] about, cause that way everyone who participates gets stake in what happens, right? This is really
+  [00:43:09.000 --> 00:43:12.000] great. So then anyone who's a contributor to the orchestra, like, has say if there is funding,
+  [00:43:12.000 --> 00:43:13.000] you know? Anyway, it's just like a really cool idea. you know, that's
+
+[0:43:12] Shaka:
+  [00:43:12.000 --> 00:43:16.000] I agree.
+
+[0:43:16] Alaska:
+  [00:43:16.000 --> 00:43:18.000] yeah.
+
+[0:43:18] Shaka:
+  [00:43:18.000 --> 00:43:22.000] Yeah, that's awesome. No, beautiful, beautiful suggestion. And
+
+[0:43:22] Alaska:
+  [00:43:22.000 --> 00:43:23.000] Yeah.
+
+[0:43:23] Shaka:
+  [00:43:23.000 --> 00:43:28.000] need to learn more about that, and hearing that's really exciting, cause
+  [00:43:28.000 --> 00:43:30.000] really safe space for us. really
+  [00:43:30.000 --> 00:43:35.000] love, Griff, and then
+  [00:43:35.000 --> 00:43:37.000] definitely what you, you mentioned upon, I think contribution needs to
+  [00:43:37.000 --> 00:43:40.000] be what gives people the most,
+  [00:43:40.000 --> 00:43:42.000] consent, placement.
+  [00:43:42.000 --> 00:43:44.000] Yeah.
+
+[0:43:44] Alaska:
+  [00:43:44.000 --> 00:43:46.000] Yeah. Yeah, yeah, yeah, cause you don't, you don't want a
+
+[0:43:46] Shaka:
+  [00:43:46.000 --> 00:43:49.000] Yeah.
+
+[0:43:49] Alaska:
+  [00:43:49.000 --> 00:43:52.000] mechanism based off of ownership. That's just like the mistake, right? It's like, I buy
+  [00:43:52.000 --> 00:43:57.000] and now, anyway, we don't have to get into this. I think we all are in agreeance.
+  [00:43:57.000 --> 00:44:02.000] Yeah, yeah. yeah, I can't stay on the,
+  [00:44:02.000 --> 00:44:07.000] meeting. but I'll be here probably
+  [00:44:07.000 --> 00:44:11.000] tomorrow. Sorry I missed last week. I was still re-congealing here in Spain and,
+  [00:44:11.000 --> 00:44:12.000] and your hours that you put these at are seemingly random to me, so it doesn't fit into my calendar brain, but I.
+
+[0:44:12] Ben:
+  [00:44:12.000 --> 00:44:17.000] What's the time in Spain now?
+  [00:44:17.000 --> 00:44:18.000] Okay.
+
+[0:44:17] Alaska:
+  [00:44:17.000 --> 00:44:22.000] It's, it's like 7,
+  [00:44:22.000 --> 00:44:24.000] Yeah, which, yeah, I have a spot. It'll be a nice space for you
+  [00:44:24.000 --> 00:44:25.000] hang out and play music at the plaza whenever you're in town, Shaka.
+  [00:44:25.000 --> 00:44:30.000] Shaka.
+
+[0:44:30] Ben:
+  [00:44:30.000 --> 00:44:33.000] Yeah, we got to come check out some Barcelona now. Yeah, I've
+  [00:44:33.000 --> 00:44:36.000] you there, got to, got to skip over for a weekend.
+
+[0:44:36] Alaska:
+  [00:44:36.000 --> 00:44:37.000] Yeah, yeah, yeah,
+  [00:44:37.000 --> 00:44:38.000] You're welcome. Yeah, I have a.
+
+[0:44:38] Ben:
+  [00:44:38.000 --> 00:44:42.000] Oh, I appreciate, appreciate you.
+
+[0:44:42] Alaska:
+  [00:44:42.000 --> 00:44:47.000] Yeah, yeah, and I've been connecting with the music
+  [00:44:47.000 --> 00:44:49.000] community here, which has been fantastic. Everyone in Barcelona knows how to make collectives and kind of
+
+[0:44:49] Ben:
+  [00:44:49.000 --> 00:44:50.000] Yeah.
+
+[0:44:50] Alaska:
+  [00:44:50.000 --> 00:44:53.000] collaborate, right? It's kind of the, it's really, really cool.
+
+[0:44:53] Shaka:
+  [00:44:53.000 --> 00:44:54.000] Barcelona.
+
+[0:44:54] Ben:
+  [00:44:54.000 --> 00:44:58.000] Okay, nice. Stay safe, brother.
+
+[0:44:58] Shaka:
+  [00:44:58.000 --> 00:45:03.000] Yeah, Barcelona is absolutely a node.
+  [00:45:03.000 --> 00:45:05.000] there is a mixer and a microphone for open source orchestra already
+  [00:45:05.000 --> 00:45:06.000] in Barcelona. Is that, that's correct still, right, Alaska?
+  [00:45:06.000 --> 00:45:07.000] Alaska?
+
+[0:45:07] Alaska:
+  [00:45:07.000 --> 00:45:11.000] Yeah, of course. Yeah.
+
+[0:45:11] Shaka:
+  [00:45:11.000 --> 00:45:16.000] Yeah, and, and so like Giveth House, just like
+  [00:45:16.000 --> 00:45:17.000] Foresties here in Chiang Mai, I think is a place that we could leave
+
+[0:45:17] Ben:
+  [00:45:17.000 --> 00:45:18.000] Look.
+
+[0:45:18] Shaka:
+  [00:45:18.000 --> 00:45:19.000] lots of, instruments in the future. And,
+  [00:45:19.000 --> 00:45:20.000] And,
+
+[0:45:20] Alaska:
+  [00:45:20.000 --> 00:45:23.000] Yeah. Yes. And then, you
+  [00:45:23.000 --> 00:45:24.000] future, my studio office space here, so.
+  [00:45:24.000 --> 00:45:28.000] so.
+
+[0:45:28] Shaka:
+  [00:45:28.000 --> 00:45:30.000] oh, that as well, you know, I think
+  [00:45:30.000 --> 00:45:32.000] that, that like continent-wise and participant-wise, you know, the more
+  [00:45:32.000 --> 00:45:37.000] , the more the
+  [00:45:37.000 --> 00:45:39.000] stewardship, becomes grow,
+  [00:45:39.000 --> 00:45:44.000] like grows in that, that I also think that like more,
+  [00:45:44.000 --> 00:45:49.000] more instruments will just seem to even flow in the door, like,
+  [00:45:49.000 --> 00:45:54.000] the height, like, just to kind of recap on the idea of not just like trying to play parties,
+  [00:45:54.000 --> 00:45:59.000] I, I think that's like a great thing for like Alaska to make his trip a little bit more rewarding is
+  [00:45:59.000 --> 00:46:04.000] it's not open source orchestra getting booked to play the party at night, you know, that it's Alaska's
+  [00:46:04.000 --> 00:46:09.000] own DJing thing, Manu's able to do his own DJing thing, other artists
+  [00:46:09.000 --> 00:46:14.000] should feel like they can participate in the open source orchestra and then leverage that
+  [00:46:14.000 --> 00:46:18.000] relationship to get other gigs, you know, that we have a front door into the main venue
+
+[0:46:18] Alaska:
+  [00:46:18.000 --> 00:46:19.000] Yeah.
+
+[0:46:19] Shaka:
+  [00:46:19.000 --> 00:46:24.000] that exposure to then play all these side parties. I think
+  [00:46:24.000 --> 00:46:29.000] the open source orchestra should try and compete for the side parties. I think we
+  [00:46:29.000 --> 00:46:34.000] should continue to maintain our presence, wherever where the invitation is kind
+  [00:46:34.000 --> 00:46:38.000] then people are able to make donations, to the
+  [00:46:38.000 --> 00:46:43.000] get like everyone, if they want to like lock it in big time.
+  [00:46:43.000 --> 00:46:45.000] You know, like we, we, we kind of like, we can set our,
+  [00:46:45.000 --> 00:46:50.000] as far as where we're giving the gift.
+  [00:46:50.000 --> 00:46:52.000] then we, we, we also will be able to
+  [00:46:52.000 --> 00:46:57.000] accept the invitation. And I think that like
+  [00:46:57.000 --> 00:47:00.000] on the individual basis, anyone can
+  [00:47:00.000 --> 00:47:05.000] represent open source orchestra, you know, without my consent.
+  [00:47:05.000 --> 00:47:10.000] it's already like, that's part of being
+  [00:47:10.000 --> 00:47:14.000] permissionless, you know, is that people don't need to have consent from the orchestra
+  [00:47:14.000 --> 00:47:18.000] to go do something and say, I want to have an open source orchestra back me up.
+  [00:47:18.000 --> 00:47:23.000] You know, it's at the point of being
+  [00:47:23.000 --> 00:47:25.000] an open source protocol and there's enough words online of us talking about it that people know who
+  [00:47:25.000 --> 00:47:26.000] people are, you know, so.
+  [00:47:26.000 --> 00:47:31.000] I think that
+  [00:47:31.000 --> 00:47:36.000] it's, it's, yeah, 2027 is going
+  [00:47:36.000 --> 00:47:38.000] that I know that gives me confidence is that we're ending
+  [00:47:38.000 --> 00:47:39.000] progression.
+  [00:47:39.000 --> 00:47:42.000] So
+
+[0:47:42] Alaska:
+  [00:47:42.000 --> 00:47:47.000] Yeah, I had
+  [00:47:47.000 --> 00:47:53.000] one, one question before heading out. I guess we can talk about it later too, but,
+  [00:47:53.000 --> 00:47:57.000] year, or is it too early? Cause, like, Cons was awesome, and I
+  [00:47:57.000 --> 00:47:58.000] if we have any information on if we're gonna have Oso happen at those places yet.
+  [00:47:58.000 --> 00:48:02.000] yet.
+
+[0:48:02] Shaka:
+  [00:48:02.000 --> 00:48:05.000] there is no confirmation, well, actually,
+  [00:48:05.000 --> 00:48:10.000] I actually do have,
+  [00:48:10.000 --> 00:48:15.000] the reputation confirmation of that if
+  [00:48:15.000 --> 00:48:20.000] we are hacking, you know, so definitely always get
+  [00:48:20.000 --> 00:48:25.000] your stake in the door early, and then share your promo code,
+  [00:48:25.000 --> 00:48:28.000] for staking to get a discount. and I am definitely going to be heavy on the
+  [00:48:28.000 --> 00:48:33.000] them and, like, they've actually always allowed me to
+  [00:48:33.000 --> 00:48:38.000] have a stable presence in
+  [00:48:38.000 --> 00:48:43.000] Ethereum, and I will be going in the system the same as everybody. You know, we're not going to have,
+  [00:48:43.000 --> 00:48:48.000] like, a backdoor situation with ETH Global. you have to sign up as a
+  [00:48:48.000 --> 00:48:53.000] hacker or a volunteer, and I think, we can probably
+  [00:48:53.000 --> 00:48:58.000] how much instruments we can bring in the door. You know,
+  [00:48:58.000 --> 00:49:03.000] computer and a instrument, then Kartik might
+  [00:49:03.000 --> 00:49:06.000] get a little upset. But I think, like, as, I think we, like, I've already, we already
+  [00:49:06.000 --> 00:49:09.000] our instruments in the door. and then
+  [00:49:09.000 --> 00:49:14.000] I think that
+  [00:49:14.000 --> 00:49:19.000] on the, on the, on the individual
+  [00:49:19.000 --> 00:49:24.000] want to give the DAO
+  [00:49:24.000 --> 00:49:29.000] a gift, if Kartik himself wants to give Open Source Orchestra a gift, that's
+  [00:49:29.000 --> 00:49:34.000] why, the, the gifting rails exist. And actually, I've even
+  [00:49:34.000 --> 00:49:39.000] done a little bit more research that, even like volunteering in exchange
+  [00:49:39.000 --> 00:49:42.000] for things in places like Thailand is not
+  [00:49:42.000 --> 00:49:43.000] allowed. So like, the exchange has, the exchange has to be,
+  [00:49:43.000 --> 00:49:48.000] to be,
+  [00:49:48.000 --> 00:49:53.000] not found, right?
+  [00:49:53.000 --> 00:49:58.000] actually has to be completely a gift. And like, trust me, like, the
+  [00:49:58.000 --> 00:50:03.000] gift has been given the last four years, and
+  [00:50:03.000 --> 00:50:06.000] So there's moments, right, where like I always go through a threshold where it's like,
+  [00:50:06.000 --> 00:50:08.000] I don't know if I can keep doing this.
+
+[0:50:08] Ben:
+  [00:50:08.000 --> 00:50:11.000] Yeah. Right.
+
+[0:50:11] Shaka:
+  [00:50:11.000 --> 00:50:15.000] But then that's when I realize that it's not me, it's
+  [00:50:15.000 --> 00:50:20.000] all of us. And that's why it's, most powerful, and that's why it's not just,
+  [00:50:20.000 --> 00:50:25.000] a normal musician or
+  [00:50:25.000 --> 00:50:30.000] situation. It's an open orchestra that's also open
+  [00:50:30.000 --> 00:50:35.000] is to promote the space that, has really given
+  [00:50:35.000 --> 00:50:38.000] this thing birth from the first place, which is Ethereum and open source technology. And
+
+[0:50:38] Ben:
+  [00:50:38.000 --> 00:50:40.000] Yeah.
+  [00:50:40.000 --> 00:50:41.000] Yeah.
+
+[0:50:40] Shaka:
+  [00:50:40.000 --> 00:50:41.000] to the real cipher cogitos of cryptography.
+  [00:50:41.000 --> 00:50:43.000] play.
+
+[0:50:43] Ben:
+  [00:50:43.000 --> 00:50:48.000] Yeah. What, what else do you think he does before Alaska goes was?
+  [00:50:48.000 --> 00:50:53.000] If, if building up is a good question, he asked, what events do we
+  [00:50:53.000 --> 00:50:58.000] events we have. We targeted, isn't it? So we got Cairns
+  [00:50:58.000 --> 00:51:03.000] April, April 14 to 16. Then we have New York, I think it's July, about
+  [00:51:03.000 --> 00:51:06.000] something similar date. Then we have
+  [00:51:06.000 --> 00:51:07.000] Lisbon. I, I think if we're going to lead global,
+  [00:51:07.000 --> 00:51:11.000] global,
+  [00:51:11.000 --> 00:51:16.000] if we, if we carry on this level of
+  [00:51:16.000 --> 00:51:21.000] identify with general consensus, some of the great features we want to add to the
+  [00:51:21.000 --> 00:51:23.000] technology. And it would be great if I, Shaka, and a few others can even be a team
+  [00:51:23.000 --> 00:51:28.000] on East Global, where we know, regardless of whether we win,
+  [00:51:28.000 --> 00:51:30.000] the bounties or not, we are pushing
+  [00:51:30.000 --> 00:51:36.000] the boundaries of what we want to do, and adding features to the DAO.
+  [00:51:36.000 --> 00:51:41.000] And then we can have our community come together
+  [00:51:41.000 --> 00:51:46.000] and say, these are the features that we would like to see. We actually build like a Discord even. Okay,
+  [00:51:46.000 --> 00:51:48.000] good. We're going to build this, you know, these features. Go and test these features. And then going forward,
+  [00:51:48.000 --> 00:51:53.000] Global, then we have, the East Lisbon.
+  [00:51:53.000 --> 00:51:57.000] there'll be another East Global, and there'll be a few Globals down the,
+  [00:51:57.000 --> 00:52:02.000] Then we are just pushing and making it better for everybody.
+  [00:52:02.000 --> 00:52:07.000] Making a really source of sanctuary, really decentralized sanctuary for
+  [00:52:07.000 --> 00:52:12.000] everybody. So that by the time, by the end years, we can look back on features and say, this is what we
+  [00:52:12.000 --> 00:52:15.000] where we started, this quarter, this quarter, this quarter, this quarter. And this is what
+  [00:52:15.000 --> 00:52:18.000] know, so expanding it more than just the music.
+  [00:52:18.000 --> 00:52:23.000] really like this idea of a DAO.
+  [00:52:23.000 --> 00:52:25.000] You know, and then who knows, maybe in 2028,
+  [00:52:25.000 --> 00:52:31.000] there, one of the, the event itself.
+
+[0:52:31] Shaka:
+  [00:52:31.000 --> 00:52:35.000] Yeah, the
+
+[0:52:35] Alaska:
+  [00:52:35.000 --> 00:52:36.000] Sounds great. Oh, we're getting more fun than hacking together at a
+
+[0:52:36] Ben:
+  [00:52:36.000 --> 00:52:37.000] Yeah.
+
+[0:52:37] Alaska:
+  [00:52:37.000 --> 00:52:38.000] hackathon, to be honest.
+
+[0:52:38] Shaka:
+  [00:52:38.000 --> 00:52:41.000] Totally.
+
+[0:52:41] Ben:
+  [00:52:41.000 --> 00:52:43.000] Yeah.
+
+[0:52:43] Shaka:
+  [00:52:43.000 --> 00:52:46.000] Yeah, actually, I think I was trying to ask you earlier, like, share a little
+  [00:52:46.000 --> 00:52:47.000] memory of how you gave birth to Anda.
+  [00:52:47.000 --> 00:52:51.000] Anda.
+
+[0:52:51] Alaska:
+  [00:52:51.000 --> 00:52:52.000] Oh, yeah, I mean, man,
+  [00:52:52.000 --> 00:52:57.000] mean
+  [00:52:57.000 --> 00:53:01.000] I mean, it kinda was an idea I had
+  [00:53:01.000 --> 00:53:05.000] for a while, and originally, I mean, I started working on it initially, actually, in, Grand Serets.
+  [00:53:05.000 --> 00:53:10.000] And this was trying to do X402 payments, like a toll road.
+  [00:53:10.000 --> 00:53:13.000] You know, I was like, okay, well, you know, you have to,
+  [00:53:13.000 --> 00:53:16.000] like, request to listen to a song, and there's a payment or something like that.
+  [00:53:16.000 --> 00:53:21.000] then, really, it was
+  [00:53:21.000 --> 00:53:25.000] Like, that was actually funny, because I failed that hackathon, because I was trying
+  [00:53:25.000 --> 00:53:30.000] to do that, and it just wasn't resonating. The idea wasn't resonating. It wasn't working. I was really frustrated.
+  [00:53:30.000 --> 00:53:33.000] And then, at Eve Global, I mean, it was really funny, because we were just playing music nonstop.
+  [00:53:33.000 --> 00:53:38.000] And then we played again that closing party, there was a proper party.
+  [00:53:38.000 --> 00:53:40.000] And then I just remember, like, literally the next
+  [00:53:40.000 --> 00:53:41.000] morning with no sleep, like, going into the hackathon,
+  [00:53:41.000 --> 00:53:46.000] hackathon,
+  [00:53:46.000 --> 00:53:51.000] And that was when I was like, yeah, I think, I think we can just
+  [00:53:51.000 --> 00:53:56.000] extension that just donates a penny
+  [00:53:56.000 --> 00:54:01.000] anytime you listen to any song. And, like, Onda, obviously, it's, like, got the Spanish roots,
+  [00:54:01.000 --> 00:54:03.000] thinking about this idea that, you know, Shaka had always have, of, like, how do you, how
+  [00:54:03.000 --> 00:54:08.000] something, just make it easy to give, right?
+  [00:54:08.000 --> 00:54:13.000] And, I mean, that hackathon was pretty crazy. It was, like, you
+  [00:54:13.000 --> 00:54:18.000] know, two and a half days nonstop, and yeah. I remember,
+  [00:54:18.000 --> 00:54:23.000] realizing that I had to present in the morning and not the evening, because I hadn't done it. So, I had,
+  [00:54:23.000 --> 00:54:28.000] like, 20 minutes of sleep after not, sleeping for, like, four days, basically, and then
+  [00:54:28.000 --> 00:54:33.000] mean, I don't know if there's another moment that I missed on that
+  [00:54:33.000 --> 00:54:35.000] resonated with, Shaka, but it was just kind of culminating those things together, for sure.
+  [00:54:35.000 --> 00:54:37.000] great. It was fun.
+  [00:54:37.000 --> 00:54:40.000] fun.
+
+[0:54:40] Shaka:
+  [00:54:40.000 --> 00:54:45.000] Well I really resonate with the accomplishment that you had and
+  [00:54:45.000 --> 00:54:50.000] what you put together. I was hacking, I mean, I'm sorry, I wasn't hacking, I was
+  [00:54:50.000 --> 00:54:52.000] loved to join your team, but I was volunteering and I also felt like I,
+
+[0:54:52] Alaska:
+  [00:54:52.000 --> 00:54:54.000] Yeah.
+  [00:54:54.000 --> 00:54:55.000] Yeah.
+
+[0:54:55] Shaka:
+  [00:54:55.000 --> 00:55:00.000] capacity of being able to stay up playing music and then also being a
+  [00:55:00.000 --> 00:55:01.000] But Bo Rat, who slaps the bass and is amazing, has played with us also all over the
+
+[0:55:00] Alaska:
+  [00:55:00.000 --> 00:55:02.000] Yeah.
+  [00:55:02.000 --> 00:55:05.000] That's great.
+
+[0:55:05] Shaka:
+  [00:55:05.000 --> 00:55:10.000] place, he joined your team and helped do the smart contracts, and love
+  [00:55:10.000 --> 00:55:15.000] the browser extension gives that gifting
+  [00:55:15.000 --> 00:55:20.000] ability, super accessibility, because after it, you listen to it for like a minute, automatically it triggers giving a penny
+  [00:55:20.000 --> 00:55:25.000] through the Onda protocol, so Alaska did a really great, thing that he put
+  [00:55:25.000 --> 00:55:27.000] together, that those types of ideas go so much further, when,
+  [00:55:27.000 --> 00:55:32.000] a different route,
+  [00:55:32.000 --> 00:55:37.000] in, in Mumbai than I did in
+  [00:55:37.000 --> 00:55:38.000] Japan. Japan I hacked solo for the first time. I think almost just to prove that I could submit and do a project
+  [00:55:38.000 --> 00:55:39.000] agents, but
+
+[0:55:39] Ben:
+  [00:55:39.000 --> 00:55:43.000] Well done on you, well done.
+
+[0:55:43] Shaka:
+  [00:55:43.000 --> 00:55:48.000] Yeah, so I was, but I, but also I'm, I'm more
+  [00:55:48.000 --> 00:55:49.000] doing, a team with, having a team of five and
+
+[0:55:48] Ben:
+  [00:55:48.000 --> 00:55:51.000] Yeah, yeah.
+
+[0:55:51] Shaka:
+  [00:55:51.000 --> 00:55:56.000] it up and then like having the ethos that everything is open sourced.
+  [00:55:56.000 --> 00:55:59.000] everything is, kind of like
+  [00:55:59.000 --> 00:56:00.000] like kind of like what happens at ETH Global.
+
+[0:56:00] Ben:
+  [00:56:00.000 --> 00:56:04.000] Yeah.
+
+[0:56:04] Shaka:
+  [00:56:04.000 --> 00:56:06.000] And that's beautiful, right? Because anyone can
+
+[0:56:06] Alaska:
+  [00:56:06.000 --> 00:56:09.000] Yeah.
+
+[0:56:09] Shaka:
+  [00:56:09.000 --> 00:56:14.000] take their project and like go somewhere else, with whatever, whatever, whatever like makes them
+  [00:56:14.000 --> 00:56:18.000] project and do something else, beyond the
+
+[0:56:18] Ben:
+  [00:56:18.000 --> 00:56:19.000] Yeah.
+
+[0:56:19] Shaka:
+  [00:56:19.000 --> 00:56:24.000] makes your project more sustainable
+  [00:56:24.000 --> 00:56:28.000] and, and actually more capable if you fill the whole team of five people. And that's actually why
+  [00:56:28.000 --> 00:56:33.000] they made a little bit of adjustments that like if you hack solo, you only can maybe get access to
+  [00:56:33.000 --> 00:56:38.000] like half, like half the
+
+[0:56:38] Ben:
+  [00:56:38.000 --> 00:56:39.000] Yeah.
+
+[0:56:38] Shaka:
+  [00:56:38.000 --> 00:56:43.000] flight reimbursement isn't as much as if you're a solo
+  [00:56:43.000 --> 00:56:46.000] money if you're a five person or a three person team
+  [00:56:46.000 --> 00:56:47.000] people to be hacking on teams. So I think
+
+[0:56:47] Ben:
+  [00:56:47.000 --> 00:56:51.000] Yeah.
+
+[0:56:51] Shaka:
+  [00:56:51.000 --> 00:56:56.000] know, open source orchestra
+  [00:56:56.000 --> 00:56:58.000] will have a team of five whenever it tries to be a continuity project. Hey, maybe even one time I have my own little
+
+[0:56:58] Ben:
+  [00:56:58.000 --> 00:57:01.000] Yeah.
+  [00:57:01.000 --> 00:57:02.000] Yeah, we could have two teams.
+
+[0:57:01] Shaka:
+  [00:57:01.000 --> 00:57:04.000] idea that I want to hack on and then someone else can hack on the open source orchestra at the
+  [00:57:04.000 --> 00:57:06.000] amazing, right? Two, they can be multiple teams.
+
+[0:57:06] Ben:
+  [00:57:06.000 --> 00:57:08.000] Yeah, we build two, two different features. Yeah, we can, we
+  [00:57:08.000 --> 00:57:11.000] Hackathon, you know.
+  [00:57:11.000 --> 00:57:13.000] A new feature and a continuity feature, you know.
+  [00:57:13.000 --> 00:57:14.000] Yeah, yeah, yeah.
+
+[0:57:13] Shaka:
+  [00:57:13.000 --> 00:57:16.000] That would actually be a first,
+
+[0:57:16] Ben:
+  [00:57:16.000 --> 00:57:18.000] Yeah.
+
+[0:57:18] Shaka:
+  [00:57:18.000 --> 00:57:19.000] features being built at, at the same hackathon. Yeah, that'd be badass.
+  [00:57:19.000 --> 00:57:21.000] badass.
+
+[0:57:21] Ben:
+  [00:57:21.000 --> 00:57:25.000] Because, because, because the thing is, the thing is, guys, it's like,
+  [00:57:25.000 --> 00:57:30.000] saw the review for East Global Mumbai, but maybe Alaska. It was pretty poor.
+  [00:57:30.000 --> 00:57:35.000] really poorly organized. There was lots of issues
+  [00:57:35.000 --> 00:57:37.000] with the internet, the issues with storage, there were, these, these
+  [00:57:37.000 --> 00:57:42.000] room, you know.
+  [00:57:42.000 --> 00:57:47.000] And not enough spaces for people to relax, if
+  [00:57:47.000 --> 00:57:53.000] they do need to relax, because you're in this geo center where you're limited on where you can go. But I think the judging
+  [00:57:53.000 --> 00:57:58.000] judge, never got to, to exhibit their, their
+  [00:57:58.000 --> 00:58:03.000] broke midstream, and they told me, after two, and they, they're
+  [00:58:03.000 --> 00:58:04.000] exhibit. So I just went back to my hotel, and just, and
+  [00:58:04.000 --> 00:58:09.000] just left, and then called. So, so, but I think.
+  [00:58:09.000 --> 00:58:11.000] the vision, we, we can push this, we
+  [00:58:11.000 --> 00:58:12.000] way beyond music.
+  [00:58:12.000 --> 00:58:16.000] music.
+  [00:58:16.000 --> 00:58:19.000] You know, a DAO is a brilliant idea, and we've seen within Web3 what
+  [00:58:19.000 --> 00:58:24.000] DAOs do. And if we can have an open music DAO, there'll be a lot of features.
+  [00:58:24.000 --> 00:58:25.000] We, and I, the, the more we can push it, the community will just expand.
+  [00:58:25.000 --> 00:58:30.000] Where now.
+  [00:58:30.000 --> 00:58:35.000] Not just the level of talent coming in, but
+  [00:58:35.000 --> 00:58:40.000] plan. Three years, five years plan of
+  [00:58:40.000 --> 00:58:46.000] events. We can, we can plan events, and then people like Alaska, like, one of
+  [00:58:46.000 --> 00:58:51.000] mentioning before your last meeting was, for example, if you have an event in Europe, maybe
+  [00:58:51.000 --> 00:58:56.000] everybody doesn't need to go to Europe. Maybe everybody cannot go. So we can
+  [00:58:56.000 --> 00:58:58.000] next door to Alaska. I'm in England, you know.
+  [00:58:58.000 --> 00:59:00.000] Southeast Asia. So, you know, we can.
+  [00:59:00.000 --> 00:59:05.000] accommodate and plan ahead.
+  [00:59:05.000 --> 00:59:10.000] Even have virtual rehearsals. And then we go there,
+  [00:59:10.000 --> 00:59:15.000] specific plan. Of course, with flexibility. And these are
+  [00:59:15.000 --> 00:59:19.000] the core representatives. The likes of the Vivek, the Debs, the Niddies. They would love to get involved, but they're far
+  [00:59:19.000 --> 00:59:24.000] and currency wise, it may not be easy for them to travel down to Europe.
+  [00:59:24.000 --> 00:59:27.000] You know, if we have like a funding, we can say, okay, Niddy, you're going to come over
+  [00:59:27.000 --> 00:59:32.000] sessions. We have the Sonia's and so on and so forth.
+  [00:59:32.000 --> 00:59:33.000] But we can now move this thing really forward and so on and
+  [00:59:33.000 --> 00:59:38.000] Just get this flowing of offering.
+  [00:59:38.000 --> 00:59:43.000] And we can build anticipation for the next one. We can say, okay, Defcon 8, this
+  [00:59:43.000 --> 00:59:48.000] is what we gave you guys. Defcon 9, this is what we're coming. Join the Discord, join
+  [00:59:48.000 --> 00:59:53.000] the community, get involved in the Twitter, the socials, and, you know, bring
+  [00:59:53.000 --> 00:59:58.000] your ideas. Bring ideas of features you'd like to see. The community will now provide the features. We build the features.
+  [00:59:58.000 --> 01:00:01.000] And the community now will just expand the source orchestra itself.
+
+[1:00:01] Alaska:
+  [01:00:01.000 --> 01:00:06.000] Yeah.
+  [01:00:06.000 --> 01:00:09.000] to continue that thought, which I'm very excited
+  [01:00:09.000 --> 01:00:10.000] I also do have a meeting coming up soon, Shaka, with James.
+  [01:00:09.000 --> 01:00:17.000] James.
+  [01:00:17.000 --> 01:00:22.000] You're muted. No, it's coming. We
+  [01:00:22.000 --> 01:00:27.000] with tokens in a DAO in music,
+  [01:00:27.000 --> 01:00:32.000] and FireEyes is on board. So, we come up with an idea, and we have, you know,
+  [01:00:32.000 --> 01:00:35.000] a lot of potential. and, and the good friends who want to support it and see how we can make
+  [01:00:35.000 --> 01:00:36.000] it work. I have to go. I love you guys. I'll be more.
+
+[1:00:36] Ben:
+  [01:00:36.000 --> 01:00:40.000] Love you too.
+
+[1:00:40] Alaska:
+  [01:00:40.000 --> 01:00:43.000] Thanks. obviously,
+  [01:00:43.000 --> 01:00:45.000] Anyone from Osa, always welcome. I have a guest room.
+
+[1:00:45] Ben:
+  [01:00:45.000 --> 01:00:46.000] Absolutely. We'll have some tapas,
+  [01:00:46.000 --> 01:00:50.000] some good tapas, man.
+
+[1:00:50] Alaska (via text chat):
+  [01:00:50.000 --> 01:00:51.000] https://subcult.fm/app/
+
+[1:00:50] Alaska:
+  [01:00:50.000 --> 01:00:53.000] Yeah. I'm gonna leave you with a, a message. Just
+  [01:00:53.000 --> 01:00:56.000] started today. And, I'm gonna let you guys go.
+  [01:00:56.000 --> 01:00:57.000] Shaka. Bye, Ben. Bye, Mary.
+
+[1:00:57] Ben:
+  [01:00:57.000 --> 01:01:00.000] All right then, take care.
+
+[1:01:00] Shaka:
+  [01:01:00.000 --> 01:01:04.000] Let's see.
+  [01:01:04.000 --> 01:01:07.000] Pull up a track. What's this sub called? FM.
+  [01:01:07.000 --> 01:01:10.000] Here, let's, let's, throw that.
+  [01:01:10.000 --> 01:01:11.000] Radiant, let's throw that track on the radio.
+
+[1:01:11] Ben:
+  [01:01:11.000 --> 01:01:20.000] Let's go for it.
+
+[1:01:20] Shaka:
+  [01:01:20.000 --> 01:01:24.000] What up, subcult?
+  [01:01:24.000 --> 01:02:18.000] Alaska subcult in the house.
+  [01:02:18.000 --> 01:02:31.000] Shaka Ohana in the subcult.
+  [01:02:31.000 --> 01:02:49.000] And that's like one of Alaska's songs on top, I guess.
+
+[1:02:49] Mary (via text chat):
+  [01:02:49.000 --> 01:02:55.000] Thanks guys, lovely catching up with you! 💛 I have to go now
+
+[1:02:55] Shaka:
+  [01:02:55.000 --> 01:02:56.000] There you go, Ben. If you ever want to listen to some of my
+  [01:02:56.000 --> 01:02:57.000] Orchestra website.
+  [01:02:56.000 --> 01:03:00.000] website.
+  [01:03:00.000 --> 01:03:03.000] And on the bottom radio player, there's a free download.
+  [01:03:03.000 --> 01:03:04.000] Subcult also has a great player if you want to ever upload songs.
+
+[1:03:04] Ben:
+  [01:03:04.000 --> 01:03:07.000] Okay.
+
+[1:03:07] Shaka:
+  [01:03:07.000 --> 01:03:21.000] I'll just have a protocol that'll go multiple places.
+  [01:03:21.000 --> 01:03:22.000] We could sing, we could sing a, we could, we could do a little rehearsing, mix
+  [01:03:21.000 --> 01:03:28.000] it up a little bit.
+
+[1:03:28] Ben:
+  [01:03:28.000 --> 01:03:30.000] I'm, I'm gonna, gonna start, like I said, doing
+  [01:03:30.000 --> 01:03:31.000] out to the exec.
+  [01:03:30.000 --> 01:03:31.000] exec.
+
+[1:03:31] Shaka:
+  [01:03:31.000 --> 01:03:34.000] It is sir, man, you should do it.
+
+[1:03:34] Ben:
+  [01:03:34.000 --> 01:03:40.000] Yeah, and then, you know, like, she's not been well.
+  [01:03:40.000 --> 01:04:08.000] She's just had this ear infection afterwards.
+
+[1:04:08] Shaka:
+  [01:04:08.000 --> 01:04:12.000] See, bet.
+
+[1:04:12] Ben:
+  [01:04:12.000 --> 01:04:14.000] Don't know if I see them.
+
+[1:04:14] Shaka:
+  [01:04:14.000 --> 01:04:18.000] See me.
+
+[1:04:18] Ben:
+  [01:04:18.000 --> 01:04:21.000] Don't know if I see them.
+  [01:04:21.000 --> 01:04:25.000] Don't know.
+
+[1:04:25] Shaka:
+  [01:04:25.000 --> 01:04:26.000] Namchen Kushnidae.
+
+[1:04:26] Ben:
+  [01:04:26.000 --> 01:04:33.000] Nothing.
+  [01:04:33.000 --> 01:04:35.000] Nang keku skinai
+
+[1:04:35] Shaka:
+  [01:04:35.000 --> 01:04:38.000] Every day is a day in life.
+
+[1:04:38] Ben:
+  [01:04:38.000 --> 01:04:41.000] day days a day of life.
+
+[1:04:41] Shaka:
+  [01:04:41.000 --> 01:04:45.000] Oh, you can support Shaka here.
+  [01:04:45.000 --> 01:04:47.000] Payments are not available right now. Please try again later. Okay.
+  [01:04:47.000 --> 01:04:48.000] Well, that's gonna fix that.
+  [01:04:47.000 --> 01:04:49.000] that.
+  [01:04:49.000 --> 01:04:51.000] But.
+  [01:04:51.000 --> 01:04:52.000] People can also give me.
+  [01:04:51.000 --> 01:04:53.000] me
+  [01:04:53.000 --> 01:04:55.000] A gift here.
+  [01:04:55.000 --> 01:04:57.000] tell, you can tell your agent.
+
+[1:04:57] Ben:
+  [01:04:57.000 --> 01:04:59.000] Okay. You know, you know, you know why you're here?
+
+[1:04:59] Shaka:
+  [01:04:59.000 --> 01:05:02.000] You can tell your agent, to try that with Agent Pennies of Aloha.
+
+[1:05:02] Ben:
+  [01:05:02.000 --> 01:05:03.000] Yeah. Do I, do I?
+
+[1:05:02] Shaka:
+  [01:05:02.000 --> 01:05:07.000] So it is possible, we're agent.
+
+[1:05:07] Ben:
+  [01:05:07.000 --> 01:05:10.000] Yeah, do I need, do I need to join,
+  [01:05:10.000 --> 01:05:15.000] the DAO? Is there, do I need to do anything? Is there anything I need to do?
+
+[1:05:15] Shaka:
+  [01:05:15.000 --> 01:05:20.000] Yeah, let's, let's, let's mute myself here on the sub call.
+  [01:05:20.000 --> 01:05:22.000] And then let's go to for the first artist here.
+  [01:05:22.000 --> 01:05:26.000] yeah, we have,
+  [01:05:26.000 --> 01:05:29.000] great profile system that was set up cause everyone filled out the
+  [01:05:29.000 --> 01:05:30.000] Google file to perform at DevCon.
+
+[1:05:30] Ben:
+  [01:05:30.000 --> 01:05:31.000] Yeah
+  [01:05:31.000 --> 01:05:35.000] .
+
+[1:05:35] Shaka:
+  [01:05:35.000 --> 01:05:40.000] Here's defining the
+  [01:05:40.000 --> 01:05:43.000] profile. So we do have your profile in there. We need to get a picture in, a better picture. So
+
+[1:05:43] Ben:
+  [01:05:43.000 --> 01:05:45.000] Okay.
+
+[1:05:45] Shaka:
+  [01:05:45.000 --> 01:05:50.000] from the DevCon 8 photos for you cause there's, there's a really
+  [01:05:50.000 --> 01:05:53.000] you. a couple of really great ones for you. Or if you have a picture, we can easily update.
+  [01:05:53.000 --> 01:05:54.000] That'll be quick.
+
+[1:05:53] Ben:
+  [01:05:53.000 --> 01:05:57.000] No, no, no, you, you, you go for it, you go for it.
+  [01:05:57.000 --> 01:05:58.000] but, I haven't, I haven't gone through some, most of them.
+  [01:05:57.000 --> 01:05:59.000] them.
+
+[1:05:59] Shaka:
+  [01:05:59.000 --> 01:06:01.000] Yeah, actually.
+  [01:06:01.000 --> 01:06:06.000] Since,
+  [01:06:06.000 --> 01:06:12.000] since I'm going to be posting this on Twitter, this is a great time to experiment to see if
+  [01:06:12.000 --> 01:06:13.000] if, Grok can do this for me on
+
+[1:06:13] Ben:
+  [01:06:13.000 --> 01:06:15.000] Okay.
+
+[1:06:15] Shaka:
+  [01:06:15.000 --> 01:06:20.000] a good, good level here. So, Groka is my Shaka.
+  [01:06:20.000 --> 01:06:25.000] Getting ready for the
+  [01:06:25.000 --> 01:06:26.000] Oso Downbeat. Can
+  [01:06:26.000 --> 01:06:28.000] update Ben's profile picture on artist dot
+  [01:06:28.000 --> 01:06:31.000] source?
+
+[1:06:31] Ben:
+  [01:06:31.000 --> 01:06:34.000] So this Grok is like an AI chat. I've never, I've never heard of this one.
+
+[1:06:34] Shaka:
+  [01:06:34.000 --> 01:06:37.000] This is Grok Bot.
+
+[1:06:37] Ben:
+  [01:06:37.000 --> 01:06:42.000] I learn something new every day. Okay.
+
+[1:06:42] Shaka:
+  [01:06:42.000 --> 01:06:46.000] Yeah, Grok Bot is killer. I, I,
+
+[1:06:46] Ben:
+  [01:06:46.000 --> 01:06:47.000] Okay.
+
+[1:06:47] Shaka:
+  [01:06:47.000 --> 01:06:52.000] similar to other orchestrators that I've been using before
+  [01:06:52.000 --> 01:06:55.000] Grok Bot, but actually they like did a really good job making it much simpler and faster
+  [01:06:55.000 --> 01:06:56.000] and seamless, and the girl who works on, Grok Bot, she's really cool.
+
+[1:06:56] Ben:
+  [01:06:56.000 --> 01:07:00.000] Yeah.
+
+[1:07:00] Shaka:
+  [01:07:00.000 --> 01:07:03.000] Can you, I'm really bad at typing, so
+
+[1:07:03] Ben:
+  [01:07:03.000 --> 01:07:05.000] Yeah.
+
+[1:07:05] Shaka:
+  [01:07:05.000 --> 01:07:06.000] I'm only, I'm only fixing my typos because we're recording, but usually I
+  [01:07:06.000 --> 01:07:09.000] there, they should be able to do that.
+  [01:07:09.000 --> 01:07:10.000] update bins profile.
+  [01:07:10.000 --> 01:07:17.000] profile.
+  [01:07:17.000 --> 01:07:21.000] So I did give
+  [01:07:21.000 --> 01:07:27.000] And Open Source Orchestra is a,
+  [01:07:27.000 --> 01:07:28.000] GitHub organization, so you can
+
+[1:07:28] Ben:
+  [01:07:28.000 --> 01:07:32.000] Yeah.
+
+[1:07:32] Shaka:
+  [01:07:32.000 --> 01:07:35.000] make, repo PRs, and then the agents can read them and approve
+
+[1:07:35] Ben:
+  [01:07:35.000 --> 01:07:37.000] Yeah.
+
+[1:07:37] Shaka:
+  [01:07:37.000 --> 01:07:42.000] them, pretty easily with my consent. I think, it would be amazing if
+  [01:07:42.000 --> 01:07:44.000] this becomes a really great establishment where, there are multiple people that
+
+[1:07:44] Ben:
+  [01:07:44.000 --> 01:07:47.000] Yeah.
+
+[1:07:47] Shaka:
+  [01:07:47.000 --> 01:07:49.000] are capable of approving PRs, won't be agents fully approving PRs, it'll
+  [01:07:49.000 --> 01:07:50.000] PRs, obviously.
+
+[1:07:50] Ben:
+  [01:07:50.000 --> 01:07:51.000] Okay.
+
+[1:07:50] Shaka:
+  [01:07:50.000 --> 01:07:54.000] obviously.
+  [01:07:54.000 --> 01:07:55.000] But the agents always ask for my approval on PRs.
+
+[1:07:55] Ben:
+  [01:07:55.000 --> 01:07:56.000] Yeah.
+
+[1:07:56] Shaka:
+  [01:07:56.000 --> 01:07:57.000] And,
+  [01:07:56.000 --> 01:08:01.000] and,
+  [01:08:01.000 --> 01:08:06.000] Speaking of, let me just like
+  [01:08:06.000 --> 01:08:09.000] ideas into the Grok and X world that it
+  [01:08:09.000 --> 01:08:10.000] to see teen Grok accounts.
+
+[1:08:09] Ben:
+  [01:08:09.000 --> 01:08:14.000] Yeah.
+
+[1:08:14] Shaka:
+  [01:08:14.000 --> 01:08:19.000] So we can have an open source orchestra have a teen
+  [01:08:19.000 --> 01:08:20.000] Grok account that then eventually, that Grokbot can maybe
+
+[1:08:19] Ben:
+  [01:08:19.000 --> 01:08:24.000] Yeah.
+
+[1:08:24] Shaka:
+  [01:08:24.000 --> 01:08:29.000] actually be the one that's approving PRs for organizations. So how can a
+  [01:08:29.000 --> 01:08:31.000] Grokbot that's shared by a teen approve PRs? I think that's already probably out there,
+  [01:08:31.000 --> 01:08:32.000] experiment with on the open source orchestra would be really cool.
+
+[1:08:32] Ben:
+  [01:08:32.000 --> 01:08:36.000] Yeah.
+
+[1:08:36] Shaka:
+  [01:08:36.000 --> 01:08:38.000] Which pretty, fine print, oh look, it's even,
+  [01:08:38.000 --> 01:08:39.000] suggesting you wearing the Indiga Korta.
+
+[1:08:39] Ben:
+  [01:08:39.000 --> 01:08:40.000] Yeah.
+
+[1:08:40] Shaka:
+  [01:08:40.000 --> 01:08:41.000] that's how smart it is.
+
+[1:08:41] Ben:
+  [01:08:41.000 --> 01:08:44.000] Wow.
+  [01:08:44.000 --> 01:08:46.000] I've, I've never,
+
+[1:08:46] Shaka:
+  [01:08:46.000 --> 01:08:47.000] Finding
+
+[1:08:47] Ben:
+  [01:08:47.000 --> 01:08:51.000] Grok.
+
+[1:08:51] Shaka:
+  [01:08:51.000 --> 01:08:56.000] him in the. Thank you, thank you Niddy for, for
+  [01:08:56.000 --> 01:08:57.000] us borrow your, your father-in-law's Cortes. They, they all belong to
+
+[1:08:57] Ben:
+  [01:08:57.000 --> 01:09:01.000] Okay.
+
+[1:09:01] Shaka:
+  [01:09:01.000 --> 01:09:02.000] Devansh's dad, so thank you Devansh and Niddy for providing
+  [01:09:02.000 --> 01:09:04.000] for.
+
+[1:09:04] Ben:
+  [01:09:04.000 --> 01:09:07.000] Oh, yeah.
+
+[1:09:07] Shaka:
+  [01:09:07.000 --> 01:09:11.000] hours at the World Geocenter and then submitted a hackathon
+
+[1:09:11] Ben:
+  [01:09:11.000 --> 01:09:12.000] Yours look good,
+  [01:09:12.000 --> 01:09:13.000] though. You look really, yeah.
+
+[1:09:12] Shaka:
+  [01:09:12.000 --> 01:09:14.000] Niddy's father-in-law. Yours is the Indigo, man,
+  [01:09:14.000 --> 01:09:15.000] the, the Indigo Cortez was.
+  [01:09:15.000 --> 01:09:16.000] was.
+
+[1:09:16] Ben:
+  [01:09:16.000 --> 01:09:20.000] Yeah, but yours, yours really,
+  [01:09:20.000 --> 01:09:21.000] really, mine was a little bit on the tight side.
+  [01:09:21.000 --> 01:09:22.000] side.
+
+[1:09:21] Shaka:
+  [01:09:21.000 --> 01:09:29.000] Yeah.
+
+[1:09:29] Ben:
+  [01:09:29.000 --> 01:09:33.000] So, so, do I need to do anything, or do I?
+  [01:09:33.000 --> 01:09:34.000] Yeah.
+
+[1:09:33] Shaka:
+  [01:09:33.000 --> 01:09:38.000] Yes, sorry I didn't properly answer your question.
+  [01:09:38.000 --> 01:09:41.000] So.
+  [01:09:41.000 --> 01:09:48.000] I think this is set up.
+
+[1:09:48] Ben:
+  [01:09:48.000 --> 01:09:53.000] Can you, can you put that link in the, in the chat, please?
+  [01:09:53.000 --> 01:10:00.000] For the, the site it's, please, for itself, so.
+
+[1:10:00] Shaka (via text chat):
+  [01:10:00.000 --> 01:10:02.000] https://artist.opensourceorchestra.org/#adegbenga
+
+[1:10:02] Ben:
+  [01:10:02.000 --> 01:10:03.000] Okay.
+
+[1:10:03] Shaka:
+  [01:10:03.000 --> 01:10:06.000] That's your little profile link. But then this also should have open
+  [01:10:06.000 --> 01:10:07.000] source orchestra.
+
+[1:10:06] Ben (via text chat):
+  [01:10:06.000 --> 01:10:08.000] Aweome Mary
+
+[1:10:08] Shaka:
+  [01:10:08.000 --> 01:10:10.000] org
+
+[1:10:10] Ben:
+  [01:10:10.000 --> 01:10:11.000] Okay.
+
+[1:10:11] Shaka:
+  [01:10:11.000 --> 01:10:13.000] slash
+  [01:10:13.000 --> 01:10:14.000] how to join
+
+[1:10:14] Shaka (via text chat):
+  [01:10:14.000 --> 01:10:15.000] opensourceorchestra.org/howtojoin
+
+[1:10:15] Ben:
+  [01:10:15.000 --> 01:10:16.000] Okay.
+
+[1:10:16] Shaka:
+  [01:10:16.000 --> 01:10:20.000] but you already have a profile.
+  [01:10:20.000 --> 01:10:24.000] but what we do need to get you set up with is,
+  [01:10:24.000 --> 01:10:25.000] claiming your, claiming your ENS.
+
+[1:10:25] Ben:
+  [01:10:25.000 --> 01:10:29.000] Yeah.
+
+[1:10:29] Shaka:
+  [01:10:29.000 --> 01:10:30.000] So as you can see here, Bendigo,
+
+[1:10:30] Ben:
+  [01:10:30.000 --> 01:10:32.000] Yeah.
+
+[1:10:32] Shaka:
+  [01:10:32.000 --> 01:10:37.000] bendigo dot osor dot eth, or changing it and getting a new one.
+  [01:10:37.000 --> 01:10:38.000] which I think we, you would have to fill out a new profile to do that.
+
+[1:10:38] Ben:
+  [01:10:38.000 --> 01:10:44.000] Okay.
+
+[1:10:44] Shaka:
+  [01:10:44.000 --> 01:10:47.000] There is one girl that has two profiles on
+  [01:10:47.000 --> 01:10:49.000] to, start a profile.
+
+[1:10:49] Ben:
+  [01:10:49.000 --> 01:10:52.000] Okay.
+
+[1:10:52] Shaka:
+  [01:10:52.000 --> 01:10:54.000] let's, let's try, let's try this
+  [01:10:54.000 --> 01:10:58.000] new, new,
+
+[1:10:58] Ben:
+  [01:10:58.000 --> 01:11:00.000] Cause I see profile rider, death connect
+  [01:11:00.000 --> 01:11:03.000] artist wallet, take out the circle, link to this artist.
+  [01:11:03.000 --> 01:11:07.000] Student invites. Okay.
+
+[1:11:07] Shaka:
+  [01:11:07.000 --> 01:11:09.000] How to, how to join is new, actually. So how to join,
+  [01:11:09.000 --> 01:11:12.000] profile, I think.
+
+[1:11:12] Ben:
+  [01:11:12.000 --> 01:11:14.000] It's a beautiful website. Woof.
+
+[1:11:14] Shaka:
+  [01:11:14.000 --> 01:11:18.000] And, and it, it's actually, oh, thanks
+  [01:11:18.000 --> 01:11:19.000] pictures to DevCon 8 and agents. Yeah, it's, it came up, came up.
+  [01:11:19.000 --> 01:11:20.000] up.
+
+[1:11:19] Ben:
+  [01:11:19.000 --> 01:11:22.000] Oh my goodness. Who built this? This is, this is just phenomenal.
+
+[1:11:22] Shaka:
+  [01:11:22.000 --> 01:11:24.000] This is just a how-to, just a how-to site, right? So.
+
+[1:11:24] Ben:
+  [01:11:24.000 --> 01:11:27.000] Yeah.
+
+[1:11:27] Shaka:
+  [01:11:27.000 --> 01:11:32.000] I'm not sure if it go, if it, I just actually made this today,
+  [01:11:32.000 --> 01:11:37.000] go through and audit it to make sure that it is a good process and it kind
+  [01:11:37.000 --> 01:11:38.000] that probably is, it's like apply to
+  [01:11:38.000 --> 01:11:43.000] join, you know, ideally.
+
+[1:11:43] Ben:
+  [01:11:43.000 --> 01:11:45.000] So this is specific to DEF CON eight, but my profile just lives on.
+  [01:11:45.000 --> 01:11:46.000] Across
+  [01:11:46.000 --> 01:11:52.000] what's the name?
+
+[1:11:52] Shaka:
+  [01:11:52.000 --> 01:11:57.000] Oh, so it's already just
+  [01:11:57.000 --> 01:11:58.000] this is amazing. So I didn't even create this Google form, the agents did it.
+  [01:11:57.000 --> 01:11:59.000] it.
+
+[1:11:59] Ben:
+  [01:11:59.000 --> 01:12:02.000] Okay, so.
+
+[1:12:02] Shaka:
+  [01:12:02.000 --> 01:12:07.000] Road to Lisbon Google form is already
+  [01:12:07.000 --> 01:12:09.000] live. Look at that. Amazing. Thank you, Ohana. Okay, so the Google form
+  [01:12:09.000 --> 01:12:10.000] someone is in the Google form,
+
+[1:12:10] Ben:
+  [01:12:10.000 --> 01:12:14.000] Yeah.
+
+[1:12:14] Shaka:
+  [01:12:14.000 --> 01:12:16.000] then, then my agents, are actually
+
+[1:12:16] Ben:
+  [01:12:16.000 --> 01:12:19.000] Okay.
+
+[1:12:19] Shaka:
+  [01:12:19.000 --> 01:12:24.000] that's why I named one of the agents
+  [01:12:24.000 --> 01:12:27.000] Googly Eye, cause like I actually, I'm not afraid to like synchronize
+
+[1:12:27] Ben:
+  [01:12:27.000 --> 01:12:29.000] Yeah.
+
+[1:12:29] Shaka:
+  [01:12:29.000 --> 01:12:34.000] Google with, with X, with Cloud subscription, you know, I think it actually makes it more
+  [01:12:34.000 --> 01:12:39.000] yourself this diverse decentralized capability, but then like
+  [01:12:39.000 --> 01:12:41.000] have the open source, repos that are kinda like your, your
+
+[1:12:41] Ben:
+  [01:12:41.000 --> 01:12:44.000] Yeah.
+
+[1:12:44] Shaka:
+  [01:12:44.000 --> 01:12:49.000] important private stuff stays private because you're playing
+  [01:12:49.000 --> 01:12:51.000] for these accounts and their security, and then, so those accounts being like the
+
+[1:12:51] Ben:
+  [01:12:51.000 --> 01:12:54.000] Yeah.
+
+[1:12:54] Shaka:
+  [01:12:54.000 --> 01:12:57.000] the Google premium, the Google accounts, and then,
+  [01:12:57.000 --> 01:12:58.000] once, once you're, you're
+
+[1:12:58] Ben:
+  [01:12:58.000 --> 01:13:02.000] So, so quick question, do I need to apply to join again?
+
+[1:13:02] Shaka:
+  [01:13:02.000 --> 01:13:04.000] not necessarily, because what I was
+  [01:13:04.000 --> 01:13:05.000] already in the Google form from DEF CON 8.
+
+[1:13:05] Ben:
+  [01:13:05.000 --> 01:13:09.000] Yeah.
+
+[1:13:09] Shaka:
+  [01:13:09.000 --> 01:13:11.000] And actually, this was all
+
+[1:13:11] Ben:
+  [01:13:11.000 --> 01:13:14.000] Okay.
+
+[1:13:14] Shaka:
+  [01:13:14.000 --> 01:13:17.000] Google form. And actually, a lot of, a lot of what my agents have been doing,
+
+[1:13:17] Ben:
+  [01:13:17.000 --> 01:13:19.000] Okay.
+
+[1:13:19] Shaka:
+  [01:13:19.000 --> 01:13:24.000] off of like Google forms and Google, Google
+
+[1:13:24] Ben:
+  [01:13:24.000 --> 01:13:25.000] Yeah.
+
+[1:13:25] Shaka:
+  [01:13:25.000 --> 01:13:27.000] like the content, for everything, you know, DEF CON
+  [01:13:27.000 --> 01:13:29.000] content for where these photo, photos are shuffling from.
+  [01:13:29.000 --> 01:13:30.000] It's a Google drive.
+
+[1:13:30] Ben:
+  [01:13:30.000 --> 01:13:34.000] Okay.
+
+[1:13:34] Shaka:
+  [01:13:34.000 --> 01:13:39.000] yeah, open source
+  [01:13:39.000 --> 01:13:44.000] centralized googly eyes. I think it's okay. You
+  [01:13:44.000 --> 01:13:49.000] know, we're focusing on the open source side of things that I think actually you're going to start
+  [01:13:49.000 --> 01:13:53.000] movement where Google and Apple and, and Twitter or X are going to be doing
+
+[1:13:53] Ben:
+  [01:13:53.000 --> 01:13:54.000] Yeah.
+
+[1:13:54] Shaka:
+  [01:13:54.000 --> 01:13:57.000] us because that's what's actually
+  [01:13:57.000 --> 01:13:59.000] really fluent for agents. agents are able to do things really quickly with open source repos.
+  [01:13:59.000 --> 01:14:01.000] And,
+  [01:14:01.000 --> 01:14:02.000] I think that
+  [01:14:01.000 --> 01:14:06.000] .
+  [01:14:06.000 --> 01:14:11.000] So with that, you can even just email me,
+  [01:14:11.000 --> 01:14:13.000] agents already know you, as you can see, and ask for any change, even like ask my
+
+[1:14:13] Ben:
+  [01:14:13.000 --> 01:14:16.000] Okay.
+
+[1:14:16] Shaka:
+  [01:14:16.000 --> 01:14:17.000] say, please make this change, so it
+
+[1:14:16] Ben:
+  [01:14:16.000 --> 01:14:21.000] Yeah.
+
+[1:14:21] Shaka:
+  [01:14:21.000 --> 01:14:26.000] can be Aloha, SHAKA LEI KAUMAKA, or my agent
+  [01:14:26.000 --> 01:14:27.000] Ohana dot com, so just, you can email me, email me, you know, and, and
+
+[1:14:26] Ben:
+  [01:14:26.000 --> 01:14:31.000] Okay.
+
+[1:14:31] Shaka:
+  [01:14:31.000 --> 01:14:36.000] agents see it, and then, we, we've been making those integrations
+  [01:14:36.000 --> 01:14:40.000] directly. we can get to the point where people are making PRs, and then, you know, eventually, like,
+
+[1:14:40] Ben:
+  [01:14:40.000 --> 01:14:41.000] Yeah.
+
+[1:14:41] Shaka:
+  [01:14:41.000 --> 01:14:46.000] maybe it ha, it gets so fluent, where actually agents,
+  [01:14:46.000 --> 01:14:48.000] are, are, I'll give them more autonomy and I, and trust, because I've given them a lot of
+
+[1:14:48] Ben:
+  [01:14:48.000 --> 01:14:51.000] Okay.
+
+[1:14:51] Shaka:
+  [01:14:51.000 --> 01:14:54.000] already, that I'll just let them autonomously start responding to people. That would be the dream if we just
+
+[1:14:54] Ben:
+  [01:14:54.000 --> 01:14:56.000] Yeah.
+
+[1:14:56] Shaka:
+  [01:14:56.000 --> 01:15:01.000] the world wanting to play in the orchestra, and then I have
+  [01:15:01.000 --> 01:15:03.000] some local models running, so I'm not paying for the inference, and then just connect those local
+
+[1:15:03] Ben:
+  [01:15:03.000 --> 01:15:06.000] Yeah.
+
+[1:15:06] Shaka:
+  [01:15:06.000 --> 01:15:11.000] models with the open source orchestra bridge, that people can talk to those agents anytime,
+  [01:15:11.000 --> 01:15:15.000] and ask questions about open source orchestra and how to participate. So, yeah, definitely improving and working, and would love for you
+  [01:15:15.000 --> 01:15:17.000] to just, like, try and set things up and go through the website, so then if it doesn't work, then we can.
+  [01:15:17.000 --> 01:15:22.000] Fix it.
+
+[1:15:22] Ben:
+  [01:15:22.000 --> 01:15:26.000] Okay, okay, all right, no worries.
+  [01:15:26.000 --> 01:15:27.000] updating, I'll let you know. I've got a shoot off, but keep up the good work.
+  [01:15:27.000 --> 01:15:32.000] know, you,
+  [01:15:32.000 --> 01:15:37.000] you're an inspiration to all of us. You, you're the,
+  [01:15:37.000 --> 01:15:42.000] you're the sun. You're the sun in our solar system, so I'm always
+  [01:15:42.000 --> 01:15:47.000] excited to meet up with you and, and, share ideas and, and brother, let's, let's,
+  [01:15:47.000 --> 01:15:52.000] 2027 the year, you know, we, we, we gotta put our mark on that where.
+  [01:15:52.000 --> 01:15:55.000] I tell you what, if we can make 2027 the
+  [01:15:55.000 --> 01:15:59.000] for 2028 will just be sky high.
+  [01:15:59.000 --> 01:16:04.000] In fact, almost create a divide where people are coming.
+  [01:16:04.000 --> 01:16:08.000] to DEFCON or coming to ETH Global,
+  [01:16:08.000 --> 01:16:13.000] mainly for the Open Source Orchestra, because I can tell you what, what we did in Mumbai.
+  [01:16:13.000 --> 01:16:18.000] The reverberations, I, you know, I spoke to a lot of people
+  [01:16:18.000 --> 01:16:23.000] are just like, wow,
+  [01:16:23.000 --> 01:16:28.000] the setting and the stage and the music and the community, and they're like, how did you guys put all this together? I
+  [01:16:28.000 --> 01:16:33.000] like the likes of the likes of Shaka and Vivekananda, Dev, and, you
+  [01:16:33.000 --> 01:16:38.000] Levi and Sonia and everybody, you know, people just came together
+  [01:16:38.000 --> 01:16:43.000] how we came up. And they're like, oh, it was amazing.
+  [01:16:43.000 --> 01:16:46.000] And you, you could see how so many people wanted to just come in and get involved. In
+  [01:16:46.000 --> 01:16:50.000] fact, I think the bulk of our time was random people just turning up.
+  [01:16:50.000 --> 01:16:55.000] Just trying to get involved, trying to sing, random people.
+  [01:16:55.000 --> 01:16:58.000] know, so I, I think it was,
+  [01:16:58.000 --> 01:17:02.000] really good. I, I, I really had fun. I had a lot of fun.
+
+[1:17:02] Shaka:
+  [01:17:02.000 --> 01:17:06.000] Yeah, you know it takes.
+  [01:17:06.000 --> 01:17:08.000] It takes stewardship.
+  [01:17:08.000 --> 01:17:09.000] And
+
+[1:17:08] Ben:
+  [01:17:08.000 --> 01:17:13.000] Yeah.
+
+[1:17:13] Shaka:
+  [01:17:13.000 --> 01:17:14.000] I've had a lot of growth and some hedging of bad habits
+  [01:17:14.000 --> 01:17:15.000] that I've had to cut off and
+  [01:17:15.000 --> 01:17:20.000] you know, I'm, I think I'm
+  [01:17:20.000 --> 01:17:25.000] not necessarily a son, I'm more of like a moon that I reflect the sun.
+  [01:17:25.000 --> 01:17:30.000] And there is a dark side of the moon that occasionally
+  [01:17:30.000 --> 01:17:35.000] run dry on the energy, but that's why what really gives this thing life is like
+  [01:17:35.000 --> 01:17:40.000] guys like you singing by my side. I always love you singing and
+  [01:17:40.000 --> 01:17:45.000] harmonizing and your, your creativity and coming up with lyrics,
+  [01:17:45.000 --> 01:17:46.000] on, on the spot, it's gonna keep growing. And I think your songwriting is
+
+[1:17:46] Ben:
+  [01:17:46.000 --> 01:17:50.000] Yeah.
+
+[1:17:50] Shaka:
+  [01:17:50.000 --> 01:17:53.000] gonna keep growing. why? Because I've really seen myself as an artist keep growing,
+  [01:17:53.000 --> 01:17:57.000] growing. one of my early guitar teachers taught me like
+  [01:17:57.000 --> 01:17:59.000] as a musician, you never arrive.
+
+[1:17:59] Ben:
+  [01:17:59.000 --> 01:18:02.000] Yeah, yeah, yeah.
+
+[1:18:02] Shaka:
+  [01:18:02.000 --> 01:18:07.000] So the open source orchestra will never arrive.
+  [01:18:07.000 --> 01:18:09.000] We will, we will be, we will, we will be alive and
+  [01:18:09.000 --> 01:18:10.000] can and that will welcome us.
+
+[1:18:10] Ben:
+  [01:18:10.000 --> 01:18:14.000] Yeah.
+
+[1:18:14] Shaka:
+  [01:18:14.000 --> 01:18:16.000] But as, as far as like
+
+[1:18:16] Ben:
+  [01:18:16.000 --> 01:18:19.000] Yeah.
+
+[1:18:19] Shaka:
+  [01:18:19.000 --> 01:18:20.000] never arrive. It will, it will always grow, grow
+  [01:18:20.000 --> 01:18:23.000] and grow and grow and grow like an infinite.
+
+[1:18:23] Ben:
+  [01:18:23.000 --> 01:18:28.000] I, I, I truly believe that the open source orchestra is
+  [01:18:28.000 --> 01:18:30.000] Ethereum's big chance to become global because, you know, like I said
+  [01:18:30.000 --> 01:18:33.000] not looking great. It's
+  [01:18:33.000 --> 01:18:34.000] it's, it's not, I won't say it's depressing.
+  [01:18:34.000 --> 01:18:35.000] depressing.
+  [01:18:35.000 --> 01:18:41.000] But it's just
+  [01:18:41.000 --> 01:18:43.000] it, it just left a lot of people
+  [01:18:43.000 --> 01:18:46.000] just really, really confused about what Ethereum is trying to do. Justin Drake did a massive talk.
+  [01:18:46.000 --> 01:18:50.000] And, you know, some of the things he mentioned, which
+  [01:18:50.000 --> 01:18:54.000] they're working really hard behind the scenes, really just
+  [01:18:54.000 --> 01:18:55.000] just made a lot of people like, I'm not getting involved in Ethereum.
+  [01:18:55.000 --> 01:19:01.000] know, so.
+  [01:19:01.000 --> 01:19:06.000] I, I, I see, I, I'm very passionate about how could we, not
+  [01:19:06.000 --> 01:19:07.000] make blockchain decentralization global? And I think music
+  [01:19:07.000 --> 01:19:08.000] is probably the last bastion.
+  [01:19:07.000 --> 01:19:12.000] bastion.
+  [01:19:12.000 --> 01:19:15.000] to make it global. Just even just basically sites like Spotify
+  [01:19:15.000 --> 01:19:20.000] and Tidal are all centralized. And the average artist.
+  [01:19:20.000 --> 01:19:25.000] You get pennies, I mean, to even just, you, you, even on, even, even
+  [01:19:25.000 --> 01:19:26.000] think I, I calculate on the billion streams, you're not getting more than at least ten thousand pounds.
+  [01:19:26.000 --> 01:19:27.000] pounds.
+  [01:19:27.000 --> 01:19:33.000] For billion streams.
+  [01:19:33.000 --> 01:19:37.000] That's all it is. YouTube is probably the same. So, so you could just imagine.
+  [01:19:37.000 --> 01:19:40.000] billion people have downloaded your music, even at 10p.
+  [01:19:40.000 --> 01:19:42.000] Per person, it should be at least 100 million.
+  [01:19:42.000 --> 01:19:47.000] But no.
+  [01:19:47.000 --> 01:19:49.000] So, we, we have a lot of opportunities to disrupt, not
+  [01:19:49.000 --> 01:19:50.000] the music, but in terms of the technology.
+  [01:19:50.000 --> 01:19:54.000] technology.
+  [01:19:54.000 --> 01:19:59.000] You know, we, we can have, you know, different, different arms
+  [01:19:59.000 --> 01:20:02.000] music annex, the technology access, the DAO, the community,
+  [01:20:02.000 --> 01:20:03.000] and, you know, all functioning together. It's a real, real force for good.
+  [01:20:03.000 --> 01:20:08.000] good.
+
+[1:20:08] Shaka:
+  [01:20:08.000 --> 01:20:12.000] Yeah, there's a, there's a video, that
+  [01:20:12.000 --> 01:20:18.000] I helped record at Esmeralda that I'm just thinking of right now.
+  [01:20:18.000 --> 01:20:21.000] with Janine from Edge City, where
+  [01:20:21.000 --> 01:20:24.000] she talks about, like, the value and how sometimes the value is different. So, like,
+  [01:20:24.000 --> 01:20:29.000] many times because the open source orchestra hasn't been funded,
+  [01:20:29.000 --> 01:20:31.000] I've gone through phases with my own weakness.
+
+[1:20:31] Ben:
+  [01:20:31.000 --> 01:20:34.000] You done well.
+
+[1:20:34] Shaka:
+  [01:20:34.000 --> 01:20:36.000] And then also, I've, I've received a lot of people's feedback that
+  [01:20:36.000 --> 01:20:41.000] that,
+  [01:20:41.000 --> 01:20:43.000] you know, like, where is the value of the
+  [01:20:43.000 --> 01:20:44.000] orchestra? And the value, it is valued.
+
+[1:20:44] Ben:
+  [01:20:44.000 --> 01:20:48.000] Yeah.
+
+[1:20:48] Shaka:
+  [01:20:48.000 --> 01:20:51.000] And, and the, the value, the value much, the value is very much
+  [01:20:51.000 --> 01:20:55.000] there in, in a whole bunch of different ways. So like,
+  [01:20:55.000 --> 01:21:00.000] the room that the DevCon team allowed us to
+  [01:21:00.000 --> 01:21:02.000] doing that for us and being a part of the gift
+  [01:21:02.000 --> 01:21:03.000] with us is way more valuable than them paying for, paying us.
+  [01:21:02.000 --> 01:21:04.000] us.
+
+[1:21:04] Ben:
+  [01:21:04.000 --> 01:21:06.000] Yeah, yeah, too.
+
+[1:21:06] Shaka:
+  [01:21:06.000 --> 01:21:11.000] And, and also, I think the
+  [01:21:11.000 --> 01:21:16.000] value, the value that we hold
+  [01:21:16.000 --> 01:21:17.000] true of, like, licensing with open source,
+
+[1:21:17] Ben:
+  [01:21:17.000 --> 01:21:18.000] Yeah.
+
+[1:21:17] Shaka:
+  [01:21:17.000 --> 01:21:23.000] copyleft narratives, and then,
+  [01:21:23.000 --> 01:21:24.000] holding the values of Ethereum on the forefront of what we
+
+[1:21:23] Ben:
+  [01:21:23.000 --> 01:21:28.000] Yeah.
+
+[1:21:28] Shaka:
+  [01:21:28.000 --> 01:21:30.000] orchestra and as artists, that's, that's where we really
+
+[1:21:30] Ben:
+  [01:21:30.000 --> 01:21:31.000] Yeah.
+
+[1:21:31] Shaka:
+  [01:21:31.000 --> 01:21:34.000] true, is not that we're there to extract value, we're there to
+  [01:21:34.000 --> 01:21:35.000] uphold the values of Ethereum.
+
+[1:21:34] Ben:
+  [01:21:34.000 --> 01:21:39.000] Yeah.
+
+[1:21:39] Shaka:
+  [01:21:39.000 --> 01:21:44.000] And the transparent side of,
+  [01:21:44.000 --> 01:21:49.000] of, of how, we go out and find funding, I think that I will go out and
+  [01:21:49.000 --> 01:21:51.000] find funding, for both the orchestra and, you know, in a transparent way, like start saying, hey,
+
+[1:21:51] Ben:
+  [01:21:51.000 --> 01:21:54.000] Yeah.
+
+[1:21:54] Shaka:
+  [01:21:54.000 --> 01:21:56.000] for myself and, and to feed my agents. You know, I'm not a
+
+[1:21:56] Ben:
+  [01:21:56.000 --> 01:21:59.000] Yeah.
+
+[1:21:59] Shaka:
+  [01:21:59.000 --> 01:22:04.000] father, but I am an agent smith, and I do burn my subscription quite regularly. That, but that's
+  [01:22:04.000 --> 01:22:09.000] Grok, Grok on board with the Ohana too. it's
+  [01:22:09.000 --> 01:22:12.000] subscription, a cloud subscription, and then I still burn those, and then I want to pay
+
+[1:22:12] Ben:
+  [01:22:12.000 --> 01:22:14.000] Yeah.
+
+[1:22:14] Shaka:
+  [01:22:14.000 --> 01:22:16.000] for, inference, cause I like, I love Kimi 3, you know, so
+  [01:22:16.000 --> 01:22:18.000] we'll be able to do some of these things more locally.
+
+[1:22:18] Ben:
+  [01:22:18.000 --> 01:22:21.000] Yeah.
+
+[1:22:21] Shaka:
+  [01:22:21.000 --> 01:22:26.000] yeah, it's the thing that's
+  [01:22:26.000 --> 01:22:30.000] most important is that the, the values are what really we're trying to paint the picture of and create this,
+  [01:22:30.000 --> 01:22:35.000] this dream that actually is already a reality.
+
+[1:22:35] Ben:
+  [01:22:35.000 --> 01:22:39.000] Yeah. And you, and you see like, I think
+  [01:22:39.000 --> 01:22:44.000] local people involved in Mumbai taught me, cause we, we didn't really have that in Bangkok.
+
+[1:22:44] Shaka:
+  [01:22:44.000 --> 01:22:45.000] Which is
+
+[1:22:44] Ben:
+  [01:22:44.000 --> 01:22:49.000] Like, it's my memory from Bangkok, we didn't get a lot of local
+  [01:22:49.000 --> 01:22:53.000] people. But I think just tapping into the local scene, it, it
+  [01:22:53.000 --> 01:22:58.000] really gives that good cultural blend, that natural blend of
+  [01:22:58.000 --> 01:23:03.000] globalness that we're really trying to push,
+  [01:23:03.000 --> 01:23:08.000] shows our ability to, you
+  [01:23:08.000 --> 01:23:10.000] know, adapt. Like, obviously, you know, going to France, going to Japan, it's just gonna be
+  [01:23:10.000 --> 01:23:12.000] Portugal, and getting local people involved.
+
+[1:23:12] Shaka:
+  [01:23:12.000 --> 01:23:15.000] Joo
+
+[1:23:15] Ben:
+  [01:23:15.000 --> 01:23:20.000] Kind of leaves that presence for, it, it leaves that, that
+  [01:23:20.000 --> 01:23:23.000] mouthwatering for the next one. You know, for the next, the next one, like, okay, the next one, what's, what's
+
+[1:23:23] Shaka:
+  [01:23:23.000 --> 01:23:25.000] How are you
+
+[1:23:25] Ben:
+  [01:23:25.000 --> 01:23:27.000] board? I, I'm just excited for next
+
+[1:23:27] Shaka:
+  [01:23:27.000 --> 01:23:30.000] Seven
+
+[1:23:30] Ben:
+  [01:23:30.000 --> 01:23:35.000] year. I, I, I love Japan. I, I have family in Japan. I've been to Japan
+  [01:23:35.000 --> 01:23:37.000] is my most traveled country in the world. I've
+
+[1:23:37] Shaka:
+  [01:23:37.000 --> 01:23:38.000] Oh amazing.
+
+[1:23:38] Ben:
+  [01:23:38.000 --> 01:23:42.000] been to Japan 11 times. Yeah.
+
+[1:23:42] Shaka:
+  [01:23:42.000 --> 01:23:43.000] Well I think, then we, then we already have a
+
+[1:23:43] Ben:
+  [01:23:43.000 --> 01:23:47.000] Oh yeah, I go to go to Japan.
+
+[1:23:47] Shaka:
+  [01:23:47.000 --> 01:23:52.000] team of three for East Global. If, if you could actually, he might, he might, I, I'll, I'll let him
+  [01:23:52.000 --> 01:23:53.000] actually his father will be Akimayuki. He's a 15 year old
+
+[1:23:53] Ben:
+  [01:23:53.000 --> 01:23:57.000] Yeah, I wanna, I, I, I missed out on meeting Yuki.
+
+[1:23:57] Shaka:
+  [01:23:57.000 --> 01:23:58.000] Tokyo. Hopefully he'll, he'll definitely be
+
+[1:23:57] Ben:
+  [01:23:57.000 --> 01:24:02.000] Yeah, yeah.
+
+[1:24:02] Shaka:
+  [01:24:02.000 --> 01:24:07.000] brothers want to go to Tokyo from, from Mumbai or
+  [01:24:07.000 --> 01:24:12.000] That's also I think a big reason why Yuki
+  [01:24:12.000 --> 01:24:13.000] joined our team cause one of the, one of the 19 year old kids in from India on
+
+[1:24:13] Ben:
+  [01:24:13.000 --> 01:24:17.000] Yeah.
+
+[1:24:17] Shaka:
+  [01:24:17.000 --> 01:24:19.000] was always able to really talk to Yuki and,
+
+[1:24:19] Ben:
+  [01:24:19.000 --> 01:24:20.000] Yeah.
+
+[1:24:20] Shaka:
+  [01:24:20.000 --> 01:24:24.000] well as continuing to grow on Ethereum and
+  [01:24:24.000 --> 01:24:25.000] think that yeah, it's a lot of wisdom that we can bring to
+
+[1:24:24] Ben:
+  [01:24:24.000 --> 01:24:28.000] Yeah.
+
+[1:24:28] Shaka:
+  [01:24:28.000 --> 01:24:31.000] , young kids in using music to inspire it and then,
+  [01:24:31.000 --> 01:24:36.000] using the music,
+
+[1:24:36] Ben:
+  [01:24:36.000 --> 01:24:38.000] Yeah.
+
+[1:24:38] Shaka:
+  [01:24:38.000 --> 01:24:41.000] you know, the music as, as, as the
+  [01:24:41.000 --> 01:24:42.000] hardest, you know, and the orchestrator.
+
+[1:24:41] Ben:
+  [01:24:41.000 --> 01:24:48.000] Yeah.
+
+[1:24:48] Shaka:
+  [01:24:48.000 --> 01:24:53.000] Is when, the orchestrator already is kind
+  [01:24:53.000 --> 01:24:58.000] ethos and the values and the things that like hold
+  [01:24:58.000 --> 01:25:03.000] us true and then the venue that's, you know, Ethereum is usually hosting thus far. So
+  [01:25:03.000 --> 01:25:05.000] becomes more diverse, you know, this will be a great place for us to
+
+[1:25:05] Ben:
+  [01:25:05.000 --> 01:25:07.000] Yeah.
+  [01:25:07.000 --> 01:25:08.000] Yes, yeah.
+
+[1:25:08] Shaka:
+  [01:25:08.000 --> 01:25:13.000] of Ethereum and then bring it to places
+  [01:25:13.000 --> 01:25:18.000] like high schools and bring it to, to bring it to the malls, you know, playing in open public venues
+  [01:25:18.000 --> 01:25:19.000] as well as, the conference venues as well as, world class music
+
+[1:25:18] Ben:
+  [01:25:18.000 --> 01:25:19.000] Yeah.
+  [01:25:19.000 --> 01:25:20.000] Yeah, yeah, absolutely.
+
+[1:25:20] Shaka:
+  [01:25:20.000 --> 01:25:25.000] theaters and hopefully someday Red Rocks, you know.
+
+[1:25:25] Ben:
+  [01:25:25.000 --> 01:25:30.000] Absolutely. Yeah, like, like my city, I'm trying to really
+  [01:25:30.000 --> 01:25:35.000] make myself the go-to guy for Web3 across
+  [01:25:35.000 --> 01:25:40.000] the city for the whole year, just between you and I. I was, I was actually thinking of relocating and leaving.
+  [01:25:40.000 --> 01:25:42.000] But after Mumbai and just talking to a lot of people, I've, you know, I've kept in touch with a lot of
+  [01:25:42.000 --> 01:25:47.000] good contacts since then.
+  [01:25:47.000 --> 01:25:52.000] And I just got really passionate again about, it kind of
+  [01:25:52.000 --> 01:25:57.000] love again, you know, not just for the music, but for Web3. Cause I was, like,
+  [01:25:57.000 --> 01:26:02.000] disillusioned after Bangkok. I was just like, and that's why
+  [01:26:02.000 --> 01:26:04.000] That's why I didn't go to any major events after that, because I, I, I
+  [01:26:04.000 --> 01:26:05.000] wasn't sure of the roadmap. But
+  [01:26:04.000 --> 01:26:05.000] this
+
+[1:26:05] Shaka:
+  [01:26:05.000 --> 01:26:06.000] Sorry, name, what, what's the name of your hometown again?
+
+[1:26:06] Ben:
+  [01:26:06.000 --> 01:26:09.000] leads
+  [01:26:09.000 --> 01:26:10.000] Let's, let's just, yeah.
+
+[1:26:10] Shaka:
+  [01:26:10.000 --> 01:26:14.000] Leeds. dude, you should, you should do, you should do Zoo Leeds.
+
+[1:26:14] Ben:
+  [01:26:14.000 --> 01:26:16.000] Well, let's, Leicester's my hometown, but yeah, definitely,
+  [01:26:16.000 --> 01:26:17.000] absolutely.
+  [01:26:16.000 --> 01:26:20.000] absolutely.
+
+[1:26:20] Shaka:
+  [01:26:20.000 --> 01:26:23.000] Start Zoo Leeds, you know, you can do it in your own backyard, you can
+
+[1:26:23] Ben:
+  [01:26:23.000 --> 01:26:25.000] Okay.
+
+[1:26:25] Shaka:
+  [01:26:25.000 --> 01:26:30.000] living room. You don't have to have a hotel rental pop-up city to
+  [01:26:30.000 --> 01:26:33.000] host a Zoo Leeds. No, just start Zoo Leeds. What, what gets Zoo Leeds going is you
+
+[1:26:33] Ben:
+  [01:26:33.000 --> 01:26:35.000] Okay.
+
+[1:26:35] Shaka:
+  [01:26:35.000 --> 01:26:40.000] get the website running. you know, I would even help you build it if you wanted, you know, but you can, you know, so just
+  [01:26:40.000 --> 01:26:44.000] Leeds, you know, get the org up and running, and then, and then you
+
+[1:26:44] Ben:
+  [01:26:44.000 --> 01:26:45.000] Yeah.
+
+[1:26:45] Shaka:
+  [01:26:45.000 --> 01:26:50.000] regular meeting, and then you're publishing on social media, media, and
+  [01:26:50.000 --> 01:26:54.000] contacts that already built starts building your archive,
+
+[1:26:54] Ben:
+  [01:26:54.000 --> 01:26:55.000] Yeah.
+
+[1:26:55] Shaka:
+  [01:26:55.000 --> 01:27:00.000] every city has its archive, and then we're connecting all the archives, and then you're already a
+  [01:27:00.000 --> 01:27:05.000] part of the notes because you helped put on the Zoo Zone, at DEFCON.
+  [01:27:05.000 --> 01:27:10.000] So, you know, it's a great foot in the door that you already have that you can just be a part of the
+  [01:27:10.000 --> 01:27:15.000] together a Zoo Zalu town hall, or a
+  [01:27:15.000 --> 01:27:16.000] town hall. I like calling it Zoo's one because, you know,
+
+[1:27:16] Ben:
+  [01:27:16.000 --> 01:27:20.000] Yeah.
+
+[1:27:20] Shaka:
+  [01:27:20.000 --> 01:27:25.000] it's one community in my mind, not Zoo Zone, you know, so like Zoo's one,
+  [01:27:25.000 --> 01:27:27.000] one community because Zoo Zalu is everywhere and nowhere. It's
+
+[1:27:27] Ben:
+  [01:27:27.000 --> 01:27:30.000] Okay.
+
+[1:27:30] Shaka:
+  [01:27:30.000 --> 01:27:35.000] host it in their own city. You don't have to pop up a city, you know, you can
+  [01:27:35.000 --> 01:27:37.000] do it in your backyard. And, you know, places like Four Seas feel like your own backyard,
+  [01:27:37.000 --> 01:27:39.000] right? But this is, this is, this is Zoo Chiang Mai.
+
+[1:27:39] Ben:
+  [01:27:39.000 --> 01:27:40.000] Yeah.
+
+[1:27:39] Shaka:
+  [01:27:39.000 --> 01:27:44.000] You know, it's, it's
+  [01:27:44.000 --> 01:27:49.000] between you and I, and I'm putting out there early, but it's
+  [01:27:49.000 --> 01:27:51.000] rebranding to Zoo Chiang Mai. And, you know, so the zoo, the
+  [01:27:51.000 --> 01:27:54.000] there is, there is
+  [01:27:54.000 --> 01:27:55.000] forces with zoo and you.
+
+[1:27:54] Ben:
+  [01:27:54.000 --> 01:27:55.000] Yeah.
+
+[1:27:55] Shaka:
+  [01:27:55.000 --> 01:28:00.000] Mr.
+
+[1:28:00] Ben:
+  [01:28:00.000 --> 01:28:01.000] Yeah, absolutely, and thanks, thanks for
+  [01:28:01.000 --> 01:28:05.000] persistence and resilience. it's not easy to,
+  [01:28:05.000 --> 01:28:10.000] to carry on year after year, you know, with
+  [01:28:10.000 --> 01:28:11.000] you know, costs and everything hanging
+  [01:28:11.000 --> 01:28:16.000] travel, it's not easy.
+  [01:28:16.000 --> 01:28:21.000] know I, I try
+  [01:28:21.000 --> 01:28:22.000] traveling around, and it's, you know, it's, it's, it's not easy, but it takes a particular kind of person.
+  [01:28:21.000 --> 01:28:23.000] person.
+  [01:28:23.000 --> 01:28:27.000] But
+
+[1:28:27] Shaka:
+  [01:28:27.000 --> 01:28:31.000] Well it's funny it's funny cause like what popped in my head
+
+[1:28:31] Ben:
+  [01:28:31.000 --> 01:28:32.000] yeah.
+
+[1:28:32] Shaka:
+  [01:28:32.000 --> 01:28:37.000] is you're saying it's not easy well well Ethereum is a speakeasy you
+  [01:28:37.000 --> 01:28:42.000] even like maybe like I actually love Justin
+  [01:28:42.000 --> 01:28:43.000] fist bump I love how Vitalik was wearing like
+
+[1:28:43] Ben:
+  [01:28:43.000 --> 01:28:47.000] Yeah.
+
+[1:28:47] Shaka:
+  [01:28:47.000 --> 01:28:49.000] an orgor smiley face meme meme outfit you
+
+[1:28:49] Ben:
+  [01:28:49.000 --> 01:28:50.000] Yeah.
+
+[1:28:50] Shaka:
+  [01:28:50.000 --> 01:28:55.000] of Ethereum but then that's that's also what we can do
+  [01:28:55.000 --> 01:28:56.000] to help the culture in
+
+[1:28:55] Ben:
+  [01:28:55.000 --> 01:28:59.000] Yeah, yeah, yeah.
+
+[1:28:59] Shaka:
+  [01:28:59.000 --> 01:29:00.000] tension because we know how to resolve it right so like
+
+[1:29:00] Ben:
+  [01:29:00.000 --> 01:29:04.000] Yes, yeah.
+
+[1:29:04] Shaka:
+  [01:29:04.000 --> 01:29:08.000] Ethereum is a
+
+[1:29:08] Ben:
+  [01:29:08.000 --> 01:29:09.000] Yeah.
+
+[1:29:09] Shaka:
+  [01:29:09.000 --> 01:29:14.000] speakeasy that everyone should be re easy it should be easy to speak your
+  [01:29:14.000 --> 01:29:19.000] opinions and often times the loudest person in the room is
+  [01:29:19.000 --> 01:29:20.000] maker but I think like the vibe
+
+[1:29:20] Ben:
+  [01:29:20.000 --> 01:29:24.000] Yeah.
+
+[1:29:24] Shaka:
+  [01:29:24.000 --> 01:29:29.000] maker has always been the music so that's why you know like the vibe maker is is is a little bit different than the
+  [01:29:29.000 --> 01:29:34.000] than the market maker so I
+  [01:29:34.000 --> 01:29:35.000] vibe the vibe maker of Ethereum needs to
+  [01:29:35.000 --> 01:29:37.000] community coming together and that makes it crucial
+  [01:29:37.000 --> 01:29:39.000] Yeah.
+
+[1:29:39] Ben:
+  [01:29:39.000 --> 01:29:44.000] Yeah, yeah, I agree. I,
+  [01:29:44.000 --> 01:29:47.000] like, I, I, I, I have had a widened perspective, so this time
+  [01:29:47.000 --> 01:29:49.000] I came less as a critic, as more of, of a, of a, of a
+  [01:29:49.000 --> 01:29:54.000] observer.
+  [01:29:54.000 --> 01:29:59.000] And I think one of the great things I
+  [01:29:59.000 --> 01:30:04.000] really liked about DEFCON is, one of the things I've hammered for years
+  [01:30:04.000 --> 01:30:06.000] really specialize, so Zuzalo specialize in, Open Source EchoShare
+  [01:30:06.000 --> 01:30:07.000] picking a domain that we're going to attack.
+  [01:30:07.000 --> 01:30:12.000] attack.
+  [01:30:12.000 --> 01:30:17.000] Which, which helps this whole generality
+  [01:30:17.000 --> 01:30:22.000] of, oh, we're gonna solve the whole world problem. Like, even a lot of my, the new people I met, I said, look, come
+  [01:30:22.000 --> 01:30:24.000] problem in India. That's something I've, actually, and
+  [01:30:24.000 --> 01:30:28.000] gonna focus on the waste problem. I said, look,
+  [01:30:28.000 --> 01:30:29.000] there are problems sitting right on your doorstep.
+  [01:30:29.000 --> 01:30:34.000] doorstep.
+  [01:30:34.000 --> 01:30:39.000] They can try and solve, and yes, it's kind of cool
+  [01:30:39.000 --> 01:30:44.000] go off somewhere and get a $250,000
+  [01:30:44.000 --> 01:30:46.000] security researcher. I said, well, can you imagine the contentment? And, and, and that's one
+  [01:30:46.000 --> 01:30:51.000] talks, localize the problem.
+  [01:30:51.000 --> 01:30:55.000] Deal with localized problems. Come down to the grassroots.
+  [01:30:55.000 --> 01:31:00.000] So you see, what I loved about Mumbai was so much of the younger generation got in with the Hindi music.
+  [01:31:00.000 --> 01:31:01.000] know, even though we don't understand, you did a
+  [01:31:01.000 --> 01:31:06.000] great Hindi rendition, sang with Nidhi in a Hindi song, and
+  [01:31:06.000 --> 01:31:08.000] she said something really nice. She said, we taught them so much. She
+  [01:31:08.000 --> 01:31:09.000] said, they're, they're very focused on this is us.
+  [01:31:09.000 --> 01:31:11.000] us.
+  [01:31:11.000 --> 01:31:15.000] But we taught them, this is us.
+  [01:31:15.000 --> 01:31:18.000] You know, and she said, when she sees you,
+  [01:31:18.000 --> 01:31:20.000] and I singing in a language that's not ours.
+  [01:31:20.000 --> 01:31:24.000] But we embrace it, like, okay.
+  [01:31:24.000 --> 01:31:29.000] Should we become global citizens as opposed to like
+  [01:31:29.000 --> 01:31:31.000] specific citizens? So she, she sent me a telegram message
+  [01:31:31.000 --> 01:31:35.000] learned so much, just being around.
+  [01:31:35.000 --> 01:31:36.000] People that are really trying to.
+  [01:31:36.000 --> 01:31:41.000] You know, extend.
+  [01:31:41.000 --> 01:31:46.000] Break down these boundaries, and the open source orchestra just, you
+  [01:31:46.000 --> 01:31:51.000] just simple things like take off your shoes. Some people came and comment, they said to me like,
+  [01:31:51.000 --> 01:31:54.000] is just such a respectful guy of our culture, he said, because that's what we do in our homes.
+  [01:31:54.000 --> 01:31:57.000] said, they said, when we come in there, we feel like we're coming into home.
+  [01:31:57.000 --> 01:32:02.000] just the short distance from sitting.
+  [01:32:02.000 --> 01:32:07.000] the, on the perimeter of the open source orchestra, and
+  [01:32:07.000 --> 01:32:09.000] then going in to the orchestra, one lady, one girl said to me, she said, I feel like I'm coming home. She said, because
+  [01:32:09.000 --> 01:32:13.000] warm. It's so accepting, it's so appealing.
+  [01:32:13.000 --> 01:32:15.000] We, I think we really made a big impact.
+  [01:32:15.000 --> 01:32:19.000] Yeah, with them.
+
+[1:32:19] Shaka:
+  [01:32:19.000 --> 01:32:21.000] Yeah, it should be. It was, it was, it
+
+[1:32:21] Ben:
+  [01:32:21.000 --> 01:32:24.000] Yeah.
+
+[1:32:24] Shaka:
+  [01:32:24.000 --> 01:32:25.000] like a living room and it should be open to everybody. It should be open
+
+[1:32:24] Ben:
+  [01:32:24.000 --> 01:32:29.000] Everybody.
+
+[1:32:29] Shaka:
+  [01:32:29.000 --> 01:32:34.000] to Hinduism, you know. I think when I, one thing I really
+  [01:32:34.000 --> 01:32:36.000] love when we had DevConnect in Istanbul was I loved having my first experience of,
+  [01:32:36.000 --> 01:32:37.000] the Islam, Islamic temples and like visiting,
+  [01:32:37.000 --> 01:32:44.000] visiting,
+  [01:32:44.000 --> 01:32:49.000] visiting, you know, places
+  [01:32:49.000 --> 01:32:53.000] around the world gives you appreciation for everything that's spiritual and
+  [01:32:53.000 --> 01:32:55.000] an open sanctuary is a place for everybody to kind of one find healing, but also kind of like be comfortable.
+  [01:32:55.000 --> 01:33:00.000] So maybe you're just needing to.
+  [01:33:00.000 --> 01:33:05.000] Find something that's relaxing. And then
+  [01:33:05.000 --> 01:33:09.000] healing is being able to radically express yourself.
+
+[1:33:09] Ben:
+  [01:33:09.000 --> 01:33:10.000] Yeah.
+
+[1:33:10] Shaka:
+  [01:33:10.000 --> 01:33:15.000] And, you know, so then that like it should never be about policing the space and that's where
+  [01:33:15.000 --> 01:33:20.000] it's really important about stewarding. And a couple of times, and I, I even have this, had
+  [01:33:20.000 --> 01:33:23.000] in Chiang Mai where, you know, maybe I'm,
+
+[1:33:23] Ben:
+  [01:33:23.000 --> 01:33:25.000] Yeah.
+
+[1:33:25] Shaka:
+  [01:33:25.000 --> 01:33:30.000] jam or if I'm scheduled to play myself, maybe
+  [01:33:30.000 --> 01:33:31.000] openly where people can just walk up and start banging
+
+[1:33:30] Ben:
+  [01:33:30.000 --> 01:33:33.000] Yeah.
+
+[1:33:33] Shaka:
+  [01:33:33.000 --> 01:33:34.000] the drums or start playing, you know, along and I even apologize.
+
+[1:33:34] Ben:
+  [01:33:34.000 --> 01:33:36.000] Well, we, we need some kind of order. We need, we need.
+  [01:33:36.000 --> 01:33:37.000] We need some structure.
+  [01:33:37.000 --> 01:33:38.000] structure.
+
+[1:33:38] Shaka:
+  [01:33:38.000 --> 01:33:43.000] One time there was you, I was like, hey,
+  [01:33:43.000 --> 01:33:48.000] felt like, like I, I didn't properly steward it
+  [01:33:48.000 --> 01:33:49.000] time. I think I was like giving like, hey, next time tomorrow, like don't sing over top
+
+[1:33:49] Ben:
+  [01:33:49.000 --> 01:33:52.000] Yeah, yeah, yeah.
+
+[1:33:52] Shaka:
+  [01:33:52.000 --> 01:33:55.000] of me when I'm singing those lyrics. Like I should have been more polite. Like, you know, so I should have been polite at that one time.
+
+[1:33:55] Ben:
+  [01:33:55.000 --> 01:34:00.000] No, no, no, no, no, no, no, this is it. We need,
+  [01:34:00.000 --> 01:34:02.000] do need, we need structure. We, we, we, one of the things I learned from watching
+  [01:34:02.000 --> 01:34:07.000] because things break down.
+  [01:34:07.000 --> 01:34:11.000] When there's no structure, and there are times when, I know the time
+  [01:34:11.000 --> 01:34:16.000] when you went, when you gave me, like I should leave the sanctuary. I never had to.
+  [01:34:16.000 --> 01:34:21.000] I had to like direct people and say, okay, you've sung enough now. I
+  [01:34:21.000 --> 01:34:26.000] waning, and we need to bring the vibe up, and we need to, you
+  [01:34:26.000 --> 01:34:31.000] okay to say to someone, don't sing over me or things like that, or don't play
+  [01:34:31.000 --> 01:34:34.000] the music over me. Like when I, when I had a session, I don't, I, I don't even know if it's the first
+  [01:34:34.000 --> 01:34:37.000] because the music was just overpowering.
+  [01:34:37.000 --> 01:34:42.000] I just couldn't hear anything.
+
+[1:34:42] Shaka:
+  [01:34:42.000 --> 01:34:44.000] I think we need to like, we need to like
+
+[1:34:44] Ben:
+  [01:34:44.000 --> 01:34:47.000] Yeah.
+
+[1:34:47] Shaka:
+  [01:34:47.000 --> 01:34:52.000] shift, right? Like, let's, let's have a command shift reset, but
+  [01:34:52.000 --> 01:34:57.000] that we, shift commands. So like,
+
+[1:34:57] Ben:
+  [01:34:57.000 --> 01:34:58.000] Yeah.
+
+[1:34:57] Shaka:
+  [01:34:57.000 --> 01:35:02.000] hey Ben, don't sing over top of me when I'm singing my lyrics. I
+  [01:35:02.000 --> 01:35:04.000] shift the way that I'm trying to command it, I should, or I,
+  [01:35:04.000 --> 01:35:09.000] metaphorical and artistic. I should reset.
+  [01:35:09.000 --> 01:35:10.000] The shift that I am trying to command. You
+
+[1:35:10] Ben:
+  [01:35:10.000 --> 01:35:14.000] Yeah, we can, we can work on the methodology.
+
+[1:35:14] Shaka:
+  [01:35:14.000 --> 01:35:18.000] reset or I can res, reshift the, the shift
+
+[1:35:18] Ben:
+  [01:35:18.000 --> 01:35:19.000] Yeah, yeah.
+
+[1:35:19] Shaka:
+  [01:35:19.000 --> 01:35:24.000] of my command and say like, hey Ben, I love it when you harmonize with me.
+  [01:35:24.000 --> 01:35:29.000] And, and then like when I'm, when I, when I leave the space open, that's when I love for you to, to,
+
+[1:35:29] Ben:
+  [01:35:29.000 --> 01:35:30.000] Yes, yes, yeah, yeah, yeah. I, I, I, I think it's important, yeah.
+
+[1:35:29] Shaka:
+  [01:35:29.000 --> 01:35:34.000] your own lyrics, right? You know, like that, that, that's
+  [01:35:34.000 --> 01:35:36.000] right? Not saying, hey, don't sing over me, but shifting the way I command it. So that's
+  [01:35:36.000 --> 01:35:38.000] stewardship comes in, right?
+
+[1:35:38] Ben:
+  [01:35:38.000 --> 01:35:41.000] Yeah, but Shaka, look, with, with me, don't, don't worry about
+
+[1:35:41] Shaka:
+  [01:35:41.000 --> 01:35:42.000] Oh, no, I don't worry about you. Like I
+
+[1:35:42] Ben:
+  [01:35:42.000 --> 01:35:43.000] me. Don't, you see, the thing is, man, yeah, yeah. For me, I, I was one was best boy.
+
+[1:35:43] Shaka:
+  [01:35:43.000 --> 01:35:45.000] learning, learning vessels. Yeah.
+
+[1:35:45] Ben:
+  [01:35:45.000 --> 01:35:46.000] Yeah, so, yeah, so.
+  [01:35:46.000 --> 01:35:48.000] so.
+
+[1:35:48] Shaka:
+  [01:35:48.000 --> 01:35:49.000] And, and encourage everyone that's a part of the circle that
+
+[1:35:49] Ben:
+  [01:35:49.000 --> 01:35:53.000] Yeah, yeah, yeah, it's true.
+  [01:35:53.000 --> 01:35:54.000] Yes, yes, yes, true, true.
+
+[1:35:53] Shaka:
+  [01:35:53.000 --> 01:35:58.000] not conducting the space, we're stewarding the
+  [01:35:58.000 --> 01:36:03.000] So as a steward, you know, and, and it's not be like, like you're like pointing your,
+  [01:36:03.000 --> 01:36:04.000] some conductors that were like, get all antsy and they're pantsy when the choir is like making jokes
+
+[1:36:04] Ben:
+  [01:36:04.000 --> 01:36:08.000] Yeah, yeah, yeah.
+
+[1:36:08] Shaka:
+  [01:36:08.000 --> 01:36:13.000] in the background, you know? But like, that's like, so it also like, that's what, that's, that's the beautiful thing about the
+  [01:36:13.000 --> 01:36:15.000] test is that if I'm not a hundred percent, I have the freedom in the, in DEFCON to just walk away.
+
+[1:36:15] Ben:
+  [01:36:15.000 --> 01:36:16.000] Yes, yes, yes, yeah.
+
+[1:36:16] Shaka:
+  [01:36:16.000 --> 01:36:21.000] you know, and
+  [01:36:21.000 --> 01:36:26.000] , and that's, that's,
+  [01:36:26.000 --> 01:36:29.000] any open community space. it needs to
+  [01:36:29.000 --> 01:36:32.000] exit. You know.
+
+[1:36:32] Ben:
+  [01:36:32.000 --> 01:36:34.000] Yes, I agree. I agree. Yeah, yeah. I agree. I
+  [01:36:34.000 --> 01:36:39.000] like, I, I, I try to be very tactful.
+  [01:36:39.000 --> 01:36:44.000] When things were not going in the direction, but I try to, like you
+  [01:36:44.000 --> 01:36:49.000] say, kind of steward it. And then one point where the music was just, the quality was just dropping.
+  [01:36:49.000 --> 01:36:54.000] great music, you know, and I, I don't mind people coming in, but come on,
+  [01:36:54.000 --> 01:36:59.000] standard, you know, because we have a lot of great musicians around us. So I had to
+  [01:36:59.000 --> 01:37:04.000] enough now. Let's, let's switch it up a little bit. You
+  [01:37:04.000 --> 01:37:08.000] guys could come back in later, you know. Basically, I, I kind of like gave a cajole them. I said, oh,
+  [01:37:08.000 --> 01:37:09.000] have a rest. And they're like, oh yeah, thank you, thank you.
+  [01:37:09.000 --> 01:37:10.000] you.
+
+[1:37:10] Shaka:
+  [01:37:10.000 --> 01:37:16.000] Well, you know, when I'm, when I'm in the circle playing,
+  [01:37:16.000 --> 01:37:21.000] like I definitely feel like I'm trying to hold it down,
+
+[1:37:21] Ben:
+  [01:37:21.000 --> 01:37:22.000] Yes, yes, yes, yes, yeah.
+
+[1:37:21] Shaka:
+  [01:37:21.000 --> 01:37:26.000] at least as like, maybe like a ground, like on a grounded aspect of like keeping
+  [01:37:26.000 --> 01:37:29.000] the rhythm, keeping this, but there has to be like a little bit of openness, and there is like those moments, kind
+  [01:37:29.000 --> 01:37:30.000] of cringe moments where like we're singing out of tune and other things, but,
+  [01:37:30.000 --> 01:37:31.000] I think that.
+  [01:37:30.000 --> 01:37:33.000] that
+
+[1:37:33] Ben:
+  [01:37:33.000 --> 01:37:35.000] But it did, in Mumbai, yeah, it was so open in Mumbai.
+
+[1:37:35] Shaka:
+  [01:37:35.000 --> 01:37:40.000] Yeah, it, it happened many times, and like there's like one time when
+  [01:37:40.000 --> 01:37:45.000] happened, like where it was like totally your living room, you know, like we
+  [01:37:45.000 --> 01:37:46.000] just had some amazing young kids from India just like singing, singing their,
+
+[1:37:46] Ben:
+  [01:37:46.000 --> 01:37:48.000] Yeah.
+
+[1:37:48] Shaka:
+  [01:37:48.000 --> 01:37:53.000] microphone, and,
+  [01:37:53.000 --> 01:37:58.000] Bless their heart, all of them singing out of
+  [01:37:58.000 --> 01:38:03.000] different rhythms on the instruments, but I remember I
+  [01:38:03.000 --> 01:38:05.000] walked up to the music sanctuary in Alaska, we were just kind of like watching it and smiled, and, you know, his description of
+  [01:38:05.000 --> 01:38:06.000] it, it was exactly right, you're like, it's very wholesome.
+
+[1:38:06] Ben:
+  [01:38:06.000 --> 01:38:09.000] Yeah, yeah, yeah. Yeah.
+
+[1:38:09] Shaka:
+  [01:38:09.000 --> 01:38:14.000] You know, and like, so when you have those moments that are just like kind of.
+  [01:38:14.000 --> 01:38:15.000] Obviously permissionless, obviously not
+
+[1:38:14] Ben:
+  [01:38:14.000 --> 01:38:18.000] Yeah.
+  [01:38:18.000 --> 01:38:19.000] Yeah.
+
+[1:38:19] Shaka:
+  [01:38:19.000 --> 01:38:20.000] professional, and people are just like kind of like having that immersive experience, which someone
+  [01:38:20.000 --> 01:38:23.000] had described it,
+
+[1:38:23] Ben:
+  [01:38:23.000 --> 01:38:28.000] It's, it's a low, it's a lower entry barrier and it just make,
+  [01:38:28.000 --> 01:38:33.000] great job because everybody just
+  [01:38:33.000 --> 01:38:38.000] found it so open and warm and appealing, where they even had the confidence to come up. You
+  [01:38:38.000 --> 01:38:43.000] much from it, you know, like so, so much from it. And
+  [01:38:43.000 --> 01:38:48.000] there's a lot of people who are actively looking forward to the next sessions. You
+  [01:38:48.000 --> 01:38:53.000] Voight has been in touch a lot. Nidhi's been in touch a lot, you
+  [01:38:53.000 --> 01:38:58.000] there's been guys that have been just on Telegram
+  [01:38:58.000 --> 01:39:03.000] texting me day and night, just day, day and night, day and night, you know, you know, and, and it's
+  [01:39:03.000 --> 01:39:05.000] that you and other guys, kudos to you guys created, where it was
+  [01:39:05.000 --> 01:39:10.000] so warm. I, like, like one of the interesting thing I think
+  [01:39:10.000 --> 01:39:12.000] we taught them in Mumbai was,
+  [01:39:12.000 --> 01:39:14.000] push for something truly open.
+  [01:39:14.000 --> 01:39:18.000] Even if you
+  [01:39:18.000 --> 01:39:23.000] come through in a close, you know, India is going through a massive,
+  [01:39:23.000 --> 01:39:28.000] nationalistic surge. You know, India is going
+  [01:39:28.000 --> 01:39:33.000] through that massive nationalistic surge. So you kind of interestingly see a lot of the younger people where
+  [01:39:33.000 --> 01:39:38.000] they, they, they have this, oh, this is how I'm going to move. But we were somehow to able to balance it. Like,
+  [01:39:38.000 --> 01:39:43.000] songs, you can sing songs in Tamil, you can sing songs in
+  [01:39:43.000 --> 01:39:48.000] balance it and have a great time with these other songs, and we can work with
+  [01:39:48.000 --> 01:39:53.000] you. Can you try and work with us? And so on and so forth. It was, it was
+  [01:39:53.000 --> 01:39:58.000] immersive experience. I got a lot of people gave me a massive feedback at
+  [01:39:58.000 --> 01:40:03.000] Global, you know. In fact, one of the reasons why I didn't build my project as much as
+  [01:40:03.000 --> 01:40:08.000] I wanted to at IF Global was people just kept on coming up to me to talk about the open source orchestra all
+  [01:40:08.000 --> 01:40:13.000] are you gonna sing tonight? Where's that Shaka guy? Is he
+  [01:40:13.000 --> 01:40:19.000] busy building. Oh, let's do some music. I said, we gotta, we gotta work.
+  [01:40:19.000 --> 01:40:23.000] At IF Global, they're like, oh, yeah, they say, oh, come listen, come and sing. I'm like,
+  [01:40:23.000 --> 01:40:28.000] project in this and that. Oh, okay, okay, we'll look for you later.
+  [01:40:28.000 --> 01:40:33.000] then when I go back to you, people were texting me like, oh, are you
+  [01:40:33.000 --> 01:40:34.000] to do some closing ceremony? I said,
+  [01:40:34.000 --> 01:40:37.000] no, I'm sleeping, I'm tired.
+
+[1:40:37] Shaka:
+  [01:40:37.000 --> 01:40:38.000] I, I felt bad. I actually left the,
+  [01:40:38.000 --> 01:40:39.000] ceremony. I went to go take a nap.
+
+[1:40:39] Ben:
+  [01:40:39.000 --> 01:40:43.000] No, I didn't too.
+
+[1:40:43] Shaka:
+  [01:40:43.000 --> 01:40:45.000] I should, like, I wanna, I wanna stay for the very
+  [01:40:45.000 --> 01:40:51.000] end. I wanna, like, like, I, I think I
+  [01:40:51.000 --> 01:40:52.000] I want DEFCON 9 to be, like, the
+
+[1:40:52] Ben:
+  [01:40:52.000 --> 01:40:54.000] Yes, yes, yeah.
+
+[1:40:54] Shaka:
+  [01:40:54.000 --> 01:40:59.000] this time for me. Like, I've got, I'm going, I'm going 6 to 9.
+  [01:40:59.000 --> 01:41:04.000] And I want this DEFCON to be the absolute
+  [01:41:04.000 --> 01:41:09.000] perfect time, meaning that I not only am there early every morning in
+  [01:41:09.000 --> 01:41:14.000] before doors open, like, ready to,
+  [01:41:14.000 --> 01:41:17.000] like, start the vibe at the music sanctuary, but then also I'm
+
+[1:41:17] Ben:
+  [01:41:17.000 --> 01:41:19.000] Yes, yeah, yeah.
+
+[1:41:19] Shaka:
+  [01:41:19.000 --> 01:41:24.000] the closing ceremony, and even if I
+  [01:41:24.000 --> 01:41:29.000] don't win, and supporting everybody and giving everybody some appreciation. You
+  [01:41:29.000 --> 01:41:32.000] quite to meet that level of perfection, you know, which there's
+  [01:41:32.000 --> 01:41:34.000] also why you never arrive as a musician. I'm never
+  [01:41:34.000 --> 01:41:35.000] arrive.
+
+[1:41:35] Ben:
+  [01:41:35.000 --> 01:41:38.000] Yeah, I mean, Brooklyn is the greatest room in the world, you
+  [01:41:38.000 --> 01:41:42.000] Brooklyn is like, like, I had a lot of lapses because, for example,
+  [01:41:42.000 --> 01:41:47.000] I got a little bit tired, then I had to
+  [01:41:47.000 --> 01:41:52.000] it global
+  [01:41:52.000 --> 01:41:57.000] overlapped with my activities in Sesotho, and then we had the African Building Day. I just felt it'd
+  [01:41:57.000 --> 01:42:02.000] give my commitment to the likes of Powell, you know, and, and
+  [01:42:02.000 --> 01:42:07.000] downstairs hacking. So I came upstairs, you know, to just
+  [01:42:07.000 --> 01:42:12.000] the Sesotho area, just to make sure everything was okay, get some pictures, got some
+  [01:42:12.000 --> 01:42:15.000] whole group, and just made sure that everything was there,
+  [01:42:15.000 --> 01:42:21.000] were going wrong, just being there in the background, just.
+  [01:42:21.000 --> 01:42:26.000] Jumping in, you know, discreetly, or can I help with this and help with that. So that took a
+  [01:42:26.000 --> 01:42:29.000] lot of my time away from the hacking, because it was the fifth, sixth, and seventh, and then, you
+  [01:42:29.000 --> 01:42:34.000] until the sixth, you see.
+  [01:42:34.000 --> 01:42:37.000] And then, you know, you got to get some rest. I was hacking solo,
+  [01:42:37.000 --> 01:42:42.000] solo, because, because I was building my, my startup projects.
+  [01:42:42.000 --> 01:42:44.000] So it impacted, and then my laptop broke, so
+  [01:42:44.000 --> 01:42:46.000] just, yeah, it was just a wrap, you know.
+  [01:42:46.000 --> 01:42:48.000] Having a broken laptop around.
+  [01:42:48.000 --> 01:42:50.000] around.
+  [01:42:50.000 --> 01:42:52.000] Yeah.
+
+[1:42:52] Shaka:
+  [01:42:52.000 --> 01:42:57.000] Was never gonna be perfect. And I think
+  [01:42:57.000 --> 01:43:02.000] East Global, you know, maybe, maybe the Wi-Fi gets bad, maybe the, maybe
+  [01:43:02.000 --> 01:43:03.000] overcramped because there's so many projects, maybe the air conditioning in the World Junior Center is packed a little too.
+
+[1:43:02] Ben:
+  [01:43:02.000 --> 01:43:04.000] Yeah, yeah, yeah.
+
+[1:43:04] Shaka:
+  [01:43:04.000 --> 01:43:09.000] It's always been about like
+  [01:43:09.000 --> 01:43:11.000] resolving tension with the little butterflies
+  [01:43:11.000 --> 01:43:12.000] in love, and a good, good vibration.
+  [01:43:11.000 --> 01:43:12.000] vibration.
+
+[1:43:12] Ben:
+  [01:43:12.000 --> 01:43:17.000] Yeah. It's always gonna, it's always gonna be a test. I
+  [01:43:17.000 --> 01:43:22.000] itself is a challenging place in terms
+  [01:43:22.000 --> 01:43:24.000] of getting anything done. And if, if a lot of people are coming from a Western
+  [01:43:24.000 --> 01:43:25.000] mindset, you would bump into that in trying to get things done.
+  [01:43:25.000 --> 01:43:27.000] Because in India,
+  [01:43:27.000 --> 01:43:32.000] despite all this cloak of
+  [01:43:32.000 --> 01:43:37.000] apparent Westernization, it's not a, it's not a, it's not a Western country.
+  [01:43:37.000 --> 01:43:40.000] You know, and people will approach it from non-Western, like I know how many times people, they
+  [01:43:40.000 --> 01:43:44.000] your Wi-Fi, turn off your Wi-Fi. People didn't listen.
+  [01:43:44.000 --> 01:43:46.000] Nobody paid attention, you know.
+  [01:43:46.000 --> 01:43:48.000] Well.
+  [01:43:48.000 --> 01:43:51.000] Well, my good man, let me, let me go.
+  [01:43:51.000 --> 01:43:56.000] You know, it's always good to catch up with you.
+
+[1:43:56] Shaka:
+  [01:43:56.000 --> 01:43:59.000] Yep. I love you, Ben. I'm gonna end it with
+
+[1:43:59] Ben:
+  [01:43:59.000 --> 01:44:01.000] It
+
+[1:44:01] Shaka:
+  [01:44:01.000 --> 01:44:06.000] Butterflies in Love, but yeah, if you wanna give some more words, I actually love
+  [01:44:06.000 --> 01:44:07.000] over the chords, but, and you're welcome to stay on
+
+[1:44:07] Ben:
+  [01:44:07.000 --> 01:44:08.000] Yes. I, I.
+
+[1:44:08] Shaka:
+  [01:44:08.000 --> 01:44:09.000] or, sign off if it's permissionless.
+  [01:44:09.000 --> 01:44:12.000] permissionless.
+
+[1:44:12] Ben:
+  [01:44:12.000 --> 01:44:17.000] I, I'm actually supposed to go and sing
+  [01:44:17.000 --> 01:44:22.000] somewhere for nine o'clock. Cause I, I'm trying to, I'm really trying to prepare, trying to
+  [01:44:22.000 --> 01:44:27.000] really give my best and I'll meet up with Nidi on Tuesday next
+  [01:44:27.000 --> 01:44:32.000] week. So, you know, just want to try. So, I, I've got to go into town to do some singing. I go to this place on
+  [01:44:32.000 --> 01:44:37.000] singing in town, nine o'clock. It's a nice, decent place in Leeds, you know.
+  [01:44:37.000 --> 01:44:42.000] Yeah. But yeah, we got, we got to get, we got to get a few songs up and
+  [01:44:42.000 --> 01:44:47.000] to get some few songs, you know, maybe even get like a rap, like a standard
+  [01:44:47.000 --> 01:44:49.000] you got all the L2,
+  [01:44:49.000 --> 01:44:52.000] consensus, ZK proof words in there. You know, get every, get everything in there.
+  [01:44:52.000 --> 01:44:55.000] then, you know, launch it.
+
+[1:44:55] Shaka:
+  [01:44:55.000 --> 01:44:57.000] Yeah.
+
+[1:44:57] Ben:
+  [01:44:57.000 --> 01:44:59.000] Maybe we launch it at Cannes and then we keep build
+  [01:44:59.000 --> 01:45:02.000] the way down to, Lisbon.
+
+[1:45:02] Shaka:
+  [01:45:02.000 --> 01:45:05.000] Let's do it.
+
+[1:45:05] Ben:
+  [01:45:05.000 --> 01:45:06.000] Okay, my good man, you stay safe, It's always, it's always
+  [01:45:06.000 --> 01:45:09.000] you.
+  [01:45:09.000 --> 01:45:10.000] Mahalo, my brother.
+
+[1:45:09] Shaka:
+  [01:45:09.000 --> 01:45:11.000] Mahalo.
+  [01:45:11.000 --> 01:45:12.000] We love all the people. So hap.
+
+[1:45:11] Ben:
+  [01:45:11.000 --> 01:45:13.000] Mahalo. You take care.
+  [01:45:13.000 --> 01:45:14.000] talk to you soon.
+  [01:45:14.000 --> 01:45:15.000] soon.
+
+[1:45:15] Shaka:
+  [01:45:15.000 --> 01:45:16.000] Yeah, but we ohana. Feel there.
+
+[1:45:16] Ben:
+  [01:45:16.000 --> 01:45:19.000] Alright, take care. Bye.
+
+[1:45:19] Shaka:
+  [01:45:19.000 --> 01:45:22.000] And say hi to Mitty when you sing. Bye.
+
+[1:45:22] Ben:
+  [01:45:22.000 --> 01:45:24.000] Yeah, I will do. I will do. She's not, she's not been
+  [01:45:24.000 --> 01:45:26.000] infection, but yeah, we'll catch up on Tuesday.
+  [01:45:26.000 --> 01:45:31.000] All right, talk to you soon.
+
+[1:45:31] Shaka:
+  [01:45:31.000 --> 01:45:36.000] He's a love, butterflies.
+  [01:45:36.000 --> 01:45:39.000] We should only wage war.
+  [01:45:39.000 --> 01:45:43.000] Butterflies and love.
+  [01:45:43.000 --> 01:45:48.000] Pollinate the infinite garden.
+  [01:45:48.000 --> 01:45:53.000] It's not just a place
+  [01:45:53.000 --> 01:45:58.000] for fun. Decentralize,
+  [01:45:58.000 --> 01:46:00.000] permissionless, and open sourced. Even with the layer one
+  [01:46:00.000 --> 01:46:01.000] as a shield and the layer two as our sword.
+  [01:46:01.000 --> 01:46:06.000] sword.
+  [01:46:06.000 --> 01:46:09.000] All we need to wage in a war.
+  [01:46:09.000 --> 01:46:10.000] Is butterflies and love.
+  [01:46:10.000 --> 01:46:16.000] love.
+  [01:46:16.000 --> 01:46:21.000] Cause Ethereum is a positive sum.
+  [01:46:21.000 --> 01:46:23.000] Built by and for.
+  [01:46:23.000 --> 01:46:38.000] Everyone.
+  [01:46:38.000 --> 01:46:43.000] And thank you for
+  [01:46:43.000 --> 01:46:44.000] transcribing Googly Eye. Love you Ohana. Love you all you guys. Gonna post
+  [01:46:44.000 --> 01:46:45.000] this on X. Super raw and as is. Bless you all.
+  [01:46:45.000 --> 01:47:02.000] all.

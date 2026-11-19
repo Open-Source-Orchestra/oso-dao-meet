@@ -1,0 +1,7243 @@
+WEBVTT
+
+NOTE
+Open Source Orchestra DAO Meet #3 public captions.
+Automatic transcription by Googly Eye; wording may be imperfect.
+Editorial first-name speaker labels, not voice identification.
+Takedown first: https://opensourceorchestra.org/takedown/
+
+1
+00:00:08.000 --> 00:00:09.000
+<Shaka>Ben
+
+2
+00:00:09.000 --> 00:00:13.000
+<Ben>Mahalo.
+
+3
+00:00:13.000 --> 00:00:15.000
+<Shaka>Carlo, I hope you don't mind
+
+4
+00:00:15.000 --> 00:00:16.000
+<Shaka>Googly Eye, are my little fun transclapping bot.
+
+5
+00:00:15.000 --> 00:00:16.000
+<Shaka>bot.
+
+6
+00:00:16.000 --> 00:00:17.000
+<Ben>I'm good, I'm good. How are you, bro?
+
+7
+00:00:17.000 --> 00:00:22.000
+<Shaka>I'm great.
+
+8
+00:00:22.000 --> 00:00:24.000
+<Shaka>Oh, look, Grok's in the meeting just like that. So cool.
+
+9
+00:00:24.000 --> 00:00:25.000
+<Shaka>really cute.
+
+10
+00:00:24.000 --> 00:00:29.000
+<Shaka>cute.
+
+11
+00:00:29.000 --> 00:00:33.000
+<Ben>Oh yeah.
+
+12
+00:00:33.000 --> 00:00:36.000
+<Ben>schedule is really amazing on, 2027 is gonna be
+
+13
+00:00:36.000 --> 00:00:43.000
+<Ben>, is gonna be amazing, man. I can't wait for 2027.
+
+14
+00:00:43.000 --> 00:00:47.000
+<Shaka>Oh, I cannot wait for 2027 either. I am here with a
+
+15
+00:00:47.000 --> 00:00:48.000
+<Ben>Yeah.
+
+16
+00:00:48.000 --> 00:00:50.000
+<Shaka>, my good brother, Ben, and also Googly Eye.
+
+17
+00:00:50.000 --> 00:00:52.000
+<Shaka>how Googly Eye is just like
+
+18
+00:00:52.000 --> 00:00:55.000
+<Ben>Cutie pie. Hello, Googly Eye.
+
+19
+00:00:55.000 --> 00:01:00.000
+<Shaka>got a little Googly Eye. Hi, Googly Eye, you're, you're so
+
+20
+00:01:00.000 --> 00:01:05.000
+<Shaka>awesome. And also, I've got this like, cool, like
+
+21
+00:01:05.000 --> 00:01:10.000
+<Shaka>kind of like, I just like, had this
+
+22
+00:01:10.000 --> 00:01:15.000
+<Shaka>in the last couple weeks, where I found out that because I'm open sourcing
+
+23
+00:01:15.000 --> 00:01:20.000
+<Shaka>agents, it's really easy for me to swap between Grok Bot and
+
+24
+00:01:20.000 --> 00:01:22.000
+<Shaka>Claude and all these other ones. So Grok Bot, I've been able to like replicate the whole
+
+25
+00:01:22.000 --> 00:01:24.000
+<Ben>Yeah, yeah.
+
+26
+00:01:24.000 --> 00:01:25.000
+<Shaka>Bot. So Grokka helped me create Googly Eye.
+
+27
+00:01:25.000 --> 00:01:27.000
+<Ben>Yeah.
+
+28
+00:01:27.000 --> 00:01:29.000
+<Ben>Yeah.
+
+29
+00:01:29.000 --> 00:01:32.000
+<Shaka>And Googly Eye is here to transcribe. And whoever else wants to
+
+30
+00:01:32.000 --> 00:01:34.000
+<Ben>Yeah.
+
+31
+00:01:34.000 --> 00:01:36.000
+<Shaka>probably gonna have to keep letting people know we're recording as soon as they get
+
+32
+00:01:36.000 --> 00:01:37.000
+<Shaka>Alaska. Here he comes.
+
+33
+00:01:37.000 --> 00:01:39.000
+<Shaka>comes.
+
+34
+00:01:39.000 --> 00:01:42.000
+<Ben>The last car in the house.
+
+35
+00:01:42.000 --> 00:01:44.000
+<Shaka>He's coming. I think he's
+
+36
+00:01:44.000 --> 00:01:47.000
+<Ben>Are, are you still eating tang mai?
+
+37
+00:01:47.000 --> 00:01:49.000
+<Shaka>coming. I just hit admit. I hope. There he is. Alaska,
+
+38
+00:01:49.000 --> 00:01:52.000
+<Ben>Alaska!
+
+39
+00:01:52.000 --> 00:01:54.000
+<Shaka>recording. Hope you're okay with that, with your
+
+40
+00:01:54.000 --> 00:01:55.000
+<Shaka>consent and your beautiful presence. Thank you for being here.
+
+41
+00:01:55.000 --> 00:01:56.000
+<Alaska>Yo
+
+42
+00:01:56.000 --> 00:01:58.000
+<Shaka>Yo.
+
+43
+00:01:58.000 --> 00:01:59.000
+<Ben>Yes!
+
+44
+00:01:59.000 --> 00:02:01.000
+<Shaka>Yeah.
+
+45
+00:02:01.000 --> 00:02:02.000
+<Shaka>This is great.
+
+46
+00:02:02.000 --> 00:02:03.000
+<Shaka>great.
+
+47
+00:02:02.000 --> 00:02:06.000
+<Ben>How are you, Alaska? Good to see you.
+
+48
+00:02:06.000 --> 00:02:09.000
+<Alaska>Good, yeah, just, you know, getting
+
+49
+00:02:09.000 --> 00:02:10.000
+<Alaska>cranking away here back home in Spain, so doing good.
+
+50
+00:02:10.000 --> 00:02:15.000
+<Ben>Awesome, awesome, awesome.
+
+51
+00:02:15.000 --> 00:02:16.000
+<Shaka>Nice. Where are you, Ben? In London, right?
+
+52
+00:02:16.000 --> 00:02:17.000
+<Ben>I'm in Leeds.
+
+53
+00:02:17.000 --> 00:02:18.000
+<Shaka>Leeds.
+
+54
+00:02:17.000 --> 00:02:19.000
+<Ben>Yeah.
+
+55
+00:02:19.000 --> 00:02:21.000
+<Shaka>Leeds. Le-Le-Which is
+
+56
+00:02:21.000 --> 00:02:22.000
+<Ben>Not too far, well, not too far from York.
+
+57
+00:02:22.000 --> 00:02:23.000
+<Ben>York.
+
+58
+00:02:23.000 --> 00:02:24.000
+<Shaka>yeah.
+
+59
+00:02:24.000 --> 00:02:27.000
+<Ben>York. You heard of York?
+
+60
+00:02:27.000 --> 00:02:31.000
+<Shaka>No, no.
+
+61
+00:02:31.000 --> 00:02:32.000
+<Ben>No, no, no. York, York is where the king used to be
+
+62
+00:02:32.000 --> 00:02:36.000
+<Shaka>okay.
+
+63
+00:02:36.000 --> 00:02:41.000
+<Ben>coronated back in the days. So, yeah, so York is a, is a very historic,
+
+64
+00:02:41.000 --> 00:02:43.000
+<Ben>not too far from York, not too far from Manchester, not too far from
+
+65
+00:02:43.000 --> 00:02:44.000
+<Ben>Sheffield, kind of those direction.
+
+66
+00:02:43.000 --> 00:02:44.000
+<Ben>direction.
+
+67
+00:02:43.000 --> 00:02:47.000
+<Shaka>Amazing.
+
+68
+00:02:47.000 --> 00:02:49.000
+<Ben>You still in Chiang Mai, is it?
+
+69
+00:02:49.000 --> 00:02:54.000
+<Shaka>I'm Chiang Mai. This is like the little tea corner.
+
+70
+00:02:54.000 --> 00:02:58.000
+<Shaka>like, I've got a guitar I might can play later, but
+
+71
+00:02:58.000 --> 00:02:59.000
+<Ben>I gotta check it out sometime.
+
+72
+00:02:59.000 --> 00:03:04.000
+<Shaka>very many people out here on the patio,
+
+73
+00:03:04.000 --> 00:03:05.000
+<Shaka>but. Four Seas is very lively. a lot of, a lot of great activity going on at Four Seas.
+
+74
+00:03:05.000 --> 00:03:06.000
+<Shaka>Seas.
+
+75
+00:03:06.000 --> 00:03:07.000
+<Ben>Alaska, you, you in Madrid, you say?
+
+76
+00:03:07.000 --> 00:03:08.000
+<Alaska>Barcelona.
+
+77
+00:03:08.000 --> 00:03:11.000
+<Ben>Barcelona.
+
+78
+00:03:11.000 --> 00:03:15.000
+<Ben>Do you speak Spanish, Alaska?
+
+79
+00:03:15.000 --> 00:03:16.000
+<Ben>Okay.
+
+80
+00:03:16.000 --> 00:03:17.000
+<Alaska>I'm learning, so I have a tutor, but still pretty
+
+81
+00:03:17.000 --> 00:03:18.000
+<Alaska>bad. We're getting there. Yeah, I studied every day.
+
+82
+00:03:17.000 --> 00:03:19.000
+<Alaska>day.
+
+83
+00:03:19.000 --> 00:03:23.000
+<Ben>How, how long you lived in Barcelona for?
+
+84
+00:03:23.000 --> 00:03:24.000
+<Alaska>yeah, I mean, I've been here for about 10 months now, so.
+
+85
+00:03:24.000 --> 00:03:32.000
+<Ben>Okay, okay.
+
+86
+00:03:32.000 --> 00:03:37.000
+<Shaka>I am glad to have Alaska here, cause
+
+87
+00:03:37.000 --> 00:03:42.000
+<Shaka>he, is joining us, in face, in person, for
+
+88
+00:03:42.000 --> 00:03:47.000
+<Shaka>recognition in the previous ones, and so I
+
+89
+00:03:47.000 --> 00:03:50.000
+<Shaka>opportunity to hear from Alaska, what his
+
+90
+00:03:50.000 --> 00:03:55.000
+<Shaka>heart is for open source orchestra. he has been really a strong,
+
+91
+00:03:55.000 --> 00:04:00.000
+<Shaka>presence and really like,
+
+92
+00:04:00.000 --> 00:04:05.000
+<Shaka>allowed me to like, one see dreams like
+
+93
+00:04:05.000 --> 00:04:08.000
+<Shaka>come, come to, to life, where it's like, actually not s, an idea is not just like
+
+94
+00:04:08.000 --> 00:04:13.000
+<Shaka>something that you're,
+
+95
+00:04:13.000 --> 00:04:18.000
+<Shaka>aligning with, with your friends, but you're also like,
+
+96
+00:04:18.000 --> 00:04:23.000
+<Shaka>ch-chasing it with your friends. Like, it, it feels like now, like it's,
+
+97
+00:04:23.000 --> 00:04:28.000
+<Shaka>the way it was for me, you know, like there was two guys I really looked
+
+98
+00:04:28.000 --> 00:04:33.000
+<Shaka>up to, Justin Holmes and Matteo Tambussi, and then Ben was there the first
+
+99
+00:04:33.000 --> 00:04:39.000
+<Shaka>time I played music in Amsterdam, that I looked up to playing music at
+
+100
+00:04:39.000 --> 00:04:40.000
+<Shaka>my mind in Amsterdam in
+
+101
+00:04:40.000 --> 00:04:41.000
+<Shaka>2022, and,
+
+102
+00:04:40.000 --> 00:04:41.000
+<Shaka>and,
+
+103
+00:04:41.000 --> 00:04:46.000
+<Shaka>Alaska was, you know
+
+104
+00:04:46.000 --> 00:04:50.000
+<Shaka>right there alongside, alongside
+
+105
+00:04:50.000 --> 00:04:56.000
+<Shaka>and, he, jumped on board to be like
+
+106
+00:04:56.000 --> 00:05:01.000
+<Shaka>there for so much more than just a week of
+
+107
+00:05:01.000 --> 00:05:06.000
+<Shaka>DevCon. It's been months, three months, that Alaska and I have been
+
+108
+00:05:06.000 --> 00:05:11.000
+<Shaka>really huddled up together, and, we went through kind of up, the ups and downs of, of
+
+109
+00:05:11.000 --> 00:05:16.000
+<Shaka>tour last year where we, we played ECC together, and then we
+
+110
+00:05:16.000 --> 00:05:21.000
+<Shaka>together, and those are like two iconic
+
+111
+00:05:21.000 --> 00:05:26.000
+<Shaka>Palaeste Festivals and Cons, and then the,
+
+112
+00:05:26.000 --> 00:05:31.000
+<Shaka>Municipal Palace in Prague, and the Queen Siri Krot
+
+113
+00:05:31.000 --> 00:05:34.000
+<Shaka>Rural in Argentina,
+
+114
+00:05:34.000 --> 00:05:39.000
+<Shaka>another iconic venue, and now the World Geo Center, where the three of us, like
+
+115
+00:05:39.000 --> 00:05:44.000
+<Shaka>yeah, we weren't just a trio, we
+
+116
+00:05:44.000 --> 00:05:45.000
+<Shaka>was all of ours, and it was beautiful. So Alaska,
+
+117
+00:05:44.000 --> 00:05:49.000
+<Shaka>please, excited to hear from you.
+
+118
+00:05:49.000 --> 00:05:54.000
+<Alaska>Yeah, I mean, you know, I think on
+
+119
+00:05:54.000 --> 00:05:56.000
+<Alaska>my end, everything was awesome. I, I kind of wanted to see, yeah, how we continue to like follow up with
+
+120
+00:05:56.000 --> 00:06:01.000
+<Alaska>all of the next kind of
+
+121
+00:06:01.000 --> 00:06:06.000
+<Alaska>events going on next year, cuz I think
+
+122
+00:06:06.000 --> 00:06:11.000
+<Alaska>create the space, and then also feel good about it, you
+
+123
+00:06:11.000 --> 00:06:16.000
+<Alaska>about what happened, there could be things better, but we also felt
+
+124
+00:06:16.000 --> 00:06:21.000
+<Alaska>received, right? Which is awesome. I don't know about you, Shaka, but I felt like, yeah, I felt like we
+
+125
+00:06:21.000 --> 00:06:26.000
+<Alaska>the team and not just some sort of like a weird additional thing
+
+126
+00:06:26.000 --> 00:06:30.000
+<Alaska>in the corner, and the production saw us, and they were super supportive and
+
+127
+00:06:30.000 --> 00:06:35.000
+<Alaska>super fantastic, inspiring. And so, yeah, I mean, as we kind of move forward, it'd be cool to see
+
+128
+00:06:35.000 --> 00:06:40.000
+<Alaska>how we keep the conversation alive, at least probably, like, you know, the
+
+129
+00:06:40.000 --> 00:06:45.000
+<Alaska>right now, cuz everyone's beat from DevCon, you know? So, it'll
+
+130
+00:06:45.000 --> 00:06:50.000
+<Alaska>be our job to keep chatting and hanging out, and then, you know, things will heat up eventually. And then,
+
+131
+00:06:50.000 --> 00:06:55.000
+<Alaska>events we can do next year. And, you know, I think the
+
+132
+00:06:55.000 --> 00:06:58.000
+<Alaska>bigger dream is finding a way to have a sort of protocol with everyone else in the team
+
+133
+00:06:58.000 --> 00:07:02.000
+<Alaska>to do things kind of globally if there's more events and figuring out how we can get it.
+
+134
+00:07:02.000 --> 00:07:07.000
+<Alaska>Kind of instantiated in the like wider system, right?
+
+135
+00:07:07.000 --> 00:07:12.000
+<Alaska>But for now, I'm just kind of waiting to
+
+136
+00:07:12.000 --> 00:07:14.000
+<Alaska>see what happens from all of our, you know, goodwill and good times and,
+
+137
+00:07:14.000 --> 00:07:19.000
+<Alaska>In the meantime, you know.
+
+138
+00:07:19.000 --> 00:07:24.000
+<Alaska>decompressing on my own and trying to like figure
+
+139
+00:07:24.000 --> 00:07:29.000
+<Alaska>steps cuz I think it would also be great to figure out how to make it also a little
+
+140
+00:07:29.000 --> 00:07:34.000
+<Alaska>mechanism and I think, you know, there's so many interesting ways to
+
+141
+00:07:34.000 --> 00:07:36.000
+<Alaska>do that that like keep the spirit really strong and that's just a creative endeavor. You know, there's a million ways to
+
+142
+00:07:36.000 --> 00:07:41.000
+<Alaska>do it. I don't really have any sort of like
+
+143
+00:07:41.000 --> 00:07:46.000
+<Alaska>impulses as to what that looks like, but
+
+144
+00:07:46.000 --> 00:07:51.000
+<Alaska>it would be fantastic. I think one of the things that, you know, I did feel is, yeah, we were
+
+145
+00:07:51.000 --> 00:07:55.000
+<Alaska>stretched a bit thin this year. and we still made it through, which is great. but yeah, I
+
+146
+00:07:55.000 --> 00:08:00.000
+<Alaska>see what goes on, I think there's no foreseeable events.
+
+147
+00:08:00.000 --> 00:08:03.000
+<Alaska>That I'll be to this year, maybe next year, but, you know,
+
+148
+00:08:03.000 --> 00:08:12.000
+<Alaska>Shaka, you're already back at it doing music in Chiang Mai, I'm sure.
+
+149
+00:08:12.000 --> 00:08:15.000
+<Shaka>I am back at it, and also bringing in Mary. I think
+
+150
+00:08:15.000 --> 00:08:16.000
+<Alaska>Hell yeah, Mary's amazing.
+
+151
+00:08:16.000 --> 00:08:21.000
+<Shaka>Mary is going to join us right now. popping in, and then I'll
+
+152
+00:08:21.000 --> 00:08:26.000
+<Shaka>Aloha, Mary, welcome, we are
+
+153
+00:08:26.000 --> 00:08:28.000
+<Shaka>recording, so if you give consent in presence, we'd love, we'd love to see you and hear from you
+
+154
+00:08:28.000 --> 00:08:33.000
+<Shaka>and, your ambience at DevCon was
+
+155
+00:08:33.000 --> 00:08:34.000
+<Shaka>fabulous. so welcome, Mary, and,
+
+156
+00:08:33.000 --> 00:08:41.000
+<Ben>Hi, Mary.
+
+157
+00:08:41.000 --> 00:08:43.000
+<Shaka>She's not there, I'll quickly
+
+158
+00:08:43.000 --> 00:08:44.000
+<Shaka>respond to what Alaska just said. so yeah, I think that
+
+159
+00:08:44.000 --> 00:08:48.000
+<Shaka>that
+
+160
+00:08:48.000 --> 00:08:49.000
+<Shaka>the sustainability
+
+161
+00:08:49.000 --> 00:08:51.000
+<Mary (chat)>Hey everyone! I'm on the road right now, so I'll mostly be listening in today
+
+162
+00:08:51.000 --> 00:08:56.000
+<Shaka>part is definitely where the idea of the Dow comes in. You know, that
+
+163
+00:08:56.000 --> 00:08:59.000
+<Shaka>Oops, Mary just went, hey everyone, I'm on the road right now. Okay, cool,
+
+164
+00:08:59.000 --> 00:09:01.000
+<Shaka>glad you're here that you can be listening, Mary.
+
+165
+00:09:01.000 --> 00:09:02.000
+<Shaka>and ... yeah, and she gave hearts.
+
+166
+00:09:02.000 --> 00:09:03.000
+<Alaska>Thanks.
+
+167
+00:09:03.000 --> 00:09:08.000
+<Shaka>So, and then,
+
+168
+00:09:08.000 --> 00:09:09.000
+<Shaka>yeah, so Ben whispered at one
+
+169
+00:09:09.000 --> 00:09:13.000
+<Ben (chat)>Awesome!
+
+170
+00:09:13.000 --> 00:09:18.000
+<Shaka>point, in the sanctuary, I love how it was a music sanctuary this year and not a music
+
+171
+00:09:18.000 --> 00:09:22.000
+<Shaka>actually a big part of its success, and why it felt like everyone really
+
+172
+00:09:22.000 --> 00:09:25.000
+<Shaka>held its essence together this year.
+
+173
+00:09:25.000 --> 00:09:30.000
+<Shaka>and, I think that
+
+174
+00:09:30.000 --> 00:09:35.000
+<Shaka>it had that, it had that kind of feeling
+
+175
+00:09:35.000 --> 00:09:40.000
+<Shaka>feeling in, Bogota, because there,
+
+176
+00:09:40.000 --> 00:09:45.000
+<Shaka>it was really easy to just walk up there. So, that was actually, I
+
+177
+00:09:45.000 --> 00:09:50.000
+<Shaka>think, a little bit of the, ... there was a limited space
+
+178
+00:09:50.000 --> 00:09:55.000
+<Shaka>on the stage in, in Bang ... and although we were in La Burelle, we had a huge,
+
+179
+00:09:55.000 --> 00:09:59.000
+<Shaka>... DefConnect was massive, you know, like, when you make it on a, put it on a platform of a stage,
+
+180
+00:09:59.000 --> 00:10:04.000
+<Shaka>and then you also have a drum kit and a whole full back line there, you know, space is limited.
+
+181
+00:10:04.000 --> 00:10:09.000
+<Shaka>So, that's actually really beautiful, the way that the circle and the
+
+182
+00:10:09.000 --> 00:10:14.000
+<Shaka>year. So, big props to Tomo and,
+
+183
+00:10:14.000 --> 00:10:19.000
+<Shaka>DevCon team and, they, they, Tomo had the idea of
+
+184
+00:10:19.000 --> 00:10:24.000
+<Shaka>it being a circle, in the first place, and I think that was just beautiful to all be
+
+185
+00:10:24.000 --> 00:10:27.000
+<Shaka>facing each other. And there was one moment in the circle of the sanctuary where Ben, Ben kind
+
+186
+00:10:27.000 --> 00:10:30.000
+<Shaka>at me, he's like, "Yeah, we should make a Dow."
+
+187
+00:10:30.000 --> 00:10:31.000
+<Alaska>Oh yeah.
+
+188
+00:10:31.000 --> 00:10:33.000
+<Ben>Might as well.
+
+189
+00:10:33.000 --> 00:10:38.000
+<Shaka>Yeah, so like, that kind of stuck with
+
+190
+00:10:38.000 --> 00:10:43.000
+<Shaka>me, and I knew that Ben, being a strong developer, and he sang, sang with me in every
+
+191
+00:10:43.000 --> 00:10:48.000
+<Shaka>hackathon, and then we've also been a part of some really cool projects that friends have put together, like
+
+192
+00:10:48.000 --> 00:10:53.000
+<Shaka>Broadcaster, who was Carlota's sister,
+
+193
+00:10:53.000 --> 00:10:58.000
+<Shaka>Pablo created the first NFT live streaming on a smart contract, and Ben
+
+194
+00:10:58.000 --> 00:11:03.000
+<Shaka>singing, on the first live stream that went on a smart contract
+
+195
+00:11:03.000 --> 00:11:08.000
+<Shaka>ETH Berlin 2022, and Pablo not only taught me how to do a lot of live streaming, he taught
+
+196
+00:11:08.000 --> 00:11:13.000
+<Shaka>lot of live streaming, and Carlota is now the head of AV for the
+
+197
+00:11:13.000 --> 00:11:18.000
+<Shaka>DevCon team, and it was a complete dream to have Carlota and Tomo be a
+
+198
+00:11:18.000 --> 00:11:23.000
+<Shaka>part of our music sanctuary team, and it, it, that's really was the magic sauce to what you were
+
+199
+00:11:23.000 --> 00:11:28.000
+<Shaka>talking about, Alaska, about the difference maker between this year,
+
+200
+00:11:28.000 --> 00:11:33.000
+<Shaka>we, it was, and actually the last two DevCons, there were three Dev,
+
+201
+00:11:33.000 --> 00:11:37.000
+<Shaka>last year, it did feel like it was
+
+202
+00:11:37.000 --> 00:11:42.000
+<Shaka>more on the DIP level, and it was usually always in like the community center or,
+
+203
+00:11:42.000 --> 00:11:47.000
+<Shaka>community area, but this year, actually, yeah, it was taken in as part of
+
+204
+00:11:47.000 --> 00:11:50.000
+<Shaka>DevCon, and Carlota and Tomo gave a lot of
+
+205
+00:11:50.000 --> 00:11:55.000
+<Shaka>their bandwidth, to make this year really magical, and so
+
+206
+00:11:55.000 --> 00:12:00.000
+<Shaka>that was, incredible, and we
+
+207
+00:12:00.000 --> 00:12:03.000
+<Shaka>should be really grateful, and that's also what gives me a lot of confidence in creating
+
+208
+00:12:03.000 --> 00:12:08.000
+<Shaka>a DAO, because this could hopefully give us more sustainability and more,
+
+209
+00:12:08.000 --> 00:12:13.000
+<Shaka>of a stable ground so that we don't have to take more
+
+210
+00:12:13.000 --> 00:12:18.000
+<Shaka>bandwidth from the DevCon team, that we can actually put, put more back on their plate
+
+211
+00:12:18.000 --> 00:12:23.000
+<Shaka>and not necessarily need to rely on them to get the backline ready for us, that we can be a little bit more
+
+212
+00:12:23.000 --> 00:12:28.000
+<Shaka>self-reliant with, the instruments that we bring in, and then we just work with their top-of-the-line
+
+213
+00:12:28.000 --> 00:12:33.000
+<Shaka>they always have had. You know, they always have top-of-the-line production. We always
+
+214
+00:12:33.000 --> 00:12:35.000
+<Shaka>personally have been bringing in our own gear. Mary, you know, had her ambient,
+
+215
+00:12:35.000 --> 00:12:37.000
+<Shaka>set up just sitting there, and actually in a beautiful way, like
+
+216
+00:12:37.000 --> 00:12:42.000
+<Shaka>don't want to, like, put too much,
+
+217
+00:12:42.000 --> 00:12:47.000
+<Shaka>actually, we, like, in talking about the things that could have gone better, so,
+
+218
+00:12:47.000 --> 00:12:49.000
+<Shaka>like, yeah, we had a guitar get cracked, and
+
+219
+00:12:49.000 --> 00:12:54.000
+<Shaka>fell on Mary's ambient setup, so that's why the guitar cracked.
+
+220
+00:12:54.000 --> 00:12:59.000
+<Shaka>it's, no one is, no one's fault,
+
+221
+00:12:59.000 --> 00:13:04.000
+<Shaka>right? It's, and it's, and actually it's not, and I was actually the one who was able to, like,
+
+222
+00:13:04.000 --> 00:13:09.000
+<Shaka>responsibility off of the girl who last placed the guitar there,
+
+223
+00:13:09.000 --> 00:13:11.000
+<Shaka>myself and off of Mary and share with the DevCon team, and then they also, you
+
+224
+00:13:11.000 --> 00:13:15.000
+<Shaka>process with the budget, but it's always, like,
+
+225
+00:13:15.000 --> 00:13:21.000
+<Shaka>always kind of, like, rubs it off in a little bit wrong that, like,
+
+226
+00:13:21.000 --> 00:13:26.000
+<Shaka>Having the free flexibility
+
+227
+00:13:26.000 --> 00:13:31.000
+<Shaka>to be able to bring in more musicians, but then also have more,
+
+228
+00:13:31.000 --> 00:13:36.000
+<Shaka>open participation, meaning that people realize that it is an open sanctuary that you can
+
+229
+00:13:36.000 --> 00:13:40.000
+<Shaka>instrument, and we have more commitments up
+
+230
+00:13:40.000 --> 00:13:41.000
+<Shaka>communicating weekly. I think we should have these calls continue weekly.
+
+231
+00:13:40.000 --> 00:13:42.000
+<Shaka>weekly.
+
+232
+00:13:42.000 --> 00:13:47.000
+<Shaka>and then,
+
+233
+00:13:47.000 --> 00:13:52.000
+<Shaka>having that communication and thanks to our agents.
+
+234
+00:13:52.000 --> 00:13:57.000
+<Shaka>so cute up there. Googly Eye is a Grok
+
+235
+00:13:57.000 --> 00:14:02.000
+<Shaka>Bot agent who's transcribing this, and they're, I think having agents,
+
+236
+00:14:02.000 --> 00:14:07.000
+<Shaka>and then also consistent presence, you know, really
+
+237
+00:14:07.000 --> 00:14:12.000
+<Shaka>like the key to a lot of what I'm, what I'm finding
+
+238
+00:14:12.000 --> 00:14:14.000
+<Shaka>to make my life so much more, focused on creating is that context is
+
+239
+00:14:14.000 --> 00:14:19.000
+<Shaka>everything. So, just sharing the context with the agents.
+
+240
+00:14:19.000 --> 00:14:24.000
+<Shaka>allows me, I actually am
+
+241
+00:14:24.000 --> 00:14:27.000
+<Shaka>my agents, and I also just share and type everything, and
+
+242
+00:14:27.000 --> 00:14:32.000
+<Shaka>this beautiful personality, and then actually what gives that,
+
+243
+00:14:32.000 --> 00:14:37.000
+<Shaka>personality a lot of, what I
+
+244
+00:14:37.000 --> 00:14:42.000
+<Shaka>would say, utility and permanence, where it's like really has the, a place in the garden of
+
+245
+00:14:42.000 --> 00:14:47.000
+<Shaka>infinity, is that I'm open sourcing my agents, and that I'm putting everything on
+
+246
+00:14:47.000 --> 00:14:52.000
+<Shaka>GitHub open source, and these repos allow me to share it between agent systems really beautifully and open
+
+247
+00:14:52.000 --> 00:14:57.000
+<Shaka>flow, so I even think that if we make open source orchestra, this open pool
+
+248
+00:14:57.000 --> 00:15:02.000
+<Shaka>for open protocols, like the pit, fully open source, Onda,
+
+249
+00:15:02.000 --> 00:15:06.000
+<Shaka>Global as a project, being open source is great to see, an
+
+250
+00:15:06.000 --> 00:15:11.000
+<Shaka>pennies be a great way of instantly going to artists, and,
+
+251
+00:15:11.000 --> 00:15:16.000
+<Shaka>bring it back to Pablo with Broadcaster, you know, actually Livepeer just shut down.
+
+252
+00:15:16.000 --> 00:15:20.000
+<Shaka>so just, with, with what's on current
+
+253
+00:15:20.000 --> 00:15:25.000
+<Shaka>open ground, I think there's a big, a big play where, where live streaming should not be tokenized.
+
+254
+00:15:25.000 --> 00:15:30.000
+<Shaka>it should not be its own layer two, it should
+
+255
+00:15:30.000 --> 00:15:35.000
+<Shaka>be a public good, open source, and then it's about the streamers, it's about the people putting it out
+
+256
+00:15:35.000 --> 00:15:40.000
+<Shaka>there. It's not about the protocol, it's about the people. You know, so if, if we make it about the people and not
+
+257
+00:15:40.000 --> 00:15:44.000
+<Shaka>protocols, then we're gonna actually
+
+258
+00:15:44.000 --> 00:15:49.000
+<Shaka>see this whole, project, not just become very musical, but also very technical.
+
+259
+00:15:49.000 --> 00:15:50.000
+<Shaka>And so with, with, with those thoughts that I've been rambling on,
+
+260
+00:15:50.000 --> 00:15:54.000
+<Shaka>thinking?
+
+261
+00:15:54.000 --> 00:15:56.000
+<Ben>Yeah, like, like, I think you've, you've
+
+262
+00:15:56.000 --> 00:16:01.000
+<Ben>head. We
+
+263
+00:16:01.000 --> 00:16:03.000
+<Ben>We would really benefit from the hard work
+
+264
+00:16:03.000 --> 00:16:05.000
+<Ben>of everyone, and, and East, Eastman By was phenomenal.
+
+265
+00:16:05.000 --> 00:16:10.000
+<Ben>I was fortunate to go to
+
+266
+00:16:10.000 --> 00:16:15.000
+<Ben>three main events over the ten days I
+
+267
+00:16:15.000 --> 00:16:18.000
+<Ben>was in Mumbai. I went to DeFi Security Summit, day one and two. I went
+
+268
+00:16:18.000 --> 00:16:20.000
+<Ben>went to the East Global. And honestly,
+
+269
+00:16:20.000 --> 00:16:25.000
+<Ben>the open source orchestra
+
+270
+00:16:25.000 --> 00:16:30.000
+<Ben>what Shaka and Alaska and
+
+271
+00:16:30.000 --> 00:16:34.000
+<Ben>Vivek and Nidhi and Dev, you know, and Levi and Sonia, and what
+
+272
+00:16:34.000 --> 00:16:39.000
+<Ben>it's just absolutely sensational. It really was the hub of DEF CON.
+
+273
+00:16:39.000 --> 00:16:43.000
+<Ben>So, when Shaka said to me one morning,
+
+274
+00:16:43.000 --> 00:16:45.000
+<Ben>I think it was the, the last day that, oh, they think they're gonna pull, and we're gonna struggle with finances, I'm like, oh, no.
+
+275
+00:16:45.000 --> 00:16:50.000
+<Ben>we can't, because
+
+276
+00:16:50.000 --> 00:16:55.000
+<Ben>, you know, I, I haven't, haven't met up with Shaka for some
+
+277
+00:16:55.000 --> 00:17:00.000
+<Ben>time. It was Bangkok, there was Amsterdam, Paris, I think Berlin, and then for some time since
+
+278
+00:17:00.000 --> 00:17:03.000
+<Ben>Bangkok, we haven't really seen. So, like, oh, wow, we gotta keep this going, you
+
+279
+00:17:03.000 --> 00:17:05.000
+<Ben>thoughts now is, can we get some kind of
+
+280
+00:17:05.000 --> 00:17:09.000
+<Ben>ongoing funding?
+
+281
+00:17:09.000 --> 00:17:14.000
+<Ben>Someone go and source the phone is so that you know the situations of the guitar.
+
+282
+00:17:14.000 --> 00:17:16.000
+<Ben>for example, somebody trying to pull the funding, that kind of thing.
+
+283
+00:17:16.000 --> 00:17:21.000
+<Ben>That's where I really am. So
+
+284
+00:17:21.000 --> 00:17:26.000
+<Ben>I think I would, I would like
+
+285
+00:17:26.000 --> 00:17:32.000
+<Ben>to partner up with me of really trying to see can we
+
+286
+00:17:32.000 --> 00:17:37.000
+<Ben>get some grant or funding in. The SHAKA built something really brilliant for the hackathon,
+
+287
+00:17:37.000 --> 00:17:42.000
+<Ben>pictures today on,
+
+288
+00:17:42.000 --> 00:17:46.000
+<Ben>on X. You featured. So, you know, music has a
+
+289
+00:17:46.000 --> 00:17:48.000
+<Ben>lot of opportunities for decentralization itself. We have a lot of talented musicians and individuals from all walks of life coming together.
+
+290
+00:17:48.000 --> 00:17:49.000
+<Ben>I think we, if we come together,
+
+291
+00:17:49.000 --> 00:17:54.000
+<Ben>actually even
+
+292
+00:17:54.000 --> 00:17:58.000
+<Ben>master out, even just for the whole year, if we know we have funding just to cover the whole year.
+
+293
+00:17:58.000 --> 00:18:03.000
+<Ben>So we know we got Cannes, and then we got New York.
+
+294
+00:18:03.000 --> 00:18:07.000
+<Ben>Then we got New York. With Cannes, we got also the Pragma. Then you got
+
+295
+00:18:07.000 --> 00:18:11.000
+<Ben>Japan. And then it culminates with Delcon 9 in Lisbon.
+
+296
+00:18:11.000 --> 00:18:14.000
+<Ben>If at least we know, at least for that year, we have the funding covered.
+
+297
+00:18:14.000 --> 00:18:19.000
+<Ben>Then people can feel more comfortably.
+
+298
+00:18:19.000 --> 00:18:21.000
+<Ben>know, coming together. So that's, that's really where I am.
+
+299
+00:18:21.000 --> 00:18:26.000
+<Ben>what I want to try and bring to the table.
+
+300
+00:18:26.000 --> 00:18:32.000
+<Shaka>Yeah, you know, it's like
+
+301
+00:18:32.000 --> 00:18:35.000
+<Shaka>I guess to touch a little bit on like the
+
+302
+00:18:35.000 --> 00:18:38.000
+<Shaka>threshold, and I think that's because
+
+303
+00:18:38.000 --> 00:18:39.000
+<Shaka>part of the journey has been
+
+304
+00:18:39.000 --> 00:18:44.000
+<Shaka>been
+
+305
+00:18:44.000 --> 00:18:46.000
+<Shaka>the last, it's been now
+
+306
+00:18:46.000 --> 00:18:51.000
+<Shaka>year, of trying to
+
+307
+00:18:51.000 --> 00:18:54.000
+<Shaka>make a space,
+
+308
+00:18:54.000 --> 00:18:59.000
+<Shaka>for music to be openly shared.
+
+309
+00:18:59.000 --> 00:19:04.000
+<Shaka>And it started with an
+
+310
+00:19:04.000 --> 00:19:07.000
+<Shaka>ukulele in the corner of the main, foray lobby in
+
+311
+00:19:07.000 --> 00:19:12.000
+<Shaka>Ben walked up and started singing next to me.
+
+312
+00:19:12.000 --> 00:19:14.000
+<Shaka>that friendship has had longevity as well as,
+
+313
+00:19:14.000 --> 00:19:19.000
+<Shaka>a lot of
+
+314
+00:19:19.000 --> 00:19:24.000
+<Shaka>, a lot of gravity of, of flying
+
+315
+00:19:24.000 --> 00:19:28.000
+<Shaka>landing and then new destination and then
+
+316
+00:19:28.000 --> 00:19:31.000
+<Shaka>having that continuity of, you know, singing and playing music together while we're building.
+
+317
+00:19:31.000 --> 00:19:36.000
+<Shaka>you know, and then Alaska.
+
+318
+00:19:36.000 --> 00:19:40.000
+<Shaka>been there as well,
+
+319
+00:19:40.000 --> 00:19:44.000
+<Shaka>since 2024, and through so much more, like, we did do the, like, a tour this year.
+
+320
+00:19:44.000 --> 00:19:49.000
+<Shaka>You know, it was like an actual tour, and it was,
+
+321
+00:19:49.000 --> 00:19:53.000
+<Shaka>very, reminiscent of,
+
+322
+00:19:53.000 --> 00:19:58.000
+<Shaka>love singing about it, in 2024 when we packed a bus from Chiang Mai.
+
+323
+00:19:58.000 --> 00:20:03.000
+<Shaka>and took it down to Bangkok, now that I'm here
+
+324
+00:20:03.000 --> 00:20:08.000
+<Shaka>Chiang Mai, so we packed one of those big two-story buses and,
+
+325
+00:20:08.000 --> 00:20:13.000
+<Shaka>do it, you know, I actually got reimbursed by
+
+326
+00:20:13.000 --> 00:20:16.000
+<Shaka>EF Road to DevCon afterward. So there actually, there actually is a lot, a lot
+
+327
+00:20:16.000 --> 00:20:21.000
+<Shaka>of benefit to having a treasury that we can just get out there and accomplish,
+
+328
+00:20:21.000 --> 00:20:25.000
+<Shaka>On the forefront, what has always been the
+
+329
+00:20:25.000 --> 00:20:30.000
+<Shaka>establishment, which is music is a gift, and we have an open door to give it.
+
+330
+00:20:30.000 --> 00:20:32.000
+<Shaka>So if we can find a way to fund it on
+
+331
+00:20:32.000 --> 00:20:34.000
+<Shaka>ourselves, we can follow through on continuing to give that gift.
+
+332
+00:20:34.000 --> 00:20:38.000
+<Shaka>And then I think the continuity
+
+333
+00:20:38.000 --> 00:20:43.000
+<Shaka>of keeping the fundraising going is that,
+
+334
+00:20:43.000 --> 00:20:46.000
+<Shaka>We fundraise based off what we did
+
+335
+00:20:46.000 --> 00:20:51.000
+<Shaka>retroactively. So we have a lot of great photos, we have a lot of great proof of work from last year.
+
+336
+00:20:51.000 --> 00:20:56.000
+<Shaka>that we can try and get, get the
+
+337
+00:20:56.000 --> 00:21:01.000
+<Shaka>you said, ECC, East, East Global New York, and
+
+338
+00:21:01.000 --> 00:21:06.000
+<Shaka>, and then, like, see if Tokyo can take us to
+
+339
+00:21:06.000 --> 00:21:11.000
+<Shaka>Lisbon. and then hacking along the way, because now you can do continuity
+
+340
+00:21:11.000 --> 00:21:16.000
+<Shaka>projects. So, open source orchestra can, be a present team
+
+341
+00:21:16.000 --> 00:21:21.000
+<Shaka>participating as, hacking and, based off of the trust and
+
+342
+00:21:21.000 --> 00:21:26.000
+<Shaka>door at East Global, we can probably continue to show
+
+343
+00:21:26.000 --> 00:21:27.000
+<Shaka>up with a little more instruments, and fill the space with a little musical corner
+
+344
+00:21:27.000 --> 00:21:32.000
+<Shaka>continually. why? Because we're not
+
+345
+00:21:32.000 --> 00:21:37.000
+<Shaka>, we're not, we're not
+
+346
+00:21:37.000 --> 00:21:42.000
+<Shaka>East Global for it, we're charging forward with open source
+
+347
+00:21:42.000 --> 00:21:47.000
+<Shaka>protocols, playing music together, and then being open, allowing it to be open
+
+348
+00:21:47.000 --> 00:21:52.000
+<Shaka>other people to be a part of, of a sense
+
+349
+00:21:52.000 --> 00:21:55.000
+<Shaka>consensus that already is there. Because I think consent and consensus is a big part
+
+350
+00:21:55.000 --> 00:21:59.000
+<Shaka>fluent, you know, like,
+
+351
+00:21:59.000 --> 00:22:06.000
+<Shaka>And so many times, like,
+
+352
+00:22:06.000 --> 00:22:11.000
+<Shaka>I need to take myself out of
+
+353
+00:22:11.000 --> 00:22:16.000
+<Shaka>the space, and that's when, and being able to walk away
+
+354
+00:22:16.000 --> 00:22:20.000
+<Shaka>is completely important because it should not be dependent on one person, or else it's not,
+
+355
+00:22:20.000 --> 00:22:24.000
+<Shaka>passing the crops, walk away test of, and so.
+
+356
+00:22:24.000 --> 00:22:29.000
+<Shaka>You know, open source orchestra, for the longest time I was saying it should not be.
+
+357
+00:22:29.000 --> 00:22:34.000
+<Shaka>monetized, and that it should, and I don't want it to be
+
+358
+00:22:34.000 --> 00:22:35.000
+<Shaka>project that I want it to be, but my project that I'm starting, but I want it to be a
+
+359
+00:22:35.000 --> 00:22:41.000
+<Shaka>protocol that's shared by many people. Well, now I think.
+
+360
+00:22:41.000 --> 00:22:46.000
+<Shaka>I believe that, like, other people
+
+361
+00:22:46.000 --> 00:22:51.000
+<Shaka>believe that this thing is most powerful if, like, all ducks fly together. You know,
+
+362
+00:22:51.000 --> 00:22:56.000
+<Shaka>it's like, it's like, as Kyle has said, like, oh, open source orchestra is a dream team.
+
+363
+00:22:56.000 --> 00:23:01.000
+<Shaka>It's like the, it's like all the superheroes coming together. So, like, Alaska
+
+364
+00:23:01.000 --> 00:23:06.000
+<Shaka>should be there with Subcult, with, with Onda, with all the great things that he brings to
+
+365
+00:23:06.000 --> 00:23:11.000
+<Shaka>alongside, Swarm, you know, to make
+
+366
+00:23:11.000 --> 00:23:16.000
+<Shaka>these, streaming platforms now. You know, we don't need to stream on live here. We can go
+
+367
+00:23:16.000 --> 00:23:21.000
+<Shaka>stream on, on Subcult, right there. Just go right there, click stream, go, and then it shows up right in
+
+368
+00:23:21.000 --> 00:23:23.000
+<Shaka>little Subcult world. And likely, as
+
+369
+00:23:23.000 --> 00:23:25.000
+<Shaka>my airport.
+
+370
+00:23:25.000 --> 00:23:27.000
+<Shaka>We can.
+
+371
+00:23:27.000 --> 00:23:32.000
+<Shaka>We can,
+
+372
+00:23:32.000 --> 00:23:37.000
+<Shaka>He's, he's also dreaming of creating
+
+373
+00:23:37.000 --> 00:23:42.000
+<Shaka>like your own custom front ends for Subcult, so I'll be able to like have lots of fun with my agents, cause
+
+374
+00:23:42.000 --> 00:23:47.000
+<Shaka>agents have already successfully posted a song on Subcult. So like, it's just gonna be a really
+
+375
+00:23:47.000 --> 00:23:52.000
+<Shaka>drop it all over the place, where one, one
+
+376
+00:23:52.000 --> 00:23:57.000
+<Shaka>piece of content, one song, one piece of lyrics, if you put a, if you
+
+377
+00:23:57.000 --> 00:24:02.000
+<Shaka>then share it with the world, it can meet infinite platforms. So.
+
+378
+00:24:02.000 --> 00:24:03.000
+<Shaka>Alaska, I'd love to hear what you're building with Subcult.
+
+379
+00:24:03.000 --> 00:24:04.000
+<Shaka>Subcult.
+
+380
+00:24:04.000 --> 00:24:09.000
+<Alaska>Thank you. Yeah, it's a dream.
+
+381
+00:24:09.000 --> 00:24:14.000
+<Alaska>And you know, the only reason I do it is because I'm inspired hanging out
+
+382
+00:24:14.000 --> 00:24:19.000
+<Alaska>everyone else that I've met along the way. You know, there's
+
+383
+00:24:19.000 --> 00:24:22.000
+<Alaska>we want, you know? Just have to build the tools and keep
+
+384
+00:24:22.000 --> 00:24:27.000
+<Alaska>on coming together, making music and, you know, making new ways to be
+
+385
+00:24:27.000 --> 00:24:32.000
+<Alaska>you know, kind of old tools are all falling
+
+386
+00:24:32.000 --> 00:24:37.000
+<Alaska>apart, you know? And so, I mean, my care for ETH and Ethereum and all the people we've met in the
+
+387
+00:24:37.000 --> 00:24:42.000
+<Alaska>community is, you know, it's, it's the people who are really trying to build a better,
+
+388
+00:24:42.000 --> 00:24:44.000
+<Alaska>stronger future, you know? And so that's who I want to hang out with. So it's a pleasure that we get to do
+
+389
+00:24:44.000 --> 00:24:47.000
+<Alaska>that through the context of music and it's quite weird.
+
+390
+00:24:47.000 --> 00:24:51.000
+<Alaska>It's novel and exciting, right?
+
+391
+00:24:51.000 --> 00:24:54.000
+<Shaka>Totally
+
+392
+00:24:54.000 --> 00:24:56.000
+<Shaka>Yeah, no, it's very novel, very exciting.
+
+393
+00:24:56.000 --> 00:25:01.000
+<Shaka>And
+
+394
+00:25:01.000 --> 00:25:06.000
+<Shaka>, yeah, like, take us through, take us through a
+
+395
+00:25:06.000 --> 00:25:11.000
+<Shaka>memory banks of
+
+396
+00:25:11.000 --> 00:25:13.000
+<Shaka>go, walking up the red carpet in Cannes, like we're, we're there, like
+
+397
+00:25:13.000 --> 00:25:14.000
+<Alaska>Haha
+
+398
+00:25:14.000 --> 00:25:15.000
+<Shaka>festival. And,
+
+399
+00:25:14.000 --> 00:25:19.000
+<Alaska>.
+
+400
+00:25:19.000 --> 00:25:24.000
+<Shaka>and then we get to go in the artist's backdoor
+
+401
+00:25:24.000 --> 00:25:29.000
+<Shaka>to load up the instruments and, we're already friends with the production team because we did the gig
+
+402
+00:25:29.000 --> 00:25:34.000
+<Shaka>there last year, or the year bef, yeah, we did the year, it was the second year in the,
+
+403
+00:25:34.000 --> 00:25:39.000
+<Shaka>fingers crossed and sending lots of love to the FCC team. We
+
+404
+00:25:39.000 --> 00:25:44.000
+<Shaka>love to make the dream of by the sea come together again. And this
+
+405
+00:25:44.000 --> 00:25:47.000
+<Shaka>time, we'd love to pack it with more friends and more instruments, so why not pull a bus
+
+406
+00:25:47.000 --> 00:25:50.000
+<Shaka>up, in the back artist's door by the yachts,
+
+407
+00:25:50.000 --> 00:25:55.000
+<Shaka>Maybe someday we'll even pull a zoo cruise up to the
+
+408
+00:25:55.000 --> 00:25:56.000
+<Shaka>, the Palaise de Festival. I'm dreaming too big, but
+
+409
+00:25:56.000 --> 00:25:57.000
+<Shaka>like, it, it's always been about dreaming.
+
+410
+00:25:57.000 --> 00:25:58.000
+<Ben>Nothing wrong with that.
+
+411
+00:25:58.000 --> 00:26:00.000
+<Shaka>It's always been about dreaming.
+
+412
+00:26:00.000 --> 00:26:01.000
+<Shaka>And now, and now we're
+
+413
+00:26:01.000 --> 00:26:02.000
+<Alaska>Yeah.
+
+414
+00:26:02.000 --> 00:26:03.000
+<Ben>That's, that's the only luxury we have is in Alaska.
+
+415
+00:26:03.000 --> 00:26:07.000
+<Alaska>Yeah.
+
+416
+00:26:07.000 --> 00:26:08.000
+<Ben>We're limited in so many things,
+
+417
+00:26:07.000 --> 00:26:08.000
+<Alaska>No.
+
+418
+00:26:08.000 --> 00:26:10.000
+<Ben>but nobody can limit you dreaming. You might as well dream as big as possible.
+
+419
+00:26:10.000 --> 00:26:13.000
+<Shaka>You know, if someone has, if someone does have a boat
+
+420
+00:26:13.000 --> 00:26:15.000
+<Ben>Yeah.
+
+421
+00:26:15.000 --> 00:26:20.000
+<Shaka>out there and they want to park it behind the Palaise, they, they have festivals
+
+422
+00:26:20.000 --> 00:26:22.000
+<Shaka>some crypto millionaire out there that wants to host the open source orchestra
+
+423
+00:26:22.000 --> 00:26:25.000
+<Ben>Yeah.
+
+424
+00:26:25.000 --> 00:26:28.000
+<Shaka>and park your boat right behind the venue. And Alaska's got an
+
+425
+00:26:28.000 --> 00:26:30.000
+<Ben>Thank you.
+
+426
+00:26:30.000 --> 00:26:35.000
+<Shaka>incredible singer, and we'll pretty much turn that thing into like,
+
+427
+00:26:35.000 --> 00:26:38.000
+<Shaka>a, a Vinci with, you know, Buddy Guy on top of
+
+428
+00:26:38.000 --> 00:26:40.000
+<Shaka>a boat is pretty much what that thing is going to turn into at night.
+
+429
+00:26:40.000 --> 00:26:45.000
+<Ben>Yeah. But what, what, you know, not thinking we can
+
+430
+00:26:45.000 --> 00:26:50.000
+<Ben>do shaka is, if we can all come together and try to
+
+431
+00:26:50.000 --> 00:26:55.000
+<Ben>get like, a standard song that we know, any Web3 event, any major Web3
+
+432
+00:26:55.000 --> 00:27:00.000
+<Ben>event, we use as the opening song. I think, you know like, you know like you have, like
+
+433
+00:27:00.000 --> 00:27:05.000
+<Ben>have, TV music, you have
+
+434
+00:27:05.000 --> 00:27:07.000
+<Ben>music, you have something that just, you know, anytime, anytime the
+
+435
+00:27:07.000 --> 00:27:08.000
+<Ben>snippet of this just played.
+
+436
+00:27:08.000 --> 00:27:10.000
+<Ben>played.
+
+437
+00:27:10.000 --> 00:27:13.000
+<Ben>For every.
+
+438
+00:27:13.000 --> 00:27:18.000
+<Shaka>Well, I think you, I think you nailed it, Ben. It's your, it's your voice,
+
+439
+00:27:18.000 --> 00:27:22.000
+<Shaka>brother. I mean, we, we've got the, we've got the first open source orchestra
+
+440
+00:27:22.000 --> 00:27:23.000
+<Ben>Yeah, yeah, yeah. But I think even, even if
+
+441
+00:27:22.000 --> 00:27:27.000
+<Shaka>single on its way, cause we had Emerge. We had Emerge there with our brother Levi.
+
+442
+00:27:27.000 --> 00:27:31.000
+<Ben>together and just like really get
+
+443
+00:27:31.000 --> 00:27:36.000
+<Ben>something that we can just position to like, even cause we just had break point now. For example, we just had break point in London.
+
+444
+00:27:36.000 --> 00:27:40.000
+<Ben>And break point was massive.
+
+445
+00:27:40.000 --> 00:27:46.000
+<Ben>Ethereum are competitors. But if we have one song that cuts across.
+
+446
+00:27:46.000 --> 00:27:50.000
+<Ben>That we can just position. And then, even
+
+447
+00:27:50.000 --> 00:27:55.000
+<Ben>if we get four or five major platforms just using it for every major organization, then.
+
+448
+00:27:55.000 --> 00:28:00.000
+<Ben>Look at, almost close to 5,000 people came to
+
+449
+00:28:00.000 --> 00:28:03.000
+<Ben>Ether, Ether, Defcon, to Defcon. So, so many new people. So once they
+
+450
+00:28:03.000 --> 00:28:04.000
+<Ben>just hear that music comes on at the big opening ceremony, end of the ceremony.
+
+451
+00:28:04.000 --> 00:28:10.000
+<Ben>You know.
+
+452
+00:28:10.000 --> 00:28:15.000
+<Ben>That in itself, I, I think is kind of what we should aim
+
+453
+00:28:15.000 --> 00:28:20.000
+<Ben>for. We have so much talent and so much ability that I think we can just really put something together. Alaska, you
+
+454
+00:28:20.000 --> 00:28:21.000
+<Ben>I'm coming from like, really put something together. And then every time it's just the, and then
+
+455
+00:28:21.000 --> 00:28:22.000
+<Ben>license it out.
+
+456
+00:28:21.000 --> 00:28:25.000
+<Ben>out.
+
+457
+00:28:25.000 --> 00:28:30.000
+<Shaka>Oh, did, actually, on that point, and I'm saying, I'm
+
+458
+00:28:30.000 --> 00:28:31.000
+<Shaka>inspiring, because we need more songs. I've been, like, we need more songs. I've been singing the same
+
+459
+00:28:31.000 --> 00:28:35.000
+<Ben>Yeah.
+
+460
+00:28:35.000 --> 00:28:40.000
+<Shaka>years, and Alaska's, like, got some great packing tracks that I remember
+
+461
+00:28:40.000 --> 00:28:45.000
+<Shaka>we played with a couple times, like, the more there's familiarity with the track actually does, like, grow into
+
+462
+00:28:45.000 --> 00:28:50.000
+<Shaka>really special. And then the licensing, you know, so one really interesting experiment
+
+463
+00:28:50.000 --> 00:28:55.000
+<Shaka>is, with Grok Bot, is, ask Grok Bot to teach you songs, just any song, and they
+
+464
+00:28:55.000 --> 00:29:00.000
+<Shaka>any songs, but it cannot put, teach you, it cannot show you the chords with the
+
+465
+00:29:00.000 --> 00:29:05.000
+<Shaka>lyrics in Grok Bot because of copyright rules and transcribing. But, if you ask,
+
+466
+00:29:05.000 --> 00:29:10.000
+<Shaka>ask Grok Bot any of, say, hey Grok Bot, teach me any of, any of Shaka
+
+467
+00:29:10.000 --> 00:29:15.000
+<Shaka>because my music is, C
+
+468
+00:29:15.000 --> 00:29:20.000
+<Shaka>C B Y 4.0 open source copylefted, Grok
+
+469
+00:29:20.000 --> 00:29:25.000
+<Shaka>Bot can show you the lyrics and the chords. So, the more we do have more music
+
+470
+00:29:25.000 --> 00:29:30.000
+<Shaka>that we put into the repertoire that is open source, like, it actually should be very easily
+
+471
+00:29:30.000 --> 00:29:35.000
+<Shaka>transcribable and shared, and then learnable, just by asking our agents, saying, hey, so we just gotta, we just
+
+472
+00:29:35.000 --> 00:29:38.000
+<Shaka>right? And so, like, that's another great thing about open source orchestra dot org, is that,
+
+473
+00:29:38.000 --> 00:29:40.000
+<Ben>Yeah.
+
+474
+00:29:40.000 --> 00:29:45.000
+<Shaka>things on the internet. and then, and then archiving them along the way,
+
+475
+00:29:45.000 --> 00:29:50.000
+<Shaka>too, so that, like, even the old versions kinda stay, stay, a
+
+476
+00:29:50.000 --> 00:29:55.000
+<Shaka>and then, we can keep updating. So, I did do a
+
+477
+00:29:55.000 --> 00:30:00.000
+<Shaka>lot of updates to open source orchestra dot org since DEFCON. you know, added
+
+478
+00:30:00.000 --> 00:30:04.000
+<Shaka>like, a mandala page, like, actually it was Alaska, I was just
+
+479
+00:30:04.000 --> 00:30:05.000
+<Ben>Oh, that made that amazing.
+
+480
+00:30:05.000 --> 00:30:10.000
+<Shaka>photos are unreal. Like, like, give it to me. Can't, can't
+
+481
+00:30:10.000 --> 00:30:15.000
+<Shaka>Alaska says, I'm sure the Ohana is gonna have fun with
+
+482
+00:30:15.000 --> 00:30:20.000
+<Shaka>those pictures. And that was exactly right. I just went out there and gave the Ohana the Google, Google Drive, and
+
+483
+00:30:20.000 --> 00:30:21.000
+<Shaka>DEFCON for, whoever the photographer is, for
+
+484
+00:30:21.000 --> 00:30:22.000
+<Ben>Yeah.
+
+485
+00:30:22.000 --> 00:30:27.000
+<Shaka>DEFCON this year, mad props. beautiful shots.
+
+486
+00:30:27.000 --> 00:30:32.000
+<Ben>And I, and I think I, I,
+
+487
+00:30:32.000 --> 00:30:37.000
+<Ben>okay, for example, I'm pioneering, Web3 across Leeds. So I have a, like
+
+488
+00:30:37.000 --> 00:30:41.000
+<Ben>a mini discussions with primary schools. So I'll be going into primary schools
+
+489
+00:30:41.000 --> 00:30:46.000
+<Ben>you know, really basic projects at the basic Web3 level.
+
+490
+00:30:46.000 --> 00:30:51.000
+<Ben>To introduce Web3 and
+
+491
+00:30:51.000 --> 00:30:56.000
+<Ben>blockchain to them. Nothing complicated. So, you know, something that, if that platform actually starts to grow, leads to a
+
+492
+00:30:56.000 --> 00:31:00.000
+<Ben>of 850,000 people. And then every time, if I go, if I
+
+493
+00:31:00.000 --> 00:31:05.000
+<Ben>each session, each slide, you imagine across primary schools, secondary schools.
+
+494
+00:31:05.000 --> 00:31:10.000
+<Ben>The long-term vision also is to actually go up to the universities, because
+
+495
+00:31:10.000 --> 00:31:15.000
+<Ben>city. You see? That can be extended to
+
+496
+00:31:15.000 --> 00:31:18.000
+<Ben>extended to Birmingham, because the platform is now going to be extended. The long-term vision for me
+
+497
+00:31:18.000 --> 00:31:21.000
+<Ben>is to have this basic platform where kids can come and actually do
+
+498
+00:31:21.000 --> 00:31:26.000
+<Ben>blockchain-related projects.
+
+499
+00:31:26.000 --> 00:31:30.000
+<Ben>That is relevant to them. So, for example, they go to a park, they get
+
+500
+00:31:30.000 --> 00:31:33.000
+<Ben>could make their own token and give their tokens to their friends, that kind of thing.
+
+501
+00:31:33.000 --> 00:31:38.000
+<Ben>I think that would just give us so much exposure.
+
+502
+00:31:38.000 --> 00:31:44.000
+<Ben>And then at some point, hopefully it will start to, we can monetize it.
+
+503
+00:31:44.000 --> 00:31:48.000
+<Ben>That's kind of my, my vision of I'm thinking, you know, because we, we, we, like
+
+504
+00:31:48.000 --> 00:31:53.000
+<Ben>song. If that song, if the audience can sing the song, every time
+
+505
+00:31:53.000 --> 00:31:55.000
+<Ben>time the, the same people that came from East
+
+506
+00:31:55.000 --> 00:31:59.000
+<Ben>Lisbon.
+
+507
+00:31:59.000 --> 00:32:02.000
+<Ben>Okay, we open it with this song, then the crowd already knows the song.
+
+508
+00:32:02.000 --> 00:32:06.000
+<Ben>You know, we just get the crowd going with that first song.
+
+509
+00:32:06.000 --> 00:32:11.000
+<Ben>Okay, this is also going to be sung, you know, these days, the same crowd can come.
+
+510
+00:32:11.000 --> 00:32:12.000
+<Ben>know, so we're not just performing now, we're getting some kind of interaction with it.
+
+511
+00:32:12.000 --> 00:32:17.000
+<Ben>it.
+
+512
+00:32:17.000 --> 00:32:22.000
+<Shaka>I gave confirmation to that inspiration. after
+
+513
+00:32:22.000 --> 00:32:23.000
+<Shaka>, after we played the closing ceremony
+
+514
+00:32:22.000 --> 00:32:25.000
+<Ben>Okay.
+
+515
+00:32:25.000 --> 00:32:30.000
+<Shaka>and Alaska played the first beats after the announcement of going to Lisbon,
+
+516
+00:32:30.000 --> 00:32:35.000
+<Shaka>I went straight from that closing party downstairs to start hacking with ETH Global.
+
+517
+00:32:35.000 --> 00:32:36.000
+<Shaka>And the night before, had stayed at
+
+518
+00:32:36.000 --> 00:32:38.000
+<Shaka>the hackathon till about midnight cause I went to the, team formation.
+
+519
+00:32:38.000 --> 00:32:43.000
+<Shaka>And,
+
+520
+00:32:43.000 --> 00:32:48.000
+<Shaka>in part of the team formation, I found
+
+521
+00:32:48.000 --> 00:32:53.000
+<Shaka>out about around midnight, that four, four kids wanted to join my
+
+522
+00:32:53.000 --> 00:32:58.000
+<Shaka>that flew in from Japan.
+
+523
+00:32:58.000 --> 00:33:03.000
+<Shaka>and convinced his dad to learn about Ethereum and take him to DevCon.
+
+524
+00:33:03.000 --> 00:33:08.000
+<Shaka>found the other three on Discord. And so then those four,
+
+525
+00:33:08.000 --> 00:33:12.000
+<Shaka>heard my pitch at the team formation at DevCon about open
+
+526
+00:33:12.000 --> 00:33:15.000
+<Shaka>source orchestra and, getting X402, gifting rails to all the artists. And
+
+527
+00:33:15.000 --> 00:33:20.000
+<Shaka>, he jumped on board to
+
+528
+00:33:20.000 --> 00:33:24.000
+<Shaka>, or the whole, all four of them jumped on board to help,
+
+529
+00:33:24.000 --> 00:33:29.000
+<Shaka>and like they were super encouraging and, I, there was moments where I just like let them.
+
+530
+00:33:29.000 --> 00:33:34.000
+<Shaka>them op, like use my
+
+531
+00:33:34.000 --> 00:33:39.000
+<Shaka>building with the Ohana while I was sleeping on the, like sitting there next to
+
+532
+00:33:39.000 --> 00:33:44.000
+<Shaka>from, doing music the whole day before and then going
+
+533
+00:33:44.000 --> 00:33:48.000
+<Shaka>straight to staying up on my building and then we went and submitted and ETH Global actually just posted a
+
+534
+00:33:48.000 --> 00:33:49.000
+<Shaka>picture of, of the team. so you can see Yuki, the 15-year-old ETH team.
+
+535
+00:33:48.000 --> 00:33:50.000
+<Ben>Yeah, I saw it.
+
+536
+00:33:50.000 --> 00:33:55.000
+<Shaka>And I think, I think ETH Global,
+
+537
+00:33:55.000 --> 00:33:59.000
+<Shaka>or I think actually the world actually is going to
+
+538
+00:33:59.000 --> 00:34:00.000
+<Ben>Yeah.
+
+539
+00:34:00.000 --> 00:34:06.000
+<Shaka>that they can do this really easily now. especially with
+
+540
+00:34:06.000 --> 00:34:09.000
+<Shaka>especially with Grokbot, especially with things like Austin Griffith, ETH Skills. Just
+
+541
+00:34:09.000 --> 00:34:14.000
+<Shaka>teach your agent, ETH, the, the skills of Ethereum and like it'll make you completely fluent in this. So like
+
+542
+00:34:14.000 --> 00:34:19.000
+<Shaka>know, Yuki at 15-year-olds, he was learning how to write
+
+543
+00:34:19.000 --> 00:34:22.000
+<Shaka>Ethereum five years ago, before the, the main fork and was,
+
+544
+00:34:22.000 --> 00:34:27.000
+<Shaka>made us for smart contract at 10 years old. So like.
+
+545
+00:34:27.000 --> 00:34:32.000
+<Shaka>there's other kids in the orchestra and, and
+
+546
+00:34:32.000 --> 00:34:37.000
+<Shaka>encouragement of how beneficial or encouraging
+
+547
+00:34:37.000 --> 00:34:42.000
+<Shaka>the orchestra has been to them at hackathons has been the really young kids, you know, who are kind
+
+548
+00:34:42.000 --> 00:34:45.000
+<Shaka>doing it for the first time, in their late
+
+549
+00:34:45.000 --> 00:34:47.000
+<Shaka>teenage years or young twenties. And, so I, I think that
+
+550
+00:34:47.000 --> 00:34:50.000
+<Shaka>there's
+
+551
+00:34:50.000 --> 00:34:56.000
+<Shaka>Like, like you said, I think there's a lot of
+
+552
+00:34:56.000 --> 00:34:57.000
+<Shaka>beautiful things we can do on the education side
+
+553
+00:34:57.000 --> 00:35:01.000
+<Ben>Yeah.
+
+554
+00:35:01.000 --> 00:35:02.000
+<Shaka>and then, and then think about preparing tours with like, a daytime visit
+
+555
+00:35:02.000 --> 00:35:06.000
+<Ben>Yeah.
+
+556
+00:35:06.000 --> 00:35:07.000
+<Shaka>to a high school. you know, you know, we're, that's actually a great foot in the door,
+
+557
+00:35:06.000 --> 00:35:11.000
+<Ben>Yeah.
+
+558
+00:35:11.000 --> 00:35:14.000
+<Shaka>orchestra, and we can go play some songs that have a little bit of
+
+559
+00:35:14.000 --> 00:35:17.000
+<Shaka>fun facts to it. And, I actu, I, yeah.
+
+560
+00:35:17.000 --> 00:35:22.000
+<Ben>We could even have our own talks, even at DEFCON even, like
+
+561
+00:35:22.000 --> 00:35:27.000
+<Ben>even our own talks, because dissent, I, I, I'll tell you guys, sorry to jump in, I'll tell you guys something really
+
+562
+00:35:27.000 --> 00:35:32.000
+<Ben>interesting. That, the, because from a developer's perspective, and from a, from somebody who owns a
+
+563
+00:35:32.000 --> 00:35:35.000
+<Ben>business, there's a massive, massive push, there's a massive swing in Web3. A lot of people
+
+564
+00:35:35.000 --> 00:35:40.000
+<Ben>very disillusioned. And a lot of people are very disillusioned with Ethereum.
+
+565
+00:35:40.000 --> 00:35:45.000
+<Ben>I know, because I don't know if you guys have been following my Twitter
+
+566
+00:35:45.000 --> 00:35:50.000
+<Ben>every single talk from DEFCON. I've been listening
+
+567
+00:35:50.000 --> 00:35:55.000
+<Ben>through every single talk, and a lot of people are just really worried. So,
+
+568
+00:35:55.000 --> 00:35:59.000
+<Ben>young people that came, that listened to us at the open source
+
+569
+00:35:59.000 --> 00:36:04.000
+<Ben>orchestra, they have two minds. Why should I get into Web3? Now, what a lot of them want is
+
+570
+00:36:04.000 --> 00:36:09.000
+<Ben>something that is personal and passionate to them.
+
+571
+00:36:09.000 --> 00:36:12.000
+<Ben>become a Web3 music platform, not just an open source
+
+572
+00:36:12.000 --> 00:36:17.000
+<Ben>orchestra, where we're building different kind of projects related to music. And a lot of people
+
+573
+00:36:17.000 --> 00:36:20.000
+<Ben>very, very keen to come in. Next week now I'm having
+
+574
+00:36:20.000 --> 00:36:22.000
+<Ben>Nidhi. So we're meeting up on a Tuesday.
+
+575
+00:36:22.000 --> 00:36:27.000
+<Ben>You know, we're going to do some writing session.
+
+576
+00:36:27.000 --> 00:36:32.000
+<Ben>Building up to cans, you see.
+
+577
+00:36:32.000 --> 00:36:37.000
+<Ben>So you can see like that, I think, I think that's the greater vision.
+
+578
+00:36:37.000 --> 00:36:41.000
+<Ben>Then we, we, when we come to DEFCON 9, we are, we can give a talk.
+
+579
+00:36:41.000 --> 00:36:46.000
+<Ben>On decentralization and
+
+580
+00:36:46.000 --> 00:36:51.000
+<Ben>music, and some of the challenges. You know, Shaka is very experienced, you know, Alaska is very experienced. Any of you can lead the talk.
+
+581
+00:36:51.000 --> 00:36:54.000
+<Ben>explain, this is what, this is how real music is, and these are
+
+582
+00:36:54.000 --> 00:36:57.000
+<Ben>decentralization. And then from there, we build up.
+
+583
+00:36:57.000 --> 00:37:02.000
+<Ben>On various different platforms.
+
+584
+00:37:02.000 --> 00:37:06.000
+<Ben>As a music platform itself, in terms of
+
+585
+00:37:06.000 --> 00:37:12.000
+<Ben>decentralization, which nobody out there is really doing. Nobody, nobody's really cracked it yet.
+
+586
+00:37:12.000 --> 00:37:17.000
+<Ben>And we're right in the mix of it, you see. We go to the events. How does
+
+587
+00:37:17.000 --> 00:37:19.000
+<Ben>music world come to the events? I've never seen them. I know Iggy Azalea came to talk
+
+588
+00:37:19.000 --> 00:37:28.000
+<Ben>in 2049, but that's about it.
+
+589
+00:37:28.000 --> 00:37:33.000
+<Shaka>Well, now, now the more, now the more that we talk about it and think about it, I think
+
+590
+00:37:33.000 --> 00:37:38.000
+<Shaka>it actually really is powerful that we include in part of the idea and the
+
+591
+00:37:38.000 --> 00:37:43.000
+<Shaka>there in the world for 2027, is that we do some school
+
+592
+00:37:43.000 --> 00:37:48.000
+<Shaka>visits. I'm in a great, like, kind of incubator situation here at Four Seas
+
+593
+00:37:48.000 --> 00:37:52.000
+<Shaka>in Chiang Mai, where I can kind of play music daily openly and there's like a corner of a bunch of instruments.
+
+594
+00:37:52.000 --> 00:37:57.000
+<Shaka>And then I grew up, you know, with
+
+595
+00:37:57.000 --> 00:38:02.000
+<Shaka>great parents and then my uncle was my principal, and he's retired but, like, still have a
+
+596
+00:38:02.000 --> 00:38:07.000
+<Shaka>great relationship with my high school, and I've already played music there a handful of times in, in
+
+597
+00:38:07.000 --> 00:38:12.000
+<Shaka>my 20s and then early 30s. So I've always kind of, like, gone back and visited my high school every five years
+
+598
+00:38:12.000 --> 00:38:17.000
+<Shaka>and sang for all the kids. they do, like, a chapel, it's a
+
+599
+00:38:17.000 --> 00:38:22.000
+<Shaka>Christian high school. so definitely, like, I can do the open
+
+600
+00:38:22.000 --> 00:38:27.000
+<Shaka>school. I think a, a great time
+
+601
+00:38:27.000 --> 00:38:31.000
+<Shaka>that would be February, because I know Kevin Iwaki and maybe Heath Boulder, might be
+
+602
+00:38:31.000 --> 00:38:35.000
+<Shaka>Denver's planning on doing something in their typical timeframe, and,
+
+603
+00:38:35.000 --> 00:38:41.000
+<Shaka>and then April, you
+
+604
+00:38:41.000 --> 00:38:45.000
+<Shaka>Alaska's just a couple doors over in Barcelona. So I think
+
+605
+00:38:45.000 --> 00:38:50.000
+<Shaka>Lisbon, and then Griff Green, actually, I, I talk often with Griff, so
+
+606
+00:38:50.000 --> 00:38:55.000
+<Shaka>Griff, Griff knows about the open source orchestra DAO, and I'm going to do a, I think I'm
+
+607
+00:38:55.000 --> 00:39:00.000
+<Shaka>going to launch my own podcasts with my first interview being with Griff. so keep an
+
+608
+00:39:00.000 --> 00:39:03.000
+<Shaka>and, like, he was the first pop-up city that I ever went to,
+
+609
+00:39:03.000 --> 00:39:08.000
+<Shaka>him taking me to Burning Man. and then I've been a zoo zulu lifer since then.
+
+610
+00:39:08.000 --> 00:39:12.000
+<Shaka>So I think, like, the, the principles of
+
+611
+00:39:12.000 --> 00:39:17.000
+<Shaka>for me in what I've been able to accomplish the last,
+
+612
+00:39:17.000 --> 00:39:22.000
+<Shaka>four years, of, of just being
+
+613
+00:39:22.000 --> 00:39:27.000
+<Shaka>present at the open source orchestra at all the events, because I've actually brought those
+
+614
+00:39:27.000 --> 00:39:32.000
+<Shaka>principles that I've learned at places like Burning Man into the establishment of saying, hey, this
+
+615
+00:39:32.000 --> 00:39:37.000
+<Shaka>is a gift, and this is open and radically inclusive, and,
+
+616
+00:39:37.000 --> 00:39:42.000
+<Shaka>also as much as I can self-reliant. And I think the dream just got too big that
+
+617
+00:39:42.000 --> 00:39:47.000
+<Shaka>times I almost lost it, but that's when Alaska really picked me up, you
+
+618
+00:39:47.000 --> 00:39:52.000
+<Shaka>know. He was my, he was my angel, and so I really love you, Alaska. you
+
+619
+00:39:52.000 --> 00:39:55.000
+<Shaka>you were a red rose that smelled very lovely in times, even when I was a little
+
+620
+00:39:55.000 --> 00:39:56.000
+<Shaka>worried, because, yeah, I've been, this year I made it with very little
+
+621
+00:39:56.000 --> 00:40:00.000
+<Shaka>little funding,
+
+622
+00:40:00.000 --> 00:40:04.000
+<Shaka>And I know we even got drama in the world of
+
+623
+00:40:04.000 --> 00:40:09.000
+<Shaka>of things like Artisan,
+
+624
+00:40:09.000 --> 00:40:15.000
+<Shaka>but I think that's where transparent funding,
+
+625
+00:40:15.000 --> 00:40:18.000
+<Shaka>a part of the unification in the contribution, right? Like,
+
+626
+00:40:18.000 --> 00:40:23.000
+<Shaka>the participation only a part of the unification in the contribution, right? Like, how do you make, how do you make, like, the participation part
+
+627
+00:40:23.000 --> 00:40:28.000
+<Shaka>gamification part, not the funding part,
+
+628
+00:40:28.000 --> 00:40:33.000
+<Shaka>right? So it shouldn't be about matching. It should not be about,
+
+629
+00:40:33.000 --> 00:40:38.000
+<Shaka>competition can get one person in the orchestra more mon, more
+
+630
+00:40:38.000 --> 00:40:43.000
+<Shaka>orchestra, everyone's participation is really important. So
+
+631
+00:40:43.000 --> 00:40:48.000
+<Shaka>should have this kind of dispersion where, we kind
+
+632
+00:40:48.000 --> 00:40:53.000
+<Shaka>of come to consent about every big, funding decision, and then everyone's consent kind
+
+633
+00:40:53.000 --> 00:40:58.000
+<Shaka>funding gets put towards. So everything kind of comes with
+
+634
+00:40:58.000 --> 00:41:03.000
+<Shaka>proposals and receipts, you know, so people have receipts, for, for DevCon, you
+
+635
+00:41:03.000 --> 00:41:08.000
+<Shaka>know, Alaska has his flights, he has his, that he paid for himself, Levi,
+
+636
+00:41:08.000 --> 00:41:13.000
+<Shaka>and you, Ben, have your hotels and your flights that you paid for. So those are receipts
+
+637
+00:41:13.000 --> 00:41:18.000
+<Shaka>contribution made toward the orchestra out of your own funds, and then
+
+638
+00:41:18.000 --> 00:41:23.000
+<Shaka>contribution part that is that's really gamified and fun, which
+
+639
+00:41:23.000 --> 00:41:28.000
+<Shaka>is like building out the schedule, building out your profile, having your subcult, and then,
+
+640
+00:41:28.000 --> 00:41:33.000
+<Shaka>ready so that we're all really linked and synchronized for when
+
+641
+00:41:33.000 --> 00:41:37.000
+<Shaka>events, and then we have different songs that we recognize and can play
+
+642
+00:41:37.000 --> 00:41:40.000
+<Shaka>Why? Because it's all built off, like, having consensus, that
+
+643
+00:41:40.000 --> 00:41:44.000
+<Shaka>has been sticking with us.
+
+644
+00:41:44.000 --> 00:41:48.000
+<Shaka>Alaska, what, what, what do you want to add to this?
+
+645
+00:41:48.000 --> 00:41:51.000
+<Alaska>Oh, I just wanted to say, have you looked into waterfall kind of
+
+646
+00:41:51.000 --> 00:41:52.000
+<Alaska>funding? This is a new thing they're doing. My buddy Sam, do you know Sam? Did you meet Sam?
+
+647
+00:41:52.000 --> 00:41:56.000
+<Alaska>Sam?
+
+648
+00:41:56.000 --> 00:41:58.000
+<Shaka>I have heard of Waterfall, yes. I haven't met him, but
+
+649
+00:41:58.000 --> 00:41:59.000
+<Shaka>I've heard him speak at a, at a ETH Global before.
+
+650
+00:41:58.000 --> 00:42:03.000
+<Shaka>before.
+
+651
+00:42:03.000 --> 00:42:06.000
+<Alaska>Cool, yeah, he's here. He's like a local Catalonian guy
+
+652
+00:42:06.000 --> 00:42:07.000
+<Alaska>here in Barcelona. But yeah, he's the guy who actually hacked the DAO, this last time.
+
+653
+00:42:07.000 --> 00:42:08.000
+<Alaska>but.
+
+654
+00:42:08.000 --> 00:42:13.000
+<Alaska>but.
+
+655
+00:42:13.000 --> 00:42:16.000
+<Alaska>Yeah, yeah, yeah, so he, he
+
+656
+00:42:16.000 --> 00:42:17.000
+<Alaska>but yeah, so his idea of what.
+
+657
+00:42:17.000 --> 00:42:19.000
+<Alaska>of.
+
+658
+00:42:19.000 --> 00:42:24.000
+<Shaka>Probably some white rabbit. Is that like I'm actually
+
+659
+00:42:24.000 --> 00:42:26.000
+<Shaka>even heard about the Dow hack, you know, like it took me like three years of friendship with Grip and then
+
+660
+00:42:26.000 --> 00:42:29.000
+<Shaka>hack.
+
+661
+00:42:29.000 --> 00:42:34.000
+<Alaska>What they did was, he hacked it the second
+
+662
+00:42:34.000 --> 00:42:36.000
+<Alaska>funds from the DAO, Sam was the one who was able to
+
+663
+00:42:36.000 --> 00:42:37.000
+<Alaska>contract.
+
+664
+00:42:36.000 --> 00:42:41.000
+<Alaska>contract.
+
+665
+00:42:41.000 --> 00:42:42.000
+<Shaka>Oh, Sam, yeah, I know Sam, of course, I love Sam. Yeah, big
+
+666
+00:42:42.000 --> 00:42:43.000
+<Shaka>teddy bear Sam.
+
+667
+00:42:42.000 --> 00:42:44.000
+<Shaka>Yeah.
+
+668
+00:42:44.000 --> 00:42:49.000
+<Alaska>Yeah, so the funds is
+
+669
+00:42:49.000 --> 00:42:54.000
+<Alaska>actually what he made, but it's pretty cool, basically that's that
+
+670
+00:42:54.000 --> 00:42:59.000
+<Alaska>that, they're gonna roll it out just in the next
+
+671
+00:42:59.000 --> 00:43:04.000
+<Alaska>the first thing, so, something to, to think
+
+672
+00:43:04.000 --> 00:43:09.000
+<Alaska>about, cause that way everyone who participates gets stake in what happens, right? This is really
+
+673
+00:43:09.000 --> 00:43:12.000
+<Alaska>great. So then anyone who's a contributor to the orchestra, like, has say if there is funding,
+
+674
+00:43:12.000 --> 00:43:13.000
+<Alaska>you know? Anyway, it's just like a really cool idea. you know, that's
+
+675
+00:43:12.000 --> 00:43:16.000
+<Shaka>I agree.
+
+676
+00:43:16.000 --> 00:43:18.000
+<Alaska>yeah.
+
+677
+00:43:18.000 --> 00:43:22.000
+<Shaka>Yeah, that's awesome. No, beautiful, beautiful suggestion. And
+
+678
+00:43:22.000 --> 00:43:23.000
+<Alaska>Yeah.
+
+679
+00:43:23.000 --> 00:43:28.000
+<Shaka>need to learn more about that, and hearing that's really exciting, cause
+
+680
+00:43:28.000 --> 00:43:30.000
+<Shaka>really safe space for us. really
+
+681
+00:43:30.000 --> 00:43:35.000
+<Shaka>love, Griff, and then
+
+682
+00:43:35.000 --> 00:43:37.000
+<Shaka>definitely what you, you mentioned upon, I think contribution needs to
+
+683
+00:43:37.000 --> 00:43:40.000
+<Shaka>be what gives people the most,
+
+684
+00:43:40.000 --> 00:43:42.000
+<Shaka>consent, placement.
+
+685
+00:43:42.000 --> 00:43:44.000
+<Shaka>Yeah.
+
+686
+00:43:44.000 --> 00:43:46.000
+<Alaska>Yeah. Yeah, yeah, yeah, cause you don't, you don't want a
+
+687
+00:43:46.000 --> 00:43:49.000
+<Shaka>Yeah.
+
+688
+00:43:49.000 --> 00:43:52.000
+<Alaska>mechanism based off of ownership. That's just like the mistake, right? It's like, I buy
+
+689
+00:43:52.000 --> 00:43:57.000
+<Alaska>and now, anyway, we don't have to get into this. I think we all are in agreeance.
+
+690
+00:43:57.000 --> 00:44:02.000
+<Alaska>Yeah, yeah. yeah, I can't stay on the,
+
+691
+00:44:02.000 --> 00:44:07.000
+<Alaska>meeting. but I'll be here probably
+
+692
+00:44:07.000 --> 00:44:11.000
+<Alaska>tomorrow. Sorry I missed last week. I was still re-congealing here in Spain and,
+
+693
+00:44:11.000 --> 00:44:12.000
+<Alaska>and your hours that you put these at are seemingly random to me, so it doesn't fit into my calendar brain, but I.
+
+694
+00:44:12.000 --> 00:44:17.000
+<Ben>What's the time in Spain now?
+
+695
+00:44:17.000 --> 00:44:18.000
+<Ben>Okay.
+
+696
+00:44:17.000 --> 00:44:22.000
+<Alaska>It's, it's like 7,
+
+697
+00:44:22.000 --> 00:44:24.000
+<Alaska>Yeah, which, yeah, I have a spot. It'll be a nice space for you
+
+698
+00:44:24.000 --> 00:44:25.000
+<Alaska>hang out and play music at the plaza whenever you're in town, Shaka.
+
+699
+00:44:25.000 --> 00:44:30.000
+<Alaska>Shaka.
+
+700
+00:44:30.000 --> 00:44:33.000
+<Ben>Yeah, we got to come check out some Barcelona now. Yeah, I've
+
+701
+00:44:33.000 --> 00:44:36.000
+<Ben>you there, got to, got to skip over for a weekend.
+
+702
+00:44:36.000 --> 00:44:37.000
+<Alaska>Yeah, yeah, yeah,
+
+703
+00:44:37.000 --> 00:44:38.000
+<Alaska>You're welcome. Yeah, I have a.
+
+704
+00:44:38.000 --> 00:44:42.000
+<Ben>Oh, I appreciate, appreciate you.
+
+705
+00:44:42.000 --> 00:44:47.000
+<Alaska>Yeah, yeah, and I've been connecting with the music
+
+706
+00:44:47.000 --> 00:44:49.000
+<Alaska>community here, which has been fantastic. Everyone in Barcelona knows how to make collectives and kind of
+
+707
+00:44:49.000 --> 00:44:50.000
+<Ben>Yeah.
+
+708
+00:44:50.000 --> 00:44:53.000
+<Alaska>collaborate, right? It's kind of the, it's really, really cool.
+
+709
+00:44:53.000 --> 00:44:54.000
+<Shaka>Barcelona.
+
+710
+00:44:54.000 --> 00:44:58.000
+<Ben>Okay, nice. Stay safe, brother.
+
+711
+00:44:58.000 --> 00:45:03.000
+<Shaka>Yeah, Barcelona is absolutely a node.
+
+712
+00:45:03.000 --> 00:45:05.000
+<Shaka>there is a mixer and a microphone for open source orchestra already
+
+713
+00:45:05.000 --> 00:45:06.000
+<Shaka>in Barcelona. Is that, that's correct still, right, Alaska?
+
+714
+00:45:06.000 --> 00:45:07.000
+<Shaka>Alaska?
+
+715
+00:45:07.000 --> 00:45:11.000
+<Alaska>Yeah, of course. Yeah.
+
+716
+00:45:11.000 --> 00:45:16.000
+<Shaka>Yeah, and, and so like Giveth House, just like
+
+717
+00:45:16.000 --> 00:45:17.000
+<Shaka>Foresties here in Chiang Mai, I think is a place that we could leave
+
+718
+00:45:17.000 --> 00:45:18.000
+<Ben>Look.
+
+719
+00:45:18.000 --> 00:45:19.000
+<Shaka>lots of, instruments in the future. And,
+
+720
+00:45:19.000 --> 00:45:20.000
+<Shaka>And,
+
+721
+00:45:20.000 --> 00:45:23.000
+<Alaska>Yeah. Yes. And then, you
+
+722
+00:45:23.000 --> 00:45:24.000
+<Alaska>future, my studio office space here, so.
+
+723
+00:45:24.000 --> 00:45:28.000
+<Alaska>so.
+
+724
+00:45:28.000 --> 00:45:30.000
+<Shaka>oh, that as well, you know, I think
+
+725
+00:45:30.000 --> 00:45:32.000
+<Shaka>that, that like continent-wise and participant-wise, you know, the more
+
+726
+00:45:32.000 --> 00:45:37.000
+<Shaka>, the more the
+
+727
+00:45:37.000 --> 00:45:39.000
+<Shaka>stewardship, becomes grow,
+
+728
+00:45:39.000 --> 00:45:44.000
+<Shaka>like grows in that, that I also think that like more,
+
+729
+00:45:44.000 --> 00:45:49.000
+<Shaka>more instruments will just seem to even flow in the door, like,
+
+730
+00:45:49.000 --> 00:45:54.000
+<Shaka>the height, like, just to kind of recap on the idea of not just like trying to play parties,
+
+731
+00:45:54.000 --> 00:45:59.000
+<Shaka>I, I think that's like a great thing for like Alaska to make his trip a little bit more rewarding is
+
+732
+00:45:59.000 --> 00:46:04.000
+<Shaka>it's not open source orchestra getting booked to play the party at night, you know, that it's Alaska's
+
+733
+00:46:04.000 --> 00:46:09.000
+<Shaka>own DJing thing, Manu's able to do his own DJing thing, other artists
+
+734
+00:46:09.000 --> 00:46:14.000
+<Shaka>should feel like they can participate in the open source orchestra and then leverage that
+
+735
+00:46:14.000 --> 00:46:18.000
+<Shaka>relationship to get other gigs, you know, that we have a front door into the main venue
+
+736
+00:46:18.000 --> 00:46:19.000
+<Alaska>Yeah.
+
+737
+00:46:19.000 --> 00:46:24.000
+<Shaka>that exposure to then play all these side parties. I think
+
+738
+00:46:24.000 --> 00:46:29.000
+<Shaka>the open source orchestra should try and compete for the side parties. I think we
+
+739
+00:46:29.000 --> 00:46:34.000
+<Shaka>should continue to maintain our presence, wherever where the invitation is kind
+
+740
+00:46:34.000 --> 00:46:38.000
+<Shaka>then people are able to make donations, to the
+
+741
+00:46:38.000 --> 00:46:43.000
+<Shaka>get like everyone, if they want to like lock it in big time.
+
+742
+00:46:43.000 --> 00:46:45.000
+<Shaka>You know, like we, we, we kind of like, we can set our,
+
+743
+00:46:45.000 --> 00:46:50.000
+<Shaka>as far as where we're giving the gift.
+
+744
+00:46:50.000 --> 00:46:52.000
+<Shaka>then we, we, we also will be able to
+
+745
+00:46:52.000 --> 00:46:57.000
+<Shaka>accept the invitation. And I think that like
+
+746
+00:46:57.000 --> 00:47:00.000
+<Shaka>on the individual basis, anyone can
+
+747
+00:47:00.000 --> 00:47:05.000
+<Shaka>represent open source orchestra, you know, without my consent.
+
+748
+00:47:05.000 --> 00:47:10.000
+<Shaka>it's already like, that's part of being
+
+749
+00:47:10.000 --> 00:47:14.000
+<Shaka>permissionless, you know, is that people don't need to have consent from the orchestra
+
+750
+00:47:14.000 --> 00:47:18.000
+<Shaka>to go do something and say, I want to have an open source orchestra back me up.
+
+751
+00:47:18.000 --> 00:47:23.000
+<Shaka>You know, it's at the point of being
+
+752
+00:47:23.000 --> 00:47:25.000
+<Shaka>an open source protocol and there's enough words online of us talking about it that people know who
+
+753
+00:47:25.000 --> 00:47:26.000
+<Shaka>people are, you know, so.
+
+754
+00:47:26.000 --> 00:47:31.000
+<Shaka>I think that
+
+755
+00:47:31.000 --> 00:47:36.000
+<Shaka>it's, it's, yeah, 2027 is going
+
+756
+00:47:36.000 --> 00:47:38.000
+<Shaka>that I know that gives me confidence is that we're ending
+
+757
+00:47:38.000 --> 00:47:39.000
+<Shaka>progression.
+
+758
+00:47:39.000 --> 00:47:42.000
+<Shaka>So
+
+759
+00:47:42.000 --> 00:47:47.000
+<Alaska>Yeah, I had
+
+760
+00:47:47.000 --> 00:47:53.000
+<Alaska>one, one question before heading out. I guess we can talk about it later too, but,
+
+761
+00:47:53.000 --> 00:47:57.000
+<Alaska>year, or is it too early? Cause, like, Cons was awesome, and I
+
+762
+00:47:57.000 --> 00:47:58.000
+<Alaska>if we have any information on if we're gonna have Oso happen at those places yet.
+
+763
+00:47:58.000 --> 00:48:02.000
+<Alaska>yet.
+
+764
+00:48:02.000 --> 00:48:05.000
+<Shaka>there is no confirmation, well, actually,
+
+765
+00:48:05.000 --> 00:48:10.000
+<Shaka>I actually do have,
+
+766
+00:48:10.000 --> 00:48:15.000
+<Shaka>the reputation confirmation of that if
+
+767
+00:48:15.000 --> 00:48:20.000
+<Shaka>we are hacking, you know, so definitely always get
+
+768
+00:48:20.000 --> 00:48:25.000
+<Shaka>your stake in the door early, and then share your promo code,
+
+769
+00:48:25.000 --> 00:48:28.000
+<Shaka>for staking to get a discount. and I am definitely going to be heavy on the
+
+770
+00:48:28.000 --> 00:48:33.000
+<Shaka>them and, like, they've actually always allowed me to
+
+771
+00:48:33.000 --> 00:48:38.000
+<Shaka>have a stable presence in
+
+772
+00:48:38.000 --> 00:48:43.000
+<Shaka>Ethereum, and I will be going in the system the same as everybody. You know, we're not going to have,
+
+773
+00:48:43.000 --> 00:48:48.000
+<Shaka>like, a backdoor situation with ETH Global. you have to sign up as a
+
+774
+00:48:48.000 --> 00:48:53.000
+<Shaka>hacker or a volunteer, and I think, we can probably
+
+775
+00:48:53.000 --> 00:48:58.000
+<Shaka>how much instruments we can bring in the door. You know,
+
+776
+00:48:58.000 --> 00:49:03.000
+<Shaka>computer and a instrument, then Kartik might
+
+777
+00:49:03.000 --> 00:49:06.000
+<Shaka>get a little upset. But I think, like, as, I think we, like, I've already, we already
+
+778
+00:49:06.000 --> 00:49:09.000
+<Shaka>our instruments in the door. and then
+
+779
+00:49:09.000 --> 00:49:14.000
+<Shaka>I think that
+
+780
+00:49:14.000 --> 00:49:19.000
+<Shaka>on the, on the, on the individual
+
+781
+00:49:19.000 --> 00:49:24.000
+<Shaka>want to give the DAO
+
+782
+00:49:24.000 --> 00:49:29.000
+<Shaka>a gift, if Kartik himself wants to give Open Source Orchestra a gift, that's
+
+783
+00:49:29.000 --> 00:49:34.000
+<Shaka>why, the, the gifting rails exist. And actually, I've even
+
+784
+00:49:34.000 --> 00:49:39.000
+<Shaka>done a little bit more research that, even like volunteering in exchange
+
+785
+00:49:39.000 --> 00:49:42.000
+<Shaka>for things in places like Thailand is not
+
+786
+00:49:42.000 --> 00:49:43.000
+<Shaka>allowed. So like, the exchange has, the exchange has to be,
+
+787
+00:49:43.000 --> 00:49:48.000
+<Shaka>to be,
+
+788
+00:49:48.000 --> 00:49:53.000
+<Shaka>not found, right?
+
+789
+00:49:53.000 --> 00:49:58.000
+<Shaka>actually has to be completely a gift. And like, trust me, like, the
+
+790
+00:49:58.000 --> 00:50:03.000
+<Shaka>gift has been given the last four years, and
+
+791
+00:50:03.000 --> 00:50:06.000
+<Shaka>So there's moments, right, where like I always go through a threshold where it's like,
+
+792
+00:50:06.000 --> 00:50:08.000
+<Shaka>I don't know if I can keep doing this.
+
+793
+00:50:08.000 --> 00:50:11.000
+<Ben>Yeah. Right.
+
+794
+00:50:11.000 --> 00:50:15.000
+<Shaka>But then that's when I realize that it's not me, it's
+
+795
+00:50:15.000 --> 00:50:20.000
+<Shaka>all of us. And that's why it's, most powerful, and that's why it's not just,
+
+796
+00:50:20.000 --> 00:50:25.000
+<Shaka>a normal musician or
+
+797
+00:50:25.000 --> 00:50:30.000
+<Shaka>situation. It's an open orchestra that's also open
+
+798
+00:50:30.000 --> 00:50:35.000
+<Shaka>is to promote the space that, has really given
+
+799
+00:50:35.000 --> 00:50:38.000
+<Shaka>this thing birth from the first place, which is Ethereum and open source technology. And
+
+800
+00:50:38.000 --> 00:50:40.000
+<Ben>Yeah.
+
+801
+00:50:40.000 --> 00:50:41.000
+<Ben>Yeah.
+
+802
+00:50:40.000 --> 00:50:41.000
+<Shaka>to the real cipher cogitos of cryptography.
+
+803
+00:50:41.000 --> 00:50:43.000
+<Shaka>play.
+
+804
+00:50:43.000 --> 00:50:48.000
+<Ben>Yeah. What, what else do you think he does before Alaska goes was?
+
+805
+00:50:48.000 --> 00:50:53.000
+<Ben>If, if building up is a good question, he asked, what events do we
+
+806
+00:50:53.000 --> 00:50:58.000
+<Ben>events we have. We targeted, isn't it? So we got Cairns
+
+807
+00:50:58.000 --> 00:51:03.000
+<Ben>April, April 14 to 16. Then we have New York, I think it's July, about
+
+808
+00:51:03.000 --> 00:51:06.000
+<Ben>something similar date. Then we have
+
+809
+00:51:06.000 --> 00:51:07.000
+<Ben>Lisbon. I, I think if we're going to lead global,
+
+810
+00:51:07.000 --> 00:51:11.000
+<Ben>global,
+
+811
+00:51:11.000 --> 00:51:16.000
+<Ben>if we, if we carry on this level of
+
+812
+00:51:16.000 --> 00:51:21.000
+<Ben>identify with general consensus, some of the great features we want to add to the
+
+813
+00:51:21.000 --> 00:51:23.000
+<Ben>technology. And it would be great if I, Shaka, and a few others can even be a team
+
+814
+00:51:23.000 --> 00:51:28.000
+<Ben>on East Global, where we know, regardless of whether we win,
+
+815
+00:51:28.000 --> 00:51:30.000
+<Ben>the bounties or not, we are pushing
+
+816
+00:51:30.000 --> 00:51:36.000
+<Ben>the boundaries of what we want to do, and adding features to the DAO.
+
+817
+00:51:36.000 --> 00:51:41.000
+<Ben>And then we can have our community come together
+
+818
+00:51:41.000 --> 00:51:46.000
+<Ben>and say, these are the features that we would like to see. We actually build like a Discord even. Okay,
+
+819
+00:51:46.000 --> 00:51:48.000
+<Ben>good. We're going to build this, you know, these features. Go and test these features. And then going forward,
+
+820
+00:51:48.000 --> 00:51:53.000
+<Ben>Global, then we have, the East Lisbon.
+
+821
+00:51:53.000 --> 00:51:57.000
+<Ben>there'll be another East Global, and there'll be a few Globals down the,
+
+822
+00:51:57.000 --> 00:52:02.000
+<Ben>Then we are just pushing and making it better for everybody.
+
+823
+00:52:02.000 --> 00:52:07.000
+<Ben>Making a really source of sanctuary, really decentralized sanctuary for
+
+824
+00:52:07.000 --> 00:52:12.000
+<Ben>everybody. So that by the time, by the end years, we can look back on features and say, this is what we
+
+825
+00:52:12.000 --> 00:52:15.000
+<Ben>where we started, this quarter, this quarter, this quarter, this quarter. And this is what
+
+826
+00:52:15.000 --> 00:52:18.000
+<Ben>know, so expanding it more than just the music.
+
+827
+00:52:18.000 --> 00:52:23.000
+<Ben>really like this idea of a DAO.
+
+828
+00:52:23.000 --> 00:52:25.000
+<Ben>You know, and then who knows, maybe in 2028,
+
+829
+00:52:25.000 --> 00:52:31.000
+<Ben>there, one of the, the event itself.
+
+830
+00:52:31.000 --> 00:52:35.000
+<Shaka>Yeah, the
+
+831
+00:52:35.000 --> 00:52:36.000
+<Alaska>Sounds great. Oh, we're getting more fun than hacking together at a
+
+832
+00:52:36.000 --> 00:52:37.000
+<Ben>Yeah.
+
+833
+00:52:37.000 --> 00:52:38.000
+<Alaska>hackathon, to be honest.
+
+834
+00:52:38.000 --> 00:52:41.000
+<Shaka>Totally.
+
+835
+00:52:41.000 --> 00:52:43.000
+<Ben>Yeah.
+
+836
+00:52:43.000 --> 00:52:46.000
+<Shaka>Yeah, actually, I think I was trying to ask you earlier, like, share a little
+
+837
+00:52:46.000 --> 00:52:47.000
+<Shaka>memory of how you gave birth to Anda.
+
+838
+00:52:47.000 --> 00:52:51.000
+<Shaka>Anda.
+
+839
+00:52:51.000 --> 00:52:52.000
+<Alaska>Oh, yeah, I mean, man,
+
+840
+00:52:52.000 --> 00:52:57.000
+<Alaska>mean
+
+841
+00:52:57.000 --> 00:53:01.000
+<Alaska>I mean, it kinda was an idea I had
+
+842
+00:53:01.000 --> 00:53:05.000
+<Alaska>for a while, and originally, I mean, I started working on it initially, actually, in, Grand Serets.
+
+843
+00:53:05.000 --> 00:53:10.000
+<Alaska>And this was trying to do X402 payments, like a toll road.
+
+844
+00:53:10.000 --> 00:53:13.000
+<Alaska>You know, I was like, okay, well, you know, you have to,
+
+845
+00:53:13.000 --> 00:53:16.000
+<Alaska>like, request to listen to a song, and there's a payment or something like that.
+
+846
+00:53:16.000 --> 00:53:21.000
+<Alaska>then, really, it was
+
+847
+00:53:21.000 --> 00:53:25.000
+<Alaska>Like, that was actually funny, because I failed that hackathon, because I was trying
+
+848
+00:53:25.000 --> 00:53:30.000
+<Alaska>to do that, and it just wasn't resonating. The idea wasn't resonating. It wasn't working. I was really frustrated.
+
+849
+00:53:30.000 --> 00:53:33.000
+<Alaska>And then, at Eve Global, I mean, it was really funny, because we were just playing music nonstop.
+
+850
+00:53:33.000 --> 00:53:38.000
+<Alaska>And then we played again that closing party, there was a proper party.
+
+851
+00:53:38.000 --> 00:53:40.000
+<Alaska>And then I just remember, like, literally the next
+
+852
+00:53:40.000 --> 00:53:41.000
+<Alaska>morning with no sleep, like, going into the hackathon,
+
+853
+00:53:41.000 --> 00:53:46.000
+<Alaska>hackathon,
+
+854
+00:53:46.000 --> 00:53:51.000
+<Alaska>And that was when I was like, yeah, I think, I think we can just
+
+855
+00:53:51.000 --> 00:53:56.000
+<Alaska>extension that just donates a penny
+
+856
+00:53:56.000 --> 00:54:01.000
+<Alaska>anytime you listen to any song. And, like, Onda, obviously, it's, like, got the Spanish roots,
+
+857
+00:54:01.000 --> 00:54:03.000
+<Alaska>thinking about this idea that, you know, Shaka had always have, of, like, how do you, how
+
+858
+00:54:03.000 --> 00:54:08.000
+<Alaska>something, just make it easy to give, right?
+
+859
+00:54:08.000 --> 00:54:13.000
+<Alaska>And, I mean, that hackathon was pretty crazy. It was, like, you
+
+860
+00:54:13.000 --> 00:54:18.000
+<Alaska>know, two and a half days nonstop, and yeah. I remember,
+
+861
+00:54:18.000 --> 00:54:23.000
+<Alaska>realizing that I had to present in the morning and not the evening, because I hadn't done it. So, I had,
+
+862
+00:54:23.000 --> 00:54:28.000
+<Alaska>like, 20 minutes of sleep after not, sleeping for, like, four days, basically, and then
+
+863
+00:54:28.000 --> 00:54:33.000
+<Alaska>mean, I don't know if there's another moment that I missed on that
+
+864
+00:54:33.000 --> 00:54:35.000
+<Alaska>resonated with, Shaka, but it was just kind of culminating those things together, for sure.
+
+865
+00:54:35.000 --> 00:54:37.000
+<Alaska>great. It was fun.
+
+866
+00:54:37.000 --> 00:54:40.000
+<Alaska>fun.
+
+867
+00:54:40.000 --> 00:54:45.000
+<Shaka>Well I really resonate with the accomplishment that you had and
+
+868
+00:54:45.000 --> 00:54:50.000
+<Shaka>what you put together. I was hacking, I mean, I'm sorry, I wasn't hacking, I was
+
+869
+00:54:50.000 --> 00:54:52.000
+<Shaka>loved to join your team, but I was volunteering and I also felt like I,
+
+870
+00:54:52.000 --> 00:54:54.000
+<Alaska>Yeah.
+
+871
+00:54:54.000 --> 00:54:55.000
+<Alaska>Yeah.
+
+872
+00:54:55.000 --> 00:55:00.000
+<Shaka>capacity of being able to stay up playing music and then also being a
+
+873
+00:55:00.000 --> 00:55:01.000
+<Shaka>But Bo Rat, who slaps the bass and is amazing, has played with us also all over the
+
+874
+00:55:00.000 --> 00:55:02.000
+<Alaska>Yeah.
+
+875
+00:55:02.000 --> 00:55:05.000
+<Alaska>That's great.
+
+876
+00:55:05.000 --> 00:55:10.000
+<Shaka>place, he joined your team and helped do the smart contracts, and love
+
+877
+00:55:10.000 --> 00:55:15.000
+<Shaka>the browser extension gives that gifting
+
+878
+00:55:15.000 --> 00:55:20.000
+<Shaka>ability, super accessibility, because after it, you listen to it for like a minute, automatically it triggers giving a penny
+
+879
+00:55:20.000 --> 00:55:25.000
+<Shaka>through the Onda protocol, so Alaska did a really great, thing that he put
+
+880
+00:55:25.000 --> 00:55:27.000
+<Shaka>together, that those types of ideas go so much further, when,
+
+881
+00:55:27.000 --> 00:55:32.000
+<Shaka>a different route,
+
+882
+00:55:32.000 --> 00:55:37.000
+<Shaka>in, in Mumbai than I did in
+
+883
+00:55:37.000 --> 00:55:38.000
+<Shaka>Japan. Japan I hacked solo for the first time. I think almost just to prove that I could submit and do a project
+
+884
+00:55:38.000 --> 00:55:39.000
+<Shaka>agents, but
+
+885
+00:55:39.000 --> 00:55:43.000
+<Ben>Well done on you, well done.
+
+886
+00:55:43.000 --> 00:55:48.000
+<Shaka>Yeah, so I was, but I, but also I'm, I'm more
+
+887
+00:55:48.000 --> 00:55:49.000
+<Shaka>doing, a team with, having a team of five and
+
+888
+00:55:48.000 --> 00:55:51.000
+<Ben>Yeah, yeah.
+
+889
+00:55:51.000 --> 00:55:56.000
+<Shaka>it up and then like having the ethos that everything is open sourced.
+
+890
+00:55:56.000 --> 00:55:59.000
+<Shaka>everything is, kind of like
+
+891
+00:55:59.000 --> 00:56:00.000
+<Shaka>like kind of like what happens at ETH Global.
+
+892
+00:56:00.000 --> 00:56:04.000
+<Ben>Yeah.
+
+893
+00:56:04.000 --> 00:56:06.000
+<Shaka>And that's beautiful, right? Because anyone can
+
+894
+00:56:06.000 --> 00:56:09.000
+<Alaska>Yeah.
+
+895
+00:56:09.000 --> 00:56:14.000
+<Shaka>take their project and like go somewhere else, with whatever, whatever, whatever like makes them
+
+896
+00:56:14.000 --> 00:56:18.000
+<Shaka>project and do something else, beyond the
+
+897
+00:56:18.000 --> 00:56:19.000
+<Ben>Yeah.
+
+898
+00:56:19.000 --> 00:56:24.000
+<Shaka>makes your project more sustainable
+
+899
+00:56:24.000 --> 00:56:28.000
+<Shaka>and, and actually more capable if you fill the whole team of five people. And that's actually why
+
+900
+00:56:28.000 --> 00:56:33.000
+<Shaka>they made a little bit of adjustments that like if you hack solo, you only can maybe get access to
+
+901
+00:56:33.000 --> 00:56:38.000
+<Shaka>like half, like half the
+
+902
+00:56:38.000 --> 00:56:39.000
+<Ben>Yeah.
+
+903
+00:56:38.000 --> 00:56:43.000
+<Shaka>flight reimbursement isn't as much as if you're a solo
+
+904
+00:56:43.000 --> 00:56:46.000
+<Shaka>money if you're a five person or a three person team
+
+905
+00:56:46.000 --> 00:56:47.000
+<Shaka>people to be hacking on teams. So I think
+
+906
+00:56:47.000 --> 00:56:51.000
+<Ben>Yeah.
+
+907
+00:56:51.000 --> 00:56:56.000
+<Shaka>know, open source orchestra
+
+908
+00:56:56.000 --> 00:56:58.000
+<Shaka>will have a team of five whenever it tries to be a continuity project. Hey, maybe even one time I have my own little
+
+909
+00:56:58.000 --> 00:57:01.000
+<Ben>Yeah.
+
+910
+00:57:01.000 --> 00:57:02.000
+<Ben>Yeah, we could have two teams.
+
+911
+00:57:01.000 --> 00:57:04.000
+<Shaka>idea that I want to hack on and then someone else can hack on the open source orchestra at the
+
+912
+00:57:04.000 --> 00:57:06.000
+<Shaka>amazing, right? Two, they can be multiple teams.
+
+913
+00:57:06.000 --> 00:57:08.000
+<Ben>Yeah, we build two, two different features. Yeah, we can, we
+
+914
+00:57:08.000 --> 00:57:11.000
+<Ben>Hackathon, you know.
+
+915
+00:57:11.000 --> 00:57:13.000
+<Ben>A new feature and a continuity feature, you know.
+
+916
+00:57:13.000 --> 00:57:14.000
+<Ben>Yeah, yeah, yeah.
+
+917
+00:57:13.000 --> 00:57:16.000
+<Shaka>That would actually be a first,
+
+918
+00:57:16.000 --> 00:57:18.000
+<Ben>Yeah.
+
+919
+00:57:18.000 --> 00:57:19.000
+<Shaka>features being built at, at the same hackathon. Yeah, that'd be badass.
+
+920
+00:57:19.000 --> 00:57:21.000
+<Shaka>badass.
+
+921
+00:57:21.000 --> 00:57:25.000
+<Ben>Because, because, because the thing is, the thing is, guys, it's like,
+
+922
+00:57:25.000 --> 00:57:30.000
+<Ben>saw the review for East Global Mumbai, but maybe Alaska. It was pretty poor.
+
+923
+00:57:30.000 --> 00:57:35.000
+<Ben>really poorly organized. There was lots of issues
+
+924
+00:57:35.000 --> 00:57:37.000
+<Ben>with the internet, the issues with storage, there were, these, these
+
+925
+00:57:37.000 --> 00:57:42.000
+<Ben>room, you know.
+
+926
+00:57:42.000 --> 00:57:47.000
+<Ben>And not enough spaces for people to relax, if
+
+927
+00:57:47.000 --> 00:57:53.000
+<Ben>they do need to relax, because you're in this geo center where you're limited on where you can go. But I think the judging
+
+928
+00:57:53.000 --> 00:57:58.000
+<Ben>judge, never got to, to exhibit their, their
+
+929
+00:57:58.000 --> 00:58:03.000
+<Ben>broke midstream, and they told me, after two, and they, they're
+
+930
+00:58:03.000 --> 00:58:04.000
+<Ben>exhibit. So I just went back to my hotel, and just, and
+
+931
+00:58:04.000 --> 00:58:09.000
+<Ben>just left, and then called. So, so, but I think.
+
+932
+00:58:09.000 --> 00:58:11.000
+<Ben>the vision, we, we can push this, we
+
+933
+00:58:11.000 --> 00:58:12.000
+<Ben>way beyond music.
+
+934
+00:58:12.000 --> 00:58:16.000
+<Ben>music.
+
+935
+00:58:16.000 --> 00:58:19.000
+<Ben>You know, a DAO is a brilliant idea, and we've seen within Web3 what
+
+936
+00:58:19.000 --> 00:58:24.000
+<Ben>DAOs do. And if we can have an open music DAO, there'll be a lot of features.
+
+937
+00:58:24.000 --> 00:58:25.000
+<Ben>We, and I, the, the more we can push it, the community will just expand.
+
+938
+00:58:25.000 --> 00:58:30.000
+<Ben>Where now.
+
+939
+00:58:30.000 --> 00:58:35.000
+<Ben>Not just the level of talent coming in, but
+
+940
+00:58:35.000 --> 00:58:40.000
+<Ben>plan. Three years, five years plan of
+
+941
+00:58:40.000 --> 00:58:46.000
+<Ben>events. We can, we can plan events, and then people like Alaska, like, one of
+
+942
+00:58:46.000 --> 00:58:51.000
+<Ben>mentioning before your last meeting was, for example, if you have an event in Europe, maybe
+
+943
+00:58:51.000 --> 00:58:56.000
+<Ben>everybody doesn't need to go to Europe. Maybe everybody cannot go. So we can
+
+944
+00:58:56.000 --> 00:58:58.000
+<Ben>next door to Alaska. I'm in England, you know.
+
+945
+00:58:58.000 --> 00:59:00.000
+<Ben>Southeast Asia. So, you know, we can.
+
+946
+00:59:00.000 --> 00:59:05.000
+<Ben>accommodate and plan ahead.
+
+947
+00:59:05.000 --> 00:59:10.000
+<Ben>Even have virtual rehearsals. And then we go there,
+
+948
+00:59:10.000 --> 00:59:15.000
+<Ben>specific plan. Of course, with flexibility. And these are
+
+949
+00:59:15.000 --> 00:59:19.000
+<Ben>the core representatives. The likes of the Vivek, the Debs, the Niddies. They would love to get involved, but they're far
+
+950
+00:59:19.000 --> 00:59:24.000
+<Ben>and currency wise, it may not be easy for them to travel down to Europe.
+
+951
+00:59:24.000 --> 00:59:27.000
+<Ben>You know, if we have like a funding, we can say, okay, Niddy, you're going to come over
+
+952
+00:59:27.000 --> 00:59:32.000
+<Ben>sessions. We have the Sonia's and so on and so forth.
+
+953
+00:59:32.000 --> 00:59:33.000
+<Ben>But we can now move this thing really forward and so on and
+
+954
+00:59:33.000 --> 00:59:38.000
+<Ben>Just get this flowing of offering.
+
+955
+00:59:38.000 --> 00:59:43.000
+<Ben>And we can build anticipation for the next one. We can say, okay, Defcon 8, this
+
+956
+00:59:43.000 --> 00:59:48.000
+<Ben>is what we gave you guys. Defcon 9, this is what we're coming. Join the Discord, join
+
+957
+00:59:48.000 --> 00:59:53.000
+<Ben>the community, get involved in the Twitter, the socials, and, you know, bring
+
+958
+00:59:53.000 --> 00:59:58.000
+<Ben>your ideas. Bring ideas of features you'd like to see. The community will now provide the features. We build the features.
+
+959
+00:59:58.000 --> 01:00:01.000
+<Ben>And the community now will just expand the source orchestra itself.
+
+960
+01:00:01.000 --> 01:00:06.000
+<Alaska>Yeah.
+
+961
+01:00:06.000 --> 01:00:09.000
+<Alaska>to continue that thought, which I'm very excited
+
+962
+01:00:09.000 --> 01:00:10.000
+<Alaska>I also do have a meeting coming up soon, Shaka, with James.
+
+963
+01:00:09.000 --> 01:00:17.000
+<Alaska>James.
+
+964
+01:00:17.000 --> 01:00:22.000
+<Alaska>You're muted. No, it's coming. We
+
+965
+01:00:22.000 --> 01:00:27.000
+<Alaska>with tokens in a DAO in music,
+
+966
+01:00:27.000 --> 01:00:32.000
+<Alaska>and FireEyes is on board. So, we come up with an idea, and we have, you know,
+
+967
+01:00:32.000 --> 01:00:35.000
+<Alaska>a lot of potential. and, and the good friends who want to support it and see how we can make
+
+968
+01:00:35.000 --> 01:00:36.000
+<Alaska>it work. I have to go. I love you guys. I'll be more.
+
+969
+01:00:36.000 --> 01:00:40.000
+<Ben>Love you too.
+
+970
+01:00:40.000 --> 01:00:43.000
+<Alaska>Thanks. obviously,
+
+971
+01:00:43.000 --> 01:00:45.000
+<Alaska>Anyone from Osa, always welcome. I have a guest room.
+
+972
+01:00:45.000 --> 01:00:46.000
+<Ben>Absolutely. We'll have some tapas,
+
+973
+01:00:46.000 --> 01:00:50.000
+<Ben>some good tapas, man.
+
+974
+01:00:50.000 --> 01:00:51.000
+<Alaska (chat)>https://subcult.fm/app/
+
+975
+01:00:50.000 --> 01:00:53.000
+<Alaska>Yeah. I'm gonna leave you with a, a message. Just
+
+976
+01:00:53.000 --> 01:00:56.000
+<Alaska>started today. And, I'm gonna let you guys go.
+
+977
+01:00:56.000 --> 01:00:57.000
+<Alaska>Shaka. Bye, Ben. Bye, Mary.
+
+978
+01:00:57.000 --> 01:01:00.000
+<Ben>All right then, take care.
+
+979
+01:01:00.000 --> 01:01:04.000
+<Shaka>Let's see.
+
+980
+01:01:04.000 --> 01:01:07.000
+<Shaka>Pull up a track. What's this sub called? FM.
+
+981
+01:01:07.000 --> 01:01:10.000
+<Shaka>Here, let's, let's, throw that.
+
+982
+01:01:10.000 --> 01:01:11.000
+<Shaka>Radiant, let's throw that track on the radio.
+
+983
+01:01:11.000 --> 01:01:20.000
+<Ben>Let's go for it.
+
+984
+01:01:20.000 --> 01:01:24.000
+<Shaka>What up, subcult?
+
+985
+01:01:24.000 --> 01:02:18.000
+<Shaka>Alaska subcult in the house.
+
+986
+01:02:18.000 --> 01:02:31.000
+<Shaka>Shaka Ohana in the subcult.
+
+987
+01:02:31.000 --> 01:02:49.000
+<Shaka>And that's like one of Alaska's songs on top, I guess.
+
+988
+01:02:49.000 --> 01:02:55.000
+<Mary (chat)>Thanks guys, lovely catching up with you! 💛 I have to go now
+
+989
+01:02:55.000 --> 01:02:56.000
+<Shaka>There you go, Ben. If you ever want to listen to some of my
+
+990
+01:02:56.000 --> 01:02:57.000
+<Shaka>Orchestra website.
+
+991
+01:02:56.000 --> 01:03:00.000
+<Shaka>website.
+
+992
+01:03:00.000 --> 01:03:03.000
+<Shaka>And on the bottom radio player, there's a free download.
+
+993
+01:03:03.000 --> 01:03:04.000
+<Shaka>Subcult also has a great player if you want to ever upload songs.
+
+994
+01:03:04.000 --> 01:03:07.000
+<Ben>Okay.
+
+995
+01:03:07.000 --> 01:03:21.000
+<Shaka>I'll just have a protocol that'll go multiple places.
+
+996
+01:03:21.000 --> 01:03:22.000
+<Shaka>We could sing, we could sing a, we could, we could do a little rehearsing, mix
+
+997
+01:03:21.000 --> 01:03:28.000
+<Shaka>it up a little bit.
+
+998
+01:03:28.000 --> 01:03:30.000
+<Ben>I'm, I'm gonna, gonna start, like I said, doing
+
+999
+01:03:30.000 --> 01:03:31.000
+<Ben>out to the exec.
+
+1000
+01:03:30.000 --> 01:03:31.000
+<Ben>exec.
+
+1001
+01:03:31.000 --> 01:03:34.000
+<Shaka>It is sir, man, you should do it.
+
+1002
+01:03:34.000 --> 01:03:40.000
+<Ben>Yeah, and then, you know, like, she's not been well.
+
+1003
+01:03:40.000 --> 01:04:08.000
+<Ben>She's just had this ear infection afterwards.
+
+1004
+01:04:08.000 --> 01:04:12.000
+<Shaka>See, bet.
+
+1005
+01:04:12.000 --> 01:04:14.000
+<Ben>Don't know if I see them.
+
+1006
+01:04:14.000 --> 01:04:18.000
+<Shaka>See me.
+
+1007
+01:04:18.000 --> 01:04:21.000
+<Ben>Don't know if I see them.
+
+1008
+01:04:21.000 --> 01:04:25.000
+<Ben>Don't know.
+
+1009
+01:04:25.000 --> 01:04:26.000
+<Shaka>Namchen Kushnidae.
+
+1010
+01:04:26.000 --> 01:04:33.000
+<Ben>Nothing.
+
+1011
+01:04:33.000 --> 01:04:35.000
+<Ben>Nang keku skinai
+
+1012
+01:04:35.000 --> 01:04:38.000
+<Shaka>Every day is a day in life.
+
+1013
+01:04:38.000 --> 01:04:41.000
+<Ben>day days a day of life.
+
+1014
+01:04:41.000 --> 01:04:45.000
+<Shaka>Oh, you can support Shaka here.
+
+1015
+01:04:45.000 --> 01:04:47.000
+<Shaka>Payments are not available right now. Please try again later. Okay.
+
+1016
+01:04:47.000 --> 01:04:48.000
+<Shaka>Well, that's gonna fix that.
+
+1017
+01:04:47.000 --> 01:04:49.000
+<Shaka>that.
+
+1018
+01:04:49.000 --> 01:04:51.000
+<Shaka>But.
+
+1019
+01:04:51.000 --> 01:04:52.000
+<Shaka>People can also give me.
+
+1020
+01:04:51.000 --> 01:04:53.000
+<Shaka>me
+
+1021
+01:04:53.000 --> 01:04:55.000
+<Shaka>A gift here.
+
+1022
+01:04:55.000 --> 01:04:57.000
+<Shaka>tell, you can tell your agent.
+
+1023
+01:04:57.000 --> 01:04:59.000
+<Ben>Okay. You know, you know, you know why you're here?
+
+1024
+01:04:59.000 --> 01:05:02.000
+<Shaka>You can tell your agent, to try that with Agent Pennies of Aloha.
+
+1025
+01:05:02.000 --> 01:05:03.000
+<Ben>Yeah. Do I, do I?
+
+1026
+01:05:02.000 --> 01:05:07.000
+<Shaka>So it is possible, we're agent.
+
+1027
+01:05:07.000 --> 01:05:10.000
+<Ben>Yeah, do I need, do I need to join,
+
+1028
+01:05:10.000 --> 01:05:15.000
+<Ben>the DAO? Is there, do I need to do anything? Is there anything I need to do?
+
+1029
+01:05:15.000 --> 01:05:20.000
+<Shaka>Yeah, let's, let's, let's mute myself here on the sub call.
+
+1030
+01:05:20.000 --> 01:05:22.000
+<Shaka>And then let's go to for the first artist here.
+
+1031
+01:05:22.000 --> 01:05:26.000
+<Shaka>yeah, we have,
+
+1032
+01:05:26.000 --> 01:05:29.000
+<Shaka>great profile system that was set up cause everyone filled out the
+
+1033
+01:05:29.000 --> 01:05:30.000
+<Shaka>Google file to perform at DevCon.
+
+1034
+01:05:30.000 --> 01:05:31.000
+<Ben>Yeah
+
+1035
+01:05:31.000 --> 01:05:35.000
+<Ben>.
+
+1036
+01:05:35.000 --> 01:05:40.000
+<Shaka>Here's defining the
+
+1037
+01:05:40.000 --> 01:05:43.000
+<Shaka>profile. So we do have your profile in there. We need to get a picture in, a better picture. So
+
+1038
+01:05:43.000 --> 01:05:45.000
+<Ben>Okay.
+
+1039
+01:05:45.000 --> 01:05:50.000
+<Shaka>from the DevCon 8 photos for you cause there's, there's a really
+
+1040
+01:05:50.000 --> 01:05:53.000
+<Shaka>you. a couple of really great ones for you. Or if you have a picture, we can easily update.
+
+1041
+01:05:53.000 --> 01:05:54.000
+<Shaka>That'll be quick.
+
+1042
+01:05:53.000 --> 01:05:57.000
+<Ben>No, no, no, you, you, you go for it, you go for it.
+
+1043
+01:05:57.000 --> 01:05:58.000
+<Ben>but, I haven't, I haven't gone through some, most of them.
+
+1044
+01:05:57.000 --> 01:05:59.000
+<Ben>them.
+
+1045
+01:05:59.000 --> 01:06:01.000
+<Shaka>Yeah, actually.
+
+1046
+01:06:01.000 --> 01:06:06.000
+<Shaka>Since,
+
+1047
+01:06:06.000 --> 01:06:12.000
+<Shaka>since I'm going to be posting this on Twitter, this is a great time to experiment to see if
+
+1048
+01:06:12.000 --> 01:06:13.000
+<Shaka>if, Grok can do this for me on
+
+1049
+01:06:13.000 --> 01:06:15.000
+<Ben>Okay.
+
+1050
+01:06:15.000 --> 01:06:20.000
+<Shaka>a good, good level here. So, Groka is my Shaka.
+
+1051
+01:06:20.000 --> 01:06:25.000
+<Shaka>Getting ready for the
+
+1052
+01:06:25.000 --> 01:06:26.000
+<Shaka>Oso Downbeat. Can
+
+1053
+01:06:26.000 --> 01:06:28.000
+<Shaka>update Ben's profile picture on artist dot
+
+1054
+01:06:28.000 --> 01:06:31.000
+<Shaka>source?
+
+1055
+01:06:31.000 --> 01:06:34.000
+<Ben>So this Grok is like an AI chat. I've never, I've never heard of this one.
+
+1056
+01:06:34.000 --> 01:06:37.000
+<Shaka>This is Grok Bot.
+
+1057
+01:06:37.000 --> 01:06:42.000
+<Ben>I learn something new every day. Okay.
+
+1058
+01:06:42.000 --> 01:06:46.000
+<Shaka>Yeah, Grok Bot is killer. I, I,
+
+1059
+01:06:46.000 --> 01:06:47.000
+<Ben>Okay.
+
+1060
+01:06:47.000 --> 01:06:52.000
+<Shaka>similar to other orchestrators that I've been using before
+
+1061
+01:06:52.000 --> 01:06:55.000
+<Shaka>Grok Bot, but actually they like did a really good job making it much simpler and faster
+
+1062
+01:06:55.000 --> 01:06:56.000
+<Shaka>and seamless, and the girl who works on, Grok Bot, she's really cool.
+
+1063
+01:06:56.000 --> 01:07:00.000
+<Ben>Yeah.
+
+1064
+01:07:00.000 --> 01:07:03.000
+<Shaka>Can you, I'm really bad at typing, so
+
+1065
+01:07:03.000 --> 01:07:05.000
+<Ben>Yeah.
+
+1066
+01:07:05.000 --> 01:07:06.000
+<Shaka>I'm only, I'm only fixing my typos because we're recording, but usually I
+
+1067
+01:07:06.000 --> 01:07:09.000
+<Shaka>there, they should be able to do that.
+
+1068
+01:07:09.000 --> 01:07:10.000
+<Shaka>update bins profile.
+
+1069
+01:07:10.000 --> 01:07:17.000
+<Shaka>profile.
+
+1070
+01:07:17.000 --> 01:07:21.000
+<Shaka>So I did give
+
+1071
+01:07:21.000 --> 01:07:27.000
+<Shaka>And Open Source Orchestra is a,
+
+1072
+01:07:27.000 --> 01:07:28.000
+<Shaka>GitHub organization, so you can
+
+1073
+01:07:28.000 --> 01:07:32.000
+<Ben>Yeah.
+
+1074
+01:07:32.000 --> 01:07:35.000
+<Shaka>make, repo PRs, and then the agents can read them and approve
+
+1075
+01:07:35.000 --> 01:07:37.000
+<Ben>Yeah.
+
+1076
+01:07:37.000 --> 01:07:42.000
+<Shaka>them, pretty easily with my consent. I think, it would be amazing if
+
+1077
+01:07:42.000 --> 01:07:44.000
+<Shaka>this becomes a really great establishment where, there are multiple people that
+
+1078
+01:07:44.000 --> 01:07:47.000
+<Ben>Yeah.
+
+1079
+01:07:47.000 --> 01:07:49.000
+<Shaka>are capable of approving PRs, won't be agents fully approving PRs, it'll
+
+1080
+01:07:49.000 --> 01:07:50.000
+<Shaka>PRs, obviously.
+
+1081
+01:07:50.000 --> 01:07:51.000
+<Ben>Okay.
+
+1082
+01:07:50.000 --> 01:07:54.000
+<Shaka>obviously.
+
+1083
+01:07:54.000 --> 01:07:55.000
+<Shaka>But the agents always ask for my approval on PRs.
+
+1084
+01:07:55.000 --> 01:07:56.000
+<Ben>Yeah.
+
+1085
+01:07:56.000 --> 01:07:57.000
+<Shaka>And,
+
+1086
+01:07:56.000 --> 01:08:01.000
+<Shaka>and,
+
+1087
+01:08:01.000 --> 01:08:06.000
+<Shaka>Speaking of, let me just like
+
+1088
+01:08:06.000 --> 01:08:09.000
+<Shaka>ideas into the Grok and X world that it
+
+1089
+01:08:09.000 --> 01:08:10.000
+<Shaka>to see teen Grok accounts.
+
+1090
+01:08:09.000 --> 01:08:14.000
+<Ben>Yeah.
+
+1091
+01:08:14.000 --> 01:08:19.000
+<Shaka>So we can have an open source orchestra have a teen
+
+1092
+01:08:19.000 --> 01:08:20.000
+<Shaka>Grok account that then eventually, that Grokbot can maybe
+
+1093
+01:08:19.000 --> 01:08:24.000
+<Ben>Yeah.
+
+1094
+01:08:24.000 --> 01:08:29.000
+<Shaka>actually be the one that's approving PRs for organizations. So how can a
+
+1095
+01:08:29.000 --> 01:08:31.000
+<Shaka>Grokbot that's shared by a teen approve PRs? I think that's already probably out there,
+
+1096
+01:08:31.000 --> 01:08:32.000
+<Shaka>experiment with on the open source orchestra would be really cool.
+
+1097
+01:08:32.000 --> 01:08:36.000
+<Ben>Yeah.
+
+1098
+01:08:36.000 --> 01:08:38.000
+<Shaka>Which pretty, fine print, oh look, it's even,
+
+1099
+01:08:38.000 --> 01:08:39.000
+<Shaka>suggesting you wearing the Indiga Korta.
+
+1100
+01:08:39.000 --> 01:08:40.000
+<Ben>Yeah.
+
+1101
+01:08:40.000 --> 01:08:41.000
+<Shaka>that's how smart it is.
+
+1102
+01:08:41.000 --> 01:08:44.000
+<Ben>Wow.
+
+1103
+01:08:44.000 --> 01:08:46.000
+<Ben>I've, I've never,
+
+1104
+01:08:46.000 --> 01:08:47.000
+<Shaka>Finding
+
+1105
+01:08:47.000 --> 01:08:51.000
+<Ben>Grok.
+
+1106
+01:08:51.000 --> 01:08:56.000
+<Shaka>him in the. Thank you, thank you Niddy for, for
+
+1107
+01:08:56.000 --> 01:08:57.000
+<Shaka>us borrow your, your father-in-law's Cortes. They, they all belong to
+
+1108
+01:08:57.000 --> 01:09:01.000
+<Ben>Okay.
+
+1109
+01:09:01.000 --> 01:09:02.000
+<Shaka>Devansh's dad, so thank you Devansh and Niddy for providing
+
+1110
+01:09:02.000 --> 01:09:04.000
+<Shaka>for.
+
+1111
+01:09:04.000 --> 01:09:07.000
+<Ben>Oh, yeah.
+
+1112
+01:09:07.000 --> 01:09:11.000
+<Shaka>hours at the World Geocenter and then submitted a hackathon
+
+1113
+01:09:11.000 --> 01:09:12.000
+<Ben>Yours look good,
+
+1114
+01:09:12.000 --> 01:09:13.000
+<Ben>though. You look really, yeah.
+
+1115
+01:09:12.000 --> 01:09:14.000
+<Shaka>Niddy's father-in-law. Yours is the Indigo, man,
+
+1116
+01:09:14.000 --> 01:09:15.000
+<Shaka>the, the Indigo Cortez was.
+
+1117
+01:09:15.000 --> 01:09:16.000
+<Shaka>was.
+
+1118
+01:09:16.000 --> 01:09:20.000
+<Ben>Yeah, but yours, yours really,
+
+1119
+01:09:20.000 --> 01:09:21.000
+<Ben>really, mine was a little bit on the tight side.
+
+1120
+01:09:21.000 --> 01:09:22.000
+<Ben>side.
+
+1121
+01:09:21.000 --> 01:09:29.000
+<Shaka>Yeah.
+
+1122
+01:09:29.000 --> 01:09:33.000
+<Ben>So, so, do I need to do anything, or do I?
+
+1123
+01:09:33.000 --> 01:09:34.000
+<Ben>Yeah.
+
+1124
+01:09:33.000 --> 01:09:38.000
+<Shaka>Yes, sorry I didn't properly answer your question.
+
+1125
+01:09:38.000 --> 01:09:41.000
+<Shaka>So.
+
+1126
+01:09:41.000 --> 01:09:48.000
+<Shaka>I think this is set up.
+
+1127
+01:09:48.000 --> 01:09:53.000
+<Ben>Can you, can you put that link in the, in the chat, please?
+
+1128
+01:09:53.000 --> 01:10:00.000
+<Ben>For the, the site it's, please, for itself, so.
+
+1129
+01:10:00.000 --> 01:10:02.000
+<Shaka (chat)>https://artist.opensourceorchestra.org/#adegbenga
+
+1130
+01:10:02.000 --> 01:10:03.000
+<Ben>Okay.
+
+1131
+01:10:03.000 --> 01:10:06.000
+<Shaka>That's your little profile link. But then this also should have open
+
+1132
+01:10:06.000 --> 01:10:07.000
+<Shaka>source orchestra.
+
+1133
+01:10:06.000 --> 01:10:08.000
+<Ben (chat)>Aweome Mary
+
+1134
+01:10:08.000 --> 01:10:10.000
+<Shaka>org
+
+1135
+01:10:10.000 --> 01:10:11.000
+<Ben>Okay.
+
+1136
+01:10:11.000 --> 01:10:13.000
+<Shaka>slash
+
+1137
+01:10:13.000 --> 01:10:14.000
+<Shaka>how to join
+
+1138
+01:10:14.000 --> 01:10:15.000
+<Shaka (chat)>opensourceorchestra.org/howtojoin
+
+1139
+01:10:15.000 --> 01:10:16.000
+<Ben>Okay.
+
+1140
+01:10:16.000 --> 01:10:20.000
+<Shaka>but you already have a profile.
+
+1141
+01:10:20.000 --> 01:10:24.000
+<Shaka>but what we do need to get you set up with is,
+
+1142
+01:10:24.000 --> 01:10:25.000
+<Shaka>claiming your, claiming your ENS.
+
+1143
+01:10:25.000 --> 01:10:29.000
+<Ben>Yeah.
+
+1144
+01:10:29.000 --> 01:10:30.000
+<Shaka>So as you can see here, Bendigo,
+
+1145
+01:10:30.000 --> 01:10:32.000
+<Ben>Yeah.
+
+1146
+01:10:32.000 --> 01:10:37.000
+<Shaka>bendigo dot osor dot eth, or changing it and getting a new one.
+
+1147
+01:10:37.000 --> 01:10:38.000
+<Shaka>which I think we, you would have to fill out a new profile to do that.
+
+1148
+01:10:38.000 --> 01:10:44.000
+<Ben>Okay.
+
+1149
+01:10:44.000 --> 01:10:47.000
+<Shaka>There is one girl that has two profiles on
+
+1150
+01:10:47.000 --> 01:10:49.000
+<Shaka>to, start a profile.
+
+1151
+01:10:49.000 --> 01:10:52.000
+<Ben>Okay.
+
+1152
+01:10:52.000 --> 01:10:54.000
+<Shaka>let's, let's try, let's try this
+
+1153
+01:10:54.000 --> 01:10:58.000
+<Shaka>new, new,
+
+1154
+01:10:58.000 --> 01:11:00.000
+<Ben>Cause I see profile rider, death connect
+
+1155
+01:11:00.000 --> 01:11:03.000
+<Ben>artist wallet, take out the circle, link to this artist.
+
+1156
+01:11:03.000 --> 01:11:07.000
+<Ben>Student invites. Okay.
+
+1157
+01:11:07.000 --> 01:11:09.000
+<Shaka>How to, how to join is new, actually. So how to join,
+
+1158
+01:11:09.000 --> 01:11:12.000
+<Shaka>profile, I think.
+
+1159
+01:11:12.000 --> 01:11:14.000
+<Ben>It's a beautiful website. Woof.
+
+1160
+01:11:14.000 --> 01:11:18.000
+<Shaka>And, and it, it's actually, oh, thanks
+
+1161
+01:11:18.000 --> 01:11:19.000
+<Shaka>pictures to DevCon 8 and agents. Yeah, it's, it came up, came up.
+
+1162
+01:11:19.000 --> 01:11:20.000
+<Shaka>up.
+
+1163
+01:11:19.000 --> 01:11:22.000
+<Ben>Oh my goodness. Who built this? This is, this is just phenomenal.
+
+1164
+01:11:22.000 --> 01:11:24.000
+<Shaka>This is just a how-to, just a how-to site, right? So.
+
+1165
+01:11:24.000 --> 01:11:27.000
+<Ben>Yeah.
+
+1166
+01:11:27.000 --> 01:11:32.000
+<Shaka>I'm not sure if it go, if it, I just actually made this today,
+
+1167
+01:11:32.000 --> 01:11:37.000
+<Shaka>go through and audit it to make sure that it is a good process and it kind
+
+1168
+01:11:37.000 --> 01:11:38.000
+<Shaka>that probably is, it's like apply to
+
+1169
+01:11:38.000 --> 01:11:43.000
+<Shaka>join, you know, ideally.
+
+1170
+01:11:43.000 --> 01:11:45.000
+<Ben>So this is specific to DEF CON eight, but my profile just lives on.
+
+1171
+01:11:45.000 --> 01:11:46.000
+<Ben>Across
+
+1172
+01:11:46.000 --> 01:11:52.000
+<Ben>what's the name?
+
+1173
+01:11:52.000 --> 01:11:57.000
+<Shaka>Oh, so it's already just
+
+1174
+01:11:57.000 --> 01:11:58.000
+<Shaka>this is amazing. So I didn't even create this Google form, the agents did it.
+
+1175
+01:11:57.000 --> 01:11:59.000
+<Shaka>it.
+
+1176
+01:11:59.000 --> 01:12:02.000
+<Ben>Okay, so.
+
+1177
+01:12:02.000 --> 01:12:07.000
+<Shaka>Road to Lisbon Google form is already
+
+1178
+01:12:07.000 --> 01:12:09.000
+<Shaka>live. Look at that. Amazing. Thank you, Ohana. Okay, so the Google form
+
+1179
+01:12:09.000 --> 01:12:10.000
+<Shaka>someone is in the Google form,
+
+1180
+01:12:10.000 --> 01:12:14.000
+<Ben>Yeah.
+
+1181
+01:12:14.000 --> 01:12:16.000
+<Shaka>then, then my agents, are actually
+
+1182
+01:12:16.000 --> 01:12:19.000
+<Ben>Okay.
+
+1183
+01:12:19.000 --> 01:12:24.000
+<Shaka>that's why I named one of the agents
+
+1184
+01:12:24.000 --> 01:12:27.000
+<Shaka>Googly Eye, cause like I actually, I'm not afraid to like synchronize
+
+1185
+01:12:27.000 --> 01:12:29.000
+<Ben>Yeah.
+
+1186
+01:12:29.000 --> 01:12:34.000
+<Shaka>Google with, with X, with Cloud subscription, you know, I think it actually makes it more
+
+1187
+01:12:34.000 --> 01:12:39.000
+<Shaka>yourself this diverse decentralized capability, but then like
+
+1188
+01:12:39.000 --> 01:12:41.000
+<Shaka>have the open source, repos that are kinda like your, your
+
+1189
+01:12:41.000 --> 01:12:44.000
+<Ben>Yeah.
+
+1190
+01:12:44.000 --> 01:12:49.000
+<Shaka>important private stuff stays private because you're playing
+
+1191
+01:12:49.000 --> 01:12:51.000
+<Shaka>for these accounts and their security, and then, so those accounts being like the
+
+1192
+01:12:51.000 --> 01:12:54.000
+<Ben>Yeah.
+
+1193
+01:12:54.000 --> 01:12:57.000
+<Shaka>the Google premium, the Google accounts, and then,
+
+1194
+01:12:57.000 --> 01:12:58.000
+<Shaka>once, once you're, you're
+
+1195
+01:12:58.000 --> 01:13:02.000
+<Ben>So, so quick question, do I need to apply to join again?
+
+1196
+01:13:02.000 --> 01:13:04.000
+<Shaka>not necessarily, because what I was
+
+1197
+01:13:04.000 --> 01:13:05.000
+<Shaka>already in the Google form from DEF CON 8.
+
+1198
+01:13:05.000 --> 01:13:09.000
+<Ben>Yeah.
+
+1199
+01:13:09.000 --> 01:13:11.000
+<Shaka>And actually, this was all
+
+1200
+01:13:11.000 --> 01:13:14.000
+<Ben>Okay.
+
+1201
+01:13:14.000 --> 01:13:17.000
+<Shaka>Google form. And actually, a lot of, a lot of what my agents have been doing,
+
+1202
+01:13:17.000 --> 01:13:19.000
+<Ben>Okay.
+
+1203
+01:13:19.000 --> 01:13:24.000
+<Shaka>off of like Google forms and Google, Google
+
+1204
+01:13:24.000 --> 01:13:25.000
+<Ben>Yeah.
+
+1205
+01:13:25.000 --> 01:13:27.000
+<Shaka>like the content, for everything, you know, DEF CON
+
+1206
+01:13:27.000 --> 01:13:29.000
+<Shaka>content for where these photo, photos are shuffling from.
+
+1207
+01:13:29.000 --> 01:13:30.000
+<Shaka>It's a Google drive.
+
+1208
+01:13:30.000 --> 01:13:34.000
+<Ben>Okay.
+
+1209
+01:13:34.000 --> 01:13:39.000
+<Shaka>yeah, open source
+
+1210
+01:13:39.000 --> 01:13:44.000
+<Shaka>centralized googly eyes. I think it's okay. You
+
+1211
+01:13:44.000 --> 01:13:49.000
+<Shaka>know, we're focusing on the open source side of things that I think actually you're going to start
+
+1212
+01:13:49.000 --> 01:13:53.000
+<Shaka>movement where Google and Apple and, and Twitter or X are going to be doing
+
+1213
+01:13:53.000 --> 01:13:54.000
+<Ben>Yeah.
+
+1214
+01:13:54.000 --> 01:13:57.000
+<Shaka>us because that's what's actually
+
+1215
+01:13:57.000 --> 01:13:59.000
+<Shaka>really fluent for agents. agents are able to do things really quickly with open source repos.
+
+1216
+01:13:59.000 --> 01:14:01.000
+<Shaka>And,
+
+1217
+01:14:01.000 --> 01:14:02.000
+<Shaka>I think that
+
+1218
+01:14:01.000 --> 01:14:06.000
+<Shaka>.
+
+1219
+01:14:06.000 --> 01:14:11.000
+<Shaka>So with that, you can even just email me,
+
+1220
+01:14:11.000 --> 01:14:13.000
+<Shaka>agents already know you, as you can see, and ask for any change, even like ask my
+
+1221
+01:14:13.000 --> 01:14:16.000
+<Ben>Okay.
+
+1222
+01:14:16.000 --> 01:14:17.000
+<Shaka>say, please make this change, so it
+
+1223
+01:14:16.000 --> 01:14:21.000
+<Ben>Yeah.
+
+1224
+01:14:21.000 --> 01:14:26.000
+<Shaka>can be Aloha, SHAKA LEI KAUMAKA, or my agent
+
+1225
+01:14:26.000 --> 01:14:27.000
+<Shaka>Ohana dot com, so just, you can email me, email me, you know, and, and
+
+1226
+01:14:26.000 --> 01:14:31.000
+<Ben>Okay.
+
+1227
+01:14:31.000 --> 01:14:36.000
+<Shaka>agents see it, and then, we, we've been making those integrations
+
+1228
+01:14:36.000 --> 01:14:40.000
+<Shaka>directly. we can get to the point where people are making PRs, and then, you know, eventually, like,
+
+1229
+01:14:40.000 --> 01:14:41.000
+<Ben>Yeah.
+
+1230
+01:14:41.000 --> 01:14:46.000
+<Shaka>maybe it ha, it gets so fluent, where actually agents,
+
+1231
+01:14:46.000 --> 01:14:48.000
+<Shaka>are, are, I'll give them more autonomy and I, and trust, because I've given them a lot of
+
+1232
+01:14:48.000 --> 01:14:51.000
+<Ben>Okay.
+
+1233
+01:14:51.000 --> 01:14:54.000
+<Shaka>already, that I'll just let them autonomously start responding to people. That would be the dream if we just
+
+1234
+01:14:54.000 --> 01:14:56.000
+<Ben>Yeah.
+
+1235
+01:14:56.000 --> 01:15:01.000
+<Shaka>the world wanting to play in the orchestra, and then I have
+
+1236
+01:15:01.000 --> 01:15:03.000
+<Shaka>some local models running, so I'm not paying for the inference, and then just connect those local
+
+1237
+01:15:03.000 --> 01:15:06.000
+<Ben>Yeah.
+
+1238
+01:15:06.000 --> 01:15:11.000
+<Shaka>models with the open source orchestra bridge, that people can talk to those agents anytime,
+
+1239
+01:15:11.000 --> 01:15:15.000
+<Shaka>and ask questions about open source orchestra and how to participate. So, yeah, definitely improving and working, and would love for you
+
+1240
+01:15:15.000 --> 01:15:17.000
+<Shaka>to just, like, try and set things up and go through the website, so then if it doesn't work, then we can.
+
+1241
+01:15:17.000 --> 01:15:22.000
+<Shaka>Fix it.
+
+1242
+01:15:22.000 --> 01:15:26.000
+<Ben>Okay, okay, all right, no worries.
+
+1243
+01:15:26.000 --> 01:15:27.000
+<Ben>updating, I'll let you know. I've got a shoot off, but keep up the good work.
+
+1244
+01:15:27.000 --> 01:15:32.000
+<Ben>know, you,
+
+1245
+01:15:32.000 --> 01:15:37.000
+<Ben>you're an inspiration to all of us. You, you're the,
+
+1246
+01:15:37.000 --> 01:15:42.000
+<Ben>you're the sun. You're the sun in our solar system, so I'm always
+
+1247
+01:15:42.000 --> 01:15:47.000
+<Ben>excited to meet up with you and, and, share ideas and, and brother, let's, let's,
+
+1248
+01:15:47.000 --> 01:15:52.000
+<Ben>2027 the year, you know, we, we, we gotta put our mark on that where.
+
+1249
+01:15:52.000 --> 01:15:55.000
+<Ben>I tell you what, if we can make 2027 the
+
+1250
+01:15:55.000 --> 01:15:59.000
+<Ben>for 2028 will just be sky high.
+
+1251
+01:15:59.000 --> 01:16:04.000
+<Ben>In fact, almost create a divide where people are coming.
+
+1252
+01:16:04.000 --> 01:16:08.000
+<Ben>to DEFCON or coming to ETH Global,
+
+1253
+01:16:08.000 --> 01:16:13.000
+<Ben>mainly for the Open Source Orchestra, because I can tell you what, what we did in Mumbai.
+
+1254
+01:16:13.000 --> 01:16:18.000
+<Ben>The reverberations, I, you know, I spoke to a lot of people
+
+1255
+01:16:18.000 --> 01:16:23.000
+<Ben>are just like, wow,
+
+1256
+01:16:23.000 --> 01:16:28.000
+<Ben>the setting and the stage and the music and the community, and they're like, how did you guys put all this together? I
+
+1257
+01:16:28.000 --> 01:16:33.000
+<Ben>like the likes of the likes of Shaka and Vivekananda, Dev, and, you
+
+1258
+01:16:33.000 --> 01:16:38.000
+<Ben>Levi and Sonia and everybody, you know, people just came together
+
+1259
+01:16:38.000 --> 01:16:43.000
+<Ben>how we came up. And they're like, oh, it was amazing.
+
+1260
+01:16:43.000 --> 01:16:46.000
+<Ben>And you, you could see how so many people wanted to just come in and get involved. In
+
+1261
+01:16:46.000 --> 01:16:50.000
+<Ben>fact, I think the bulk of our time was random people just turning up.
+
+1262
+01:16:50.000 --> 01:16:55.000
+<Ben>Just trying to get involved, trying to sing, random people.
+
+1263
+01:16:55.000 --> 01:16:58.000
+<Ben>know, so I, I think it was,
+
+1264
+01:16:58.000 --> 01:17:02.000
+<Ben>really good. I, I, I really had fun. I had a lot of fun.
+
+1265
+01:17:02.000 --> 01:17:06.000
+<Shaka>Yeah, you know it takes.
+
+1266
+01:17:06.000 --> 01:17:08.000
+<Shaka>It takes stewardship.
+
+1267
+01:17:08.000 --> 01:17:09.000
+<Shaka>And
+
+1268
+01:17:08.000 --> 01:17:13.000
+<Ben>Yeah.
+
+1269
+01:17:13.000 --> 01:17:14.000
+<Shaka>I've had a lot of growth and some hedging of bad habits
+
+1270
+01:17:14.000 --> 01:17:15.000
+<Shaka>that I've had to cut off and
+
+1271
+01:17:15.000 --> 01:17:20.000
+<Shaka>you know, I'm, I think I'm
+
+1272
+01:17:20.000 --> 01:17:25.000
+<Shaka>not necessarily a son, I'm more of like a moon that I reflect the sun.
+
+1273
+01:17:25.000 --> 01:17:30.000
+<Shaka>And there is a dark side of the moon that occasionally
+
+1274
+01:17:30.000 --> 01:17:35.000
+<Shaka>run dry on the energy, but that's why what really gives this thing life is like
+
+1275
+01:17:35.000 --> 01:17:40.000
+<Shaka>guys like you singing by my side. I always love you singing and
+
+1276
+01:17:40.000 --> 01:17:45.000
+<Shaka>harmonizing and your, your creativity and coming up with lyrics,
+
+1277
+01:17:45.000 --> 01:17:46.000
+<Shaka>on, on the spot, it's gonna keep growing. And I think your songwriting is
+
+1278
+01:17:46.000 --> 01:17:50.000
+<Ben>Yeah.
+
+1279
+01:17:50.000 --> 01:17:53.000
+<Shaka>gonna keep growing. why? Because I've really seen myself as an artist keep growing,
+
+1280
+01:17:53.000 --> 01:17:57.000
+<Shaka>growing. one of my early guitar teachers taught me like
+
+1281
+01:17:57.000 --> 01:17:59.000
+<Shaka>as a musician, you never arrive.
+
+1282
+01:17:59.000 --> 01:18:02.000
+<Ben>Yeah, yeah, yeah.
+
+1283
+01:18:02.000 --> 01:18:07.000
+<Shaka>So the open source orchestra will never arrive.
+
+1284
+01:18:07.000 --> 01:18:09.000
+<Shaka>We will, we will be, we will, we will be alive and
+
+1285
+01:18:09.000 --> 01:18:10.000
+<Shaka>can and that will welcome us.
+
+1286
+01:18:10.000 --> 01:18:14.000
+<Ben>Yeah.
+
+1287
+01:18:14.000 --> 01:18:16.000
+<Shaka>But as, as far as like
+
+1288
+01:18:16.000 --> 01:18:19.000
+<Ben>Yeah.
+
+1289
+01:18:19.000 --> 01:18:20.000
+<Shaka>never arrive. It will, it will always grow, grow
+
+1290
+01:18:20.000 --> 01:18:23.000
+<Shaka>and grow and grow and grow like an infinite.
+
+1291
+01:18:23.000 --> 01:18:28.000
+<Ben>I, I, I truly believe that the open source orchestra is
+
+1292
+01:18:28.000 --> 01:18:30.000
+<Ben>Ethereum's big chance to become global because, you know, like I said
+
+1293
+01:18:30.000 --> 01:18:33.000
+<Ben>not looking great. It's
+
+1294
+01:18:33.000 --> 01:18:34.000
+<Ben>it's, it's not, I won't say it's depressing.
+
+1295
+01:18:34.000 --> 01:18:35.000
+<Ben>depressing.
+
+1296
+01:18:35.000 --> 01:18:41.000
+<Ben>But it's just
+
+1297
+01:18:41.000 --> 01:18:43.000
+<Ben>it, it just left a lot of people
+
+1298
+01:18:43.000 --> 01:18:46.000
+<Ben>just really, really confused about what Ethereum is trying to do. Justin Drake did a massive talk.
+
+1299
+01:18:46.000 --> 01:18:50.000
+<Ben>And, you know, some of the things he mentioned, which
+
+1300
+01:18:50.000 --> 01:18:54.000
+<Ben>they're working really hard behind the scenes, really just
+
+1301
+01:18:54.000 --> 01:18:55.000
+<Ben>just made a lot of people like, I'm not getting involved in Ethereum.
+
+1302
+01:18:55.000 --> 01:19:01.000
+<Ben>know, so.
+
+1303
+01:19:01.000 --> 01:19:06.000
+<Ben>I, I, I see, I, I'm very passionate about how could we, not
+
+1304
+01:19:06.000 --> 01:19:07.000
+<Ben>make blockchain decentralization global? And I think music
+
+1305
+01:19:07.000 --> 01:19:08.000
+<Ben>is probably the last bastion.
+
+1306
+01:19:07.000 --> 01:19:12.000
+<Ben>bastion.
+
+1307
+01:19:12.000 --> 01:19:15.000
+<Ben>to make it global. Just even just basically sites like Spotify
+
+1308
+01:19:15.000 --> 01:19:20.000
+<Ben>and Tidal are all centralized. And the average artist.
+
+1309
+01:19:20.000 --> 01:19:25.000
+<Ben>You get pennies, I mean, to even just, you, you, even on, even, even
+
+1310
+01:19:25.000 --> 01:19:26.000
+<Ben>think I, I calculate on the billion streams, you're not getting more than at least ten thousand pounds.
+
+1311
+01:19:26.000 --> 01:19:27.000
+<Ben>pounds.
+
+1312
+01:19:27.000 --> 01:19:33.000
+<Ben>For billion streams.
+
+1313
+01:19:33.000 --> 01:19:37.000
+<Ben>That's all it is. YouTube is probably the same. So, so you could just imagine.
+
+1314
+01:19:37.000 --> 01:19:40.000
+<Ben>billion people have downloaded your music, even at 10p.
+
+1315
+01:19:40.000 --> 01:19:42.000
+<Ben>Per person, it should be at least 100 million.
+
+1316
+01:19:42.000 --> 01:19:47.000
+<Ben>But no.
+
+1317
+01:19:47.000 --> 01:19:49.000
+<Ben>So, we, we have a lot of opportunities to disrupt, not
+
+1318
+01:19:49.000 --> 01:19:50.000
+<Ben>the music, but in terms of the technology.
+
+1319
+01:19:50.000 --> 01:19:54.000
+<Ben>technology.
+
+1320
+01:19:54.000 --> 01:19:59.000
+<Ben>You know, we, we can have, you know, different, different arms
+
+1321
+01:19:59.000 --> 01:20:02.000
+<Ben>music annex, the technology access, the DAO, the community,
+
+1322
+01:20:02.000 --> 01:20:03.000
+<Ben>and, you know, all functioning together. It's a real, real force for good.
+
+1323
+01:20:03.000 --> 01:20:08.000
+<Ben>good.
+
+1324
+01:20:08.000 --> 01:20:12.000
+<Shaka>Yeah, there's a, there's a video, that
+
+1325
+01:20:12.000 --> 01:20:18.000
+<Shaka>I helped record at Esmeralda that I'm just thinking of right now.
+
+1326
+01:20:18.000 --> 01:20:21.000
+<Shaka>with Janine from Edge City, where
+
+1327
+01:20:21.000 --> 01:20:24.000
+<Shaka>she talks about, like, the value and how sometimes the value is different. So, like,
+
+1328
+01:20:24.000 --> 01:20:29.000
+<Shaka>many times because the open source orchestra hasn't been funded,
+
+1329
+01:20:29.000 --> 01:20:31.000
+<Shaka>I've gone through phases with my own weakness.
+
+1330
+01:20:31.000 --> 01:20:34.000
+<Ben>You done well.
+
+1331
+01:20:34.000 --> 01:20:36.000
+<Shaka>And then also, I've, I've received a lot of people's feedback that
+
+1332
+01:20:36.000 --> 01:20:41.000
+<Shaka>that,
+
+1333
+01:20:41.000 --> 01:20:43.000
+<Shaka>you know, like, where is the value of the
+
+1334
+01:20:43.000 --> 01:20:44.000
+<Shaka>orchestra? And the value, it is valued.
+
+1335
+01:20:44.000 --> 01:20:48.000
+<Ben>Yeah.
+
+1336
+01:20:48.000 --> 01:20:51.000
+<Shaka>And, and the, the value, the value much, the value is very much
+
+1337
+01:20:51.000 --> 01:20:55.000
+<Shaka>there in, in a whole bunch of different ways. So like,
+
+1338
+01:20:55.000 --> 01:21:00.000
+<Shaka>the room that the DevCon team allowed us to
+
+1339
+01:21:00.000 --> 01:21:02.000
+<Shaka>doing that for us and being a part of the gift
+
+1340
+01:21:02.000 --> 01:21:03.000
+<Shaka>with us is way more valuable than them paying for, paying us.
+
+1341
+01:21:02.000 --> 01:21:04.000
+<Shaka>us.
+
+1342
+01:21:04.000 --> 01:21:06.000
+<Ben>Yeah, yeah, too.
+
+1343
+01:21:06.000 --> 01:21:11.000
+<Shaka>And, and also, I think the
+
+1344
+01:21:11.000 --> 01:21:16.000
+<Shaka>value, the value that we hold
+
+1345
+01:21:16.000 --> 01:21:17.000
+<Shaka>true of, like, licensing with open source,
+
+1346
+01:21:17.000 --> 01:21:18.000
+<Ben>Yeah.
+
+1347
+01:21:17.000 --> 01:21:23.000
+<Shaka>copyleft narratives, and then,
+
+1348
+01:21:23.000 --> 01:21:24.000
+<Shaka>holding the values of Ethereum on the forefront of what we
+
+1349
+01:21:23.000 --> 01:21:28.000
+<Ben>Yeah.
+
+1350
+01:21:28.000 --> 01:21:30.000
+<Shaka>orchestra and as artists, that's, that's where we really
+
+1351
+01:21:30.000 --> 01:21:31.000
+<Ben>Yeah.
+
+1352
+01:21:31.000 --> 01:21:34.000
+<Shaka>true, is not that we're there to extract value, we're there to
+
+1353
+01:21:34.000 --> 01:21:35.000
+<Shaka>uphold the values of Ethereum.
+
+1354
+01:21:34.000 --> 01:21:39.000
+<Ben>Yeah.
+
+1355
+01:21:39.000 --> 01:21:44.000
+<Shaka>And the transparent side of,
+
+1356
+01:21:44.000 --> 01:21:49.000
+<Shaka>of, of how, we go out and find funding, I think that I will go out and
+
+1357
+01:21:49.000 --> 01:21:51.000
+<Shaka>find funding, for both the orchestra and, you know, in a transparent way, like start saying, hey,
+
+1358
+01:21:51.000 --> 01:21:54.000
+<Ben>Yeah.
+
+1359
+01:21:54.000 --> 01:21:56.000
+<Shaka>for myself and, and to feed my agents. You know, I'm not a
+
+1360
+01:21:56.000 --> 01:21:59.000
+<Ben>Yeah.
+
+1361
+01:21:59.000 --> 01:22:04.000
+<Shaka>father, but I am an agent smith, and I do burn my subscription quite regularly. That, but that's
+
+1362
+01:22:04.000 --> 01:22:09.000
+<Shaka>Grok, Grok on board with the Ohana too. it's
+
+1363
+01:22:09.000 --> 01:22:12.000
+<Shaka>subscription, a cloud subscription, and then I still burn those, and then I want to pay
+
+1364
+01:22:12.000 --> 01:22:14.000
+<Ben>Yeah.
+
+1365
+01:22:14.000 --> 01:22:16.000
+<Shaka>for, inference, cause I like, I love Kimi 3, you know, so
+
+1366
+01:22:16.000 --> 01:22:18.000
+<Shaka>we'll be able to do some of these things more locally.
+
+1367
+01:22:18.000 --> 01:22:21.000
+<Ben>Yeah.
+
+1368
+01:22:21.000 --> 01:22:26.000
+<Shaka>yeah, it's the thing that's
+
+1369
+01:22:26.000 --> 01:22:30.000
+<Shaka>most important is that the, the values are what really we're trying to paint the picture of and create this,
+
+1370
+01:22:30.000 --> 01:22:35.000
+<Shaka>this dream that actually is already a reality.
+
+1371
+01:22:35.000 --> 01:22:39.000
+<Ben>Yeah. And you, and you see like, I think
+
+1372
+01:22:39.000 --> 01:22:44.000
+<Ben>local people involved in Mumbai taught me, cause we, we didn't really have that in Bangkok.
+
+1373
+01:22:44.000 --> 01:22:45.000
+<Shaka>Which is
+
+1374
+01:22:44.000 --> 01:22:49.000
+<Ben>Like, it's my memory from Bangkok, we didn't get a lot of local
+
+1375
+01:22:49.000 --> 01:22:53.000
+<Ben>people. But I think just tapping into the local scene, it, it
+
+1376
+01:22:53.000 --> 01:22:58.000
+<Ben>really gives that good cultural blend, that natural blend of
+
+1377
+01:22:58.000 --> 01:23:03.000
+<Ben>globalness that we're really trying to push,
+
+1378
+01:23:03.000 --> 01:23:08.000
+<Ben>shows our ability to, you
+
+1379
+01:23:08.000 --> 01:23:10.000
+<Ben>know, adapt. Like, obviously, you know, going to France, going to Japan, it's just gonna be
+
+1380
+01:23:10.000 --> 01:23:12.000
+<Ben>Portugal, and getting local people involved.
+
+1381
+01:23:12.000 --> 01:23:15.000
+<Shaka>Joo
+
+1382
+01:23:15.000 --> 01:23:20.000
+<Ben>Kind of leaves that presence for, it, it leaves that, that
+
+1383
+01:23:20.000 --> 01:23:23.000
+<Ben>mouthwatering for the next one. You know, for the next, the next one, like, okay, the next one, what's, what's
+
+1384
+01:23:23.000 --> 01:23:25.000
+<Shaka>How are you
+
+1385
+01:23:25.000 --> 01:23:27.000
+<Ben>board? I, I'm just excited for next
+
+1386
+01:23:27.000 --> 01:23:30.000
+<Shaka>Seven
+
+1387
+01:23:30.000 --> 01:23:35.000
+<Ben>year. I, I, I love Japan. I, I have family in Japan. I've been to Japan
+
+1388
+01:23:35.000 --> 01:23:37.000
+<Ben>is my most traveled country in the world. I've
+
+1389
+01:23:37.000 --> 01:23:38.000
+<Shaka>Oh amazing.
+
+1390
+01:23:38.000 --> 01:23:42.000
+<Ben>been to Japan 11 times. Yeah.
+
+1391
+01:23:42.000 --> 01:23:43.000
+<Shaka>Well I think, then we, then we already have a
+
+1392
+01:23:43.000 --> 01:23:47.000
+<Ben>Oh yeah, I go to go to Japan.
+
+1393
+01:23:47.000 --> 01:23:52.000
+<Shaka>team of three for East Global. If, if you could actually, he might, he might, I, I'll, I'll let him
+
+1394
+01:23:52.000 --> 01:23:53.000
+<Shaka>actually his father will be Akimayuki. He's a 15 year old
+
+1395
+01:23:53.000 --> 01:23:57.000
+<Ben>Yeah, I wanna, I, I, I missed out on meeting Yuki.
+
+1396
+01:23:57.000 --> 01:23:58.000
+<Shaka>Tokyo. Hopefully he'll, he'll definitely be
+
+1397
+01:23:57.000 --> 01:24:02.000
+<Ben>Yeah, yeah.
+
+1398
+01:24:02.000 --> 01:24:07.000
+<Shaka>brothers want to go to Tokyo from, from Mumbai or
+
+1399
+01:24:07.000 --> 01:24:12.000
+<Shaka>That's also I think a big reason why Yuki
+
+1400
+01:24:12.000 --> 01:24:13.000
+<Shaka>joined our team cause one of the, one of the 19 year old kids in from India on
+
+1401
+01:24:13.000 --> 01:24:17.000
+<Ben>Yeah.
+
+1402
+01:24:17.000 --> 01:24:19.000
+<Shaka>was always able to really talk to Yuki and,
+
+1403
+01:24:19.000 --> 01:24:20.000
+<Ben>Yeah.
+
+1404
+01:24:20.000 --> 01:24:24.000
+<Shaka>well as continuing to grow on Ethereum and
+
+1405
+01:24:24.000 --> 01:24:25.000
+<Shaka>think that yeah, it's a lot of wisdom that we can bring to
+
+1406
+01:24:24.000 --> 01:24:28.000
+<Ben>Yeah.
+
+1407
+01:24:28.000 --> 01:24:31.000
+<Shaka>, young kids in using music to inspire it and then,
+
+1408
+01:24:31.000 --> 01:24:36.000
+<Shaka>using the music,
+
+1409
+01:24:36.000 --> 01:24:38.000
+<Ben>Yeah.
+
+1410
+01:24:38.000 --> 01:24:41.000
+<Shaka>you know, the music as, as, as the
+
+1411
+01:24:41.000 --> 01:24:42.000
+<Shaka>hardest, you know, and the orchestrator.
+
+1412
+01:24:41.000 --> 01:24:48.000
+<Ben>Yeah.
+
+1413
+01:24:48.000 --> 01:24:53.000
+<Shaka>Is when, the orchestrator already is kind
+
+1414
+01:24:53.000 --> 01:24:58.000
+<Shaka>ethos and the values and the things that like hold
+
+1415
+01:24:58.000 --> 01:25:03.000
+<Shaka>us true and then the venue that's, you know, Ethereum is usually hosting thus far. So
+
+1416
+01:25:03.000 --> 01:25:05.000
+<Shaka>becomes more diverse, you know, this will be a great place for us to
+
+1417
+01:25:05.000 --> 01:25:07.000
+<Ben>Yeah.
+
+1418
+01:25:07.000 --> 01:25:08.000
+<Ben>Yes, yeah.
+
+1419
+01:25:08.000 --> 01:25:13.000
+<Shaka>of Ethereum and then bring it to places
+
+1420
+01:25:13.000 --> 01:25:18.000
+<Shaka>like high schools and bring it to, to bring it to the malls, you know, playing in open public venues
+
+1421
+01:25:18.000 --> 01:25:19.000
+<Shaka>as well as, the conference venues as well as, world class music
+
+1422
+01:25:18.000 --> 01:25:19.000
+<Ben>Yeah.
+
+1423
+01:25:19.000 --> 01:25:20.000
+<Ben>Yeah, yeah, absolutely.
+
+1424
+01:25:20.000 --> 01:25:25.000
+<Shaka>theaters and hopefully someday Red Rocks, you know.
+
+1425
+01:25:25.000 --> 01:25:30.000
+<Ben>Absolutely. Yeah, like, like my city, I'm trying to really
+
+1426
+01:25:30.000 --> 01:25:35.000
+<Ben>make myself the go-to guy for Web3 across
+
+1427
+01:25:35.000 --> 01:25:40.000
+<Ben>the city for the whole year, just between you and I. I was, I was actually thinking of relocating and leaving.
+
+1428
+01:25:40.000 --> 01:25:42.000
+<Ben>But after Mumbai and just talking to a lot of people, I've, you know, I've kept in touch with a lot of
+
+1429
+01:25:42.000 --> 01:25:47.000
+<Ben>good contacts since then.
+
+1430
+01:25:47.000 --> 01:25:52.000
+<Ben>And I just got really passionate again about, it kind of
+
+1431
+01:25:52.000 --> 01:25:57.000
+<Ben>love again, you know, not just for the music, but for Web3. Cause I was, like,
+
+1432
+01:25:57.000 --> 01:26:02.000
+<Ben>disillusioned after Bangkok. I was just like, and that's why
+
+1433
+01:26:02.000 --> 01:26:04.000
+<Ben>That's why I didn't go to any major events after that, because I, I, I
+
+1434
+01:26:04.000 --> 01:26:05.000
+<Ben>wasn't sure of the roadmap. But
+
+1435
+01:26:04.000 --> 01:26:05.000
+<Ben>this
+
+1436
+01:26:05.000 --> 01:26:06.000
+<Shaka>Sorry, name, what, what's the name of your hometown again?
+
+1437
+01:26:06.000 --> 01:26:09.000
+<Ben>leads
+
+1438
+01:26:09.000 --> 01:26:10.000
+<Ben>Let's, let's just, yeah.
+
+1439
+01:26:10.000 --> 01:26:14.000
+<Shaka>Leeds. dude, you should, you should do, you should do Zoo Leeds.
+
+1440
+01:26:14.000 --> 01:26:16.000
+<Ben>Well, let's, Leicester's my hometown, but yeah, definitely,
+
+1441
+01:26:16.000 --> 01:26:17.000
+<Ben>absolutely.
+
+1442
+01:26:16.000 --> 01:26:20.000
+<Ben>absolutely.
+
+1443
+01:26:20.000 --> 01:26:23.000
+<Shaka>Start Zoo Leeds, you know, you can do it in your own backyard, you can
+
+1444
+01:26:23.000 --> 01:26:25.000
+<Ben>Okay.
+
+1445
+01:26:25.000 --> 01:26:30.000
+<Shaka>living room. You don't have to have a hotel rental pop-up city to
+
+1446
+01:26:30.000 --> 01:26:33.000
+<Shaka>host a Zoo Leeds. No, just start Zoo Leeds. What, what gets Zoo Leeds going is you
+
+1447
+01:26:33.000 --> 01:26:35.000
+<Ben>Okay.
+
+1448
+01:26:35.000 --> 01:26:40.000
+<Shaka>get the website running. you know, I would even help you build it if you wanted, you know, but you can, you know, so just
+
+1449
+01:26:40.000 --> 01:26:44.000
+<Shaka>Leeds, you know, get the org up and running, and then, and then you
+
+1450
+01:26:44.000 --> 01:26:45.000
+<Ben>Yeah.
+
+1451
+01:26:45.000 --> 01:26:50.000
+<Shaka>regular meeting, and then you're publishing on social media, media, and
+
+1452
+01:26:50.000 --> 01:26:54.000
+<Shaka>contacts that already built starts building your archive,
+
+1453
+01:26:54.000 --> 01:26:55.000
+<Ben>Yeah.
+
+1454
+01:26:55.000 --> 01:27:00.000
+<Shaka>every city has its archive, and then we're connecting all the archives, and then you're already a
+
+1455
+01:27:00.000 --> 01:27:05.000
+<Shaka>part of the notes because you helped put on the Zoo Zone, at DEFCON.
+
+1456
+01:27:05.000 --> 01:27:10.000
+<Shaka>So, you know, it's a great foot in the door that you already have that you can just be a part of the
+
+1457
+01:27:10.000 --> 01:27:15.000
+<Shaka>together a Zoo Zalu town hall, or a
+
+1458
+01:27:15.000 --> 01:27:16.000
+<Shaka>town hall. I like calling it Zoo's one because, you know,
+
+1459
+01:27:16.000 --> 01:27:20.000
+<Ben>Yeah.
+
+1460
+01:27:20.000 --> 01:27:25.000
+<Shaka>it's one community in my mind, not Zoo Zone, you know, so like Zoo's one,
+
+1461
+01:27:25.000 --> 01:27:27.000
+<Shaka>one community because Zoo Zalu is everywhere and nowhere. It's
+
+1462
+01:27:27.000 --> 01:27:30.000
+<Ben>Okay.
+
+1463
+01:27:30.000 --> 01:27:35.000
+<Shaka>host it in their own city. You don't have to pop up a city, you know, you can
+
+1464
+01:27:35.000 --> 01:27:37.000
+<Shaka>do it in your backyard. And, you know, places like Four Seas feel like your own backyard,
+
+1465
+01:27:37.000 --> 01:27:39.000
+<Shaka>right? But this is, this is, this is Zoo Chiang Mai.
+
+1466
+01:27:39.000 --> 01:27:40.000
+<Ben>Yeah.
+
+1467
+01:27:39.000 --> 01:27:44.000
+<Shaka>You know, it's, it's
+
+1468
+01:27:44.000 --> 01:27:49.000
+<Shaka>between you and I, and I'm putting out there early, but it's
+
+1469
+01:27:49.000 --> 01:27:51.000
+<Shaka>rebranding to Zoo Chiang Mai. And, you know, so the zoo, the
+
+1470
+01:27:51.000 --> 01:27:54.000
+<Shaka>there is, there is
+
+1471
+01:27:54.000 --> 01:27:55.000
+<Shaka>forces with zoo and you.
+
+1472
+01:27:54.000 --> 01:27:55.000
+<Ben>Yeah.
+
+1473
+01:27:55.000 --> 01:28:00.000
+<Shaka>Mr.
+
+1474
+01:28:00.000 --> 01:28:01.000
+<Ben>Yeah, absolutely, and thanks, thanks for
+
+1475
+01:28:01.000 --> 01:28:05.000
+<Ben>persistence and resilience. it's not easy to,
+
+1476
+01:28:05.000 --> 01:28:10.000
+<Ben>to carry on year after year, you know, with
+
+1477
+01:28:10.000 --> 01:28:11.000
+<Ben>you know, costs and everything hanging
+
+1478
+01:28:11.000 --> 01:28:16.000
+<Ben>travel, it's not easy.
+
+1479
+01:28:16.000 --> 01:28:21.000
+<Ben>know I, I try
+
+1480
+01:28:21.000 --> 01:28:22.000
+<Ben>traveling around, and it's, you know, it's, it's, it's not easy, but it takes a particular kind of person.
+
+1481
+01:28:21.000 --> 01:28:23.000
+<Ben>person.
+
+1482
+01:28:23.000 --> 01:28:27.000
+<Ben>But
+
+1483
+01:28:27.000 --> 01:28:31.000
+<Shaka>Well it's funny it's funny cause like what popped in my head
+
+1484
+01:28:31.000 --> 01:28:32.000
+<Ben>yeah.
+
+1485
+01:28:32.000 --> 01:28:37.000
+<Shaka>is you're saying it's not easy well well Ethereum is a speakeasy you
+
+1486
+01:28:37.000 --> 01:28:42.000
+<Shaka>even like maybe like I actually love Justin
+
+1487
+01:28:42.000 --> 01:28:43.000
+<Shaka>fist bump I love how Vitalik was wearing like
+
+1488
+01:28:43.000 --> 01:28:47.000
+<Ben>Yeah.
+
+1489
+01:28:47.000 --> 01:28:49.000
+<Shaka>an orgor smiley face meme meme outfit you
+
+1490
+01:28:49.000 --> 01:28:50.000
+<Ben>Yeah.
+
+1491
+01:28:50.000 --> 01:28:55.000
+<Shaka>of Ethereum but then that's that's also what we can do
+
+1492
+01:28:55.000 --> 01:28:56.000
+<Shaka>to help the culture in
+
+1493
+01:28:55.000 --> 01:28:59.000
+<Ben>Yeah, yeah, yeah.
+
+1494
+01:28:59.000 --> 01:29:00.000
+<Shaka>tension because we know how to resolve it right so like
+
+1495
+01:29:00.000 --> 01:29:04.000
+<Ben>Yes, yeah.
+
+1496
+01:29:04.000 --> 01:29:08.000
+<Shaka>Ethereum is a
+
+1497
+01:29:08.000 --> 01:29:09.000
+<Ben>Yeah.
+
+1498
+01:29:09.000 --> 01:29:14.000
+<Shaka>speakeasy that everyone should be re easy it should be easy to speak your
+
+1499
+01:29:14.000 --> 01:29:19.000
+<Shaka>opinions and often times the loudest person in the room is
+
+1500
+01:29:19.000 --> 01:29:20.000
+<Shaka>maker but I think like the vibe
+
+1501
+01:29:20.000 --> 01:29:24.000
+<Ben>Yeah.
+
+1502
+01:29:24.000 --> 01:29:29.000
+<Shaka>maker has always been the music so that's why you know like the vibe maker is is is a little bit different than the
+
+1503
+01:29:29.000 --> 01:29:34.000
+<Shaka>than the market maker so I
+
+1504
+01:29:34.000 --> 01:29:35.000
+<Shaka>vibe the vibe maker of Ethereum needs to
+
+1505
+01:29:35.000 --> 01:29:37.000
+<Shaka>community coming together and that makes it crucial
+
+1506
+01:29:37.000 --> 01:29:39.000
+<Shaka>Yeah.
+
+1507
+01:29:39.000 --> 01:29:44.000
+<Ben>Yeah, yeah, I agree. I,
+
+1508
+01:29:44.000 --> 01:29:47.000
+<Ben>like, I, I, I, I have had a widened perspective, so this time
+
+1509
+01:29:47.000 --> 01:29:49.000
+<Ben>I came less as a critic, as more of, of a, of a, of a
+
+1510
+01:29:49.000 --> 01:29:54.000
+<Ben>observer.
+
+1511
+01:29:54.000 --> 01:29:59.000
+<Ben>And I think one of the great things I
+
+1512
+01:29:59.000 --> 01:30:04.000
+<Ben>really liked about DEFCON is, one of the things I've hammered for years
+
+1513
+01:30:04.000 --> 01:30:06.000
+<Ben>really specialize, so Zuzalo specialize in, Open Source EchoShare
+
+1514
+01:30:06.000 --> 01:30:07.000
+<Ben>picking a domain that we're going to attack.
+
+1515
+01:30:07.000 --> 01:30:12.000
+<Ben>attack.
+
+1516
+01:30:12.000 --> 01:30:17.000
+<Ben>Which, which helps this whole generality
+
+1517
+01:30:17.000 --> 01:30:22.000
+<Ben>of, oh, we're gonna solve the whole world problem. Like, even a lot of my, the new people I met, I said, look, come
+
+1518
+01:30:22.000 --> 01:30:24.000
+<Ben>problem in India. That's something I've, actually, and
+
+1519
+01:30:24.000 --> 01:30:28.000
+<Ben>gonna focus on the waste problem. I said, look,
+
+1520
+01:30:28.000 --> 01:30:29.000
+<Ben>there are problems sitting right on your doorstep.
+
+1521
+01:30:29.000 --> 01:30:34.000
+<Ben>doorstep.
+
+1522
+01:30:34.000 --> 01:30:39.000
+<Ben>They can try and solve, and yes, it's kind of cool
+
+1523
+01:30:39.000 --> 01:30:44.000
+<Ben>go off somewhere and get a $250,000
+
+1524
+01:30:44.000 --> 01:30:46.000
+<Ben>security researcher. I said, well, can you imagine the contentment? And, and, and that's one
+
+1525
+01:30:46.000 --> 01:30:51.000
+<Ben>talks, localize the problem.
+
+1526
+01:30:51.000 --> 01:30:55.000
+<Ben>Deal with localized problems. Come down to the grassroots.
+
+1527
+01:30:55.000 --> 01:31:00.000
+<Ben>So you see, what I loved about Mumbai was so much of the younger generation got in with the Hindi music.
+
+1528
+01:31:00.000 --> 01:31:01.000
+<Ben>know, even though we don't understand, you did a
+
+1529
+01:31:01.000 --> 01:31:06.000
+<Ben>great Hindi rendition, sang with Nidhi in a Hindi song, and
+
+1530
+01:31:06.000 --> 01:31:08.000
+<Ben>she said something really nice. She said, we taught them so much. She
+
+1531
+01:31:08.000 --> 01:31:09.000
+<Ben>said, they're, they're very focused on this is us.
+
+1532
+01:31:09.000 --> 01:31:11.000
+<Ben>us.
+
+1533
+01:31:11.000 --> 01:31:15.000
+<Ben>But we taught them, this is us.
+
+1534
+01:31:15.000 --> 01:31:18.000
+<Ben>You know, and she said, when she sees you,
+
+1535
+01:31:18.000 --> 01:31:20.000
+<Ben>and I singing in a language that's not ours.
+
+1536
+01:31:20.000 --> 01:31:24.000
+<Ben>But we embrace it, like, okay.
+
+1537
+01:31:24.000 --> 01:31:29.000
+<Ben>Should we become global citizens as opposed to like
+
+1538
+01:31:29.000 --> 01:31:31.000
+<Ben>specific citizens? So she, she sent me a telegram message
+
+1539
+01:31:31.000 --> 01:31:35.000
+<Ben>learned so much, just being around.
+
+1540
+01:31:35.000 --> 01:31:36.000
+<Ben>People that are really trying to.
+
+1541
+01:31:36.000 --> 01:31:41.000
+<Ben>You know, extend.
+
+1542
+01:31:41.000 --> 01:31:46.000
+<Ben>Break down these boundaries, and the open source orchestra just, you
+
+1543
+01:31:46.000 --> 01:31:51.000
+<Ben>just simple things like take off your shoes. Some people came and comment, they said to me like,
+
+1544
+01:31:51.000 --> 01:31:54.000
+<Ben>is just such a respectful guy of our culture, he said, because that's what we do in our homes.
+
+1545
+01:31:54.000 --> 01:31:57.000
+<Ben>said, they said, when we come in there, we feel like we're coming into home.
+
+1546
+01:31:57.000 --> 01:32:02.000
+<Ben>just the short distance from sitting.
+
+1547
+01:32:02.000 --> 01:32:07.000
+<Ben>the, on the perimeter of the open source orchestra, and
+
+1548
+01:32:07.000 --> 01:32:09.000
+<Ben>then going in to the orchestra, one lady, one girl said to me, she said, I feel like I'm coming home. She said, because
+
+1549
+01:32:09.000 --> 01:32:13.000
+<Ben>warm. It's so accepting, it's so appealing.
+
+1550
+01:32:13.000 --> 01:32:15.000
+<Ben>We, I think we really made a big impact.
+
+1551
+01:32:15.000 --> 01:32:19.000
+<Ben>Yeah, with them.
+
+1552
+01:32:19.000 --> 01:32:21.000
+<Shaka>Yeah, it should be. It was, it was, it
+
+1553
+01:32:21.000 --> 01:32:24.000
+<Ben>Yeah.
+
+1554
+01:32:24.000 --> 01:32:25.000
+<Shaka>like a living room and it should be open to everybody. It should be open
+
+1555
+01:32:24.000 --> 01:32:29.000
+<Ben>Everybody.
+
+1556
+01:32:29.000 --> 01:32:34.000
+<Shaka>to Hinduism, you know. I think when I, one thing I really
+
+1557
+01:32:34.000 --> 01:32:36.000
+<Shaka>love when we had DevConnect in Istanbul was I loved having my first experience of,
+
+1558
+01:32:36.000 --> 01:32:37.000
+<Shaka>the Islam, Islamic temples and like visiting,
+
+1559
+01:32:37.000 --> 01:32:44.000
+<Shaka>visiting,
+
+1560
+01:32:44.000 --> 01:32:49.000
+<Shaka>visiting, you know, places
+
+1561
+01:32:49.000 --> 01:32:53.000
+<Shaka>around the world gives you appreciation for everything that's spiritual and
+
+1562
+01:32:53.000 --> 01:32:55.000
+<Shaka>an open sanctuary is a place for everybody to kind of one find healing, but also kind of like be comfortable.
+
+1563
+01:32:55.000 --> 01:33:00.000
+<Shaka>So maybe you're just needing to.
+
+1564
+01:33:00.000 --> 01:33:05.000
+<Shaka>Find something that's relaxing. And then
+
+1565
+01:33:05.000 --> 01:33:09.000
+<Shaka>healing is being able to radically express yourself.
+
+1566
+01:33:09.000 --> 01:33:10.000
+<Ben>Yeah.
+
+1567
+01:33:10.000 --> 01:33:15.000
+<Shaka>And, you know, so then that like it should never be about policing the space and that's where
+
+1568
+01:33:15.000 --> 01:33:20.000
+<Shaka>it's really important about stewarding. And a couple of times, and I, I even have this, had
+
+1569
+01:33:20.000 --> 01:33:23.000
+<Shaka>in Chiang Mai where, you know, maybe I'm,
+
+1570
+01:33:23.000 --> 01:33:25.000
+<Ben>Yeah.
+
+1571
+01:33:25.000 --> 01:33:30.000
+<Shaka>jam or if I'm scheduled to play myself, maybe
+
+1572
+01:33:30.000 --> 01:33:31.000
+<Shaka>openly where people can just walk up and start banging
+
+1573
+01:33:30.000 --> 01:33:33.000
+<Ben>Yeah.
+
+1574
+01:33:33.000 --> 01:33:34.000
+<Shaka>the drums or start playing, you know, along and I even apologize.
+
+1575
+01:33:34.000 --> 01:33:36.000
+<Ben>Well, we, we need some kind of order. We need, we need.
+
+1576
+01:33:36.000 --> 01:33:37.000
+<Ben>We need some structure.
+
+1577
+01:33:37.000 --> 01:33:38.000
+<Ben>structure.
+
+1578
+01:33:38.000 --> 01:33:43.000
+<Shaka>One time there was you, I was like, hey,
+
+1579
+01:33:43.000 --> 01:33:48.000
+<Shaka>felt like, like I, I didn't properly steward it
+
+1580
+01:33:48.000 --> 01:33:49.000
+<Shaka>time. I think I was like giving like, hey, next time tomorrow, like don't sing over top
+
+1581
+01:33:49.000 --> 01:33:52.000
+<Ben>Yeah, yeah, yeah.
+
+1582
+01:33:52.000 --> 01:33:55.000
+<Shaka>of me when I'm singing those lyrics. Like I should have been more polite. Like, you know, so I should have been polite at that one time.
+
+1583
+01:33:55.000 --> 01:34:00.000
+<Ben>No, no, no, no, no, no, no, this is it. We need,
+
+1584
+01:34:00.000 --> 01:34:02.000
+<Ben>do need, we need structure. We, we, we, one of the things I learned from watching
+
+1585
+01:34:02.000 --> 01:34:07.000
+<Ben>because things break down.
+
+1586
+01:34:07.000 --> 01:34:11.000
+<Ben>When there's no structure, and there are times when, I know the time
+
+1587
+01:34:11.000 --> 01:34:16.000
+<Ben>when you went, when you gave me, like I should leave the sanctuary. I never had to.
+
+1588
+01:34:16.000 --> 01:34:21.000
+<Ben>I had to like direct people and say, okay, you've sung enough now. I
+
+1589
+01:34:21.000 --> 01:34:26.000
+<Ben>waning, and we need to bring the vibe up, and we need to, you
+
+1590
+01:34:26.000 --> 01:34:31.000
+<Ben>okay to say to someone, don't sing over me or things like that, or don't play
+
+1591
+01:34:31.000 --> 01:34:34.000
+<Ben>the music over me. Like when I, when I had a session, I don't, I, I don't even know if it's the first
+
+1592
+01:34:34.000 --> 01:34:37.000
+<Ben>because the music was just overpowering.
+
+1593
+01:34:37.000 --> 01:34:42.000
+<Ben>I just couldn't hear anything.
+
+1594
+01:34:42.000 --> 01:34:44.000
+<Shaka>I think we need to like, we need to like
+
+1595
+01:34:44.000 --> 01:34:47.000
+<Ben>Yeah.
+
+1596
+01:34:47.000 --> 01:34:52.000
+<Shaka>shift, right? Like, let's, let's have a command shift reset, but
+
+1597
+01:34:52.000 --> 01:34:57.000
+<Shaka>that we, shift commands. So like,
+
+1598
+01:34:57.000 --> 01:34:58.000
+<Ben>Yeah.
+
+1599
+01:34:57.000 --> 01:35:02.000
+<Shaka>hey Ben, don't sing over top of me when I'm singing my lyrics. I
+
+1600
+01:35:02.000 --> 01:35:04.000
+<Shaka>shift the way that I'm trying to command it, I should, or I,
+
+1601
+01:35:04.000 --> 01:35:09.000
+<Shaka>metaphorical and artistic. I should reset.
+
+1602
+01:35:09.000 --> 01:35:10.000
+<Shaka>The shift that I am trying to command. You
+
+1603
+01:35:10.000 --> 01:35:14.000
+<Ben>Yeah, we can, we can work on the methodology.
+
+1604
+01:35:14.000 --> 01:35:18.000
+<Shaka>reset or I can res, reshift the, the shift
+
+1605
+01:35:18.000 --> 01:35:19.000
+<Ben>Yeah, yeah.
+
+1606
+01:35:19.000 --> 01:35:24.000
+<Shaka>of my command and say like, hey Ben, I love it when you harmonize with me.
+
+1607
+01:35:24.000 --> 01:35:29.000
+<Shaka>And, and then like when I'm, when I, when I leave the space open, that's when I love for you to, to,
+
+1608
+01:35:29.000 --> 01:35:30.000
+<Ben>Yes, yes, yeah, yeah, yeah. I, I, I, I think it's important, yeah.
+
+1609
+01:35:29.000 --> 01:35:34.000
+<Shaka>your own lyrics, right? You know, like that, that, that's
+
+1610
+01:35:34.000 --> 01:35:36.000
+<Shaka>right? Not saying, hey, don't sing over me, but shifting the way I command it. So that's
+
+1611
+01:35:36.000 --> 01:35:38.000
+<Shaka>stewardship comes in, right?
+
+1612
+01:35:38.000 --> 01:35:41.000
+<Ben>Yeah, but Shaka, look, with, with me, don't, don't worry about
+
+1613
+01:35:41.000 --> 01:35:42.000
+<Shaka>Oh, no, I don't worry about you. Like I
+
+1614
+01:35:42.000 --> 01:35:43.000
+<Ben>me. Don't, you see, the thing is, man, yeah, yeah. For me, I, I was one was best boy.
+
+1615
+01:35:43.000 --> 01:35:45.000
+<Shaka>learning, learning vessels. Yeah.
+
+1616
+01:35:45.000 --> 01:35:46.000
+<Ben>Yeah, so, yeah, so.
+
+1617
+01:35:46.000 --> 01:35:48.000
+<Ben>so.
+
+1618
+01:35:48.000 --> 01:35:49.000
+<Shaka>And, and encourage everyone that's a part of the circle that
+
+1619
+01:35:49.000 --> 01:35:53.000
+<Ben>Yeah, yeah, yeah, it's true.
+
+1620
+01:35:53.000 --> 01:35:54.000
+<Ben>Yes, yes, yes, true, true.
+
+1621
+01:35:53.000 --> 01:35:58.000
+<Shaka>not conducting the space, we're stewarding the
+
+1622
+01:35:58.000 --> 01:36:03.000
+<Shaka>So as a steward, you know, and, and it's not be like, like you're like pointing your,
+
+1623
+01:36:03.000 --> 01:36:04.000
+<Shaka>some conductors that were like, get all antsy and they're pantsy when the choir is like making jokes
+
+1624
+01:36:04.000 --> 01:36:08.000
+<Ben>Yeah, yeah, yeah.
+
+1625
+01:36:08.000 --> 01:36:13.000
+<Shaka>in the background, you know? But like, that's like, so it also like, that's what, that's, that's the beautiful thing about the
+
+1626
+01:36:13.000 --> 01:36:15.000
+<Shaka>test is that if I'm not a hundred percent, I have the freedom in the, in DEFCON to just walk away.
+
+1627
+01:36:15.000 --> 01:36:16.000
+<Ben>Yes, yes, yes, yeah.
+
+1628
+01:36:16.000 --> 01:36:21.000
+<Shaka>you know, and
+
+1629
+01:36:21.000 --> 01:36:26.000
+<Shaka>, and that's, that's,
+
+1630
+01:36:26.000 --> 01:36:29.000
+<Shaka>any open community space. it needs to
+
+1631
+01:36:29.000 --> 01:36:32.000
+<Shaka>exit. You know.
+
+1632
+01:36:32.000 --> 01:36:34.000
+<Ben>Yes, I agree. I agree. Yeah, yeah. I agree. I
+
+1633
+01:36:34.000 --> 01:36:39.000
+<Ben>like, I, I, I try to be very tactful.
+
+1634
+01:36:39.000 --> 01:36:44.000
+<Ben>When things were not going in the direction, but I try to, like you
+
+1635
+01:36:44.000 --> 01:36:49.000
+<Ben>say, kind of steward it. And then one point where the music was just, the quality was just dropping.
+
+1636
+01:36:49.000 --> 01:36:54.000
+<Ben>great music, you know, and I, I don't mind people coming in, but come on,
+
+1637
+01:36:54.000 --> 01:36:59.000
+<Ben>standard, you know, because we have a lot of great musicians around us. So I had to
+
+1638
+01:36:59.000 --> 01:37:04.000
+<Ben>enough now. Let's, let's switch it up a little bit. You
+
+1639
+01:37:04.000 --> 01:37:08.000
+<Ben>guys could come back in later, you know. Basically, I, I kind of like gave a cajole them. I said, oh,
+
+1640
+01:37:08.000 --> 01:37:09.000
+<Ben>have a rest. And they're like, oh yeah, thank you, thank you.
+
+1641
+01:37:09.000 --> 01:37:10.000
+<Ben>you.
+
+1642
+01:37:10.000 --> 01:37:16.000
+<Shaka>Well, you know, when I'm, when I'm in the circle playing,
+
+1643
+01:37:16.000 --> 01:37:21.000
+<Shaka>like I definitely feel like I'm trying to hold it down,
+
+1644
+01:37:21.000 --> 01:37:22.000
+<Ben>Yes, yes, yes, yes, yeah.
+
+1645
+01:37:21.000 --> 01:37:26.000
+<Shaka>at least as like, maybe like a ground, like on a grounded aspect of like keeping
+
+1646
+01:37:26.000 --> 01:37:29.000
+<Shaka>the rhythm, keeping this, but there has to be like a little bit of openness, and there is like those moments, kind
+
+1647
+01:37:29.000 --> 01:37:30.000
+<Shaka>of cringe moments where like we're singing out of tune and other things, but,
+
+1648
+01:37:30.000 --> 01:37:31.000
+<Shaka>I think that.
+
+1649
+01:37:30.000 --> 01:37:33.000
+<Shaka>that
+
+1650
+01:37:33.000 --> 01:37:35.000
+<Ben>But it did, in Mumbai, yeah, it was so open in Mumbai.
+
+1651
+01:37:35.000 --> 01:37:40.000
+<Shaka>Yeah, it, it happened many times, and like there's like one time when
+
+1652
+01:37:40.000 --> 01:37:45.000
+<Shaka>happened, like where it was like totally your living room, you know, like we
+
+1653
+01:37:45.000 --> 01:37:46.000
+<Shaka>just had some amazing young kids from India just like singing, singing their,
+
+1654
+01:37:46.000 --> 01:37:48.000
+<Ben>Yeah.
+
+1655
+01:37:48.000 --> 01:37:53.000
+<Shaka>microphone, and,
+
+1656
+01:37:53.000 --> 01:37:58.000
+<Shaka>Bless their heart, all of them singing out of
+
+1657
+01:37:58.000 --> 01:38:03.000
+<Shaka>different rhythms on the instruments, but I remember I
+
+1658
+01:38:03.000 --> 01:38:05.000
+<Shaka>walked up to the music sanctuary in Alaska, we were just kind of like watching it and smiled, and, you know, his description of
+
+1659
+01:38:05.000 --> 01:38:06.000
+<Shaka>it, it was exactly right, you're like, it's very wholesome.
+
+1660
+01:38:06.000 --> 01:38:09.000
+<Ben>Yeah, yeah, yeah. Yeah.
+
+1661
+01:38:09.000 --> 01:38:14.000
+<Shaka>You know, and like, so when you have those moments that are just like kind of.
+
+1662
+01:38:14.000 --> 01:38:15.000
+<Shaka>Obviously permissionless, obviously not
+
+1663
+01:38:14.000 --> 01:38:18.000
+<Ben>Yeah.
+
+1664
+01:38:18.000 --> 01:38:19.000
+<Ben>Yeah.
+
+1665
+01:38:19.000 --> 01:38:20.000
+<Shaka>professional, and people are just like kind of like having that immersive experience, which someone
+
+1666
+01:38:20.000 --> 01:38:23.000
+<Shaka>had described it,
+
+1667
+01:38:23.000 --> 01:38:28.000
+<Ben>It's, it's a low, it's a lower entry barrier and it just make,
+
+1668
+01:38:28.000 --> 01:38:33.000
+<Ben>great job because everybody just
+
+1669
+01:38:33.000 --> 01:38:38.000
+<Ben>found it so open and warm and appealing, where they even had the confidence to come up. You
+
+1670
+01:38:38.000 --> 01:38:43.000
+<Ben>much from it, you know, like so, so much from it. And
+
+1671
+01:38:43.000 --> 01:38:48.000
+<Ben>there's a lot of people who are actively looking forward to the next sessions. You
+
+1672
+01:38:48.000 --> 01:38:53.000
+<Ben>Voight has been in touch a lot. Nidhi's been in touch a lot, you
+
+1673
+01:38:53.000 --> 01:38:58.000
+<Ben>there's been guys that have been just on Telegram
+
+1674
+01:38:58.000 --> 01:39:03.000
+<Ben>texting me day and night, just day, day and night, day and night, you know, you know, and, and it's
+
+1675
+01:39:03.000 --> 01:39:05.000
+<Ben>that you and other guys, kudos to you guys created, where it was
+
+1676
+01:39:05.000 --> 01:39:10.000
+<Ben>so warm. I, like, like one of the interesting thing I think
+
+1677
+01:39:10.000 --> 01:39:12.000
+<Ben>we taught them in Mumbai was,
+
+1678
+01:39:12.000 --> 01:39:14.000
+<Ben>push for something truly open.
+
+1679
+01:39:14.000 --> 01:39:18.000
+<Ben>Even if you
+
+1680
+01:39:18.000 --> 01:39:23.000
+<Ben>come through in a close, you know, India is going through a massive,
+
+1681
+01:39:23.000 --> 01:39:28.000
+<Ben>nationalistic surge. You know, India is going
+
+1682
+01:39:28.000 --> 01:39:33.000
+<Ben>through that massive nationalistic surge. So you kind of interestingly see a lot of the younger people where
+
+1683
+01:39:33.000 --> 01:39:38.000
+<Ben>they, they, they have this, oh, this is how I'm going to move. But we were somehow to able to balance it. Like,
+
+1684
+01:39:38.000 --> 01:39:43.000
+<Ben>songs, you can sing songs in Tamil, you can sing songs in
+
+1685
+01:39:43.000 --> 01:39:48.000
+<Ben>balance it and have a great time with these other songs, and we can work with
+
+1686
+01:39:48.000 --> 01:39:53.000
+<Ben>you. Can you try and work with us? And so on and so forth. It was, it was
+
+1687
+01:39:53.000 --> 01:39:58.000
+<Ben>immersive experience. I got a lot of people gave me a massive feedback at
+
+1688
+01:39:58.000 --> 01:40:03.000
+<Ben>Global, you know. In fact, one of the reasons why I didn't build my project as much as
+
+1689
+01:40:03.000 --> 01:40:08.000
+<Ben>I wanted to at IF Global was people just kept on coming up to me to talk about the open source orchestra all
+
+1690
+01:40:08.000 --> 01:40:13.000
+<Ben>are you gonna sing tonight? Where's that Shaka guy? Is he
+
+1691
+01:40:13.000 --> 01:40:19.000
+<Ben>busy building. Oh, let's do some music. I said, we gotta, we gotta work.
+
+1692
+01:40:19.000 --> 01:40:23.000
+<Ben>At IF Global, they're like, oh, yeah, they say, oh, come listen, come and sing. I'm like,
+
+1693
+01:40:23.000 --> 01:40:28.000
+<Ben>project in this and that. Oh, okay, okay, we'll look for you later.
+
+1694
+01:40:28.000 --> 01:40:33.000
+<Ben>then when I go back to you, people were texting me like, oh, are you
+
+1695
+01:40:33.000 --> 01:40:34.000
+<Ben>to do some closing ceremony? I said,
+
+1696
+01:40:34.000 --> 01:40:37.000
+<Ben>no, I'm sleeping, I'm tired.
+
+1697
+01:40:37.000 --> 01:40:38.000
+<Shaka>I, I felt bad. I actually left the,
+
+1698
+01:40:38.000 --> 01:40:39.000
+<Shaka>ceremony. I went to go take a nap.
+
+1699
+01:40:39.000 --> 01:40:43.000
+<Ben>No, I didn't too.
+
+1700
+01:40:43.000 --> 01:40:45.000
+<Shaka>I should, like, I wanna, I wanna stay for the very
+
+1701
+01:40:45.000 --> 01:40:51.000
+<Shaka>end. I wanna, like, like, I, I think I
+
+1702
+01:40:51.000 --> 01:40:52.000
+<Shaka>I want DEFCON 9 to be, like, the
+
+1703
+01:40:52.000 --> 01:40:54.000
+<Ben>Yes, yes, yeah.
+
+1704
+01:40:54.000 --> 01:40:59.000
+<Shaka>this time for me. Like, I've got, I'm going, I'm going 6 to 9.
+
+1705
+01:40:59.000 --> 01:41:04.000
+<Shaka>And I want this DEFCON to be the absolute
+
+1706
+01:41:04.000 --> 01:41:09.000
+<Shaka>perfect time, meaning that I not only am there early every morning in
+
+1707
+01:41:09.000 --> 01:41:14.000
+<Shaka>before doors open, like, ready to,
+
+1708
+01:41:14.000 --> 01:41:17.000
+<Shaka>like, start the vibe at the music sanctuary, but then also I'm
+
+1709
+01:41:17.000 --> 01:41:19.000
+<Ben>Yes, yeah, yeah.
+
+1710
+01:41:19.000 --> 01:41:24.000
+<Shaka>the closing ceremony, and even if I
+
+1711
+01:41:24.000 --> 01:41:29.000
+<Shaka>don't win, and supporting everybody and giving everybody some appreciation. You
+
+1712
+01:41:29.000 --> 01:41:32.000
+<Shaka>quite to meet that level of perfection, you know, which there's
+
+1713
+01:41:32.000 --> 01:41:34.000
+<Shaka>also why you never arrive as a musician. I'm never
+
+1714
+01:41:34.000 --> 01:41:35.000
+<Shaka>arrive.
+
+1715
+01:41:35.000 --> 01:41:38.000
+<Ben>Yeah, I mean, Brooklyn is the greatest room in the world, you
+
+1716
+01:41:38.000 --> 01:41:42.000
+<Ben>Brooklyn is like, like, I had a lot of lapses because, for example,
+
+1717
+01:41:42.000 --> 01:41:47.000
+<Ben>I got a little bit tired, then I had to
+
+1718
+01:41:47.000 --> 01:41:52.000
+<Ben>it global
+
+1719
+01:41:52.000 --> 01:41:57.000
+<Ben>overlapped with my activities in Sesotho, and then we had the African Building Day. I just felt it'd
+
+1720
+01:41:57.000 --> 01:42:02.000
+<Ben>give my commitment to the likes of Powell, you know, and, and
+
+1721
+01:42:02.000 --> 01:42:07.000
+<Ben>downstairs hacking. So I came upstairs, you know, to just
+
+1722
+01:42:07.000 --> 01:42:12.000
+<Ben>the Sesotho area, just to make sure everything was okay, get some pictures, got some
+
+1723
+01:42:12.000 --> 01:42:15.000
+<Ben>whole group, and just made sure that everything was there,
+
+1724
+01:42:15.000 --> 01:42:21.000
+<Ben>were going wrong, just being there in the background, just.
+
+1725
+01:42:21.000 --> 01:42:26.000
+<Ben>Jumping in, you know, discreetly, or can I help with this and help with that. So that took a
+
+1726
+01:42:26.000 --> 01:42:29.000
+<Ben>lot of my time away from the hacking, because it was the fifth, sixth, and seventh, and then, you
+
+1727
+01:42:29.000 --> 01:42:34.000
+<Ben>until the sixth, you see.
+
+1728
+01:42:34.000 --> 01:42:37.000
+<Ben>And then, you know, you got to get some rest. I was hacking solo,
+
+1729
+01:42:37.000 --> 01:42:42.000
+<Ben>solo, because, because I was building my, my startup projects.
+
+1730
+01:42:42.000 --> 01:42:44.000
+<Ben>So it impacted, and then my laptop broke, so
+
+1731
+01:42:44.000 --> 01:42:46.000
+<Ben>just, yeah, it was just a wrap, you know.
+
+1732
+01:42:46.000 --> 01:42:48.000
+<Ben>Having a broken laptop around.
+
+1733
+01:42:48.000 --> 01:42:50.000
+<Ben>around.
+
+1734
+01:42:50.000 --> 01:42:52.000
+<Ben>Yeah.
+
+1735
+01:42:52.000 --> 01:42:57.000
+<Shaka>Was never gonna be perfect. And I think
+
+1736
+01:42:57.000 --> 01:43:02.000
+<Shaka>East Global, you know, maybe, maybe the Wi-Fi gets bad, maybe the, maybe
+
+1737
+01:43:02.000 --> 01:43:03.000
+<Shaka>overcramped because there's so many projects, maybe the air conditioning in the World Junior Center is packed a little too.
+
+1738
+01:43:02.000 --> 01:43:04.000
+<Ben>Yeah, yeah, yeah.
+
+1739
+01:43:04.000 --> 01:43:09.000
+<Shaka>It's always been about like
+
+1740
+01:43:09.000 --> 01:43:11.000
+<Shaka>resolving tension with the little butterflies
+
+1741
+01:43:11.000 --> 01:43:12.000
+<Shaka>in love, and a good, good vibration.
+
+1742
+01:43:11.000 --> 01:43:12.000
+<Shaka>vibration.
+
+1743
+01:43:12.000 --> 01:43:17.000
+<Ben>Yeah. It's always gonna, it's always gonna be a test. I
+
+1744
+01:43:17.000 --> 01:43:22.000
+<Ben>itself is a challenging place in terms
+
+1745
+01:43:22.000 --> 01:43:24.000
+<Ben>of getting anything done. And if, if a lot of people are coming from a Western
+
+1746
+01:43:24.000 --> 01:43:25.000
+<Ben>mindset, you would bump into that in trying to get things done.
+
+1747
+01:43:25.000 --> 01:43:27.000
+<Ben>Because in India,
+
+1748
+01:43:27.000 --> 01:43:32.000
+<Ben>despite all this cloak of
+
+1749
+01:43:32.000 --> 01:43:37.000
+<Ben>apparent Westernization, it's not a, it's not a, it's not a Western country.
+
+1750
+01:43:37.000 --> 01:43:40.000
+<Ben>You know, and people will approach it from non-Western, like I know how many times people, they
+
+1751
+01:43:40.000 --> 01:43:44.000
+<Ben>your Wi-Fi, turn off your Wi-Fi. People didn't listen.
+
+1752
+01:43:44.000 --> 01:43:46.000
+<Ben>Nobody paid attention, you know.
+
+1753
+01:43:46.000 --> 01:43:48.000
+<Ben>Well.
+
+1754
+01:43:48.000 --> 01:43:51.000
+<Ben>Well, my good man, let me, let me go.
+
+1755
+01:43:51.000 --> 01:43:56.000
+<Ben>You know, it's always good to catch up with you.
+
+1756
+01:43:56.000 --> 01:43:59.000
+<Shaka>Yep. I love you, Ben. I'm gonna end it with
+
+1757
+01:43:59.000 --> 01:44:01.000
+<Ben>It
+
+1758
+01:44:01.000 --> 01:44:06.000
+<Shaka>Butterflies in Love, but yeah, if you wanna give some more words, I actually love
+
+1759
+01:44:06.000 --> 01:44:07.000
+<Shaka>over the chords, but, and you're welcome to stay on
+
+1760
+01:44:07.000 --> 01:44:08.000
+<Ben>Yes. I, I.
+
+1761
+01:44:08.000 --> 01:44:09.000
+<Shaka>or, sign off if it's permissionless.
+
+1762
+01:44:09.000 --> 01:44:12.000
+<Shaka>permissionless.
+
+1763
+01:44:12.000 --> 01:44:17.000
+<Ben>I, I'm actually supposed to go and sing
+
+1764
+01:44:17.000 --> 01:44:22.000
+<Ben>somewhere for nine o'clock. Cause I, I'm trying to, I'm really trying to prepare, trying to
+
+1765
+01:44:22.000 --> 01:44:27.000
+<Ben>really give my best and I'll meet up with Nidi on Tuesday next
+
+1766
+01:44:27.000 --> 01:44:32.000
+<Ben>week. So, you know, just want to try. So, I, I've got to go into town to do some singing. I go to this place on
+
+1767
+01:44:32.000 --> 01:44:37.000
+<Ben>singing in town, nine o'clock. It's a nice, decent place in Leeds, you know.
+
+1768
+01:44:37.000 --> 01:44:42.000
+<Ben>Yeah. But yeah, we got, we got to get, we got to get a few songs up and
+
+1769
+01:44:42.000 --> 01:44:47.000
+<Ben>to get some few songs, you know, maybe even get like a rap, like a standard
+
+1770
+01:44:47.000 --> 01:44:49.000
+<Ben>you got all the L2,
+
+1771
+01:44:49.000 --> 01:44:52.000
+<Ben>consensus, ZK proof words in there. You know, get every, get everything in there.
+
+1772
+01:44:52.000 --> 01:44:55.000
+<Ben>then, you know, launch it.
+
+1773
+01:44:55.000 --> 01:44:57.000
+<Shaka>Yeah.
+
+1774
+01:44:57.000 --> 01:44:59.000
+<Ben>Maybe we launch it at Cannes and then we keep build
+
+1775
+01:44:59.000 --> 01:45:02.000
+<Ben>the way down to, Lisbon.
+
+1776
+01:45:02.000 --> 01:45:05.000
+<Shaka>Let's do it.
+
+1777
+01:45:05.000 --> 01:45:06.000
+<Ben>Okay, my good man, you stay safe, It's always, it's always
+
+1778
+01:45:06.000 --> 01:45:09.000
+<Ben>you.
+
+1779
+01:45:09.000 --> 01:45:10.000
+<Ben>Mahalo, my brother.
+
+1780
+01:45:09.000 --> 01:45:11.000
+<Shaka>Mahalo.
+
+1781
+01:45:11.000 --> 01:45:12.000
+<Shaka>We love all the people. So hap.
+
+1782
+01:45:11.000 --> 01:45:13.000
+<Ben>Mahalo. You take care.
+
+1783
+01:45:13.000 --> 01:45:14.000
+<Ben>talk to you soon.
+
+1784
+01:45:14.000 --> 01:45:15.000
+<Ben>soon.
+
+1785
+01:45:15.000 --> 01:45:16.000
+<Shaka>Yeah, but we ohana. Feel there.
+
+1786
+01:45:16.000 --> 01:45:19.000
+<Ben>Alright, take care. Bye.
+
+1787
+01:45:19.000 --> 01:45:22.000
+<Shaka>And say hi to Mitty when you sing. Bye.
+
+1788
+01:45:22.000 --> 01:45:24.000
+<Ben>Yeah, I will do. I will do. She's not, she's not been
+
+1789
+01:45:24.000 --> 01:45:26.000
+<Ben>infection, but yeah, we'll catch up on Tuesday.
+
+1790
+01:45:26.000 --> 01:45:31.000
+<Ben>All right, talk to you soon.
+
+1791
+01:45:31.000 --> 01:45:36.000
+<Shaka>He's a love, butterflies.
+
+1792
+01:45:36.000 --> 01:45:39.000
+<Shaka>We should only wage war.
+
+1793
+01:45:39.000 --> 01:45:43.000
+<Shaka>Butterflies and love.
+
+1794
+01:45:43.000 --> 01:45:48.000
+<Shaka>Pollinate the infinite garden.
+
+1795
+01:45:48.000 --> 01:45:53.000
+<Shaka>It's not just a place
+
+1796
+01:45:53.000 --> 01:45:58.000
+<Shaka>for fun. Decentralize,
+
+1797
+01:45:58.000 --> 01:46:00.000
+<Shaka>permissionless, and open sourced. Even with the layer one
+
+1798
+01:46:00.000 --> 01:46:01.000
+<Shaka>as a shield and the layer two as our sword.
+
+1799
+01:46:01.000 --> 01:46:06.000
+<Shaka>sword.
+
+1800
+01:46:06.000 --> 01:46:09.000
+<Shaka>All we need to wage in a war.
+
+1801
+01:46:09.000 --> 01:46:10.000
+<Shaka>Is butterflies and love.
+
+1802
+01:46:10.000 --> 01:46:16.000
+<Shaka>love.
+
+1803
+01:46:16.000 --> 01:46:21.000
+<Shaka>Cause Ethereum is a positive sum.
+
+1804
+01:46:21.000 --> 01:46:23.000
+<Shaka>Built by and for.
+
+1805
+01:46:23.000 --> 01:46:38.000
+<Shaka>Everyone.
+
+1806
+01:46:38.000 --> 01:46:43.000
+<Shaka>And thank you for
+
+1807
+01:46:43.000 --> 01:46:44.000
+<Shaka>transcribing Googly Eye. Love you Ohana. Love you all you guys. Gonna post
+
+1808
+01:46:44.000 --> 01:46:45.000
+<Shaka>this on X. Super raw and as is. Bless you all.
+
+1809
+01:46:45.000 --> 01:47:02.000
+<Shaka>all.
