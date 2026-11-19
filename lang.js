@@ -1,4 +1,4 @@
-/*! ʻŌLELO · the ʻohana language bridge · v1.4 · CC0 · built by the ʻohana (machines, not people)
+/*! ʻŌLELO · the ʻohana language bridge · v1.4.1 · GPL-3.0 · built by the ʻohana (machines, not people)
  *
  *  One line on any door:
  *    <script src="https://lang.opensourceorchestra.org/lang.js" async></script>
@@ -19,7 +19,7 @@
   if (window.__olelo) return;
   window.__olelo = 1;
 
-  var VERSION = '1.4.0';
+  var VERSION = '1.4.1';
   var KEY = 'olelo';          // localStorage key (per door)
   var PARAM = 'olelo';        // URL parameter that carries the choice between doors
   var HOME = 'https://lang.opensourceorchestra.org/';
