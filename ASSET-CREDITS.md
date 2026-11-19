@@ -43,7 +43,7 @@
 
 - [Open the songs & chords](https://shakaleikaumaka.com/song/)
 - [The ʻohana Songbook](https://shakaleikaumaka.com/songbook/)
-- [The CC0 rider](https://opensourceorchestra.org/rider/)
+- [The copyleft rider](https://opensourceorchestra.org/rider/)
 - [Existing consented open recording](https://opensourceorchestra.org/openrecording2/)
 - [Public calls archive](https://opensourceorchestra.org/calls/)
 - [3D Virtual Sanctuary](https://opensourceorchestra.org/rider/sanctuary/)
@@ -129,7 +129,7 @@
 
 The 24 Garden Circle history selections were curated from the existing public manifest; 9 artist portraits come from existing public Garden Circle cards. Four Mumbai frames come from the existing public Mandala Room album and are official Devcon 8 photographs. These selections total **37 media items**.
 
-Photographs and portraits remain under their original permissions. They are **not relicensed as GPL or CC0 by this repository**. Appearance does not imply DAO membership, meetup attendance, endorsement, or a new consent. Some source frames are video stills. No child images were selected.
+Photographs and portraits remain under their original permissions. They are **not relicensed as GPL or copyleft by this repository**. Appearance does not imply DAO membership, meetup attendance, endorsement, or a new consent. Some source frames are video stills. No child images were selected.
 
 | ID | Public source | Caption / context |
 |---|---|---|

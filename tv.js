@@ -1,4 +1,4 @@
-/*! OSO THEATER TV · v1 · PIT Standard V2 front button · CC0
+/*! OSO THEATER TV · v1 · PIT Standard V2 front button · copyleft
  *  One line on any door:  <script src="https://osodaomeet.opensourceorchestra.org/tv.js" async></script>
  *  Renders a small animated CRT television on the right edge of the page. Notes float out of it.
  *  Tap: a theater panel opens — music comes out of the TV (own-hosted, consented tracks),
