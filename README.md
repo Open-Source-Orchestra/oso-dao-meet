@@ -165,3 +165,7 @@ The full browser harness, screenshots, and machine-readable result are outside t
 - `/workspace/oso-dao-meet-qa/final-*.png`
 
 See `TESTING.md` for coverage, exact results, and honest limitations.
+
+## License
+
+Code: GPL-3.0 (see LICENSE). Songs, lyrics, chords, words, art, links and pages: CC BY-SA 4.0 (see LICENSE-CONTENT). Credit: Shaka Lei Kaumaka and the ʻohana.
