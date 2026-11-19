@@ -1,6 +1,6 @@
 {
   "schema": "oso-theater-channels-v1",
-  "updated": "2026-11-14",
+  "updated": "2026-11-20",
   "theater": "Open Source Orchestra DAO Meet · The Theater — one room: the orchestra pit on the floor, the living wall of public memories, and the projector as a six-channel switcher.",
   "ledger": "/meetings/",
   "protocol": {
@@ -521,5 +521,58 @@
       ],
       "ledgerEntry": "/meetings/#devcon-6"
     }
-  ]
+  ],
+  "meet3": {
+    "id": "meeting-3",
+    "title": "Open Source Orchestra DAO Meet #3 · The third circle",
+    "dateLabel": "19 November 2026",
+    "recordedAt": "2026-11-19T17:36:51Z",
+    "durationSeconds": 6422,
+    "durationLabel": "1:47:02",
+    "speakers": [
+      "Shaka",
+      "Ben",
+      "Alaska",
+      "Mary"
+    ],
+    "consent": {
+      "status": "published_with_consent",
+      "confirmedAt": "2026-11-20T02:33:00+07:00",
+      "line": "Everyone present consented to the public video and transcript, confirmed by Shaka on 20 November 2026 (2:33 AM Bangkok)."
+    },
+    "media": {
+      "video": {
+        "status": "coming_soon"
+      },
+      "audio": {
+        "status": "coming_soon"
+      },
+      "captions": "meetings/3/transcript/transcript.vtt",
+      "transcript": "meetings/3/transcript/transcript.json"
+    },
+    "ledgerEntry": "/meetings/#meeting-3",
+    "links": [
+      {
+        "label": "Recap",
+        "url": "/meetings/3/"
+      },
+      {
+        "label": "Transcript",
+        "url": "/meetings/3/transcript/"
+      },
+      {
+        "label": "Notes",
+        "url": "/meetings/3/notes/"
+      },
+      {
+        "label": "Join",
+        "url": "https://opensourceorchestra.org/join/"
+      },
+      {
+        "label": "Takedown",
+        "url": "https://opensourceorchestra.org/takedown/"
+      }
+    ],
+    "note": "Listed here for the ledger and readable edition. Not yet a theater projector channel: the six-channel switcher stays unchanged until the 720p film is hosted."
+  }
 }

@@ -118,6 +118,18 @@
         "reportedAt": "2026-10-27",
         "scope": "asked at 00:06, confirmed 00:35 and 01:02; everyone named in the transcript consented"
       }
+    },
+    "3": {
+      "title": "Open Source Orchestra DAO Meet #3",
+      "status": "transcript_published_video_coming_soon",
+      "recordedAt": "2026-11-19T17:36:51Z",
+      "consentConfirmedAt": "2026-11-20T02:33:00+07:00",
+      "publicRecap": "/meetings/3/",
+      "publicNotes": "/meetings/3/notes/",
+      "publicTranscript": "/meetings/3/transcript/",
+      "publicVideo": "coming soon",
+      "publicAudio": "coming soon",
+      "rawVideo": "kept private; a 720p re-encode is not yet hosted"
     }
   },
   "theater": {
