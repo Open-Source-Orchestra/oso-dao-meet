@@ -1,4 +1,4 @@
-/* The Theater: the projector as a six-channel switcher with karaoke transcribers and an infinite garden behind the screen.
+/* The Theater: the projector as a seven-channel switcher with karaoke transcribers and an infinite garden behind the screen.
    Nothing plays until a person presses Play. No autoplay, no trackers, no external request before an explicit choice.
    Channels 1–3 stream consented recordings (byte ranges), channel 4 hands over to the slide deck + authorized synthetic
    narration, channels 5–6 are click-to-load youtube-nocookie embeds of Shaka's own published videos. */
@@ -195,7 +195,7 @@ export function createTheater({ hall, narration, showToast, onEnter, stopSlidesh
         ui.chapters.appendChild(option);
       });
       ui.chapters.disabled = !ui.chapters.options.length;
-      ui.status.textContent = `Channel ${channel.number} is on the projector. Press Play on the screen to stream the film with byte ranges; captions, chapters and the karaoke transcriber follow along.`;
+      ui.status.textContent = media.video.arriving ? `Channel ${channel.number} is on the projector. Film arriving: the 720p encode and upload are in progress, so Play may not find the file yet — the karaoke transcript below is already public, and /watch/ has the whole season.` : `Channel ${channel.number} is on the projector. Press Play on the screen to stream the film with byte ranges; captions, chapters and the karaoke transcriber follow along.`;
       renderKaraoke(channel, [], 'Loading the transcript…');
       const cues = await loadTranscript(channel);
       if (current() !== channel) return;
@@ -217,10 +217,10 @@ export function createTheater({ hall, narration, showToast, onEnter, stopSlidesh
       ui.status.textContent = `Channel ${channel.number} is a YouTube video from Shaka's own channel. Choose Load to embed it privacy-enhanced, or open it on YouTube.`;
       renderKaraoke(channel, [], 'YouTube provides its own captions inside the player once loaded.');
     } else {
-      ui.deck.innerHTML = `<div class="deck-card"><p class="now-kicker">CHANNEL 4 · THE DECK ON THE HALL PROJECTOR</p><h3>Twelve movements · AI steward narration</h3><p>The slide deck returns to the big screen and the <strong>Listen to the hall</strong> panel opens. Press Play there; captions and the sourced transcript stay readable. Authorized synthetic narration, not a live or new Shaka recording.</p><button type="button" id="deck-go" class="enter-button"><span>Put the deck on the projector</span><b aria-hidden="true">→</b></button><p class="embed-fallback"><a href="./narration/">Read the complete sourced narration ↗</a></p></div>`;
+      ui.deck.innerHTML = `<div class="deck-card"><p class="now-kicker">CHANNEL ${channel.number} · THE DECK ON THE HALL PROJECTOR</p><h3>Twelve movements · AI steward narration</h3><p>The slide deck returns to the big screen and the <strong>Listen to the hall</strong> panel opens. Press Play there; captions and the sourced transcript stay readable. Authorized synthetic narration, not a live or new Shaka recording.</p><button type="button" id="deck-go" class="enter-button"><span>Put the deck on the projector</span><b aria-hidden="true">→</b></button><p class="embed-fallback"><a href="./narration/">Read the complete sourced narration ↗</a></p></div>`;
       ui.open.href = './narration/';
       ui.open.hidden = false;
-      ui.status.textContent = 'Channel 4 hands the projector back to the slide deck with optional narration.';
+      ui.status.textContent = `Channel ${channel.number} hands the projector back to the slide deck with optional narration.`;
       renderKaraoke(channel, [], 'Narration captions appear in the Listen panel, movement by movement.');
     }
     if (updateHistory) updateUrl({ time: seekTo });
@@ -347,7 +347,7 @@ export function createTheater({ hall, narration, showToast, onEnter, stopSlidesh
     const [channelsResponse, gardenResponse] = await Promise.all([fetch('./data/channels.json'), fetch('./data/garden.json')]);
     if (!channelsResponse.ok || !gardenResponse.ok) throw new Error('Channel registry or garden could not be loaded.');
     const [registry, garden] = await Promise.all([channelsResponse.json(), gardenResponse.json()]);
-    if (!Array.isArray(registry.channels) || registry.channels.length !== 6) throw new Error('The theater needs exactly six channels.');
+    if (!Array.isArray(registry.channels) || registry.channels.length < 6) throw new Error('The theater needs at least six channels.');
     state.channels = registry.channels;
     state.origins = registry.mediaOrigins;
     state.garden = garden.items || [];

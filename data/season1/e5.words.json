@@ -1,0 +1,41 @@
+{
+  "schema": "oso-pit-theater-words-v1",
+  "episode": "e5",
+  "draft": true,
+  "writtenBy": "the AI ʻohana — machines, labelled as machines — from the public transcript, at Shaka's direction",
+  "sourceTranscript": "/meetings/5/transcript/transcript.json",
+  "blurb": "Shaka asks the circle for one beautiful moment of music that made each person feel they belonged — the seeds of the Memory Garden. Transcript and film arriving; the written words follow once the public transcript is checked. Still a proposal, not a decision.",
+  "recap": [
+    "Words in progress. The ʻohana is writing this recap from the public, consented transcript: what the circle talked about, in plain language, with no decisions claimed. Until it lands, the full karaoke transcript on this page is the record."
+  ],
+  "quotes": [],
+  "chapters": [
+    {
+      "t": 0,
+      "title": "Opening"
+    }
+  ],
+  "whyItMatters": [
+    "The Open Source Orchestra DAO is a proposal, not an organization. Watching people talk it through — out loud, with consent, in public — is the point: receipts, not claims.",
+    "Every circle is recorded the same way: notetakers first, consent asked on the recording, nothing cut, nothing public until everyone says yes. You can record yours the same way (publicinform.com/#consent)."
+  ],
+  "glossary": [
+    {
+      "term": "DAO (proposal)",
+      "meaning": "A decentralized autonomous organization — people coordinating through shared, open rules. The Open Source Orchestra DAO is a proposal being talked through in these circles; nothing is on-chain, adopted or funded."
+    },
+    {
+      "term": "Consent-first recording",
+      "meaning": "Consent is asked out loud on the recording itself; nothing goes public until everyone has said yes and the transcript has been checked. Takedown first, questions second."
+    },
+    {
+      "term": "Open Source Orchestra",
+      "meaning": "An open circle of musicians, builders and listeners: no ticket, no conductor, every voice counts. It has played on the floor of Ethereum gatherings since Devcon 6 in Bogotá (2022)."
+    },
+    {
+      "term": "First names only",
+      "meaning": "Public editions use first names or chosen display names; surnames, contacts and private circumstances are removed."
+    }
+  ],
+  "license": "CC BY-SA 4.0"
+}

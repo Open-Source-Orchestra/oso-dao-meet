@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://osodaomeet.opensourceorchestra.org/data/season1/words.schema.json",
+  "title": "oso-pit-theater-words-v1 · the written words for one episode (CC BY-SA 4.0)",
+  "type": "object",
+  "required": [
+    "schema",
+    "episode",
+    "draft",
+    "blurb",
+    "recap",
+    "quotes",
+    "chapters",
+    "whyItMatters",
+    "glossary"
+  ],
+  "properties": {
+    "schema": {
+      "const": "oso-pit-theater-words-v1"
+    },
+    "episode": {
+      "type": "string",
+      "pattern": "^(pilot|e[0-9]+)$"
+    },
+    "draft": {
+      "type": "boolean",
+      "description": "true = placeholder; the page shows a visible 'words in progress' note"
+    },
+    "writtenBy": {
+      "type": "string",
+      "description": "always the AI ʻohana, from the public transcript; machines say they are machines"
+    },
+    "sourceTranscript": {
+      "type": "string"
+    },
+    "blurb": {
+      "type": "string",
+      "description": "≈150-word TV-guide blurb"
+    },
+    "recap": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "600–900 words as paragraphs; what the circle talked about; no decisions claimed"
+    },
+    "quotes": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": [
+          "t",
+          "who",
+          "text"
+        ],
+        "properties": {
+          "t": {
+            "type": "number"
+          },
+          "who": {
+            "type": "string",
+            "description": "first name only"
+          },
+          "text": {
+            "type": "string",
+            "description": "verbatim from the transcript"
+          }
+        }
+      }
+    },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "t",
+          "title"
+        ],
+        "properties": {
+          "t": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "whyItMatters": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "education: what a DAO proposal is, why consent-first recording, what the Open Source Orchestra is"
+    },
+    "glossary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "term",
+          "meaning"
+        ],
+        "properties": {
+          "term": {
+            "type": "string"
+          },
+          "meaning": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "license": {
+      "const": "CC BY-SA 4.0"
+    }
+  }
+}

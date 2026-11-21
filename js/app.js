@@ -11,7 +11,7 @@ const VENUES = {
   mumbai: {
     name: 'The Theater · Memory gold', entry: 'THE THEATER · MEMORY GOLD', short: 'Memory gold',
     long: 'Memory gold lighting (a Mumbai memory)',
-    detail: 'The orchestra pit on the floor, the living wall of public memories, the projector as six channels. Not an affiliated venue or digital twin.',
+    detail: 'The orchestra pit on the floor, the living wall of public memories, the projector as seven channels. Not an affiliated venue or digital twin.',
     entryNote: 'One room, three lightings — an artistic interpretation, never an exact digital twin or venue affiliation.'
   },
   prague: {

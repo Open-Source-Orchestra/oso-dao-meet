@@ -1,0 +1,71 @@
+{
+  "schema": "oso-dao-proposal-meeting-v1",
+  "meeting": 4,
+  "title": "Open Source Orchestra DAO Meet #4",
+  "circle": "Fourth circle",
+  "startedAt": "2026-11-20T02:39:00Z",
+  "endedAt": "2026-11-20T03:22:48Z",
+  "bangkokStart": "2026-11-20T09:39:00+07:00",
+  "pacificStart": "2026-11-19T18:39:00-08:00",
+  "hostedFrom": "Chiang Mai (host); guest joined from Leeds",
+  "publicRecapStatus": "pending_transcript",
+  "daoStatus": "proposal and public community ledger; not on-chain or adopted",
+  "decisions": "no final governance, treasury, membership, token or funding decision claimed; the written recap follows the checked public transcript",
+  "participants": {
+    "host": "Shaka",
+    "guests": [
+      "Ben"
+    ],
+    "naming": "first names only, as addressed in the meeting and in public posts; no surnames",
+    "rolesStated": {
+      "Shaka": "host and steward, speaking from Chiang Mai",
+      "Ben": "guest, joined from Leeds"
+    }
+  },
+  "recordingConsent": {
+    "status": "confirmed",
+    "reportedBy": "Shaka",
+    "reportedAt": "2026-11-21T11:50:00+07:00",
+    "scope": "everyone present consented to the public video and transcript (\"consent was given for all oso dao content out there so far\"); a takedown request always wins"
+  },
+  "recording": {
+    "status": "published_with_consent_media_arriving",
+    "durationSeconds": 2628,
+    "durationLabel": "43:48",
+    "rawVideo": {
+      "hostedOnThisSite": false,
+      "bytes": null,
+      "format": "Google Meet original MP4, held in the host's private Drive (not shared, not made public)",
+      "status": "kept private; the public 720p encode for theater.opensourceorchestra.org is being prepared"
+    },
+    "publicAudio": null,
+    "publicAudioPage": "/meetings/4/audio/",
+    "publicTranscript": "/meetings/4/transcript/",
+    "transcriptFormats": [],
+    "transcription": "local faster-whisper on the ʻohana's own machine (media never uploaded to a transcription service); editorial first-name speaker labels and redactions are applied before anything is published",
+    "redactions": "surnames, private meeting links, emails, phone numbers and personal circumstances are removed before publication; first names only",
+    "publicNotes": "/meetings/4/notes/",
+    "publicVideo": {
+      "status": "arriving",
+      "plannedHost": "Cloudflare R2 · theater.opensourceorchestra.org",
+      "plannedUrl": "https://theater.opensourceorchestra.org/oso-dao-meet-4-2026-11-20-720p.mp4",
+      "bytes": null,
+      "sha256": null,
+      "note": "The original recording remains private. The 720p public encode, mono MP3, captions and transcript land here as each file is verified; bytes and SHA-256 are filled in then."
+    }
+  },
+  "theater": {
+    "episode": "e4",
+    "watch": "/watch/e4/",
+    "channel": "meeting-4",
+    "hallChannel": "added to the hall's switcher once captions and chapters exist"
+  },
+  "attendeeList": "the two participants named above by first name; no other attendee data",
+  "privateMeetLinks": null,
+  "next": "further open meets; join via https://opensourceorchestra.org/join/",
+  "takedown": "https://opensourceorchestra.org/takedown/",
+  "licenses": {
+    "content": "CC BY-SA 4.0",
+    "code": "GPL-3.0"
+  }
+}

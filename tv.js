@@ -2,7 +2,7 @@
  *  One line on any door:  <script src="https://osodaomeet.opensourceorchestra.org/tv.js" async></script>
  *  Renders a small animated CRT television on the right edge of the page. Notes float out of it.
  *  Tap: a theater panel opens — music comes out of the TV (own-hosted, consented tracks),
- *  six channels of the OSO DAO theater, and the door into the room itself.
+ *  seven channels of the OSO DAO theater, the Season 1 TV at /watch/, and the door into the room itself.
  *  No trackers, no cookies, no third-party loads. Respects prefers-reduced-motion. 🌺 built by the ʻohana (machines, not people)
  */
 (function () {
@@ -24,9 +24,10 @@
     { id: 'weekly-call-2', number: 1, title: 'Weekly call #2 · right before Devcon 8' },
     { id: 'meeting-1', number: 2, title: 'Proposal Meeting #1 · 12 Nov 2026' },
     { id: 'meeting-2', number: 3, title: 'Proposal Meeting #2 · 13 Nov 2026' },
-    { id: 'deck', number: 4, title: 'The deck, narrated' },
-    { id: 'todo-es-posible', number: 5, title: 'Todo Es Posible · Pinolero demo' },
-    { id: 'devcon-6', number: 6, title: 'Devcon 6 · Chiva Chillout Lounge 2022' }
+    { id: 'meeting-3', number: 4, title: 'DAO Meet #3 · The third circle · 19 Nov 2026' },
+    { id: 'deck', number: 5, title: 'The deck, narrated' },
+    { id: 'todo-es-posible', number: 6, title: 'Todo Es Posible · Pinolero demo' },
+    { id: 'devcon-6', number: 7, title: 'Devcon 6 · Chiva Chillout Lounge 2022' }
   ];
 
   var CSS = '' +

@@ -1,0 +1,166 @@
+{
+  "schema": "oso-pit-theater-words-v1",
+  "episode": "e2",
+  "draft": false,
+  "writtenBy": "written by the AI ʻohana from the public transcripts · CC BY-SA 4.0",
+  "sourceTranscript": "/meetings/2/transcript/transcript.json",
+  "title": "The Second Circle",
+  "blurb": "Recorded one day after the first circle so that friends in India could join, this is the Open Source Orchestra at its most plain-spoken. From the lobby of 4Seas in Chiang Mai, Shaka confirms everyone's thumbs-up on tape and says it straight: there will be no token, the orchestra's liquidity is that it can show up anywhere and play. Aakaash remembers Bollywood songs at midnight in a hackathon; Sha, calling in from Goa, recalls singing at Devcon 8 without being on any schedule; Vipul offers copyright care from India. Shaka sketches a receipts-first, retroactive DAO and a European backline born from one guitar dropped by three continents. Sha popcorns a Devcon 9 song and gifts to local music schools. It ends with two 4Seas hosts saying hello and an open invitation to play in Chiang Mai. 56:47, recorded 13 November 2026, published with consent.",
+  "recap": [
+    "The second circle was recorded on 13 November 2026 at 14:11 Chiang Mai time — 12:41 in India — one day after the first, so that friends in Asian time zones could join. Shaka hosted from the lobby of 4Seas in Chiang Mai and confirmed on the recording that everyone had given a thumbs-up to being recorded. Three guests joined from India: Aakaash, who plays cajon and drums and was a backbone of the Road to Devcon 8 in Mumbai; Sha, a singer and creator calling in from Goa; and Vipul, a company secretary and advocate who works in intellectual property and copyright.",
+    "Shaka opened with the clearest statement of the series so far. DAOs have been good and bad and some have been hacked, so \"there will be no token for OSO\" — the orchestra has agents and a lot of amazing humans, and the main goal is to get together and play more music. Its liquidity, he said, is that musicians don't need a VC to back them; they can show up anywhere and start playing. He described his own shift from fundraising to harvesting and stewarding seeds in the Infinite Garden. As for what exists today: no on-chain activation beyond the ability to receive a donation. Subnames under osoartist.eth, a way to connect your own wallet, and agent wallets for tips were described as in the works — the dream being a listener who tells their agent \"give a tip to Sha, she's singing so beautifully right now\" and puts the phone back down. The transcript records what was said; this page does not vouch for any of it being ready.",
+    "The introductions are the warmest part of the hour. Aakaash met the orchestra at an ETH Mumbai hackathon, where frustrated coders would climb onto a small stage at night and play; Shaka joined in on Bollywood songs, and Aakaash realised Ethereum is not only code — it is culture too. Sha, at her second Devcon, had no idea a music scene existed there and ended up singing with the DJs and with the guitar without being on any schedule. Vipul offered what he knows: how copyright, infringement and intellectual property work in India.",
+    "From there Shaka laid out the proposal in its fullest form yet. The orchestra walks into Devcon voluntarily, as tourists and friends, never as employees — there is no rule against playing music with your friends. If grants ever arrive, he would like the very first proposals to be reimbursement requests with receipts for Devcon 8 travel: gift first, receipts after. He hoped more than half of participants might choose to take no funds and vote their share forward for about three years, towards shared needs such as a permanent European backline. The black guitar, dropped by people from three continents and repaired from the Devcon budget, became the symbol: next time, bring our own, and laugh it off. Instruments already live in Prague, Barcelona, an EF office in Berlin and in Chiang Mai. None of this was voted on, funded or scheduled.",
+    "Aakaash described what the ground floor actually did. Coders came there for peace once their sessions were over. Vocalists found musicians and musicians found vocalists. People sang in public for the first time in their lives. Shaka reflected that the space was finally called a sanctuary this year rather than a stage, and that an orchestra always belongs in its pit — on the ground floor, below the main story, supporting it. He wants Devcon 9 in Lisbon to be a sanctuary again, with a schedule that names stewards rather than slots, because holding the schedule lightly is what left room for Sha.",
+    "Sha then popcorned four ideas: record a shared Devcon 9 song remotely and play it live together; donate any surplus to local music initiatives wherever the orchestra lands, such as a music school for under-served kids; connect with Portuguese musicians who might bring instruments; and invite music-tech makers to lend new gear. Shaka loved them and mentioned Levi's live recording from Mumbai as a possible first single. Ideas, not plans.",
+    "The last stretch was a screen share: the virtual hall and the OG circle built by the ʻohana, the lineage from Devcon Bogotá through Amsterdam, Istanbul, Bangkok and Buenos Aires to Mumbai. Shaka proposed that, beyond showing up to play, people could one day consent to join a ledger with a wallet address or a steward-protected subname so that retroactive thanks can find them; that the orchestra's presence at Devcon should again come through a Devcon Improvement Proposal written and signed by all; and that multi-sig treasuries and co-stewarded agents are experiments worth exploring. In his words: the DAO is a proposal; the code is open source, built in public.",
+    "Closing words: Aakaash on a stage that returned him to school-choir hymns and gave strangers the courage to sing for the first time; Sha on a space where the conference's attack mode fell away and nervous systems got a break. Shaka stepped outside as a session began in the lobby, extended an open invitation to play music in Chiang Mai through the end of the year, and two hosts said a quick hello and goodbye. Those instruments are permissionless here too."
+  ],
+  "quotes": [
+    {
+      "t": 96.02,
+      "who": "Shaka",
+      "text": "There will be no token for OSO, but we have agents, and we have lots of amazing humans, and the main goal is that we just get together and play more music."
+    },
+    {
+      "t": 128.24,
+      "who": "Shaka",
+      "text": "That's the main source of liquidity that we have as the creative musicians in the Ethereum community, is that we don't need a VC to back us, we can just show up anywhere and start playing music."
+    },
+    {
+      "t": 375.14,
+      "who": "Aakaash",
+      "text": "Ethereum is not only just codes, only just smart contracts. It's more about culture as well."
+    },
+    {
+      "t": 1142.96,
+      "who": "Aakaash",
+      "text": "There are vocals who want to sing, but they don't have the musicians. There are musicians who want to play, but they don't have the vocals. This is the place where everyone comes united."
+    },
+    {
+      "t": 3166.46,
+      "who": "Sha",
+      "text": "It's like giving their nervous system a break: hey, you can just be here, just be, you don't have to do anything."
+    }
+  ],
+  "chapters": [
+    {
+      "t": 1.74,
+      "title": "Aloha from the lobby · thumbs-up to recording"
+    },
+    {
+      "t": 85.94,
+      "title": "No token · donations now, tips in the works"
+    },
+    {
+      "t": 303.0,
+      "title": "Aakaash and Sha: two roads into the orchestra"
+    },
+    {
+      "t": 616.56,
+      "title": "Every contribution equal · Vipul's copyright care"
+    },
+    {
+      "t": 723.56,
+      "title": "Tourists giving a gift · receipts first, retroactive"
+    },
+    {
+      "t": 906.1,
+      "title": "Three continents, one guitar · a European backline"
+    },
+    {
+      "t": 1101.3,
+      "title": "Aakaash: vocalists find musicians"
+    },
+    {
+      "t": 1292.79,
+      "title": "An orchestra in its pit · sanctuary, not schedule"
+    },
+    {
+      "t": 1842.42,
+      "title": "Sha's ideas: a Devcon 9 song, local giving"
+    },
+    {
+      "t": 2123.96,
+      "title": "A DIP signed by all · co-stewarded agents"
+    },
+    {
+      "t": 2245.32,
+      "title": "Screen share: the hall, OG circle, lineage"
+    },
+    {
+      "t": 2933.37,
+      "title": "Last words · hello and goodbye from the hosts"
+    }
+  ],
+  "whyItMatters": [
+    "If you only watch one episode to understand what the Open Source Orchestra DAO proposal is — and is not — watch this one. A DAO is normally a token-holding community that votes on a shared treasury. Here the host rules out a token in his second minute and describes the real asset instead: people who will show up anywhere and play. What he proposes is closer to a public ledger with manners. Receipts before rewards. Thanks given retroactively, after the gift. Consent recorded before anyone is named, listed or paid. Every contribution — cajon, voice, code, legal care, carrying the gear — counted the same. None of it is adopted; the published record keeps a strict line between what was said and what was decided, and so does this page. Notice also how consent is handled. The recording opens with everyone's thumbs-up, and the day after, Shaka confirmed that the transcript and audio could be published; speaker labels are editorial, private details were removed, and anyone can ask for a takedown. That is what consent-first recording looks like in practice, and it is why Devcon 9 in Lisbon — 12 to 14 October 2027 — can be talked about openly here as a hope, not a booking."
+  ],
+  "glossary": [
+    {
+      "term": "Receipts-first (retroactive) DAO",
+      "meaning": "Shaka's idea that the first proposals, if money ever arrives, should be reimbursement requests with receipts for costs already paid — gift first, thanks after."
+    },
+    {
+      "term": "osoartist.eth subname",
+      "meaning": "A personal Ethereum name under the orchestra's shared name, described as in the works so that gifts can find each artist."
+    },
+    {
+      "term": "x402 agent wallet",
+      "meaning": "A wallet an AI assistant can use to send small tips on a listener's behalf; described as a plan, not a finished product."
+    },
+    {
+      "term": "Backline",
+      "meaning": "The shared instruments and amps a band needs; the orchestra would like a permanent set in Europe before Lisbon."
+    },
+    {
+      "term": "DIP (Devcon Improvement Proposal)",
+      "meaning": "The open proposal process through which community spaces at Devcon are suggested; how the orchestra's presence began and may begin again."
+    },
+    {
+      "term": "Multi-sig treasury",
+      "meaning": "A shared account that only moves funds when several named people sign; mentioned as a later experiment, not a thing that exists."
+    },
+    {
+      "term": "In its pit",
+      "meaning": "Shaka's image for the orchestra's place: below the stage, supporting the main story rather than taking it."
+    },
+    {
+      "term": "Music sanctuary",
+      "meaning": "What the Devcon 8 ground-floor space was called this year instead of a stage, and what the circle hopes Lisbon will have again."
+    }
+  ],
+  "seeds": [
+    {
+      "t": 351.14,
+      "who": "Aakaash",
+      "text": "Whenever we used to get frustrated from coding at night, we used to go on the stage … Shaka joined us and we started playing some Bollywood songs."
+    },
+    {
+      "t": 566.56,
+      "who": "Sha",
+      "text": "I had no idea that I would be able to sing or do anything … so grateful that I was able to be part of it."
+    },
+    {
+      "t": 990.0,
+      "who": "Shaka",
+      "text": "Young college students who've never sang in a space like that, getting to sing in the Jio World Centre."
+    },
+    {
+      "t": 1237.64,
+      "who": "Aakaash",
+      "text": "We learned a lot of stuff from Aniket that how Indian classical music works and you can play a sitar on a guitar."
+    },
+    {
+      "t": 2996.6,
+      "who": "Aakaash",
+      "text": "This stage brought me back to my nostalgic school choir time where we used to sing hymns."
+    },
+    {
+      "t": 3046.36,
+      "who": "Aakaash",
+      "text": "People who haven't got a stage to come together and sing once took the courage in themselves and came there and sang for the first time in their lifetime."
+    }
+  ],
+  "license": "CC BY-SA 4.0"
+}

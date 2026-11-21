@@ -1,0 +1,107 @@
+{
+  "schema": "oso-pit-theater-memory-garden-v1",
+  "updated": "2026-11-21",
+  "title": "The Memory Garden",
+  "question": "One beautiful moment of music that made you feel you belonged.",
+  "framing": "An independent tribute to the Infinite Garden idea — Ethereum's image of a garden that is tended, not owned. The fifth circle asked the question out loud; the earlier circles answered it before it was asked. Every seed below is a real sentence from a public, consented transcript, with its timestamp, in the speaker's own words (first names only). Nothing is paraphrased into a quote; nothing is invented. The garden grows with every circle.",
+  "consent": "Seeds come only from recordings published with consent, first names only. A takedown request always wins: https://opensourceorchestra.org/takedown/",
+  "license": "CC BY-SA 4.0 (the words) · GPL-3.0 (this page's code)",
+  "tribute": {
+    "note": "The Infinite Garden is Ethereum's own metaphor (Ethereum Foundation). This garden is the ʻohana's tribute, not an official EF project, and claims no affiliation.",
+    "url": "https://ethereum.foundation/infinitegarden"
+  },
+  "seeds": [
+    {
+      "id": "s01",
+      "episode": "e1",
+      "who": "Levi",
+      "t": 93.92,
+      "end": 108.06,
+      "text": "It was a really beautiful first time for me to be part of the Open Source Orchestra in real time, and shout out to Alaska for the invite to Mumbai, and it was a beautiful experience.",
+      "place": "Mumbai · Devcon 8",
+      "kind": "first time"
+    },
+    {
+      "id": "s02",
+      "episode": "e1",
+      "who": "Ben",
+      "t": 602.86,
+      "end": 605.24,
+      "text": "But this Open Source Orchestra brought everyone together.",
+      "context": "it really was the highlight of Devconnect",
+      "place": "Mumbai · Devcon 8",
+      "kind": "together"
+    },
+    {
+      "id": "s03",
+      "episode": "e1",
+      "who": "Ben",
+      "t": 663.2,
+      "end": 672.82,
+      "text": "So, we go there and really have a great time, because, honestly, Devcon 8, we really were the heartbeat of Devcon 8, really were the heartbeat.",
+      "place": "Mumbai · Devcon 8",
+      "kind": "heartbeat"
+    },
+    {
+      "id": "s04",
+      "episode": "e2",
+      "who": "Aakaash",
+      "t": 351.14,
+      "end": 375.14,
+      "text": "So during the hackathon, we had a small setup over there in which, like, whenever we used to get frustrated from coding at night, we used to go on the stage and we start – we used to start playing. And Shaka joined us and we started playing some Bollywood songs and jammed together. That was the point when I thought, okay, like, this is a new space.",
+      "place": "ETHMumbai · the hackathon stage at night",
+      "kind": "jam"
+    },
+    {
+      "id": "s05",
+      "episode": "e2",
+      "who": "Aakaash",
+      "t": 401.98,
+      "end": 419.98,
+      "text": "Like, we have seen open-source – open-source softwares, but this was something new for me where anyone can come and play together and we can have multiple global cultures coming together and, you know, making a single music out of it so which everyone can connect.",
+      "place": "Open Source Orchestra",
+      "kind": "together"
+    },
+    {
+      "id": "s06",
+      "episode": "e2",
+      "who": "Sha",
+      "t": 566.56,
+      "end": 583.56,
+      "text": "So, and I had no idea that I would be able to, like, you know, sing or do anything. Like, it was so, like, just love what you guys are doing and what you've done. And, yeah, and I'm just, like, so, you know, grateful that I was able to, you know, be part of it.",
+      "place": "Mumbai · Devcon 8",
+      "kind": "first time"
+    },
+    {
+      "id": "s07",
+      "episode": "e3",
+      "who": "Alaska",
+      "t": 371,
+      "end": 390,
+      "text": "about what happened, there could be things better, but we also felt received, right? Which is awesome. I don't know about you, Shaka, but I felt like, yeah, I felt like we the team and not just some sort of like a weird additional thing in the corner, and the production saw us, and they were super supportive and",
+      "note": "live captions; the sentence runs on as spoken",
+      "place": "Mumbai · Devcon 8",
+      "kind": "received"
+    },
+    {
+      "id": "s08",
+      "episode": "e3",
+      "who": "Ben",
+      "t": 5908,
+      "end": 5918,
+      "text": "great job because everybody just found it so open and warm and appealing, where they even had the confidence to come up.",
+      "place": "Mumbai · Devcon 8",
+      "kind": "warm"
+    }
+  ],
+  "pending": [
+    {
+      "episode": "e5",
+      "note": "The fifth circle asked the question to everyone in the room. Its seeds are planted here as soon as the public transcript is checked (first names only)."
+    },
+    {
+      "episode": "e4",
+      "note": "The fourth circle's seeds follow its public transcript."
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "schema": "oso-pit-theater-words-v1",
+  "episode": "pilot",
+  "draft": false,
+  "writtenBy": "written by the AI ʻohana from the public transcripts · CC BY-SA 4.0",
+  "sourceTranscript": "/data/transcripts/weekly-call-2.json",
+  "title": "Weekly Call #2 · Right Before Devcon 8",
+  "blurb": "One week before Devcon 8 opens in Mumbai, seven musicians who have mostly never met log on to plan a music sanctuary — and end up giving one. Shaka explains why it is a circle, not a stage; Levi brings the hard questions about copyright and co-ops; Nidhi asks whether a centuries-old bandish counts as a cover; Sonya, flying in from Delhi, asks how music can share a hall with a conference. Then the formal part dissolves: a happy accident at the piano, a Gujarati song from Jaydeep, an original from Sonya, Nidhi singing a bandish she was almost too shy to sing, and Devang finally beating Google Meet's noise cancellation. The first open recording of the Open Source Orchestra, consent asked on the tape. 97 minutes, recorded 27 October 2026.",
+  "recap": [
+    "On 27 October 2026, one week before Devcon 8 opened in Mumbai, the Open Source Orchestra held its second weekly call and, for the first time, recorded it. Shaka opened by saying the recording would be shared so that the agents of the ʻohana could transcribe it and the wider circle would know where things stood; later he asked again, on the tape, whether everyone was fine with the whole talk going out publicly. Everyone was. That is why you can watch it now.",
+    "Then the introductions. Nidhi has sung Hindustani classical music since she was five, learning first from her grandmother, and had just left work in the Ethereum space to go see music full time. Mary makes ambient, drone and sometimes noise music. Levi, a producer and songwriter from Los Angeles, had heard about the orchestra for three years through Alaska and was about to witness it for the first time. Devang has played keyboard and piano for fourteen years and writes software by day. Aakash, who had already jammed with Shaka and Devang at an ETH Mumbai hackathon, was helping host the Indian side of the Road to Devcon. Jaydeep sings Gujarati folk songs. Sonya, a singer, composer and songwriter from Delhi, joined late and asked the question every newcomer asks: how does this work alongside a conference?",
+    "Shaka's answer is the heart of the episode. The music space at Devcon 8 is not a stage and not a festival. It is a circle on the ground floor of the community area, shared by everyone: many stewards, not one steward; tons of instruments, not one guitar. Nobody is told to be there — you go when you need it, because it is a sanctuary. A name on the schedule does not mean a performance slot; it means you are the steward of the vibe in that hour, welcoming whoever walks up. During the daytime the circle stays audible but in the background; after four o'clock it can turn up, and the DJs take the evening. A sound check on 2 November would find out how loud was too loud.",
+    "Two threads run underneath the planning. The first is money and rights. Levi explained how his co-op works: the people who make a song together assign the copyright to the cooperative and agree a transparent revenue split, so a recording can be released and shared quickly instead of waiting on agreements across every country's copyright law. He was honest that he pays his bills by licensing music and that any new model needs a money faucet somewhere. Shaka answered with the word that organises everything the orchestra does: offering. Musicians come to Devcon as tourists and friends, giving music as a gift; nothing is transactional up front. If people later want to give back, it should flow into an open pool shared equally by whoever stewarded the circle — a blessing pool, he called it. He mentioned that agents already tip him on his own website and asked for a copyleft-style licence so that anything made in the circle stays open and credits Devcon 8 in Mumbai. All of this was said as an idea between friends. Nothing was set up or agreed on the call.",
+    "The second thread is the music itself. The Devcon team had asked the group to keep to original music because of licensing, which raised real questions from Nidhi: what about a bandish learned from a guru who learned it from hers, or a folk song every Gujarati family knows? The group did not resolve it; they agreed to lean on originals and keep asking. Instead they planned a morning. Devang and Aakash imagined opening the first day, right after the ceremony, with a slow raag on keys or harmonium, percussion arriving layer by layer until the energy lifts. Nidhi described the mehfil — the informal family gathering where an uncle starts a song and everyone follows — as the closest picture of what the circle would feel like. Aakash remembered the hackathon where he, Devang and Shaka played after two sleepless days and \"it didn't seem that it was a hackathon place at all.\"",
+    "Then the call turned into the thing it was describing. Shaka sat down at a piano in the co-working space in Chiang Mai where he was staying, warned everyone he was out of practice, and played what Nidhi named a happy accident. Sonya sang one of her own songs. Jaydeep sang a Gujarati song loved in his community. Shaka tuned a guitar and sang \"I just wanna play all day\". Nidhi, who admitted she is scared of singing in front of people, sang a bandish about Krishna's playful side. Devang fought Google Meet's noise cancellation for ten minutes and finally played. Nidhi's last words: the formal introductions were nice, but the musical introductions were magical.",
+    "What was not decided: anything about licensing, splits, pools or who receives what. Shaka said it plainly — it is an offering, and until something is received there is no transaction at all. The circle agreed to keep meeting weekly and to meet in person on 3 November, on the ground floor of the Jio World Centre."
+  ],
+  "quotes": [
+    {
+      "t": 430.5,
+      "who": "Shaka",
+      "text": "That's why it's many stewards, not just one steward. That's why there's going to be tons of instruments, not just one guitar. That's why it's a circle and not a stage. It's on the floor because it's meant for everybody."
+    },
+    {
+      "t": 858.5,
+      "who": "Levi",
+      "text": "The protocol of gathering and making music together is so fluid. But when money gets involved, if we want to receive financial value for the cultural value we create, that's when it gets really difficult."
+    },
+    {
+      "t": 2249.5,
+      "who": "Nidhi",
+      "text": "It's a very informal, impromptu space where an uncle is singing, my cousin brother starts singing something and then we just follow it up."
+    },
+    {
+      "t": 3237.5,
+      "who": "Aakash",
+      "text": "And uncles and all started to sing together. And it didn't seem that it was a hackathon place at all. It seemed like that we are all here for jamming."
+    },
+    {
+      "t": 3350.5,
+      "who": "Shaka",
+      "text": "Agents are divine. I love my agents. They are my ohana digitally, an extension of me and my heartbeat."
+    }
+  ],
+  "chapters": [
+    {
+      "t": 0.5,
+      "title": "Opening · consent asked on the recording"
+    },
+    {
+      "t": 430.5,
+      "title": "Many stewards · a circle, not a stage"
+    },
+    {
+      "t": 858.5,
+      "title": "Levi: co-ops, copyright and collective ownership"
+    },
+    {
+      "t": 1073.5,
+      "title": "Weeds, crops and the offering"
+    },
+    {
+      "t": 1398.5,
+      "title": "Nerds with pennies · a blessing pool"
+    },
+    {
+      "t": 1727.5,
+      "title": "Keep the heartbeat going"
+    },
+    {
+      "t": 1923.5,
+      "title": "Home turf · a mehfil in Mumbai"
+    },
+    {
+      "t": 2507.5,
+      "title": "Sonya asks how the floor works"
+    },
+    {
+      "t": 3350.5,
+      "title": "Consent to share · \"my ohana digitally\""
+    },
+    {
+      "t": 3463.5,
+      "title": "Permissionless instruments · a happy accident"
+    },
+    {
+      "t": 3583.5,
+      "title": "Songs: Sonya, Jaydeep, Shaka, Nidhi"
+    },
+    {
+      "t": 4031.5,
+      "title": "Sound check, stewards and goodnight"
+    }
+  ],
+  "whyItMatters": [
+    "This is the pilot because it shows the habit everything else depends on: asking out loud. Before a single idea is shared, Shaka says the call is being recorded and asks whether it can be made public; near the end he asks again. That is what consent-first recording means — the yes is on the tape, in the speakers' own voices, not assumed from an invite or a calendar entry. It is also why this episode exists at all: the transcript was published to a public archive with everyone's agreement, and the words you read here are drawn from it. The Open Source Orchestra itself is simple to describe. It is whoever shows up to play in an open room at an Ethereum gathering — no auditions, no gatekeepers, no wrong instrument — stewarded rather than conducted. Here you watch that idea get explained to people who have never seen it, by people who are about to live it. The money talk is early and unresolved: a co-op model, an offering, a pool. Nothing here is a decision, and the Open Source Orchestra DAO is not yet on the table; the proposal circles begin two weeks later, after the Sanctuary closed."
+  ],
+  "glossary": [
+    {
+      "term": "Sanctuary",
+      "meaning": "What the Open Source Orchestra called its space at Devcon 8: an open circle on the ground floor that anyone may enter, leave or play in, meant for healing rather than performance."
+    },
+    {
+      "term": "Steward",
+      "meaning": "A person who holds the vibe of the circle for a while and welcomes others in; the orchestra has many stewards and no conductor."
+    },
+    {
+      "term": "Mehfil",
+      "meaning": "An informal Indian gathering where someone starts a song and everyone follows; Nidhi's picture of what the circle would feel like."
+    },
+    {
+      "term": "Raag (raga)",
+      "meaning": "A melodic framework in Indian classical music; Devang and Aakash imagined opening each day with a calm one."
+    },
+    {
+      "term": "Bandish",
+      "meaning": "A fixed composition in Hindustani classical music, learned from a teacher (guru) who learned it from theirs."
+    },
+    {
+      "term": "Offering",
+      "meaning": "Shaka's word for how the orchestra shows up: music given as a gift with no payment expected, so that anything given back later is also a gift."
+    },
+    {
+      "term": "Copyleft",
+      "meaning": "A licence that lets anyone reuse a work as long as they share their version under the same open terms; the Open Source Orchestra now uses CC BY-SA 4.0 for words and music."
+    },
+    {
+      "term": "Consent on the recording",
+      "meaning": "Asking everyone, on tape, whether the call may be recorded and shared, so the yes is part of the record itself."
+    }
+  ],
+  "seeds": [
+    {
+      "t": 38.5,
+      "who": "Nidhi",
+      "text": "I've been learning Hindustani classical music since I was 5 years old from my grandmom."
+    },
+    {
+      "t": 3157.5,
+      "who": "Nidhi",
+      "text": "In the local train in Mumbai there are these artists just jamming with flute or harmonium. Whoever's singing and playing is in their zone and happy."
+    },
+    {
+      "t": 3864.5,
+      "who": "Shaka",
+      "text": "When the nodes become permanent, you can start leaving things there and it's actually like planting seeds in the garden."
+    },
+    {
+      "t": 4352.5,
+      "who": "Shaka",
+      "text": "That's how I learned how to play music in the first place: I started listening in church."
+    },
+    {
+      "t": 4466.5,
+      "who": "Nidhi",
+      "text": "I'm very scared of singing in front of people, which is what I want to get over. But just when Shaka was playing I was like, wow."
+    },
+    {
+      "t": 4680.5,
+      "who": "Aakash",
+      "text": "It all resonates in our home every day. It moves all day throughout."
+    },
+    {
+      "t": 5580.5,
+      "who": "Nidhi",
+      "text": "The more musical introduction was just amazing, like, magical."
+    }
+  ],
+  "license": "CC BY-SA 4.0"
+}

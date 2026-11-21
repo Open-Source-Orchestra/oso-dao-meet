@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://web.resource.org/cc/">
+  <channel>
+    <title>OSO PIT THEATER · Season 1 · The Proposal Circles</title>
+    <link>https://osodaomeet.opensourceorchestra.org/watch/</link>
+    <atom:link href="https://osodaomeet.opensourceorchestra.org/watch/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en</language>
+    <description>The Open Source Orchestra DAO is a proposal, not an on-chain organization. Season 1 is every circle that talked it through — recorded with consent asked out loud, published with first names only, free to fork. Audio of every consented Open Source Orchestra DAO proposal circle (mono MP3). First names only; takedown first. Made by Shaka's AI ʻohana — machines, labelled as machines.</description>
+    <copyright>CC BY-SA 4.0 · Open Source Orchestra and the people in each circle · share-alike</copyright>
+    <cc:license>https://creativecommons.org/licenses/by-sa/4.0/</cc:license>
+    <lastBuildDate>Sat, 21 Nov 2026 05:11:10 +0000</lastBuildDate>
+    <itunes:author>Open Source Orchestra</itunes:author>
+    <itunes:summary>The Open Source Orchestra DAO is a proposal, not an on-chain organization. Season 1 is every circle that talked it through — recorded with consent asked out loud, published with first names only, free to fork.</itunes:summary>
+    <itunes:type>serial</itunes:type>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Music"><itunes:category text="Music Commentary"/></itunes:category>
+    <itunes:category text="Society &amp; Culture"/>
+    <itunes:image href="https://osodaomeet.opensourceorchestra.org/assets/watch/season1-artwork.jpg"/>
+    <image><url>https://osodaomeet.opensourceorchestra.org/assets/watch/season1-artwork.jpg</url><title>OSO PIT THEATER · Season 1</title><link>https://osodaomeet.opensourceorchestra.org/watch/</link></image>
+    <item>
+      <title>Pilot · Weekly call #2 · right before Devcon 8</title>
+      <link>https://osodaomeet.opensourceorchestra.org/watch/pilot/</link>
+      <guid isPermaLink="true">https://osodaomeet.opensourceorchestra.org/watch/pilot/</guid>
+      <pubDate>Tue, 27 Oct 2026 16:06:00 +0000</pubDate>
+      <description>1h37 of musicians, stewards and friends across India, the US and Thailand — the sanctuary, continuous flow, India × the West, the cultural floor, sound check, stewards and the jam. Recorded 27 October 2026 · 16:06 UTC with consent asked out loud; first names only. Recorded with everyone&#x27;s consent, asked out loud on the recording itself (00:06, confirmed 00:35 and 01:02). Everyone named in the transcript consented to this recording being public. Still a proposal, not an on-chain DAO. CC BY-SA 4.0.</description>
+      <enclosure url="https://archive.org/download/oso-weekly-call-2-2026-10-27/weekly-call-2-2026-10-27.mp3" length="99522669" type="audio/mpeg"/>
+      <itunes:duration>1:37:11</itunes:duration>
+      <itunes:episode>0</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://osodaomeet.opensourceorchestra.org/assets/channels/poster-weekly-call-2.jpg"/>
+    </item>
+    <item>
+      <title>Episode 1 · The First Circle</title>
+      <link>https://osodaomeet.opensourceorchestra.org/watch/e1/</link>
+      <guid isPermaLink="true">https://osodaomeet.opensourceorchestra.org/watch/e1/</guid>
+      <pubDate>Thu, 12 Nov 2026 17:36:00 +0000</pubDate>
+      <description>Shaka opens the first proposal circle after Devcon 8 with Ben, Levi and Utkarsh: how a no-commission orchestra might one day fund flights, housing and a shared backline retroactively and equally, from EthCC in Cannes to Devcon 9 in Lisbon. Levi describes his co-op’s approach to rights and revenue splits, Utkarsh’s x402 agent-tipping work is recapped, and the circle agrees only to keep talking — the DAO stays a proposal, in Shaka’s words “just a prayer.” Recorded 12 November 2026 · 17:36 UTC · 00:36 Bangkok with consent asked out loud; first names only. Recorded with everyone&#x27;s consent to publish: full consent for this recording to be broadcast and shared everywhere, confirmed by Shaka Lei Kaumaka on 13 November 2026 (05:21 UTC). Still a proposal, not an on-chain DAO. CC BY-SA 4.0.</description>
+      <enclosure url="https://osodaomeet.opensourceorchestra.org/meetings/1/audio/oso-dao-proposal-meeting-1-2026-11-12.mp3" length="25853012" type="audio/mpeg"/>
+      <itunes:duration>53:51</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://osodaomeet.opensourceorchestra.org/assets/channels/poster-meeting-1.jpg"/>
+    </item>
+    <item>
+      <title>Episode 2 · The Second Circle</title>
+      <link>https://osodaomeet.opensourceorchestra.org/watch/e2/</link>
+      <guid isPermaLink="true">https://osodaomeet.opensourceorchestra.org/watch/e2/</guid>
+      <pubDate>Fri, 13 Nov 2026 07:11:00 +0000</pubDate>
+      <description>Shaka hosts Aakaash, Sha and Vipul: no token for OSO, gift first and receipts after, a European backline for the road to Lisbon, a Devcon 9 song, copyright care — and a tour of this very hall. Recorded 13 November 2026 · 07:11 UTC · 14:11 Bangkok with consent asked out loud; first names only. Recorded with everyone&#x27;s consent to publish — participants gave a thumbs-up to recording at the opening — confirmed by Shaka Lei Kaumaka on 14 November 2026 (04:20 UTC). Still a proposal, not an on-chain DAO. CC BY-SA 4.0.</description>
+      <enclosure url="https://osodaomeet.opensourceorchestra.org/meetings/2/audio/oso-dao-proposal-meeting-2-2026-11-13.mp3" length="27261952" type="audio/mpeg"/>
+      <itunes:duration>56:47</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://osodaomeet.opensourceorchestra.org/assets/channels/poster-meeting-2.jpg"/>
+    </item>
+  </channel>
+</rss>

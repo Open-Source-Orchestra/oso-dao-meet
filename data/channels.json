@@ -1,7 +1,7 @@
 {
   "schema": "oso-theater-channels-v1",
-  "updated": "2026-11-20",
-  "theater": "Open Source Orchestra DAO Meet · The Theater — one room: the orchestra pit on the floor, the living wall of public memories, and the projector as a six-channel switcher.",
+  "updated": "2026-11-21",
+  "theater": "Open Source Orchestra DAO Meet · The Theater — one room: the orchestra pit on the floor, the living wall of public memories, and the projector as a seven-channel switcher.",
   "ledger": "/meetings/",
   "protocol": {
     "name": "PIT protocol · publicinform",
@@ -394,8 +394,114 @@
       "ledgerEntry": "/meetings/#meeting-2"
     },
     {
-      "id": "deck",
+      "id": "meeting-3",
       "number": 4,
+      "kind": "video",
+      "title": "Open Source Orchestra DAO Meet #3 · The third circle",
+      "subtitle": "Chiang Mai, Leeds and Barcelona in one room · Episode 3",
+      "lede": "Shaka hosts from Chiang Mai; Ben joins from Leeds, Alaska from Barcelona, Mary by chat from the road. Stewarding an open sanctuary that feels like a living room, transparent funding with receipts, Subcult and venue offers, Web3 in schools and a song on the road from Cannes to Lisbon. Everything remains a proposal, not a decision.",
+      "recordedAt": "2026-11-19T17:36:51Z",
+      "dateLabel": "19 November 2026 · 17:36 UTC · 00:36 Bangkok (20 Nov)",
+      "durationSeconds": 6422,
+      "durationLabel": "1:47:02",
+      "speakers": [
+        "Shaka",
+        "Ben",
+        "Alaska",
+        "Mary"
+      ],
+      "speakersNote": "first names only, from the meeting display and how people were addressed; Googly Eye (a transcription bot) took the live captions",
+      "consent": {
+        "status": "published_with_consent",
+        "line": "Everyone present consented to the public video and transcript; confirmed by Shaka on 20 November 2026 (2:33 AM Bangkok). First names only; a takedown request always wins.",
+        "confirmedBy": "Shaka",
+        "confirmedAt": "2026-11-20T02:33:00+07:00",
+        "home": "/meetings/3/"
+      },
+      "media": {
+        "video": {
+          "url": "https://theater.opensourceorchestra.org/oso-dao-meet-3-2026-11-19-720p.mp4",
+          "type": "video/mp4",
+          "bytes": null,
+          "sha256": null,
+          "host": "Cloudflare R2 · theater.opensourceorchestra.org",
+          "arriving": true,
+          "note": "film arriving: 720p encode + upload in progress; bytes and SHA-256 land in /meetings/3/status.json when verified"
+        },
+        "audio": {
+          "url": "/meetings/3/audio/oso-dao-meet-3-2026-11-19.mp3",
+          "bytes": null,
+          "arriving": true
+        },
+        "poster": "./assets/channels/poster-meeting-3.jpg",
+        "captions": "./meetings/3/transcript/transcript.vtt",
+        "transcript": "./meetings/3/transcript/transcript.json"
+      },
+      "chapters": [
+        {
+          "start": 0,
+          "title": "Opening · hellos across three cities"
+        },
+        {
+          "start": 349,
+          "title": "Devcon 8 · feeling received, not an afterthought"
+        },
+        {
+          "start": 954,
+          "title": "Ben · the hub of Devcon and the finances scare"
+        },
+        {
+          "start": 1381,
+          "title": "Tools, venues and offers"
+        },
+        {
+          "start": 1832,
+          "title": "Growing the DAO, schools and songs"
+        },
+        {
+          "start": 2458,
+          "title": "Funding and transparency"
+        },
+        {
+          "start": 4200,
+          "title": "The join site and profiles"
+        },
+        {
+          "start": 5185,
+          "title": "Stewarding an open sanctuary"
+        },
+        {
+          "start": 6189,
+          "title": "Closing · butterflies and love"
+        }
+      ],
+      "links": [
+        {
+          "label": "Meet #3 · recap",
+          "url": "/meetings/3/"
+        },
+        {
+          "label": "High-level notes",
+          "url": "/meetings/3/notes/"
+        },
+        {
+          "label": "Full transcript",
+          "url": "/meetings/3/transcript/"
+        },
+        {
+          "label": "Audio",
+          "url": "/meetings/3/audio/"
+        },
+        {
+          "label": "Episode 3 in the TV",
+          "url": "/watch/e3/"
+        }
+      ],
+      "ledgerEntry": "/meetings/#meeting-3"
+    },
+    {
+      "id": "deck",
+      "number": 5,
       "kind": "deck",
       "title": "The deck · twelve movements with AI steward narration",
       "subtitle": "The First Circle slides, read by the authorized synthetic Shaka-agent steward voice",
@@ -435,7 +541,7 @@
     },
     {
       "id": "todo-es-posible",
-      "number": 5,
+      "number": 6,
       "kind": "youtube",
       "title": "Todo Es Posible · Música con JAMón",
       "subtitle": "The OSO motto — ‘everything is possible’ · Pinolero demo track 2",
@@ -477,7 +583,7 @@
     },
     {
       "id": "devcon-6",
-      "number": 6,
+      "number": 7,
       "kind": "youtube",
       "title": "Devcon 6 · Chiva Chillout Lounge · Bogotá 2022",
       "subtitle": "Where the first OSO DIP activated the Music Stage",
@@ -574,5 +680,11 @@
       }
     ],
     "note": "Listed here for the ledger and readable edition. Not yet a theater projector channel: the six-channel switcher stays unchanged until the 720p film is hosted."
+  },
+  "tv": {
+    "watch": "/watch/",
+    "feed": "/watch/feed.xml",
+    "season": "/data/season1/season.json",
+    "note": "Season 1 · The Proposal Circles: every consented circle as an episode. Episodes 4 and 5 join this switcher once their captions and chapters exist."
   }
 }
