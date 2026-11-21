@@ -436,8 +436,11 @@ def transcript_html(ep: dict, cues: list[dict], provenance: str) -> str:
 
 def word_timing_path(ep: dict) -> str | None:
     """Site path of the word-timing sidecar (whisper word timestamps aligned to the public text), if one is committed."""
-    ledger = ep.get("ledger") or ""
-    candidates = [f"{ledger}transcript/words.json"] if ledger.startswith("/meetings/") else []
+    # The sidecar sits next to the transcript it was aligned to (meetings/N/transcript/words.json). Never derive it from
+    # the ledger URL: ledger pages for #1/#2 are 0-indexed (/meetings/0/ = Meeting #1) while the files live in meetings/1/,
+    # so the ledger route handed episode 2 the clock of episode 1 (caught 22 Nov 2026 when the first sidecars landed).
+    transcript = (ep.get("media") or {}).get("transcript") or ""
+    candidates = [transcript[: -len("transcript.json")] + "words.json"] if transcript.startswith("/meetings/") and transcript.endswith("/transcript.json") else []
     candidates.append(f"/data/season1/{ep['id']}.words-timing.json")
     for candidate in candidates:
         if present(candidate):

@@ -166,7 +166,8 @@
         },
         "poster": "./assets/channels/poster-meeting-1.jpg",
         "captions": "./meetings/1/transcript/transcript.vtt",
-        "transcript": "./meetings/1/transcript/transcript.json"
+        "transcript": "./meetings/1/transcript/transcript.json",
+        "wordTiming": "./meetings/1/transcript/words.json"
       },
       "chapters": [
         {
@@ -305,7 +306,8 @@
         },
         "poster": "./assets/channels/poster-meeting-2.jpg",
         "captions": "./meetings/2/transcript/transcript.vtt",
-        "transcript": "./meetings/2/transcript/transcript.json"
+        "transcript": "./meetings/2/transcript/transcript.json",
+        "wordTiming": "./meetings/2/transcript/words.json"
       },
       "chapters": [
         {

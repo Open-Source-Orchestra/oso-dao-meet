@@ -190,7 +190,7 @@ export function createTheater({ hall, narration, showToast, onEnter, stopSlidesh
       renderKaraoke(channel, [], 'Loading the transcript…');
       const cues = await loadTranscript(channel);
       if (current() !== channel) return;
-      renderKaraoke(channel, cues, cues.length ? `${cues.length} lines · ${channel.speakersNote || 'first names only'} · click a line to seek · the lit line follows playback` : 'No synchronized transcript for this channel.');
+      renderKaraoke(channel, cues, cues.length ? `${cues.length} lines · ${channel.speakersNote || 'first names only'} · click a line to seek · the lit line follows playback${channel.media?.wordTiming ? ' · word timing by whisper (clock only; the words are unchanged)' : ' · words light by interpolation inside each line'}` : 'No synchronized transcript for this channel.');
       if (seekTo !== null && Number.isFinite(seekTo)) {
         const target = Math.max(0, Math.min(seekTo, (channel.durationSeconds || seekTo) - 1));
         syncKaraoke(target);
