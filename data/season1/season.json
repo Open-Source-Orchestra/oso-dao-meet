@@ -595,9 +595,9 @@
         "transcript": "/meetings/4/transcript/transcript.json",
         "archive": null,
         "highlight": {
-          "wide": null,
-          "tall": null,
-          "note": "highlight reel arriving · cut by the ʻohana from the public transcript · CC BY-SA 4.0"
+          "wide": "https://theater.opensourceorchestra.org/reels/e4-reel-16x9.mp4",
+          "tall": "https://theater.opensourceorchestra.org/reels/e4-reel-9x16.mp4",
+          "note": "highlight reel cut by the AI ʻohana from the public film · CC BY-SA 4.0"
         }
       },
       "chapters": [
@@ -679,9 +679,9 @@
         "transcript": "/meetings/5/transcript/transcript.json",
         "archive": null,
         "highlight": {
-          "wide": null,
-          "tall": null,
-          "note": "highlight reel arriving · cut by the ʻohana from the public transcript · CC BY-SA 4.0"
+          "wide": "https://theater.opensourceorchestra.org/reels/e5-reel-16x9.mp4",
+          "tall": "https://theater.opensourceorchestra.org/reels/e5-reel-9x16.mp4",
+          "note": "highlight reel cut by the AI ʻohana from the public film · CC BY-SA 4.0"
         }
       },
       "chapters": [
