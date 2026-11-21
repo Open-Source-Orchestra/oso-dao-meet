@@ -29,7 +29,7 @@
     "scope": "everyone present consented to the public video and transcript (\"consent was given for all oso dao content out there so far\"); a takedown request always wins"
   },
   "recording": {
-    "status": "published_with_consent_media_arriving",
+    "status": "published_with_consent",
     "durationSeconds": 2628,
     "durationLabel": "43:48",
     "rawVideo": {
@@ -38,7 +38,7 @@
       "format": "Google Meet original MP4, held in the host's private Drive (not shared, not made public)",
       "status": "kept private; the public 720p encode for theater.opensourceorchestra.org is being prepared"
     },
-    "publicAudio": null,
+    "publicAudio": "https://theater.opensourceorchestra.org/oso-dao-meet-4-2026-11-20.mp3",
     "publicAudioPage": "/meetings/4/audio/",
     "publicTranscript": "/meetings/4/transcript/",
     "transcriptFormats": [
@@ -50,14 +50,19 @@
     "redactions": "surnames, private meeting links, emails, phone numbers and personal circumstances are removed before publication; first names only",
     "publicNotes": "/meetings/4/notes/",
     "publicVideo": {
-      "status": "arriving",
-      "plannedHost": "Cloudflare R2 · theater.opensourceorchestra.org",
-      "plannedUrl": "https://theater.opensourceorchestra.org/oso-dao-meet-4-2026-11-20-720p.mp4",
-      "bytes": null,
-      "sha256": null,
-      "note": "The original recording remains private. The 720p public encode, mono MP3, captions and transcript land here as each file is verified; bytes and SHA-256 are filled in then."
+      "status": "published",
+      "bytes": 509939690,
+      "sha256": "4b3284fc32553adffadab70069b4cf44406a56f2eef3ce16fa1f0bb4c0e2aa84",
+      "note": "720p H.264 public encode on Cloudflare R2, byte-range streaming; the original recording remains private. Bytes and SHA-256 verified live before this entry was written.",
+      "url": "https://theater.opensourceorchestra.org/oso-dao-meet-4-2026-11-20-720p.mp4",
+      "host": "Cloudflare R2 · theater.opensourceorchestra.org",
+      "durationSeconds": 2627.62
     },
-    "publicTranscriptEdition": "automatic — editorial pass (first-name speaker labels) pending"
+    "publicTranscriptEdition": "automatic — editorial pass (first-name speaker labels) pending",
+    "publicAudioBytes": 21021195,
+    "publicAudioSha256": "9e7f5619a5a96b9701dfd44c5a067eeebf85a2e687f23e9739e3a7a26d71db99",
+    "publicAudioHost": "Cloudflare R2 · theater.opensourceorchestra.org",
+    "publicAudioDurationSeconds": 2627.6
   },
   "theater": {
     "episode": "e4",

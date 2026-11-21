@@ -199,9 +199,9 @@
     "transcript": "/meetings/1/transcript/transcript.json",
     "archive": "https://archive.org/details/oso-dao-proposal-meeting-1-2026-11-12",
     "highlight": {
-     "wide": null,
-     "tall": null,
-     "note": "highlight reel arriving · cut by the ʻohana from the public transcript · CC BY-SA 4.0"
+     "wide": "https://theater.opensourceorchestra.org/reels/e1-reel-16x9.mp4",
+     "tall": "https://theater.opensourceorchestra.org/reels/e1-reel-9x16.mp4",
+     "note": "highlight reel cut by the AI ʻohana from the public film · CC BY-SA 4.0"
     }
    },
    "chapters": [
@@ -343,9 +343,9 @@
     "transcript": "/meetings/2/transcript/transcript.json",
     "archive": "https://archive.org/details/oso-dao-proposal-meeting-2-2026-11-13",
     "highlight": {
-     "wide": null,
-     "tall": null,
-     "note": "highlight reel arriving · cut by the ʻohana from the public transcript · CC BY-SA 4.0"
+     "wide": "https://theater.opensourceorchestra.org/reels/e2-reel-16x9.mp4",
+     "tall": "https://theater.opensourceorchestra.org/reels/e2-reel-9x16.mp4",
+     "note": "highlight reel cut by the AI ʻohana from the public film · CC BY-SA 4.0"
     }
    },
    "chapters": [
@@ -468,11 +468,10 @@
     "video": {
      "url": "https://theater.opensourceorchestra.org/oso-dao-meet-3-2026-11-19-720p.mp4",
      "type": "video/mp4",
-     "bytes": null,
-     "sha256": null,
+     "bytes": 1034283654,
+     "sha256": "0da9661d4e58e9507f616f29bcfe71b1287925b8f0c87e26017d3ee642ec527a",
      "host": "Cloudflare R2 · theater.opensourceorchestra.org",
-     "arriving": true,
-     "note": "720p H.264 encode in progress on the ʻohana's box; bytes and SHA-256 land here when the upload is verified"
+     "arriving": false
     },
     "audio": {
      "url": "https://theater.opensourceorchestra.org/oso-dao-meet-3-2026-11-19.mp3",
@@ -488,9 +487,9 @@
     "transcript": "/meetings/3/transcript/transcript.json",
     "archive": null,
     "highlight": {
-     "wide": null,
-     "tall": null,
-     "note": "highlight reel arriving · cut by the ʻohana from the public transcript · CC BY-SA 4.0"
+     "wide": "https://theater.opensourceorchestra.org/reels/e3-reel-16x9.mp4",
+     "tall": "https://theater.opensourceorchestra.org/reels/e3-reel-9x16.mp4",
+     "note": "highlight reel cut by the AI ʻohana from the public film · CC BY-SA 4.0"
     }
    },
    "chapters": [
@@ -583,18 +582,19 @@
     "video": {
      "url": "https://theater.opensourceorchestra.org/oso-dao-meet-4-2026-11-20-720p.mp4",
      "type": "video/mp4",
-     "bytes": null,
-     "sha256": null,
+     "bytes": 509939690,
+     "sha256": "4b3284fc32553adffadab70069b4cf44406a56f2eef3ce16fa1f0bb4c0e2aa84",
      "host": "Cloudflare R2 · theater.opensourceorchestra.org",
-     "arriving": true,
-     "note": "720p H.264 encode in progress on the ʻohana's box; bytes and SHA-256 land here when the upload is verified"
+     "arriving": false
     },
     "audio": {
-     "url": "/meetings/4/audio/oso-dao-meet-4-2026-11-20.mp3",
+     "url": "https://theater.opensourceorchestra.org/oso-dao-meet-4-2026-11-20.mp3",
      "type": "audio/mpeg",
-     "bytes": null,
-     "sha256": null,
-     "arriving": true
+     "bytes": 21021195,
+     "sha256": "9e7f5619a5a96b9701dfd44c5a067eeebf85a2e687f23e9739e3a7a26d71db99",
+     "durationSeconds": 2627.6,
+     "host": "Cloudflare R2 · theater.opensourceorchestra.org",
+     "arriving": false
     },
     "poster": "/assets/channels/poster-meeting-4.jpg",
     "captions": "/meetings/4/transcript/transcript.vtt",

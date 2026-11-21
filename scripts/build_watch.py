@@ -431,7 +431,9 @@ def reel_html(ep: dict) -> str:
     hl = ep["media"].get("highlight") or {}
     wide = f'<video controls preload="none" playsinline src="{E(hl["wide"])}" poster="{E(ep["media"].get("poster") or "")}"></video>' if hl.get("wide") else f'<div class="slot wide">16:9 highlight reel<br><small>{E(hl.get("note") or "arriving")}</small></div>'
     tall = f'<video controls preload="none" playsinline src="{E(hl["tall"])}"></video>' if hl.get("tall") else f'<div class="slot tall">9:16 cut<br><small>for phones and stories</small></div>'
-    return f'<section class="reel-wrap" aria-labelledby="reel-title"><p class="kicker">Highlight reel · 60–120 s · cut from the public transcript</p><h2 id="reel-title">The reel</h2><div class="reel">{wide}{tall}</div><p class="keys">Reels are cut by the ʻohana from consented moments only, with burned captions, a credit card and a license card; Shaka can refine any cut in DaVinci Resolve from the exported timeline. CC BY-SA 4.0.</p></section>'
+    live_note = f'<p class="note soft">{E(hl.get("note") or "highlight reel cut by the AI ʻohana from the public film · CC BY-SA 4.0")} · <a href="{E(hl["wide"])}" download>16:9 MP4</a> · <a href="{E(hl["tall"])}" download>9:16 MP4</a></p>' if hl.get("wide") and hl.get("tall") else ""
+    kicker = "Highlight reel · 60–120 s · cut from the public film" if hl.get("wide") else "Highlight reel · 60–120 s · cut from the public transcript"
+    return f'<section class="reel-wrap" aria-labelledby="reel-title"><p class="kicker">{kicker}</p><h2 id="reel-title">The reel</h2><div class="reel">{wide}{tall}</div>{live_note}<p class="keys">Reels are cut by the ʻohana from consented moments only, with burned captions, a credit card and a license card; Shaka can refine any cut in DaVinci Resolve from the exported timeline. CC BY-SA 4.0.</p></section>'
 
 
 def build_episode(season: dict, listed: list[dict], ep: dict, words: dict, cues: list[dict], provenance: str) -> str:
