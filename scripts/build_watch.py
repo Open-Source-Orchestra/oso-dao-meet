@@ -36,6 +36,7 @@ PRIVATE = re.compile(r"meet\.google|zoom\.us|drive\.google|@gmail|@[a-z0-9.-]+\.
 SHIELD = ("Brent", "Blake")
 
 E = html.escape
+WRITTEN: dict[Path, str] = {}
 
 
 # ───────────────────────────── helpers ─────────────────────────────
@@ -60,6 +61,11 @@ def read_json(path: Path):
 
 def local(path: str) -> Path:
     return ROOT / path.lstrip("/")
+
+
+def present(path: str | None) -> bool:
+    """True when a site-relative file exists on disk or is staged to be written in this run (one-pass determinism)."""
+    return bool(path) and (local(path).exists() or local(path) in WRITTEN)
 
 
 def visible(ep: dict) -> str:
@@ -122,6 +128,11 @@ def load_transcript(ep: dict, whisper_dir: Path, problems: list[str]) -> tuple[l
     path = (ep.get("media") or {}).get("transcript")
     if path and local(path).exists():
         return cues_from(read_json(local(path))), "public"
+    staged = ROOT / "data" / "season1" / f"{ep['id']}.transcript.json"
+    if staged.exists() and not (Path(whisper_dir) / f"meet{ep['number']}-whisper.json").exists():
+        ep.setdefault("media", {})["captions"] = f"/data/season1/{ep['id']}.vtt"
+        ep["media"]["transcript"] = f"/data/season1/{ep['id']}.transcript.json"
+        return cues_from(read_json(staged)), "whisper"
     draft = whisper_dir / f"meet{ep['number']}-whisper.json"
     if draft.exists() and draft.stat().st_size > 0:
         try:
@@ -191,7 +202,6 @@ def verbatim(text: str, cues: list[dict], t: float, window: float = 150.0) -> bo
 
 
 # ───────────────────────────── output ─────────────────────────────
-WRITTEN: dict[Path, str] = {}
 
 
 def write(path: Path, content: str) -> None:
@@ -281,7 +291,7 @@ def player_html(ep: dict, next_ep: dict | None, *, embed: bool = False) -> str:
     arriving = not has_film(ep)
     poster = media.get("poster") or ""
     chapters_json = json.dumps([{"start": c["start"], "title": c["title"]} for c in ep.get("chapters", [])], ensure_ascii=False)
-    track = f'<track kind="captions" src="{E(media["captions"])}" srclang="en" label="English captions · editorial speaker labels" default>' if media.get("captions") and local(media["captions"]).exists() else ""
+    track = f'<track kind="captions" src="{E(media["captions"])}" srclang="en" label="English captions · editorial speaker labels" default>' if present(media.get("captions")) else ""
     if arriving:
         screen = (f'<div class="screen" style="background-image:url({E(poster)})"><img src="{E(poster)}" alt="Poster for {E(ep["title"])}" width="1280" height="720" style="opacity:.0001;position:absolute">'
                   f'<div class="arriving"><strong>Film arriving</strong><span>The 720p encode and upload for this circle are in progress on the ʻohana\'s own machine. The transcript, the written words and the ledger are already here; the film and the mono MP3 appear the moment they are verified (bytes and SHA-256 in the ledger).</span></div></div>')
@@ -299,9 +309,9 @@ def player_html(ep: dict, next_ep: dict | None, *, embed: bool = False) -> str:
         downloads.append(f'<li>Film · arriving at <code>{E(video["url"])}</code> (bytes + SHA-256 in <a href="{E(ep["ledger"])}status.json">status.json</a> once uploaded)</li>')
     if has_audio(ep):
         downloads.append(f'<li>Audio · mono MP3 · <a href="{E(audio["url"])}" download>{E(audio["url"].rsplit("/", 1)[-1])}</a> · {audio["bytes"]:,} bytes</li>')
-    if media.get("captions") and local(media["captions"]).exists():
+    if present(media.get("captions")):
         downloads.append(f'<li>Captions · <a href="{E(media["captions"])}">WebVTT</a></li>')
-    if media.get("transcript") and local(media["transcript"]).exists():
+    if present(media.get("transcript")):
         downloads.append(f'<li>Transcript · <a href="{E(media["transcript"])}">JSON</a>' + (f' · <a href="{E(ep["ledger"])}transcript/">readable</a>' if ep["id"] != "pilot" else "") + "</li>")
     if media.get("archive"):
         downloads.append(f'<li>Mirror · <a href="{E(media["archive"])}">archive.org ↗</a></li>')
@@ -449,7 +459,7 @@ def build_embed(season: dict, listed: list[dict], ep: dict) -> str:
 
 def build_search(season: dict, listed: list[dict]) -> str:
     show = season["show"]
-    published = [e for e in listed if visible(e) == "published" and (e["media"].get("transcript") and local(e["media"]["transcript"]).exists())]
+    published = [e for e in listed if visible(e) == "published" and present(e["media"].get("transcript"))]
     fallback = "".join(f'<li><a href="{E(e["ledger"])}transcript/">{E(e["title"])} · full transcript</a></li>' if e["id"] != "pilot" else f'<li><a href="{E(e["media"]["transcript"])}">{E(e["title"])} · transcript JSON</a> · <a href="https://archive.org/download/oso-weekly-call-2-2026-10-27/weekly-call-2-2026-10-27-transcript.txt">plain text ↗</a></li>' for e in published)
     body = (f'<p class="kicker">Search</p><h1>Every public <em>transcript</em>, one box.</h1><p class="lede">Type a word, a first name, a place or an instrument. Each result opens the film at that exact moment. The index is built from consented transcripts only and searched entirely in your browser.</p>'
             f'<form id="search-form" class="search-box js-only" role="search" action="./"><label class="sr-only" for="q">Search the transcripts</label><input id="q" name="q" type="search" placeholder="e.g. Lisbon · backline · consent · Ben" autocomplete="off"><div id="filters" class="filters" aria-label="Episodes to search"></div></form>'
