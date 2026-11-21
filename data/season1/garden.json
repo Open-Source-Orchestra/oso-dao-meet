@@ -12,6 +12,78 @@
   },
   "seeds": [
     {
+      "id": "pilot-38",
+      "episode": "pilot",
+      "who": "Nidhi",
+      "t": 38.5,
+      "text": "I've been learning Hindustani classical music since I was 5 years old from my grandmom.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "pilot-3157",
+      "episode": "pilot",
+      "who": "Nidhi",
+      "t": 3157.5,
+      "text": "In the local train in Mumbai there are these artists just jamming with flute or harmonium. Whoever's singing and playing is in their zone and happy.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "pilot-3864",
+      "episode": "pilot",
+      "who": "Shaka",
+      "t": 3864.5,
+      "text": "When the nodes become permanent, you can start leaving things there and it's actually like planting seeds in the garden.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "pilot-4352",
+      "episode": "pilot",
+      "who": "Shaka",
+      "t": 4352.5,
+      "text": "That's how I learned how to play music in the first place: I started listening in church.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "pilot-4466",
+      "episode": "pilot",
+      "who": "Nidhi",
+      "t": 4466.5,
+      "text": "I'm very scared of singing in front of people, which is what I want to get over. But just when Shaka was playing I was like, wow.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "pilot-4680",
+      "episode": "pilot",
+      "who": "Aakash",
+      "t": 4680.5,
+      "text": "It all resonates in our home every day. It moves all day throughout.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "pilot-5580",
+      "episode": "pilot",
+      "who": "Nidhi",
+      "t": 5580.5,
+      "text": "The more musical introduction was just amazing, like, magical.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e1-59",
+      "episode": "e1",
+      "who": "Ben",
+      "t": 59.03,
+      "text": "It was the highlight for me, just seeing Shaka again, because we've had fun in Amsterdam, in Paris, in Berlin.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
       "id": "s01",
       "episode": "e1",
       "who": "Levi",
@@ -20,6 +92,15 @@
       "text": "It was a really beautiful first time for me to be part of the Open Source Orchestra in real time, and shout out to Alaska for the invite to Mumbai, and it was a beautiful experience.",
       "place": "Mumbai · Devcon 8",
       "kind": "first time"
+    },
+    {
+      "id": "e1-506",
+      "episode": "e1",
+      "who": "Shaka",
+      "t": 506.5,
+      "text": "The first time we ever sang together was in Amsterdam after Devconnect was happening, just in the lobby.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
     },
     {
       "id": "s02",
@@ -41,6 +122,24 @@
       "text": "So, we go there and really have a great time, because, honestly, Devcon 8, we really were the heartbeat of Devcon 8, really were the heartbeat.",
       "place": "Mumbai · Devcon 8",
       "kind": "heartbeat"
+    },
+    {
+      "id": "e1-1367",
+      "episode": "e1",
+      "who": "Levi",
+      "t": 1367.49,
+      "text": "We made a song in real time featuring the one and only Ben on vocals and Shaka on ukulele.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e1-1842",
+      "episode": "e1",
+      "who": "Shaka",
+      "t": 1842.52,
+      "text": "Levi and Alaska on the sax and Ben singing his heart out. And then there's someone on the piano for the first time.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
     },
     {
       "id": "s04",
@@ -73,6 +172,42 @@
       "kind": "first time"
     },
     {
+      "id": "e2-990",
+      "episode": "e2",
+      "who": "Shaka",
+      "t": 990.0,
+      "text": "Young college students who've never sang in a space like that, getting to sing in the Jio World Centre.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e2-1237",
+      "episode": "e2",
+      "who": "Aakaash",
+      "t": 1237.64,
+      "text": "We learned a lot of stuff from Aniket that how Indian classical music works and you can play a sitar on a guitar.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e2-2996",
+      "episode": "e2",
+      "who": "Aakaash",
+      "t": 2996.6,
+      "text": "This stage brought me back to my nostalgic school choir time where we used to sing hymns.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e2-3046",
+      "episode": "e2",
+      "who": "Aakaash",
+      "t": 3046.36,
+      "text": "People who haven't got a stage to come together and sing once took the courage in themselves and came there and sang for the first time in their lifetime.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
       "id": "s07",
       "episode": "e3",
       "who": "Alaska",
@@ -82,6 +217,60 @@
       "note": "live captions; the sentence runs on as spoken",
       "place": "Mumbai · Devcon 8",
       "kind": "received"
+    },
+    {
+      "id": "e3-1139",
+      "episode": "e3",
+      "who": "Shaka",
+      "t": 1139.0,
+      "text": "It started with an ukulele in the corner of the main lobby … Ben walked up and started singing next to me.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e3-3210",
+      "episode": "e3",
+      "who": "Alaska",
+      "t": 3210.0,
+      "text": "We were just playing music nonstop. And then we played again that closing party, there was a proper party.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e3-3769",
+      "episode": "e3",
+      "who": "Mary",
+      "t": 3769.0,
+      "text": "Thanks guys, lovely catching up with you! 💛",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e3-4673",
+      "episode": "e3",
+      "who": "Shaka",
+      "t": 4673.0,
+      "text": "One of my early guitar teachers taught me: as a musician, you never arrive.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e3-5506",
+      "episode": "e3",
+      "who": "Ben",
+      "t": 5506.0,
+      "text": "Just simple things like take off your shoes … that's what we do in our homes … when we come in there, we feel like we're coming into home.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e3-5865",
+      "episode": "e3",
+      "who": "Shaka",
+      "t": 5865.0,
+      "text": "Just had some amazing young kids from India just like singing … bless their heart, all of them singing out of different rhythms … it's very wholesome.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
     },
     {
       "id": "s08",

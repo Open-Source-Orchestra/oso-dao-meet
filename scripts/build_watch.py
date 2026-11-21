@@ -202,7 +202,8 @@ def flush(check: bool) -> int:
     changed = 0
     for path, content in WRITTEN.items():
         old = path.read_text(encoding="utf-8") if path.exists() else None
-        if old == content:
+        stamp = lambda text: re.sub(r'"built":"[^"]+"|<lastBuildDate>[^<]+</lastBuildDate>', "", text or "")
+        if old == content or (check and stamp(old) == stamp(content)):
             continue
         changed += 1
         if check:
@@ -238,6 +239,7 @@ def chrome(show: dict, *, title: str, description: str, path: str, body: str, mo
 <meta property="og:type" content="video.other"><meta property="og:site_name" content="OSO PIT THEATER · Open Source Orchestra DAO Meet">
 <meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(description)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{og_image}">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='43' fill='%23110b17' stroke='%23dfbb73' stroke-width='4'/%3E%3Cpath d='M28 61V37l10 12 12-20 12 20 10-12v24' fill='none' stroke='%23f8edda' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <link rel="alternate" type="application/rss+xml" title="OSO PIT THEATER · Season 1 (podcast)" href="/watch/feed.xml">
 <link rel="stylesheet" href="/css/watch.css">
 <script>document.documentElement.classList.add('has-js')</script>{extra_head}
@@ -627,7 +629,7 @@ def main() -> int:
                 assert data["episode"] == ep["id"], f"episode mismatch {data['episode']}"
                 for q in data["quotes"] + data["seeds"]:
                     assert not PRIVATE.search(q["text"]), f"private detail in quote at {q['t']}"
-                    assert re.match(r"^[A-Z][A-Za-z' -]{0,30}$", q["who"]), f"speaker label not a first name: {q['who']}"
+                    assert re.match(r"^[A-Z][A-Za-z' -]{0,30}( \((bot|machine|transcription bot)\))?$", q["who"]), f"speaker label not a first name (or a labelled machine): {q['who']}"
                     if cues:
                         assert verbatim(q["text"], cues, q["t"]), f"quote at {clock(q['t'])} is not verbatim in the transcript: {q['text'][:50]}"
                         near = [c for c in cues if abs(c["start"] - q["t"]) < 0.6]
@@ -635,7 +637,7 @@ def main() -> int:
                 write(target, json.dumps(data, ensure_ascii=False, indent=2) + "\n")
                 words[ep["id"]] = data
                 for seed in data["seeds"]:
-                    lane_seeds.append({"id": f"{ep['id']}-{int(seed['t'])}", "episode": ep["id"], "who": seed["who"], "t": seed["t"], "text": seed["text"], "kind": "words lane"})
+                    lane_seeds.append({"id": f"{ep['id']}-{int(seed['t'])}", "episode": ep["id"], "who": seed["who"], "t": seed["t"], "text": seed["text"], "kind": "together", "source": "words lane · verified verbatim against the public transcript"})
                 print(f"  words: {ep['id']} ← {candidate} ({len(data['recap'])} recap paragraphs · {len(data['quotes'])} quotes · {len(data['seeds'])} seeds)")
                 continue
             except (AssertionError, json.JSONDecodeError, KeyError, TypeError, ValueError) as error:
@@ -658,6 +660,8 @@ def main() -> int:
             garden.setdefault("seeds", []).append(seed)
             known.add((seed["episode"], int(seed["t"])))
     garden["seeds"].sort(key=lambda x: (listed.index(next(e for e in listed if e["id"] == x["episode"])), x["t"]))
+    garden["updated"] = today
+    write(ROOT / "data/season1/garden.json", json.dumps(garden, ensure_ascii=False, indent=2) + "\n")
 
     # search index — published episodes only
     index_lines = []
