@@ -594,8 +594,8 @@
      "arriving": true
     },
     "poster": "/assets/channels/poster-meeting-4.jpg",
-    "captions": "/meetings/4/transcript/transcript.vtt",
-    "transcript": "/meetings/4/transcript/transcript.json",
+    "captions": "/data/season1/e4.vtt",
+    "transcript": "/data/season1/e4.transcript.json",
     "archive": null,
     "highlight": {
      "wide": null,
