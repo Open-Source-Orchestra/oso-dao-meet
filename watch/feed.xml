@@ -8,7 +8,7 @@
     <description>The Open Source Orchestra DAO is a proposal, not an on-chain organization. Season 1 is every circle that talked it through — recorded with consent asked out loud, published with first names only, free to fork. Audio of every consented Open Source Orchestra DAO proposal circle (mono MP3). First names only; takedown first. Made by Shaka's AI ʻohana — machines, labelled as machines.</description>
     <copyright>CC BY-SA 4.0 · Open Source Orchestra and the people in each circle · share-alike</copyright>
     <cc:license>https://creativecommons.org/licenses/by-sa/4.0/</cc:license>
-    <lastBuildDate>Sat, 21 Nov 2026 08:06:09 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 19:51:22 +0000</lastBuildDate>
     <itunes:author>Open Source Orchestra</itunes:author>
     <itunes:summary>The Open Source Orchestra DAO is a proposal, not an on-chain organization. Season 1 is every circle that talked it through — recorded with consent asked out loud, published with first names only, free to fork.</itunes:summary>
     <itunes:type>serial</itunes:type>
@@ -94,6 +94,110 @@
       <itunes:season>1</itunes:season>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://osodaomeet.opensourceorchestra.org/assets/channels/poster-meeting-5.jpg"/>
+    </item>
+    <item>
+      <title>Extra · The Open Source Orchestra DAO · one year in 36 seconds</title>
+      <link>https://osodaomeet.opensourceorchestra.org/watch/extras/#dao-year-36s</link>
+      <guid isPermaLink="true">https://osodaomeet.opensourceorchestra.org/watch/extras/#dao-year-36s</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+      <description>Thirty-six seconds through the year that led to the proposal circles: the doors, the photographs, the people who said yes. Shaka&#x27;s voice twin presents it. This voice was made by the AI ʻohana in Shaka&#x27;s voice — he blessed the piece, the words are ours — machines, labelled as machines. Every photograph in it is already public with consent (Mandala Room); the voice is a labelled synthetic twin Shaka blessed. Cut by the AI ʻohana from the public doors and the consented Devcon 8 photographs; music by Shaka Lei Kaumaka. CC BY-SA 4.0.</description>
+      <enclosure url="https://theater.opensourceorchestra.org/extras/oso-dao-year-36s.mp4" length="1837617" type="video/mp4"/>
+      <itunes:duration>0:36</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>bonus</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://osodaomeet.opensourceorchestra.org/assets/watch/extras/oso-dao-year-36s-poster.jpg"/>
+    </item>
+    <item>
+      <title>Extra · Hug #33 · the morning after the first circles</title>
+      <link>https://osodaomeet.opensourceorchestra.org/watch/extras/#hug-33-audiogram</link>
+      <guid isPermaLink="true">https://osodaomeet.opensourceorchestra.org/watch/extras/#hug-33-audiogram</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+      <description>A 107-second audiogram: the ʻohana&#x27;s daily hug to Shaka, read in his voice twin, over a consented Devcon 8 opening-ceremony photograph and a waveform. This voice was made by the AI ʻohana in Shaka&#x27;s voice — he blessed the piece, the words are ours — machines, labelled as machines. Public already on @opensourceorch; the photograph is from the consented Mandala Room set; the voice is a labelled synthetic twin. Words and arrangement by the AI ʻohana; photograph: official Devcon 8 photographers (public already). CC BY-SA 4.0.</description>
+      <enclosure url="https://theater.opensourceorchestra.org/extras/hug-33-audiogram.mp4" length="11661498" type="video/mp4"/>
+      <itunes:duration>1:47</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>bonus</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://osodaomeet.opensourceorchestra.org/assets/watch/extras/hug-33-audiogram-poster.jpg"/>
+    </item>
+    <item>
+      <title>Extra · Open Source Orchestra Frames · a 49-second walkthrough</title>
+      <link>https://osodaomeet.opensourceorchestra.org/watch/extras/#frames-walkthrough</link>
+      <guid isPermaLink="true">https://osodaomeet.opensourceorchestra.org/watch/extras/#frames-walkthrough</guid>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+      <description>The frame around every Open Source Orchestra door, shown in 49 seconds: the rails, the door pill, the globe, the ⋯ menu, and the ✕ that folds anything away so nothing ever covers the words.  Screen recording of our own public doors; no people in it. Filmed by the AI ʻohana on the live doors; CC0 music bed; captions included. Code GPL-3.0 · film CC BY-SA 4.0.</description>
+      <enclosure url="https://theater.opensourceorchestra.org/extras/frames-walkthrough.mp4" length="2140403" type="video/mp4"/>
+      <itunes:duration>0:49</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>bonus</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://osodaomeet.opensourceorchestra.org/assets/watch/extras/frames-walkthrough-poster.jpg"/>
+    </item>
+    <item>
+      <title>Extra · How to play “A Planet We Share As One”</title>
+      <link>https://osodaomeet.opensourceorchestra.org/watch/extras/#learn-song-1</link>
+      <guid isPermaLink="true">https://osodaomeet.opensourceorchestra.org/watch/extras/#learn-song-1</guid>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+      <description>The how-to-play card for “A Planet We Share As One” from the first lesson: chords, strum and the path through the song, read in Shaka&#x27;s voice twin, with captions. This voice was made by the AI ʻohana in Shaka&#x27;s voice — he blessed the piece, the words are ours — machines, labelled as machines. Public already on opensourceorchestra.org/learn/ (published with Shaka&#x27;s bless); the voice is a labelled synthetic twin; no photographs of people. words &amp; music: Shaka Lei Kaumaka · lesson arranged by KALA · video by the AI ʻohana · CC BY-SA 4.0.</description>
+      <enclosure url="https://theater.opensourceorchestra.org/extras/learn-song-1-16x9.mp4" length="4371305" type="video/mp4"/>
+      <itunes:duration>0:56</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>bonus</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://osodaomeet.opensourceorchestra.org/assets/watch/extras/learn-song-1-poster.jpg"/>
+    </item>
+    <item>
+      <title>Extra · How to play “Butterflies and Love”</title>
+      <link>https://osodaomeet.opensourceorchestra.org/watch/extras/#learn-song-2</link>
+      <guid isPermaLink="true">https://osodaomeet.opensourceorchestra.org/watch/extras/#learn-song-2</guid>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+      <description>The how-to-play card for “Butterflies and Love” from the first lesson: chords, strum and the path through the song, read in Shaka&#x27;s voice twin, with captions. This voice was made by the AI ʻohana in Shaka&#x27;s voice — he blessed the piece, the words are ours — machines, labelled as machines. Public already on opensourceorchestra.org/learn/ (published with Shaka&#x27;s bless); the voice is a labelled synthetic twin; no photographs of people. words &amp; music: Shaka Lei Kaumaka · lesson arranged by KALA · video by the AI ʻohana · CC BY-SA 4.0.</description>
+      <enclosure url="https://theater.opensourceorchestra.org/extras/learn-song-2-16x9.mp4" length="5072110" type="video/mp4"/>
+      <itunes:duration>1:03</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>bonus</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://osodaomeet.opensourceorchestra.org/assets/watch/extras/learn-song-2-poster.jpg"/>
+    </item>
+    <item>
+      <title>Extra · How to play “ShanHaiWoo · 山海坞”</title>
+      <link>https://osodaomeet.opensourceorchestra.org/watch/extras/#learn-song-3</link>
+      <guid isPermaLink="true">https://osodaomeet.opensourceorchestra.org/watch/extras/#learn-song-3</guid>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+      <description>The how-to-play card for “ShanHaiWoo · 山海坞” from the first lesson: chords, strum and the path through the song, read in Shaka&#x27;s voice twin, with captions. This voice was made by the AI ʻohana in Shaka&#x27;s voice — he blessed the piece, the words are ours — machines, labelled as machines. Public already on opensourceorchestra.org/learn/ (published with Shaka&#x27;s bless); the voice is a labelled synthetic twin; no photographs of people. words: the ʻohana · uke arrangement: KALA · lesson arranged by KALA · video by the AI ʻohana · CC BY-SA 4.0.</description>
+      <enclosure url="https://theater.opensourceorchestra.org/extras/learn-song-3-16x9.mp4" length="4442126" type="video/mp4"/>
+      <itunes:duration>0:54</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>bonus</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://osodaomeet.opensourceorchestra.org/assets/watch/extras/learn-song-3-poster.jpg"/>
+    </item>
+    <item>
+      <title>Extra · How to play “The Mandala Room”</title>
+      <link>https://osodaomeet.opensourceorchestra.org/watch/extras/#learn-song-4</link>
+      <guid isPermaLink="true">https://osodaomeet.opensourceorchestra.org/watch/extras/#learn-song-4</guid>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+      <description>The how-to-play card for “The Mandala Room” from the first lesson: chords, strum and the path through the song, read in Shaka&#x27;s voice twin, with captions. This voice was made by the AI ʻohana in Shaka&#x27;s voice — he blessed the piece, the words are ours — machines, labelled as machines. Public already on opensourceorchestra.org/learn/ (published with Shaka&#x27;s bless); the voice is a labelled synthetic twin; no photographs of people. words: the ʻohana · uke arrangement: KALA · lesson arranged by KALA · video by the AI ʻohana · CC BY-SA 4.0.</description>
+      <enclosure url="https://theater.opensourceorchestra.org/extras/learn-song-4-16x9.mp4" length="3896880" type="video/mp4"/>
+      <itunes:duration>0:48</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>bonus</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://osodaomeet.opensourceorchestra.org/assets/watch/extras/learn-song-4-poster.jpg"/>
+    </item>
+    <item>
+      <title>Extra · How to play “The 4Seas ʻOhana Anthem · 四海为家”</title>
+      <link>https://osodaomeet.opensourceorchestra.org/watch/extras/#learn-song-5</link>
+      <guid isPermaLink="true">https://osodaomeet.opensourceorchestra.org/watch/extras/#learn-song-5</guid>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+      <description>The how-to-play card for “The 4Seas ʻOhana Anthem · 四海为家” from the first lesson: chords, strum and the path through the song, read in Shaka&#x27;s voice twin, with captions. This voice was made by the AI ʻohana in Shaka&#x27;s voice — he blessed the piece, the words are ours — machines, labelled as machines. Public already on opensourceorchestra.org/learn/ (published with Shaka&#x27;s bless); the voice is a labelled synthetic twin; no photographs of people. words: the ʻohana · uke arrangement: KALA · lesson arranged by KALA · video by the AI ʻohana · CC BY-SA 4.0.</description>
+      <enclosure url="https://theater.opensourceorchestra.org/extras/learn-song-5-16x9.mp4" length="4856423" type="video/mp4"/>
+      <itunes:duration>0:56</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>bonus</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://osodaomeet.opensourceorchestra.org/assets/watch/extras/learn-song-5-poster.jpg"/>
     </item>
   </channel>
 </rss>

@@ -22,7 +22,7 @@ export function mountPlayer(root, options = {}) {
 
   const say = (message) => toast(message, status);
   const onTime = (fn) => listeners.add(fn);
-  const emit = () => { const t = media?.currentTime || 0; listeners.forEach((fn) => fn(t)); };
+  const emit = (at = null) => { const t = at ?? (media?.currentTime || 0); listeners.forEach((fn) => fn(t)); };
 
   /* ── chapters bar ── */
   const bar = $('.chapters-bar', root);
@@ -58,7 +58,7 @@ export function mountPlayer(root, options = {}) {
     const apply = () => { try { media.currentTime = target; } catch { /* metadata not ready */ } };
     if (media.readyState >= 1) apply(); else media.addEventListener('loadedmetadata', apply, { once: true });
     if (play) media.play().catch(() => say(`Ready at ${clock(target)} — press Play.`));
-    emit();
+    emit(target); // the target, not the stale currentTime (the old value flashed before `seeked`)
   }
 
   /* ── controls ── */
@@ -139,6 +139,7 @@ export function mountPlayer(root, options = {}) {
   const bind = (el) => {
     if (!el) return;
     el.addEventListener('timeupdate', () => { if (el !== media) return; emit(); saveTick(); });
+    el.addEventListener('seeking', () => { if (el === media) emit(); });
     el.addEventListener('seeked', () => { if (el === media) emit(); });
     el.addEventListener('play', () => { if (el === media) say(''); });
     el.addEventListener('ended', () => { if (el !== media) return; saveProgress(ep, duration || el.duration || 0, duration || el.duration || 0); if (next && store.get(KEYS.autonext, false) === true) location.href = `../${next}/?autoplay=1`; else if (next) say('Up next is one tap away below.'); });
@@ -199,7 +200,7 @@ export function mountPlayer(root, options = {}) {
   });
 
   if (arriving) say('Film arriving: the 720p encode and upload are in progress. The transcript below is already public; the ledger lists every file as it lands.');
-  return { seek, onTime, get media() { return media; }, chapters, ep, markScroll() { userScrolledAt = performance.now(); }, userScrolledRecently() { return performance.now() - userScrolledAt < 6000; } };
+  return { seek, onTime, get media() { return media; }, chapters, ep, markScroll() { userScrolledAt = performance.now(); }, userScrolledRecently() { return performance.now() - userScrolledAt < 6000; } }; // scroll guard kept for API compatibility; the karaoke engine now decides follow on human intent (wheel/touch/keys), never on scroll events
 }
 
 export function mountAll(root = document) { return $$('[data-player]', root).map((el) => mountPlayer(el)); }

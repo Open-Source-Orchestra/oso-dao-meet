@@ -30,6 +30,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+EXTRAS: dict = {"items": [], "lede": ""}
+PHOTOS: dict = {"items": []}
 HOST = "https://osodaomeet.opensourceorchestra.org"
 PUBLISHED, PENDING, GATED = "published_with_consent", "pending_confirmation", "gated"
 PRIVATE = re.compile(r"meet\.google|zoom\.us|drive\.google|@gmail|@[a-z0-9.-]+\.(com|org|net)\b|\+?\d[\d\s().-]{8,}\d|NavPoint|\bKEW\b|\bBrent\b|\bBlake\b|Ham Agents|BEGIN PRIVATE KEY", re.I)
@@ -240,7 +242,7 @@ def flush(check: bool) -> int:
 def chrome(show: dict, *, title: str, description: str, path: str, body: str, module: str, image: str | None = None, current: str = "", extra_head: str = "", body_class: str = "", noindex: bool = False) -> str:
     canonical = f"{HOST}{path}"
     og_image = f"{HOST}{image or show['og']}"
-    nav_items = [("/watch/", "Episodes", "tv"), ("/watch/search/", "Search", "search"), ("/watch/garden/", "Garden", "garden"), ("/watch/live/", "Live", "live"), ("/watch/feed.xml", "Podcast", "feed"), ("/meetings/", "Ledger", "ledger"), ("/", "The Hall", "hall")]
+    nav_items = [("/watch/", "Episodes", "tv"), ("/watch/extras/", "Extras", "extras"), ("/watch/photos/", "Photos", "photos"), ("/watch/search/", "Search", "search"), ("/watch/garden/", "Garden", "garden"), ("/watch/live/", "Live", "live"), ("/watch/feed.xml", "Podcast", "feed"), ("/meetings/", "Ledger", "ledger"), ("/", "The Hall", "hall")]
     nav = "".join(f'<a href="{href}"' + (' aria-current="page"' if key == current else "") + f'>{label}</a>' for href, label, key in nav_items)
     values = (f'<p class="values"><strong>CROPS values</strong> — consent asked out loud · receipts, not claims · open by default (GPL-3.0 code · CC BY-SA 4.0 words) · '
               f'protect the people in the room (first names, takedown first) · share-alike, fork us like crazy. <b>Infinite Garden</b> — we leave every circle more open, more musical and more alive than we found it.</p>')
@@ -382,7 +384,7 @@ def build_tv(season: dict, listed: list[dict]) -> str:
                  '<p>Walk into <a href="/">the Hall</a> — the Three.js theater where these films shine on the projector — or read the <a href="/channels/">readable channels edition</a>.</p></div></section>')
         synopsis = sw.get("synopsis") or show["synopsis"]
         guide = guide.replace(f'<p class="lede">{E(show["synopsis"])}</p>', paras(synopsis).replace("<p>", '<p class="lede">', 1))
-        return chrome(show, title="The Pit Theater · Open Source Orchestra · Season 1 · The Proposal Circles", description="Every Open Source Orchestra DAO proposal circle as an episode: films with karaoke transcripts, written words, the Memory Garden and a podcast feed. Recorded with consent, first names only, free to fork. Still a proposal, not an on-chain DAO.", path="/watch/", body=f'<p class="kicker">The Pit Theater · Open Source Orchestra DAO Meet · the TV</p><h1>Season 1 · <em>The Proposal Circles.</em></h1><p class="lede">Watch the circles the way you would watch a show — then open the transcript, read the words, plant a seed in the garden. Still a proposal, not an on-chain DAO.</p>{hero}{guide}{field}', module="tv", current="tv")
+        return chrome(show, title="The Pit Theater · Open Source Orchestra · Season 1 · The Proposal Circles", description="Every Open Source Orchestra DAO proposal circle as an episode: films with karaoke transcripts, written words, the Memory Garden and a podcast feed. Recorded with consent, first names only, free to fork. Still a proposal, not an on-chain DAO.", path="/watch/", body=f'<p class="kicker">The Pit Theater · Open Source Orchestra DAO Meet · the TV</p><h1>Season 1 · <em>The Proposal Circles.</em></h1><p class="lede">Watch the circles the way you would watch a show — then open the transcript, read the words, plant a seed in the garden. Still a proposal, not an on-chain DAO.</p>{hero}{guide}{extras_teaser(EXTRAS, PHOTOS)}{field}', module="tv", current="tv")
     field = ('<section class="grid-2 field-guide" aria-label="Field guide"><div class="card"><h2>A field guide for new viewers</h2><ol>'
              '<li><strong>What you are watching.</strong> Real meetings, recorded on Google Meet, in which people talk through a <em>proposal</em> for an Open Source Orchestra DAO. Nothing is decided on camera; nothing here is on-chain.</li>'
              '<li><strong>How it was recorded.</strong> Notetakers enter first, consent is asked out loud on the recording, the host hits record last, nothing is cut, and nothing goes public until everyone has said yes and the transcript has been checked.</li>'
@@ -392,7 +394,7 @@ def build_tv(season: dict, listed: list[dict]) -> str:
              '<p>Listen in any podcast app: <a href="/watch/feed.xml">/watch/feed.xml</a> (the mono MP3s, CC BY-SA 4.0).</p>'
              f'<p>Record your circle the same way and add it to the ledger: <a href="{show["protocol"]["url"]}">{E(show["protocol"]["name"])}</a> · <a href="/watch/live/">the circle clock</a>.</p>'
              '<p>Walk into <a href="/">the Hall</a> — the Three.js theater where these films shine on the projector — or read the <a href="/channels/">readable channels edition</a>.</p></div></section>')
-    return chrome(show, title="The Pit Theater · Open Source Orchestra · Season 1 · The Proposal Circles", description="Every Open Source Orchestra DAO proposal circle as an episode: films with karaoke transcripts, written words, the Memory Garden and a podcast feed. Recorded with consent, first names only, free to fork. Still a proposal, not an on-chain DAO.", path="/watch/", body=f'<p class="kicker">The Pit Theater · Open Source Orchestra DAO Meet · the TV</p><h1>Season 1 · <em>The Proposal Circles.</em></h1><p class="lede">Watch the circles the way you would watch a show — then open the transcript, read the words, plant a seed in the garden. Still a proposal, not an on-chain DAO.</p>{hero}{guide}{field}', module="tv", current="tv")
+    return chrome(show, title="The Pit Theater · Open Source Orchestra · Season 1 · The Proposal Circles", description="Every Open Source Orchestra DAO proposal circle as an episode: films with karaoke transcripts, written words, the Memory Garden and a podcast feed. Recorded with consent, first names only, free to fork. Still a proposal, not an on-chain DAO.", path="/watch/", body=f'<p class="kicker">The Pit Theater · Open Source Orchestra DAO Meet · the TV</p><h1>Season 1 · <em>The Proposal Circles.</em></h1><p class="lede">Watch the circles the way you would watch a show — then open the transcript, read the words, plant a seed in the garden. Still a proposal, not an on-chain DAO.</p>{hero}{guide}{extras_teaser(EXTRAS, PHOTOS)}{field}', module="tv", current="tv")
 
 
 def words_html(ep: dict, words: dict) -> str:
@@ -421,10 +423,26 @@ def transcript_html(ep: dict, cues: list[dict], provenance: str) -> str:
         who = f'<b class="who">{E(c["who"])}</b>' if c["who"] else '<b class="who">—</b>'
         lines.append(f'<li data-start="{c["start"]:.2f}" data-end="{c["end"]:.2f}"><a class="t" href="?t={int(c["start"])}" title="Play from {E(clock(c["start"]))}">{E(clock(c["start"]))}</a>{who}<span class="txt">{E(c["text"])}</span></li>')
     prov = ("Automatic transcript · editorial pass pending (speaker labels not yet assigned; wording may be imperfect)." if provenance == "whisper" else f"{E(ep.get('speakersNote') or 'first names only')}.")
+    timing = word_timing_path(ep)
+    timing_attr = f' data-words="{E(timing)}"' if timing else ""
+    timing_note = (" Word timing: faster-whisper word timestamps from the same recording, aligned to this public text (the clock only — the words are unchanged)." if timing else " Words light up by interpolation inside each line until word timing lands.")
     return (f'<section class="transcript" id="transcript" aria-labelledby="t-title"><p class="kicker">Karaoke transcript · {len(cues):,} lines</p><h2 id="t-title">Every word, with its moment</h2>'
-            f'<p class="note soft">{prov} Click a time to play from there; the lit line follows playback. Without JavaScript the whole transcript is simply here to read. Double-click a line to copy it.</p>'
+            f'<p class="note soft">{prov} Click a time to play from there; the lit line and the lit word follow the voice.{timing_note} Without JavaScript the whole transcript is simply here to read. Double-click a line to copy it.</p>'
             f'<div class="t-tools js-only"><label class="sr-only" for="t-search">Search this transcript</label><input id="t-search" type="search" placeholder="Search this transcript…" autocomplete="off"><span class="count"></span></div>'
-            f'<ol class="lines" aria-label="Transcript lines">{"".join(lines)}</ol></section>')
+            f'<p class="t-chiprow js-only"><span class="t-follow" hidden><button type="button" data-follow>↩ follow the voice</button><button type="button" data-dismiss aria-label="Hide this chip">✕</button></span></p>'
+            f'<output class="t-debug" aria-live="off" hidden></output>'
+            f'<ol class="lines" aria-label="Transcript lines"{timing_attr}>{"".join(lines)}</ol></section>')
+
+
+def word_timing_path(ep: dict) -> str | None:
+    """Site path of the word-timing sidecar (whisper word timestamps aligned to the public text), if one is committed."""
+    ledger = ep.get("ledger") or ""
+    candidates = [f"{ledger}transcript/words.json"] if ledger.startswith("/meetings/") else []
+    candidates.append(f"/data/season1/{ep['id']}.words-timing.json")
+    for candidate in candidates:
+        if present(candidate):
+            return candidate
+    return None
 
 
 def reel_html(ep: dict) -> str:
@@ -456,8 +474,9 @@ def build_episode(season: dict, listed: list[dict], ep: dict, words: dict, cues:
     nav = f'<nav class="links" aria-label="Episodes">{prev_link}<a href="../">All episodes</a>{next_link}</nav>'
     head = (f'<header class="ep-head"><p class="kicker">Season 1 · {E(episode_label(ep))} · {E(ep["dateLabel"])}</p><h1>{E(ep["title"])}</h1><p class="lede">{E(ep["tagline"])}</p>'
             f'<ul class="chips"><li>{E(ep["durationLabel"])}</li>{speaker_chips(ep)}{consent_chip(ep)}<li>still a proposal</li></ul></header>')
-    body = (head + f'<div class="layout"><div>{player_html(ep, next_ep)}{nav}{words_html(ep, words)}{reel_html(ep)}{credits}</div>'
-            f'<div class="sticky">{transcript_html(ep, cues, provenance)}<p class="kicker" style="margin-top:18px">More episodes</p><ol class="rail">{rail}</ol></div></div>')
+    body = (head + f'<div class="layout"><div class="col-film">{player_html(ep, next_ep)}{nav}</div>'
+            f'<div class="col-words sticky">{transcript_html(ep, cues, provenance)}</div></div>'
+            f'<div class="below">{words_html(ep, words)}{reel_html(ep)}{credits}<section aria-labelledby="more-title"><p class="kicker" id="more-title">More episodes</p><ol class="rail">{rail}</ol></section></div>')
     desc = f"{ep['title']} — {ep['lede'][:150].rstrip()}… Recorded {ep['dateLabel'].split(' · ')[0]} with consent, first names only. Film, karaoke transcript and written words. Still a proposal, not an on-chain DAO."
     extra = f'<link rel="prev" href="../{prev_ep["id"]}/">' if prev_ep else ""
     extra += f'<link rel="next" href="../{next_ep["id"]}/">' if next_ep else ""
@@ -475,6 +494,60 @@ def build_embed(season: dict, listed: list[dict], ep: dict) -> str:
     page = re.sub(r'<header class="w-top wrap">.*?</header>\n', "", page, flags=re.S)
     page = re.sub(r'<footer class="w-foot wrap">.*?</footer>\n', "", page, flags=re.S)
     return page
+
+
+def extra_card(item: dict) -> str:
+    media = item.get("media") or {}
+    if item["kind"] == "youtube":
+        screen = (f'<div class="screen"><button type="button" class="embed-poster js-only" data-load-embed="{E(item["youtubeId"])}" data-title="{E(item["title"])}" aria-label="Load {E(item["title"])} from youtube-nocookie.com">'
+                  f'<img src="{E(item["poster"])}" alt="" loading="lazy" width="480" height="360"><span><b>▶</b><strong>Load from YouTube (privacy-enhanced)</strong><small>Nothing loads from YouTube until you choose.</small></span></button>'
+                  f'<p class="embed-fallback no-js-only"><a href="{E(item["watch"])}">Watch on YouTube ↗</a></p></div>')
+        downloads = ""
+    else:
+        cors = ' crossorigin="anonymous"' if media["url"].startswith("https://theater.opensourceorchestra.org/") else ""
+        track = f'<track kind="captions" src="{E(media["captions"])}" srclang="en" label="English captions" default>' if media.get("captions") else ""
+        screen = (f'<div class="screen"><video controls playsinline preload="none" poster="{E(media["poster"])}"{cors} src="{E(media["url"])}" aria-label="{E(item["title"])}. Nothing plays until you press Play.">{track}'
+                  f'Your browser cannot play this film here. <a href="{E(media["url"])}">Open the MP4 directly</a>.</video></div>')
+        downloads = f'<details class="dl"><summary>Download · verify</summary><ul><li>MP4 · <a href="{E(media["url"])}" download>{E(media["url"].rsplit("/", 1)[-1])}</a> · {media["bytes"]:,} bytes<br><code>sha256 {media["sha256"]}</code></li>' + (f'<li>Captions · <a href="{E(media["captions"])}">WebVTT</a></li>' if media.get("captions") else "") + '</ul></details>'
+    honest = f'<p class="honest">{E(item["honest"])}</p>' if item.get("honest") else ""
+    links = "".join(f'<a href="{E(l["url"])}">{E(l["label"])}{" ↗" if l["url"].startswith("http") and not l["url"].startswith(HOST) else ""}</a>' for l in item.get("links", []))
+    speakers = f' · {E(", ".join(item["speakers"]))}' if item.get("speakers") else ""
+    return (f'<li class="extra" id="{E(item["id"])}">{screen}<div class="body"><p class="meta">{E(item["dateLabel"])} · {E(item["durationLabel"])}{speakers}</p><h3>{E(item["title"])}</h3><p class="lede" style="font-size:.95rem;margin:0">{E(item.get("subtitle") or "")}</p>'
+            f'<p>{E(item["blurb"])}</p>{honest}<p class="consent"><strong>Consent</strong> · {E(item["consent"]["line"])}</p><p class="credits-line" style="font:.78rem/1.5 var(--sans);color:var(--faint);margin:0">{E(item["credit"])}</p>'
+            f'<div class="links">{links}</div>{downloads}</div></li>')
+
+
+def build_extras(season: dict, extras: dict) -> str:
+    show = season["show"]
+    cards = "".join(extra_card(item) for item in extras["items"])
+    body = (f'<p class="kicker">The Pit Theater · {E(extras["title"])}</p><h1>Between the <em>circles.</em></h1><p class="lede">{E(extras["lede"])}</p>'
+            f'<p class="note soft">{E(extras["rule"])} Still a proposal, not an on-chain DAO. Films stream only when you press Play; the one YouTube piece loads only after you choose it.</p>'
+            f'<ul class="extras">{cards}</ul>'
+            f'<section class="card"><h2>How this shelf is kept</h2><p>Every piece here was public before it was shelved: posted on @opensourceorch, live on one of our own doors, or published by Devcon. Synthetic voices carry their honest line. Highlight reels of the circles live on each <a href="/watch/">episode page</a>. Anything that still waits for Shaka\'s bless stays off this shelf until he says the word. <a href="{show["takedown"]}">Takedown first</a>. Data: <a href="/data/season1/extras.json">extras.json</a>.</p></section>')
+    return chrome(show, title="Season 1 · Extras · The Pit Theater · Open Source Orchestra", description="Between the circles: the Devcon 8 session, the one-year video, a hug audiogram, the frames walkthrough and the first how-to-play cards. Public already, credited, consent on every piece. Still a proposal, not an on-chain DAO.", path="/watch/extras/", body=body, module="extras", image="/assets/watch/extras/oso-dao-year-36s-poster.jpg", current="extras")
+
+
+def build_photos(season: dict, photos: dict) -> str:
+    show = season["show"]
+    figures = "".join(f'<figure data-photo="{E(p["id"])}" data-src="{E(p["src"])}" tabindex="0"><img src="{E(p["src"])}" alt="{E(p["alt"])}" width="{p["width"]}" height="{p["height"]}" loading="lazy" decoding="async"><figcaption><span class="cap">{E(p["caption"])}</span><span class="credit">{E(p["credit"])} · public already</span></figcaption></figure>' for p in photos["items"])
+    stage = (f'<div class="reel-stage" data-seconds="{photos.get("secondsPerPhoto", 6)}" aria-label="Photo reel" aria-roledescription="carousel"><div class="frame a show"><img src="{E(photos["items"][0]["src"])}" alt="{E(photos["items"][0]["alt"])}" width="{photos["items"][0]["width"]}" height="{photos["items"][0]["height"]}" decoding="async"></div><div class="frame b"><img alt="" decoding="async"></div>'
+             f'<div class="reel-bar" aria-hidden="true"><i></i></div><p class="reel-caption" aria-live="polite"></p>'
+             f'<button type="button" class="reel-start js-only" data-start><b aria-hidden="true">▶</b><strong>Start the photo reel</strong><small>{len(photos["items"])} consented frames · {photos.get("secondsPerPhoto", 6)} s each · pauses when you hover or focus · ✕ or Esc stops it</small></button></div>'
+             f'<div class="reel-controls js-only" hidden><button type="button" class="btn" data-prev aria-label="Previous photograph">←</button><button type="button" class="btn" data-pause aria-pressed="false">pause</button><button type="button" class="btn" data-next aria-label="Next photograph">→</button><button type="button" class="btn" data-stop aria-label="Stop the reel and close it">✕ stop</button><span class="reel-counter"></span></div>')
+    body = (f'<p class="kicker">The Pit Theater · the photo reel</p><h1>The room we were <em>born in.</em></h1><p class="lede">{E(photos["lede"])}</p>{stage}'
+            f'<p class="keys">Keyboard: <kbd>←</kbd>/<kbd>→</kbd> step · <kbd>space</kbd> pause · <kbd>esc</kbd> stop. Without JavaScript the grid below is the reel.</p>'
+            f'<section aria-labelledby="grid-title"><p class="kicker" id="grid-title">Every frame · click one to open the reel there</p><div class="photo-grid">{figures}</div></section>'
+            f'<section class="grid-2"><div class="card"><h2>Credit</h2><p>{E(photos["credit"])}</p><p>The full set lives in the <a href="{E(photos["mandalaRoom"])}">Mandala Room ↗</a>. Manifest with SHA-256, size, credit and consent reference for every frame: <a href="/data/season1/photos.json">photos.json</a>.</p></div>'
+            f'<div class="card"><h2>Consent</h2><p>{E(photos["consentRule"])}</p><p><a class="btn" href="{E(photos["takedown"])}">Takedown first ↗</a></p><p>Still a proposal, not an on-chain DAO.</p></div></section>')
+    return chrome(show, title="The photo reel · Devcon 8 Music Sanctuary · The Pit Theater · Open Source Orchestra", description="A Ken Burns reel of consented photographs from the Devcon 8 Music Sanctuary in Mumbai, 3–6 November 2026 — the room the Open Source Orchestra was born in. Official Devcon photographs, already public, credit and consent on every frame.", path="/watch/photos/", body=body, module="photos", image=photos["items"][0]["src"] if photos["items"] else None, current="photos")
+
+
+def extras_teaser(extras: dict, photos: dict) -> str:
+    cards = "".join(f'<li><a href="./extras/#{E(i["id"])}"><img src="{E((i.get("media") or {}).get("poster") or i.get("poster") or "")}" alt="" loading="lazy" width="320" height="180"><b>{E(i["title"])}</b><small>{E(i["durationLabel"])} · {E(i["dateLabel"].split(" · ")[0])}</small></a></li>' for i in extras["items"][:6])
+    photo = photos["items"][0] if photos.get("items") else None
+    photo_card = f'<li><a href="./photos/"><img src="{E(photo["src"])}" alt="" loading="lazy" width="320" height="180"><b>The photo reel</b><small>{len(photos["items"])} consented frames · Devcon 8 Music Sanctuary</small></a></li>' if photo else ""
+    return (f'<section aria-labelledby="extras-title"><p class="kicker" id="extras-title">Season 1 · Extras + the photo reel</p><h2>Between the circles</h2><p class="lede">{E(extras["lede"])}</p>'
+            f'<ol class="rail">{photo_card}{cards}</ol><div class="links"><a href="./extras/">All extras</a><a href="./photos/">The photo reel</a></div></section>')
 
 
 def build_search(season: dict, listed: list[dict]) -> str:
@@ -579,6 +652,25 @@ def build_feed(season: dict, listed: list[dict]) -> str:
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="{HOST}{E(ep['media'].get('poster') or show['artwork'])}"/>
     </item>""")
+    for item in EXTRAS.get("items", []):
+        media = item.get("media") or {}
+        if not item.get("feed") or not media.get("url") or not media.get("bytes"):
+            continue
+        pub = dt.datetime.fromisoformat(item["date"] + "T12:00:00+00:00").strftime("%a, %d %b %Y %H:%M:%S +0000")
+        page = f"{HOST}/watch/extras/#{item['id']}"
+        items.append(f"""    <item>
+      <title>Extra · {E(item['title'])}</title>
+      <link>{page}</link>
+      <guid isPermaLink="true">{page}</guid>
+      <pubDate>{pub}</pubDate>
+      <description>{E(item['blurb'])} {E(item.get('honest') or '')} {E(item['consent']['line'])} {E(item['credit'])}</description>
+      <enclosure url="{E(media['url'])}" length="{media['bytes']}" type="video/mp4"/>
+      <itunes:duration>{E(clock(item.get('durationSeconds') or 0))}</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>bonus</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="{HOST}{E(media.get('poster') or show['artwork'])}"/>
+    </item>""")
     built = dt.datetime.now(dt.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://web.resource.org/cc/">
@@ -626,6 +718,17 @@ def main() -> int:
     today = dt.date.today().isoformat()
 
     season = read_json(ROOT / "data/season1/season.json")
+    global EXTRAS, PHOTOS
+    if (ROOT / "data/season1/extras.json").exists():
+        EXTRAS = read_json(ROOT / "data/season1/extras.json")
+        for item in EXTRAS["items"]:
+            url = (item.get("media") or {}).get("url") or ""
+            if url.startswith("http") and not any(url.startswith(o) for o in season["mediaOrigins"]):
+                problems.append(f"extras {item['id']}: media origin not allowed: {url}")
+            if item.get("kind") == "youtube" and item.get("youtubeId") not in season.get("youtubeIds", []):
+                problems.append(f"extras {item['id']}: YouTube id not allowed: {item.get('youtubeId')}")
+    if (ROOT / "data/season1/photos.json").exists():
+        PHOTOS = read_json(ROOT / "data/season1/photos.json")
     garden = read_json(ROOT / "data/season1/garden.json")
     live = read_json(ROOT / "data/season1/live.json")
     show = season["show"]
@@ -713,6 +816,12 @@ def main() -> int:
     write(ROOT / "watch/live/index.html", build_live(season, listed, live))
     write(ROOT / "watch/feed.xml", build_feed(season, listed))
     urls = [(f"{HOST}/watch/", today), (f"{HOST}/watch/search/", today), (f"{HOST}/watch/garden/", today), (f"{HOST}/watch/live/", today)]
+    if EXTRAS["items"]:
+        write(ROOT / "watch/extras/index.html", build_extras(season, EXTRAS))
+        urls.append((f"{HOST}/watch/extras/", today))
+    if PHOTOS["items"]:
+        write(ROOT / "watch/photos/index.html", build_photos(season, PHOTOS))
+        urls.append((f"{HOST}/watch/photos/", today))
     for ep in listed:
         if visible(ep) != "published":
             continue

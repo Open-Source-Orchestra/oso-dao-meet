@@ -1,7 +1,10 @@
 /* The Theater: the projector as a seven-channel switcher with karaoke transcribers and an infinite garden behind the screen.
+   The karaoke transcriber runs on the shared media-clock engine (js/watch/karaoke.js): no page scrolling, no fighting the reader.
    Nothing plays until a person presses Play. No autoplay, no trackers, no external request before an explicit choice.
    Channels 1–3 stream consented recordings (byte ranges), channel 4 hands over to the slide deck + authorized synthetic
    narration, channels 5–6 are click-to-load youtube-nocookie embeds of Shaka's own published videos. */
+
+import { createKaraoke } from './watch/karaoke.js';
 
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => [...document.querySelectorAll(selector)];
@@ -42,11 +45,11 @@ export function createTheater({ hall, narration, showToast, onEnter, stopSlidesh
     dial: $('#channel-dial'), video: $('#channel-video'), track: $('#channel-track'),
     embed: $('#screen-embed'), deck: $('#screen-deck'), screen: $('#screen'),
     chapters: $('#channel-chapters'), speed: $('#channel-speed'), share: $('#channel-share'), open: $('#channel-open'),
-    karaoke: $('#karaoke'), lines: $('#karaoke-lines'), karaokeTitle: $('#karaoke-title'), karaokeNote: $('#karaoke-note'),
+    karaoke: $('#karaoke'), lines: $('#karaoke-lines'), karaokeTitle: $('#karaoke-title'), karaokeNote: $('#karaoke-note'), karaokeChip: $('#karaoke-follow'), karaokeDebug: $('#karaoke-debug'),
     now: $('#now-playing'), growing: $('#theater-growing'), gardenPhotos: $('#garden-photos'), gardenFlutter: $('#garden-flutter'),
     status: $('#theater-status'), announcer: $('#theater-announcer')
   };
-  const state = { channels: [], origins: { video: [], youtube: [] }, garden: [], index: 0, open: false, cues: [], cueIndex: -1, transcriptLoads: new Map(), hallVideo: false, built: false, swipe: null };
+  const state = { channels: [], origins: { video: [], youtube: [] }, garden: [], index: 0, open: false, cues: [], cueIndex: -1, transcriptLoads: new Map(), hallVideo: false, built: false, swipe: null, karaoke: null };
   let hallRef = hall;
 
   function current() { return state.channels[state.index]; }
@@ -104,12 +107,22 @@ export function createTheater({ hall, narration, showToast, onEnter, stopSlidesh
   }
 
   function renderKaraoke(channel, cues, note) {
+    state.karaoke?.destroy();
+    state.karaoke = null;
     state.cues = cues;
     state.cueIndex = -1;
     ui.karaokeTitle.textContent = cues.length ? `Karaoke transcriber · ${channel.title.split(' · ')[0]}` : 'Karaoke transcriber';
     ui.karaokeNote.textContent = note;
-    ui.lines.innerHTML = cues.map((cue, index) => `<li data-index="${index}" data-start="${cue.start}"><button type="button" data-seek="${cue.start}" aria-label="Seek to ${clock(cue.start)}"><time>${clock(cue.start)}</time>${cue.speaker ? `<b>${escapeHTML(cue.speaker)}</b>` : ''}<span>${escapeHTML(cue.text)}</span></button></li>`).join('');
+    ui.lines.innerHTML = cues.map((cue, index) => `<li data-index="${index}" data-start="${cue.start}"><button type="button" data-seek="${cue.start}" aria-label="Seek to ${clock(cue.start)}"><time>${clock(cue.start)}</time>${cue.speaker ? `<b>${escapeHTML(cue.speaker)}</b>` : ''}<span class="txt">${escapeHTML(cue.text)}</span></button></li>`).join('');
     ui.karaoke.hidden = !cues.length;
+    ui.karaokeChip.hidden = true;
+    if (!cues.length) return;
+    // one media clock (js/watch/karaoke.js): rAF while playing, seek/rate/pause aware, word sweep, intent-based follow with the ↩ chip
+    state.karaoke = createKaraoke({ media: () => ui.video, elements: [ui.video], list: ui.lines, items: [...ui.lines.children], cues, textSelector: '.txt', chip: ui.karaokeChip, debug: new URLSearchParams(location.search).get('sync') === 'debug' ? ui.karaokeDebug : null });
+    if (channel.media?.wordTiming) {
+      const once = () => state.karaoke?.loadWords(channel.media.wordTiming);
+      ui.video.addEventListener('play', once, { once: true });
+    }
   }
 
   async function loadTranscript(channel) {
@@ -124,29 +137,7 @@ export function createTheater({ hall, narration, showToast, onEnter, stopSlidesh
     return state.transcriptLoads.get(path);
   }
 
-  function syncKaraoke(time) {
-    const cues = state.cues;
-    if (!cues.length) return;
-    let lo = 0, hi = cues.length - 1, found = -1;
-    while (lo <= hi) {
-      const mid = (lo + hi) >> 1;
-      if (cues[mid].start <= time) { found = mid; lo = mid + 1; } else hi = mid - 1;
-    }
-    if (found >= 0 && time > cues[found].end + 0.35 && (found + 1 >= cues.length || time < cues[found + 1].start)) found = -1;
-    const progress = found >= 0 ? Math.min(1, Math.max(0, (time - cues[found].start) / Math.max(0.6, cues[found].end - cues[found].start))) : 0;
-    const items = ui.lines.children;
-    if (found !== state.cueIndex) {
-      if (state.cueIndex >= 0 && items[state.cueIndex]) { items[state.cueIndex].classList.remove('is-now'); items[state.cueIndex].classList.add('is-past'); }
-      for (let index = 0; index < items.length; index += 1) items[index].classList.toggle('is-past', index < found);
-      state.cueIndex = found;
-      if (found >= 0 && items[found]) {
-        items[found].classList.add('is-now');
-        items[found].classList.remove('is-past');
-        items[found].scrollIntoView({ block: 'center', behavior: motionQuery.matches ? 'instant' : 'smooth' });
-      }
-    }
-    if (found >= 0 && items[found]) items[found].style.setProperty('--p', progress.toFixed(3));
-  }
+  function syncKaraoke(time) { state.karaoke?.sync(time); }
 
   function selectChapterFor(time) {
     if (!ui.chapters.options.length) return;
@@ -271,15 +262,15 @@ export function createTheater({ hall, narration, showToast, onEnter, stopSlidesh
     if (hallRef?.setVideo && !state.hallVideo) { hallRef.setVideo(ui.video); state.hallVideo = true; }
     ui.status.textContent = `Playing channel ${current().number}: ${current().title}. The same film shines on the hall's big screen behind the theater.`;
   });
-  ui.video.addEventListener('timeupdate', () => { syncKaraoke(ui.video.currentTime); selectChapterFor(ui.video.currentTime); });
-  ui.video.addEventListener('seeked', () => { syncKaraoke(ui.video.currentTime); selectChapterFor(ui.video.currentTime); });
+  ui.video.addEventListener('timeupdate', () => selectChapterFor(ui.video.currentTime));
+  ui.video.addEventListener('seeked', () => selectChapterFor(ui.video.currentTime));
   ui.video.addEventListener('error', () => { if (current()?.kind === 'video') ui.status.textContent = `This film could not be streamed right now. Direct file: ${current().media.video.url} — or read the transcript and listen to the audio from the links below.`; });
   ui.lines.addEventListener('click', (event) => {
     const button = event.target.closest('[data-seek]');
     if (!button) return;
     const time = Number(button.dataset.seek);
     try { ui.video.currentTime = time; } catch { ui.video.addEventListener('loadedmetadata', () => { ui.video.currentTime = time; }, { once: true }); }
-    syncKaraoke(time);
+    state.karaoke?.seekTo(time);
     if (ui.video.paused) ui.video.play().catch(() => { ui.status.textContent = `Cued to ${clock(time)}. Press Play on the screen to start.`; });
   });
   ui.chapters.addEventListener('change', () => {

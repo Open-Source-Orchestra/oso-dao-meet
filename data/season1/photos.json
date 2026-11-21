@@ -1,0 +1,818 @@
+{
+ "schema": "oso-pit-theater-photo-reel-v1",
+ "updated": "2026-11-22",
+ "title": "The photo reel · Devcon 8 Music Sanctuary",
+ "lede": "Thirty-some frames of the room the Open Source Orchestra was born in: the Music Sanctuary at Devcon 8, Mumbai, 3–6 November 2026. Official Devcon photographs, already public in the Mandala Room; nobody is named from their face; kids frames left out; takedown first.",
+ "credit": "Photographs: the official Devcon 8 photographers (Devcon team). Arrangement and words: the AI ʻohana — machines, labelled as machines — CC BY-SA 4.0.",
+ "consentRule": "Only photographs that are already public with consent are in this reel. No photographs of 4Seas, Chiang Mai, appear before 4Seas says yes. Anyone in a frame can have it removed: takedown first, questions second.",
+ "takedown": "https://opensourceorchestra.org/takedown/",
+ "mandalaRoom": "https://opensourceorchestra.org/mandala-room/",
+ "secondsPerPhoto": 6,
+ "items": [
+  {
+   "id": "dc8-222",
+   "src": "/assets/photos/dc8-222-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 254567,
+   "sha256": "78d90d2c5db1f680f0b4aaa74e5b2d6830737c93a34d6fa94d3e4fa26efa24c0",
+   "alt": "A wide, empty hall with a glowing white mandala projected on the far wall. Cane stools, white chairs and standing tables are set out on the carpet.",
+   "caption": "A wide, empty hall with a glowing white mandala projected on the far wall. Cane stools, white chairs and standing tables are set out on the carpet.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 222,
+    "day": "Devcon 8 | Day 1",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-218",
+   "src": "/assets/photos/dc8-218-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 264560,
+   "sha256": "25d60229c915eb26cac430fdff35b9dfa2c64b7faf60257a59f92eb494e5aa59",
+   "alt": "Round cane stools with dark cushions arranged in a circle on the carpet, with instruments, a screen and the glowing mandala behind them.",
+   "caption": "Round cane stools with dark cushions arranged in a circle on the carpet, with instruments, a screen and the glowing mandala behind them.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 218,
+    "day": "Devcon 8 | Day 1",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-219",
+   "src": "/assets/photos/dc8-219-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 286858,
+   "sha256": "643708b2c3b708d7fe7eb0e9bc6e519d8c91d2eb4a60741408f6fa5a7919239b",
+   "alt": "Close view of two dhol drums and other drums lying on a red Persian rug, with guitars, ukuleles and a drum kit on stands behind, under the mandala.",
+   "caption": "Close view of two dhol drums and other drums lying on a red Persian rug, with guitars, ukuleles and a drum kit on stands behind, under the mandala.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 219,
+    "day": "Devcon 8 | Day 1",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-054",
+   "src": "/assets/photos/dc8-054-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 181423,
+   "sha256": "a53f34e7b96e407d8a1815aaba1025d09fd2092aac0a7e66ba6ac4c506dfdd90",
+   "alt": "Two musicians sit cross-legged on a rug in front of an ornate patterned backdrop: one plays tabla in a purple kurta, the other a red electric guitar. A banner above names them.",
+   "caption": "Two musicians sit cross-legged on a rug in front of an ornate patterned backdrop: one plays tabla in a purple kurta, the other a red electric guitar. A banner above names them.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 54,
+    "day": "Devcon 8 | Day 1",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-053",
+   "src": "/assets/photos/dc8-053-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 233613,
+   "sha256": "5a13439b2a0d09759582a593b0a9c7da0e94dfdc14c8192d9780ce701afe2daf",
+   "alt": "Close-up of hands playing a pair of tabla drums. The player wears a purple kurta and sits cross-legged on a rug.",
+   "caption": "Close-up of hands playing a pair of tabla drums. The player wears a purple kurta and sits cross-legged on a rug.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 53,
+    "day": "Devcon 8 | Day 1",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-113",
+   "src": "/assets/photos/dc8-113-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 201962,
+   "sha256": "f8ae3af428b7a621681e495d11313e13426a7578221d4b84bc812c2b01ea07ef",
+   "alt": "A small band plays in front of a screen showing a mandala: a saxophonist in a white cap and a pink and blue floral shirt, a bass player, and a singer at a microphone.",
+   "caption": "A small band plays in front of a screen showing a mandala: a saxophonist in a white cap and a pink and blue floral shirt, a bass player, and a singer at a microphone.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 113,
+    "day": "Devcon 8 | Day 1",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-390",
+   "src": "/assets/photos/dc8-390-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 218191,
+   "sha256": "c9b0a6aff4b5641365c88f934b715ab2ae37e05ac92c3d9eb70e2f1cf8b3f758",
+   "alt": "The mandala, reflected in a pane of glass, floats over people lounging on red beanbags in pink and blue light.",
+   "caption": "The mandala, reflected in a pane of glass, floats over people lounging on red beanbags in pink and blue light.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 390,
+    "day": "Devcon 8 | Day 2",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-382",
+   "src": "/assets/photos/dc8-382-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 191007,
+   "sha256": "865820b9d8aed6899a482975ae728a4bddb3021dc83e4fcdc18479df552f42be",
+   "alt": "A smiling man seen through a glass panel that carries the reflection of a glowing Ethereum diamond logo.",
+   "caption": "A smiling man seen through a glass panel that carries the reflection of a glowing Ethereum diamond logo.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 382,
+    "day": "Devcon 8 | Day 2",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-393",
+   "src": "/assets/photos/dc8-393-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 208804,
+   "sha256": "6ae0c0c1bec41c6bf12d5f029015f85a61ce0bf7e7b1dfa59a50ef21cb16fe47",
+   "alt": "A long-haired, bearded musician in a light denim jacket plays ukulele at a microphone, next to a guitarist in a plaid shirt.",
+   "caption": "A long-haired, bearded musician in a light denim jacket plays ukulele at a microphone, next to a guitarist in a plaid shirt.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 393,
+    "day": "Devcon 8 | Day 2",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-492",
+   "src": "/assets/photos/dc8-492-1600.jpg",
+   "width": 1600,
+   "height": 1067,
+   "bytes": 284916,
+   "sha256": "418b6716d1fd34ede95d6e89ac7dd69787094178210062d0f9074811ec608f6d",
+   "alt": "A wide view of the sanctuary stage: a saxophonist and a guitarist stand on rugs among keyboards, drums and microphones, with the mandala projected high on the wall.",
+   "caption": "A wide view of the sanctuary stage: a saxophonist and a guitarist stand on rugs among keyboards, drums and microphones, with the mandala projected high on the wall.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 492,
+    "day": "Devcon 8 | Day 3",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-493",
+   "src": "/assets/photos/dc8-493-1600.jpg",
+   "width": 1067,
+   "height": 1600,
+   "bytes": 203789,
+   "sha256": "c9f82b601b57d1f674b9e0688ae36a3981db5d52ae84bf2bfd9c3a2c578d44de",
+   "alt": "A guitarist in sunglasses and purple sings into a microphone, framed by the glowing mandala above him.",
+   "caption": "A guitarist in sunglasses and purple sings into a microphone, framed by the glowing mandala above him.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 493,
+    "day": "Devcon 8 | Day 3",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-638",
+   "src": "/assets/photos/dc8-638-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 285431,
+   "sha256": "1545ec70d7daa395bc4a2638c6f6dee10c22c3ed947b409a8bc2b76877eb4043",
+   "alt": "A wide shot of a jam session: musicians in the centre on rugs, an audience sitting around them on cane stools, beanbags and the floor, with neon pyramid lights and the mandala above.",
+   "caption": "A wide shot of a jam session: musicians in the centre on rugs, an audience sitting around them on cane stools, beanbags and the floor, with neon pyramid lights and the mandala above.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 638,
+    "day": "Devcon 8 | Day 3",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-640",
+   "src": "/assets/photos/dc8-640-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 189189,
+   "sha256": "ee5ff7a8bd4899a663a593d4f6dddb8facfa912a264aaa91d33fcffe12d415ee",
+   "alt": "A woman in a white saree smiles as she sings into a microphone. Behind her are a seated guitarist, a rack of ukuleles and a djembe.",
+   "caption": "A woman in a white saree smiles as she sings into a microphone. Behind her are a seated guitarist, a rack of ukuleles and a djembe.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 640,
+    "day": "Devcon 8 | Day 3",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-642",
+   "src": "/assets/photos/dc8-642-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 268643,
+   "sha256": "09a1b03cc511f4994a33de6fc3c3b1a6eed01f7ee9a117338a96cd68ac0e6f43",
+   "alt": "Seen from behind the performers: a singer in a teal kurta, a seated guitarist and a singer in a white saree face a large audience sitting on the floor.",
+   "caption": "Seen from behind the performers: a singer in a teal kurta, a seated guitarist and a singer in a white saree face a large audience sitting on the floor.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 642,
+    "day": "Devcon 8 | Day 3",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-783",
+   "src": "/assets/photos/dc8-783-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 239193,
+   "sha256": "e529c8ce67e438975de767761a0695722a7f30795e007d38f53145c549db10bf",
+   "alt": "A smiling bass player in a patterned shirt plays under pink light, with a saxophonist behind him.",
+   "caption": "A smiling bass player in a patterned shirt plays under pink light, with a saxophonist behind him.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 783,
+    "day": "Devcon 8 | Day 4",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-784",
+   "src": "/assets/photos/dc8-784-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 191905,
+   "sha256": "fd6a6d049822ae57016b22bd53ad947506a88c5859fa183af2d271275d22e527",
+   "alt": "Three guitarists, one smiling with an acoustic guitar, play together, with the shoulder of a singer blurred in the foreground.",
+   "caption": "Three guitarists, one smiling with an acoustic guitar, play together, with the shoulder of a singer blurred in the foreground.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 784,
+    "day": "Devcon 8 | Day 4",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-786",
+   "src": "/assets/photos/dc8-786-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 156079,
+   "sha256": "222742fbced6fd83b7a06156f39d7b852de9bd201127f6fe2f5f88fd0c32ef25",
+   "alt": "A long-haired, bearded man in a white kurta and a red scarf laughs as he plays hand drums opposite another drummer.",
+   "caption": "A long-haired, bearded man in a white kurta and a red scarf laughs as he plays hand drums opposite another drummer.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 786,
+    "day": "Devcon 8 | Day 4",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-789",
+   "src": "/assets/photos/dc8-789-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 216864,
+   "sha256": "6a4d7f27162d12b9bf5850f5f8619bb3cfa31e71fab9fa14d4e112f78d0a8039",
+   "alt": "Two saxophonists in caps and bold floral shirts play side by side in the sanctuary.",
+   "caption": "Two saxophonists in caps and bold floral shirts play side by side in the sanctuary.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 789,
+    "day": "Devcon 8 | Day 4",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-790",
+   "src": "/assets/photos/dc8-790-1600.jpg",
+   "width": 1067,
+   "height": 1600,
+   "bytes": 184158,
+   "sha256": "dca98c1630a8c677ffaff89e184796fe35802149db082cf4056367d29abe97d3",
+   "alt": "Close-up of hands playing a djembe, with microphones and colourful light around it.",
+   "caption": "Close-up of hands playing a djembe, with microphones and colourful light around it.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 790,
+    "day": "Devcon 8 | Day 4",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-799",
+   "src": "/assets/photos/dc8-799-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 296299,
+   "sha256": "4d67fdf353c9e26a53b1f66f9c054e2bfeef70ebfb6b2af53bf73548aef359d1",
+   "alt": "A huge hall in red light. A band plays in the centre on rugs while hundreds of people sit on the floor all around them.",
+   "caption": "A huge hall in red light. A band plays in the centre on rugs while hundreds of people sit on the floor all around them.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 799,
+    "day": "Closing ceremony",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-800",
+   "src": "/assets/photos/dc8-800-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 294338,
+   "sha256": "872f1a3802d155a83a57205b0f5a78bda194a0a028049b78f4bca01d1b29c577",
+   "alt": "Seen from behind a pianist and a singer: the band and a vast audience seated on the floor under red lights and a patterned ceiling.",
+   "caption": "Seen from behind a pianist and a singer: the band and a vast audience seated on the floor under red lights and a patterned ceiling.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 800,
+    "day": "Closing ceremony",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-943",
+   "src": "/assets/photos/dc8-943-1600.jpg",
+   "width": 1600,
+   "height": 1067,
+   "bytes": 272227,
+   "sha256": "0dbcecd9d37ca900611976a58df85d551c995c6946052b8698f58aa182fbfa16",
+   "alt": "A performer in a white T-shirt, seen from behind, faces a large audience sitting on the floor of a blue-lit hall.",
+   "caption": "A performer in a white T-shirt, seen from behind, faces a large audience sitting on the floor of a blue-lit hall.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 943,
+    "day": "Closing ceremony",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-913",
+   "src": "/assets/photos/dc8-913-1600.jpg",
+   "width": 1600,
+   "height": 1067,
+   "bytes": 188278,
+   "sha256": "d75f2bf7490e0a5dc28c84f36abba36f39a1b6ce884468209966bfc5a16db78a",
+   "alt": "A singer in a white T-shirt sings with full voice into a microphone, with a bass guitarist, a saxophone and a guitarist in white around him.",
+   "caption": "A singer in a white T-shirt sings with full voice into a microphone, with a bass guitarist, a saxophone and a guitarist in white around him.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 913,
+    "day": "Closing ceremony",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-945",
+   "src": "/assets/photos/dc8-945-1600.jpg",
+   "width": 1600,
+   "height": 1067,
+   "bytes": 228476,
+   "sha256": "0ff1a832efe58e806157d6590e7e6116256f2e82a5624ae5219b907ecc5b01b1",
+   "alt": "A long-haired, bearded man in a white kurta and patterned scarf plays ukulele at a microphone, next to a saxophonist in a blue cap and floral shirt and a pair of congas.",
+   "caption": "A long-haired, bearded man in a white kurta and patterned scarf plays ukulele at a microphone, next to a saxophonist in a blue cap and floral shirt and a pair of congas.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 945,
+    "day": "Closing ceremony",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-895",
+   "src": "/assets/photos/dc8-895-1600.jpg",
+   "width": 1067,
+   "height": 1600,
+   "bytes": 234624,
+   "sha256": "ab62dbfb56193098b6c093df8249fc0d38ae835f0e0774fb41f56aee50af2ed6",
+   "alt": "Two saxophonists in floral shirts play standing on a rug, with a screen behind them.",
+   "caption": "Two saxophonists in floral shirts play standing on a rug, with a screen behind them.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 895,
+    "day": "Closing ceremony",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-886",
+   "src": "/assets/photos/dc8-886-1600.jpg",
+   "width": 1600,
+   "height": 1067,
+   "bytes": 281794,
+   "sha256": "077d5270c2280863de06d91139ebcd8b67584cb4a748db3fe3f447829443f552",
+   "alt": "On stage, a person in a balloon hat dances with a woman in a floral skirt. A ukulele and guitars stand nearby and a screen glows behind them.",
+   "caption": "On stage, a person in a balloon hat dances with a woman in a floral skirt. A ukulele and guitars stand nearby and a screen glows behind them.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 886,
+    "day": "Closing ceremony",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-833",
+   "src": "/assets/photos/dc8-833-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 287494,
+   "sha256": "3c955e887f5d3183bb76a6390d0b92897aab09f7ca785d77b66ba238ce4aab0a",
+   "alt": "A long line of people in matching olive-green jackets stands arm in arm across the stage, beneath the mandala.",
+   "caption": "A long line of people in matching olive-green jackets stands arm in arm across the stage, beneath the mandala.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 833,
+    "day": "Closing ceremony",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-836",
+   "src": "/assets/photos/dc8-836-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 226318,
+   "sha256": "23378da0585dfde74cb69b7f39a04656fdd0db2845a945c7de4c76d74bb97ab5",
+   "alt": "On stage under the mandala, people gather around a tall brass oil lamp as it is lit, one holding a microphone.",
+   "caption": "On stage under the mandala, people gather around a tall brass oil lamp as it is lit, one holding a microphone.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 836,
+    "day": "Closing ceremony",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-841",
+   "src": "/assets/photos/dc8-841-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 243926,
+   "sha256": "af3e1b944afe32a4e9ef49872cf42c8e005a000b3e601010eecfb43381466002",
+   "alt": "Close view of a man and a woman lighting the wicks of a tall brass lamp, with the mandala on the wall behind them.",
+   "caption": "Close view of a man and a woman lighting the wicks of a tall brass lamp, with the mandala on the wall behind them.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 841,
+    "day": "Closing ceremony",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-846",
+   "src": "/assets/photos/dc8-846-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 291757,
+   "sha256": "1ebe76c6c30ecfd5c7a8814c38ec377ea1becc327327e36d96af9ad7f0139785",
+   "alt": "Silver and pink confetti pours over a smiling crowd sitting on the floor, many holding up phones.",
+   "caption": "Silver and pink confetti pours over a smiling crowd sitting on the floor, many holding up phones.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 846,
+    "day": "Closing ceremony",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-847",
+   "src": "/assets/photos/dc8-847-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 266370,
+   "sha256": "9f57709e63b945572f663da7fff770da918d70f71f10e45d3b04ca7f94a6d947",
+   "alt": "A grinning man in a cap and tie-dye top leans back on the floor as confetti falls all around him and the crowd.",
+   "caption": "A grinning man in a cap and tie-dye top leans back on the floor as confetti falls all around him and the crowd.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 847,
+    "day": "Closing ceremony",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-874",
+   "src": "/assets/photos/dc8-874-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 293454,
+   "sha256": "3a6e7bd120e1de51a92ed05e343c5f34435df13f7e43b7547e1f09c225cc1eb4",
+   "alt": "A packed dance floor with hands raised in the haze, light beams, and the mandala projected on the wall above.",
+   "caption": "A packed dance floor with hands raised in the haze, light beams, and the mandala projected on the wall above.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 874,
+    "day": "Closing ceremony",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-907",
+   "src": "/assets/photos/dc8-907-1600.jpg",
+   "width": 1600,
+   "height": 1067,
+   "bytes": 254015,
+   "sha256": "17fcba2a2edbffdde11c8b02570edf358e56ea0d348c03afdf6ab5590595306d",
+   "alt": "A crowd with hands in the air fills the floor of a hall washed in purple light, with the mandala glowing high on the wall.",
+   "caption": "A crowd with hands in the air fills the floor of a hall washed in purple light, with the mandala glowing high on the wall.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 907,
+    "day": "Closing ceremony",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-904",
+   "src": "/assets/photos/dc8-904-1600.jpg",
+   "width": 1600,
+   "height": 1067,
+   "bytes": 276332,
+   "sha256": "1389101d13d74af841adf4a393b777faf4ad0c5c1f2f6be58fc0638be7101a81",
+   "alt": "Three people in green jackets shout and grin into the camera under blue light, arms raised.",
+   "caption": "Three people in green jackets shout and grin into the camera under blue light, arms raised.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 904,
+    "day": "Closing ceremony",
+    "official": true
+   }
+  },
+  {
+   "id": "dc8-925",
+   "src": "/assets/photos/dc8-925-1600.jpg",
+   "width": 1600,
+   "height": 1066,
+   "bytes": 297178,
+   "sha256": "d1b06428235194d0e90a9e9664f5cfa0443a686ae764402f3caacd52ea4f594b",
+   "alt": "People in green jackets hug and laugh together on a dark dance floor.",
+   "caption": "People in green jackets hug and laugh together on a dark dance floor.",
+   "event": "Devcon 8 Music Sanctuary · Mumbai · 3–6 November 2026",
+   "credit": "official Devcon 8 photograph · Devcon team photographers",
+   "license": "shared as published by Devcon; this reel is CC BY-SA 4.0 for the ʻohana's arrangement and words only",
+   "consent": {
+    "state": "public_already",
+    "ref": "https://opensourceorchestra.org/mandala-room/#credit",
+    "note": "already public in the Open Source Orchestra Mandala Room since 9 Nov 2026; kids frames excluded; nobody is named from their face; takedown first"
+   },
+   "source": {
+    "catalog": 925,
+    "day": "Closing ceremony",
+    "official": true
+   }
+  }
+ ]
+}

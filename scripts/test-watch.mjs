@@ -25,12 +25,12 @@ if (!base) {
   base = `http://127.0.0.1:${port}`;
   await new Promise((r) => setTimeout(r, 900));
 }
-const pages = ['/watch/', '/watch/e3/', '/watch/e1/', '/watch/search/?q=lisbon', '/watch/garden/', '/watch/live/', '/watch/embed/e1/'];
+const pages = ['/watch/', '/watch/e3/', '/watch/e1/', '/watch/extras/', '/watch/photos/', '/watch/search/?q=lisbon', '/watch/garden/', '/watch/live/', '/watch/embed/e1/'];
 const viewports = [{ width: 390, height: 844, name: 'mobile' }, { width: 1280, height: 800, name: 'desktop' }];
 const failures = [];
 let checks = 0;
 const check = (ok, msg) => { checks += 1; if (!ok) failures.push(msg); };
-const browser = await chromium.launch({ executablePath: process.env.CHROME_PATH || undefined });
+const browser = await chromium.launch({ executablePath: process.env.CHROME_PATH || undefined, args: ['--autoplay-policy=no-user-gesture-required'] });
 
 for (const vp of viewports) {
   const context = await browser.newContext({ viewport: { width: vp.width, height: vp.height }, reducedMotion: 'no-preference' });
@@ -89,6 +89,16 @@ for (const vp of viewports) {
       await page.waitForTimeout(200);
       check(/[?&]t=\d+/.test(page.url()), `${label}: clicking a line writes ?t= to the URL.`);
     }
+    if (path === '/watch/extras/') check(await page.locator('.extra').count() >= 8 && await page.locator('[data-load-embed]').count() === 1 && await page.locator('iframe').count() === 0, `${label}: extras cards + click-to-load embed, no iframe before a click.`);
+    if (path === '/watch/photos/') {
+      check(await page.locator('.photo-grid figure').count() >= 30 && await page.locator('.reel-controls').isHidden(), `${label}: photo grid + reel idle until started.`);
+      await page.locator('[data-start]').click();
+      await page.waitForTimeout(400);
+      check(await page.locator('.reel-stage.on').count() === 1 && await page.locator('[data-stop]').isVisible(), `${label}: reel starts on click and shows the ✕ stop.`);
+      await page.keyboard.press('Escape');
+      await page.waitForTimeout(200);
+      check(await page.locator('.reel-stage.on').count() === 0, `${label}: Escape stops the reel.`);
+    }
     if (path.startsWith('/watch/search')) {
       await page.waitForFunction(() => document.querySelectorAll('#results li').length > 0, null, { timeout: 8000 }).catch(() => {});
       const n = await page.locator('#results li').count();
@@ -105,6 +115,50 @@ for (const vp of viewports) {
     // print stylesheet exists and applies (no crash)
     await page.emulateMedia({ media: 'print' });
     check(await page.evaluate(() => getComputedStyle(document.querySelector('.w-top') || document.body).display) !== 'flex' || true, `${label}: print media applies.`);
+    await page.close();
+  }
+  await context.close();
+}
+
+// karaoke timer lock: on e1 (block transcript) and e4 (automatic transcript) seek → play 3 s → the lit window must hold
+// the clock (drift ≤ 250 ms) AND the lit line must be visible in the list, at three timestamps. Media streams from R2.
+{
+  const context = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+  for (const ep of ['e1', 'e4']) {
+    const page = await context.newPage();
+    const errors = [];
+    page.on('pageerror', (e) => errors.push(e.message));
+    await page.goto(`${base}/watch/${ep}/?sync=debug`, { waitUntil: 'networkidle' });
+    const ready = await page.evaluate(() => new Promise((resolve) => { const v = document.querySelector('video'); v.muted = true; v.preload = 'auto'; v.load(); const done = () => resolve(v.readyState); if (v.readyState >= 2) done(); else { v.addEventListener('loadeddata', done, { once: true }); setTimeout(() => resolve(v.readyState), 25000); } }));
+    if (ready < 2) { check(false, `karaoke ${ep}: film did not become ready (readyState ${ready}) — the drift gate could not run`); await page.close(); continue; }
+    const rows = await page.evaluate(async () => {
+      const v = document.querySelector('video'); const list = document.querySelector('.lines'); const lis = [...list.querySelectorAll('li[data-start]')];
+      const out = [];
+      for (const target of [30, 300, 1200]) {
+        v.currentTime = target;
+        await new Promise((r) => { const d = () => r(); v.addEventListener('seeked', d, { once: true }); setTimeout(d, 15000); });
+        try { await v.play(); } catch (e) { out.push({ target, error: String(e) }); continue; }
+        await new Promise((r) => setTimeout(r, 3000));
+        const on = list.querySelector('li.on'); const t = v.currentTime;
+        const s = on ? Number(on.dataset.start) : null, e = on ? Number(on.dataset.end) : null;
+        const lr = list.getBoundingClientRect(), r = on ? on.getBoundingClientRect() : null;
+        // expected: the cue holding t (or none when t sits in silence beyond the grace window)
+        let lo = 0, hi = lis.length - 1, f = -1; while (lo <= hi) { const m = (lo + hi) >> 1; if (Number(lis[m].dataset.start) <= t) { f = m; lo = m + 1; } else hi = m - 1; }
+        const silence = f < 0 || (t > Number(lis[f].dataset.end) + 0.6);
+        out.push({ target, t: +t.toFixed(2), lit: Boolean(on), silence, driftMs: on ? Math.round(Math.max(0, s - t, t - e) * 1000) : 0, visible: on ? r.bottom > lr.top && r.top < lr.bottom : null, litWords: on ? on.querySelectorAll('.w.lit').length : 0, debug: document.querySelector('.t-debug')?.textContent || '' });
+        v.pause();
+      }
+      return out;
+    });
+    for (const row of rows) {
+      if (row.error) { check(false, `karaoke ${ep} @${row.target}s: play failed → ${row.error}`); continue; }
+      check(row.silence || row.lit, `karaoke ${ep} @${row.target}s: a line must be lit while someone speaks (t=${row.t}).`);
+      check(row.driftMs <= 250, `karaoke ${ep} @${row.target}s: drift ${row.driftMs} ms > 250 ms (t=${row.t}).`);
+      check(!row.lit || row.visible === true, `karaoke ${ep} @${row.target}s: the lit line must be visible in the list (follow).`);
+      check(!row.lit || row.litWords >= 1, `karaoke ${ep} @${row.target}s: at least one word lit inside the line after 3 s (${row.litWords}).`);
+      check(/drift \d+ ms/.test(row.debug), `karaoke ${ep} @${row.target}s: ?sync=debug panel renders (${row.debug.slice(0, 60)}).`);
+    }
+    check(errors.length === 0, `karaoke ${ep}: page errors → ${errors.slice(0, 2).join(' | ')}`);
     await page.close();
   }
   await context.close();
@@ -138,4 +192,4 @@ for (const vp of viewports) {
 await browser.close();
 server?.kill();
 if (failures.length) { console.error(`FAIL ${failures.length} of ${checks} browser checks:`); failures.forEach((f) => console.error(`  - ${f}`)); process.exitCode = 1; }
-else console.log(`PASS ${checks}/${checks} browser checks · ${pages.length} pages × ${viewports.length} viewports · axe serious/critical 0 · console errors 0 · BUTTON LAW 0 overlaps · no-JS edition renders · reduced motion honoured.`);
+else console.log(`PASS ${checks}/${checks} browser checks · ${pages.length} pages × ${viewports.length} viewports · axe serious/critical 0 · console errors 0 · BUTTON LAW 0 overlaps · karaoke drift ≤ 250 ms + follow on e1/e4 · no-JS edition renders · reduced motion honoured.`);

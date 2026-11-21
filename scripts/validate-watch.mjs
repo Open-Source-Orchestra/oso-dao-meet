@@ -52,7 +52,9 @@ check(json('meetings/4/status.json').recordingConsent.reportedAt === '2026-11-21
 check(json('meetings/5/status.json').participants.guests.join(',') === 'Ben,Bo,Food For Riot', 'Meet #5 participants: Ben, Bo, Food For Riot (first names / chosen display names).');
 
 // 3. pages
-const pages = ['watch/index.html', 'watch/search/index.html', 'watch/garden/index.html', 'watch/live/index.html', ...published.map((e) => `watch/${e.id}/index.html`), ...published.map((e) => `watch/embed/${e.id}/index.html`)];
+const extras = existsSync(resolve(root, 'data/season1/extras.json')) ? json('data/season1/extras.json') : { items: [] };
+const photos = existsSync(resolve(root, 'data/season1/photos.json')) ? json('data/season1/photos.json') : { items: [] };
+const pages = ['watch/index.html', 'watch/search/index.html', 'watch/garden/index.html', 'watch/live/index.html', ...(extras.items.length ? ['watch/extras/index.html'] : []), ...(photos.items.length ? ['watch/photos/index.html'] : []), ...published.map((e) => `watch/${e.id}/index.html`), ...published.map((e) => `watch/embed/${e.id}/index.html`)];
 for (const rel of pages) {
   check(existsSync(resolve(root, rel)), `${rel}: page must exist.`);
   if (!existsSync(resolve(root, rel))) continue;
@@ -163,6 +165,49 @@ for (const [, url, length] of enclosures) {
   check(existsSync(resolve(root, rel)) && statSync(resolve(root, rel)).size === Number(length), `Feed enclosure bytes must match the file: ${rel}`);
 }
 check(existsSync(resolve(root, 'assets/watch/season1-artwork.jpg')) && existsSync(resolve(root, 'assets/watch/season1-og.jpg')), 'Season artwork + OG image.');
+const videoEnclosures = [...feed.matchAll(/<enclosure url="([^"]+)" length="(\d+)" type="video\/mp4"\/>/g)];
+check(videoEnclosures.length === extras.items.filter((i) => i.feed && i.media?.bytes).length, 'Feed video items only for hosted extras with verified bytes.');
+for (const [, url, length] of videoEnclosures) {
+  const item = extras.items.find((i) => i.media?.url === url);
+  check(Boolean(item) && item.media.bytes === Number(length) && /^[a-f0-9]{64}$/.test(item.media.sha256 || '') && season.mediaOrigins.some((o) => url.startsWith(o)), `Feed video enclosure must match extras.json bytes + SHA-256 and an allowed origin: ${url}`);
+}
+
+// 8b. extras: public already, consent + credit on every piece, synthetic voices say so, one YouTube id only via click-to-load
+if (extras.items.length) {
+  check(extras.schema === 'oso-pit-theater-extras-v1' && /public/i.test(extras.rule), 'extras.json: schema + the public-already rule.');
+  const extrasPage = read('watch/extras/index.html');
+  for (const item of extras.items) {
+    const label = `extras ${item.id}`;
+    check(item.consent?.status && /consent|published|public/i.test(item.consent.line || '') && item.credit && item.blurb, `${label}: consent line, credit and blurb are required.`);
+    check(!PRIVATE.test(JSON.stringify(item)), `${label}: no private link, contact or shielded name may ship.`);
+    check(!/\bOSO\b/.test(`${item.title} ${item.subtitle || ''} ${item.blurb}`), `${label}: write "Open Source Orchestra" in full.`);
+    if (/voice twin|Shaka's voice/i.test(`${item.blurb} ${item.credit}`)) check(/machines, labelled as machines/.test(item.honest || ''), `${label}: a synthetic voice must carry the honest line.`);
+    if (item.kind === 'youtube') check((season.youtubeIds || []).includes(item.youtubeId) && extrasPage.includes(`data-load-embed="${item.youtubeId}"`) && !extrasPage.includes('youtube-nocookie.com/embed'), `${label}: YouTube only via an allowed id and click-to-load (no iframe in the HTML).`);
+    else check(season.mediaOrigins.some((o) => (item.media?.url || '').startsWith(o)) && Number.isInteger(item.media?.bytes) && /^[a-f0-9]{64}$/.test(item.media?.sha256 || '') && exists(item.media?.poster) && extrasPage.includes(`src="${item.media.url}"`), `${label}: hosted film from an allowed origin with bytes, SHA-256, a local poster, and on the page.`);
+    check(extrasPage.includes(`id="${item.id}"`) && plain(extrasPage).includes(item.consent.line.slice(0, 40)), `${label}: card + visible consent line on the page.`);
+  }
+}
+
+// 8c. the photo reel: consented frames only, every file present with matching SHA-256 and ≤ 300 KB, credit + consent on each
+if (photos.items.length) {
+  check(photos.schema === 'oso-pit-theater-photo-reel-v1' && /4Seas/.test(photos.consentRule) && /takedown/i.test(photos.consentRule), 'photos.json: schema + the consent rule (no 4Seas before their yes, takedown first).');
+  const photosPage = read('watch/photos/index.html');
+  const { createHash } = await import('node:crypto');
+  for (const photo of photos.items) {
+    const label = `photo ${photo.id}`;
+    const rel = photo.src.replace(/^\//, '');
+    const ok = existsSync(resolve(root, rel));
+    check(ok, `${label}: file must exist (${photo.src}).`);
+    if (!ok) continue;
+    const buf = readFileSync(resolve(root, rel));
+    check(buf.length === photo.bytes && buf.length <= 300000 && createHash('sha256').update(buf).digest('hex') === photo.sha256, `${label}: bytes ≤ 300 KB and SHA-256 must match the manifest.`);
+    check(photo.consent?.state === 'public_already' && /mandala-room/.test(photo.consent.ref || '') && photo.credit && photo.alt && photo.width && photo.height, `${label}: consent state public_already with a reference, credit, alt, width/height.`);
+    check(!/4Seas|Chiang Mai|NavPoint|KEW|Brent|Blake|Ham/i.test(`${photo.alt} ${photo.caption} ${photo.event}`), `${label}: shielded places/people must not appear.`);
+    check(photosPage.includes(`data-photo="${photo.id}"`), `${label}: in the no-JS grid.`);
+  }
+  check(!/<img[^>]*\bsrc="[^"]*"(?![^>]*loading="lazy")/.test(read('watch/photos/index.html').replace(/<div class="frame [ab][^"]*"><img[^>]*>/g, '')), 'photos: grid images are lazy.');
+  check(/data-start/.test(photosPage) && /data-stop/.test(photosPage) && /aria-roledescription="carousel"/.test(photosPage) && !/autoplay/i.test(photosPage), 'photos: user-started reel with a ✕ stop, no autoplay.');
+}
 const jsFiles = readdirSync(resolve(root, 'js/watch')).filter((f) => f.endsWith('.js'));
 const gz = jsFiles.reduce((sum, f) => sum + gzipSync(read(`js/watch/${f}`)).length, 0);
 check(gz < 60 * 1024, `JS budget: all /js/watch modules gzip to ${gz} bytes (limit 61440).`);
