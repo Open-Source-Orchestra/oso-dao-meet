@@ -425,7 +425,13 @@
           "bytes": 1034283654,
           "sha256": "0da9661d4e58e9507f616f29bcfe71b1287925b8f0c87e26017d3ee642ec527a",
           "host": "Cloudflare R2 · theater.opensourceorchestra.org",
-          "arriving": false
+          "arriving": false,
+          "mirror": {
+            "item": "https://archive.org/details/oso-dao-meet-3-2026-11-19",
+            "url": "https://archive.org/download/oso-dao-meet-3-2026-11-19/oso-dao-meet-3-2026-11-19-720p.mp4",
+            "licence": "CC BY-SA 4.0 (words and performance remain each speaker's own)",
+            "host": "Internet Archive · permanent public-good mirror, same bytes (md5-verified by Archy)"
+          }
         },
         "audio": {
           "url": "https://theater.opensourceorchestra.org/oso-dao-meet-3-2026-11-19.mp3",
@@ -495,6 +501,10 @@
         {
           "label": "Episode 3 in the TV",
           "url": "/watch/e3/"
+        },
+        {
+          "label": "archive.org mirror",
+          "url": "https://archive.org/details/oso-dao-meet-3-2026-11-19"
         }
       ],
       "ledgerEntry": "/meetings/#meeting-3"

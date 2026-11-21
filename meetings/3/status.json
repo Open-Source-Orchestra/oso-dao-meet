@@ -60,12 +60,15 @@
       "host": "Cloudflare R2 · theater.opensourceorchestra.org",
       "bytes": 1034283654,
       "sha256": "0da9661d4e58e9507f616f29bcfe71b1287925b8f0c87e26017d3ee642ec527a",
-      "durationSeconds": 6374.71
+      "durationSeconds": 6374.71,
+      "mirror": "https://archive.org/details/oso-dao-meet-3-2026-11-19"
     },
     "publicAudioBytes": 50998063,
     "publicAudioSha256": "3e45794790171de4c6e27af226b43834fea3cd5c8d28c0bdb9abb19235512028",
     "publicAudioHost": "Cloudflare R2 · theater.opensourceorchestra.org",
-    "publicAudioDurationSeconds": 6374.71
+    "publicAudioDurationSeconds": 6374.71,
+    "publicAudioMirror": "https://archive.org/details/oso-dao-meet-3-2026-11-19",
+    "mirrorFiles": "720p MP4 + mono MP3 + WebVTT captions, md5-verified against the R2 originals"
   },
   "attendeeList": "the four participants named above by first name; no other attendee data",
   "privateMeetLinks": null,

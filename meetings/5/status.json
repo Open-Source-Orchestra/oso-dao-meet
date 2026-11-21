@@ -63,13 +63,16 @@
       "note": "720p H.264 public encode on Cloudflare R2, byte-range streaming; the original recording remains private. Bytes and SHA-256 verified live before this entry was written.",
       "url": "https://theater.opensourceorchestra.org/oso-dao-meet-5-2026-11-20-720p.mp4",
       "host": "Cloudflare R2 · theater.opensourceorchestra.org",
-      "durationSeconds": 3314.79
+      "durationSeconds": 3314.79,
+      "mirror": "https://archive.org/details/oso-dao-meet-5-2026-11-20"
     },
     "publicTranscriptEdition": "automatic — editorial pass (first-name speaker labels) pending",
     "publicAudioBytes": 26518612,
     "publicAudioSha256": "96aa31a0338fd9c6cc9d9932c9233bcfc16669ce5fa93d2146374d90d1bbc272",
     "publicAudioHost": "Cloudflare R2 · theater.opensourceorchestra.org",
-    "publicAudioDurationSeconds": 3314.78
+    "publicAudioDurationSeconds": 3314.78,
+    "publicAudioMirror": "https://archive.org/details/oso-dao-meet-5-2026-11-20",
+    "mirrorFiles": "720p MP4 + mono MP3 + WebVTT captions, md5-verified against the R2 originals"
   },
   "theater": {
     "episode": "e5",

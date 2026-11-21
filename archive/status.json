@@ -42,9 +42,12 @@
       "title": "Open Source Orchestra DAO Meet #3 · 19 November 2026",
       "status": "published_with_consent",
       "video": "https://theater.opensourceorchestra.org/oso-dao-meet-3-2026-11-19-720p.mp4",
-      "videoStatus": "arriving",
+      "videoStatus": "published",
       "captions": "/meetings/3/transcript/transcript.vtt",
-      "home": "/meetings/3/"
+      "home": "/meetings/3/",
+      "audio": "https://theater.opensourceorchestra.org/oso-dao-meet-3-2026-11-19.mp3",
+      "transcript": "/meetings/3/transcript/",
+      "mirror": "https://archive.org/details/oso-dao-meet-3-2026-11-19"
     }
   ],
   "publicMeetLinks": null,
@@ -94,7 +97,8 @@
       },
       "rawVideo": "kept private; a 720p re-encode is hosted at theater.opensourceorchestra.org",
       "published": "2026-11-14",
-      "mirror": "https://archive.org/details/oso-dao-proposal-meeting-1-2026-11-12"
+      "mirror": "https://archive.org/details/oso-dao-proposal-meeting-1-2026-11-12",
+      "publicTranscript": "/meetings/1/transcript/"
     },
     "2": {
       "status": "published_with_consent",
@@ -114,7 +118,8 @@
       "published": "2026-11-14",
       "video": "https://theater.opensourceorchestra.org/oso-dao-proposal-meeting-2-2026-11-13-720p.mp4",
       "channel": 3,
-      "mirror": "https://archive.org/details/oso-dao-proposal-meeting-2-2026-11-13"
+      "mirror": "https://archive.org/details/oso-dao-proposal-meeting-2-2026-11-13",
+      "publicTranscript": "/meetings/2/transcript/"
     },
     "weekly-call-2": {
       "status": "published_with_consent",
@@ -138,7 +143,10 @@
       },
       "publicRecap": "/meetings/3/",
       "publicTranscript": "/meetings/3/transcript/",
-      "publicVideo": "arriving"
+      "publicVideo": "https://theater.opensourceorchestra.org/oso-dao-meet-3-2026-11-19-720p.mp4",
+      "audio": "https://theater.opensourceorchestra.org/oso-dao-meet-3-2026-11-19.mp3",
+      "audioPage": "/meetings/3/audio/",
+      "mirror": "https://archive.org/details/oso-dao-meet-3-2026-11-19"
     },
     "4": {
       "status": "published_with_consent",
@@ -148,8 +156,11 @@
         "reportedAt": "2026-11-21T11:50:00+07:00"
       },
       "publicRecap": "/meetings/4/",
-      "publicVideo": "arriving",
-      "publicTranscript": "arriving"
+      "publicVideo": "https://theater.opensourceorchestra.org/oso-dao-meet-4-2026-11-20-720p.mp4",
+      "publicTranscript": "/meetings/4/transcript/",
+      "audio": "https://theater.opensourceorchestra.org/oso-dao-meet-4-2026-11-20.mp3",
+      "audioPage": "/meetings/4/audio/",
+      "mirror": "https://archive.org/details/oso-dao-meet-4-2026-11-20c"
     },
     "5": {
       "status": "published_with_consent",
@@ -159,8 +170,11 @@
         "reportedAt": "2026-11-21T11:50:00+07:00"
       },
       "publicRecap": "/meetings/5/",
-      "publicVideo": "arriving",
-      "publicTranscript": "arriving"
+      "publicVideo": "https://theater.opensourceorchestra.org/oso-dao-meet-5-2026-11-20-720p.mp4",
+      "publicTranscript": "/meetings/5/transcript/",
+      "audio": "https://theater.opensourceorchestra.org/oso-dao-meet-5-2026-11-20.mp3",
+      "audioPage": "/meetings/5/audio/",
+      "mirror": "https://archive.org/details/oso-dao-meet-5-2026-11-20"
     }
   },
   "theater": {

@@ -485,7 +485,7 @@
     "poster": "/assets/channels/poster-meeting-3.jpg",
     "captions": "/meetings/3/transcript/transcript.vtt",
     "transcript": "/meetings/3/transcript/transcript.json",
-    "archive": null,
+    "archive": "https://archive.org/details/oso-dao-meet-3-2026-11-19",
     "highlight": {
      "wide": "https://theater.opensourceorchestra.org/reels/e3-reel-16x9.mp4",
      "tall": "https://theater.opensourceorchestra.org/reels/e3-reel-9x16.mp4",
@@ -549,6 +549,10 @@
     {
      "label": "Audio",
      "url": "/meetings/3/audio/"
+    },
+    {
+     "label": "archive.org mirror",
+     "url": "https://archive.org/details/oso-dao-meet-3-2026-11-19"
     }
    ]
   },
@@ -599,7 +603,7 @@
     "poster": "/assets/channels/poster-meeting-4.jpg",
     "captions": "/meetings/4/transcript/transcript.vtt",
     "transcript": "/meetings/4/transcript/transcript.json",
-    "archive": null,
+    "archive": "https://archive.org/details/oso-dao-meet-4-2026-11-20c",
     "highlight": {
      "wide": "https://theater.opensourceorchestra.org/reels/e4-reel-16x9.mp4",
      "tall": "https://theater.opensourceorchestra.org/reels/e4-reel-9x16.mp4",
@@ -631,6 +635,10 @@
     {
      "label": "Audio",
      "url": "/meetings/4/audio/"
+    },
+    {
+     "label": "archive.org mirror",
+     "url": "https://archive.org/details/oso-dao-meet-4-2026-11-20c"
     }
    ]
   },
@@ -683,7 +691,7 @@
     "poster": "/assets/channels/poster-meeting-5.jpg",
     "captions": "/meetings/5/transcript/transcript.vtt",
     "transcript": "/meetings/5/transcript/transcript.json",
-    "archive": null,
+    "archive": "https://archive.org/details/oso-dao-meet-5-2026-11-20",
     "highlight": {
      "wide": "https://theater.opensourceorchestra.org/reels/e5-reel-16x9.mp4",
      "tall": "https://theater.opensourceorchestra.org/reels/e5-reel-9x16.mp4",
@@ -715,6 +723,10 @@
     {
      "label": "Audio",
      "url": "/meetings/5/audio/"
+    },
+    {
+     "label": "archive.org mirror",
+     "url": "https://archive.org/details/oso-dao-meet-5-2026-11-20"
     }
    ]
   }
