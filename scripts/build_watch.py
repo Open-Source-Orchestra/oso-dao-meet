@@ -312,7 +312,10 @@ def player_html(ep: dict, next_ep: dict | None, *, embed: bool = False) -> str:
                   f'<div class="arriving"><strong>Film arriving</strong><span>{arriving_text}</span>{listen}</div></div>')
     else:
         audio_tag = f'<audio controls preload="none" data-src="{E(audio["url"])}" aria-label="Audio only · {E(ep["title"])}"></audio>' if audio.get("url") and not audio.get("arriving") else ""
-        screen = (f'<div class="screen"><video controls playsinline preload="none" poster="{E(poster)}" crossorigin="anonymous" src="{E(video["url"])}" aria-label="{E(ep["title"])}. Nothing plays until you press Play.">{track}'
+        # crossorigin only for our R2 host: archive.org redirects to a mirror that answers without CORS headers, and a
+        # crossorigin video then fails with MEDIA_ERR_SRC_NOT_SUPPORTED (live check 21 Nov 2026). Captions are same-origin anyway.
+        cors = ' crossorigin="anonymous"' if video["url"].startswith("https://theater.opensourceorchestra.org/") else ""
+        screen = (f'<div class="screen"><video controls playsinline preload="none" poster="{E(poster)}"{cors} src="{E(video["url"])}" aria-label="{E(ep["title"])}. Nothing plays until you press Play.">{track}'
                   f'Your browser cannot play this film here. <a href="{E(video["url"])}">Open the MP4 directly</a>' + (f' or <a href="{E(audio["url"])}">listen to the audio</a>' if audio.get("url") and not audio.get("arriving") else "") + '.</video>'
                   f'{audio_tag}<div class="audio-face" aria-hidden="true">♪ audio only · {E(ep["title"])}</div></div>')
     downloads = []
