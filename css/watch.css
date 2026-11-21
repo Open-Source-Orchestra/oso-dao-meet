@@ -34,7 +34,10 @@ img, video, svg { max-width: 100%; height: auto; }
 /* ── chrome ─────────────────────────────────────────── */
 .w-top { padding: 14px 0 6px; }
 .w-top nav { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; font: 700 .68rem/1.3 var(--sans); letter-spacing: .14em; text-transform: uppercase; }
-.w-top .brand { margin-right: auto; text-decoration: none; color: var(--ivory); display: inline-grid; gap: 2px; }
+.w-top nav p { margin: 0; }
+.w-top .brand-row { margin-right: auto; }
+.w-top .menu { display: flex; flex-wrap: wrap; gap: 6px 16px; }
+.w-top .brand { text-decoration: none; color: var(--ivory); display: inline-grid; gap: 2px; }
 .w-top .brand small { color: var(--gold); font-size: .58rem; letter-spacing: .18em; }
 .w-top nav a:not(.brand) { text-decoration: none; color: var(--muted); padding: 6px 0; border-bottom: 1px solid transparent; }
 .w-top nav a:not(.brand):hover, .w-top nav a[aria-current] { color: var(--gold-bright); border-bottom-color: var(--gold); }
@@ -68,13 +71,14 @@ h3 { font-weight: 400; color: var(--gold-bright); font-size: 1.15rem; margin: 0 
 .btn.primary:hover { background: var(--gold-bright); }
 .btn[aria-pressed="true"] { background: rgba(229, 193, 123, .22); border-color: var(--gold); }
 section { margin: 28px 0; scroll-margin-top: 16px; }
-.grid-2 { display: grid; gap: 14px; }
+.grid-2 { display: grid; gap: 14px; grid-template-columns: minmax(0, 1fr); }
+.hero > *, .layout > *, .grid-2 > *, .ep > *, .player > *, main > * { min-width: 0; }
 @media (min-width: 760px) { .grid-2 { grid-template-columns: 1fr 1fr; } }
 
 /* ── the player ─────────────────────────────────────── */
 .player { display: grid; gap: 10px; }
 .screen { position: relative; aspect-ratio: 16 / 9; background: #000 center/cover no-repeat; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); }
-.screen video, .screen audio { width: 100%; height: 100%; display: block; background: #000; }
+.screen video, .screen audio { width: 100%; max-width: 100%; min-width: 0; height: 100%; display: block; background: #000; }
 .screen.audio-only video { display: none; }
 .screen .audio-face { display: none; position: absolute; inset: 0; align-items: end; padding: 14px; background: linear-gradient(transparent, rgba(0, 0, 0, .75)); color: var(--ivory); font: .9rem var(--sans); }
 .screen.audio-only .audio-face { display: flex; }
@@ -103,7 +107,7 @@ details.dl ul { margin: 8px 0 0; padding-left: 18px; font: .82rem/1.7 var(--sans
 details.dl code { font: .74rem var(--mono); color: var(--ivory); word-break: break-all; }
 
 /* ── the TV (/watch/) ───────────────────────────────── */
-.hero { display: grid; gap: 18px; margin: 18px 0 8px; }
+.hero { display: grid; gap: 18px; margin: 18px 0 8px; grid-template-columns: minmax(0, 1fr); }
 @media (min-width: 900px) { .hero { grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); align-items: start; } }
 .now-head { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline; margin: 0 0 8px; }
 .now-head h2 { margin: 0; color: var(--ivory); font-size: clamp(1.3rem, 3vw, 1.8rem); }
@@ -144,7 +148,7 @@ details.dl code { font: .74rem var(--mono); color: var(--ivory); word-break: bre
 
 /* ── episode page ───────────────────────────────────── */
 .ep-head { margin: 14px 0 10px; }
-.layout { display: grid; gap: 22px; }
+.layout { display: grid; gap: 22px; grid-template-columns: minmax(0, 1fr); }
 @media (min-width: 1000px) { .layout { grid-template-columns: minmax(0, 1.5fr) minmax(300px, 1fr); align-items: start; } .layout .sticky { position: sticky; top: 10px; } }
 .words { display: grid; gap: 16px; }
 .words p, .words li { color: var(--muted); }

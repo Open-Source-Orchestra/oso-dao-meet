@@ -256,7 +256,7 @@ def chrome(show: dict, *, title: str, description: str, path: str, body: str, mo
 </head>
 <body class="{body_class}">
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="w-top wrap"><nav aria-label="OSO PIT THEATER"><a class="brand" href="/watch/">OSO PIT THEATER<small>Season 1 · The Proposal Circles</small></a>{nav}</nav>{values}</header>
+<header class="w-top wrap"><nav aria-label="OSO PIT THEATER"><p class="brand-row"><a class="brand" href="/watch/">OSO PIT THEATER<small>Season 1 · The Proposal Circles</small></a></p><p class="menu">{nav}</p></nav>{values}</header>
 <main id="main" class="wrap">
 {body}
 </main>
