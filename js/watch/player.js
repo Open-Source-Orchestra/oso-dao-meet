@@ -17,7 +17,7 @@ export function mountPlayer(root, options = {}) {
   const next = root.dataset.next || '';
   const chapters = (() => { try { return JSON.parse($('script[data-chapters]', root)?.textContent || '[]'); } catch { return []; } })();
   const listeners = new Set();
-  let media = video;
+  let media = video || audio; // an arriving film may already have its mono MP3: the transcript follows the audio
   let userScrolledAt = 0;
 
   const say = (message) => toast(message, status);
@@ -53,7 +53,7 @@ export function mountPlayer(root, options = {}) {
 
   /* ── seeking helpers ── */
   function seek(t, play = false) {
-    if (!media || arriving) return;
+    if (!media) return;
     const target = Math.max(0, Math.min(t, (duration || t + 1) - 0.5));
     const apply = () => { try { media.currentTime = target; } catch { /* metadata not ready */ } };
     if (media.readyState >= 1) apply(); else media.addEventListener('loadedmetadata', apply, { once: true });
@@ -157,10 +157,10 @@ export function mountPlayer(root, options = {}) {
   /* ── deep link + continue watching ── */
   const params = new URLSearchParams(location.search);
   const deep = parseTime(params.get('t'));
-  if (!arriving && deep !== null && deep > 0) {
+  if (media && deep !== null && deep > 0) {
     seek(deep);
     say(`Deep link: this moment is ${clock(deep)} in. Press Play.`);
-  } else if (!arriving) {
+  } else if (media) {
     const saved = progressFor(ep);
     if (saved && !saved.done && saved.t > 20 && saved.t < (saved.d || duration) - 45) {
       seek(saved.t);
@@ -176,7 +176,7 @@ export function mountPlayer(root, options = {}) {
   const keys = $('.keys', root);
   if (keys && !arriving) keys.innerHTML = `<kbd>space</kbd> play/pause · <kbd>←</kbd>/<kbd>→</kbd> 10 s · <kbd>j</kbd>/<kbd>l</kbd> 30 s · <kbd>c</kbd> captions · <kbd>f</kbd> fullscreen · <kbd>m</kbd> mute · <kbd>p</kbd> picture-in-picture · <kbd>s</kbd> share moment · <kbd>,</kbd>/<kbd>.</kbd> chapter`;
   document.addEventListener('keydown', (event) => {
-    if (arriving || !media || event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey) return;
+    if (!media || event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey) return;
     const tag = event.target.tagName;
     if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || event.target.isContentEditable) return;
     if (tag === 'BUTTON' && event.key === ' ') return;

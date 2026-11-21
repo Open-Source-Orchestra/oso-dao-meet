@@ -87,6 +87,7 @@ section { margin: 28px 0; scroll-margin-top: 16px; }
 .arriving { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; padding: 18px; gap: 6px; background: rgba(12, 8, 18, .84); backdrop-filter: blur(3px); color: var(--ivory); }
 .arriving strong { font: 400 clamp(1.2rem, 3vw, 1.7rem) var(--serif); color: var(--gold-bright); }
 .arriving span { font: .82rem var(--sans); color: var(--muted); max-width: 46ch; }
+.arriving audio.listen { position: static; display: block; width: min(100%, 520px); height: 44px; margin: 8px auto 0; }
 .chapters-bar { display: flex; gap: 3px; height: 10px; margin: 0; padding: 0; list-style: none; }
 .chapters-bar li { flex: var(--w, 1) 1 0; min-width: 4px; }
 .chapters-bar button { display: block; width: 100%; height: 100%; padding: 0; border: 0; border-radius: 3px; background: linear-gradient(90deg, var(--gold) var(--p, 0%), rgba(229, 193, 123, .22) var(--p, 0%)); }

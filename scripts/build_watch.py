@@ -135,7 +135,10 @@ def load_transcript(ep: dict, whisper_dir: Path, problems: list[str]) -> tuple[l
         return [], "none"
     path = (ep.get("media") or {}).get("transcript")
     if path and local(path).exists():
-        return cues_from(read_json(local(path))), "public"
+        data = read_json(local(path))
+        # An automatic edition published in the ledger (editorial pass pending) keeps the honest "automatic" label.
+        automatic = str(data.get("editorial") or "").lower().startswith("pending") or data.get("schema") == "oso-pit-theater-transcript-v1"
+        return cues_from(data), ("whisper" if automatic else "public")
     staged = ROOT / "data" / "season1" / f"{ep['id']}.transcript.json"
     if staged.exists() and not (Path(whisper_dir) / f"meet{ep['number']}-whisper.json").exists():
         ep.setdefault("media", {})["captions"] = f"/data/season1/{ep['id']}.vtt"
@@ -301,8 +304,12 @@ def player_html(ep: dict, next_ep: dict | None, *, embed: bool = False) -> str:
     chapters_json = json.dumps([{"start": c["start"], "title": c["title"]} for c in ep.get("chapters", [])], ensure_ascii=False)
     track = f'<track kind="captions" src="{E(media["captions"])}" srclang="en" label="English captions · editorial speaker labels" default>' if present(media.get("captions")) else ""
     if arriving:
+        listen = (f'<audio class="listen" controls preload="none" src="{E(audio["url"])}" aria-label="Audio only · {E(ep["title"])} · listen while the film arrives"></audio>'
+                  if audio.get("url") and not audio.get("arriving") else "")
+        arriving_text = ("The 720p encode and upload for this circle are in progress on the ʻohana\'s own machine. The transcript, the written words and the ledger are already here; the film appears the moment it is verified (bytes and SHA-256 in the ledger). The mono MP3 is already here — press play and the transcript follows."
+                         if listen else "The 720p encode and upload for this circle are in progress on the ʻohana\'s own machine. The transcript, the written words and the ledger are already here; the film and the mono MP3 appear the moment they are verified (bytes and SHA-256 in the ledger).")
         screen = (f'<div class="screen" style="background-image:url({E(poster)})"><img src="{E(poster)}" alt="Poster for {E(ep["title"])}" width="1280" height="720" style="opacity:.0001;position:absolute">'
-                  f'<div class="arriving"><strong>Film arriving</strong><span>The 720p encode and upload for this circle are in progress on the ʻohana\'s own machine. The transcript, the written words and the ledger are already here; the film and the mono MP3 appear the moment they are verified (bytes and SHA-256 in the ledger).</span></div></div>')
+                  f'<div class="arriving"><strong>Film arriving</strong><span>{arriving_text}</span>{listen}</div></div>')
     else:
         audio_tag = f'<audio controls preload="none" data-src="{E(audio["url"])}" aria-label="Audio only · {E(ep["title"])}"></audio>' if audio.get("url") and not audio.get("arriving") else ""
         screen = (f'<div class="screen"><video controls playsinline preload="none" poster="{E(poster)}" crossorigin="anonymous" src="{E(video["url"])}" aria-label="{E(ep["title"])}. Nothing plays until you press Play.">{track}'

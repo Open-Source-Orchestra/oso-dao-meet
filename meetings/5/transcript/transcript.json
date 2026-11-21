@@ -1,9 +1,25 @@
 {
- "schema": "oso-pit-theater-transcript-v1",
- "episode": "e5",
- "source": "automatic transcript (local faster-whisper on the ʻohana's machine; media never uploaded to a transcription service)",
- "editorial": "pending — speaker labels not yet assigned; wording may be imperfect; first names only; takedown first",
+ "schema": "oso-dao-proposal-meeting-transcript-v1",
+ "edition": "automatic",
+ "editorial": "pending — automatic edition: speaker labels not yet assigned; wording may be imperfect; first names only; takedown first",
+ "meeting": 5,
+ "title": "Open Source Orchestra DAO Meet #5",
+ "recordedAt": "2026-11-20T07:11:00Z",
+ "recordingDurationSeconds": 3315,
+ "consent": {
+  "status": "published_with_consent",
+  "reportedBy": "Shaka",
+  "reportedAt": "2026-11-21T11:50:00+07:00",
+  "scope": "everyone present consented to the public video and transcript (\"consent was given for all oso dao content out there so far\"); a takedown request always wins"
+ },
+ "transcription": "automatic transcript by faster-whisper (small.en) on the ʻohana's own machine; the recording was never uploaded to a transcription service; wording may be imperfect",
+ "speakerLabels": "not yet assigned — an editorial pass with first-name labels (from what is said, not voice identification) replaces this edition when it is checked",
+ "redactions": "scanned for surnames, private meeting links, emails and phone numbers before publication; first names only; corrections and takedown come first",
  "takedown": "https://opensourceorchestra.org/takedown/",
+ "licenses": {
+  "content": "CC BY-SA 4.0",
+  "code": "GPL-3.0"
+ },
  "cues": [
   {
    "start": 1.3,

@@ -8,7 +8,7 @@
   "bangkokStart": "2026-11-20T14:11:00+07:00",
   "pacificStart": "2026-11-19T23:11:00-08:00",
   "hostedFrom": "Chiang Mai (host); guests joined remotely",
-  "publicRecapStatus": "pending_transcript",
+  "publicRecapStatus": "published_automatic_transcript",
   "daoStatus": "proposal and public community ledger; not on-chain or adopted",
   "decisions": "no final governance, treasury, membership, token or funding decision claimed; the written recap follows the checked public transcript",
   "participants": {
@@ -48,7 +48,11 @@
     "publicAudio": null,
     "publicAudioPage": "/meetings/5/audio/",
     "publicTranscript": "/meetings/5/transcript/",
-    "transcriptFormats": [],
+    "transcriptFormats": [
+      "/meetings/5/transcript/transcript.txt",
+      "/meetings/5/transcript/transcript.vtt",
+      "/meetings/5/transcript/transcript.json"
+    ],
     "transcription": "local faster-whisper on the ʻohana's own machine (media never uploaded to a transcription service); editorial first-name speaker labels and redactions are applied before anything is published; Googly Eye's live captions are read only as a cross-check",
     "redactions": "surnames, private meeting links, emails, phone numbers and personal circumstances are removed before publication; first names only",
     "publicNotes": "/meetings/5/notes/",
@@ -59,7 +63,8 @@
       "bytes": null,
       "sha256": null,
       "note": "The original recording remains private. The 720p public encode, mono MP3, captions and transcript land here as each file is verified; bytes and SHA-256 are filled in then."
-    }
+    },
+    "publicTranscriptEdition": "automatic — editorial pass (first-name speaker labels) pending"
   },
   "theater": {
     "episode": "e5",

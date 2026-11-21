@@ -429,9 +429,10 @@
           "note": "film arriving: 720p encode + upload in progress; bytes and SHA-256 land in /meetings/3/status.json when verified"
         },
         "audio": {
-          "url": "/meetings/3/audio/oso-dao-meet-3-2026-11-19.mp3",
-          "bytes": null,
-          "arriving": true
+          "url": "https://theater.opensourceorchestra.org/oso-dao-meet-3-2026-11-19.mp3",
+          "bytes": 50998063,
+          "sha256": "3e45794790171de4c6e27af226b43834fea3cd5c8d28c0bdb9abb19235512028",
+          "arriving": false
         },
         "poster": "./assets/channels/poster-meeting-3.jpg",
         "captions": "./meetings/3/transcript/transcript.vtt",

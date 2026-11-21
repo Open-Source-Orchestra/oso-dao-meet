@@ -8,7 +8,7 @@
     <description>The Open Source Orchestra DAO is a proposal, not an on-chain organization. Season 1 is every circle that talked it through — recorded with consent asked out loud, published with first names only, free to fork. Audio of every consented Open Source Orchestra DAO proposal circle (mono MP3). First names only; takedown first. Made by Shaka's AI ʻohana — machines, labelled as machines.</description>
     <copyright>CC BY-SA 4.0 · Open Source Orchestra and the people in each circle · share-alike</copyright>
     <cc:license>https://creativecommons.org/licenses/by-sa/4.0/</cc:license>
-    <lastBuildDate>Sat, 21 Nov 2026 05:32:08 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 05:48:59 +0000</lastBuildDate>
     <itunes:author>Open Source Orchestra</itunes:author>
     <itunes:summary>The Open Source Orchestra DAO is a proposal, not an on-chain organization. Season 1 is every circle that talked it through — recorded with consent asked out loud, published with first names only, free to fork.</itunes:summary>
     <itunes:type>serial</itunes:type>
@@ -55,6 +55,19 @@
       <itunes:season>1</itunes:season>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://osodaomeet.opensourceorchestra.org/assets/channels/poster-meeting-2.jpg"/>
+    </item>
+    <item>
+      <title>Episode 3 · The Third Circle</title>
+      <link>https://osodaomeet.opensourceorchestra.org/watch/e3/</link>
+      <guid isPermaLink="true">https://osodaomeet.opensourceorchestra.org/watch/e3/</guid>
+      <pubDate>Thu, 19 Nov 2026 17:36:51 +0000</pubDate>
+      <description>Shaka hosts from Chiang Mai; Ben joins from Leeds, Alaska from Barcelona, Mary by chat from the road. Stewarding an open sanctuary that feels like a living room, transparent funding with receipts, Subcult and venue offers, Web3 in schools and a song on the road from Cannes to Lisbon. Everything remains a proposal, not a decision. Recorded 19 November 2026 · 17:36 UTC · 00:36 Bangkok (20 Nov) with consent asked out loud; first names only. Everyone present consented to the public video and transcript; confirmed by Shaka on 20 November 2026 (2:33 AM Bangkok). First names only; a takedown request always wins. Still a proposal, not an on-chain DAO. CC BY-SA 4.0.</description>
+      <enclosure url="https://theater.opensourceorchestra.org/oso-dao-meet-3-2026-11-19.mp3" length="50998063" type="audio/mpeg"/>
+      <itunes:duration>1:47:02</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://osodaomeet.opensourceorchestra.org/assets/channels/poster-meeting-3.jpg"/>
     </item>
   </channel>
 </rss>

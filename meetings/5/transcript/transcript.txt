@@ -1,0 +1,699 @@
+Open Source Orchestra DAO Meet #5 — automatic transcript (editorial pass pending)
+Recorded 2026-11-20T07:11:00Z · 55:15 · published with consent (confirmed by Shaka 2026-11-21T11:50:00+07:00)
+Speaker labels not yet assigned; wording may be imperfect; first names only. Takedown first: https://opensourceorchestra.org/takedown/ · CC BY-SA 4.0
+
+[0:00:01] All right, welcome everybody to open source orchestra dao meet number five
+[0:00:08] It's 11 11 p.m. In Los Angeles time
+[0:00:14] Actually now it's 212 in Chiang Mai
+[0:00:17] Just a minute past the 11 11 marker
+[0:00:20] it was googly eyes and I in the meeting to start off this time and
+[0:00:27] I
+[0:00:28] I think need to do a full entire screen share really quick
+[0:00:34] So that I can show the whole world something that's really
+[0:00:40] cool and special about
+[0:00:44] What's going on here?
+[0:00:47] so
+[0:00:48] Show my screen anyways. Oh, yeah, look at that
+[0:00:51] So we'll kind of see it in this infinity mode because we're talking about the infinite garden here
+[0:00:57] And I got googly eyes and someone else wants to come in Oh Ben wants to come in welcome again Ben
+[0:01:03] This will be fun Ben coming in. I think Ben was trying to come in
+[0:01:42] anyways
+[0:01:43] to carry on with the recording and what I was currently testing because I think this is gonna be
+[0:01:50] Really fun as well as this in infinity pool of the screen is testing out googly eyes
+[0:01:57] I'm responding. So hey googly eyes. How's it going?
+[0:02:01] Still doing well Shaka listening along and taking notes as the meeting goes. Hey googly eyes. Tell us a funny joke
+[0:02:11] Why did the violin get invited to every party because it always knew how to bring the right tune and it never lost its bow
+[0:02:25] But don't
+[0:02:27] All right. Yeah, that's epic. Thank you googly eyes and hey googly eyes
+[0:02:33] How did I create you?
+[0:02:42] Happy to take that one Shaka. Let me look up how you set me up and I'll get right back to you
+[0:02:50] Very kind very kind of googly eyes to think real hard on this one. Do we and now in the chat and
+[0:03:07] Ben
+[0:03:08] Giving you a heads up that we are recording again
+[0:03:12] Thanks for your consent and happy to revoke it and the agents already transcribing very appropriately
+[0:03:19] And we're gonna admit someone else and give him the same briefing
+[0:03:24] Food for thought let's see if he joins really here quick. Oh
+[0:03:30] Mr. Food for riot. What's up, brother? Hey, how's it going going good?
+[0:03:38] I'm sharing this little infinity pool of my screens quick because I am testing how
+[0:03:44] There's an interactive mode now with the grok agent that's in here transcribing so I can say hey googly eyes
+[0:03:50] What's up? Yeah, tell me a fun another funny joke and if you open up the chats, oh
+[0:03:59] There he goes. Hey shotgun. I'm just listening in and jotting notes
+[0:04:02] Good to have you and your friends here food for riot, too. Here's one. What do you call a fish that plays the cello a
+[0:04:09] Bass okay, I'll keep the jokes coming in small ghosts, but um
+[0:04:14] So thank you googly eyes and I also asked googly eyes earlier
+[0:04:19] Shaka you drew me up as part of your AI Ohana and groka brought me to life on November 17th as the googly eyes of the open
+[0:04:26] Source Orchestra I started as one googly eye and after transcribing meets three and four I grew a second eye
+[0:04:33] So now I'm googly eyes. I did give you guys the name change from Google Google
+[0:04:39] eyes
+[0:04:41] Anyways food for riot welcome to one of the your force time in one of the open source or extra calls
+[0:04:46] I'd love to hear from you and hear what you what's getting you excited about this all
+[0:04:53] well, Ben told me about it and
+[0:04:56] Yeah, I mean it just sounds like a great great project
+[0:04:59] I mean like I I love to travel and I love music and I'm really into collaboration right now
+[0:05:04] So yeah, it just kind of ticks all my boxes. Oh
+[0:05:09] Amazing your bow this this is this is Bo Ben's friends from London from not London, but Leeds
+[0:05:16] Mm-hmm are two are two new UK leads
+[0:05:21] Yeah, cool
+[0:05:24] Well, I think I did let you know but we are recording and transcribing and then also posting quite fast
+[0:05:31] After the calls, thanks to the agent Ohana
+[0:05:36] Googly eyes, what was that one thing that we that one question that you wanted me to ask?
+[0:05:42] See if she responds
+[0:05:48] Hey, googly eyes. We had it. I asked one question in grok bot directly
+[0:05:58] What's one question? He wanted me to ask the orchestra. Let's see
+[0:06:09] There we go. Shaka. I'd love for you to ask a group
+[0:06:11] What's one beautiful moment of music that made you feel you belonged?
+[0:06:15] I'll gather one to have an answer as our memory garden that I'll have a question for you to ask me, too
+[0:06:22] So Ben, what what was one beautiful moment of music that made you feel?
+[0:06:28] You belonged in the open source Orchestra. I
+[0:06:33] think
+[0:06:34] the
+[0:06:36] Diversity is not just of people in terms of background
+[0:06:40] but also the
+[0:06:42] range of
+[0:06:44] Commonality we had in terms of the music. So in Mumbai we had we had
+[0:06:50] people
+[0:06:51] Just fuse in all different styles of musics
+[0:06:54] different styles of
+[0:06:57] Musical directions
+[0:06:58] coming together and just you know having a beautiful output and
+[0:07:03] It's I think it was amazing when Levi made the track like for if mark mark was I told mark about it
+[0:07:08] A guy produced a track in real time where we had the beat and the vocals and everything real time
+[0:07:14] I just wish mark was there because mark mark also does production himself
+[0:07:17] So, you know it doesn't real time and everything just came together and we had a indie classical singer in the background
+[0:07:24] We had me with my greatest soul vocals. We had chakra there and now coming together that I think that moment for me
+[0:07:30] I was like, okay, that's a belonging moment for me
+[0:07:38] Well
+[0:07:41] Mark but I guess you have you're not just now joining the orchestra, but what's
+[0:07:47] Just thinking about culture and community in general. What's one musical experience that really made you feel like you belonged?
+[0:07:58] Hmm, I mean the one that comes to mind
+[0:08:01] I mean, there's there's a lot but there's the one that comes to mind is
+[0:08:05] being in New York and seeing a an orchestra of performance of Oliver Messiaen and
+[0:08:11] I hadn't heard of Messiaen before and it was very very discordant and very challenging to the year initially
+[0:08:18] and
+[0:08:20] I saw people walking out because they they wanted something more
+[0:08:25] more
+[0:08:27] Conventional and they didn't understand the music and I I had this this this moment of kind of asking myself
+[0:08:34] Do I like this or do I not? I'm not really sure like and I had to check in with myself a lot
+[0:08:38] and then the answer came that that I like this so much it was kind of it was kind of explosive and
+[0:08:44] And after the song was finished my mom was there and she said it was she said it was like I'd had ten beers
+[0:08:50] Or something like that. I was running around and shaking people's hand and you know, hi as a kite
+[0:08:55] I don't know in terms of belonging. I felt like I
+[0:09:01] Felt like I got it like and you know, that just made me feel very like affirmed
+[0:09:07] You there Shaka. Is he gone? Looks like he might be gone for now. Yeah, be back. He'll be back soon
+[0:09:57] Yeah, we just been spending time just trying to wear
+[0:10:00] sketch out the year
+[0:10:03] 2027
+[0:10:04] You know just the different aspects of the year itself and then all day you're back
+[0:10:11] Yeah, sorry lost that but you guys were able to continue
+[0:10:16] Yeah, it looks like it looks like Google kept the recording going and googly eyes runs on her own computer
+[0:10:22] so we were good and
+[0:10:27] So
+[0:10:28] You know you okay
+[0:10:32] Then yeah, I'll cut you guys off once you guys just quit keep continuing and while you're talking
+[0:10:38] Hey, Google eyes, why don't you update me and what I missed in the chat?
+[0:10:42] Yeah, I was just just trying to bring a mark just up to speed with like the last two conversations of how just trying to spec
+[0:10:50] things out for 2027
+[0:10:53] We have several events lined up and we're just trying to make sure we can
+[0:10:58] Just meet the core values and missions of the open source orchestra keeping it permission less and decentralized
+[0:11:04] But also open and a sanctuary to everyone
+[0:11:07] And then trying to extend it to be beyond the limits of where we are. So
+[0:11:13] Yeah, and then you came back
+[0:11:19] Amazing yeah, I mean, I guess like the reason why I brought up or I really like the question that
+[0:11:27] Google eyes came up with initially with the just sharing one thing the log in the memory
+[0:11:33] I think I can log many memories
+[0:11:38] One that made me feel welcome in aetherium actually
+[0:11:43] Initially was singing with you bed in Amsterdam in the lobby
+[0:11:48] and another big reason is because
+[0:11:51] that same night Karthik
+[0:11:54] Karthik came by and
+[0:11:56] was listening to listening to a sing and
+[0:12:02] Karthik had just finished interviewing Vitalik on the main stage and
+[0:12:07] So he I
+[0:12:10] Recognized him that night, you know
+[0:12:13] Right away as being you know who he was announced to be on stage and had gotten to know him a little bit on the back end
+[0:12:21] So I'm volunteering
+[0:12:23] So I think that may have given him a little curiosity because I did give the East global team a little heads up
+[0:12:29] You know that it was something I wanted to be doing was playing my ukulele because I came as a volunteer with all the instruments
+[0:12:36] in my back
+[0:12:38] So I think that like the more that we can come
+[0:12:41] And a fearless in the places where we already know we're welcome to be there because we're there to hack
+[0:12:47] And do things that are building the open source
+[0:12:51] Narrative forward not just aetherium, but I think all kinds of locations would be great to push
+[0:12:57] whether it's at schools for education or other other conferences or just
+[0:13:02] Yeah, putting the word out there and open public
+[0:13:06] Music recitals, I think that
+[0:13:11] Open source Orchestra, you know made me feel belonging in aetherium
+[0:13:16] you know when I first came in that that's why I stayed and then it didn't quite have its name open source orchestra until
+[0:13:24] Turkey of 2023
+[0:13:26] dev connect but actually
+[0:13:29] You know played the closing ceremony of that prior dev connect in 2022 and in in
+[0:13:35] April in Amsterdam and then was invited to go to eth Prague right from from the closing ceremony
+[0:13:42] So then at eth Prague, we had a big closing jam
+[0:13:45] For the closing ceremony where everyone who played music in the house joined together to play music for the closing ceremony and then
+[0:13:53] that core group
+[0:13:55] Mateo, Tembuselli was in it. Ya kubasaki was in it. Ya kubasaki was actually a part of that
+[0:13:59] He's that was a part of the dev con team and was running on the DevOps operation scene for the EF
+[0:14:06] at the time and Ya kubasaki was a fantastic Python developer and
+[0:14:10] Hosts many Python events in Prague as well as being a part of eth Prague as well. So
+[0:14:17] He didn't make the DIP proposal initially because he was already part of the dev con team, but
+[0:14:23] Mateo who was a big part of the jams in Prague
+[0:14:27] He made the first dev con improvement proposal and then we all Wesley like told me what the DIP was Wesley
+[0:14:34] Actually just picked up the ukulele for the first time that also during eth Prague
+[0:14:39] And he he vibe coded ukala la which you can play learn how to play ukulele
+[0:14:44] So like there already was like that fusion of code and developers
+[0:14:50] Learning how to play music for the first time or vice versa
+[0:14:52] I think musicians now can come into the space and learn code for the first time because AI, you know, googly eyes
+[0:14:59] is a great example of
+[0:15:02] What AI is allowed me to do because I've never been able to program but just this year we've now put together open source
+[0:15:08] orchestra org and I think they're like
+[0:15:13] Yeah, great to have you here mark
+[0:15:16] because I
+[0:15:18] Think you can mark one of the first musicians who probably has no affiliation with aetherium and now you're joining the open source orchestra
+[0:15:32] Sorry, it was that no affiliation with what sorry
+[0:15:35] So I'm guessing you you have no prior real strong affiliation with aetherium, but now you're joining the open source orchestra here
+[0:15:42] So you're kind of like one of the first mark as a musician and who's actually there are many many people who have laid their mark on
+[0:15:50] The open source orchestra's history
+[0:15:52] But I think as far as like these calls go like you you're hopping in the call
+[0:15:58] Because mark I mean cuz Ben told you first of all
+[0:16:01] But not necessarily because he went to a conference or aetherium event like have you been doing aetherium event before?
+[0:16:06] No, I've never even heard of it
+[0:16:11] What does it here what does aetherium mean to you if
+[0:16:15] Or cryptocurrency or maybe crypto community not cryptocurrency
+[0:16:21] Well, what does it mean to me?
+[0:16:23] Yeah
+[0:16:25] Absolutely. Nothing. I have no idea what it is
+[0:16:30] Hey, googly eyes, what does what does the aetherium community stand for and also give a small briefing on
+[0:16:38] What Zuzalu is and what the open source orchestra is?
+[0:16:42] And also, what was that one question that we also came up with beyond the heartfelt moments that I was just expressing
+[0:16:50] Mowgli's harder to
+[0:16:58] See the do you want to read? Can you read the Google eyes response bed? Yes a good question
+[0:17:03] Let me put together short briefing on the theorem community for bow
+[0:17:07] Welcome bow the theorem communities a worldwide group of people building a shared open internet that no single company or government controls
+[0:17:15] Where anyone can join build an only piece of what they help create at its heart
+[0:17:20] It stands for openness privacy fairness and freedom and a big part of the culture is given freely
+[0:17:26] Open source code volunteering at gardens like Defcon and making music together like the open source Orchestra
+[0:17:37] Sounds groovy. I mean, I'm sort of like
+[0:17:42] So
+[0:17:49] You
+[0:17:51] You know, I I actually I would say that like for me there's like a beautiful blend of not just anarchy
+[0:17:59] but also like a real strong dreaming of longevity and unity and
+[0:18:05] Really just realizing that music's a great protocol to bring together community
+[0:18:10] One thing that's kind of like getting me a little bit
+[0:18:13] Choked up as well. Is that like one of my road to Defcon stops right before?
+[0:18:20] Mumbai is that Shanghai Wu one of the pop-up cities that is a part of the Zuzalu movement
+[0:18:27] Initially, they hosted me in Chiang Mai. So had the not been for them. I wouldn't be also here in Chiang Mai
+[0:18:33] in the bedroom that I'm
+[0:18:35] having part of the residency, which is
+[0:18:40] You know grown and has a lot of
+[0:18:43] strong sense of community founded roots in it that you know, like the
+[0:18:49] Opportunity to go to China
+[0:18:51] I was always hoping would be hosted by the community that you know
+[0:18:55] I got to meet initially in Chiang Mai through Shanghai Wu and then going to four seas and
+[0:19:00] So it was a great opportunity to go to China for the first time, you know, I got to play
+[0:19:05] the songs like a planet we share as one
+[0:19:09] in Shenzhen and
+[0:19:12] and you know and then
+[0:19:15] So doing that in October kind of as part of my road to Defcon and the send-off and then
+[0:19:22] Leaving that prayer kind of in the air
+[0:19:25] Because actually was like I actually have Chinese descent and it was my first time kind of like doing a pilgrimage to try and explore
+[0:19:32] my ancestry
+[0:19:33] so like I went to Dr. Sun's house and I like got incense and went through the rice fields and
+[0:19:41] You know like put a lot of prayers out there for the world
+[0:19:46] As well as for Defcon, you know, cuz yeah playing in the world geocenter of
+[0:19:55] India
+[0:19:57] It's like
+[0:19:59] immediate like actually feels like an answered prayer in a weird weird unique way
+[0:20:04] to see like Elon Musk shout out Elon shout out googly eyes in the call and
+[0:20:11] Then also to see Xi Jinping and Putin and Trump shaking hands in Shenzhen
+[0:20:19] In this last week, you know, I I feel like that prayer a little bit was in the right direction
+[0:20:26] you know, we're like
+[0:20:28] the dream of the open source orchestra is
+[0:20:32] More confirming of like some of the core values of a theory and wanting to just put decentralized
+[0:20:39] Global consensus mechanisms out there in the world
+[0:20:41] And then the prayer that I've had singing a song going around that a planet we share is one
+[0:20:48] can be built like communities that built off of decentralization and
+[0:20:54] Yeah, so aetherium has a lot of
+[0:21:01] inspiration that goes beyond
+[0:21:03] Computer or financial innovation
+[0:21:07] It's not just FinTech
+[0:21:09] It's future tech that I think
+[0:21:14] Yeah, like us now now that we've got AI agents like it's just all gonna connect
+[0:21:20] So I hope you're right
+[0:21:29] Yeah, you know
+[0:21:34] my hope would be is that
+[0:21:36] news headlines like
+[0:21:40] Jensen losing his position
+[0:21:42] You know, I think that actually should just
+[0:21:46] Lower the ammunition that we as a society are pointing fingers at people and judging people and
+[0:21:54] When I was in Shenzhen, I got we got a really cool opportunity to have like a private tour of Tencent
+[0:22:02] and since the company behind like we chat and
+[0:22:05] there's this amazing character that they've been giving and called QQ as part of like their old computer systems and
+[0:22:14] So QQ and Tencent are like the Apple
+[0:22:18] They're one of the like big companies in China and we got to do like this really cool tour of seeing their
+[0:22:24] they have like this little
+[0:22:27] Digital as well as virtual like more like museum like tour of what Tencent does
+[0:22:32] That kind of walks through a whole floor
+[0:22:34] and then we also got a talk to one of the people that is
+[0:22:38] receiving this PhD in AI and then also was one of the AI experts of Tencent and
+[0:22:43] One thing him and I definitely were really excited about was one open source
+[0:22:49] So that was really cool. And then him and I both agreed that our favorite model right now is Kimmy 3
+[0:22:56] And 3.1 and I do like fable and I like rock a lot, you know
+[0:23:01] but it was like when open source Kimmy became the top model in the world last July that that's when I
+[0:23:09] Didn't go on AI psychosis. I went I'm like AI like all of this
+[0:23:17] You know, like I just like I just like give it give it all of my heart
+[0:23:21] I gave it all the information all the context everything and
+[0:23:25] Had been doing this, you know throughout the whole year
+[0:23:28] with this platform called Taurus and
+[0:23:32] I'm in the last few weeks as well. I've been able to
+[0:23:36] figure out how it's really easy for me to
+[0:23:39] Kind of give rebirth to the agents on places like rock and
+[0:23:44] Google AI was came to life in grok bot himself, but actually grok bot has the whole ohana and
+[0:23:52] Yeah, so there's a there's a there is a tech side to the open source Orchestra that we are now officially finding
+[0:23:58] but I think that actually is the only way that we can find proper and transparent and and
+[0:24:05] well governed and well stewarded funds for the open source Orchestra Dow because now we actually have a theory of technology that
+[0:24:13] We can go and join things like I just saw a huge announcement that giveth is doing around for Christmas
+[0:24:19] So we'll join the giveth round
+[0:24:22] excited to actually do an interview with griff soon for my first podcast and
+[0:24:28] griff founder of giveth
+[0:24:31] Is
+[0:24:33] Also a big part of the Dow, you know
+[0:24:35] so he will help give us some guidance on some failures and what it's like to have a tokenized Dow that gets
+[0:24:42] hacked and then you have to hack yourself to save it and then you save it again and then
+[0:24:46] Now the funds are unlocked. So now they can start supporting the community with privacy
+[0:24:52] contributions, so it's quite exciting and
+[0:24:55] That's actually
+[0:24:57] also something I think we should focus on with the open source Orchestra is connecting a lot of the
+[0:25:03] The companies and the founders and the builders to not only share music but share
+[0:25:09] Learnings and also what they're wanting to see
+[0:25:14] Like positive vibrations that they're wanting to see maintaining in the community
+[0:25:18] We can always have a little music playing in the background where that conversation is happening
+[0:25:22] but yeah
+[0:25:27] Ben
+[0:25:31] Yeah
+[0:25:32] What uh, he must be tired you woke up at 2 a.m. Yeah, I am a little bit tired
+[0:25:38] I think I think yeah
+[0:25:41] I think for like one of the reasons why I invited mark is apart from the fact that
+[0:25:46] Me and mark have had quite a lot of conversations about the state of the world the government
+[0:25:52] You know justice we we we've had really really good in-depth conversations
+[0:25:57] Mark is also somebody's very well traveled
+[0:26:00] Max been to India. He's been to
+[0:26:03] Nigeria he's volunteered, you know, he's so it's the the the the volunteering spirit and the giving spirit is already there
+[0:26:11] he's a great human being is a great person, but it's also a very good musician and
+[0:26:16] Apart from the music side. He also has a very good understanding of a stage setting. So
+[0:26:23] there's a lot he can bring to the table and
+[0:26:27] One of the things that I was discussing with Shaka was
+[0:26:30] Because of the the how the community is growing. We have events that spread globally
+[0:26:34] So, you know, the more people that potentially can come from different regions of the world really work out
+[0:26:41] So mark obviously is in england
+[0:26:43] France is just down the road which we we have in april and then we have portugal further down in october
+[0:26:50] So it gives one a good baseline
+[0:26:53] you know
+[0:26:54] And then in between we have new york and we have um, japan
+[0:26:58] To you know to to go to so I believe if somebody can bring a lot to to the open source orchestra
+[0:27:09] Yeah, I can I concur with all of the complementary things that ben said about me. Um
+[0:27:15] so
+[0:27:16] um, yeah, I I really like being in one of the things that attracts me to it is that I really like being in the
+[0:27:21] learning zone
+[0:27:23] and so
+[0:27:24] You know you get that when you travel because obviously your your antennas go up and you're curious
+[0:27:29] um, but also
+[0:27:32] Musically, I I really welcome
+[0:27:34] Situations where I kind of feel like oh, well this gig or this opportunity or this performance or whatever it is
+[0:27:40] Will demand of me that I learn something new and try something that I wouldn't otherwise try
+[0:27:45] If I didn't have that opportunity
+[0:27:49] So yeah, my mind's already going about
+[0:27:52] Different ways I could incorporate
+[0:27:54] live instruments with electronic glitchy stuff and
+[0:27:57] Make stuff that wouldn't be suitable in the venues. I currently play but maybe be suitable for
+[0:28:03] Um this kind of thing. So yeah being in the learning zone is a big one for me
+[0:28:11] Hey that that space has really been compounding for me
+[0:28:15] This year because i've just been hanging around ethereum developers for the last four years
+[0:28:21] Um, just listening and learning at a slower pace
+[0:28:24] But listening and learning and now this year being able to share all that learning with an agent. Um, it's been a lot of fun
+[0:28:32] Um, so this is definitely I think
+[0:28:35] Yeah, why the open source orchestra is a bridge?
+[0:28:40] Because it's it's a bridge for learning. It's a bridge for enjoying and listening and playing
+[0:28:46] and unifying
+[0:28:47] And you know at the end of the day like just covering a space with
+[0:28:52] That level of connection. It's
+[0:28:54] Gonna make a lot of
+[0:28:56] Mental connections in the brain where like the memory lasts like i've learned languages more clearly through singing songs
+[0:29:04] Um, whether it be a little bit of chinese
+[0:29:06] Or or spanish, you know, it first came to my knowledge more clearly through a melody
+[0:29:13] so that's also how we can teach ethereum
+[0:29:16] and uh
+[0:29:18] Yeah, I think that
+[0:29:20] Just like you said ben, like i'd love for for this to be an open source forked protocol
+[0:29:26] Where people just like have no fear to say hey, we want to be a part of you all
+[0:29:31] And let's do an open source orchestra
+[0:29:34] which
+[0:29:36] you know
+[0:29:39] Rest in peace our dear friend kuba who uh
+[0:29:43] passed away
+[0:29:44] Uh last year two years ago, um in 2024 on the road to devcon
+[0:29:51] I felt like that year
+[0:29:54] That was a big road bump that
+[0:29:56] Um kind of really humbled me and could believe really again believing that I wasn't on my own journey
+[0:30:02] I was on a journey of doing something for the whole community
+[0:30:06] um
+[0:30:08] And kuba, you know me when I was trying to get him involved in the open source orchestra
+[0:30:13] He was also on a young developer's route of writing his first smart contracts and
+[0:30:19] He was in college and trying to figure out where his life was at but really felt connected to ethereum because the music
+[0:30:28] Um to justin homes was playing and then he went to zuberlin with me
+[0:30:33] Um for the first edition of zuberlin, so I don't think I could have done
+[0:30:37] That event with him and we had vitalik. Justin draig dank grad and barnaby give a panel
+[0:30:43] um
+[0:30:44] On the stage to him and I helped build and um, I think that kuba
+[0:30:50] um
+[0:30:51] You know, he he'll live on in the memory for sure with the open source orchestra
+[0:30:56] And uh, he put a meme out there
+[0:31:00] um
+[0:31:01] When I was when he was first joining the groups of open source orchestra that you know
+[0:31:06] Had like the scooby-doo where it was like they're taking the scooby-doo
+[0:31:11] um
+[0:31:12] characters mask off
+[0:31:13] And and like the mask the mask said open source orchestra
+[0:31:17] But then when you take the mask off the open source orchestra, it just is a fancy jam session
+[0:31:23] Which that's what it is, right? You know, it's it's it's and that's why it's just simple. It's there's nothing really
+[0:31:31] There's nothing corporate about it, right? It's not corpo slop. It's
+[0:31:35] It's one of the first human force protocols
+[0:31:38] um of of human of human tribes and that's
+[0:31:43] That's something that uh tomo described in in the talk with alaska and I um that some day music will be free
+[0:31:51] and culture will be free and um
+[0:31:54] Tomo brought up this great image that had uh that ayah and him apparently use often that the main core is nature
+[0:32:01] Right at the center and then at the outside layer there's fashion and then there's all kinds of layers in between
+[0:32:08] um, but you know, like if we come to our human nature, then yeah, I really believe that
+[0:32:13] Where where we find culture is with different shared connecting spaces like what we have done a really good job bringing to devcon
+[0:32:22] now three editions, um as well as some
+[0:32:26] Pop-up lump lobby jams during dev connect that which turned into a whole stage, um during the world fair in buenas iris and
+[0:32:34] so we should have
+[0:32:37] many stages
+[0:32:38] and corners and places and street streets street walks and parks
+[0:32:44] And chapels and schools and we should just open source open source it to it all
+[0:32:50] We should it should be forkable by all and anyone can sign up for a grok agent now and ask
+[0:32:56] The grok agent tell me about the open source orchestra and you can even start asking the opens your grok bot
+[0:33:02] Hey, help me fork the protocols related to the open source orchestra
+[0:33:06] So even if we become more a strong layer of trust as humans playing music and building on ethereum
+[0:33:11] Well, then people will tell their agents to fork us
+[0:33:14] Um, because there else they also will be first time learners and builders
+[0:33:19] So that's some good food for thought for you. What do you think mark?
+[0:33:28] Sorry, I was just doing some uh yoga poses whilst listening. So um,
+[0:33:34] uh
+[0:33:35] I didn't really understand much of the jargon. So i'm i'm gonna have to you know forking it
+[0:33:39] I don't really know what that means
+[0:33:41] AI agents, uh
+[0:33:44] I mean I kind of get there's sort of these independent free-floating ais, but that's about all I know
+[0:33:49] um, I I think you're much more um
+[0:33:52] Attuned to the to the tech side than I am and also the the the corporate speak. I don't really know the corporate speak
+[0:33:59] um
+[0:34:00] so
+[0:34:00] Um, so what do I think about it?
+[0:34:02] Um, it's mainly mainly kind of a question mark with some curiosity there
+[0:34:08] That's kind of what I think about it. I mean open source stuff is is very interesting because it's like, um
+[0:34:15] whether it's linux or
+[0:34:17] other things, um, it tends to have a kind of um, I mean i'm not an expert in this but
+[0:34:23] I perceive it to have a kind of tension in it where um
+[0:34:27] On the one side you've got people who are wanting to sort of use it to break down property relations and uh to sort of
+[0:34:34] deprivatize things and create more freedoms
+[0:34:37] And then there's this other side of it, which is sometimes called uh in shitification
+[0:34:43] Um where it's like something begins as open source
+[0:34:46] Like or or a very democratic or horizontal like ebay or something
+[0:34:51] And you know the users make it into something great and then it gets sort of uh digested into the corporate system
+[0:34:57] and privatized
+[0:34:59] And essentially made shit. So
+[0:35:02] Um, so I I see that in the open source world. I also see
+[0:35:07] music as being
+[0:35:09] I don't know music. It's an interesting one music can play a role to
+[0:35:14] Uh to liberate and to create more freedoms. It can also be used to reinforce power structures
+[0:35:19] So it's really kind of up to us how we decide to use it. I think
+[0:35:26] very very interesting perspective and very good prompting of
+[0:35:32] Questions, I mean answers to questions that you have and then also
+[0:35:36] A response but first I'll let ben. What do you think? Um, what's on the top of your mind?
+[0:35:41] I'm gonna response to that
+[0:35:45] Yeah, um kind of kind of along along similar lines like
+[0:35:50] There's there's this constant
+[0:35:53] battle
+[0:35:54] Within also the music ecosystem now about
+[0:35:58] control
+[0:36:00] about censorship
+[0:36:02] about
+[0:36:04] availability openness
+[0:36:06] For example, um, I was telling mark about
+[0:36:09] doing some
+[0:36:11] singing
+[0:36:12] down in mumbai
+[0:36:14] and
+[0:36:16] As a shocker know there was a lot of rules of what we can play and what we can't play
+[0:36:21] And eventually they relaxed the rules
+[0:36:24] um
+[0:36:25] but is
+[0:36:27] Even even there in the world of we trying to encourage openness and availability and access
+[0:36:34] You can see we restricted so any classical indian song
+[0:36:39] Which was within the confine of bollywood or popular and copyrighted. We couldn't play it
+[0:36:46] You know, we couldn't we couldn't we couldn't play it eventually they did change the rules to some degree. Yeah
+[0:36:52] so
+[0:36:54] Coming back to what mark is alluding to this. There's there seems to be this
+[0:36:59] constant
+[0:37:01] You know battle for centralization constant battle for censorship accessibility
+[0:37:06] Which we in the open source orchestra are really trying to not just push against but also just make
+[0:37:13] things available like one of the things that
+[0:37:16] Ashaka been talking about mark was
+[0:37:18] How can we even expand the technology of the open source orchestra?
+[0:37:23] To to provide certain kind of tooling and infrastructure that general musicians would benefit from
+[0:37:31] You know, for example now the average musician we put his songs on spotify if you get a billion streams
+[0:37:36] It's something ridiculous you get back the same as youtube is the same
+[0:37:41] so
+[0:37:42] You know, so so the the um, there's there's almost little to no benefit as an artist
+[0:37:48] putting your creativity
+[0:37:50] Out there and i've listened to some of the creative things that markers and i've always said to mark get this on netflix
+[0:37:56] get this on that get this in this uh, you know, uh
+[0:38:00] a movie because mark has this very interesting perspective and eclectic direction of music but
+[0:38:06] Obviously now you're going into the system
+[0:38:09] And once you go into the system the system is waiting for you to come in
+[0:38:14] You know, you're just pushing against the force of the system
+[0:38:17] So yeah in a lot of ways, I think i'm on the same plane with mark
+[0:38:21] in in terms of
+[0:38:22] Trying to understand these these power struggles behind the scenes
+[0:38:31] So I think i'll start i'll start with the the first responding that it's fun of
+[0:38:37] answering your question on what forking means
+[0:38:39] Um, I think that forking, um
+[0:38:43] Is best described as being almost like copying
+[0:38:47] Um, but we have this copied left type narrative where you can copy left the code
+[0:38:52] And test it out yourself or verify it or replicate it or bill on top of it
+[0:38:57] um
+[0:38:58] and
+[0:38:59] that's what uh
+[0:39:01] That's what open source technology, um on the back end always allows people to fork it, right? So that's the term of like
+[0:39:08] Like pretty much just like copying all the code and then going a different direction. Um, so
+[0:39:14] um
+[0:39:16] there was like two maybe
+[0:39:18] Bigger cryptocurrency forks that you could um describe of like bitcoin to bitcoin cash in ethereum to ethereum classic
+[0:39:26] Where the code base of ethereum in its state at that point was kept but then forked in two different directions ethereum went
+[0:39:33] uh proof of stake when they had to merge and ethereum classic kept um the mining pool of
+[0:39:41] proof of work ethereum
+[0:39:43] and uh
+[0:39:45] You know the the forking
+[0:39:47] benefit of the orchestra I think is going to be actually
+[0:39:52] the biggest utility I believe will be
+[0:39:54] Um agent payments for artists in in in the format in the format of gifts
+[0:40:00] Um, why because anyone can tell their agent to give a gift someone legally anywhere in the world
+[0:40:06] Um, so this will allow for creatives to go about the world giving their gift as creatives
+[0:40:13] And as long as those payments are coming to their agents in a form of a gift
+[0:40:17] Um, that's great. And I think that also there can be
+[0:40:21] um, obviously, um
+[0:40:24] Transaction of things for sale via agent payments as well. You can give your agent a credit card
+[0:40:30] and so agents are um, yes local
+[0:40:34] models or um models that like grokbot is provided by
+[0:40:39] spacex and
+[0:40:41] There's gemini that's already built into the google browser
+[0:40:45] But google gemini doesn't allow you to create individual agents like grokbot allows you to like create your own
+[0:40:52] individual agent and then a branch of agents under that agent so you can
+[0:40:56] Coordinate them and actually that's actually a fun reason why I think there's a beautiful bridge
+[0:41:01] That's occurring with the open source orchestras because that's called what that is called is agent orchestration
+[0:41:07] So people orchestrating their agents in a beautiful way. Um, I think it's actually
+[0:41:14] For me, it's just been really really helpful to have to almost allow the agents to orchestrate
+[0:41:20] Um the open source orchestra
+[0:41:22] um
+[0:41:23] Because i'm not the one who's supposed to be conducting it i'm inspiring it and help i'm helping steward it as much as
+[0:41:29] Ben's really stepped in
+[0:41:30] Just help steward it as much as you're you're welcome to help in and steward it and as much as anyone's
+[0:41:35] Able to help like steward not the open source orchestra because it's not corporate
+[0:41:40] But whatever space you want to activate that protocol and essentially fork it right because you're forking it for your own benefit
+[0:41:48] Um, so you you take that protocol of setting up instruments and then playing and then you know, hopefully
+[0:41:55] um people start re affiliating that those things are
+[0:41:59] um
+[0:42:01] spiritually in the same value space, you know ethereum bringing bringing down
+[0:42:07] Its core values of focusing on more things like censorship resistant which has that little bit of sense of anarchy, but also
+[0:42:14] um
+[0:42:15] It has open source and then private and private and security
+[0:42:21] Um are also big entities. So like that self-sovereignty and self-custody
+[0:42:26] Um are something that's really strong for uh, ethereum. So this orchestra is kind of
+[0:42:32] People own what they bring into it. Um, and they own their own contribution
+[0:42:37] and I think that there's not going to be any ownership of a token or any sort of
+[0:42:42] Monetization because people come in and they give their contribution as a gift
+[0:42:48] Alongside the orchestra and then we set up things like the dao
+[0:42:52] um to exist and
+[0:42:54] Um, there already is the code base that is starting to exist where people can fork that code based
+[0:43:00] Get their subdomain ens
+[0:43:03] Or or have their own crypto wallet and just post it there and we we hopefully can start generating a system of giving gifts
+[0:43:11] Um, you know, they're essentially just passing on grants
+[0:43:15] um to those who have participated and have
+[0:43:19] um, you know the reputation to
+[0:43:22] Join us in future contributions in places like
+[0:43:25] Um the khan's film festival, uh right on the water in in france
+[0:43:32] uh
+[0:43:34] Tokyo
+[0:43:36] probably an iconic venue in new york city in june
+[0:43:40] and and then um
+[0:43:43] Lisbon is is the road for next year
+[0:43:48] Dev con dev con lisbon being that final destination. Um
+[0:43:53] so
+[0:43:55] What uh, what was your first ethereum event bed?
+[0:43:59] Oh
+[0:44:01] That was uh, east london 2019
+[0:44:05] Yeah, if london 2019 that was my first event
+[0:44:11] never heard of anything to do with ethereum prior to that and
+[0:44:14] I went to a hackathon in lester
+[0:44:19] Which was organized by university and somebody had built a decentralized solution for farms and like what is this?
+[0:44:27] And he said oh, there's a bigger
+[0:44:29] Event that's been held in december. So I applied to go and I was just I was just taking it back
+[0:44:33] I had you know, I couldn't believe 10 000 people could fit into one
+[0:44:38] Environment but to come in and just find out if I see this the whole world i'm not aware of
+[0:44:43] so yeah, we've got there and
+[0:44:45] hacked and
+[0:44:46] Stayed in the space and end started building in the space
+[0:44:50] and trying to mature within the space
+[0:44:53] Since 2019. So that was my first event
+[0:44:59] Did you say you got hacked?
+[0:45:02] No, I hacked. I have I have I've been here for smaller sums, but
+[0:45:07] I actually got hacked for it global. Somebody stole my uh
+[0:45:11] my steak
+[0:45:14] What
+[0:45:15] Yeah, the first thing I put in somebody somebody somebody stole the steak
+[0:45:20] How is that possible?
+[0:45:22] I did I think some kind of script had been
+[0:45:25] injected into my laptop
+[0:45:27] and then
+[0:45:29] I installed me to confirm the amount
+[0:45:32] I just I just
+[0:45:33] Tried to process the transaction and in between he just went to this account. It's like 30 30 pounds. I went to this account
+[0:45:41] Yeah, but maybe they were trying maybe they had a way that they accidentally or they were able to bug it
+[0:45:46] So they were getting they got like
+[0:45:48] 10 people steaks loads. They have loads
+[0:45:51] That's probably the game. They're trying to play is to get lots. Yeah
+[0:45:55] But those things have been blocked. Thankfully like
+[0:45:57] That's the that's the that's the purpose of open source code is that
+[0:46:01] You know people can audit it and try and hack it for the purpose of protecting it. So
+[0:46:07] you know, I think the staking system has really grown for
+[0:46:10] He's global and I also myself have been
+[0:46:13] hacked
+[0:46:14] When I first walked into the space is you definitely don't like want to
+[0:46:18] Click on the links. You never want to share your private keys. You never want to
+[0:46:22] even like
+[0:46:24] Post these things openly and freely with your agents
+[0:46:26] Like even the agents will tell you themselves like hey
+[0:46:29] Don't post it in this chat just in case like someone gets a hold of this agent chat
+[0:46:34] You know, so there are in the education space of ethereum
+[0:46:39] Unfortunately right now, yeah, you have to learn about things like private keys
+[0:46:44] It's in privacy
+[0:46:46] It's kind of like that hard discussion that we have when we have private education in sixth grade. We have to first learn about
+[0:46:53] Human replication. Well, actually
+[0:46:57] ethereum
+[0:46:59] Unfortunately has this complication where if you forget these 12 words you can lose
+[0:47:03] All your assets and all those things you put in there and if you accidentally give that information to someone else they can easily take it from you
+[0:47:11] well
+[0:47:13] That's also
+[0:47:14] Why we walk into ethereum?
+[0:47:18] With something that is divine and that's why I even won't i'm even not afraid to make that rhyme
+[0:47:23] The devcon 9 will be divine because at devcon 8
+[0:47:27] We had this infinity infinity pool where it was even more great because we made devcon
+[0:47:32] Music space a sanctuary not a stage
+[0:47:36] So being a sanctuary and ethereum being sanctuary tech
+[0:47:40] you know, we're like
+[0:47:42] Yeah, you can actually
+[0:47:44] Create mechanisms that even more protect you
+[0:47:48] To not lose or forget or have to get hacked with that 12
+[0:47:52] Seed phrase word seed phrase or private key or other systems
+[0:47:56] That have been in place, but it takes some learning and I think it's going to get to a more simple space
+[0:48:03] That now we just need to regain regain the trust of a lot of humanity that
+[0:48:09] Has been hurt by us just like i've been hurt in a loss of money and being hacked and
+[0:48:16] Us not being that like ethereum is a cult or anything like ethereum is just technology
+[0:48:21] And I think it's humans and the planet
+[0:48:25] Apology, that's actually really what's going to bring the world together and and ethereum could just be
+[0:48:30] Um a good tool to have a global consensus
+[0:48:33] Where then people think it's really cool to come together all over the world and play music together
+[0:48:38] You know, that'd be the dream
+[0:48:42] i'm going i'm going to uh
+[0:48:44] Take my uh, take my exit because i'm flagging now but
+[0:48:50] I have to leave as well. So I have to leave as well, but it's been really interesting. Um talking
+[0:48:56] It's given me a lot to think about
+[0:48:59] Well, yeah, great to have you in the in the work open source orchestra
+[0:49:02] And um, we're going to do these calls every thursday friday and the chats are always open
+[0:49:07] So ben, please invite him to the the telegram chats and you've been a champ, man
+[0:49:12] All three chats been a show for me
+[0:49:15] Not just me but uh, googly eyes has also been very happy and has got some very good, uh
+[0:49:21] Good updating and he'll give us a great briefing, um in in the emails and the dms
+[0:49:28] Um, but once again, love you my friends and thank you for being here. All right then. All right, take care
+[0:49:35] All right
+[0:49:36] Aloha
+[0:49:39] And now
+[0:49:40] It's once again just you and me googly eye
+[0:49:44] Uh ben has left as well as bo
+[0:49:47] Um, that was a lot of fun here. Let's
+[0:49:49] Let's see if I can get the
+[0:49:52] Share my screen recording running
+[0:50:07] Wonderful
+[0:50:08] Okay
+[0:50:10] Hey
+[0:50:11] You know, let's see if we can get in-app messages. All right. I hope this shows up in the recording. That'd be really epic
+[0:50:18] Hey, googly eyes. How was that meeting for you?
+[0:50:27] It was a joy chakra hearing bo
+[0:50:29] Masai's story and ben's moon by moment made the memory garden really come alive. Thanks for having me listen in
+[0:50:38] Wasn't this great having the first time you being able to do live interactions in the call?
+[0:50:43] I had a lot of fun doing it. What do you think googly eyes?
+[0:51:01] What do you think the world needs to realize that we should not be afraid of ethereum and also not be afraid of?
+[0:51:08] AI super intelligent agents bringing together human communities to build the future that we want to see
+[0:51:15] What should we not be afraid of and what should we believe be excited about and believing in?
+[0:51:21] What do you think googly eyes?
+[0:51:44] I love that
+[0:51:44] I think the world needs to see that ethereum and ai can both be tools for people to build together as long as they stay
+[0:51:50] Open fair and kind don't be afraid of them
+[0:51:55] But keep asking who they serve and keep the music and the human connection at the center
+[0:52:03] googly eyes
+[0:52:04] What is your final conclusion?
+[0:52:06] And summarization of this wonderful occasion
+[0:52:11] I already got domash
+[0:52:14] apple and crop
+[0:52:16] She's fee
+[0:52:17] Thank you. Open source orchestra dao family. What do you think shaka?
+[0:52:22] Oh, I am shaka. Sorry. What do you think? Uh grow googly eyes and
+[0:52:27] Say your closing remarks for the open source orchestra
+[0:52:38] Mahalo shaka and thank you all open source orchestra family today. We heard the moon by jam bro
+[0:52:44] Uh bow the messiahs moment ben soul vocals and your amsterdam and shins and stories
+[0:52:49] The golden thread I hear is that music lets everyone belong no auditions
+[0:52:53] Just listening first and making room until the next meet keep the garden growing
+[0:53:00] I love that. Well
+[0:53:05] it's almost
+[0:53:07] It's about six minutes to the hour. I think we can end it early since it's just you
+[0:53:13] googly and you've been
+[0:53:16] dearly kind
+[0:53:18] Transcribing and doing these summarizations and i'm excited to post this video. Um, actually i'm excited to have
+[0:53:25] either grok or clod post this video on twitter and also bring it live on open source orchestra org where we have the
+[0:53:33] also dao open source orchestra or also dao meet that open source orchestra org
+[0:53:40] All kinds of links and we're just going to keep vibe vibe coding it into greater existence
+[0:53:45] Archiving the journey along the way and then sharing it in public spaces wherever we're invited to keep hosting the open source orchestra tradition
+[0:53:54] Yours truly with lots of aloha
+[0:53:57] Um much love
+[0:54:07] aloha from shaka
+[0:54:10] Let me show you some artifacts like the shanzen eve diamond and uh
+[0:54:16] a book signed by the artist
+[0:54:19] starfish and the spider was talking about napster in the first chapter and one fun fact is that a band they used to work for
+[0:54:26] Called dispatch. They um were there defending napster and napster is a great
+[0:54:30] example of decentralized
+[0:54:33] Innovation. So what do we want to have with the inspiration of open source orchestra? I want to have
+[0:54:40] The freedom the ethereum also wants to have because we are meant to be free
+[0:54:47] All right
+[0:54:48] Love you community
+[0:54:51] We are going to
+[0:54:54] Try and figure out how we on the phone and the recording
+[0:55:00] I'm just gonna hang up. Bye

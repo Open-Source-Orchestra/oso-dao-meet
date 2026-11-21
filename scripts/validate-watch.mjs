@@ -151,7 +151,17 @@ check(!/\bOSO\b/.test(feed.replace(/<description>[\s\S]*?<\/description>/g, ''))
 check(feed.startsWith('<?xml') && /<rss version="2.0"/.test(feed) && /CC BY-SA 4\.0/.test(feed) && /itunes:image href="https:\/\/osodaomeet\.opensourceorchestra\.org\/assets\/watch\/season1-artwork\.jpg"/.test(feed), 'Podcast feed: RSS 2.0, CC BY-SA 4.0, artwork.');
 const enclosures = [...feed.matchAll(/<enclosure url="([^"]+)" length="(\d+)" type="audio\/mpeg"\/>/g)];
 check(enclosures.length === published.filter((e) => e.media.audio && !e.media.audio.arriving && e.media.audio.bytes).length, 'Feed items only for episodes whose MP3 is verified.');
-for (const [, url, length] of enclosures) { const rel = url.replace('https://osodaomeet.opensourceorchestra.org/', ''); if (!url.startsWith('https://archive.org')) check(existsSync(resolve(root, rel)) && statSync(resolve(root, rel)).size === Number(length), `Feed enclosure bytes must match the file: ${rel}`); }
+for (const [, url, length] of enclosures) {
+  if (url.startsWith('https://archive.org')) continue;
+  if (url.startsWith('https://theater.opensourceorchestra.org/')) {
+    // MP3s on R2 are never committed; the feed must carry the verified bytes + SHA-256 from season.json (HEAD-verified before they were filled in).
+    const ep = published.find((e) => e.media.audio && e.media.audio.url === url);
+    check(Boolean(ep) && ep.media.audio.bytes === Number(length) && /^[a-f0-9]{64}$/.test(ep.media.audio.sha256 || ''), `Feed enclosure on R2 must match the verified bytes + SHA-256 in season.json: ${url}`);
+    continue;
+  }
+  const rel = url.replace('https://osodaomeet.opensourceorchestra.org/', '');
+  check(existsSync(resolve(root, rel)) && statSync(resolve(root, rel)).size === Number(length), `Feed enclosure bytes must match the file: ${rel}`);
+}
 check(existsSync(resolve(root, 'assets/watch/season1-artwork.jpg')) && existsSync(resolve(root, 'assets/watch/season1-og.jpg')), 'Season artwork + OG image.');
 const jsFiles = readdirSync(resolve(root, 'js/watch')).filter((f) => f.endsWith('.js'));
 const gz = jsFiles.reduce((sum, f) => sum + gzipSync(read(`js/watch/${f}`)).length, 0);

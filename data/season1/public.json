@@ -475,11 +475,13 @@
      "note": "720p H.264 encode in progress on the ʻohana's box; bytes and SHA-256 land here when the upload is verified"
     },
     "audio": {
-     "url": "/meetings/3/audio/oso-dao-meet-3-2026-11-19.mp3",
+     "url": "https://theater.opensourceorchestra.org/oso-dao-meet-3-2026-11-19.mp3",
      "type": "audio/mpeg",
-     "bytes": null,
-     "sha256": null,
-     "arriving": true
+     "bytes": 50998063,
+     "sha256": "3e45794790171de4c6e27af226b43834fea3cd5c8d28c0bdb9abb19235512028",
+     "durationSeconds": 6374.71,
+     "host": "Cloudflare R2 · theater.opensourceorchestra.org",
+     "arriving": false
     },
     "poster": "/assets/channels/poster-meeting-3.jpg",
     "captions": "/meetings/3/transcript/transcript.vtt",
@@ -595,8 +597,8 @@
      "arriving": true
     },
     "poster": "/assets/channels/poster-meeting-4.jpg",
-    "captions": "/data/season1/e4.vtt",
-    "transcript": "/data/season1/e4.transcript.json",
+    "captions": "/meetings/4/transcript/transcript.vtt",
+    "transcript": "/meetings/4/transcript/transcript.json",
     "archive": null,
     "highlight": {
      "wide": null,
@@ -678,8 +680,8 @@
      "arriving": true
     },
     "poster": "/assets/channels/poster-meeting-5.jpg",
-    "captions": "/data/season1/e5.vtt",
-    "transcript": "/data/season1/e5.transcript.json",
+    "captions": "/meetings/5/transcript/transcript.vtt",
+    "transcript": "/meetings/5/transcript/transcript.json",
     "archive": null,
     "highlight": {
      "wide": null,
