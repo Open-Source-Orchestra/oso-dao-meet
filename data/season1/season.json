@@ -2,7 +2,7 @@
   "schema": "oso-pit-theater-season-v1",
   "updated": "2026-11-21",
   "show": {
-    "title": "OSO PIT THEATER",
+    "title": "The Pit Theater",
     "season": "Season 1 · The Proposal Circles",
     "home": "https://osodaomeet.opensourceorchestra.org/watch/",
     "synopsis": "The Open Source Orchestra DAO is a proposal, not an on-chain organization. Season 1 is every circle that talked it through — recorded with consent asked out loud, published with first names only, free to fork.",
@@ -22,7 +22,8 @@
       "crops": "CROPS values — consent asked out loud · receipts, not claims · open by default (GPL-3.0 code · CC BY-SA 4.0 words) · protect the people in the room (first names, takedown first) · share-alike, fork us like crazy.",
       "garden": "Infinite Garden — we leave every circle more open, more musical and more alive than we found it."
     },
-    "machines": "Built by Shaka's AI ʻohana — machines, labelled as machines — at his direction. Nothing here is a decision, a membership list or legal advice."
+    "machines": "Built by Shaka's AI ʻohana — machines, labelled as machines — at his direction. Nothing here is a decision, a membership list or legal advice.",
+    "brand": "The Pit Theater · Open Source Orchestra"
   },
   "consentStates": {
     "published_with_consent": "public: film, audio, transcript and words may show",
@@ -295,7 +296,7 @@
       "title": "The Second Circle",
       "tagline": "From the lobby of 4Seas, Chiang Mai.",
       "ledgerTitle": "Proposal Meeting #2 · The second circle",
-      "lede": "Shaka hosts Aakaash, Sha and Vipul: no token for OSO, gift first and receipts after, a European backline for the road to Lisbon, a Devcon 9 song, copyright care — and a tour of this very hall.",
+      "lede": "Shaka hosts Aakaash, Sha and Vipul: no token for the orchestra, gift first and receipts after, a European backline for the road to Lisbon, a Devcon 9 song, copyright care — and a tour of this very hall.",
       "recordedAt": "2026-11-13T07:11:00Z",
       "dateLabel": "13 November 2026 · 07:11 UTC · 14:11 Bangkok",
       "durationSeconds": 3407.709,

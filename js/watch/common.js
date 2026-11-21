@@ -1,4 +1,4 @@
-/* OSO PIT THEATER v3 · shared helpers · GPL-3.0 · built by the ʻohana (machines, labelled as machines). */
+/* The Pit Theater (Open Source Orchestra) v3 · shared helpers · GPL-3.0 · built by the ʻohana (machines, labelled as machines). */
 export const $ = (selector, root = document) => root.querySelector(selector);
 export const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
 

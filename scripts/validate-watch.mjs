@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* OSO PIT THEATER v3 · authoring-time gates for /watch/ (Season 1 · The Proposal Circles). Not a build or runtime dependency.
+/* The Pit Theater (Open Source Orchestra) v3 · authoring-time gates for /watch/ (Season 1 · The Proposal Circles). Not a build or runtime dependency.
    Run after `python3 scripts/build_watch.py`. GPL-3.0 · built by the ʻohana (machines, labelled as machines). */
 import { readFileSync, existsSync, readdirSync, statSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
@@ -70,6 +70,8 @@ for (const rel of pages) {
     check(/opensourceorchestra\.org\/join\//.test(page), `${rel}: the join page is the only door.`);
   }
   check(!PRIVATE.test(page), `${rel}: no private link, contact, Drive ID, email or internal path may ship.`);
+  const prose = plain(page.replace(/<li data-start="[^"]*"[\s\S]*?<\/li>/g, ' ').replace(/<q>[\s\S]*?<\/q>/g, ' ').replace(/<ul class="quotes">[\s\S]*?<\/ul>/g, ' ').replace(/<script[\s\S]*?<\/script>/g, ' '));
+  check(!/\bOSO\b/.test(prose), `${rel}: NAME LAW — bare "OSO" in visible prose (write "Open Source Orchestra" in full): ${(prose.match(/.{0,30}\bOSO\b.{0,30}/) || [''])[0]}`);
   check(!/<(?:video|audio)\b[^>]*\bautoplay\b/i.test(page), `${rel}: media must never autoplay.`);
   check(!/<video\b(?![^>]*preload="none")/i.test(page) && !/<audio\b(?![^>]*preload="none")/i.test(page), `${rel}: every media element is lazy (preload="none").`);
   check(!/<(?:script|img|link)\b[^>]*(?:src|href)="https?:/i.test(page.replace(/<link rel="canonical"[^>]*>/, '').replace(/<meta[^>]*>/g, '')), `${rel}: no external runtime resource (films are media, not scripts).`);
@@ -130,7 +132,7 @@ for (const seed of garden.seeds) {
   if (transcript) {
     const cues = transcript.cues || transcript.turns.flatMap((t) => t.segments);
     const hay = cues.filter((c) => c.start >= seed.t - 1 && c.start <= seed.t + 150).map((c) => c.text).join(' ').toLowerCase();
-    const words = seed.text.toLowerCase().replace(/…/g, ' ').match(/[a-z0-9']+/g) || [];
+    const words = seed.text.replace(/\[[^\]]*\]/g, ' ').toLowerCase().replace(/…/g, ' ').match(/[a-z0-9']+/g) || [];
     let pos = 0, ok = words.length > 0;
     for (const w of words) { const at = hay.indexOf(w, pos); if (at < 0) { ok = false; break; } pos = at + w.length; }
     check(ok, `Seed ${seed.id}: text must be verbatim from the transcript near ${seed.t}s.`);
@@ -145,6 +147,7 @@ const livePage = read('watch/live/index.html');
 check(!/meet\.google|zoom\.us/i.test(livePage) && /opensourceorchestra\.org\/join\//.test(livePage) && /publicinform\.com\/#consent/.test(livePage), 'Live: join page only, PIT protocol linked, no raw meeting link.');
 check(live.next === null || !Number.isNaN(Date.parse(live.next)), 'live.json next must be null or ISO-8601.');
 const feed = read('watch/feed.xml');
+check(!/\bOSO\b/.test(feed.replace(/<description>[\s\S]*?<\/description>/g, '')), 'NAME LAW: no bare "OSO" in feed titles.');
 check(feed.startsWith('<?xml') && /<rss version="2.0"/.test(feed) && /CC BY-SA 4\.0/.test(feed) && /itunes:image href="https:\/\/osodaomeet\.opensourceorchestra\.org\/assets\/watch\/season1-artwork\.jpg"/.test(feed), 'Podcast feed: RSS 2.0, CC BY-SA 4.0, artwork.');
 const enclosures = [...feed.matchAll(/<enclosure url="([^"]+)" length="(\d+)" type="audio\/mpeg"\/>/g)];
 check(enclosures.length === published.filter((e) => e.media.audio && !e.media.audio.arriving && e.media.audio.bytes).length, 'Feed items only for episodes whose MP3 is verified.');

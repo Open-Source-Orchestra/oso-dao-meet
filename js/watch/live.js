@@ -1,4 +1,4 @@
-/* OSO PIT THEATER v3 · the circle clock · GPL-3.0 · built by the ʻohana (machines, labelled as machines).
+/* The Pit Theater (Open Source Orchestra) v3 · the circle clock · GPL-3.0 · built by the ʻohana (machines, labelled as machines).
    The only join path is the public join page; no meeting link is ever printed here. */
 import { $, $$ } from './common.js';
 

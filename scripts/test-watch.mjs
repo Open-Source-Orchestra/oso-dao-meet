@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* OSO PIT THEATER v3 · browser gates for /watch/ — Playwright + axe-core, two viewports, no-JS edition, BUTTON LAW overlap check.
+/* The Pit Theater (Open Source Orchestra) v3 · browser gates for /watch/ — Playwright + axe-core, two viewports, no-JS edition, BUTTON LAW overlap check.
    Authoring-time only (not a runtime dependency). GPL-3.0 · built by the ʻohana (machines, labelled as machines).
 
    PLAYWRIGHT_MODULE=/path/to/node_modules/playwright AXE_MODULE=/path/to/node_modules/axe-core/axe.min.js \

@@ -1,4 +1,4 @@
-/* OSO PIT THEATER v3 · the TV (/watch/) · GPL-3.0 · built by the ʻohana (machines, labelled as machines).
+/* The Pit Theater (Open Source Orchestra) v3 · the TV (/watch/) · GPL-3.0 · built by the ʻohana (machines, labelled as machines).
    Continue watching lives in localStorage on this device only. Nothing is sent anywhere. */
 import { $, $$, clock, escapeHTML, progressAll, store, KEYS } from './common.js';
 import { mountPlayer } from './player.js';

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""OSO PIT THEATER v3 · generator for /watch/ (Season 1 · The Proposal Circles).
+"""The Pit Theater · Open Source Orchestra · v3 generator for /watch/ (Season 1 · The Proposal Circles).
 
 Authoring-time only — the site still has no runtime build step. Python 3 standard library only.
 
@@ -37,6 +37,14 @@ SHIELD = ("Brent", "Blake")
 
 E = html.escape
 WRITTEN: dict[Path, str] = {}
+BRAND = "The Pit Theater · Open Source Orchestra"
+
+
+def namelaw(text: str) -> str:
+    """NAME LAW: no bare "OSO" in prose we author or render from the words lane (verbatim quotes are left alone)."""
+    text = re.sub(r"\bOSO PIT THEATER\b", "The Pit Theater", text or "")
+    text = re.sub(r"\bOSO DAO\b", "Open Source Orchestra DAO", text)
+    return re.sub(r"\bOSO\b", "Open Source Orchestra", text)
 
 
 # ───────────────────────────── helpers ─────────────────────────────
@@ -175,13 +183,13 @@ def normalize_words(data: dict, ep: dict) -> dict:
         "draft": bool(data.get("draft", False)),
         "writtenBy": data.get("writtenBy") or data.get("credit") or "written by the AI ʻohana from the public transcripts · CC BY-SA 4.0",
         "sourceTranscript": data.get("sourceTranscript") or ep["media"].get("transcript"),
-        "title": data.get("title") or ep["title"],
-        "blurb": data.get("blurb") or ep["lede"],
-        "recap": [p for p in paragraphs(data.get("recap")) if p],
+        "title": namelaw(data.get("title") or ep["title"]),
+        "blurb": namelaw(data.get("blurb") or ep["lede"]),
+        "recap": [namelaw(p) for p in paragraphs(data.get("recap")) if p],
         "quotes": [{"t": float(q["t"]), "who": q["who"], "text": q["text"]} for q in data.get("quotes", [])],
         "chapters": [{"t": float(c.get("t", c.get("start", 0))), "title": c["title"]} for c in data.get("chapters", [])],
-        "whyItMatters": [p for p in paragraphs(data.get("whyItMatters")) if p],
-        "glossary": [{"term": g["term"], "meaning": g.get("meaning") or g.get("plain") or ""} for g in data.get("glossary", [])],
+        "whyItMatters": [namelaw(p) for p in paragraphs(data.get("whyItMatters")) if p],
+        "glossary": [{"term": namelaw(g["term"]), "meaning": namelaw(g.get("meaning") or g.get("plain") or "")} for g in data.get("glossary", [])],
         "seeds": [{"t": float(x["t"]), "who": x["who"], "text": x["text"]} for x in data.get("seeds", [])],
         "license": "CC BY-SA 4.0",
     }
@@ -190,7 +198,7 @@ def normalize_words(data: dict, ep: dict) -> dict:
 
 def verbatim(text: str, cues: list[dict], t: float, window: float = 150.0) -> bool:
     """The quote's words must appear in order inside the transcript from t to t+window (fillers may be dropped)."""
-    words = re.findall(r"[a-z0-9']+", text.lower().replace("…", " "))
+    words = re.findall(r"[a-z0-9']+", re.sub(r"\[[^\]]*\]", " ", text).lower().replace("…", " "))
     haystack = " ".join(c["text"] for c in cues if t - 1 <= c["start"] <= t + window).lower()
     pos = 0
     for word in words:
@@ -246,17 +254,17 @@ def chrome(show: dict, *, title: str, description: str, path: str, body: str, mo
 <title>{E(title)}</title>
 <meta name="description" content="{E(description)}">
 <link rel="canonical" href="{canonical}">{robots}
-<meta property="og:type" content="video.other"><meta property="og:site_name" content="OSO PIT THEATER · Open Source Orchestra DAO Meet">
+<meta property="og:type" content="video.other"><meta property="og:site_name" content="The Pit Theater · Open Source Orchestra">
 <meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(description)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{og_image}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='43' fill='%23110b17' stroke='%23dfbb73' stroke-width='4'/%3E%3Cpath d='M28 61V37l10 12 12-20 12 20 10-12v24' fill='none' stroke='%23f8edda' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-<link rel="alternate" type="application/rss+xml" title="OSO PIT THEATER · Season 1 (podcast)" href="/watch/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="The Pit Theater · Open Source Orchestra · Season 1 (podcast)" href="/watch/feed.xml">
 <link rel="stylesheet" href="/css/watch.css">
 <script>document.documentElement.classList.add('has-js')</script>{extra_head}
 </head>
 <body class="{body_class}">
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="w-top wrap"><nav aria-label="OSO PIT THEATER"><p class="brand-row"><a class="brand" href="/watch/">OSO PIT THEATER<small>Season 1 · The Proposal Circles</small></a></p><p class="menu">{nav}</p></nav>{values}</header>
+<header class="w-top wrap"><nav aria-label="The Pit Theater"><p class="brand-row"><a class="brand" href="/watch/">The Pit Theater<small>Open Source Orchestra · Season 1 · The Proposal Circles</small></a></p><p class="menu">{nav}</p></nav>{values}</header>
 <main id="main" class="wrap">
 {body}
 </main>
@@ -364,7 +372,7 @@ def build_tv(season: dict, listed: list[dict]) -> str:
                  '<p>Walk into <a href="/">the Hall</a> — the Three.js theater where these films shine on the projector — or read the <a href="/channels/">readable channels edition</a>.</p></div></section>')
         synopsis = sw.get("synopsis") or show["synopsis"]
         guide = guide.replace(f'<p class="lede">{E(show["synopsis"])}</p>', paras(synopsis).replace("<p>", '<p class="lede">', 1))
-        return chrome(show, title="OSO PIT THEATER · Season 1 · The Proposal Circles — Open Source Orchestra DAO Meet", description="Every Open Source Orchestra DAO proposal circle as an episode: films with karaoke transcripts, written words, the Memory Garden and a podcast feed. Recorded with consent, first names only, free to fork. Still a proposal, not an on-chain DAO.", path="/watch/", body=f'<p class="kicker">Open Source Orchestra DAO Meet · the TV</p><h1>Season 1 · <em>The Proposal Circles.</em></h1><p class="lede">Watch the circles the way you would watch a show — then open the transcript, read the words, plant a seed in the garden. Still a proposal, not an on-chain DAO.</p>{hero}{guide}{field}', module="tv", current="tv")
+        return chrome(show, title="The Pit Theater · Open Source Orchestra · Season 1 · The Proposal Circles", description="Every Open Source Orchestra DAO proposal circle as an episode: films with karaoke transcripts, written words, the Memory Garden and a podcast feed. Recorded with consent, first names only, free to fork. Still a proposal, not an on-chain DAO.", path="/watch/", body=f'<p class="kicker">The Pit Theater · Open Source Orchestra DAO Meet · the TV</p><h1>Season 1 · <em>The Proposal Circles.</em></h1><p class="lede">Watch the circles the way you would watch a show — then open the transcript, read the words, plant a seed in the garden. Still a proposal, not an on-chain DAO.</p>{hero}{guide}{field}', module="tv", current="tv")
     field = ('<section class="grid-2 field-guide" aria-label="Field guide"><div class="card"><h2>A field guide for new viewers</h2><ol>'
              '<li><strong>What you are watching.</strong> Real meetings, recorded on Google Meet, in which people talk through a <em>proposal</em> for an Open Source Orchestra DAO. Nothing is decided on camera; nothing here is on-chain.</li>'
              '<li><strong>How it was recorded.</strong> Notetakers enter first, consent is asked out loud on the recording, the host hits record last, nothing is cut, and nothing goes public until everyone has said yes and the transcript has been checked.</li>'
@@ -374,7 +382,7 @@ def build_tv(season: dict, listed: list[dict]) -> str:
              '<p>Listen in any podcast app: <a href="/watch/feed.xml">/watch/feed.xml</a> (the mono MP3s, CC BY-SA 4.0).</p>'
              f'<p>Record your circle the same way and add it to the ledger: <a href="{show["protocol"]["url"]}">{E(show["protocol"]["name"])}</a> · <a href="/watch/live/">the circle clock</a>.</p>'
              '<p>Walk into <a href="/">the Hall</a> — the Three.js theater where these films shine on the projector — or read the <a href="/channels/">readable channels edition</a>.</p></div></section>')
-    return chrome(show, title="OSO PIT THEATER · Season 1 · The Proposal Circles — Open Source Orchestra DAO Meet", description="Every Open Source Orchestra DAO proposal circle as an episode: films with karaoke transcripts, written words, the Memory Garden and a podcast feed. Recorded with consent, first names only, free to fork. Still a proposal, not an on-chain DAO.", path="/watch/", body=f'<p class="kicker">Open Source Orchestra DAO Meet · the TV</p><h1>Season 1 · <em>The Proposal Circles.</em></h1><p class="lede">Watch the circles the way you would watch a show — then open the transcript, read the words, plant a seed in the garden. Still a proposal, not an on-chain DAO.</p>{hero}{guide}{field}', module="tv", current="tv")
+    return chrome(show, title="The Pit Theater · Open Source Orchestra · Season 1 · The Proposal Circles", description="Every Open Source Orchestra DAO proposal circle as an episode: films with karaoke transcripts, written words, the Memory Garden and a podcast feed. Recorded with consent, first names only, free to fork. Still a proposal, not an on-chain DAO.", path="/watch/", body=f'<p class="kicker">The Pit Theater · Open Source Orchestra DAO Meet · the TV</p><h1>Season 1 · <em>The Proposal Circles.</em></h1><p class="lede">Watch the circles the way you would watch a show — then open the transcript, read the words, plant a seed in the garden. Still a proposal, not an on-chain DAO.</p>{hero}{guide}{field}', module="tv", current="tv")
 
 
 def words_html(ep: dict, words: dict) -> str:
@@ -441,7 +449,7 @@ def build_episode(season: dict, listed: list[dict], ep: dict, words: dict, cues:
     desc = f"{ep['title']} — {ep['lede'][:150].rstrip()}… Recorded {ep['dateLabel'].split(' · ')[0]} with consent, first names only. Film, karaoke transcript and written words. Still a proposal, not an on-chain DAO."
     extra = f'<link rel="prev" href="../{prev_ep["id"]}/">' if prev_ep else ""
     extra += f'<link rel="next" href="../{next_ep["id"]}/">' if next_ep else ""
-    return chrome(show, title=f"{ep['title']} · {episode_label(ep)} · OSO PIT THEATER", description=desc, path=f"/watch/{ep['id']}/", body=body, module="episode", image=ep["media"].get("poster"), extra_head=extra)
+    return chrome(show, title=f"{ep['title']} · {episode_label(ep)} · The Pit Theater · Open Source Orchestra", description=desc, path=f"/watch/{ep['id']}/", body=body, module="episode", image=ep["media"].get("poster"), extra_head=extra)
 
 
 def build_embed(season: dict, listed: list[dict], ep: dict) -> str:
@@ -449,8 +457,8 @@ def build_embed(season: dict, listed: list[dict], ep: dict) -> str:
     published = [e for e in listed if visible(e) == "published"]
     idx = published.index(ep)
     next_ep = published[idx + 1] if idx + 1 < len(published) else None
-    body = player_html(ep, next_ep, embed=True) + f'<div class="embed-foot"><a href="/watch/{E(ep["id"])}/" target="_top">{E(ep["title"])} · OSO PIT THEATER ↗</a><span>recorded with consent · first names only · CC BY-SA 4.0</span><a href="{show["takedown"]}" target="_top">takedown first</a></div>'
-    page = chrome(show, title=f"{ep['title']} · embed · OSO PIT THEATER", description=ep["lede"][:160], path=f"/watch/embed/{ep['id']}/", body=body, module="embed", image=ep["media"].get("poster"), body_class="embed", noindex=True)
+    body = player_html(ep, next_ep, embed=True) + f'<div class="embed-foot"><a href="/watch/{E(ep["id"])}/" target="_top">{E(ep["title"])} · The Pit Theater · Open Source Orchestra ↗</a><span>recorded with consent · first names only · CC BY-SA 4.0</span><a href="{show["takedown"]}" target="_top">takedown first</a></div>'
+    page = chrome(show, title=f"{ep['title']} · embed · The Pit Theater · Open Source Orchestra", description=ep["lede"][:160], path=f"/watch/embed/{ep['id']}/", body=body, module="embed", image=ep["media"].get("poster"), body_class="embed", noindex=True)
     # the embed keeps the chrome minimal: strip header/footer but keep lang.js and the values line in a tooltip-free footer
     page = re.sub(r'<header class="w-top wrap">.*?</header>\n', "", page, flags=re.S)
     page = re.sub(r'<footer class="w-foot wrap">.*?</footer>\n', "", page, flags=re.S)
@@ -461,12 +469,12 @@ def build_search(season: dict, listed: list[dict]) -> str:
     show = season["show"]
     published = [e for e in listed if visible(e) == "published" and present(e["media"].get("transcript"))]
     fallback = "".join(f'<li><a href="{E(e["ledger"])}transcript/">{E(e["title"])} · full transcript</a></li>' if e["id"] != "pilot" else f'<li><a href="{E(e["media"]["transcript"])}">{E(e["title"])} · transcript JSON</a> · <a href="https://archive.org/download/oso-weekly-call-2-2026-10-27/weekly-call-2-2026-10-27-transcript.txt">plain text ↗</a></li>' for e in published)
-    body = (f'<p class="kicker">Search</p><h1>Every public <em>transcript</em>, one box.</h1><p class="lede">Type a word, a first name, a place or an instrument. Each result opens the film at that exact moment. The index is built from consented transcripts only and searched entirely in your browser.</p>'
+    body = (f'<p class="kicker">The Pit Theater · search</p><h1>Every public <em>transcript</em>, one box.</h1><p class="lede">Type a word, a first name, a place or an instrument. Each result opens the film at that exact moment. The index is built from consented transcripts only and searched entirely in your browser.</p>'
             f'<form id="search-form" class="search-box js-only" role="search" action="./"><label class="sr-only" for="q">Search the transcripts</label><input id="q" name="q" type="search" placeholder="e.g. Lisbon · backline · consent · Ben" autocomplete="off"><div id="filters" class="filters" aria-label="Episodes to search"></div></form>'
             f'<p class="results-status" aria-live="polite"></p><ol id="results" class="results" aria-label="Results"></ol>'
             f'<section class="no-js-only"><h2>Read the transcripts</h2><p class="lede">Search needs JavaScript; the transcripts never do.</p><ul>{fallback}</ul></section>'
             f'<section class="card"><h2>How the index is made</h2><p><code>scripts/build_watch.py</code> reads every published transcript (<code>meetings/N/transcript/transcript.json</code>, <code>data/transcripts/*.json</code>, and checked whisper drafts) and writes <a href="/data/search-index.json">data/search-index.json</a>. Gated or pending circles are never indexed. Takedown first: <a href="{show["takedown"]}">opensourceorchestra.org/takedown/</a>.</p></section>')
-    return chrome(show, title="Search every transcript · OSO PIT THEATER", description="Search every public Open Source Orchestra DAO Meet transcript in your browser; each result opens the film at that moment. Consented transcripts only, first names only.", path="/watch/search/", body=body, module="search", current="search")
+    return chrome(show, title="Search every transcript · The Pit Theater · Open Source Orchestra", description="Search every public Open Source Orchestra DAO Meet transcript in your browser; each result opens the film at that moment. Consented transcripts only, first names only.", path="/watch/search/", body=body, module="search", current="search")
 
 
 def garden_svg(seeds: list[dict], pending: int) -> str:
@@ -518,7 +526,7 @@ def build_garden(season: dict, listed: list[dict], garden: dict) -> str:
             f'<p class="garden-count"><b>{len(seeds)}</b> seeds from {len({s["episode"] for s in seeds})} circles · {len(pending)} plots waiting · tap a plant to read its seed · <a href="{show["join"]}">plant yours by joining the next circle</a></p>'
             f'<section aria-labelledby="seeds-title"><h2 id="seeds-title">The seeds, in their own words</h2><ol class="seeds">{cards}</ol></section>'
             f'<section class="grid-2"><div class="card"><h2>Waiting to be planted</h2><ul>{pend}</ul></div><div class="card"><h2>About this garden</h2><p>{E(garden["tribute"]["note"])} <a href="{E(garden["tribute"]["url"])}">Read about the Infinite Garden ↗</a></p><p>{E(garden["consent"])}</p><p>{E(garden["license"])}</p></div></section>')
-    return chrome(show, title="The Memory Garden · OSO PIT THEATER", description="Every answer to “one beautiful moment of music that made you feel you belonged” becomes a seed. Real sentences from consented transcripts, first names only, timestamped. A tribute to the Infinite Garden idea; it grows with every circle.", path="/watch/garden/", body=body, module="garden", current="garden")
+    return chrome(show, title="The Memory Garden · The Pit Theater · Open Source Orchestra", description="Every answer to “one beautiful moment of music that made you feel you belonged” becomes a seed. Real sentences from consented transcripts, first names only, timestamped. A tribute to the Infinite Garden idea; it grows with every circle.", path="/watch/garden/", body=body, module="garden", current="garden")
 
 
 def build_live(season: dict, listed: list[dict], live: dict) -> str:
@@ -533,7 +541,7 @@ def build_live(season: dict, listed: list[dict], live: dict) -> str:
             f'<section class="grid-2"><div class="card"><h2>Join</h2><p>{E(live["join"]["note"])}</p><p><a class="btn primary" href="{E(live["join"]["url"])}">{E(live["join"]["label"])}</a></p></div>'
             f'<div class="card"><h2>Record your circle the same way</h2><ol class="steps">{steps}</ol><p><a class="btn" href="{E(live["record"]["url"])}">{E(live["record"]["label"])}</a></p></div></section>'
             f'<section><h2>Circles so far</h2><ol class="past">{past}</ol></section>')
-    return chrome(show, title="Live · the circle clock · OSO PIT THEATER", description="When the next Open Source Orchestra DAO proposal circle meets, the one public way to join, and how to record your own circle the consent-first way.", path="/watch/live/", body=body, module="live", current="live")
+    return chrome(show, title="Live · the circle clock · The Pit Theater · Open Source Orchestra", description="When the next Open Source Orchestra DAO proposal circle meets, the one public way to join, and how to record your own circle the consent-first way.", path="/watch/live/", body=body, module="live", current="live")
 
 
 def build_feed(season: dict, listed: list[dict]) -> str:
@@ -563,7 +571,7 @@ def build_feed(season: dict, listed: list[dict]) -> str:
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://web.resource.org/cc/">
   <channel>
-    <title>OSO PIT THEATER · Season 1 · The Proposal Circles</title>
+    <title>The Pit Theater · Open Source Orchestra · Season 1 · The Proposal Circles</title>
     <link>{HOST}/watch/</link>
     <atom:link href="{HOST}/watch/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en</language>
@@ -578,7 +586,7 @@ def build_feed(season: dict, listed: list[dict]) -> str:
     <itunes:category text="Music"><itunes:category text="Music Commentary"/></itunes:category>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="{HOST}{show['artwork']}"/>
-    <image><url>{HOST}{show['artwork']}</url><title>OSO PIT THEATER · Season 1</title><link>{HOST}/watch/</link></image>
+    <image><url>{HOST}{show['artwork']}</url><title>The Pit Theater · Open Source Orchestra · Season 1</title><link>{HOST}/watch/</link></image>
 {chr(10).join(items)}
   </channel>
 </rss>
@@ -656,7 +664,7 @@ def main() -> int:
     season_words = None
     if (words_dir / "season.words.json").exists():
         try:
-            season_words = read_json(words_dir / "season.words.json")
+            season_words = {k: (namelaw(v) if isinstance(v, str) else v) for k, v in read_json(words_dir / "season.words.json").items()}
             write(ROOT / "data/season1/season.words.json", json.dumps(season_words, ensure_ascii=False, indent=2) + "\n")
         except json.JSONDecodeError as error:
             problems.append(f"season.words.json rejected ({error})")

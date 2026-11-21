@@ -1,4 +1,4 @@
-/* OSO PIT THEATER v3 · episode page · GPL-3.0 · built by the ʻohana (machines, labelled as machines).
+/* The Pit Theater (Open Source Orchestra) v3 · episode page · GPL-3.0 · built by the ʻohana (machines, labelled as machines).
    Karaoke transcript: the lit line follows playback; click a timestamp to seek; search within the page. */
 import { $, $$, clock, escapeHTML } from './common.js';
 import { mountPlayer } from './player.js';

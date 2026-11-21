@@ -1,4 +1,4 @@
-/* OSO PIT THEATER v3 · the Memory Garden · GPL-3.0 · built by the ʻohana (machines, labelled as machines).
+/* The Pit Theater (Open Source Orchestra) v3 · the Memory Garden · GPL-3.0 · built by the ʻohana (machines, labelled as machines).
    The SVG garden is generated statically; this only adds hover/click focus and a gentle sway (not under reduced motion). */
 import { $, $$, reducedMotion } from './common.js';
 

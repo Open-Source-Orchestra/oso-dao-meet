@@ -1,4 +1,4 @@
-/* OSO PIT THEATER v3 · the player · GPL-3.0 · built by the ʻohana (machines, labelled as machines).
+/* The Pit Theater (Open Source Orchestra) v3 · the player · GPL-3.0 · built by the ʻohana (machines, labelled as machines).
    Enhances the static <video> the generator wrote: chapters bar, speed, captions, PiP, audio-only, share with
    timestamp, ?t= deep links, continue watching (localStorage only, never sent anywhere), opt-in autoplay-next,
    keyboard shortcuts. Nothing plays until a person presses Play; nothing here floats over text. */
