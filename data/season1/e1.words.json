@@ -1,0 +1,160 @@
+{
+  "schema": "oso-pit-theater-words-v1",
+  "episode": "e1",
+  "draft": false,
+  "writtenBy": "written by the AI ʻohana from the public transcripts · CC BY-SA 4.0",
+  "sourceTranscript": "/meetings/1/transcript/transcript.json",
+  "title": "The First Circle",
+  "blurb": "Six days after the Devcon 8 Music Sanctuary closed in Mumbai, Shaka opens \"Open Source Orchestra DAO, meeting number one\" from Chiang Mai at half past midnight. Ben, the first person ever to sing with him, says the orchestra was the heartbeat of Devcon and asks how its people can be funded from event to event. Levi explains how his music co-op pools copyright so it can split revenue transparently, and asks for the wallets of everyone who played on the song he recorded in the Jio World Centre. Utkarsh, who built the tip jar at the hackathon without hearing a note, listens. Shaka proposes a humble experiment — retroactive thanks, every ripple equal, no token required — and ends with the most honest line of the season: \"it's not even there yet. It's just a prayer.\" 53 minutes, recorded 12 November 2026, published with full consent.",
+  "recap": [
+    "Meeting number one of the Open Source Orchestra DAO proposal began on 12 November 2026 at 17:36 UTC — half past midnight in Chiang Mai, where Shaka was hosting — six days after the Devcon 8 Music Sanctuary closed in Mumbai. He called it two things at once: the first proposal circle and a post-Devcon retro. Three friends joined. Ben, a vocalist and songwriter, was the first person ever to sing with Shaka, in a lobby in Amsterdam in 2022; they have since played in Paris and Berlin. Levi, a musician and producer from Los Angeles, was part of the orchestra for the first time in Mumbai and recorded the circle. Utkarsh is a builder who was at Devcon 8 \"on the tech side\", at his first hackathon, where he and Shaka put together a continuity project for the orchestra. A fourth person arrived later and is not named in the public transcript.",
+    "Shaka told the story of that hackathon. At team formation he pitched one idea: tips. A listener could tell their own agent to send a gift to Ben, Levi, Utkarsh or Shaka while they played — or press one button that tips the whole orchestra. Utkarsh wired the payment backend; a young teammate worked on the ENS subnames. Shaka's rule from the start was that the Open Source Orchestra takes no commission.",
+    "That rule shaped everything that followed. Shaka's proposal is that support should flow retroactively — after people have already harmonised — rather than as pay-to-play. Looking back at Devcon 8, he said Levi's flights and recording effort \"absolutely has to be a proposal that should get completely refunded\" if funds ever come in from this work, and the same spirit applies to Utkarsh and to everyone who was in the circle. He described the orchestra as a giving pool where \"every ripple in the pool is treated equal\": the sound engineer and the AV director count as much as the singer, and so do the people who contributed at Bogotá, Amsterdam and Istanbul before anyone wrote this down. Then he set the limits himself: DAO mechanisms should be treated humbly as an experiment. It does not mean launching a token. It does not mean voting this way or that. The goal is consensus, harmony and music; the mechanism is the open question.",
+    "Ben pushed on practicalities. The orchestra \"really were the heartbeat of Devcon 8\", he said — some talk rooms were nearly empty while people flocked to the circle every day — but every musician took time off regular work to be there. Could there be a steady source of funds so core people can travel from event to event, with accommodation, perhaps one-way flights and part of basic spend covered? He was open to a token or a DAO if that is what unlocks grants, and later gave his personal view that Shaka, who carries so much of this, needs to be paid. He also imagined the continuity project moving from hackathon to hackathon and, one day, maybe becoming a startup. These were his views, offered for discussion.",
+    "Levi brought a working model from his co-op. When people make a song together, each contributor assigns the copyright to the co-op and, in the same moment, agrees to a revenue split paid on-chain — \"we centralize all the intellectual property so we can decentralize the value.\" Core contributors get a core split; everyone present gets an audience-participation credit. His immediate ask was simple: wallet addresses from everyone who played on the song recorded live at the Jio World Centre, so the split can be set. He also described how his collective pre-sold a share of future revenue to fund a songwriting camp — more a patron model than a token launch — and offered it as something the orchestra could fork, while saying honestly that he did not know whether it was the right fit.",
+    "Shaka's answers kept returning to place. A black guitar fell three times at Devcon 8 and cracked; the Devcon team covered the repair. His conclusion: the orchestra should bring its own backline and leave instruments where they can keep being played — in Prague, in Barcelona, in Colorado, in Chiang Mai — so that every node of the Infinite Garden has gear. The road he sketched runs through EthCC in Cannes in the spring, New York in June, Japan in August and then Lisbon in October 2027. He also talked about agents: each artist could have a small steward agent that does what a record label or manager usually does — bookkeeping, royalties, protection — paid for through the small share his tip protocol reserves for compute. Ben wondered about virtual participation; Shaka thought a streamed backline might one day let Levi record from his bedroom across the world.",
+    "Nothing was adopted. Shaka said he would send a note asking for wallets for Levi's release and for consent from everyone who was in the circle, and that there was no need to discuss ownership or funding further \"because it's not even there yet. It's just a prayer.\" The circle agreed to keep talking weekly, said goodbye across three parts of the world — Los Angeles, Leeds, Chiang Mai — and a second session for Asian time zones followed the next afternoon."
+  ],
+  "quotes": [
+    {
+      "t": 663.2,
+      "who": "Ben",
+      "text": "So, we go there and really have a great time, because, honestly, Devcon 8, we really were the heartbeat of Devcon 8, really were the heartbeat."
+    },
+    {
+      "t": 907.82,
+      "who": "Shaka",
+      "text": "I think DAO mechanisms should be treated humbly as an experiment."
+    },
+    {
+      "t": 1452.55,
+      "who": "Levi",
+      "text": "And so what we do is we centralize all the intellectual property so we can decentralize the value."
+    },
+    {
+      "t": 118.5,
+      "who": "Utkarsh",
+      "text": "I was there at Devcon 8, but I have no idea about the music. I'm on the tech side, and this was my first hackathon."
+    },
+    {
+      "t": 3193.44,
+      "who": "Shaka",
+      "text": "We won't need to talk anything further on any open source ownership funding because it's not even there yet. It's just a prayer."
+    }
+  ],
+  "chapters": [
+    {
+      "t": 0.59,
+      "title": "Aloha · meeting number one"
+    },
+    {
+      "t": 146.76,
+      "title": "How the tip jar got built"
+    },
+    {
+      "t": 389.24,
+      "title": "No commission · thanks after we harmonize"
+    },
+    {
+      "t": 578.3,
+      "title": "Ben: funding people from event to event"
+    },
+    {
+      "t": 767.3,
+      "title": "A giving pool · every ripple equal"
+    },
+    {
+      "t": 901.24,
+      "title": "A humble DAO experiment, no token"
+    },
+    {
+      "t": 960.22,
+      "title": "The black guitar and a European backline"
+    },
+    {
+      "t": 1345.55,
+      "title": "Levi: the co-op song and shared revenue"
+    },
+    {
+      "t": 1716.81,
+      "title": "An open door · every song a sanctuary"
+    },
+    {
+      "t": 2025.84,
+      "title": "EthCC and instruments on every continent"
+    },
+    {
+      "t": 2499.61,
+      "title": "Ben: \"you need to be paid\""
+    },
+    {
+      "t": 2918.42,
+      "title": "Agents that protect artists · \"just a prayer\""
+    }
+  ],
+  "whyItMatters": [
+    "A DAO — a decentralised autonomous organisation — is usually a set of smart contracts plus a community that votes with tokens on how to spend a shared treasury. What you are watching here is not that. It is the step before: a proposal, spoken aloud among friends, about whether such a thing should exist for the Open Source Orchestra and what it would have to protect. Listen for the guardrails Shaka puts on his own idea — no token promised, no voting system chosen, mechanisms treated humbly as an experiment, nothing distributed until something has actually been received. Those guardrails are why every page of this show says the Open Source Orchestra DAO remains a proposal and a public ledger, not an on-chain organisation. The consent story matters too. This recording was first held back; a day later Shaka confirmed on the record that everyone had agreed it could be broadcast, and only then were the film, audio and a public-safe transcript released, with a later arrival left unnamed and personal circumstances removed. The Open Source Orchestra is the thing all this is for: a circle of musicians who play open rooms at Ethereum gatherings, whoever shows up, every contribution equal — the person on the laptop as much as the person on the ukulele."
+  ],
+  "glossary": [
+    {
+      "term": "DAO (decentralised autonomous organisation)",
+      "meaning": "A group that coordinates and spends shared funds through rules written in code and decisions made together; here still only a proposal."
+    },
+    {
+      "term": "Retroactive funding",
+      "meaning": "Thanking and reimbursing people for work already done — after the music happened — rather than paying up front to make it happen."
+    },
+    {
+      "term": "Backline",
+      "meaning": "The instruments and amplifiers a band needs on stage; the orchestra wants to own some and leave them where they can keep being played."
+    },
+    {
+      "term": "Agent tip (x402)",
+      "meaning": "A way for a listener's AI assistant to send a small payment to an artist's address while the music plays; built for the orchestra at the Devcon 8 hackathon."
+    },
+    {
+      "term": "ENS subname",
+      "meaning": "A human-readable Ethereum name under a shared parent — such as a musician's name under osoartist.eth — that can receive gifts."
+    },
+    {
+      "term": "Co-op split",
+      "meaning": "Levi's model: contributors pool a song's copyright in a cooperative and share any revenue by agreed proportions, paid on-chain."
+    },
+    {
+      "term": "Steward agent",
+      "meaning": "An AI assistant that does the paperwork a label or manager usually does for an artist; a machine, and it says so."
+    },
+    {
+      "term": "Continuity project",
+      "meaning": "A hackathon entry that keeps improving the same open-source codebase from one event to the next instead of starting over."
+    }
+  ],
+  "seeds": [
+    {
+      "t": 59.03,
+      "who": "Ben",
+      "text": "It was the highlight for me, just seeing Shaka again, because we've had fun in Amsterdam, in Paris, in Berlin."
+    },
+    {
+      "t": 93.92,
+      "who": "Levi",
+      "text": "It was a really beautiful first time for me to be part of the Open Source Orchestra in real time."
+    },
+    {
+      "t": 506.5,
+      "who": "Shaka",
+      "text": "The first time we ever sang together was in Amsterdam after Devconnect was happening, just in the lobby."
+    },
+    {
+      "t": 1367.49,
+      "who": "Levi",
+      "text": "We made a song in real time featuring the one and only Ben on vocals and Shaka on ukulele."
+    },
+    {
+      "t": 1842.52,
+      "who": "Shaka",
+      "text": "Levi and Alaska on the sax and Ben singing his heart out. And then there's someone on the piano for the first time."
+    }
+  ],
+  "license": "CC BY-SA 4.0"
+}

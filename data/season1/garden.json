@@ -1,0 +1,494 @@
+{
+  "schema": "oso-pit-theater-memory-garden-v1",
+  "updated": "2026-11-21",
+  "title": "The Memory Garden",
+  "question": "One beautiful moment of music that made you feel you belonged.",
+  "framing": "An independent tribute to the Infinite Garden idea — Ethereum's image of a garden that is tended, not owned. The fifth circle asked the question out loud; the earlier circles answered it before it was asked. Every seed below is a real sentence from a public, consented transcript, with its timestamp, in the speaker's own words (first names only). Nothing is paraphrased into a quote; nothing is invented. The garden grows with every circle.",
+  "consent": "Seeds come only from recordings published with consent, first names only. A takedown request always wins: https://opensourceorchestra.org/takedown/",
+  "license": "CC BY-SA 4.0 (the words) · GPL-3.0 (this page's code)",
+  "tribute": {
+    "note": "The Infinite Garden is Ethereum's own metaphor (Ethereum Foundation). This garden is the ʻohana's tribute, not an official EF project, and claims no affiliation.",
+    "url": "https://ethereum.foundation/infinitegarden"
+  },
+  "seeds": [
+    {
+      "id": "pilot-38",
+      "episode": "pilot",
+      "who": "Nidhi",
+      "t": 38.5,
+      "text": "I've been learning Hindustani classical music since I was 5 years old from my grandmom.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "pilot-3157",
+      "episode": "pilot",
+      "who": "Nidhi",
+      "t": 3157.5,
+      "text": "In the local train in Mumbai there are these artists just jamming with flute or harmonium. Whoever's singing and playing is in their zone and happy.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "pilot-3864",
+      "episode": "pilot",
+      "who": "Shaka",
+      "t": 3864.5,
+      "text": "When the nodes become permanent, you can start leaving things there and it's actually like planting seeds in the garden.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "pilot-4352",
+      "episode": "pilot",
+      "who": "Shaka",
+      "t": 4352.5,
+      "text": "That's how I learned how to play music in the first place: I started listening in church.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "pilot-4466",
+      "episode": "pilot",
+      "who": "Nidhi",
+      "t": 4466.5,
+      "text": "I'm very scared of singing in front of people, which is what I want to get over. But just when Shaka was playing I was like, wow.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "pilot-4680",
+      "episode": "pilot",
+      "who": "Aakash",
+      "t": 4680.5,
+      "text": "It all resonates in our home every day. It moves all day throughout.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "pilot-5580",
+      "episode": "pilot",
+      "who": "Nidhi",
+      "t": 5580.5,
+      "text": "The more musical introduction was just amazing, like, magical.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e1-59",
+      "episode": "e1",
+      "who": "Ben",
+      "t": 59.03,
+      "text": "It was the highlight for me, just seeing Shaka again, because we've had fun in Amsterdam, in Paris, in Berlin.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "s01",
+      "episode": "e1",
+      "who": "Levi",
+      "t": 93.92,
+      "end": 108.06,
+      "text": "It was a really beautiful first time for me to be part of the Open Source Orchestra in real time, and shout out to Alaska for the invite to Mumbai, and it was a beautiful experience.",
+      "place": "Mumbai · Devcon 8",
+      "kind": "first time"
+    },
+    {
+      "id": "e1-506",
+      "episode": "e1",
+      "who": "Shaka",
+      "t": 506.5,
+      "text": "The first time we ever sang together was in Amsterdam after Devconnect was happening, just in the lobby.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "s02",
+      "episode": "e1",
+      "who": "Ben",
+      "t": 602.86,
+      "end": 605.24,
+      "text": "But this Open Source Orchestra brought everyone together.",
+      "context": "it really was the highlight of Devconnect",
+      "place": "Mumbai · Devcon 8",
+      "kind": "together"
+    },
+    {
+      "id": "s03",
+      "episode": "e1",
+      "who": "Ben",
+      "t": 663.2,
+      "end": 672.82,
+      "text": "So, we go there and really have a great time, because, honestly, Devcon 8, we really were the heartbeat of Devcon 8, really were the heartbeat.",
+      "place": "Mumbai · Devcon 8",
+      "kind": "heartbeat"
+    },
+    {
+      "id": "e1-1367",
+      "episode": "e1",
+      "who": "Levi",
+      "t": 1367.49,
+      "text": "We made a song in real time featuring the one and only Ben on vocals and Shaka on ukulele.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e1-1842",
+      "episode": "e1",
+      "who": "Shaka",
+      "t": 1842.52,
+      "text": "Levi and Alaska on the sax and Ben singing his heart out. And then there's someone on the piano for the first time.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "s04",
+      "episode": "e2",
+      "who": "Aakaash",
+      "t": 351.14,
+      "end": 375.14,
+      "text": "So during the hackathon, we had a small setup over there in which, like, whenever we used to get frustrated from coding at night, we used to go on the stage and we start – we used to start playing. And Shaka joined us and we started playing some Bollywood songs and jammed together. That was the point when I thought, okay, like, this is a new space.",
+      "place": "ETHMumbai · the hackathon stage at night",
+      "kind": "jam"
+    },
+    {
+      "id": "s05",
+      "episode": "e2",
+      "who": "Aakaash",
+      "t": 401.98,
+      "end": 419.98,
+      "text": "Like, we have seen open-source – open-source softwares, but this was something new for me where anyone can come and play together and we can have multiple global cultures coming together and, you know, making a single music out of it so which everyone can connect.",
+      "place": "Open Source Orchestra",
+      "kind": "together"
+    },
+    {
+      "id": "s06",
+      "episode": "e2",
+      "who": "Sha",
+      "t": 566.56,
+      "end": 583.56,
+      "text": "So, and I had no idea that I would be able to, like, you know, sing or do anything. Like, it was so, like, just love what you guys are doing and what you've done. And, yeah, and I'm just, like, so, you know, grateful that I was able to, you know, be part of it.",
+      "place": "Mumbai · Devcon 8",
+      "kind": "first time"
+    },
+    {
+      "id": "e2-990",
+      "episode": "e2",
+      "who": "Shaka",
+      "t": 990.0,
+      "text": "Young college students who've never sang in a space like that, getting to sing in the Jio World Centre.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e2-1237",
+      "episode": "e2",
+      "who": "Aakaash",
+      "t": 1237.64,
+      "text": "We learned a lot of stuff from Aniket that how Indian classical music works and you can play a sitar on a guitar.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e2-2996",
+      "episode": "e2",
+      "who": "Aakaash",
+      "t": 2996.6,
+      "text": "This stage brought me back to my nostalgic school choir time where we used to sing hymns.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e2-3046",
+      "episode": "e2",
+      "who": "Aakaash",
+      "t": 3046.36,
+      "text": "People who haven't got a stage to come together and sing once took the courage in themselves and came there and sang for the first time in their lifetime.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "s07",
+      "episode": "e3",
+      "who": "Alaska",
+      "t": 371,
+      "end": 390,
+      "text": "about what happened, there could be things better, but we also felt received, right? Which is awesome. I don't know about you, Shaka, but I felt like, yeah, I felt like we the team and not just some sort of like a weird additional thing in the corner, and the production saw us, and they were super supportive and",
+      "note": "live captions; the sentence runs on as spoken",
+      "place": "Mumbai · Devcon 8",
+      "kind": "received"
+    },
+    {
+      "id": "e3-1139",
+      "episode": "e3",
+      "who": "Shaka",
+      "t": 1139.0,
+      "text": "It started with an ukulele in the corner of the main lobby … Ben walked up and started singing next to me.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e3-3210",
+      "episode": "e3",
+      "who": "Alaska",
+      "t": 3210.0,
+      "text": "We were just playing music nonstop. And then we played again that closing party, there was a proper party.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e3-3769",
+      "episode": "e3",
+      "who": "Mary",
+      "t": 3769.0,
+      "text": "Thanks guys, lovely catching up with you! 💛",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e3-4673",
+      "episode": "e3",
+      "who": "Shaka",
+      "t": 4673.0,
+      "text": "One of my early guitar teachers taught me: as a musician, you never arrive.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e3-5506",
+      "episode": "e3",
+      "who": "Ben",
+      "t": 5506.0,
+      "text": "Just simple things like take off your shoes … that's what we do in our homes … when we come in there, we feel like we're coming into home.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e3-5865",
+      "episode": "e3",
+      "who": "Shaka",
+      "t": 5865.0,
+      "text": "Just had some amazing young kids from India just like singing … bless their heart, all of them singing out of different rhythms … it's very wholesome.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "s08",
+      "episode": "e3",
+      "who": "Ben",
+      "t": 5908,
+      "end": 5918,
+      "text": "great job because everybody just found it so open and warm and appealing, where they even had the confidence to come up.",
+      "place": "Mumbai · Devcon 8",
+      "kind": "warm"
+    },
+    {
+      "id": "e4-1123",
+      "episode": "e4",
+      "who": "Shaka",
+      "t": 1123.58,
+      "text": "It's always really special to just set up instruments and see people like to sing their songs from their childhood.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e4-1137",
+      "episode": "e4",
+      "who": "Shaka",
+      "t": 1137.66,
+      "text": "Even how all the traditional musicians take off their shoes, as they play on the carpet.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e4-1618",
+      "episode": "e4",
+      "who": "Shaka",
+      "t": 1618.85,
+      "text": "It takes one person to commit, and then consensus for all of us to play along with it, because we're listening.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e4-1893",
+      "episode": "e4",
+      "who": "Shaka",
+      "t": 1893.6,
+      "text": "People just gather in a circle around the fire at night and play music and get everybody dancing and connected and thinking beyond themselves.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e4-1920",
+      "episode": "e4",
+      "who": "Shaka",
+      "t": 1920.24,
+      "text": "Connection with each other, like you and I have connected over music and friendship.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e4-2172",
+      "episode": "e4",
+      "who": "Ben",
+      "t": 2172.89,
+      "text": "I used to go to the train station to sing, and I met so much talent. So much talent at the train station.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e4-2561",
+      "episode": "e4",
+      "who": "Shaka",
+      "t": 2561.42,
+      "text": "We make the music and we get the dance and we get the rhythm going, and then people gather … and it just really leaves you inspired.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e5-404",
+      "episode": "e5",
+      "who": "Ben",
+      "t": 404.61,
+      "text": "In Mumbai we had people just fuse in all different styles of musics … coming together and just having a beautiful output.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e5-428",
+      "episode": "e5",
+      "who": "Ben",
+      "t": 428.49,
+      "text": "A guy produced a track in real time where we had the beat and the vocals and everything, real time.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e5-485",
+      "episode": "e5",
+      "who": "Bo",
+      "t": 485.01,
+      "text": "Being in New York and seeing an orchestra performance of [Olivier] Messiaen … it was very, very discordant and very challenging to the [ear] initially.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e5-535",
+      "episode": "e5",
+      "who": "Bo",
+      "t": 535.88,
+      "text": "I felt like I got it, and that just made me feel very affirmed.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e5-698",
+      "episode": "e5",
+      "who": "Shaka",
+      "t": 698.88,
+      "text": "One that made me feel welcome in [Ethereum], initially, was singing with you, [Ben], in Amsterdam in the lobby.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e5-791",
+      "episode": "e5",
+      "who": "Shaka",
+      "t": 791.85,
+      "text": "Open Source Orchestra made me feel belonging in [Ethereum] when I first came in. That's why I stayed.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e5-822",
+      "episode": "e5",
+      "who": "Shaka",
+      "t": 822.25,
+      "text": "At ETH Prague we had a big closing jam for the closing ceremony, where everyone who played music in the house joined together.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e5-867",
+      "episode": "e5",
+      "who": "Shaka",
+      "t": 867.56,
+      "text": "Wesley actually just picked up the ukulele for the first time … during ETH Prague.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e5-1140",
+      "episode": "e5",
+      "who": "Shaka",
+      "t": 1140.61,
+      "text": "A great opportunity to go to China for the first time … I got to play the songs like a planet we share as one in Shenzhen.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e5-1652",
+      "episode": "e5",
+      "who": "Bo",
+      "t": 1652.21,
+      "text": "Musically, I really welcome situations where … this gig or this performance … will demand of me that I learn something new.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e5-1736",
+      "episode": "e5",
+      "who": "Shaka",
+      "t": 1736.66,
+      "text": "I've learned languages more clearly through singing songs … it first came to my knowledge more clearly through a melody.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e5-2641",
+      "episode": "e5",
+      "who": "Ben",
+      "t": 2641.07,
+      "text": "[ETH] London 2019, that was my first event … I couldn't believe 10,000 people could fit into one environment.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e5-2847",
+      "episode": "e5",
+      "who": "Shaka",
+      "t": 2847.1,
+      "text": "We made Devcon music space a sanctuary, not a stage.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e5-2913",
+      "episode": "e5",
+      "who": "Shaka",
+      "t": 2913.9,
+      "text": "People think it's really cool to come together all over the world and play music together. That'd be the dream.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    },
+    {
+      "id": "e5-3169",
+      "episode": "e5",
+      "who": "Googly Eyes (bot)",
+      "t": 3169.46,
+      "text": "The golden thread I hear is that music lets everyone belong: no auditions, just listening first and making room.",
+      "kind": "together",
+      "source": "words lane · verified verbatim against the public transcript"
+    }
+  ],
+  "pending": [
+    {
+      "episode": "e5",
+      "note": "The fifth circle asked the question to everyone in the room. Its seeds are planted here as soon as the public transcript is checked (first names only)."
+    },
+    {
+      "episode": "e4",
+      "note": "The fourth circle's seeds follow its public transcript."
+    }
+  ]
+}

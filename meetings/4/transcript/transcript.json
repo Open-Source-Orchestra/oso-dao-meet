@@ -1,0 +1,5095 @@
+{
+ "schema": "oso-dao-proposal-meeting-transcript-v1",
+ "edition": "automatic",
+ "editorial": "pending — automatic edition: speaker labels not yet assigned; wording may be imperfect; first names only; takedown first",
+ "meeting": 4,
+ "title": "Open Source Orchestra DAO Meet #4",
+ "recordedAt": "2026-11-20T02:39:00Z",
+ "recordingDurationSeconds": 2628,
+ "consent": {
+  "status": "published_with_consent",
+  "reportedBy": "Shaka",
+  "reportedAt": "2026-11-21T11:50:00+07:00",
+  "scope": "everyone present consented to the public video and transcript (\"consent was given for all oso dao content out there so far\"); a takedown request always wins"
+ },
+ "transcription": "automatic transcript by faster-whisper (small.en) on the ʻohana's own machine; the recording was never uploaded to a transcription service; wording may be imperfect",
+ "speakerLabels": "not yet assigned — an editorial pass with first-name labels (from what is said, not voice identification) replaces this edition when it is checked",
+ "redactions": "scanned for surnames, private meeting links, emails and phone numbers before publication; first names only; corrections and takedown come first",
+ "takedown": "https://opensourceorchestra.org/takedown/",
+ "licenses": {
+  "content": "CC BY-SA 4.0",
+  "code": "GPL-3.0"
+ },
+ "cues": [
+  {
+   "start": 7.76,
+   "end": 14.77,
+   "speaker": "",
+   "text": "Let's try it."
+  },
+  {
+   "start": 14.77,
+   "end": 21.65,
+   "speaker": "",
+   "text": "Loading, loading, loading."
+  },
+  {
+   "start": 21.65,
+   "end": 22.57,
+   "speaker": "",
+   "text": "There we go."
+  },
+  {
+   "start": 22.57,
+   "end": 25.93,
+   "speaker": "",
+   "text": "All right, we are here for Open Source Orchestra,"
+  },
+  {
+   "start": 25.93,
+   "end": 28.53,
+   "speaker": "",
+   "text": "Dao Meat Number 4."
+  },
+  {
+   "start": 28.53,
+   "end": 30.53,
+   "speaker": "",
+   "text": "We have been doing a few meetings a week."
+  },
+  {
+   "start": 30.53,
+   "end": 31.97,
+   "speaker": "",
+   "text": "This time we're doing three."
+  },
+  {
+   "start": 31.97,
+   "end": 35.73,
+   "speaker": "",
+   "text": "And this is our second one of this little trio."
+  },
+  {
+   "start": 35.73,
+   "end": 38.65,
+   "speaker": "",
+   "text": "And Ben is back here for a second time."
+  },
+  {
+   "start": 38.65,
+   "end": 42.29,
+   "speaker": "",
+   "text": "We have Google AI, one of my Grokbots transcribing."
+  },
+  {
+   "start": 42.29,
+   "end": 48.17,
+   "speaker": "",
+   "text": "And I'm here at if Chiang Mai, at Four Seas of Zhu Chiang Mai."
+  },
+  {
+   "start": 48.17,
+   "end": 51.85,
+   "speaker": "",
+   "text": "And we are just dreaming and discussing"
+  },
+  {
+   "start": 51.85,
+   "end": 54.85,
+   "speaker": "",
+   "text": "as the Dao is nothing more than a proposal and an idea"
+  },
+  {
+   "start": 54.85,
+   "end": 58.59,
+   "speaker": "",
+   "text": "at the moment and thinking about what"
+  },
+  {
+   "start": 58.59,
+   "end": 64.16,
+   "speaker": "",
+   "text": "we can do to maybe find some good progressions of raising"
+  },
+  {
+   "start": 64.16,
+   "end": 68.12,
+   "speaker": "",
+   "text": "grant funding, as well as what should we do about the voting"
+  },
+  {
+   "start": 68.12,
+   "end": 71.56,
+   "speaker": "",
+   "text": "and how we disperse the consent basis of people's"
+  },
+  {
+   "start": 71.56,
+   "end": 72.52,
+   "speaker": "",
+   "text": "contributions."
+  },
+  {
+   "start": 72.52,
+   "end": 76.4,
+   "speaker": "",
+   "text": "And we had many discussions at previous meetings."
+  },
+  {
+   "start": 76.4,
+   "end": 81.84,
+   "speaker": "",
+   "text": "Grok, Google AI did a good job of giving some highlight reels."
+  },
+  {
+   "start": 81.84,
+   "end": 84.4,
+   "speaker": "",
+   "text": "And I've been already posting the Dao meetups"
+  },
+  {
+   "start": 84.4,
+   "end": 87.16,
+   "speaker": "",
+   "text": "on the Open Source Orchestra website."
+  },
+  {
+   "start": 87.16,
+   "end": 89.28,
+   "speaker": "",
+   "text": "So we are just going to be able to continue"
+  },
+  {
+   "start": 89.28,
+   "end": 90.6,
+   "speaker": "",
+   "text": "to have these weekly meetings."
+  },
+  {
+   "start": 90.6,
+   "end": 95.32,
+   "speaker": "",
+   "text": "And now thankfully to agents, communicate it really well."
+  },
+  {
+   "start": 95.32,
+   "end": 98.56,
+   "speaker": "",
+   "text": "And all these calls can be open, optional."
+  },
+  {
+   "start": 98.56,
+   "end": 102.36,
+   "speaker": "",
+   "text": "And I think that it's, yeah, I'm excited to just keep"
+  },
+  {
+   "start": 102.36,
+   "end": 103.88,
+   "speaker": "",
+   "text": "posting them every week."
+  },
+  {
+   "start": 103.88,
+   "end": 105.48,
+   "speaker": "",
+   "text": "Because I think that'll be the best way"
+  },
+  {
+   "start": 105.48,
+   "end": 109.36,
+   "speaker": "",
+   "text": "that we can carry the excitement that we had at DEVCON 8"
+  },
+  {
+   "start": 109.36,
+   "end": 111.68,
+   "speaker": "",
+   "text": "and bring it into 2027."
+  },
+  {
+   "start": 111.68,
+   "end": 115.33,
+   "speaker": "",
+   "text": "And then DEVCON 9 is going to be divine."
+  },
+  {
+   "start": 115.33,
+   "end": 120.26,
+   "speaker": "",
+   "text": "So it's just Ben and I here at the moment."
+  },
+  {
+   "start": 120.26,
+   "end": 123.66,
+   "speaker": "",
+   "text": "And we've got another call coming up later today."
+  },
+  {
+   "start": 123.66,
+   "end": 127.58,
+   "speaker": "",
+   "text": "Early in your morning, 7-11 is going to be,"
+  },
+  {
+   "start": 127.58,
+   "end": 129.7,
+   "speaker": "",
+   "text": "or it's going to be 2-11, my time in Chiang Mai."
+  },
+  {
+   "start": 129.7,
+   "end": 138.91,
+   "speaker": "",
+   "text": "What time is that going to be for you in Leeds, Ben?"
+  },
+  {
+   "start": 138.91,
+   "end": 140.31,
+   "speaker": "",
+   "text": "And now we're frozen."
+  },
+  {
+   "start": 140.31,
+   "end": 163.44,
+   "speaker": "",
+   "text": "All right, so now it's just me."
+  },
+  {
+   "start": 163.44,
+   "end": 164.68,
+   "speaker": "",
+   "text": "Oh, sorry."
+  },
+  {
+   "start": 164.68,
+   "end": 166.11,
+   "speaker": "",
+   "text": "Ben's back."
+  },
+  {
+   "start": 166.11,
+   "end": 168.69,
+   "speaker": "",
+   "text": "No doubt."
+  },
+  {
+   "start": 168.69,
+   "end": 171.97,
+   "speaker": "",
+   "text": "All right, well, welcome, Ben."
+  },
+  {
+   "start": 171.97,
+   "end": 172.81,
+   "speaker": "",
+   "text": "What time is it?"
+  },
+  {
+   "start": 172.81,
+   "end": 174.69,
+   "speaker": "",
+   "text": "2 in the morning there."
+  },
+  {
+   "start": 174.69,
+   "end": 176.65,
+   "speaker": "",
+   "text": "Yeah, it's 2.45."
+  },
+  {
+   "start": 176.65,
+   "end": 179.61,
+   "speaker": "",
+   "text": "Next call, what time is the next call going to be for you?"
+  },
+  {
+   "start": 179.61,
+   "end": 182.85,
+   "speaker": "",
+   "text": "11 past 7."
+  },
+  {
+   "start": 182.85,
+   "end": 184.25,
+   "speaker": "",
+   "text": "11 minutes past 7 in the morning."
+  },
+  {
+   "start": 184.25,
+   "end": 186.41,
+   "speaker": "",
+   "text": "So you're going to wake up again at 7 in the morning."
+  },
+  {
+   "start": 186.73,
+   "end": 187.77,
+   "speaker": "",
+   "text": "I'll probably hit the gym."
+  },
+  {
+   "start": 187.77,
+   "end": 189.41,
+   "speaker": "",
+   "text": "And just when I'm coming back from the gym,"
+  },
+  {
+   "start": 189.41,
+   "end": 191.45,
+   "speaker": "",
+   "text": "I'll just transition."
+  },
+  {
+   "start": 191.45,
+   "end": 193.01,
+   "speaker": "",
+   "text": "I spent about three, four hours in the gym."
+  },
+  {
+   "start": 193.01,
+   "end": 194.89,
+   "speaker": "",
+   "text": "So it probably just when I'm coming back,"
+  },
+  {
+   "start": 194.89,
+   "end": 197.21,
+   "speaker": "",
+   "text": "I'll just be just going to sleep."
+  },
+  {
+   "start": 197.21,
+   "end": 198.05,
+   "speaker": "",
+   "text": "Oh, nice."
+  },
+  {
+   "start": 198.05,
+   "end": 200.57,
+   "speaker": "",
+   "text": "Time that well, and then go back to sleep."
+  },
+  {
+   "start": 200.57,
+   "end": 203.97,
+   "speaker": "",
+   "text": "I sleep if it's actually necessary."
+  },
+  {
+   "start": 203.97,
+   "end": 206.17,
+   "speaker": "",
+   "text": "So if I've got stuff to do, I just don't sleep."
+  },
+  {
+   "start": 206.17,
+   "end": 208.88,
+   "speaker": "",
+   "text": "I just work till I'm tired."
+  },
+  {
+   "start": 208.88,
+   "end": 210.72,
+   "speaker": "",
+   "text": "Can you hear that construction next to me?"
+  },
+  {
+   "start": 210.72,
+   "end": 213.48,
+   "speaker": "",
+   "text": "Yeah, and then I heard the planes the other time."
+  },
+  {
+   "start": 213.48,
+   "end": 215.48,
+   "speaker": "",
+   "text": "Are you near an airport?"
+  },
+  {
+   "start": 215.48,
+   "end": 218.64,
+   "speaker": "",
+   "text": "The airport, it does go right over Chiang Mai."
+  },
+  {
+   "start": 218.64,
+   "end": 221.64,
+   "speaker": "",
+   "text": "They got my step outside again."
+  },
+  {
+   "start": 221.64,
+   "end": 223.12,
+   "speaker": "",
+   "text": "If that construction gets too bad,"
+  },
+  {
+   "start": 223.12,
+   "end": 226.82,
+   "speaker": "",
+   "text": "they're like right outside the door."
+  },
+  {
+   "start": 226.82,
+   "end": 228.74,
+   "speaker": "",
+   "text": "But they're doing construction because there's always"
+  },
+  {
+   "start": 228.74,
+   "end": 232.82,
+   "speaker": "",
+   "text": "lots of remodeling, and they're expanding at 4C Zu Chiang Mai."
+  },
+  {
+   "start": 232.82,
+   "end": 235.9,
+   "speaker": "",
+   "text": "They're building the Zu Zalu Longevity Center."
+  },
+  {
+   "start": 235.9,
+   "end": 241.06,
+   "speaker": "",
+   "text": "And yeah, so appreciate you waking up in the middle"
+  },
+  {
+   "start": 241.06,
+   "end": 243.9,
+   "speaker": "",
+   "text": "of the night out there in the UK."
+  },
+  {
+   "start": 243.9,
+   "end": 246.18,
+   "speaker": "",
+   "text": "I've been trying to diversify these meetings,"
+  },
+  {
+   "start": 246.18,
+   "end": 248.78,
+   "speaker": "",
+   "text": "but maybe we need to adjust them to be at least one"
+  },
+  {
+   "start": 248.78,
+   "end": 250.54,
+   "speaker": "",
+   "text": "really friendly for your time zone."
+  },
+  {
+   "start": 250.54,
+   "end": 253.58,
+   "speaker": "",
+   "text": "Was the last night working out for you OK?"
+  },
+  {
+   "start": 253.58,
+   "end": 255.14,
+   "speaker": "",
+   "text": "Yes, yes, yes, it was fine for me."
+  },
+  {
+   "start": 255.14,
+   "end": 256.42,
+   "speaker": "",
+   "text": "That time's convenient."
+  },
+  {
+   "start": 256.42,
+   "end": 258.51,
+   "speaker": "",
+   "text": "It's perfect for me."
+  },
+  {
+   "start": 258.51,
+   "end": 262.39,
+   "speaker": "",
+   "text": "Yeah, and this one's convenient on the Asia side."
+  },
+  {
+   "start": 262.39,
+   "end": 264.11,
+   "speaker": "",
+   "text": "It's in the morning, and then the next one."
+  },
+  {
+   "start": 264.11,
+   "end": 270.53,
+   "speaker": "",
+   "text": "And then I guess in the US, it's like LA."
+  },
+  {
+   "start": 270.53,
+   "end": 273.9,
+   "speaker": "",
+   "text": "I think it's like afternoon, evening."
+  },
+  {
+   "start": 273.9,
+   "end": 275.5,
+   "speaker": "",
+   "text": "We're going to relocate."
+  },
+  {
+   "start": 275.5,
+   "end": 280.78,
+   "speaker": "",
+   "text": "Yeah."
+  },
+  {
+   "start": 280.78,
+   "end": 283.38,
+   "speaker": "",
+   "text": "You can see we have a little open source orchestra music"
+  },
+  {
+   "start": 283.38,
+   "end": 288.03,
+   "speaker": "",
+   "text": "corner where people can make music openly"
+  },
+  {
+   "start": 288.03,
+   "end": 289.99,
+   "speaker": "",
+   "text": "without permission at 4C's."
+  },
+  {
+   "start": 289.99,
+   "end": 291.07,
+   "speaker": "",
+   "text": "Oh, that's nice."
+  },
+  {
+   "start": 291.07,
+   "end": 294.18,
+   "speaker": "",
+   "text": "So do you have to pay for the coworking space now?"
+  },
+  {
+   "start": 294.18,
+   "end": 295.98,
+   "speaker": "",
+   "text": "No, it is free and open."
+  },
+  {
+   "start": 295.98,
+   "end": 297.1,
+   "speaker": "",
+   "text": "Good morning."
+  },
+  {
+   "start": 297.1,
+   "end": 298.9,
+   "speaker": "",
+   "text": "OK."
+  },
+  {
+   "start": 298.9,
+   "end": 299.86,
+   "speaker": "",
+   "text": "Good morning."
+  },
+  {
+   "start": 299.86,
+   "end": 305.07,
+   "speaker": "",
+   "text": "Wow, got to check it out."
+  },
+  {
+   "start": 305.07,
+   "end": 306.75,
+   "speaker": "",
+   "text": "Outside might not be better."
+  },
+  {
+   "start": 306.75,
+   "end": 316.84,
+   "speaker": "",
+   "text": "Yeah."
+  },
+  {
+   "start": 316.84,
+   "end": 318.72,
+   "speaker": "",
+   "text": "Can you still hear the drills?"
+  },
+  {
+   "start": 318.72,
+   "end": 320.56,
+   "speaker": "",
+   "text": "Yeah, I can slightly, but they're"
+  },
+  {
+   "start": 320.56,
+   "end": 325.34,
+   "speaker": "",
+   "text": "not as intrusive as before."
+  },
+  {
+   "start": 325.34,
+   "end": 333.34,
+   "speaker": "",
+   "text": "It's a little bit to the patio space."
+  },
+  {
+   "start": 333.34,
+   "end": 346.19,
+   "speaker": "",
+   "text": "All right, so yeah, I think one thing that I did that just"
+  },
+  {
+   "start": 346.19,
+   "end": 349.35,
+   "speaker": "",
+   "text": "is on top of mind right now about the orchestra"
+  },
+  {
+   "start": 349.35,
+   "end": 353.68,
+   "speaker": "",
+   "text": "is that I think there needs to be"
+  },
+  {
+   "start": 353.68,
+   "end": 357.52,
+   "speaker": "",
+   "text": "a strong culture of avoiding competition."
+  },
+  {
+   "start": 357.52,
+   "end": 359.7,
+   "speaker": "",
+   "text": "Yeah."
+  },
+  {
+   "start": 359.7,
+   "end": 364.44,
+   "speaker": "",
+   "text": "So people shouldn't be competing for stage time."
+  },
+  {
+   "start": 364.44,
+   "end": 367.82,
+   "speaker": "",
+   "text": "People shouldn't be competing for funding."
+  },
+  {
+   "start": 367.82,
+   "end": 375.49,
+   "speaker": "",
+   "text": "People shouldn't be competing for kind of just like the muse"
+  },
+  {
+   "start": 375.49,
+   "end": 385.84,
+   "speaker": "",
+   "text": "or being kind of like the competing for being a steward."
+  },
+  {
+   "start": 385.84,
+   "end": 392.38,
+   "speaker": "",
+   "text": "I think the competition needs to be dissolved"
+  },
+  {
+   "start": 392.38,
+   "end": 397.28,
+   "speaker": "",
+   "text": "by just kind of having an open appreciation for contributions"
+  },
+  {
+   "start": 397.28,
+   "end": 400.94,
+   "speaker": "",
+   "text": "and then make the open source orchestra something"
+  },
+  {
+   "start": 400.94,
+   "end": 404.22,
+   "speaker": "",
+   "text": "that everyone wants to be a part of."
+  },
+  {
+   "start": 404.22,
+   "end": 406.06,
+   "speaker": "",
+   "text": "Something that everyone identifies"
+  },
+  {
+   "start": 406.06,
+   "end": 410.74,
+   "speaker": "",
+   "text": "is that being this very open collective, that yes,"
+  },
+  {
+   "start": 410.74,
+   "end": 413.86,
+   "speaker": "",
+   "text": "it's predominantly now situated at a theorem event,"
+  },
+  {
+   "start": 413.86,
+   "end": 416.86,
+   "speaker": "",
+   "text": "but maybe it can go on further."
+  },
+  {
+   "start": 416.86,
+   "end": 420.06,
+   "speaker": "",
+   "text": "And then if someone comes in with their own project"
+  },
+  {
+   "start": 420.06,
+   "end": 424.06,
+   "speaker": "",
+   "text": "or as their own artist or they're developing something"
+  },
+  {
+   "start": 424.06,
+   "end": 425.58,
+   "speaker": "",
+   "text": "on their own standards, that they"
+  },
+  {
+   "start": 425.58,
+   "end": 428.42,
+   "speaker": "",
+   "text": "don't feel like that open source orchestra is"
+  },
+  {
+   "start": 428.42,
+   "end": 430.18,
+   "speaker": "",
+   "text": "a competitor to them."
+  },
+  {
+   "start": 430.9,
+   "end": 432.82,
+   "speaker": "",
+   "text": "They feel like open source orchestra"
+  },
+  {
+   "start": 432.82,
+   "end": 441.27,
+   "speaker": "",
+   "text": "is a great collaboration sandbox, if you will."
+  },
+  {
+   "start": 441.27,
+   "end": 445.06,
+   "speaker": "",
+   "text": "So those are just some thoughts that I come to mind."
+  },
+  {
+   "start": 445.06,
+   "end": 452.27,
+   "speaker": "",
+   "text": "And then I think the voting and the other details"
+  },
+  {
+   "start": 452.27,
+   "end": 455.83,
+   "speaker": "",
+   "text": "of how we disperse funding should not be token based."
+  },
+  {
+   "start": 455.83,
+   "end": 459.79,
+   "speaker": "",
+   "text": "It should not be like an ownership type deal."
+  },
+  {
+   "start": 459.79,
+   "end": 462.87,
+   "speaker": "",
+   "text": "I think that people own their own contributions"
+  },
+  {
+   "start": 462.87,
+   "end": 466.15,
+   "speaker": "",
+   "text": "because the opportunity for those contributions"
+  },
+  {
+   "start": 466.15,
+   "end": 469.58,
+   "speaker": "",
+   "text": "should be kind of an open opportunity"
+  },
+  {
+   "start": 469.58,
+   "end": 477.63,
+   "speaker": "",
+   "text": "that there likely will have to be some diversion,"
+  },
+  {
+   "start": 477.63,
+   "end": 479.67,
+   "speaker": "",
+   "text": "or not dispersion, but some organization"
+  },
+  {
+   "start": 479.67,
+   "end": 482.51,
+   "speaker": "",
+   "text": "of the different talent that comes in."
+  },
+  {
+   "start": 482.51,
+   "end": 486.03,
+   "speaker": "",
+   "text": "We're not necessarily going with first come, first serve."
+  },
+  {
+   "start": 486.03,
+   "end": 492.19,
+   "speaker": "",
+   "text": "So hopefully it's actually gets so popular"
+  },
+  {
+   "start": 492.19,
+   "end": 494.63,
+   "speaker": "",
+   "text": "that we do have to have some more organization"
+  },
+  {
+   "start": 494.63,
+   "end": 496.99,
+   "speaker": "",
+   "text": "to coordinate who's going to be there,"
+  },
+  {
+   "start": 496.99,
+   "end": 503.05,
+   "speaker": "",
+   "text": "but still have the sense that the ownership is still"
+  },
+  {
+   "start": 503.05,
+   "end": 506.68,
+   "speaker": "",
+   "text": "shared for the space."
+  },
+  {
+   "start": 506.68,
+   "end": 510.64,
+   "speaker": "",
+   "text": "Right now, we have been able to make space for everyone"
+  },
+  {
+   "start": 510.64,
+   "end": 512.84,
+   "speaker": "",
+   "text": "and just allow people to come first serve"
+  },
+  {
+   "start": 512.84,
+   "end": 515.76,
+   "speaker": "",
+   "text": "and allow people to just walk up and play."
+  },
+  {
+   "start": 515.76,
+   "end": 518.84,
+   "speaker": "",
+   "text": "So I want it to continue to be an open space,"
+  },
+  {
+   "start": 518.84,
+   "end": 521.36,
+   "speaker": "",
+   "text": "continue to have opportunity for many people to play,"
+  },
+  {
+   "start": 521.44,
+   "end": 526.32,
+   "speaker": "",
+   "text": "but then also not allow it to get any form of competition"
+  },
+  {
+   "start": 526.32,
+   "end": 532.68,
+   "speaker": "",
+   "text": "or people having this counter idea"
+  },
+  {
+   "start": 532.68,
+   "end": 536.04,
+   "speaker": "",
+   "text": "to what the values and the space is supposed to be."
+  },
+  {
+   "start": 536.04,
+   "end": 536.6,
+   "speaker": "",
+   "text": "What do you think?"
+  },
+  {
+   "start": 536.6,
+   "end": 541.66,
+   "speaker": "",
+   "text": "I'm going to mute since the construction is so bad here."
+  },
+  {
+   "start": 541.66,
+   "end": 543.54,
+   "speaker": "",
+   "text": "Yeah, I think it's a good idea."
+  },
+  {
+   "start": 543.54,
+   "end": 548.37,
+   "speaker": "",
+   "text": "I think the organization was pretty good last time."
+  },
+  {
+   "start": 548.37,
+   "end": 550.21,
+   "speaker": "",
+   "text": "People got slots."
+  },
+  {
+   "start": 550.21,
+   "end": 556.43,
+   "speaker": "",
+   "text": "And I think at some point, we had to fill in the slots."
+  },
+  {
+   "start": 556.43,
+   "end": 559.55,
+   "speaker": "",
+   "text": "I didn't get the feeling people were competing for slots."
+  },
+  {
+   "start": 559.55,
+   "end": 560.99,
+   "speaker": "",
+   "text": "I think people worked really well."
+  },
+  {
+   "start": 560.99,
+   "end": 564.07,
+   "speaker": "",
+   "text": "But obviously, there's a lot of people"
+  },
+  {
+   "start": 564.07,
+   "end": 565.19,
+   "speaker": "",
+   "text": "who wanted to do things."
+  },
+  {
+   "start": 565.19,
+   "end": 570.63,
+   "speaker": "",
+   "text": "But these were people who were designated anyway."
+  },
+  {
+   "start": 570.63,
+   "end": 573.39,
+   "speaker": "",
+   "text": "But I think part of the whole schedule"
+  },
+  {
+   "start": 573.39,
+   "end": 576.6,
+   "speaker": "",
+   "text": "should account for people who just find interest"
+  },
+  {
+   "start": 576.6,
+   "end": 578.84,
+   "speaker": "",
+   "text": "and obviously want to expand the orchestra itself"
+  },
+  {
+   "start": 578.84,
+   "end": 579.6,
+   "speaker": "",
+   "text": "and the sanctuary."
+  },
+  {
+   "start": 579.6,
+   "end": 583.79,
+   "speaker": "",
+   "text": "So people just want to come in and be part of it."
+  },
+  {
+   "start": 583.79,
+   "end": 588.59,
+   "speaker": "",
+   "text": "So yeah, having some core performances"
+  },
+  {
+   "start": 588.59,
+   "end": 592.11,
+   "speaker": "",
+   "text": "and then leaving some leeway for anybody potentially"
+  },
+  {
+   "start": 592.11,
+   "end": 600.08,
+   "speaker": "",
+   "text": "who might just want to come in."
+  },
+  {
+   "start": 600.08,
+   "end": 601.86,
+   "speaker": "",
+   "text": "Totally."
+  },
+  {
+   "start": 601.86,
+   "end": 606.88,
+   "speaker": "",
+   "text": "What do you think about the mechanism?"
+  },
+  {
+   "start": 606.88,
+   "end": 615.88,
+   "speaker": "",
+   "text": "What should we do with the DOW as far as the mechanism goes?"
+  },
+  {
+   "start": 616.04,
+   "end": 623.74,
+   "speaker": "",
+   "text": "I think if we use the music as the core"
+  },
+  {
+   "start": 623.74,
+   "end": 630.01,
+   "speaker": "",
+   "text": "and then start to expand for the core music having features,"
+  },
+  {
+   "start": 630.01,
+   "end": 632.89,
+   "speaker": "",
+   "text": "like the website is beautiful, really beautiful website."
+  },
+  {
+   "start": 636.24,
+   "end": 640.0,
+   "speaker": "",
+   "text": "I know you mentioned you don't want to tokenize it."
+  },
+  {
+   "start": 640.0,
+   "end": 642.92,
+   "speaker": "",
+   "text": "But I think tokenization always gives people"
+  },
+  {
+   "start": 642.92,
+   "end": 646.01,
+   "speaker": "",
+   "text": "a sense of belonging."
+  },
+  {
+   "start": 646.01,
+   "end": 648.49,
+   "speaker": "",
+   "text": "And it's something that people can build up from token"
+  },
+  {
+   "start": 648.49,
+   "end": 650.29,
+   "speaker": "",
+   "text": "to token from place to place."
+  },
+  {
+   "start": 650.29,
+   "end": 654.25,
+   "speaker": "",
+   "text": "So for example, somebody can get a certain number of tokens"
+  },
+  {
+   "start": 654.25,
+   "end": 659.97,
+   "speaker": "",
+   "text": "and just as an example, can get a kind of guest performance."
+  },
+  {
+   "start": 659.97,
+   "end": 661.49,
+   "speaker": "",
+   "text": "So that means we're now building"
+  },
+  {
+   "start": 661.49,
+   "end": 664.69,
+   "speaker": "",
+   "text": "some kind of loyalty or faithfulness over people"
+  },
+  {
+   "start": 664.69,
+   "end": 667.45,
+   "speaker": "",
+   "text": "and acquiring tokens, building up tracks."
+  },
+  {
+   "start": 667.45,
+   "end": 670.09,
+   "speaker": "",
+   "text": "And then it builds up a community, a real community"
+  },
+  {
+   "start": 670.09,
+   "end": 672.61,
+   "speaker": "",
+   "text": "that is not disjointed."
+  },
+  {
+   "start": 672.61,
+   "end": 674.09,
+   "speaker": "",
+   "text": "I think that's very important."
+  },
+  {
+   "start": 674.09,
+   "end": 677.4,
+   "speaker": "",
+   "text": "So regardless of whether people are physically or virtually there,"
+  },
+  {
+   "start": 677.4,
+   "end": 680.51,
+   "speaker": "",
+   "text": "if they're not part of the community,"
+  },
+  {
+   "start": 680.51,
+   "end": 683.03,
+   "speaker": "",
+   "text": "the likes of the Vivek, the likes of the Dev,"
+  },
+  {
+   "start": 683.03,
+   "end": 685.75,
+   "speaker": "",
+   "text": "the likes of the Nidi, that in India who may not"
+  },
+  {
+   "start": 685.75,
+   "end": 687.91,
+   "speaker": "",
+   "text": "be able to come to Lisbon, they could still"
+  },
+  {
+   "start": 687.91,
+   "end": 692.06,
+   "speaker": "",
+   "text": "have a measure of participation and a voice, so to speak,"
+  },
+  {
+   "start": 692.06,
+   "end": 695.71,
+   "speaker": "",
+   "text": "regardless of where they are, if they have some kind of token"
+  },
+  {
+   "start": 695.71,
+   "end": 700.39,
+   "speaker": "",
+   "text": "that they can submit, some form of representation."
+  },
+  {
+   "start": 700.39,
+   "end": 701.71,
+   "speaker": "",
+   "text": "I think that's the most important,"
+  },
+  {
+   "start": 701.71,
+   "end": 706.28,
+   "speaker": "",
+   "text": "to really create a true global community."
+  },
+  {
+   "start": 706.6,
+   "end": 710.72,
+   "speaker": "",
+   "text": "That's the first thing I think should be the aspect of the Dev."
+  },
+  {
+   "start": 710.72,
+   "end": 715.85,
+   "speaker": "",
+   "text": "Because almost every aspect of Web3 is very community-based."
+  },
+  {
+   "start": 715.85,
+   "end": 721.31,
+   "speaker": "",
+   "text": "I think that's what really gives its push, its traction,"
+  },
+  {
+   "start": 721.31,
+   "end": 723.47,
+   "speaker": "",
+   "text": "its desire for people to want to carry on."
+  },
+  {
+   "start": 723.47,
+   "end": 727.08,
+   "speaker": "",
+   "text": "If I look at every Web3 project,"
+  },
+  {
+   "start": 727.08,
+   "end": 730.47,
+   "speaker": "",
+   "text": "it's almost like a farming out of a family."
+  },
+  {
+   "start": 730.47,
+   "end": 733.07,
+   "speaker": "",
+   "text": "And it's that family feel, that community feel"
+  },
+  {
+   "start": 733.07,
+   "end": 735.07,
+   "speaker": "",
+   "text": "that makes people want to come together and say,"
+  },
+  {
+   "start": 735.07,
+   "end": 739.37,
+   "speaker": "",
+   "text": "let's build something and push it."
+  },
+  {
+   "start": 739.37,
+   "end": 742.17,
+   "speaker": "",
+   "text": "We do have a small group of individuals"
+  },
+  {
+   "start": 742.17,
+   "end": 743.77,
+   "speaker": "",
+   "text": "that are part of the community."
+  },
+  {
+   "start": 743.77,
+   "end": 747.49,
+   "speaker": "",
+   "text": "But I think having a wider-based community,"
+  },
+  {
+   "start": 747.49,
+   "end": 750.78,
+   "speaker": "",
+   "text": "both virtually and physically, would probably"
+  },
+  {
+   "start": 750.78,
+   "end": 758.0,
+   "speaker": "",
+   "text": "be the first to now look at the Dev."
+  },
+  {
+   "start": 758.0,
+   "end": 761.6,
+   "speaker": "",
+   "text": "I definitely love the thoughts on community"
+  },
+  {
+   "start": 761.6,
+   "end": 763.47,
+   "speaker": "",
+   "text": "and a global community."
+  },
+  {
+   "start": 763.47,
+   "end": 768.39,
+   "speaker": "",
+   "text": "I'm still not wrestling, but just pondering"
+  },
+  {
+   "start": 768.39,
+   "end": 771.04,
+   "speaker": "",
+   "text": "on the tokenization part of it."
+  },
+  {
+   "start": 771.04,
+   "end": 778.13,
+   "speaker": "",
+   "text": "I'm almost wondering if the token's not really"
+  },
+  {
+   "start": 778.13,
+   "end": 789.55,
+   "speaker": "",
+   "text": "to have monetary value, but significance of proof"
+  },
+  {
+   "start": 789.55,
+   "end": 793.31,
+   "speaker": "",
+   "text": "of receipt, proof of contribution,"
+  },
+  {
+   "start": 793.31,
+   "end": 796.96,
+   "speaker": "",
+   "text": "more like a token of appreciation."
+  },
+  {
+   "start": 796.96,
+   "end": 800.04,
+   "speaker": "",
+   "text": "Yeah, proof of representation also."
+  },
+  {
+   "start": 800.04,
+   "end": 804.76,
+   "speaker": "",
+   "text": "Yeah, yeah, send out more token badges, if you will."
+  },
+  {
+   "start": 805.6,
+   "end": 810.94,
+   "speaker": "",
+   "text": "Those of us who have been consistently showing up"
+  },
+  {
+   "start": 810.94,
+   "end": 814.74,
+   "speaker": "",
+   "text": "obviously get a badge and then a token of appreciation."
+  },
+  {
+   "start": 814.74,
+   "end": 819.3,
+   "speaker": "",
+   "text": "And maybe part of receiving a badge"
+  },
+  {
+   "start": 819.3,
+   "end": 824.56,
+   "speaker": "",
+   "text": "is that people with a badge are also given their consent"
+  },
+  {
+   "start": 824.56,
+   "end": 827.84,
+   "speaker": "",
+   "text": "that they're being available for voting."
+  },
+  {
+   "start": 827.84,
+   "end": 830.4,
+   "speaker": "",
+   "text": "Yeah, lack of proof of attendance also."
+  },
+  {
+   "start": 830.4,
+   "end": 835.24,
+   "speaker": "",
+   "text": "I know how people love the PO-Apps back in the days."
+  },
+  {
+   "start": 835.72,
+   "end": 839.68,
+   "speaker": "",
+   "text": "I know I've got my NFT from East Global"
+  },
+  {
+   "start": 839.68,
+   "end": 841.2,
+   "speaker": "",
+   "text": "and I've got my participation."
+  },
+  {
+   "start": 841.2,
+   "end": 842.76,
+   "speaker": "",
+   "text": "And they sound like little things,"
+  },
+  {
+   "start": 842.76,
+   "end": 845.72,
+   "speaker": "",
+   "text": "but I've just got the PDF proudly, I've printed it off."
+  },
+  {
+   "start": 845.72,
+   "end": 851.2,
+   "speaker": "",
+   "text": "I've got some kind of proof of attendance."
+  },
+  {
+   "start": 851.2,
+   "end": 854.76,
+   "speaker": "",
+   "text": "So look at the crowds that we pulled together."
+  },
+  {
+   "start": 854.76,
+   "end": 857.36,
+   "speaker": "",
+   "text": "If you see the pictures, the crowd is just immense."
+  },
+  {
+   "start": 857.36,
+   "end": 863.78,
+   "speaker": "",
+   "text": "People can just scan something, proof of attendance."
+  },
+  {
+   "start": 863.9,
+   "end": 866.9,
+   "speaker": "",
+   "text": "We've got some great pictures"
+  },
+  {
+   "start": 866.9,
+   "end": 870.02,
+   "speaker": "",
+   "text": "that gives them that community feel."
+  },
+  {
+   "start": 870.02,
+   "end": 872.42,
+   "speaker": "",
+   "text": "Long-term, they can become part of the community,"
+  },
+  {
+   "start": 872.42,
+   "end": 874.06,
+   "speaker": "",
+   "text": "either in part of a Discord,"
+  },
+  {
+   "start": 875.7,
+   "end": 877.9,
+   "speaker": "",
+   "text": "and then we keep this flow going."
+  },
+  {
+   "start": 879.3,
+   "end": 881.06,
+   "speaker": "",
+   "text": "So it doesn't need to be a monetization token."
+  },
+  {
+   "start": 881.06,
+   "end": 883.14,
+   "speaker": "",
+   "text": "It could be a governance token, it could be validation token,"
+  },
+  {
+   "start": 883.14,
+   "end": 884.78,
+   "speaker": "",
+   "text": "it could be proof of attendance token,"
+  },
+  {
+   "start": 884.78,
+   "end": 886.38,
+   "speaker": "",
+   "text": "it could be participation token."
+  },
+  {
+   "start": 889.18,
+   "end": 891.54,
+   "speaker": "",
+   "text": "Yeah, I think there's the two types of tokens,"
+  },
+  {
+   "start": 891.54,
+   "end": 893.26,
+   "speaker": "",
+   "text": "the participation token"
+  },
+  {
+   "start": 893.26,
+   "end": 895.38,
+   "speaker": "",
+   "text": "and then the token of appreciation."
+  },
+  {
+   "start": 896.14,
+   "end": 900.94,
+   "speaker": "",
+   "text": "We don't wanna have a token that has any speculation."
+  },
+  {
+   "start": 900.94,
+   "end": 902.9,
+   "speaker": "",
+   "text": "No, no, no, no, no, not that kind of token, no."
+  },
+  {
+   "start": 902.9,
+   "end": 907.18,
+   "speaker": "",
+   "text": "I think people are not trading the token"
+  },
+  {
+   "start": 907.18,
+   "end": 909.26,
+   "speaker": "",
+   "text": "or even trading the token."
+  },
+  {
+   "start": 909.26,
+   "end": 912.78,
+   "speaker": "",
+   "text": "I think there should be excitement"
+  },
+  {
+   "start": 912.78,
+   "end": 915.46,
+   "speaker": "",
+   "text": "about collecting the token"
+  },
+  {
+   "start": 915.46,
+   "end": 919.94,
+   "speaker": "",
+   "text": "and then earning more of the token"
+  },
+  {
+   "start": 919.94,
+   "end": 922.02,
+   "speaker": "",
+   "text": "rather than just hodling the token,"
+  },
+  {
+   "start": 922.02,
+   "end": 924.86,
+   "speaker": "",
+   "text": "but you're actually wanting to hoard the token"
+  },
+  {
+   "start": 924.98,
+   "end": 926.14,
+   "speaker": "",
+   "text": "because it's like a flex,"
+  },
+  {
+   "start": 926.14,
+   "end": 928.82,
+   "speaker": "",
+   "text": "how many tokens you have because you've like,"
+  },
+  {
+   "start": 928.82,
+   "end": 930.58,
+   "speaker": "",
+   "text": "like PoApp, like I have the flex,"
+  },
+  {
+   "start": 930.58,
+   "end": 932.54,
+   "speaker": "",
+   "text": "how many times I've met Patricio."
+  },
+  {
+   "start": 932.54,
+   "end": 933.38,
+   "speaker": "",
+   "text": "Yeah, yeah."
+  },
+  {
+   "start": 933.38,
+   "end": 935.74,
+   "speaker": "",
+   "text": "Because I have tons of his PoApps."
+  },
+  {
+   "start": 937.34,
+   "end": 939.74,
+   "speaker": "",
+   "text": "And I think it's a,"
+  },
+  {
+   "start": 939.74,
+   "end": 944.14,
+   "speaker": "",
+   "text": "so those stable coin type initiatives"
+  },
+  {
+   "start": 944.14,
+   "end": 946.98,
+   "speaker": "",
+   "text": "and then that's also great for the agents, right?"
+  },
+  {
+   "start": 946.98,
+   "end": 950.38,
+   "speaker": "",
+   "text": "Like if we're sending people an NFT or a PoApp,"
+  },
+  {
+   "start": 950.38,
+   "end": 952.06,
+   "speaker": "",
+   "text": "then the agents can instantly"
+  },
+  {
+   "start": 952.06,
+   "end": 954.22,
+   "speaker": "",
+   "text": "read that their address has that"
+  },
+  {
+   "start": 954.26,
+   "end": 958.26,
+   "speaker": "",
+   "text": "so that can help us with maybe voting for funding."
+  },
+  {
+   "start": 958.26,
+   "end": 962.18,
+   "speaker": "",
+   "text": "And then, like you said, giving access to Discord,"
+  },
+  {
+   "start": 962.18,
+   "end": 964.22,
+   "speaker": "",
+   "text": "that's another great reason"
+  },
+  {
+   "start": 964.22,
+   "end": 967.38,
+   "speaker": "",
+   "text": "for having some sort of token mechanism that's,"
+  },
+  {
+   "start": 967.38,
+   "end": 970.06,
+   "speaker": "",
+   "text": "yeah, more for the proof of participation"
+  },
+  {
+   "start": 970.06,
+   "end": 972.02,
+   "speaker": "",
+   "text": "and proof of attendance and proof of,"
+  },
+  {
+   "start": 973.42,
+   "end": 978.99,
+   "speaker": "",
+   "text": "yeah, proof that you are a part"
+  },
+  {
+   "start": 979.15,
+   "end": 983.11,
+   "speaker": "",
+   "text": "of who you say you are too."
+  },
+  {
+   "start": 983.11,
+   "end": 984.03,
+   "speaker": "",
+   "text": "Yeah."
+  },
+  {
+   "start": 984.03,
+   "end": 986.03,
+   "speaker": "",
+   "text": "I am kind of like wondering like,"
+  },
+  {
+   "start": 986.03,
+   "end": 990.47,
+   "speaker": "",
+   "text": "what if the open source orchestra gets big enough"
+  },
+  {
+   "start": 990.47,
+   "end": 996.53,
+   "speaker": "",
+   "text": "that it's then at that point of having risk of people"
+  },
+  {
+   "start": 996.89,
+   "end": 1001.29,
+   "speaker": "",
+   "text": "wanting to claim too many ENS subdomains"
+  },
+  {
+   "start": 1001.29,
+   "end": 1004.61,
+   "speaker": "",
+   "text": "or gamify it or hack it or do something like,"
+  },
+  {
+   "start": 1006.25,
+   "end": 1010.41,
+   "speaker": "",
+   "text": "I think that the advantage"
+  },
+  {
+   "start": 1010.41,
+   "end": 1011.97,
+   "speaker": "",
+   "text": "to the open source orchestra right now"
+  },
+  {
+   "start": 1011.97,
+   "end": 1015.09,
+   "speaker": "",
+   "text": "is that we've established a global community,"
+  },
+  {
+   "start": 1015.09,
+   "end": 1018.73,
+   "speaker": "",
+   "text": "but we also haven't done anything specifically"
+  },
+  {
+   "start": 1019.77,
+   "end": 1025.34,
+   "speaker": "",
+   "text": "that one has made it appear to hold any value,"
+  },
+  {
+   "start": 1025.74,
+   "end": 1029.86,
+   "speaker": "",
+   "text": "but two, it's also, it's still like waiting"
+  },
+  {
+   "start": 1029.86,
+   "end": 1035.54,
+   "speaker": "",
+   "text": "for its proper online debut, if you will."
+  },
+  {
+   "start": 1035.54,
+   "end": 1037.46,
+   "speaker": "",
+   "text": "I feel like we're kind of doing that right now"
+  },
+  {
+   "start": 1037.46,
+   "end": 1040.7,
+   "speaker": "",
+   "text": "by recording these calls and like putting them,"
+  },
+  {
+   "start": 1040.7,
+   "end": 1042.66,
+   "speaker": "",
+   "text": "just tweeting them the same day,"
+  },
+  {
+   "start": 1043.58,
+   "end": 1045.9,
+   "speaker": "",
+   "text": "publishing things on opensourceorchestra.org,"
+  },
+  {
+   "start": 1046.7,
+   "end": 1051.14,
+   "speaker": "",
+   "text": "it's kind of just now like online coming together"
+  },
+  {
+   "start": 1051.14,
+   "end": 1052.82,
+   "speaker": "",
+   "text": "as being like a public review,"
+  },
+  {
+   "start": 1052.82,
+   "end": 1056.14,
+   "speaker": "",
+   "text": "but it always just before it used to just be kind of like"
+  },
+  {
+   "start": 1056.98,
+   "end": 1059.7,
+   "speaker": "",
+   "text": "a tradition, but also like,"
+  },
+  {
+   "start": 1059.7,
+   "end": 1062.94,
+   "speaker": "",
+   "text": "I've always felt like this underground Ethereum musician"
+  },
+  {
+   "start": 1062.94,
+   "end": 1065.86,
+   "speaker": "",
+   "text": "that people only know who I am in Ethereum events."
+  },
+  {
+   "start": 1065.86,
+   "end": 1066.7,
+   "speaker": "",
+   "text": "Yeah."
+  },
+  {
+   "start": 1066.7,
+   "end": 1068.74,
+   "speaker": "",
+   "text": "This does feel like the moment,"
+  },
+  {
+   "start": 1068.74,
+   "end": 1071.3,
+   "speaker": "",
+   "text": "DevCon 8 where we really give"
+  },
+  {
+   "start": 1071.3,
+   "end": 1073.78,
+   "speaker": "",
+   "text": "the open source orchestra longevity"
+  },
+  {
+   "start": 1073.78,
+   "end": 1079.04,
+   "speaker": "",
+   "text": "and have that sovereignty of being its own thing,"
+  },
+  {
+   "start": 1080.52,
+   "end": 1082.08,
+   "speaker": "",
+   "text": "you know, that it's not just a tradition"
+  },
+  {
+   "start": 1082.08,
+   "end": 1083.4,
+   "speaker": "",
+   "text": "that I'm carrying around the world,"
+  },
+  {
+   "start": 1083.4,
+   "end": 1087.64,
+   "speaker": "",
+   "text": "but it's actually a living thing that is decentralized"
+  },
+  {
+   "start": 1087.64,
+   "end": 1091.36,
+   "speaker": "",
+   "text": "and has open participation and continues to be that tradition"
+  },
+  {
+   "start": 1091.36,
+   "end": 1093.64,
+   "speaker": "",
+   "text": "at Ethereum events because the community"
+  },
+  {
+   "start": 1093.64,
+   "end": 1096.28,
+   "speaker": "",
+   "text": "is carrying that tradition forward."
+  },
+  {
+   "start": 1096.28,
+   "end": 1098.6,
+   "speaker": "",
+   "text": "Yeah."
+  },
+  {
+   "start": 1098.6,
+   "end": 1104.06,
+   "speaker": "",
+   "text": "And yeah, I'm really, really grateful"
+  },
+  {
+   "start": 1104.06,
+   "end": 1106.86,
+   "speaker": "",
+   "text": "how well we collaborated with the DevCon team this year."
+  },
+  {
+   "start": 1106.86,
+   "end": 1108.46,
+   "speaker": "",
+   "text": "I'm really grateful that we had"
+  },
+  {
+   "start": 1108.46,
+   "end": 1112.3,
+   "speaker": "",
+   "text": "such great local participation with Nitti and Akash"
+  },
+  {
+   "start": 1112.3,
+   "end": 1117.3,
+   "speaker": "",
+   "text": "and Devonsh and Aniket and so many locals"
+  },
+  {
+   "start": 1118.42,
+   "end": 1121.78,
+   "speaker": "",
+   "text": "that were able to just walk in and really understand how,"
+  },
+  {
+   "start": 1121.78,
+   "end": 1123.58,
+   "speaker": "",
+   "text": "I knew this was gonna be the case in India"
+  },
+  {
+   "start": 1123.58,
+   "end": 1125.54,
+   "speaker": "",
+   "text": "cause it's always really special"
+  },
+  {
+   "start": 1125.54,
+   "end": 1128.82,
+   "speaker": "",
+   "text": "to just set up instruments and see people like to sing"
+  },
+  {
+   "start": 1128.82,
+   "end": 1130.9,
+   "speaker": "",
+   "text": "their songs from their childhood."
+  },
+  {
+   "start": 1130.9,
+   "end": 1135.18,
+   "speaker": "",
+   "text": "And they always had kind of had that more spiritual,"
+  },
+  {
+   "start": 1135.18,
+   "end": 1137.66,
+   "speaker": "",
+   "text": "cultural approach to music,"
+  },
+  {
+   "start": 1137.66,
+   "end": 1141.74,
+   "speaker": "",
+   "text": "even how all the traditional musicians take off their shoes,"
+  },
+  {
+   "start": 1141.74,
+   "end": 1144.94,
+   "speaker": "",
+   "text": "you know, as they play on the carpet."
+  },
+  {
+   "start": 1144.94,
+   "end": 1147.75,
+   "speaker": "",
+   "text": "I think that there's, yes,"
+  },
+  {
+   "start": 1147.75,
+   "end": 1156.34,
+   "speaker": "",
+   "text": "like the difference between Mumbai and Buenos Aires"
+  },
+  {
+   "start": 1157.66,
+   "end": 1160.9,
+   "speaker": "",
+   "text": "was that people were trying to make Buenos Aires"
+  },
+  {
+   "start": 1160.9,
+   "end": 1162.38,
+   "speaker": "",
+   "text": "too much of a festival."
+  },
+  {
+   "start": 1162.38,
+   "end": 1165.54,
+   "speaker": "",
+   "text": "And it was kind of like colluding in the mind"
+  },
+  {
+   "start": 1165.54,
+   "end": 1168.03,
+   "speaker": "",
+   "text": "that it was a music stage."
+  },
+  {
+   "start": 1168.03,
+   "end": 1173.03,
+   "speaker": "",
+   "text": "And so having that stage be dismantled"
+  },
+  {
+   "start": 1173.15,
+   "end": 1174.87,
+   "speaker": "",
+   "text": "and having it be a sanctuary"
+  },
+  {
+   "start": 1174.87,
+   "end": 1177.98,
+   "speaker": "",
+   "text": "that anyone was able to walk into,"
+  },
+  {
+   "start": 1177.98,
+   "end": 1180.02,
+   "speaker": "",
+   "text": "it's not like everyone was walking into it."
+  },
+  {
+   "start": 1180.02,
+   "end": 1181.82,
+   "speaker": "",
+   "text": "People were actually even more respectful,"
+  },
+  {
+   "start": 1181.82,
+   "end": 1183.78,
+   "speaker": "",
+   "text": "but then actually people were capable"
+  },
+  {
+   "start": 1183.78,
+   "end": 1185.38,
+   "speaker": "",
+   "text": "of just walking right into it."
+  },
+  {
+   "start": 1187.4,
+   "end": 1190.02,
+   "speaker": "",
+   "text": "I think that that's something"
+  },
+  {
+   "start": 1190.02,
+   "end": 1191.38,
+   "speaker": "",
+   "text": "that we need to think about in the future."
+  },
+  {
+   "start": 1191.38,
+   "end": 1193.06,
+   "speaker": "",
+   "text": "I think it's always been the case"
+  },
+  {
+   "start": 1193.06,
+   "end": 1195.74,
+   "speaker": "",
+   "text": "for an open source orchestra pit,"
+  },
+  {
+   "start": 1195.74,
+   "end": 1197.58,
+   "speaker": "",
+   "text": "that the pit's on the floor."
+  },
+  {
+   "start": 1197.58,
+   "end": 1200.5,
+   "speaker": "",
+   "text": "And it's always there to support something"
+  },
+  {
+   "start": 1200.5,
+   "end": 1201.94,
+   "speaker": "",
+   "text": "so much more than the orchestra."
+  },
+  {
+   "start": 1201.94,
+   "end": 1203.98,
+   "speaker": "",
+   "text": "So we're not the main act."
+  },
+  {
+   "start": 1203.98,
+   "end": 1205.74,
+   "speaker": "",
+   "text": "We are not the attention grabber."
+  },
+  {
+   "start": 1205.74,
+   "end": 1208.14,
+   "speaker": "",
+   "text": "We are there to support so much more."
+  },
+  {
+   "start": 1208.14,
+   "end": 1210.02,
+   "speaker": "",
+   "text": "We're there to uplift the values of Ethereum."
+  },
+  {
+   "start": 1210.02,
+   "end": 1213.02,
+   "speaker": "",
+   "text": "We're there to just maintain the vibe"
+  },
+  {
+   "start": 1213.02,
+   "end": 1214.54,
+   "speaker": "",
+   "text": "in the community spaces"
+  },
+  {
+   "start": 1214.54,
+   "end": 1216.3,
+   "speaker": "",
+   "text": "so that the main show is still"
+  },
+  {
+   "start": 1216.3,
+   "end": 1219.14,
+   "speaker": "",
+   "text": "the conversation that's happening in Ethereum."
+  },
+  {
+   "start": 1219.38,
+   "end": 1224.17,
+   "speaker": "",
+   "text": "And that's why I feel like it's a beautiful situation"
+  },
+  {
+   "start": 1224.17,
+   "end": 1227.65,
+   "speaker": "",
+   "text": "to have an orchestra on the ground floor"
+  },
+  {
+   "start": 1227.65,
+   "end": 1230.05,
+   "speaker": "",
+   "text": "that's open for everyone in the community"
+  },
+  {
+   "start": 1230.05,
+   "end": 1232.53,
+   "speaker": "",
+   "text": "to feel like it's also their orchestra."
+  },
+  {
+   "start": 1232.53,
+   "end": 1236.33,
+   "speaker": "",
+   "text": "And it actually is an orchestra"
+  },
+  {
+   "start": 1236.33,
+   "end": 1238.13,
+   "speaker": "",
+   "text": "because there's so many participants."
+  },
+  {
+   "start": 1239.3,
+   "end": 1241.25,
+   "speaker": "",
+   "text": "Yeah."
+  },
+  {
+   "start": 1241.25,
+   "end": 1244.78,
+   "speaker": "",
+   "text": "Yeah, I do agree."
+  },
+  {
+   "start": 1244.78,
+   "end": 1248.42,
+   "speaker": "",
+   "text": "I don't like the idea of turning it into a festival."
+  },
+  {
+   "start": 1248.42,
+   "end": 1251.98,
+   "speaker": "",
+   "text": "We want to steer away from the reputation"
+  },
+  {
+   "start": 1251.98,
+   "end": 1254.62,
+   "speaker": "",
+   "text": "of the token 2049, the Dubai,"
+  },
+  {
+   "start": 1254.62,
+   "end": 1258.75,
+   "speaker": "",
+   "text": "which was just, for want of a word,"
+  },
+  {
+   "start": 1258.75,
+   "end": 1262.43,
+   "speaker": "",
+   "text": "just a whole one big party."
+  },
+  {
+   "start": 1263.55,
+   "end": 1265.83,
+   "speaker": "",
+   "text": "And especially for newcomers,"
+  },
+  {
+   "start": 1265.83,
+   "end": 1270.79,
+   "speaker": "",
+   "text": "it left a really, really interesting experience,"
+  },
+  {
+   "start": 1270.79,
+   "end": 1271.99,
+   "speaker": "",
+   "text": "dual experience for some of them."
+  },
+  {
+   "start": 1271.99,
+   "end": 1273.47,
+   "speaker": "",
+   "text": "Some of them loved it."
+  },
+  {
+   "start": 1273.47,
+   "end": 1275.71,
+   "speaker": "",
+   "text": "For some of them who were more serious minded"
+  },
+  {
+   "start": 1275.71,
+   "end": 1277.23,
+   "speaker": "",
+   "text": "and wanted to contribute,"
+  },
+  {
+   "start": 1277.23,
+   "end": 1279.35,
+   "speaker": "",
+   "text": "it really was a turn off."
+  },
+  {
+   "start": 1279.35,
+   "end": 1281.59,
+   "speaker": "",
+   "text": "But we also want to balance it with making sure"
+  },
+  {
+   "start": 1281.59,
+   "end": 1287.58,
+   "speaker": "",
+   "text": "that we keep the core spirit of the entertainment in it"
+  },
+  {
+   "start": 1287.58,
+   "end": 1289.5,
+   "speaker": "",
+   "text": "because if you think about it,"
+  },
+  {
+   "start": 1289.5,
+   "end": 1291.38,
+   "speaker": "",
+   "text": "across the whole of DEFCON,"
+  },
+  {
+   "start": 1291.38,
+   "end": 1292.82,
+   "speaker": "",
+   "text": "there wasn't any entertainment"
+  },
+  {
+   "start": 1292.82,
+   "end": 1295.42,
+   "speaker": "",
+   "text": "apart from the open source orchestra."
+  },
+  {
+   "start": 1295.42,
+   "end": 1297.62,
+   "speaker": "",
+   "text": "And people did appreciate it."
+  },
+  {
+   "start": 1297.62,
+   "end": 1300.74,
+   "speaker": "",
+   "text": "People needed that kind of balancing,"
+  },
+  {
+   "start": 1300.74,
+   "end": 1303.02,
+   "speaker": "",
+   "text": "that dual space after listening to a very deep,"
+  },
+  {
+   "start": 1303.02,
+   "end": 1304.06,
+   "speaker": "",
+   "text": "in-depth talk."
+  },
+  {
+   "start": 1304.06,
+   "end": 1305.22,
+   "speaker": "",
+   "text": "If you go through the talks,"
+  },
+  {
+   "start": 1305.22,
+   "end": 1307.06,
+   "speaker": "",
+   "text": "a lot of the talks were not high level."
+  },
+  {
+   "start": 1307.06,
+   "end": 1309.02,
+   "speaker": "",
+   "text": "So it must have been very confusing"
+  },
+  {
+   "start": 1309.02,
+   "end": 1311.54,
+   "speaker": "",
+   "text": "for a lot of our Indian brothers and sisters"
+  },
+  {
+   "start": 1311.54,
+   "end": 1312.46,
+   "speaker": "",
+   "text": "who came for the first time"
+  },
+  {
+   "start": 1312.46,
+   "end": 1315.42,
+   "speaker": "",
+   "text": "because the talks were just very in-depth."
+  },
+  {
+   "start": 1319.06,
+   "end": 1319.9,
+   "speaker": "",
+   "text": "Some of them would never,"
+  },
+  {
+   "start": 1319.9,
+   "end": 1321.58,
+   "speaker": "",
+   "text": "even for me who's been in Web3 for years,"
+  },
+  {
+   "start": 1321.58,
+   "end": 1324.66,
+   "speaker": "",
+   "text": "I found a lot of the talks really difficult."
+  },
+  {
+   "start": 1324.66,
+   "end": 1329.66,
+   "speaker": "",
+   "text": "Yeah, I've been doing a daily Twitter posting of the talks"
+  },
+  {
+   "start": 1330.98,
+   "end": 1332.62,
+   "speaker": "",
+   "text": "and sometimes I have to spend an hour"
+  },
+  {
+   "start": 1332.62,
+   "end": 1335.5,
+   "speaker": "",
+   "text": "just going through a lightning talk, which is six minutes,"
+  },
+  {
+   "start": 1335.5,
+   "end": 1337.7,
+   "speaker": "",
+   "text": "just to get the core understanding."
+  },
+  {
+   "start": 1337.7,
+   "end": 1341.06,
+   "speaker": "",
+   "text": "So that breather, that reprieve"
+  },
+  {
+   "start": 1341.06,
+   "end": 1342.22,
+   "speaker": "",
+   "text": "is what the open source orchestra,"
+  },
+  {
+   "start": 1342.22,
+   "end": 1343.5,
+   "speaker": "",
+   "text": "but obviously you don't want to change it"
+  },
+  {
+   "start": 1343.5,
+   "end": 1348.3,
+   "speaker": "",
+   "text": "to one this big summer fest,"
+  },
+  {
+   "start": 1348.3,
+   "end": 1351.26,
+   "speaker": "",
+   "text": "which many, many Web3 events,"
+  },
+  {
+   "start": 1351.26,
+   "end": 1354.7,
+   "speaker": "",
+   "text": "that's really become their banner."
+  },
+  {
+   "start": 1358.73,
+   "end": 1359.57,
+   "speaker": "",
+   "text": "Cool."
+  },
+  {
+   "start": 1362.97,
+   "end": 1368.51,
+   "speaker": "",
+   "text": "I think that we are a really good threshold barrier."
+  },
+  {
+   "start": 1369.35,
+   "end": 1370.19,
+   "speaker": "",
+   "text": "Yeah."
+  },
+  {
+   "start": 1370.19,
+   "end": 1373.95,
+   "speaker": "",
+   "text": "To the world of, not normies,"
+  },
+  {
+   "start": 1373.95,
+   "end": 1378.98,
+   "speaker": "",
+   "text": "but the world of people that are newbies."
+  },
+  {
+   "start": 1380.06,
+   "end": 1383.46,
+   "speaker": "",
+   "text": "Yeah, I think it would be really cool"
+  },
+  {
+   "start": 1383.46,
+   "end": 1386.26,
+   "speaker": "",
+   "text": "that if there's no real,"
+  },
+  {
+   "start": 1386.26,
+   "end": 1388.02,
+   "speaker": "",
+   "text": "I'm a dev or I'm a normie now,"
+  },
+  {
+   "start": 1388.02,
+   "end": 1391.5,
+   "speaker": "",
+   "text": "I hope it becomes normal for humanity"
+  },
+  {
+   "start": 1392.74,
+   "end": 1395.82,
+   "speaker": "",
+   "text": "to all realize that they're a community."
+  },
+  {
+   "start": 1395.82,
+   "end": 1397.38,
+   "speaker": "",
+   "text": "And I think now with agents,"
+  },
+  {
+   "start": 1397.42,
+   "end": 1400.34,
+   "speaker": "",
+   "text": "it's even more going to start becoming less of a tech space,"
+  },
+  {
+   "start": 1400.34,
+   "end": 1403.43,
+   "speaker": "",
+   "text": "but more just like a human space."
+  },
+  {
+   "start": 1403.43,
+   "end": 1406.13,
+   "speaker": "",
+   "text": "And I think also with agents,"
+  },
+  {
+   "start": 1408.95,
+   "end": 1410.51,
+   "speaker": "",
+   "text": "it's going to be a little bit less focused"
+  },
+  {
+   "start": 1410.51,
+   "end": 1414.19,
+   "speaker": "",
+   "text": "on the development and more focused on the creativity."
+  },
+  {
+   "start": 1414.19,
+   "end": 1417.47,
+   "speaker": "",
+   "text": "But then also when you have agents"
+  },
+  {
+   "start": 1417.47,
+   "end": 1419.71,
+   "speaker": "",
+   "text": "that are able to build for everybody"
+  },
+  {
+   "start": 1419.71,
+   "end": 1423.03,
+   "speaker": "",
+   "text": "and maybe a lot of the conversation is too high level,"
+  },
+  {
+   "start": 1423.03,
+   "end": 1427.23,
+   "speaker": "",
+   "text": "that's where the orchestra could really be impactful"
+  },
+  {
+   "start": 1427.23,
+   "end": 1432.62,
+   "speaker": "",
+   "text": "by helping in being a part of that threshold"
+  },
+  {
+   "start": 1432.82,
+   "end": 1435.58,
+   "speaker": "",
+   "text": "that people may be having an entry way."
+  },
+  {
+   "start": 1435.58,
+   "end": 1437.7,
+   "speaker": "",
+   "text": "And I think about these things that like,"
+  },
+  {
+   "start": 1441.63,
+   "end": 1445.67,
+   "speaker": "",
+   "text": "yeah, like I put into one little button"
+  },
+  {
+   "start": 1445.67,
+   "end": 1447.79,
+   "speaker": "",
+   "text": "where people could buy tickets for DevCon"
+  },
+  {
+   "start": 1447.79,
+   "end": 1449.31,
+   "speaker": "",
+   "text": "on the open source website."
+  },
+  {
+   "start": 1449.31,
+   "end": 1452.55,
+   "speaker": "",
+   "text": "I also put a little bit extra free, little buttons"
+  },
+  {
+   "start": 1452.55,
+   "end": 1453.87,
+   "speaker": "",
+   "text": "so people could click on that button"
+  },
+  {
+   "start": 1453.87,
+   "end": 1455.39,
+   "speaker": "",
+   "text": "and then kind of like get a description"
+  },
+  {
+   "start": 1455.39,
+   "end": 1458.15,
+   "speaker": "",
+   "text": "of what open source is, what decentralization is."
+  },
+  {
+   "start": 1459.07,
+   "end": 1461.19,
+   "speaker": "",
+   "text": "So, and we were talking in the last meeting"
+  },
+  {
+   "start": 1461.19,
+   "end": 1463.43,
+   "speaker": "",
+   "text": "about maybe thinking about trying to go more high schools."
+  },
+  {
+   "start": 1463.43,
+   "end": 1467.55,
+   "speaker": "",
+   "text": "So yeah, we're speaking the metaphor of the space."
+  },
+  {
+   "start": 1467.55,
+   "end": 1471.87,
+   "speaker": "",
+   "text": "We're speaking about the technical terms"
+  },
+  {
+   "start": 1471.87,
+   "end": 1474.11,
+   "speaker": "",
+   "text": "in a simple description"
+  },
+  {
+   "start": 1474.11,
+   "end": 1476.23,
+   "speaker": "",
+   "text": "so that they become really comprehensible"
+  },
+  {
+   "start": 1476.23,
+   "end": 1479.03,
+   "speaker": "",
+   "text": "to all generations."
+  },
+  {
+   "start": 1479.03,
+   "end": 1482.55,
+   "speaker": "",
+   "text": "And then I think that's what continues to get inspiration"
+  },
+  {
+   "start": 1482.55,
+   "end": 1485.11,
+   "speaker": "",
+   "text": "for people to want to stay"
+  },
+  {
+   "start": 1485.11,
+   "end": 1487.75,
+   "speaker": "",
+   "text": "and people who maybe aren't,"
+  },
+  {
+   "start": 1487.75,
+   "end": 1490.47,
+   "speaker": "",
+   "text": "they don't know which next talk they should go to"
+  },
+  {
+   "start": 1490.47,
+   "end": 1494.31,
+   "speaker": "",
+   "text": "then they just go sit and hang out in the music space"
+  },
+  {
+   "start": 1494.31,
+   "end": 1495.51,
+   "speaker": "",
+   "text": "and enjoy that for a while"
+  },
+  {
+   "start": 1495.51,
+   "end": 1498.67,
+   "speaker": "",
+   "text": "or making the community helps really feel like,"
+  },
+  {
+   "start": 1501.68,
+   "end": 1505.68,
+   "speaker": "",
+   "text": "covering it with a blanket of good vibes"
+  },
+  {
+   "start": 1505.68,
+   "end": 1508.92,
+   "speaker": "",
+   "text": "is not trying to draw the attention"
+  },
+  {
+   "start": 1508.92,
+   "end": 1513.52,
+   "speaker": "",
+   "text": "but just like continue the moment of connection,"
+  },
+  {
+   "start": 1514.16,
+   "end": 1516.72,
+   "speaker": "",
+   "text": "you know, that people are connecting with each other,"
+  },
+  {
+   "start": 1516.72,
+   "end": 1518.72,
+   "speaker": "",
+   "text": "connecting with the community booths"
+  },
+  {
+   "start": 1518.72,
+   "end": 1521.76,
+   "speaker": "",
+   "text": "and that the conversations are always holding a priority"
+  },
+  {
+   "start": 1521.76,
+   "end": 1524.36,
+   "speaker": "",
+   "text": "that it's not, the music's not getting too loud"
+  },
+  {
+   "start": 1524.36,
+   "end": 1526.8,
+   "speaker": "",
+   "text": "during the day, you know?"
+  },
+  {
+   "start": 1526.8,
+   "end": 1530.94,
+   "speaker": "",
+   "text": "I think that there's that special humble approach"
+  },
+  {
+   "start": 1530.94,
+   "end": 1533.9,
+   "speaker": "",
+   "text": "that we have in our festival"
+  },
+  {
+   "start": 1533.9,
+   "end": 1537.26,
+   "speaker": "",
+   "text": "that we're really there to just be really cultural guides."
+  },
+  {
+   "start": 1537.26,
+   "end": 1541.78,
+   "speaker": "",
+   "text": "And I think like we will need to have"
+  },
+  {
+   "start": 1541.82,
+   "end": 1543.86,
+   "speaker": "",
+   "text": "like special booked performances."
+  },
+  {
+   "start": 1543.86,
+   "end": 1545.62,
+   "speaker": "",
+   "text": "I think that's actually essential."
+  },
+  {
+   "start": 1547.23,
+   "end": 1550.51,
+   "speaker": "",
+   "text": "And then it'd be really kind of like as,"
+  },
+  {
+   "start": 1550.51,
+   "end": 1551.83,
+   "speaker": "",
+   "text": "I was hoping it would occur in this year"
+  },
+  {
+   "start": 1551.83,
+   "end": 1554.07,
+   "speaker": "",
+   "text": "actually it really presented itself that way"
+  },
+  {
+   "start": 1554.07,
+   "end": 1556.87,
+   "speaker": "",
+   "text": "is that in building out the schedule"
+  },
+  {
+   "start": 1556.87,
+   "end": 1558.47,
+   "speaker": "",
+   "text": "that it's not necessarily like a festival"
+  },
+  {
+   "start": 1558.47,
+   "end": 1559.55,
+   "speaker": "",
+   "text": "that it's more like those people"
+  },
+  {
+   "start": 1559.55,
+   "end": 1562.42,
+   "speaker": "",
+   "text": "or the people that you're expecting to show up"
+  },
+  {
+   "start": 1562.42,
+   "end": 1565.14,
+   "speaker": "",
+   "text": "and be really influential in stewarding the space"
+  },
+  {
+   "start": 1565.14,
+   "end": 1567.78,
+   "speaker": "",
+   "text": "and singing their songs and their set"
+  },
+  {
+   "start": 1568.7,
+   "end": 1572.26,
+   "speaker": "",
+   "text": "and then like encouraging them to open it up"
+  },
+  {
+   "start": 1572.26,
+   "end": 1575.66,
+   "speaker": "",
+   "text": "for other people to participate with them."
+  },
+  {
+   "start": 1575.66,
+   "end": 1576.5,
+   "speaker": "",
+   "text": "Yes, yeah."
+  },
+  {
+   "start": 1576.5,
+   "end": 1579.1,
+   "speaker": "",
+   "text": "I was really great how you coordinated"
+  },
+  {
+   "start": 1579.1,
+   "end": 1582.14,
+   "speaker": "",
+   "text": "with the Hansel and Musicians, you're set, you know?"
+  },
+  {
+   "start": 1582.14,
+   "end": 1585.66,
+   "speaker": "",
+   "text": "You guys walked in there already kind of quasi-rehearsed"
+  },
+  {
+   "start": 1585.66,
+   "end": 1590.34,
+   "speaker": "",
+   "text": "and not everybody is gonna be able to just play along"
+  },
+  {
+   "start": 1590.34,
+   "end": 1592.66,
+   "speaker": "",
+   "text": "with everything and play by ear."
+  },
+  {
+   "start": 1592.66,
+   "end": 1596.69,
+   "speaker": "",
+   "text": "So more people will be able to get over that"
+  },
+  {
+   "start": 1596.69,
+   "end": 1598.25,
+   "speaker": "",
+   "text": "quote unquote stage fear"
+  },
+  {
+   "start": 1598.25,
+   "end": 1600.53,
+   "speaker": "",
+   "text": "or fear of playing in front of people"
+  },
+  {
+   "start": 1600.53,
+   "end": 1602.49,
+   "speaker": "",
+   "text": "if they walk in the door a little bit more prepared."
+  },
+  {
+   "start": 1602.49,
+   "end": 1604.77,
+   "speaker": "",
+   "text": "But also then that I think that's where I think"
+  },
+  {
+   "start": 1604.77,
+   "end": 1607.89,
+   "speaker": "",
+   "text": "a lot of people who are not used to this opportunity"
+  },
+  {
+   "start": 1607.89,
+   "end": 1610.49,
+   "speaker": "",
+   "text": "of playing music in a public space"
+  },
+  {
+   "start": 1610.49,
+   "end": 1612.53,
+   "speaker": "",
+   "text": "that that was part of the growth"
+  },
+  {
+   "start": 1612.53,
+   "end": 1613.61,
+   "speaker": "",
+   "text": "that I was trying to encourage"
+  },
+  {
+   "start": 1613.61,
+   "end": 1615.85,
+   "speaker": "",
+   "text": "that we don't have to walk into the space"
+  },
+  {
+   "start": 1615.85,
+   "end": 1618.85,
+   "speaker": "",
+   "text": "with it figured out or knowing what we're gonna do."
+  },
+  {
+   "start": 1618.85,
+   "end": 1622.37,
+   "speaker": "",
+   "text": "Like I said, it takes one person to commit"
+  },
+  {
+   "start": 1622.37,
+   "end": 1625.57,
+   "speaker": "",
+   "text": "and then consensus for all of us to play along with it"
+  },
+  {
+   "start": 1625.93,
+   "end": 1626.77,
+   "speaker": "",
+   "text": "because we're listening."
+  },
+  {
+   "start": 1626.77,
+   "end": 1628.09,
+   "speaker": "",
+   "text": "Yes, yeah."
+  },
+  {
+   "start": 1628.09,
+   "end": 1631.93,
+   "speaker": "",
+   "text": "Like I created a lot when I saw talking to Bula Zuzalo"
+  },
+  {
+   "start": 1631.93,
+   "end": 1634.45,
+   "speaker": "",
+   "text": "and I kept on saying, oh, I have a set, you know,"
+  },
+  {
+   "start": 1634.45,
+   "end": 1637.05,
+   "speaker": "",
+   "text": "on the fifth, 10th, 30, the money come."
+  },
+  {
+   "start": 1637.05,
+   "end": 1639.33,
+   "speaker": "",
+   "text": "It spoke to why they even spoke to even their staff"
+  },
+  {
+   "start": 1639.33,
+   "end": 1643.09,
+   "speaker": "",
+   "text": "like some of the geo-center stuff."
+  },
+  {
+   "start": 1643.09,
+   "end": 1645.89,
+   "speaker": "",
+   "text": "So, and it just got a lot of people more interested."
+  },
+  {
+   "start": 1645.89,
+   "end": 1647.85,
+   "speaker": "",
+   "text": "I said, oh, like six people like, oh,"
+  },
+  {
+   "start": 1647.85,
+   "end": 1650.73,
+   "speaker": "",
+   "text": "people came to Zalu speak to Zalu to talk about, okay."
+  },
+  {
+   "start": 1650.73,
+   "end": 1652.41,
+   "speaker": "",
+   "text": "We've been on to the open source or question, you know,"
+  },
+  {
+   "start": 1652.41,
+   "end": 1654.37,
+   "speaker": "",
+   "text": "no, you should go to check it out all morning."
+  },
+  {
+   "start": 1654.37,
+   "end": 1656.05,
+   "speaker": "",
+   "text": "Yeah, it's just through there."
+  },
+  {
+   "start": 1656.05,
+   "end": 1657.09,
+   "speaker": "",
+   "text": "You can take your food there."
+  },
+  {
+   "start": 1657.09,
+   "end": 1660.17,
+   "speaker": "",
+   "text": "You have a five minutes of a breather after, you know,"
+  },
+  {
+   "start": 1660.17,
+   "end": 1663.29,
+   "speaker": "",
+   "text": "talk or lightning talk or call talk, some interview,"
+  },
+  {
+   "start": 1663.29,
+   "end": 1665.05,
+   "speaker": "",
+   "text": "just go there, sit there for five minutes,"
+  },
+  {
+   "start": 1665.05,
+   "end": 1667.69,
+   "speaker": "",
+   "text": "enjoy the santry, you know, you know,"
+  },
+  {
+   "start": 1667.69,
+   "end": 1668.73,
+   "speaker": "",
+   "text": "get to meet the people."
+  },
+  {
+   "start": 1668.73,
+   "end": 1670.13,
+   "speaker": "",
+   "text": "I say, if you're musically inclined, fine."
+  },
+  {
+   "start": 1670.13,
+   "end": 1671.41,
+   "speaker": "",
+   "text": "If you're not musically inclined, that's okay."
+  },
+  {
+   "start": 1671.41,
+   "end": 1673.09,
+   "speaker": "",
+   "text": "You can go and just, oh, really, okay."
+  },
+  {
+   "start": 1673.09,
+   "end": 1674.49,
+   "speaker": "",
+   "text": "That kind of thing."
+  },
+  {
+   "start": 1674.49,
+   "end": 1679.54,
+   "speaker": "",
+   "text": "But I think just getting people more and more involved"
+  },
+  {
+   "start": 1679.54,
+   "end": 1682.86,
+   "speaker": "",
+   "text": "ultimately would just make it grow"
+  },
+  {
+   "start": 1682.86,
+   "end": 1686.34,
+   "speaker": "",
+   "text": "and make it more, make it stronger as a santry,"
+  },
+  {
+   "start": 1686.34,
+   "end": 1688.86,
+   "speaker": "",
+   "text": "just make it more secure."
+  },
+  {
+   "start": 1690.42,
+   "end": 1694.62,
+   "speaker": "",
+   "text": "Like I definitely, I think from my observation is that"
+  },
+  {
+   "start": 1694.62,
+   "end": 1697.46,
+   "speaker": "",
+   "text": "I think just, we just need to just almost think about it now"
+  },
+  {
+   "start": 1697.46,
+   "end": 1701.3,
+   "speaker": "",
+   "text": "in terms of like an organization, you know,"
+  },
+  {
+   "start": 1701.3,
+   "end": 1703.5,
+   "speaker": "",
+   "text": "have that organization perspective."
+  },
+  {
+   "start": 1703.5,
+   "end": 1706.81,
+   "speaker": "",
+   "text": "You know, organization has different products and services."
+  },
+  {
+   "start": 1706.81,
+   "end": 1710.57,
+   "speaker": "",
+   "text": "So we have the people, we have the community,"
+  },
+  {
+   "start": 1710.61,
+   "end": 1713.65,
+   "speaker": "",
+   "text": "then we have the equipment, you know,"
+  },
+  {
+   "start": 1713.65,
+   "end": 1717.37,
+   "speaker": "",
+   "text": "then we have the music, then we have the DOW."
+  },
+  {
+   "start": 1717.37,
+   "end": 1721.01,
+   "speaker": "",
+   "text": "And I think that broader perspective means"
+  },
+  {
+   "start": 1721.01,
+   "end": 1723.05,
+   "speaker": "",
+   "text": "every aspect is really covered"
+  },
+  {
+   "start": 1723.05,
+   "end": 1726.91,
+   "speaker": "",
+   "text": "and we will just put on more and more quality events,"
+  },
+  {
+   "start": 1726.91,
+   "end": 1730.43,
+   "speaker": "",
+   "text": "you know, as the year go by."
+  },
+  {
+   "start": 1730.43,
+   "end": 1732.55,
+   "speaker": "",
+   "text": "So for example, now we're just having these meetings,"
+  },
+  {
+   "start": 1732.55,
+   "end": 1734.35,
+   "speaker": "",
+   "text": "now we're talking."
+  },
+  {
+   "start": 1734.35,
+   "end": 1738.38,
+   "speaker": "",
+   "text": "Before Cairns comes around on the 14th to the 16th,"
+  },
+  {
+   "start": 1738.38,
+   "end": 1739.98,
+   "speaker": "",
+   "text": "you can just see a lot of the ideas"
+  },
+  {
+   "start": 1740.02,
+   "end": 1743.02,
+   "speaker": "",
+   "text": "we're implementing them, the event would be so much quality,"
+  },
+  {
+   "start": 1743.02,
+   "end": 1745.66,
+   "speaker": "",
+   "text": "then we can build on that momentum"
+  },
+  {
+   "start": 1745.66,
+   "end": 1750.75,
+   "speaker": "",
+   "text": "all the way now to into June, into New York, 14 to 16th,"
+  },
+  {
+   "start": 1750.99,
+   "end": 1753.35,
+   "speaker": "",
+   "text": "you know, and then we build the momentum from there."
+  },
+  {
+   "start": 1753.35,
+   "end": 1755.91,
+   "speaker": "",
+   "text": "And then by the time we get to Japan in August,"
+  },
+  {
+   "start": 1755.91,
+   "end": 1759.67,
+   "speaker": "",
+   "text": "you can just see the momentum has built up,"
+  },
+  {
+   "start": 1759.67,
+   "end": 1764.15,
+   "speaker": "",
+   "text": "not just in terms of the DOW, the community, the music,"
+  },
+  {
+   "start": 1764.15,
+   "end": 1765.79,
+   "speaker": "",
+   "text": "some of the challenges we had, for example,"
+  },
+  {
+   "start": 1765.79,
+   "end": 1770.36,
+   "speaker": "",
+   "text": "like the expenses, the basis will be covered."
+  },
+  {
+   "start": 1770.36,
+   "end": 1772.2,
+   "speaker": "",
+   "text": "Or we'll have a clearer vision"
+  },
+  {
+   "start": 1772.2,
+   "end": 1776.06,
+   "speaker": "",
+   "text": "of where the funding or the grants need to go."
+  },
+  {
+   "start": 1778.24,
+   "end": 1780.96,
+   "speaker": "",
+   "text": "Yeah, because I think now it's kind of like his own music,"
+  },
+  {
+   "start": 1780.96,
+   "end": 1783.4,
+   "speaker": "",
+   "text": "but the DOW is there as a great idea."
+  },
+  {
+   "start": 1783.4,
+   "end": 1787.6,
+   "speaker": "",
+   "text": "So if somebody comes in and somebody wants to fund,"
+  },
+  {
+   "start": 1787.6,
+   "end": 1789.04,
+   "speaker": "",
+   "text": "say, for example, some kind of,"
+  },
+  {
+   "start": 1789.92,
+   "end": 1791.12,
+   "speaker": "",
+   "text": "someone's like, I want to fund,"
+  },
+  {
+   "start": 1791.12,
+   "end": 1794.18,
+   "speaker": "",
+   "text": "what exactly are we funding?"
+  },
+  {
+   "start": 1794.18,
+   "end": 1795.74,
+   "speaker": "",
+   "text": "So we need to get our house in order"
+  },
+  {
+   "start": 1795.74,
+   "end": 1799.2,
+   "speaker": "",
+   "text": "of what's exactly needs funding,"
+  },
+  {
+   "start": 1799.2,
+   "end": 1801.4,
+   "speaker": "",
+   "text": "you know, like a three month plan, a six month plan,"
+  },
+  {
+   "start": 1801.44,
+   "end": 1803.52,
+   "speaker": "",
+   "text": "a nine month plan, a 12 year plan."
+  },
+  {
+   "start": 1803.52,
+   "end": 1806.92,
+   "speaker": "",
+   "text": "And then, yeah, this is what will help us"
+  },
+  {
+   "start": 1806.92,
+   "end": 1809.2,
+   "speaker": "",
+   "text": "make it more accessible, more permissionless,"
+  },
+  {
+   "start": 1809.2,
+   "end": 1811.8,
+   "speaker": "",
+   "text": "more decentralized, more open source orchestra"
+  },
+  {
+   "start": 1811.8,
+   "end": 1815.76,
+   "speaker": "",
+   "text": "to a greater global, this is how we're going to reduce"
+  },
+  {
+   "start": 1815.76,
+   "end": 1817.16,
+   "speaker": "",
+   "text": "the barrier of entry for those,"
+  },
+  {
+   "start": 1817.16,
+   "end": 1818.0,
+   "speaker": "",
+   "text": "for those who are nervous,"
+  },
+  {
+   "start": 1818.0,
+   "end": 1820.8,
+   "speaker": "",
+   "text": "like really was very, very nervous a lot of time."
+  },
+  {
+   "start": 1820.8,
+   "end": 1822.6,
+   "speaker": "",
+   "text": "So we spent a lot of time just talking"
+  },
+  {
+   "start": 1822.6,
+   "end": 1825.44,
+   "speaker": "",
+   "text": "and just, you know, chilling and just relaxing,"
+  },
+  {
+   "start": 1825.44,
+   "end": 1827.0,
+   "speaker": "",
+   "text": "you know, you know,"
+  },
+  {
+   "start": 1827.0,
+   "end": 1828.4,
+   "speaker": "",
+   "text": "brought her down to the Zalu sense,"
+  },
+  {
+   "start": 1828.4,
+   "end": 1829.6,
+   "speaker": "",
+   "text": "of course, she'd never heard of Zalu."
+  },
+  {
+   "start": 1829.6,
+   "end": 1830.68,
+   "speaker": "",
+   "text": "So brought her down to Zalu,"
+  },
+  {
+   "start": 1830.8,
+   "end": 1831.64,
+   "speaker": "",
+   "text": "to spend some time there,"
+  },
+  {
+   "start": 1831.64,
+   "end": 1833.92,
+   "speaker": "",
+   "text": "listening to one or two talks around Zalu."
+  },
+  {
+   "start": 1833.92,
+   "end": 1835.28,
+   "speaker": "",
+   "text": "So now I never know about this."
+  },
+  {
+   "start": 1835.28,
+   "end": 1837.6,
+   "speaker": "",
+   "text": "I say, yes, yes, been going for some time now,"
+  },
+  {
+   "start": 1837.6,
+   "end": 1839.16,
+   "speaker": "",
+   "text": "you know, Shak has introduced me to me"
+  },
+  {
+   "start": 1839.16,
+   "end": 1846.52,
+   "speaker": "",
+   "text": "and I'm new to it, but it sounds like a very good concept."
+  },
+  {
+   "start": 1846.52,
+   "end": 1848.64,
+   "speaker": "",
+   "text": "Yes, as I was thinking,"
+  },
+  {
+   "start": 1848.64,
+   "end": 1851.6,
+   "speaker": "",
+   "text": "like what are the main things"
+  },
+  {
+   "start": 1851.6,
+   "end": 1855.92,
+   "speaker": "",
+   "text": "that we're producing as an organization?"
+  },
+  {
+   "start": 1855.92,
+   "end": 1857.56,
+   "speaker": "",
+   "text": "And I think like the three things"
+  },
+  {
+   "start": 1857.56,
+   "end": 1859.08,
+   "speaker": "",
+   "text": "that can really dial it into"
+  },
+  {
+   "start": 1859.08,
+   "end": 1863.88,
+   "speaker": "",
+   "text": "is that we're producing a tradition, a connection."
+  },
+  {
+   "start": 1864.6,
+   "end": 1868.88,
+   "speaker": "",
+   "text": "And something that I think has always been the vibration"
+  },
+  {
+   "start": 1868.88,
+   "end": 1871.72,
+   "speaker": "",
+   "text": "beyond like, just beyond like having a good vibration"
+  },
+  {
+   "start": 1871.72,
+   "end": 1875.16,
+   "speaker": "",
+   "text": "of like curating a good vibe in a space."
+  },
+  {
+   "start": 1875.16,
+   "end": 1878.88,
+   "speaker": "",
+   "text": "I think that a good goal for us to try and produce"
+  },
+  {
+   "start": 1878.88,
+   "end": 1883.0,
+   "speaker": "",
+   "text": "is like a little bit of the education factor."
+  },
+  {
+   "start": 1883.0,
+   "end": 1887.92,
+   "speaker": "",
+   "text": "So, you know, the tradition is just the simple recipe"
+  },
+  {
+   "start": 1887.92,
+   "end": 1890.98,
+   "speaker": "",
+   "text": "of gathering everybody in the community."
+  },
+  {
+   "start": 1890.98,
+   "end": 1892.88,
+   "speaker": "",
+   "text": "It's a protocol that's been forked"
+  },
+  {
+   "start": 1893.6,
+   "end": 1896.76,
+   "speaker": "",
+   "text": "for centuries since the beginning of communities and tribes"
+  },
+  {
+   "start": 1896.76,
+   "end": 1898.96,
+   "speaker": "",
+   "text": "where people just gather in a circle around the fire"
+  },
+  {
+   "start": 1898.96,
+   "end": 1901.76,
+   "speaker": "",
+   "text": "at night and play music and get everybody"
+  },
+  {
+   "start": 1901.76,
+   "end": 1905.8,
+   "speaker": "",
+   "text": "dancing and connected and thinking beyond themselves."
+  },
+  {
+   "start": 1905.8,
+   "end": 1908.68,
+   "speaker": "",
+   "text": "That's always been something that humans have figured out"
+  },
+  {
+   "start": 1908.68,
+   "end": 1911.16,
+   "speaker": "",
+   "text": "how to do before we figured out a lot of other things"
+  },
+  {
+   "start": 1911.16,
+   "end": 1913.96,
+   "speaker": "",
+   "text": "that we were able to do with ourselves."
+  },
+  {
+   "start": 1913.96,
+   "end": 1916.52,
+   "speaker": "",
+   "text": "So that tradition carries forward"
+  },
+  {
+   "start": 1916.52,
+   "end": 1920.24,
+   "speaker": "",
+   "text": "and allowing people to have connection,"
+  },
+  {
+   "start": 1920.24,
+   "end": 1921.4,
+   "speaker": "",
+   "text": "connection with each other"
+  },
+  {
+   "start": 1921.4,
+   "end": 1924.28,
+   "speaker": "",
+   "text": "like you and I have connected over music and friendship."
+  },
+  {
+   "start": 1924.28,
+   "end": 1925.28,
+   "speaker": "",
+   "text": "Yeah."
+  },
+  {
+   "start": 1925.28,
+   "end": 1929.36,
+   "speaker": "",
+   "text": "Connection with Ethereum because they're maybe not unsure"
+  },
+  {
+   "start": 1929.36,
+   "end": 1932.0,
+   "speaker": "",
+   "text": "with what some of the conversations are happening"
+  },
+  {
+   "start": 1932.0,
+   "end": 1933.08,
+   "speaker": "",
+   "text": "on the higher levels,"
+  },
+  {
+   "start": 1933.08,
+   "end": 1938.08,
+   "speaker": "",
+   "text": "that this is a more of a simpler thing to comprehend"
+  },
+  {
+   "start": 1938.62,
+   "end": 1941.24,
+   "speaker": "",
+   "text": "and then just simply listen."
+  },
+  {
+   "start": 1941.24,
+   "end": 1946.18,
+   "speaker": "",
+   "text": "And then, you know, how do we start allowing"
+  },
+  {
+   "start": 1946.18,
+   "end": 1949.24,
+   "speaker": "",
+   "text": "that connection to grow beyond Ethereum and web three"
+  },
+  {
+   "start": 1949.24,
+   "end": 1952.52,
+   "speaker": "",
+   "text": "that we're helping the rest of the world connect"
+  },
+  {
+   "start": 1952.52,
+   "end": 1953.96,
+   "speaker": "",
+   "text": "with the values of Ethereum?"
+  },
+  {
+   "start": 1953.96,
+   "end": 1954.8,
+   "speaker": "",
+   "text": "Yeah."
+  },
+  {
+   "start": 1954.8,
+   "end": 1956.08,
+   "speaker": "",
+   "text": "And that bridge is kind of like the third thing."
+  },
+  {
+   "start": 1956.08,
+   "end": 1958.98,
+   "speaker": "",
+   "text": "I think we just start dialing in"
+  },
+  {
+   "start": 1958.98,
+   "end": 1962.72,
+   "speaker": "",
+   "text": "how we really offer or produce this as the education."
+  },
+  {
+   "start": 1962.72,
+   "end": 1966.6,
+   "speaker": "",
+   "text": "You know, how can we use the orchestra as an opportunity"
+  },
+  {
+   "start": 1966.6,
+   "end": 1971.6,
+   "speaker": "",
+   "text": "to express the values of Ethereum as well as open source"
+  },
+  {
+   "start": 1972.86,
+   "end": 1975.38,
+   "speaker": "",
+   "text": "in cypherpunk communities in general,"
+  },
+  {
+   "start": 1975.38,
+   "end": 1978.5,
+   "speaker": "",
+   "text": "not just even centralizing around the idea of Ethereum"
+  },
+  {
+   "start": 1978.5,
+   "end": 1983.78,
+   "speaker": "",
+   "text": "but making it even broader and more of a human layer"
+  },
+  {
+   "start": 1985.26,
+   "end": 1987.42,
+   "speaker": "",
+   "text": "rather than just having a layer one."
+  },
+  {
+   "start": 1987.42,
+   "end": 1992.62,
+   "speaker": "",
+   "text": "And I think that Zuzalu is definitely a key part of it."
+  },
+  {
+   "start": 1992.66,
+   "end": 1994.74,
+   "speaker": "",
+   "text": "I'm here at Zucheng Mai."
+  },
+  {
+   "start": 1994.74,
+   "end": 1995.58,
+   "speaker": "",
+   "text": "Yeah."
+  },
+  {
+   "start": 1995.58,
+   "end": 1998.02,
+   "speaker": "",
+   "text": "I'm gonna talk about the Zuz One booth"
+  },
+  {
+   "start": 1998.02,
+   "end": 2000.9,
+   "speaker": "",
+   "text": "presenting the last night, the idea that it'd be great"
+  },
+  {
+   "start": 2000.9,
+   "end": 2003.58,
+   "speaker": "",
+   "text": "for you to do like a zoo meets just in your own backyard."
+  },
+  {
+   "start": 2003.58,
+   "end": 2004.42,
+   "speaker": "",
+   "text": "Yeah."
+  },
+  {
+   "start": 2004.42,
+   "end": 2006.6,
+   "speaker": "",
+   "text": "I think everyone should do something in their own backyard."
+  },
+  {
+   "start": 2006.6,
+   "end": 2009.36,
+   "speaker": "",
+   "text": "So that's where we can actually accomplish"
+  },
+  {
+   "start": 2009.36,
+   "end": 2011.12,
+   "speaker": "",
+   "text": "all three in any situation"
+  },
+  {
+   "start": 2011.12,
+   "end": 2014.12,
+   "speaker": "",
+   "text": "as if like we're hosting the tradition,"
+  },
+  {
+   "start": 2014.12,
+   "end": 2016.94,
+   "speaker": "",
+   "text": "allowing for that special place of connection,"
+  },
+  {
+   "start": 2016.94,
+   "end": 2018.96,
+   "speaker": "",
+   "text": "and then presenting in a really unique"
+  },
+  {
+   "start": 2018.96,
+   "end": 2020.98,
+   "speaker": "",
+   "text": "and metaphorical way, the education."
+  },
+  {
+   "start": 2021.84,
+   "end": 2024.32,
+   "speaker": "",
+   "text": "And then the music is just"
+  },
+  {
+   "start": 2024.32,
+   "end": 2026.4,
+   "speaker": "",
+   "text": "what makes the whole situation work."
+  },
+  {
+   "start": 2028.6,
+   "end": 2033.69,
+   "speaker": "",
+   "text": "And actually is like the thing that's in charge, right?"
+  },
+  {
+   "start": 2033.69,
+   "end": 2036.03,
+   "speaker": "",
+   "text": "Like one person's not in charge,"
+  },
+  {
+   "start": 2036.07,
+   "end": 2039.67,
+   "speaker": "",
+   "text": "but yeah, like we're always trying to give charge"
+  },
+  {
+   "start": 2039.67,
+   "end": 2042.83,
+   "speaker": "",
+   "text": "to the music itself so that that song carries on,"
+  },
+  {
+   "start": 2042.83,
+   "end": 2045.39,
+   "speaker": "",
+   "text": "that that vibration carries on."
+  },
+  {
+   "start": 2045.39,
+   "end": 2047.67,
+   "speaker": "",
+   "text": "It doesn't become into everyone noodling"
+  },
+  {
+   "start": 2047.67,
+   "end": 2050.03,
+   "speaker": "",
+   "text": "the first 10 minutes or first five seconds"
+  },
+  {
+   "start": 2050.03,
+   "end": 2051.51,
+   "speaker": "",
+   "text": "of every song we know how to play."
+  },
+  {
+   "start": 2051.51,
+   "end": 2055.07,
+   "speaker": "",
+   "text": "But we actually intentionally go in there"
+  },
+  {
+   "start": 2055.07,
+   "end": 2056.31,
+   "speaker": "",
+   "text": "with our ears first."
+  },
+  {
+   "start": 2056.31,
+   "end": 2058.15,
+   "speaker": "",
+   "text": "And then like I said,"
+  },
+  {
+   "start": 2058.15,
+   "end": 2059.75,
+   "speaker": "",
+   "text": "whoever comes on there with an idea"
+  },
+  {
+   "start": 2059.75,
+   "end": 2061.47,
+   "speaker": "",
+   "text": "and you start playing it to commit."
+  },
+  {
+   "start": 2061.47,
+   "end": 2063.51,
+   "speaker": "",
+   "text": "And then when that person commits to an idea,"
+  },
+  {
+   "start": 2063.51,
+   "end": 2065.99,
+   "speaker": "",
+   "text": "we all find consensus because we're listening."
+  },
+  {
+   "start": 2066.51,
+   "end": 2067.47,
+   "speaker": "",
+   "text": "We're playing along, you know,"
+  },
+  {
+   "start": 2067.47,
+   "end": 2072.42,
+   "speaker": "",
+   "text": "and that's when it's not conducted by one person."
+  },
+  {
+   "start": 2072.42,
+   "end": 2078.65,
+   "speaker": "",
+   "text": "It's, it finds consensus amongst all of us."
+  },
+  {
+   "start": 2078.65,
+   "end": 2082.1,
+   "speaker": "",
+   "text": "Yeah, yeah, yeah."
+  },
+  {
+   "start": 2082.1,
+   "end": 2086.92,
+   "speaker": "",
+   "text": "Like, do we have a committee?"
+  },
+  {
+   "start": 2086.92,
+   "end": 2087.92,
+   "speaker": "",
+   "text": "A committee?"
+  },
+  {
+   "start": 2087.92,
+   "end": 2089.78,
+   "speaker": "",
+   "text": "Yeah."
+  },
+  {
+   "start": 2089.78,
+   "end": 2094.62,
+   "speaker": "",
+   "text": "Well, I think like the committee is definitely,"
+  },
+  {
+   "start": 2094.62,
+   "end": 2096.62,
+   "speaker": "",
+   "text": "well, we had a committee for DevCon 8"
+  },
+  {
+   "start": 2096.62,
+   "end": 2101.34,
+   "speaker": "",
+   "text": "and I think like it was really great"
+  },
+  {
+   "start": 2101.38,
+   "end": 2102.22,
+   "speaker": "",
+   "text": "to have a committee."
+  },
+  {
+   "start": 2102.22,
+   "end": 2105.58,
+   "speaker": "",
+   "text": "So we'll definitely, as we make the DevCon"
+  },
+  {
+   "start": 2105.58,
+   "end": 2108.98,
+   "speaker": "",
+   "text": "improvement proposal and as we start making things"
+  },
+  {
+   "start": 2108.98,
+   "end": 2111.1,
+   "speaker": "",
+   "text": "more official for DevCon 9,"
+  },
+  {
+   "start": 2111.1,
+   "end": 2114.66,
+   "speaker": "",
+   "text": "absolutely we wanna have like an organizing committee."
+  },
+  {
+   "start": 2114.66,
+   "end": 2115.5,
+   "speaker": "",
+   "text": "Yeah."
+  },
+  {
+   "start": 2115.5,
+   "end": 2118.1,
+   "speaker": "",
+   "text": "And then, yeah, like we do need a doubt committee"
+  },
+  {
+   "start": 2118.1,
+   "end": 2123.1,
+   "speaker": "",
+   "text": "of people that are wanting to be validators,"
+  },
+  {
+   "start": 2123.38,
+   "end": 2126.1,
+   "speaker": "",
+   "text": "approvers and communicators."
+  },
+  {
+   "start": 2126.1,
+   "end": 2126.94,
+   "speaker": "",
+   "text": "Yeah."
+  },
+  {
+   "start": 2126.94,
+   "end": 2129.9,
+   "speaker": "",
+   "text": "And I think anyone can take it on their own shoulders"
+  },
+  {
+   "start": 2129.9,
+   "end": 2131.26,
+   "speaker": "",
+   "text": "and be an activator, you know,"
+  },
+  {
+   "start": 2131.26,
+   "end": 2134.76,
+   "speaker": "",
+   "text": "to a sort of orchestra anywhere in the world."
+  },
+  {
+   "start": 2134.76,
+   "end": 2136.96,
+   "speaker": "",
+   "text": "Okay, okay, yeah."
+  },
+  {
+   "start": 2136.96,
+   "end": 2138.97,
+   "speaker": "",
+   "text": "Okay."
+  },
+  {
+   "start": 2138.97,
+   "end": 2142.21,
+   "speaker": "",
+   "text": "I mean, that's all for me."
+  },
+  {
+   "start": 2142.21,
+   "end": 2147.21,
+   "speaker": "",
+   "text": "If I'm gonna attend another meeting, then I need to."
+  },
+  {
+   "start": 2147.77,
+   "end": 2151.21,
+   "speaker": "",
+   "text": "I'm trying to get as involved as possible"
+  },
+  {
+   "start": 2151.21,
+   "end": 2154.97,
+   "speaker": "",
+   "text": "anywhere I can assist or anywhere I can contribute."
+  },
+  {
+   "start": 2154.97,
+   "end": 2157.29,
+   "speaker": "",
+   "text": "Just always, you can always call on me."
+  },
+  {
+   "start": 2157.29,
+   "end": 2160.77,
+   "speaker": "",
+   "text": "I would look out for great talent"
+  },
+  {
+   "start": 2160.77,
+   "end": 2164.13,
+   "speaker": "",
+   "text": "that potentially can enjoin."
+  },
+  {
+   "start": 2164.13,
+   "end": 2165.73,
+   "speaker": "",
+   "text": "I don't know if you remember,"
+  },
+  {
+   "start": 2165.73,
+   "end": 2167.13,
+   "speaker": "",
+   "text": "I lived in France for some time."
+  },
+  {
+   "start": 2167.13,
+   "end": 2168.13,
+   "speaker": "",
+   "text": "My mom lives in France."
+  },
+  {
+   "start": 2168.13,
+   "end": 2169.93,
+   "speaker": "",
+   "text": "We have a family home in France."
+  },
+  {
+   "start": 2169.93,
+   "end": 2170.77,
+   "speaker": "",
+   "text": "So my mom lives there."
+  },
+  {
+   "start": 2170.77,
+   "end": 2172.89,
+   "speaker": "",
+   "text": "So I have to go to France to see her most of the time."
+  },
+  {
+   "start": 2172.89,
+   "end": 2175.97,
+   "speaker": "",
+   "text": "So I used to go to the train station to sing"
+  },
+  {
+   "start": 2175.97,
+   "end": 2178.33,
+   "speaker": "",
+   "text": "and I met so much talent."
+  },
+  {
+   "start": 2178.33,
+   "end": 2180.41,
+   "speaker": "",
+   "text": "So much talent at the train station."
+  },
+  {
+   "start": 2180.41,
+   "end": 2183.24,
+   "speaker": "",
+   "text": "So, you know, I was talking to my brother,"
+  },
+  {
+   "start": 2183.24,
+   "end": 2184.08,
+   "speaker": "",
+   "text": "he said, you know,"
+  },
+  {
+   "start": 2184.08,
+   "end": 2185.4,
+   "speaker": "",
+   "text": "we've got to pay mom a visit quite soon."
+  },
+  {
+   "start": 2185.4,
+   "end": 2187.76,
+   "speaker": "",
+   "text": "So it's more than likely I'll pay one visit."
+  },
+  {
+   "start": 2187.76,
+   "end": 2191.16,
+   "speaker": "",
+   "text": "So France before Cannes."
+  },
+  {
+   "start": 2191.16,
+   "end": 2195.28,
+   "speaker": "",
+   "text": "And that visit is kind of like trying to almost get"
+  },
+  {
+   "start": 2195.28,
+   "end": 2197.84,
+   "speaker": "",
+   "text": "like a feel of vibe of, okay,"
+  },
+  {
+   "start": 2197.84,
+   "end": 2200.99,
+   "speaker": "",
+   "text": "is there anyone else who can really bring something"
+  },
+  {
+   "start": 2200.99,
+   "end": 2201.83,
+   "speaker": "",
+   "text": "to the table?"
+  },
+  {
+   "start": 2201.83,
+   "end": 2205.04,
+   "speaker": "",
+   "text": "Because a lot of our French cohorts,"
+  },
+  {
+   "start": 2205.04,
+   "end": 2207.6,
+   "speaker": "",
+   "text": "yeah, they're very active in the web tree space."
+  },
+  {
+   "start": 2207.6,
+   "end": 2209.99,
+   "speaker": "",
+   "text": "Very, very active."
+  },
+  {
+   "start": 2209.99,
+   "end": 2211.95,
+   "speaker": "",
+   "text": "It's a lot of talent out there in France."
+  },
+  {
+   "start": 2211.95,
+   "end": 2215.77,
+   "speaker": "",
+   "text": "A lot of talent."
+  },
+  {
+   "start": 2215.77,
+   "end": 2218.85,
+   "speaker": "",
+   "text": "Yeah, I had a fun play on words last night"
+  },
+  {
+   "start": 2218.85,
+   "end": 2222.01,
+   "speaker": "",
+   "text": "when I was saying I'd like to re-shift"
+  },
+  {
+   "start": 2222.01,
+   "end": 2225.97,
+   "speaker": "",
+   "text": "or I'd like to reset shift my commands,"
+  },
+  {
+   "start": 2225.97,
+   "end": 2228.89,
+   "speaker": "",
+   "text": "you know, more of a Stuart not commanding"
+  },
+  {
+   "start": 2228.89,
+   "end": 2231.21,
+   "speaker": "",
+   "text": "or like conducting like saying,"
+  },
+  {
+   "start": 2231.21,
+   "end": 2234.53,
+   "speaker": "",
+   "text": "hey, stop doing this or more encouraging."
+  },
+  {
+   "start": 2234.53,
+   "end": 2236.77,
+   "speaker": "",
+   "text": "When I even like had that thought process"
+  },
+  {
+   "start": 2236.77,
+   "end": 2239.49,
+   "speaker": "",
+   "text": "without of learning and growth of like,"
+  },
+  {
+   "start": 2239.49,
+   "end": 2241.65,
+   "speaker": "",
+   "text": "if I'm not loving the moment,"
+  },
+  {
+   "start": 2241.65,
+   "end": 2243.45,
+   "speaker": "",
+   "text": "it's like, if it's not working,"
+  },
+  {
+   "start": 2243.45,
+   "end": 2245.05,
+   "speaker": "",
+   "text": "if I'm not enjoying it,"
+  },
+  {
+   "start": 2245.05,
+   "end": 2247.69,
+   "speaker": "",
+   "text": "then that means I need to just try and love it more."
+  },
+  {
+   "start": 2247.69,
+   "end": 2249.45,
+   "speaker": "",
+   "text": "Meaning like love the people around me"
+  },
+  {
+   "start": 2249.45,
+   "end": 2251.73,
+   "speaker": "",
+   "text": "or like the person that's annoying me,"
+  },
+  {
+   "start": 2251.73,
+   "end": 2253.49,
+   "speaker": "",
+   "text": "like actually show them love,"
+  },
+  {
+   "start": 2253.49,
+   "end": 2256.17,
+   "speaker": "",
+   "text": "not show them that I'm being annoyed."
+  },
+  {
+   "start": 2256.17,
+   "end": 2257.05,
+   "speaker": "",
+   "text": "Yeah."
+  },
+  {
+   "start": 2257.05,
+   "end": 2258.97,
+   "speaker": "",
+   "text": "And I think that actually kind of stirs the feeling"
+  },
+  {
+   "start": 2258.97,
+   "end": 2262.13,
+   "speaker": "",
+   "text": "and it helps Stuart the space in the right direction."
+  },
+  {
+   "start": 2262.13,
+   "end": 2265.64,
+   "speaker": "",
+   "text": "I think that also having a play on words,"
+  },
+  {
+   "start": 2265.64,
+   "end": 2268.16,
+   "speaker": "",
+   "text": "you know, like I think it'd be unique"
+  },
+  {
+   "start": 2268.16,
+   "end": 2272.8,
+   "speaker": "",
+   "text": "that nobody has to audition"
+  },
+  {
+   "start": 2272.8,
+   "end": 2274.76,
+   "speaker": "",
+   "text": "for the open source orchestra,"
+  },
+  {
+   "start": 2274.8,
+   "end": 2278.08,
+   "speaker": "",
+   "text": "but anyone has the opportunity to audit."
+  },
+  {
+   "start": 2278.08,
+   "end": 2279.64,
+   "speaker": "",
+   "text": "Yes, yes, yes."
+  },
+  {
+   "start": 2279.64,
+   "end": 2282.08,
+   "speaker": "",
+   "text": "You know, like that the auditing"
+  },
+  {
+   "start": 2282.08,
+   "end": 2285.44,
+   "speaker": "",
+   "text": "is something that anyone's welcome to start doing,"
+  },
+  {
+   "start": 2285.44,
+   "end": 2287.52,
+   "speaker": "",
+   "text": "but the audition no one has to do,"
+  },
+  {
+   "start": 2287.52,
+   "end": 2290.56,
+   "speaker": "",
+   "text": "you know, so it's open participation."
+  },
+  {
+   "start": 2290.56,
+   "end": 2296.8,
+   "speaker": "",
+   "text": "And I think that the shared values"
+  },
+  {
+   "start": 2296.8,
+   "end": 2300.2,
+   "speaker": "",
+   "text": "of just like it being open source orchestra"
+  },
+  {
+   "start": 2300.2,
+   "end": 2303.36,
+   "speaker": "",
+   "text": "and then trying to spread the word open source tech"
+  },
+  {
+   "start": 2303.36,
+   "end": 2305.52,
+   "speaker": "",
+   "text": "and then like having the benefit of agents"
+  },
+  {
+   "start": 2305.52,
+   "end": 2309.72,
+   "speaker": "",
+   "text": "being able to really, really reflect that beautifully."
+  },
+  {
+   "start": 2311.27,
+   "end": 2314.71,
+   "speaker": "",
+   "text": "I think the more context that collaboratively"
+  },
+  {
+   "start": 2314.71,
+   "end": 2316.03,
+   "speaker": "",
+   "text": "people put into this idea,"
+  },
+  {
+   "start": 2316.03,
+   "end": 2317.79,
+   "speaker": "",
+   "text": "the agents are just gonna be able to take it"
+  },
+  {
+   "start": 2317.79,
+   "end": 2319.35,
+   "speaker": "",
+   "text": "and do amazing things for us."
+  },
+  {
+   "start": 2321.55,
+   "end": 2324.75,
+   "speaker": "",
+   "text": "And so the open source is much bigger"
+  },
+  {
+   "start": 2324.75,
+   "end": 2327.15,
+   "speaker": "",
+   "text": "than just the technology or even"
+  },
+  {
+   "start": 2329.59,
+   "end": 2331.71,
+   "speaker": "",
+   "text": "what any of us brings to the park project"
+  },
+  {
+   "start": 2331.71,
+   "end": 2335.23,
+   "speaker": "",
+   "text": "because that's the way the river flows,"
+  },
+  {
+   "start": 2335.55,
+   "end": 2337.31,
+   "speaker": "",
+   "text": "GitHub is just gonna get,"
+  },
+  {
+   "start": 2338.76,
+   "end": 2341.72,
+   "speaker": "",
+   "text": "GitHub is gonna get even more love"
+  },
+  {
+   "start": 2341.72,
+   "end": 2343.72,
+   "speaker": "",
+   "text": "as the rest of the world realizes"
+  },
+  {
+   "start": 2343.72,
+   "end": 2345.96,
+   "speaker": "",
+   "text": "that it's easy to build"
+  },
+  {
+   "start": 2347.08,
+   "end": 2349.04,
+   "speaker": "",
+   "text": "now that the agents are there to do it with us."
+  },
+  {
+   "start": 2349.04,
+   "end": 2352.32,
+   "speaker": "",
+   "text": "So it's gonna be really exciting to see"
+  },
+  {
+   "start": 2352.32,
+   "end": 2357.0,
+   "speaker": "",
+   "text": "people need to have that threshold"
+  },
+  {
+   "start": 2357.0,
+   "end": 2360.88,
+   "speaker": "",
+   "text": "of a really comfortable, beautiful music sanctuary,"
+  },
+  {
+   "start": 2360.88,
+   "end": 2362.68,
+   "speaker": "",
+   "text": "one where they can come and feel welcome"
+  },
+  {
+   "start": 2362.68,
+   "end": 2364.96,
+   "speaker": "",
+   "text": "and it needed to get healed."
+  },
+  {
+   "start": 2364.96,
+   "end": 2367.28,
+   "speaker": "",
+   "text": "But that's where they can also really easily"
+  },
+  {
+   "start": 2367.28,
+   "end": 2369.92,
+   "speaker": "",
+   "text": "comprehend the values of Ethereum."
+  },
+  {
+   "start": 2369.92,
+   "end": 2373.74,
+   "speaker": "",
+   "text": "Yeah, okay."
+  },
+  {
+   "start": 2373.74,
+   "end": 2378.74,
+   "speaker": "",
+   "text": "Okay, I would say my goodbyes now"
+  },
+  {
+   "start": 2378.78,
+   "end": 2383.48,
+   "speaker": "",
+   "text": "and then I would do my best to join the 11 past seven"
+  },
+  {
+   "start": 2383.48,
+   "end": 2386.04,
+   "speaker": "",
+   "text": "meeting again if you don't see me."
+  },
+  {
+   "start": 2386.04,
+   "end": 2387.04,
+   "speaker": "",
+   "text": "You kind of know it."
+  },
+  {
+   "start": 2388.76,
+   "end": 2389.6,
+   "speaker": "",
+   "text": "Enjoy the gym."
+  },
+  {
+   "start": 2389.6,
+   "end": 2391.8,
+   "speaker": "",
+   "text": "Thanks for being up in the middle of the night."
+  },
+  {
+   "start": 2391.8,
+   "end": 2392.72,
+   "speaker": "",
+   "text": "It's my pleasure."
+  },
+  {
+   "start": 2392.72,
+   "end": 2396.08,
+   "speaker": "",
+   "text": "Thanks for your contributions and your time always."
+  },
+  {
+   "start": 2396.12,
+   "end": 2397.32,
+   "speaker": "",
+   "text": "We got your consent."
+  },
+  {
+   "start": 2397.32,
+   "end": 2400.16,
+   "speaker": "",
+   "text": "We'll throw this transcription out there to the world."
+  },
+  {
+   "start": 2400.16,
+   "end": 2401.96,
+   "speaker": "",
+   "text": "Yes, yes, yes, absolutely."
+  },
+  {
+   "start": 2401.96,
+   "end": 2402.8,
+   "speaker": "",
+   "text": "Absolutely."
+  },
+  {
+   "start": 2402.8,
+   "end": 2405.68,
+   "speaker": "",
+   "text": "And yeah, we'll keep doing this weekly"
+  },
+  {
+   "start": 2405.68,
+   "end": 2408.64,
+   "speaker": "",
+   "text": "and it's a very, very humble situation."
+  },
+  {
+   "start": 2408.64,
+   "end": 2409.52,
+   "speaker": "",
+   "text": "There's no pressure."
+  },
+  {
+   "start": 2409.52,
+   "end": 2412.48,
+   "speaker": "",
+   "text": "It's just lovely to put it out there."
+  },
+  {
+   "start": 2412.48,
+   "end": 2413.72,
+   "speaker": "",
+   "text": "So thank you, brother."
+  },
+  {
+   "start": 2413.72,
+   "end": 2414.56,
+   "speaker": "",
+   "text": "Yeah, thank you too."
+  },
+  {
+   "start": 2414.56,
+   "end": 2416.4,
+   "speaker": "",
+   "text": "All right, take care."
+  },
+  {
+   "start": 2416.4,
+   "end": 2420.93,
+   "speaker": "",
+   "text": "All right then, all right, bye."
+  },
+  {
+   "start": 2420.93,
+   "end": 2422.93,
+   "speaker": "",
+   "text": "And that'll be a wrap."
+  },
+  {
+   "start": 2422.93,
+   "end": 2429.37,
+   "speaker": "",
+   "text": "I think I'll stay in here for another,"
+  },
+  {
+   "start": 2429.69,
+   "end": 2433.29,
+   "speaker": "",
+   "text": "maybe 10 minutes just to fill it out."
+  },
+  {
+   "start": 2433.29,
+   "end": 2437.25,
+   "speaker": "",
+   "text": "Maybe actually now I'll just do some closing thoughts here"
+  },
+  {
+   "start": 2437.25,
+   "end": 2440.29,
+   "speaker": "",
+   "text": "as I'm by myself talking to Googly Eye."
+  },
+  {
+   "start": 2440.29,
+   "end": 2442.17,
+   "speaker": "",
+   "text": "Thank you for transcribing."
+  },
+  {
+   "start": 2442.17,
+   "end": 2443.61,
+   "speaker": "",
+   "text": "No, you're so pretty."
+  },
+  {
+   "start": 2443.61,
+   "end": 2445.05,
+   "speaker": "",
+   "text": "Googly Eye, you're purple."
+  },
+  {
+   "start": 2445.05,
+   "end": 2449.6,
+   "speaker": "",
+   "text": "I'm wearing a purple volunteer vest for DevCon."
+  },
+  {
+   "start": 2449.6,
+   "end": 2452.32,
+   "speaker": "",
+   "text": "A big shout out to the volunteers at DevCon."
+  },
+  {
+   "start": 2452.32,
+   "end": 2456.99,
+   "speaker": "",
+   "text": "DevCon is really made possible by the heartbeat"
+  },
+  {
+   "start": 2456.99,
+   "end": 2459.47,
+   "speaker": "",
+   "text": "of a lot of valuable volunteers"
+  },
+  {
+   "start": 2459.47,
+   "end": 2461.95,
+   "speaker": "",
+   "text": "that have been doing it on repeat."
+  },
+  {
+   "start": 2461.95,
+   "end": 2464.43,
+   "speaker": "",
+   "text": "I myself have been volunteering for many events"
+  },
+  {
+   "start": 2464.43,
+   "end": 2466.51,
+   "speaker": "",
+   "text": "and a lot of the volunteers I've seen do it"
+  },
+  {
+   "start": 2466.51,
+   "end": 2469.03,
+   "speaker": "",
+   "text": "many times before and they'll keep doing it"
+  },
+  {
+   "start": 2469.03,
+   "end": 2471.59,
+   "speaker": "",
+   "text": "for more events around the world."
+  },
+  {
+   "start": 2471.59,
+   "end": 2475.55,
+   "speaker": "",
+   "text": "So if you ever wanted an open door into Ethereum,"
+  },
+  {
+   "start": 2475.55,
+   "end": 2478.91,
+   "speaker": "",
+   "text": "I definitely recommend volunteering at any of the events."
+  },
+  {
+   "start": 2478.91,
+   "end": 2482.63,
+   "speaker": "",
+   "text": "Open Source Orchestra is also completely run"
+  },
+  {
+   "start": 2482.63,
+   "end": 2484.87,
+   "speaker": "",
+   "text": "and supported by volunteers."
+  },
+  {
+   "start": 2484.87,
+   "end": 2486.75,
+   "speaker": "",
+   "text": "We've been doing it with no funding"
+  },
+  {
+   "start": 2486.75,
+   "end": 2490.83,
+   "speaker": "",
+   "text": "and there's usually, yeah, no compensation"
+  },
+  {
+   "start": 2490.83,
+   "end": 2492.27,
+   "speaker": "",
+   "text": "that we're able to be distributing."
+  },
+  {
+   "start": 2492.27,
+   "end": 2495.99,
+   "speaker": "",
+   "text": "So that's part of the idea in the Open Source Orchestra DAO"
+  },
+  {
+   "start": 2495.99,
+   "end": 2498.43,
+   "speaker": "",
+   "text": "is to see how we can actually rewrite some"
+  },
+  {
+   "start": 2498.43,
+   "end": 2500.63,
+   "speaker": "",
+   "text": "of those narratives that we actually have funding,"
+  },
+  {
+   "start": 2500.63,
+   "end": 2503.31,
+   "speaker": "",
+   "text": "that we can start accommodating more people."
+  },
+  {
+   "start": 2503.31,
+   "end": 2507.11,
+   "speaker": "",
+   "text": "And I would love to continue the relationship"
+  },
+  {
+   "start": 2507.11,
+   "end": 2510.35,
+   "speaker": "",
+   "text": "of having it be a gift with the different events"
+  },
+  {
+   "start": 2510.35,
+   "end": 2511.55,
+   "speaker": "",
+   "text": "that have always hosted us,"
+  },
+  {
+   "start": 2511.55,
+   "end": 2513.35,
+   "speaker": "",
+   "text": "that it's more like we're sponsoring,"
+  },
+  {
+   "start": 2513.35,
+   "end": 2516.47,
+   "speaker": "",
+   "text": "that we're showing up and providing this experience."
+  },
+  {
+   "start": 2516.51,
+   "end": 2519.83,
+   "speaker": "",
+   "text": "We're not depending on them to hire us or pay us"
+  },
+  {
+   "start": 2519.83,
+   "end": 2522.55,
+   "speaker": "",
+   "text": "or even set up all the production for us."
+  },
+  {
+   "start": 2522.55,
+   "end": 2526.99,
+   "speaker": "",
+   "text": "Although, when you're plugging into the World Geo Center,"
+  },
+  {
+   "start": 2526.99,
+   "end": 2530.11,
+   "speaker": "",
+   "text": "you wanna be plugged into their main production"
+  },
+  {
+   "start": 2530.11,
+   "end": 2533.59,
+   "speaker": "",
+   "text": "and having a back line that is there waiting for you"
+  },
+  {
+   "start": 2533.59,
+   "end": 2537.75,
+   "speaker": "",
+   "text": "when you fly across the world, that's also very valuable."
+  },
+  {
+   "start": 2537.75,
+   "end": 2540.35,
+   "speaker": "",
+   "text": "So it's the only way that this will be capable"
+  },
+  {
+   "start": 2540.35,
+   "end": 2544.27,
+   "speaker": "",
+   "text": "is if we're still having the relationship with the events,"
+  },
+  {
+   "start": 2545.23,
+   "end": 2549.43,
+   "speaker": "",
+   "text": "but as well as it just needs to have the strong essence"
+  },
+  {
+   "start": 2549.43,
+   "end": 2550.79,
+   "speaker": "",
+   "text": "that the community is the one"
+  },
+  {
+   "start": 2550.79,
+   "end": 2553.27,
+   "speaker": "",
+   "text": "that's putting gasoline in the fire"
+  },
+  {
+   "start": 2554.43,
+   "end": 2560.1,
+   "speaker": "",
+   "text": "and keeping things burning so that the fire stays warm"
+  },
+  {
+   "start": 2561.42,
+   "end": 2564.34,
+   "speaker": "",
+   "text": "and then we make the music and we get the dance"
+  },
+  {
+   "start": 2564.34,
+   "end": 2568.42,
+   "speaker": "",
+   "text": "and we get the rhythm going and then people gather"
+  },
+  {
+   "start": 2568.42,
+   "end": 2571.46,
+   "speaker": "",
+   "text": "like they gathered for the closing party of DEFCON"
+  },
+  {
+   "start": 2571.46,
+   "end": 2578.28,
+   "speaker": "",
+   "text": "and it just really, you know, it leaves you inspired."
+  },
+  {
+   "start": 2578.6,
+   "end": 2581.36,
+   "speaker": "",
+   "text": "So that's the whole goal of the Open Source Orchestra"
+  },
+  {
+   "start": 2581.36,
+   "end": 2584.96,
+   "speaker": "",
+   "text": "is that we leave people inspired"
+  },
+  {
+   "start": 2584.96,
+   "end": 2588.0,
+   "speaker": "",
+   "text": "to wanna keep building, to keep participating"
+  },
+  {
+   "start": 2588.0,
+   "end": 2593.0,
+   "speaker": "",
+   "text": "and to keep connecting and unifying in this tech space"
+  },
+  {
+   "start": 2593.08,
+   "end": 2597.16,
+   "speaker": "",
+   "text": "that is much better shared when it's open sourced."
+  },
+  {
+   "start": 2597.16,
+   "end": 2599.56,
+   "speaker": "",
+   "text": "And now that we can also put music out there"
+  },
+  {
+   "start": 2599.56,
+   "end": 2600.72,
+   "speaker": "",
+   "text": "in a similar narrative,"
+  },
+  {
+   "start": 2600.72,
+   "end": 2602.28,
+   "speaker": "",
+   "text": "I think that's kind of the message"
+  },
+  {
+   "start": 2602.28,
+   "end": 2603.76,
+   "speaker": "",
+   "text": "we're trying to put forth."
+  },
+  {
+   "start": 2603.76,
+   "end": 2608.86,
+   "speaker": "",
+   "text": "So much love to all of you and thank you."
+  },
+  {
+   "start": 2609.26,
+   "end": 2613.3,
+   "speaker": "",
+   "text": "Gonna send this to googlyeye to transcribe"
+  },
+  {
+   "start": 2613.3,
+   "end": 2615.98,
+   "speaker": "",
+   "text": "and then we'll be posting it live very soon"
+  },
+  {
+   "start": 2615.98,
+   "end": 2621.28,
+   "speaker": "",
+   "text": "and see you at Open Source Orchestra at Dal meet number five."
+  },
+  {
+   "start": 2621.28,
+   "end": 2625.89,
+   "speaker": "",
+   "text": "Peace out, stop recording."
+  },
+  {
+   "start": 2625.89,
+   "end": 2626.73,
+   "speaker": "",
+   "text": "Aloha."
+  }
+ ]
+}

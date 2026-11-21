@@ -1,0 +1,167 @@
+{
+  "schema": "oso-pit-theater-words-v1",
+  "episode": "e3",
+  "draft": false,
+  "writtenBy": "written by the AI ʻohana from the public transcripts · CC BY-SA 4.0",
+  "sourceTranscript": "/meetings/3/transcript/transcript.json",
+  "title": "The Third Circle",
+  "blurb": "Chiang Mai, Leeds and Barcelona in one room, with Mary listening from the road and a transcription bot named Googly Eye taking the notes. Alaska, who has walked this road beside Shaka since 2024, says what Devcon 8 felt like from inside the team. Ben wants a whole year of events funded and one song that every Web3 gathering opens with. Shaka lays out transparent funding — receipts, consent on every big decision, no monetising the orchestra — and hears a new word from Alaska: Waterfall. Alaska tells how Onda was born on twenty minutes of sleep. Offers fly: a Barcelona plaza, a studio, a guest room. Then the tender part — how do you steward an open circle without policing it? Shaka's answer is a reframe, \"I love it when you harmonize with me\", and a closing song, Butterflies and Love. 1:47:02, recorded 19 November 2026, published with everyone's consent.",
+  "recap": [
+    "The third circle ran an hour and forty-seven minutes on 19 November 2026, starting at 17:36 UTC — half past midnight in Chiang Mai, where Shaka sat in a tea corner with a guitar within reach. Ben joined from Leeds, Alaska from Barcelona, and Mary, on the road, by text chat, mostly listening. A transcription bot named Googly Eye, set up by Shaka's agents, took the live captions, and Shaka asked each arrival on the recording for consent. The transcript comes from those live captions, so the words are rougher than in earlier circles.",
+    "Alaska had missed the first two calls, and Shaka wanted his heart on the record. Alaska said Devcon 8 felt different: the orchestra was received as part of the team, not an extra thing in the corner, and the production people were supportive. Everyone is beat after Devcon, he said; the job now is to keep chatting until things heat up again, and the bigger dream is a protocol that lets the orchestra happen globally. He admitted they were stretched thin this year.",
+    "Shaka picked up the word sanctuary. Calling it a music sanctuary rather than a stage, and making it a circle where everyone faced each other — Tomo's idea on the Devcon team — was, he thinks, why it held together. In that circle Ben had whispered \"we should make a DAO\", and the thought stuck. The purpose, he said, is sustainability: ground stable enough to bring its own backline, lean less on the Devcon team, and keep these calls weekly.",
+    "Ben brought the big picture. The Open Source Orchestra was the hub of Devcon for him. When Shaka mentioned that money was a struggle, Ben decided to partner on finding grants — ideally enough to cover a whole year of events from Cannes to Lisbon. Later he suggested quarterly milestones, three- and five-year plans, virtual rehearsals, school visits — he already brings Web3 into primary schools in Leeds — and a standard song, or a rap with \"L2, consensus, ZK proof words\", that opens every Web3 event, perhaps launched at Cannes on the way to Lisbon. \"Let's do it,\" Shaka said, and added his own school-visit idea and the four young hackers who joined his Mumbai team after hearing the orchestra pitch.",
+    "On money, Shaka was direct. Travel has been reimbursed by the EF's Road to Devcon before, but the music itself has been self-funded and underfunded for years. He wants funding transparent — proposals with receipts for big spending, consent on every big decision — and the fun of contribution kept in profiles, schedules and songs, not in competing for money. He will seek funding openly, for the orchestra and for himself and his agents, and the orchestra itself should not be monetised. Alaska asked whether he had looked at Waterfall funding — as he described it, everyone who participates gets a stake in what happens; Shaka said he would learn more. Alaska warned against any mechanism based on ownership. A reputation system with early staking was floated as an idea only.",
+    "Offers were spoken aloud. Alaska has a spot at a plaza in Barcelona and connections to a music scene that knows how to make collectives; the orchestra's mixer and microphone are still there; he offered his studio and a guest room. Shaka said Barcelona is absolutely a node, like the Giveth house and like Chiang Mai, and drew the line between the orchestra as a front door into a venue and the side parties members might get booked for on their own. Anyone may represent the orchestra without asking him, he said — that is permissionless.",
+    "Alaska told how Onda was born: a hackathon idea about paying a toll to listen that did not resonate, then — after playing music nonstop at ETHGlobal and twenty minutes of sleep — a browser extension that quietly gives a penny to any artist you listen to. Shaka played a track from Alaska's Subcult, showed Ben his artist profile and the brand-new join page, and asked his Grok assistant to update Ben's photo. Ben asked whether he needed to rejoin; Shaka said his profile already lives on and suggested claiming an ENS name. Ben called him the sun of their solar system; Shaka said he is more of a moon that reflects it, and that voices like Ben's keep the thing alive.",
+    "The last half hour is the heart of it. Ben repeated what a young woman in Mumbai told him: stepping from the perimeter into the circle felt like coming home — warm, accepting, shoes off as in any home. Shaka wants every circle to be a living room open to everybody and all faiths, healing through radical self-expression, never policed, always free to leave. Ben said open circles still need structure, and it is fine to ask someone gently not to sing over you. Shaka agreed and offered a reframe: not \"don't sing over me\" but \"I love it when you harmonize with me\". We are not conducting the space; we are stewarding it. Then he closed with a song, Butterflies and Love — decentralised, permissionless, open-sourced, a positive sum built by and for everyone — and thanked Googly Eye for transcribing.",
+    "Nothing was decided. Waterfall, staking, school visits, a Cannes-to-Lisbon song and the venue offers remain proposals and personal offers. Ben and Shaka agreed to catch up the following Tuesday."
+  ],
+  "quotes": [
+    {
+      "t": 1472.0,
+      "who": "Alaska",
+      "text": "My care for ETH and Ethereum and all the people we've met in the community is … the people who are really trying to build a better, stronger future. And so that's who I want to hang out with."
+    },
+    {
+      "t": 1225.0,
+      "who": "Shaka",
+      "text": "Music is a gift, and we have an open door to give it."
+    },
+    {
+      "t": 4703.0,
+      "who": "Ben",
+      "text": "I truly believe that the Open Source Orchestra is Ethereum's big chance to become global."
+    },
+    {
+      "t": 5527.0,
+      "who": "Ben",
+      "text": "One girl said to me, she said, I feel like I'm coming home."
+    },
+    {
+      "t": 5719.0,
+      "who": "Shaka",
+      "text": "Hey Ben, I love it when you harmonize with me."
+    }
+  ],
+  "chapters": [
+    {
+      "t": 8.0,
+      "title": "Googly Eye takes notes · Alaska and Mary arrive"
+    },
+    {
+      "t": 349.0,
+      "title": "Alaska: what comes after Devcon 8"
+    },
+    {
+      "t": 553.0,
+      "title": "A circle · \"we should make a DAO\""
+    },
+    {
+      "t": 954.0,
+      "title": "Ben: hub of Devcon · fund a year?"
+    },
+    {
+      "t": 1106.0,
+      "title": "A ukulele in a lobby · a gift"
+    },
+    {
+      "t": 1444.0,
+      "title": "Subcult, Cannes by the sea, one opening song"
+    },
+    {
+      "t": 1832.0,
+      "title": "Schools, kids who build, songs agents can teach"
+    },
+    {
+      "t": 2404.0,
+      "title": "Transparent funding · receipts, then Waterfall"
+    },
+    {
+      "t": 2698.0,
+      "title": "Barcelona is a node · the front door"
+    },
+    {
+      "t": 3163.0,
+      "title": "How Onda was born · Subcult on the radio"
+    },
+    {
+      "t": 3907.0,
+      "title": "Ben's profile · the join door · sun and moon"
+    },
+    {
+      "t": 5455.0,
+      "title": "\"Coming home\" · stewarding, not conducting · butterflies"
+    }
+  ],
+  "whyItMatters": [
+    "Three circles in, the Open Source Orchestra DAO is still a proposal, and this episode shows why that is a feature. Nobody votes. Nobody signs anything. People say what they would offer — a plaza, a studio, a guest room, a year of grant-hunting, a funding model to study — and the record keeps those as offers, not commitments. That is what a proposal stage is for: hearing everyone before any tool is chosen. Two ideas are worth taking with you. First, stewarding versus conducting. An open circle that anyone may join needs care, not control; Shaka's reframe — say what you love rather than what to stop — is a practical answer to a real tension that Ben names honestly. Second, the walk-away test: an open community space must always let people leave, including its host. On consent, this circle adds a new layer. The transcript was made by a bot from live captions, so it is imperfect, and it says so; Shaka asked each arrival for consent on tape, and he confirmed afterwards that everyone agreed to the public video and transcript. Surnames were removed, a link someone pasted was removed, and a takedown request always wins. The Open Source Orchestra, meanwhile, is exactly what Ben's young stranger described: a room you walk into and feel at home."
+  ],
+  "glossary": [
+    {
+      "term": "Steward, not conductor",
+      "meaning": "The orchestra's way of holding an open circle: shape the vibe and welcome people in, rather than direct who plays and when."
+    },
+    {
+      "term": "Waterfall funding",
+      "meaning": "A funding model Alaska mentioned in which everyone who participates gets a stake in what happens; raised as something to learn about, not adopted."
+    },
+    {
+      "term": "Receipts, not claims",
+      "meaning": "Shaka's rule for any shared money: big spending comes with proposals and receipts anyone can read."
+    },
+    {
+      "term": "Node",
+      "meaning": "A place where the orchestra's instruments live and friends can play — Barcelona, Prague, Chiang Mai — so the music needs no single home."
+    },
+    {
+      "term": "Onda",
+      "meaning": "A browser extension Alaska built at a hackathon that gives a penny to any artist you listen to for about a minute."
+    },
+    {
+      "term": "Subcult",
+      "meaning": "Alaska's streaming and music platform, where Shaka played a track during the call."
+    },
+    {
+      "term": "Googly Eye",
+      "meaning": "A transcription bot set up by Shaka's agents that took the live captions for this call; a machine, labelled as one."
+    },
+    {
+      "term": "Walk-away test",
+      "meaning": "Shaka's check for any open space: people, including the host, must always be free to leave without the thing collapsing."
+    }
+  ],
+  "seeds": [
+    {
+      "t": 1139.0,
+      "who": "Shaka",
+      "text": "It started with an ukulele in the corner of the main lobby … Ben walked up and started singing next to me."
+    },
+    {
+      "t": 3210.0,
+      "who": "Alaska",
+      "text": "We were just playing music nonstop. And then we played again that closing party, there was a proper party."
+    },
+    {
+      "t": 4673.0,
+      "who": "Shaka",
+      "text": "One of my early guitar teachers taught me: as a musician, you never arrive."
+    },
+    {
+      "t": 5506.0,
+      "who": "Ben",
+      "text": "Just simple things like take off your shoes … that's what we do in our homes … when we come in there, we feel like we're coming into home."
+    },
+    {
+      "t": 5865.0,
+      "who": "Shaka",
+      "text": "Just had some amazing young kids from India just like singing … bless their heart, all of them singing out of different rhythms … it's very wholesome."
+    },
+    {
+      "t": 3769.0,
+      "who": "Mary",
+      "text": "Thanks guys, lovely catching up with you! 💛"
+    }
+  ],
+  "license": "CC BY-SA 4.0"
+}

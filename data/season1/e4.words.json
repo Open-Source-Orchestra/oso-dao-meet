@@ -1,0 +1,171 @@
+{
+  "schema": "oso-pit-theater-words-v1",
+  "episode": "e4",
+  "draft": false,
+  "writtenBy": "written by the AI ʻohana from the public transcripts · CC BY-SA 4.0",
+  "sourceTranscript": "/meetings/4/transcript/transcript.json",
+  "title": "The Fourth Circle · Shaka and Ben",
+  "blurb": "The quiet one: two friends and a drill next door. At 09:39 in Chiang Mai — the middle of the night in Leeds — Shaka and Ben take the proposal series' hardest question head-on: what should the mechanism be? Shaka opens with a culture rule — nobody competes for stage time, funding or stewardship — and a line he keeps repeating: not token-based, no ownership, people own their own contributions. Ben answers that tokens give people a sense of belonging and a voice from anywhere; together they talk their way to tokens of appreciation and proof of participation that nobody can trade. Ben wants the orchestra to think like an organization — three-, six- and nine-month plans so a funder knows what they are funding. Shaka wants it to produce a tradition, a connection, an education. Nothing decided. 43:48, recorded 20 November 2026, published with both speakers' consent.",
+  "recap": [
+    "The fourth circle was the second of three calls in one week, recorded on Friday 20 November 2026 at 02:39 UTC — 09:39 in Chiang Mai, where Shaka hosted beside a construction site, and 02:39 in Leeds, where Ben had got up in the night to join. Googly Eye, the transcription bot, listened in. Shaka framed the hour in his first minute: the DAO \"is nothing more than a proposal and an idea at the moment\", and they were there to dream about how grant funding might be raised, how voting might work, and how contributions could be recognised on a consent basis. The calls are recorded and posted weekly to carry the excitement of Devcon 8 into 2027 — \"and then Devcon 9 is going to be divine.\"",
+    "Shaka's first thought was about culture before mechanism. He wants a strong culture of avoiding competition: nobody competing for stage time, nobody competing for funding, nobody competing to be the steward. The orchestra should feel like a collaboration sandbox, never a rival. On distribution he was direct — not token-based, not an ownership deal; people own their own contributions. If the circle grows, some organisation of who plays when will be needed, but the space stays shared and anyone can still walk up and play.",
+    "Ben agreed on the floor: in Mumbai people had slots, nobody seemed to be competing, and the schedule should keep core performances while leaving leeway for whoever wanders in. On the mechanism he pushed back gently: in his experience tokenisation gives people a sense of belonging and something to build up from event to event — a way for friends in India who cannot travel to Lisbon to still have a voice. The community should widen before the DAO itself is built, he said.",
+    "The middle of the call is the two of them finding a shape they both like. Shaka wondered aloud whether a token need have any monetary value at all — whether it could be a proof of receipt, a proof of contribution, a token of appreciation. Ben added proof of representation and proof of attendance — he had proudly printed out his hackathon participation NFT. From there they sketched two kinds of marker, a participation token and a token of appreciation: badges for people with a track record, which could double as consent to be counted in a vote and which an agent could read from an address. Neither wants a token anyone speculates on or trades. None of this was designed or adopted; it was two people thinking in public.",
+    "Shaka then widened the lens. If the orchestra ever gets big enough to be gamed, that is a risk for later; today it has a global community but has never made itself look like it holds value, and it is only now having its online debut by publishing these calls the same day. This feels like the moment the orchestra becomes a living, decentralised thing the community carries rather than a tradition he carries around the world. He was grateful for the Devcon team and for the locals in Mumbai who understood the space at once, singing songs from their childhood and taking off their shoes to play on the carpet. Dismantling the stage, as Mumbai did, made a sanctuary anyone could walk into — and people treated it with more respect, not less. The pit is on the floor to support something bigger — not the main act, there to uplift the values of Ethereum while the real show is the conversation.",
+    "Ben agreed it must never become a festival; across the whole of Devcon the orchestra was the only breather, and newcomers needed one. Shaka saw the orchestra as a threshold for people who are new — \"cultural guides\" who explain decentralisation in plain words, keep the music low during the day, and still book some performances so people arrive prepared, then open each set to whoever wants to join.",
+    "Ben's practical proposal: think about it like an organisation — people, community, equipment, music, the DAO — so that when someone asks \"what exactly are we funding?\" there is an answer: a three-month plan, a six-month plan, a nine-month plan, and a clearer line from Cannes in April to New York, Japan and Lisbon. Shaka answered with what the orchestra produces: a tradition (a circle around a fire), a connection (with each other, and with Ethereum for people who find the high-level talk hard), and an education offered through the music — which is what is really in charge: one person commits to an idea and everyone finds consensus by listening. Ben asked whether there is a committee; Shaka said there was one for Devcon 8 and imagines one for Devcon 9 plus a DAO committee of validators, approvers and communicators. Shaka's closing play on words: nobody has to audition for the Open Source Orchestra, but anyone is welcome to audit.",
+    "Ben confirmed on the recording that the transcript could go out to the world and left to sleep. Alone with the bot, Shaka thanked the Devcon volunteers, said the orchestra has always run on volunteers with no funding to distribute, and that the DAO idea is about changing that while keeping the relationship with events a gift — showing up as sponsors of an experience, not as hires. Nothing here is a decision. The DAO remains a proposal."
+  ],
+  "quotes": [
+    {
+      "t": 353.68,
+      "who": "Shaka",
+      "text": "A strong culture of avoiding competition. … People shouldn't be competing for stage time. People shouldn't be competing for funding."
+    },
+    {
+      "t": 640.0,
+      "who": "Ben",
+      "text": "I think tokenization always gives people a sense of belonging."
+    },
+    {
+      "t": 771.04,
+      "who": "Shaka",
+      "text": "I'm almost wondering if the token's not really to have monetary value, but significance of proof of receipt, proof of contribution, more like a token of appreciation."
+    },
+    {
+      "t": 1794.18,
+      "who": "Ben",
+      "text": "We need to get our house in order … like a three month plan, a six month plan, a nine month plan."
+    },
+    {
+      "t": 2268.16,
+      "who": "Shaka",
+      "text": "Nobody has to audition for the Open Source Orchestra, but anyone has the opportunity to audit."
+    }
+  ],
+  "chapters": [
+    {
+      "t": 22.57,
+      "title": "Meet number four · \"nothing more than a proposal\""
+    },
+    {
+      "t": 333.34,
+      "title": "A culture of avoiding competition"
+    },
+    {
+      "t": 445.06,
+      "title": "Not token-based · people own their contributions"
+    },
+    {
+      "t": 541.66,
+      "title": "Ben: slots worked, leave room for newcomers"
+    },
+    {
+      "t": 616.04,
+      "title": "Ben: tokens as belonging, a voice from anywhere"
+    },
+    {
+      "t": 758.0,
+      "title": "Tokens of appreciation, proof of participation"
+    },
+    {
+      "t": 984.03,
+      "title": "If it gets big · the online debut"
+    },
+    {
+      "t": 1098.6,
+      "title": "Mumbai: shoes off · sanctuary, not festival"
+    },
+    {
+      "t": 1362.97,
+      "title": "A threshold for newcomers · cultural guides"
+    },
+    {
+      "t": 1690.42,
+      "title": "Ben: think like an organization · plans"
+    },
+    {
+      "t": 1846.52,
+      "title": "Tradition, connection, education · music in charge"
+    },
+    {
+      "t": 2082.1,
+      "title": "A committee? · audit, not audition · closing alone"
+    }
+  ],
+  "whyItMatters": [
+    "This is the episode where the word \"token\" gets taken apart, which matters because it is the word most people hear first when they hear \"DAO\". In most DAOs a token is money-like: you buy it, hold it, trade it, and it weights your vote. Here two friends spend half an hour deciding they do not want that, and asking what else a token could be — a receipt, a thank-you, proof you were in the room, a badge that lets you be counted. That distinction, between a token of appreciation and a token of speculation, is the single most useful idea for a newcomer to take from the whole season, and it is still only an idea: no token exists, nothing was designed, and both speakers say so. Notice also the order of the conversation — culture first (no competing for stage time, funding or stewardship), then mechanism. Consent-first recording is at its simplest with two people: Shaka says at the start that the bot is transcribing and asks at the end, on tape, whether the transcript can go out to the world; Ben says yes. The Open Source Orchestra, meanwhile, describes itself here in one sentence that any new viewer can hold on to: the pit is on the floor to support something bigger than itself."
+  ],
+  "glossary": [
+    {
+      "term": "Token of appreciation",
+      "meaning": "The idea discussed here of a marker with no monetary value that says thank you for a contribution; an idea, not an existing thing."
+    },
+    {
+      "term": "Proof of attendance (POAP)",
+      "meaning": "A collectible badge that shows you were at an event; Ben's example of a token people are proud of without trading it."
+    },
+    {
+      "term": "Governance token",
+      "meaning": "In many DAOs, a tradable token that weights votes; the kind of token both speakers said they do not want."
+    },
+    {
+      "term": "Sanctuary, not festival",
+      "meaning": "Shaka's picture of the orchestra's space: on the floor, low during talks, open to walk into — never the main act or one big party."
+    },
+    {
+      "term": "Threshold",
+      "meaning": "Shaka's word for the orchestra's role as a welcoming entry point for people who find the technical talks hard."
+    },
+    {
+      "term": "Committee",
+      "meaning": "A small group that organises; one existed for Devcon 8 and both speakers imagine one for Devcon 9 and one for the DAO — proposed, not formed."
+    },
+    {
+      "term": "DIP (Devcon Improvement Proposal)",
+      "meaning": "The open proposal process through which the orchestra's space at Devcon has been requested, and would be again for Lisbon."
+    },
+    {
+      "term": "Audit, not audition",
+      "meaning": "Shaka's play on words: nobody has to audition to join, but anyone is welcome to audit — to look at the open code and ledger."
+    }
+  ],
+  "seeds": [
+    {
+      "t": 1123.58,
+      "who": "Shaka",
+      "text": "It's always really special to just set up instruments and see people like to sing their songs from their childhood."
+    },
+    {
+      "t": 1137.66,
+      "who": "Shaka",
+      "text": "Even how all the traditional musicians take off their shoes, as they play on the carpet."
+    },
+    {
+      "t": 1618.85,
+      "who": "Shaka",
+      "text": "It takes one person to commit, and then consensus for all of us to play along with it, because we're listening."
+    },
+    {
+      "t": 1893.6,
+      "who": "Shaka",
+      "text": "People just gather in a circle around the fire at night and play music and get everybody dancing and connected and thinking beyond themselves."
+    },
+    {
+      "t": 1920.24,
+      "who": "Shaka",
+      "text": "Connection with each other, like you and I have connected over music and friendship."
+    },
+    {
+      "t": 2172.89,
+      "who": "Ben",
+      "text": "I used to go to the train station to sing, and I met so much talent. So much talent at the train station."
+    },
+    {
+      "t": 2561.42,
+      "who": "Shaka",
+      "text": "We make the music and we get the dance and we get the rhythm going, and then people gather … and it just really leaves you inspired."
+    }
+  ],
+  "license": "CC BY-SA 4.0"
+}

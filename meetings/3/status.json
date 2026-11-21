@@ -33,7 +33,7 @@
     "scope": "everyone present consented to the public video and transcript; a takedown request always wins"
   },
   "recording": {
-    "status": "transcript_published_video_coming_soon",
+    "status": "published_with_consent_audio_live_film_arriving",
     "durationSeconds": 6422,
     "durationLabel": "1:47:02",
     "rawVideo": {
@@ -42,7 +42,7 @@
       "format": "Google Meet original MP4, held in the host's private Drive (not shared, not made public)",
       "status": "kept private; a public 720p encode for theater.opensourceorchestra.org is not yet published"
     },
-    "publicAudio": null,
+    "publicAudio": "https://theater.opensourceorchestra.org/oso-dao-meet-3-2026-11-19.mp3",
     "publicAudioPage": "/meetings/3/audio/",
     "publicTranscript": "/meetings/3/transcript/",
     "transcriptFormats": [
@@ -57,7 +57,11 @@
       "status": "coming_soon",
       "plannedHost": "Cloudflare R2 · theater.opensourceorchestra.org",
       "note": "The original recording is too large for this repository (1.35 GB) and remains private. It was not published via a Drive or YouTube player."
-    }
+    },
+    "publicAudioBytes": 50998063,
+    "publicAudioSha256": "3e45794790171de4c6e27af226b43834fea3cd5c8d28c0bdb9abb19235512028",
+    "publicAudioHost": "Cloudflare R2 · theater.opensourceorchestra.org",
+    "publicAudioDurationSeconds": 6374.71
   },
   "attendeeList": "the four participants named above by first name; no other attendee data",
   "privateMeetLinks": null,

@@ -1,7 +1,7 @@
 {
   "schema": "oso-dao-meet-listening-archive-v1",
   "status": "published_with_consent",
-  "updated": "2026-11-14",
+  "updated": "2026-11-21",
   "transcript": null,
   "recording": null,
   "items": [
@@ -35,6 +35,16 @@
       "captions": "/meetings/2/transcript/transcript.vtt",
       "transcript": "/meetings/2/transcript/",
       "mirror": "https://archive.org/details/oso-dao-proposal-meeting-2-2026-11-13"
+    },
+    {
+      "channel": 4,
+      "id": "meeting-3",
+      "title": "Open Source Orchestra DAO Meet #3 · 19 November 2026",
+      "status": "published_with_consent",
+      "video": "https://theater.opensourceorchestra.org/oso-dao-meet-3-2026-11-19-720p.mp4",
+      "videoStatus": "arriving",
+      "captions": "/meetings/3/transcript/transcript.vtt",
+      "home": "/meetings/3/"
     }
   ],
   "publicMeetLinks": null,
@@ -120,16 +130,37 @@
       }
     },
     "3": {
-      "title": "Open Source Orchestra DAO Meet #3",
-      "status": "transcript_published_video_coming_soon",
-      "recordedAt": "2026-11-19T17:36:51Z",
-      "consentConfirmedAt": "2026-11-20T02:33:00+07:00",
+      "status": "published_with_consent",
+      "recordingConsent": {
+        "status": "confirmed",
+        "reportedBy": "Shaka",
+        "reportedAt": "2026-11-20T02:33:00+07:00"
+      },
       "publicRecap": "/meetings/3/",
-      "publicNotes": "/meetings/3/notes/",
       "publicTranscript": "/meetings/3/transcript/",
-      "publicVideo": "coming soon",
-      "publicAudio": "coming soon",
-      "rawVideo": "kept private; a 720p re-encode is not yet hosted"
+      "publicVideo": "arriving"
+    },
+    "4": {
+      "status": "published_with_consent",
+      "recordingConsent": {
+        "status": "confirmed",
+        "reportedBy": "Shaka",
+        "reportedAt": "2026-11-21T11:50:00+07:00"
+      },
+      "publicRecap": "/meetings/4/",
+      "publicVideo": "arriving",
+      "publicTranscript": "arriving"
+    },
+    "5": {
+      "status": "published_with_consent",
+      "recordingConsent": {
+        "status": "confirmed",
+        "reportedBy": "Shaka",
+        "reportedAt": "2026-11-21T11:50:00+07:00"
+      },
+      "publicRecap": "/meetings/5/",
+      "publicVideo": "arriving",
+      "publicTranscript": "arriving"
     }
   },
   "theater": {
@@ -137,5 +168,6 @@
     "readable": "/channels/",
     "ledger": "/meetings/",
     "orderedBy": "Shaka, 2026-11-14 07:23 UTC: put every consented meeting in the projector"
-  }
+  },
+  "tv": "/watch/ · Season 1 · The Proposal Circles"
 }

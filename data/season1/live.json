@@ -1,0 +1,32 @@
+{
+  "schema": "oso-pit-theater-live-v1",
+  "updated": "2026-11-21",
+  "next": null,
+  "nextLabel": "to be announced",
+  "cadence": "The proposal circles have met when the circle was ready — five times between 12 and 20 November 2026. The next one is announced on the join page, never here first.",
+  "timezoneNote": "Times are shown in your own clock; the host speaks from Chiang Mai (UTC+7).",
+  "join": {
+    "url": "https://opensourceorchestra.org/join/",
+    "label": "Join the circle · the one public door",
+    "note": "No raw meeting link is ever published here. The join page is the only path in; no ticket, no conductor, every voice counts."
+  },
+  "record": {
+    "url": "https://publicinform.com/#consent",
+    "label": "Record your circle the same way · PIT protocol",
+    "steps": [
+      "Notetakers enter first.",
+      "Consent is asked out loud, on the recording itself.",
+      "The host hits record last; nothing is cut.",
+      "Nothing goes public until everyone has said yes and the transcript has been checked.",
+      "First names only. Takedown first, questions second."
+    ]
+  },
+  "past": [
+    { "episode": "pilot", "at": "2026-10-27T16:06:00Z" },
+    { "episode": "e1", "at": "2026-11-12T17:36:00Z" },
+    { "episode": "e2", "at": "2026-11-13T07:11:00Z" },
+    { "episode": "e3", "at": "2026-11-19T17:36:51Z" },
+    { "episode": "e4", "at": "2026-11-20T02:39:00Z" },
+    { "episode": "e5", "at": "2026-11-20T07:11:00Z" }
+  ]
+}

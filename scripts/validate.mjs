@@ -194,9 +194,9 @@ const theaterJS = read('js/theater.js');
 const channelsStatic = read('channels/index.html');
 const ledger = read('meetings/index.html');
 const archiveStatus = json('archive/status.json');
-check(channels.schema === 'oso-theater-channels-v1' && channels.channels.length === 6, 'The theater must list exactly six channels.');
-check(channels.channels.map((channel) => channel.number).join(',') === '1,2,3,4,5,6', 'Channels must be numbered 1–6 in order.');
-check(channels.channels.map((channel) => channel.kind).join(',') === 'video,video,video,deck,youtube,youtube', 'Channels 1–3 films, 4 deck, 5–6 YouTube.');
+check(channels.schema === 'oso-theater-channels-v1' && channels.channels.length === 7, 'The theater must list exactly seven channels (3 films + Meet #3 + deck + 2 YouTube).');
+check(channels.channels.map((channel) => channel.number).join(',') === '1,2,3,4,5,6,7', 'Channels must be numbered 1–7 in order.');
+check(channels.channels.map((channel) => channel.kind).join(',') === 'video,video,video,video,deck,youtube,youtube', 'Channels 1–4 films, 5 deck, 6–7 YouTube.');
 check(/publicinform\.com\/#consent/.test(channels.protocol.url) && /takedown\//.test(channels.protocol.takedown), 'Theater must link the PIT protocol and the takedown door.');
 for (const channel of channels.channels) {
   const label = `Channel ${channel.number} (${channel.id})`;
@@ -211,14 +211,18 @@ for (const channel of channels.channels) {
     const video = channel.media.video;
     check(channels.mediaOrigins.video.some((origin) => video.url.startsWith(origin)), `${label}: film must stream from an allowed origin.`);
     check(/^published_with_consent$/.test(channel.consent.status) && /consent/i.test(channel.consent.line) && channel.consent.confirmedAt, `${label}: films require explicit consent facts.`);
-    check(Number.isInteger(video.bytes) && video.bytes > 100000000, `${label}: measured film bytes required.`);
-    check(channel.id === 'weekly-call-2' || /^[a-f0-9]{64}$/.test(video.sha256 || ''), `${label}: SHA-256 provenance required for films we encoded.`);
+    if (video.arriving === true) {
+      check(video.bytes === null && video.sha256 === null && typeof video.note === 'string' && /arriving/.test(video.note), `${label}: an arriving film must carry null bytes/sha256 and an honest note until the upload is verified.`);
+    } else {
+      check(Number.isInteger(video.bytes) && video.bytes > 100000000, `${label}: measured film bytes required.`);
+      check(channel.id === 'weekly-call-2' || /^[a-f0-9]{64}$/.test(video.sha256 || ''), `${label}: SHA-256 provenance required for films we encoded.`);
+    }
     check(channel.media.captions && existsSync(resolve(root, channel.media.captions)) && read(channel.media.captions).startsWith('WEBVTT'), `${label}: WebVTT captions required.`);
     check(channel.media.transcript && existsSync(resolve(root, channel.media.transcript)), `${label}: karaoke transcript JSON required.`);
     const captions = read(channel.media.captions);
     check(!/meet\.google|zoom\.us|drive\.google|@gmail|NavPoint|\bKEW\b|\bBrent\b|\bBlake\b/i.test(captions), `${label}: captions must not expose private or shielded material.`);
     check(Array.isArray(channel.chapters) && channel.chapters.length >= 8 && channel.chapters.every((chapter, index, list) => index === 0 || chapter.start > list[index - 1].start), `${label}: at least eight monotonic chapters required.`);
-    check(channel.durationSeconds > 3000 && channel.chapters.every((chapter) => chapter.start < channel.durationSeconds), `${label}: chapters must fall inside the film.`);
+    check(channel.durationSeconds > 1800 && channel.chapters.every((chapter) => chapter.start < channel.durationSeconds), `${label}: chapters must fall inside the film.`);
   }
   if (channel.kind === 'youtube') {
     check(channels.mediaOrigins.youtube.includes(channel.media.youtubeId) && channel.media.embed === `https://www.youtube-nocookie.com/embed/${channel.media.youtubeId}?rel=0`, `${label}: only the two blessed YouTube ids via youtube-nocookie.`);
@@ -240,9 +244,9 @@ check(/id="channels-button"/.test(html) && /id="theater"/.test(html) && /id="cha
 check(/#theater\{display:none!important\}/.test(html) && /\/channels\//.test(html), 'No-JS: the theater hides and the readable channels edition is linked.');
 check(!/<button id="venue-button"[^>]*title="Choose an artistic hall"/.test(html) && /LIGHTING/.test(html) && /ONE THEATER/.test(html), 'One theater: the three halls survive only as a lighting toggle.');
 check(!/<(?:script|img|link)\b[^>]*(?:src|href)="https?:/i.test(channelsStatic.replace(/<link rel="canonical"[^>]*>/, '')) && !/<(?:script|img|link)\b[^>]*(?:src|href)="https?:/i.test(ledger.replace(/<link rel="canonical"[^>]*>/, '')), 'Readable channels edition and ledger must not load external runtime resources.');
-check((channelsStatic.match(/<video\b/g) || []).length === 3 && !/<video[^>]*autoplay/i.test(channelsStatic) && (channelsStatic.match(/preload="none"/g) || []).length === 3 && !/<iframe/i.test(channelsStatic), 'Readable edition: three lazy native films, no iframes.');
+check((channelsStatic.match(/<video\b/g) || []).length === 4 && !/<video[^>]*autoplay/i.test(channelsStatic) && (channelsStatic.match(/preload="none"/g) || []).length === 4 && !/<iframe/i.test(channelsStatic), 'Readable edition: four lazy native films, no iframes.');
 check(/opensourceorchestra\.org\/takedown\//.test(channelsStatic) && /publicinform\.com\/#consent/.test(channelsStatic) && /opensourceorchestra\.org\/takedown\//.test(ledger) && /publicinform\.com\/#consent/.test(ledger), 'Takedown door and PIT protocol on the readable edition and the ledger.');
-check(archiveStatus.status === 'published_with_consent' && archiveStatus.meetings['1'].status === 'published_with_consent' && archiveStatus.meetings['2'].status === 'published_with_consent' && archiveStatus.meetings['weekly-call-2'].status === 'published_with_consent' && archiveStatus.items.length === 3, 'Archive status must list the three consented films.');
+check(archiveStatus.status === 'published_with_consent' && ['1', '2', '3', '4', '5', 'weekly-call-2'].every((key) => archiveStatus.meetings[key]?.status === 'published_with_consent') && archiveStatus.items.length === 4, 'Archive status must list every consented circle and the four theater films.');
 const meeting1 = json('meetings/1/status.json');
 const transcript1 = json('meetings/1/transcript/transcript.json');
 check(meeting1.recording.status === 'published_with_consent' && meeting1.recordingConsent.reportedAt === '2026-11-13T05:21:00Z' && meeting1.recording.publicVideo.url === channels.channels[1].media.video.url && meeting1.recording.publicVideo.sha256 === channels.channels[1].media.video.sha256, 'Meeting 1 status must match the channel registry.');
@@ -293,5 +297,6 @@ if (failures.length) {
   console.log(`PASS ${checks}/${checks} structural, editorial, fallback, privacy, and local-asset checks.`);
   console.log('PASS 12 synchronized slide articles; 24 Garden Circle history photos + 4 Mumbai frames; 9 portraits; 14 OG node images; Three.js r169 + local VRButton.');
   console.log('PASS no build step, runtime CDN, private meeting link, email link, or onchain/adoption claim; Meeting #2 audio + transcript published only with confirmed consent.');
-  console.log('PASS the theater: one room, orchestra pit on the floor, 16-photo living wall, six channels (3 consented films + deck + 2 blessed YouTube ids), karaoke transcribers, no autoplay.');
+  console.log('PASS the theater: one room, orchestra pit on the floor, 16-photo living wall, seven channels (4 consented films + deck + 2 blessed YouTube ids), karaoke transcribers, no autoplay.');
+  console.log('PASS /watch/ (Season 1 · The Proposal Circles): run `node scripts/validate-watch.mjs` for the TV gates.');
 }

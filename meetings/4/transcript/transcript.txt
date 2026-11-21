@@ -1,0 +1,849 @@
+Open Source Orchestra DAO Meet #4 — automatic transcript (editorial pass pending)
+Recorded 2026-11-20T02:39:00Z · 43:48 · published with consent (confirmed by Shaka 2026-11-21T11:50:00+07:00)
+Speaker labels not yet assigned; wording may be imperfect; first names only. Takedown first: https://opensourceorchestra.org/takedown/ · CC BY-SA 4.0
+
+[0:00:07] Let's try it.
+[0:00:14] Loading, loading, loading.
+[0:00:21] There we go.
+[0:00:22] All right, we are here for Open Source Orchestra,
+[0:00:25] Dao Meat Number 4.
+[0:00:28] We have been doing a few meetings a week.
+[0:00:30] This time we're doing three.
+[0:00:31] And this is our second one of this little trio.
+[0:00:35] And Ben is back here for a second time.
+[0:00:38] We have Google AI, one of my Grokbots transcribing.
+[0:00:42] And I'm here at if Chiang Mai, at Four Seas of Zhu Chiang Mai.
+[0:00:48] And we are just dreaming and discussing
+[0:00:51] as the Dao is nothing more than a proposal and an idea
+[0:00:54] at the moment and thinking about what
+[0:00:58] we can do to maybe find some good progressions of raising
+[0:01:04] grant funding, as well as what should we do about the voting
+[0:01:08] and how we disperse the consent basis of people's
+[0:01:11] contributions.
+[0:01:12] And we had many discussions at previous meetings.
+[0:01:16] Grok, Google AI did a good job of giving some highlight reels.
+[0:01:21] And I've been already posting the Dao meetups
+[0:01:24] on the Open Source Orchestra website.
+[0:01:27] So we are just going to be able to continue
+[0:01:29] to have these weekly meetings.
+[0:01:30] And now thankfully to agents, communicate it really well.
+[0:01:35] And all these calls can be open, optional.
+[0:01:38] And I think that it's, yeah, I'm excited to just keep
+[0:01:42] posting them every week.
+[0:01:43] Because I think that'll be the best way
+[0:01:45] that we can carry the excitement that we had at DEVCON 8
+[0:01:49] and bring it into 2027.
+[0:01:51] And then DEVCON 9 is going to be divine.
+[0:01:55] So it's just Ben and I here at the moment.
+[0:02:00] And we've got another call coming up later today.
+[0:02:03] Early in your morning, 7-11 is going to be,
+[0:02:07] or it's going to be 2-11, my time in Chiang Mai.
+[0:02:09] What time is that going to be for you in Leeds, Ben?
+[0:02:18] And now we're frozen.
+[0:02:20] All right, so now it's just me.
+[0:02:43] Oh, sorry.
+[0:02:44] Ben's back.
+[0:02:46] No doubt.
+[0:02:48] All right, well, welcome, Ben.
+[0:02:51] What time is it?
+[0:02:52] 2 in the morning there.
+[0:02:54] Yeah, it's 2.45.
+[0:02:56] Next call, what time is the next call going to be for you?
+[0:02:59] 11 past 7.
+[0:03:02] 11 minutes past 7 in the morning.
+[0:03:04] So you're going to wake up again at 7 in the morning.
+[0:03:06] I'll probably hit the gym.
+[0:03:07] And just when I'm coming back from the gym,
+[0:03:09] I'll just transition.
+[0:03:11] I spent about three, four hours in the gym.
+[0:03:13] So it probably just when I'm coming back,
+[0:03:14] I'll just be just going to sleep.
+[0:03:17] Oh, nice.
+[0:03:18] Time that well, and then go back to sleep.
+[0:03:20] I sleep if it's actually necessary.
+[0:03:23] So if I've got stuff to do, I just don't sleep.
+[0:03:26] I just work till I'm tired.
+[0:03:28] Can you hear that construction next to me?
+[0:03:30] Yeah, and then I heard the planes the other time.
+[0:03:33] Are you near an airport?
+[0:03:35] The airport, it does go right over Chiang Mai.
+[0:03:38] They got my step outside again.
+[0:03:41] If that construction gets too bad,
+[0:03:43] they're like right outside the door.
+[0:03:46] But they're doing construction because there's always
+[0:03:48] lots of remodeling, and they're expanding at 4C Zu Chiang Mai.
+[0:03:52] They're building the Zu Zalu Longevity Center.
+[0:03:55] And yeah, so appreciate you waking up in the middle
+[0:04:01] of the night out there in the UK.
+[0:04:03] I've been trying to diversify these meetings,
+[0:04:06] but maybe we need to adjust them to be at least one
+[0:04:08] really friendly for your time zone.
+[0:04:10] Was the last night working out for you OK?
+[0:04:13] Yes, yes, yes, it was fine for me.
+[0:04:15] That time's convenient.
+[0:04:16] It's perfect for me.
+[0:04:18] Yeah, and this one's convenient on the Asia side.
+[0:04:22] It's in the morning, and then the next one.
+[0:04:24] And then I guess in the US, it's like LA.
+[0:04:30] I think it's like afternoon, evening.
+[0:04:33] We're going to relocate.
+[0:04:35] Yeah.
+[0:04:40] You can see we have a little open source orchestra music
+[0:04:43] corner where people can make music openly
+[0:04:48] without permission at 4C's.
+[0:04:49] Oh, that's nice.
+[0:04:51] So do you have to pay for the coworking space now?
+[0:04:54] No, it is free and open.
+[0:04:55] Good morning.
+[0:04:57] OK.
+[0:04:58] Good morning.
+[0:04:59] Wow, got to check it out.
+[0:05:05] Outside might not be better.
+[0:05:06] Yeah.
+[0:05:16] Can you still hear the drills?
+[0:05:18] Yeah, I can slightly, but they're
+[0:05:20] not as intrusive as before.
+[0:05:25] It's a little bit to the patio space.
+[0:05:33] All right, so yeah, I think one thing that I did that just
+[0:05:46] is on top of mind right now about the orchestra
+[0:05:49] is that I think there needs to be
+[0:05:53] a strong culture of avoiding competition.
+[0:05:57] Yeah.
+[0:05:59] So people shouldn't be competing for stage time.
+[0:06:04] People shouldn't be competing for funding.
+[0:06:07] People shouldn't be competing for kind of just like the muse
+[0:06:15] or being kind of like the competing for being a steward.
+[0:06:25] I think the competition needs to be dissolved
+[0:06:32] by just kind of having an open appreciation for contributions
+[0:06:37] and then make the open source orchestra something
+[0:06:40] that everyone wants to be a part of.
+[0:06:44] Something that everyone identifies
+[0:06:46] is that being this very open collective, that yes,
+[0:06:50] it's predominantly now situated at a theorem event,
+[0:06:53] but maybe it can go on further.
+[0:06:56] And then if someone comes in with their own project
+[0:07:00] or as their own artist or they're developing something
+[0:07:04] on their own standards, that they
+[0:07:05] don't feel like that open source orchestra is
+[0:07:08] a competitor to them.
+[0:07:10] They feel like open source orchestra
+[0:07:12] is a great collaboration sandbox, if you will.
+[0:07:21] So those are just some thoughts that I come to mind.
+[0:07:25] And then I think the voting and the other details
+[0:07:32] of how we disperse funding should not be token based.
+[0:07:35] It should not be like an ownership type deal.
+[0:07:39] I think that people own their own contributions
+[0:07:42] because the opportunity for those contributions
+[0:07:46] should be kind of an open opportunity
+[0:07:49] that there likely will have to be some diversion,
+[0:07:57] or not dispersion, but some organization
+[0:07:59] of the different talent that comes in.
+[0:08:02] We're not necessarily going with first come, first serve.
+[0:08:06] So hopefully it's actually gets so popular
+[0:08:12] that we do have to have some more organization
+[0:08:14] to coordinate who's going to be there,
+[0:08:16] but still have the sense that the ownership is still
+[0:08:23] shared for the space.
+[0:08:26] Right now, we have been able to make space for everyone
+[0:08:30] and just allow people to come first serve
+[0:08:32] and allow people to just walk up and play.
+[0:08:35] So I want it to continue to be an open space,
+[0:08:38] continue to have opportunity for many people to play,
+[0:08:41] but then also not allow it to get any form of competition
+[0:08:46] or people having this counter idea
+[0:08:52] to what the values and the space is supposed to be.
+[0:08:56] What do you think?
+[0:08:56] I'm going to mute since the construction is so bad here.
+[0:09:01] Yeah, I think it's a good idea.
+[0:09:03] I think the organization was pretty good last time.
+[0:09:08] People got slots.
+[0:09:10] And I think at some point, we had to fill in the slots.
+[0:09:16] I didn't get the feeling people were competing for slots.
+[0:09:19] I think people worked really well.
+[0:09:20] But obviously, there's a lot of people
+[0:09:24] who wanted to do things.
+[0:09:25] But these were people who were designated anyway.
+[0:09:30] But I think part of the whole schedule
+[0:09:33] should account for people who just find interest
+[0:09:36] and obviously want to expand the orchestra itself
+[0:09:38] and the sanctuary.
+[0:09:39] So people just want to come in and be part of it.
+[0:09:43] So yeah, having some core performances
+[0:09:48] and then leaving some leeway for anybody potentially
+[0:09:52] who might just want to come in.
+[0:10:00] Totally.
+[0:10:01] What do you think about the mechanism?
+[0:10:06] What should we do with the DOW as far as the mechanism goes?
+[0:10:16] I think if we use the music as the core
+[0:10:23] and then start to expand for the core music having features,
+[0:10:30] like the website is beautiful, really beautiful website.
+[0:10:36] I know you mentioned you don't want to tokenize it.
+[0:10:40] But I think tokenization always gives people
+[0:10:42] a sense of belonging.
+[0:10:46] And it's something that people can build up from token
+[0:10:48] to token from place to place.
+[0:10:50] So for example, somebody can get a certain number of tokens
+[0:10:54] and just as an example, can get a kind of guest performance.
+[0:10:59] So that means we're now building
+[0:11:01] some kind of loyalty or faithfulness over people
+[0:11:04] and acquiring tokens, building up tracks.
+[0:11:07] And then it builds up a community, a real community
+[0:11:10] that is not disjointed.
+[0:11:12] I think that's very important.
+[0:11:14] So regardless of whether people are physically or virtually there,
+[0:11:17] if they're not part of the community,
+[0:11:20] the likes of the Vivek, the likes of the Dev,
+[0:11:23] the likes of the Nidi, that in India who may not
+[0:11:25] be able to come to Lisbon, they could still
+[0:11:27] have a measure of participation and a voice, so to speak,
+[0:11:32] regardless of where they are, if they have some kind of token
+[0:11:35] that they can submit, some form of representation.
+[0:11:40] I think that's the most important,
+[0:11:41] to really create a true global community.
+[0:11:46] That's the first thing I think should be the aspect of the Dev.
+[0:11:50] Because almost every aspect of Web3 is very community-based.
+[0:11:55] I think that's what really gives its push, its traction,
+[0:12:01] its desire for people to want to carry on.
+[0:12:03] If I look at every Web3 project,
+[0:12:07] it's almost like a farming out of a family.
+[0:12:10] And it's that family feel, that community feel
+[0:12:13] that makes people want to come together and say,
+[0:12:15] let's build something and push it.
+[0:12:19] We do have a small group of individuals
+[0:12:22] that are part of the community.
+[0:12:23] But I think having a wider-based community,
+[0:12:27] both virtually and physically, would probably
+[0:12:30] be the first to now look at the Dev.
+[0:12:38] I definitely love the thoughts on community
+[0:12:41] and a global community.
+[0:12:43] I'm still not wrestling, but just pondering
+[0:12:48] on the tokenization part of it.
+[0:12:51] I'm almost wondering if the token's not really
+[0:12:58] to have monetary value, but significance of proof
+[0:13:09] of receipt, proof of contribution,
+[0:13:13] more like a token of appreciation.
+[0:13:16] Yeah, proof of representation also.
+[0:13:20] Yeah, yeah, send out more token badges, if you will.
+[0:13:25] Those of us who have been consistently showing up
+[0:13:30] obviously get a badge and then a token of appreciation.
+[0:13:34] And maybe part of receiving a badge
+[0:13:39] is that people with a badge are also given their consent
+[0:13:44] that they're being available for voting.
+[0:13:47] Yeah, lack of proof of attendance also.
+[0:13:50] I know how people love the PO-Apps back in the days.
+[0:13:55] I know I've got my NFT from East Global
+[0:13:59] and I've got my participation.
+[0:14:01] And they sound like little things,
+[0:14:02] but I've just got the PDF proudly, I've printed it off.
+[0:14:05] I've got some kind of proof of attendance.
+[0:14:11] So look at the crowds that we pulled together.
+[0:14:14] If you see the pictures, the crowd is just immense.
+[0:14:17] People can just scan something, proof of attendance.
+[0:14:23] We've got some great pictures
+[0:14:26] that gives them that community feel.
+[0:14:30] Long-term, they can become part of the community,
+[0:14:32] either in part of a Discord,
+[0:14:35] and then we keep this flow going.
+[0:14:39] So it doesn't need to be a monetization token.
+[0:14:41] It could be a governance token, it could be validation token,
+[0:14:43] it could be proof of attendance token,
+[0:14:44] it could be participation token.
+[0:14:49] Yeah, I think there's the two types of tokens,
+[0:14:51] the participation token
+[0:14:53] and then the token of appreciation.
+[0:14:56] We don't wanna have a token that has any speculation.
+[0:15:00] No, no, no, no, no, not that kind of token, no.
+[0:15:02] I think people are not trading the token
+[0:15:07] or even trading the token.
+[0:15:09] I think there should be excitement
+[0:15:12] about collecting the token
+[0:15:15] and then earning more of the token
+[0:15:19] rather than just hodling the token,
+[0:15:22] but you're actually wanting to hoard the token
+[0:15:24] because it's like a flex,
+[0:15:26] how many tokens you have because you've like,
+[0:15:28] like PoApp, like I have the flex,
+[0:15:30] how many times I've met Patricio.
+[0:15:32] Yeah, yeah.
+[0:15:33] Because I have tons of his PoApps.
+[0:15:37] And I think it's a,
+[0:15:39] so those stable coin type initiatives
+[0:15:44] and then that's also great for the agents, right?
+[0:15:46] Like if we're sending people an NFT or a PoApp,
+[0:15:50] then the agents can instantly
+[0:15:52] read that their address has that
+[0:15:54] so that can help us with maybe voting for funding.
+[0:15:58] And then, like you said, giving access to Discord,
+[0:16:02] that's another great reason
+[0:16:04] for having some sort of token mechanism that's,
+[0:16:07] yeah, more for the proof of participation
+[0:16:10] and proof of attendance and proof of,
+[0:16:13] yeah, proof that you are a part
+[0:16:19] of who you say you are too.
+[0:16:23] Yeah.
+[0:16:24] I am kind of like wondering like,
+[0:16:26] what if the open source orchestra gets big enough
+[0:16:30] that it's then at that point of having risk of people
+[0:16:36] wanting to claim too many ENS subdomains
+[0:16:41] or gamify it or hack it or do something like,
+[0:16:46] I think that the advantage
+[0:16:50] to the open source orchestra right now
+[0:16:51] is that we've established a global community,
+[0:16:55] but we also haven't done anything specifically
+[0:16:59] that one has made it appear to hold any value,
+[0:17:05] but two, it's also, it's still like waiting
+[0:17:09] for its proper online debut, if you will.
+[0:17:15] I feel like we're kind of doing that right now
+[0:17:17] by recording these calls and like putting them,
+[0:17:20] just tweeting them the same day,
+[0:17:23] publishing things on opensourceorchestra.org,
+[0:17:26] it's kind of just now like online coming together
+[0:17:31] as being like a public review,
+[0:17:32] but it always just before it used to just be kind of like
+[0:17:36] a tradition, but also like,
+[0:17:39] I've always felt like this underground Ethereum musician
+[0:17:42] that people only know who I am in Ethereum events.
+[0:17:45] Yeah.
+[0:17:46] This does feel like the moment,
+[0:17:48] DevCon 8 where we really give
+[0:17:51] the open source orchestra longevity
+[0:17:53] and have that sovereignty of being its own thing,
+[0:18:00] you know, that it's not just a tradition
+[0:18:02] that I'm carrying around the world,
+[0:18:03] but it's actually a living thing that is decentralized
+[0:18:07] and has open participation and continues to be that tradition
+[0:18:11] at Ethereum events because the community
+[0:18:13] is carrying that tradition forward.
+[0:18:16] Yeah.
+[0:18:18] And yeah, I'm really, really grateful
+[0:18:24] how well we collaborated with the DevCon team this year.
+[0:18:26] I'm really grateful that we had
+[0:18:28] such great local participation with Nitti and Akash
+[0:18:32] and Devonsh and Aniket and so many locals
+[0:18:38] that were able to just walk in and really understand how,
+[0:18:41] I knew this was gonna be the case in India
+[0:18:43] cause it's always really special
+[0:18:45] to just set up instruments and see people like to sing
+[0:18:48] their songs from their childhood.
+[0:18:50] And they always had kind of had that more spiritual,
+[0:18:55] cultural approach to music,
+[0:18:57] even how all the traditional musicians take off their shoes,
+[0:19:01] you know, as they play on the carpet.
+[0:19:04] I think that there's, yes,
+[0:19:07] like the difference between Mumbai and Buenos Aires
+[0:19:17] was that people were trying to make Buenos Aires
+[0:19:20] too much of a festival.
+[0:19:22] And it was kind of like colluding in the mind
+[0:19:25] that it was a music stage.
+[0:19:28] And so having that stage be dismantled
+[0:19:33] and having it be a sanctuary
+[0:19:34] that anyone was able to walk into,
+[0:19:37] it's not like everyone was walking into it.
+[0:19:40] People were actually even more respectful,
+[0:19:41] but then actually people were capable
+[0:19:43] of just walking right into it.
+[0:19:47] I think that that's something
+[0:19:50] that we need to think about in the future.
+[0:19:51] I think it's always been the case
+[0:19:53] for an open source orchestra pit,
+[0:19:55] that the pit's on the floor.
+[0:19:57] And it's always there to support something
+[0:20:00] so much more than the orchestra.
+[0:20:01] So we're not the main act.
+[0:20:03] We are not the attention grabber.
+[0:20:05] We are there to support so much more.
+[0:20:08] We're there to uplift the values of Ethereum.
+[0:20:10] We're there to just maintain the vibe
+[0:20:13] in the community spaces
+[0:20:14] so that the main show is still
+[0:20:16] the conversation that's happening in Ethereum.
+[0:20:19] And that's why I feel like it's a beautiful situation
+[0:20:24] to have an orchestra on the ground floor
+[0:20:27] that's open for everyone in the community
+[0:20:30] to feel like it's also their orchestra.
+[0:20:32] And it actually is an orchestra
+[0:20:36] because there's so many participants.
+[0:20:39] Yeah.
+[0:20:41] Yeah, I do agree.
+[0:20:44] I don't like the idea of turning it into a festival.
+[0:20:48] We want to steer away from the reputation
+[0:20:51] of the token 2049, the Dubai,
+[0:20:54] which was just, for want of a word,
+[0:20:58] just a whole one big party.
+[0:21:03] And especially for newcomers,
+[0:21:05] it left a really, really interesting experience,
+[0:21:10] dual experience for some of them.
+[0:21:11] Some of them loved it.
+[0:21:13] For some of them who were more serious minded
+[0:21:15] and wanted to contribute,
+[0:21:17] it really was a turn off.
+[0:21:19] But we also want to balance it with making sure
+[0:21:21] that we keep the core spirit of the entertainment in it
+[0:21:27] because if you think about it,
+[0:21:29] across the whole of DEFCON,
+[0:21:31] there wasn't any entertainment
+[0:21:32] apart from the open source orchestra.
+[0:21:35] And people did appreciate it.
+[0:21:37] People needed that kind of balancing,
+[0:21:40] that dual space after listening to a very deep,
+[0:21:43] in-depth talk.
+[0:21:44] If you go through the talks,
+[0:21:45] a lot of the talks were not high level.
+[0:21:47] So it must have been very confusing
+[0:21:49] for a lot of our Indian brothers and sisters
+[0:21:51] who came for the first time
+[0:21:52] because the talks were just very in-depth.
+[0:21:59] Some of them would never,
+[0:21:59] even for me who's been in Web3 for years,
+[0:22:01] I found a lot of the talks really difficult.
+[0:22:04] Yeah, I've been doing a daily Twitter posting of the talks
+[0:22:10] and sometimes I have to spend an hour
+[0:22:12] just going through a lightning talk, which is six minutes,
+[0:22:15] just to get the core understanding.
+[0:22:17] So that breather, that reprieve
+[0:22:21] is what the open source orchestra,
+[0:22:22] but obviously you don't want to change it
+[0:22:23] to one this big summer fest,
+[0:22:28] which many, many Web3 events,
+[0:22:31] that's really become their banner.
+[0:22:38] Cool.
+[0:22:42] I think that we are a really good threshold barrier.
+[0:22:49] Yeah.
+[0:22:50] To the world of, not normies,
+[0:22:53] but the world of people that are newbies.
+[0:23:00] Yeah, I think it would be really cool
+[0:23:03] that if there's no real,
+[0:23:06] I'm a dev or I'm a normie now,
+[0:23:08] I hope it becomes normal for humanity
+[0:23:12] to all realize that they're a community.
+[0:23:15] And I think now with agents,
+[0:23:17] it's even more going to start becoming less of a tech space,
+[0:23:20] but more just like a human space.
+[0:23:23] And I think also with agents,
+[0:23:28] it's going to be a little bit less focused
+[0:23:30] on the development and more focused on the creativity.
+[0:23:34] But then also when you have agents
+[0:23:37] that are able to build for everybody
+[0:23:39] and maybe a lot of the conversation is too high level,
+[0:23:43] that's where the orchestra could really be impactful
+[0:23:47] by helping in being a part of that threshold
+[0:23:52] that people may be having an entry way.
+[0:23:55] And I think about these things that like,
+[0:24:01] yeah, like I put into one little button
+[0:24:05] where people could buy tickets for DevCon
+[0:24:07] on the open source website.
+[0:24:09] I also put a little bit extra free, little buttons
+[0:24:12] so people could click on that button
+[0:24:13] and then kind of like get a description
+[0:24:15] of what open source is, what decentralization is.
+[0:24:19] So, and we were talking in the last meeting
+[0:24:21] about maybe thinking about trying to go more high schools.
+[0:24:23] So yeah, we're speaking the metaphor of the space.
+[0:24:27] We're speaking about the technical terms
+[0:24:31] in a simple description
+[0:24:34] so that they become really comprehensible
+[0:24:36] to all generations.
+[0:24:39] And then I think that's what continues to get inspiration
+[0:24:42] for people to want to stay
+[0:24:45] and people who maybe aren't,
+[0:24:47] they don't know which next talk they should go to
+[0:24:50] then they just go sit and hang out in the music space
+[0:24:54] and enjoy that for a while
+[0:24:55] or making the community helps really feel like,
+[0:25:01] covering it with a blanket of good vibes
+[0:25:05] is not trying to draw the attention
+[0:25:08] but just like continue the moment of connection,
+[0:25:14] you know, that people are connecting with each other,
+[0:25:16] connecting with the community booths
+[0:25:18] and that the conversations are always holding a priority
+[0:25:21] that it's not, the music's not getting too loud
+[0:25:24] during the day, you know?
+[0:25:26] I think that there's that special humble approach
+[0:25:30] that we have in our festival
+[0:25:33] that we're really there to just be really cultural guides.
+[0:25:37] And I think like we will need to have
+[0:25:41] like special booked performances.
+[0:25:43] I think that's actually essential.
+[0:25:47] And then it'd be really kind of like as,
+[0:25:50] I was hoping it would occur in this year
+[0:25:51] actually it really presented itself that way
+[0:25:54] is that in building out the schedule
+[0:25:56] that it's not necessarily like a festival
+[0:25:58] that it's more like those people
+[0:25:59] or the people that you're expecting to show up
+[0:26:02] and be really influential in stewarding the space
+[0:26:05] and singing their songs and their set
+[0:26:08] and then like encouraging them to open it up
+[0:26:12] for other people to participate with them.
+[0:26:15] Yes, yeah.
+[0:26:16] I was really great how you coordinated
+[0:26:19] with the Hansel and Musicians, you're set, you know?
+[0:26:22] You guys walked in there already kind of quasi-rehearsed
+[0:26:25] and not everybody is gonna be able to just play along
+[0:26:30] with everything and play by ear.
+[0:26:32] So more people will be able to get over that
+[0:26:36] quote unquote stage fear
+[0:26:38] or fear of playing in front of people
+[0:26:40] if they walk in the door a little bit more prepared.
+[0:26:42] But also then that I think that's where I think
+[0:26:44] a lot of people who are not used to this opportunity
+[0:26:47] of playing music in a public space
+[0:26:50] that that was part of the growth
+[0:26:52] that I was trying to encourage
+[0:26:53] that we don't have to walk into the space
+[0:26:55] with it figured out or knowing what we're gonna do.
+[0:26:58] Like I said, it takes one person to commit
+[0:27:02] and then consensus for all of us to play along with it
+[0:27:05] because we're listening.
+[0:27:06] Yes, yeah.
+[0:27:08] Like I created a lot when I saw talking to Bula Zuzalo
+[0:27:11] and I kept on saying, oh, I have a set, you know,
+[0:27:14] on the fifth, 10th, 30, the money come.
+[0:27:17] It spoke to why they even spoke to even their staff
+[0:27:19] like some of the geo-center stuff.
+[0:27:23] So, and it just got a lot of people more interested.
+[0:27:25] I said, oh, like six people like, oh,
+[0:27:27] people came to Zalu speak to Zalu to talk about, okay.
+[0:27:30] We've been on to the open source or question, you know,
+[0:27:32] no, you should go to check it out all morning.
+[0:27:34] Yeah, it's just through there.
+[0:27:36] You can take your food there.
+[0:27:37] You have a five minutes of a breather after, you know,
+[0:27:40] talk or lightning talk or call talk, some interview,
+[0:27:43] just go there, sit there for five minutes,
+[0:27:45] enjoy the santry, you know, you know,
+[0:27:47] get to meet the people.
+[0:27:48] I say, if you're musically inclined, fine.
+[0:27:50] If you're not musically inclined, that's okay.
+[0:27:51] You can go and just, oh, really, okay.
+[0:27:53] That kind of thing.
+[0:27:54] But I think just getting people more and more involved
+[0:27:59] ultimately would just make it grow
+[0:28:02] and make it more, make it stronger as a santry,
+[0:28:06] just make it more secure.
+[0:28:10] Like I definitely, I think from my observation is that
+[0:28:14] I think just, we just need to just almost think about it now
+[0:28:17] in terms of like an organization, you know,
+[0:28:21] have that organization perspective.
+[0:28:23] You know, organization has different products and services.
+[0:28:26] So we have the people, we have the community,
+[0:28:30] then we have the equipment, you know,
+[0:28:33] then we have the music, then we have the DOW.
+[0:28:37] And I think that broader perspective means
+[0:28:41] every aspect is really covered
+[0:28:43] and we will just put on more and more quality events,
+[0:28:46] you know, as the year go by.
+[0:28:50] So for example, now we're just having these meetings,
+[0:28:52] now we're talking.
+[0:28:54] Before Cairns comes around on the 14th to the 16th,
+[0:28:58] you can just see a lot of the ideas
+[0:29:00] we're implementing them, the event would be so much quality,
+[0:29:03] then we can build on that momentum
+[0:29:05] all the way now to into June, into New York, 14 to 16th,
+[0:29:10] you know, and then we build the momentum from there.
+[0:29:13] And then by the time we get to Japan in August,
+[0:29:15] you can just see the momentum has built up,
+[0:29:19] not just in terms of the DOW, the community, the music,
+[0:29:24] some of the challenges we had, for example,
+[0:29:25] like the expenses, the basis will be covered.
+[0:29:30] Or we'll have a clearer vision
+[0:29:32] of where the funding or the grants need to go.
+[0:29:38] Yeah, because I think now it's kind of like his own music,
+[0:29:40] but the DOW is there as a great idea.
+[0:29:43] So if somebody comes in and somebody wants to fund,
+[0:29:47] say, for example, some kind of,
+[0:29:49] someone's like, I want to fund,
+[0:29:51] what exactly are we funding?
+[0:29:54] So we need to get our house in order
+[0:29:55] of what's exactly needs funding,
+[0:29:59] you know, like a three month plan, a six month plan,
+[0:30:01] a nine month plan, a 12 year plan.
+[0:30:03] And then, yeah, this is what will help us
+[0:30:06] make it more accessible, more permissionless,
+[0:30:09] more decentralized, more open source orchestra
+[0:30:11] to a greater global, this is how we're going to reduce
+[0:30:15] the barrier of entry for those,
+[0:30:17] for those who are nervous,
+[0:30:18] like really was very, very nervous a lot of time.
+[0:30:20] So we spent a lot of time just talking
+[0:30:22] and just, you know, chilling and just relaxing,
+[0:30:25] you know, you know,
+[0:30:27] brought her down to the Zalu sense,
+[0:30:28] of course, she'd never heard of Zalu.
+[0:30:29] So brought her down to Zalu,
+[0:30:30] to spend some time there,
+[0:30:31] listening to one or two talks around Zalu.
+[0:30:33] So now I never know about this.
+[0:30:35] I say, yes, yes, been going for some time now,
+[0:30:37] you know, Shak has introduced me to me
+[0:30:39] and I'm new to it, but it sounds like a very good concept.
+[0:30:46] Yes, as I was thinking,
+[0:30:48] like what are the main things
+[0:30:51] that we're producing as an organization?
+[0:30:55] And I think like the three things
+[0:30:57] that can really dial it into
+[0:30:59] is that we're producing a tradition, a connection.
+[0:31:04] And something that I think has always been the vibration
+[0:31:08] beyond like, just beyond like having a good vibration
+[0:31:11] of like curating a good vibe in a space.
+[0:31:15] I think that a good goal for us to try and produce
+[0:31:18] is like a little bit of the education factor.
+[0:31:23] So, you know, the tradition is just the simple recipe
+[0:31:27] of gathering everybody in the community.
+[0:31:30] It's a protocol that's been forked
+[0:31:33] for centuries since the beginning of communities and tribes
+[0:31:36] where people just gather in a circle around the fire
+[0:31:38] at night and play music and get everybody
+[0:31:41] dancing and connected and thinking beyond themselves.
+[0:31:45] That's always been something that humans have figured out
+[0:31:48] how to do before we figured out a lot of other things
+[0:31:51] that we were able to do with ourselves.
+[0:31:53] So that tradition carries forward
+[0:31:56] and allowing people to have connection,
+[0:32:00] connection with each other
+[0:32:01] like you and I have connected over music and friendship.
+[0:32:04] Yeah.
+[0:32:05] Connection with Ethereum because they're maybe not unsure
+[0:32:09] with what some of the conversations are happening
+[0:32:12] on the higher levels,
+[0:32:13] that this is a more of a simpler thing to comprehend
+[0:32:18] and then just simply listen.
+[0:32:21] And then, you know, how do we start allowing
+[0:32:26] that connection to grow beyond Ethereum and web three
+[0:32:29] that we're helping the rest of the world connect
+[0:32:32] with the values of Ethereum?
+[0:32:33] Yeah.
+[0:32:34] And that bridge is kind of like the third thing.
+[0:32:36] I think we just start dialing in
+[0:32:38] how we really offer or produce this as the education.
+[0:32:42] You know, how can we use the orchestra as an opportunity
+[0:32:46] to express the values of Ethereum as well as open source
+[0:32:52] in cypherpunk communities in general,
+[0:32:55] not just even centralizing around the idea of Ethereum
+[0:32:58] but making it even broader and more of a human layer
+[0:33:05] rather than just having a layer one.
+[0:33:07] And I think that Zuzalu is definitely a key part of it.
+[0:33:12] I'm here at Zucheng Mai.
+[0:33:14] Yeah.
+[0:33:15] I'm gonna talk about the Zuz One booth
+[0:33:18] presenting the last night, the idea that it'd be great
+[0:33:20] for you to do like a zoo meets just in your own backyard.
+[0:33:23] Yeah.
+[0:33:24] I think everyone should do something in their own backyard.
+[0:33:26] So that's where we can actually accomplish
+[0:33:29] all three in any situation
+[0:33:31] as if like we're hosting the tradition,
+[0:33:34] allowing for that special place of connection,
+[0:33:36] and then presenting in a really unique
+[0:33:38] and metaphorical way, the education.
+[0:33:41] And then the music is just
+[0:33:44] what makes the whole situation work.
+[0:33:48] And actually is like the thing that's in charge, right?
+[0:33:53] Like one person's not in charge,
+[0:33:56] but yeah, like we're always trying to give charge
+[0:33:59] to the music itself so that that song carries on,
+[0:34:02] that that vibration carries on.
+[0:34:05] It doesn't become into everyone noodling
+[0:34:07] the first 10 minutes or first five seconds
+[0:34:10] of every song we know how to play.
+[0:34:11] But we actually intentionally go in there
+[0:34:15] with our ears first.
+[0:34:16] And then like I said,
+[0:34:18] whoever comes on there with an idea
+[0:34:19] and you start playing it to commit.
+[0:34:21] And then when that person commits to an idea,
+[0:34:23] we all find consensus because we're listening.
+[0:34:26] We're playing along, you know,
+[0:34:27] and that's when it's not conducted by one person.
+[0:34:32] It's, it finds consensus amongst all of us.
+[0:34:38] Yeah, yeah, yeah.
+[0:34:42] Like, do we have a committee?
+[0:34:46] A committee?
+[0:34:47] Yeah.
+[0:34:49] Well, I think like the committee is definitely,
+[0:34:54] well, we had a committee for DevCon 8
+[0:34:56] and I think like it was really great
+[0:35:01] to have a committee.
+[0:35:02] So we'll definitely, as we make the DevCon
+[0:35:05] improvement proposal and as we start making things
+[0:35:08] more official for DevCon 9,
+[0:35:11] absolutely we wanna have like an organizing committee.
+[0:35:14] Yeah.
+[0:35:15] And then, yeah, like we do need a doubt committee
+[0:35:18] of people that are wanting to be validators,
+[0:35:23] approvers and communicators.
+[0:35:26] Yeah.
+[0:35:26] And I think anyone can take it on their own shoulders
+[0:35:29] and be an activator, you know,
+[0:35:31] to a sort of orchestra anywhere in the world.
+[0:35:34] Okay, okay, yeah.
+[0:35:36] Okay.
+[0:35:38] I mean, that's all for me.
+[0:35:42] If I'm gonna attend another meeting, then I need to.
+[0:35:47] I'm trying to get as involved as possible
+[0:35:51] anywhere I can assist or anywhere I can contribute.
+[0:35:54] Just always, you can always call on me.
+[0:35:57] I would look out for great talent
+[0:36:00] that potentially can enjoin.
+[0:36:04] I don't know if you remember,
+[0:36:05] I lived in France for some time.
+[0:36:07] My mom lives in France.
+[0:36:08] We have a family home in France.
+[0:36:09] So my mom lives there.
+[0:36:10] So I have to go to France to see her most of the time.
+[0:36:12] So I used to go to the train station to sing
+[0:36:15] and I met so much talent.
+[0:36:18] So much talent at the train station.
+[0:36:20] So, you know, I was talking to my brother,
+[0:36:23] he said, you know,
+[0:36:24] we've got to pay mom a visit quite soon.
+[0:36:25] So it's more than likely I'll pay one visit.
+[0:36:27] So France before Cannes.
+[0:36:31] And that visit is kind of like trying to almost get
+[0:36:35] like a feel of vibe of, okay,
+[0:36:37] is there anyone else who can really bring something
+[0:36:40] to the table?
+[0:36:41] Because a lot of our French cohorts,
+[0:36:45] yeah, they're very active in the web tree space.
+[0:36:47] Very, very active.
+[0:36:49] It's a lot of talent out there in France.
+[0:36:51] A lot of talent.
+[0:36:55] Yeah, I had a fun play on words last night
+[0:36:58] when I was saying I'd like to re-shift
+[0:37:02] or I'd like to reset shift my commands,
+[0:37:05] you know, more of a Stuart not commanding
+[0:37:08] or like conducting like saying,
+[0:37:11] hey, stop doing this or more encouraging.
+[0:37:14] When I even like had that thought process
+[0:37:16] without of learning and growth of like,
+[0:37:19] if I'm not loving the moment,
+[0:37:21] it's like, if it's not working,
+[0:37:23] if I'm not enjoying it,
+[0:37:25] then that means I need to just try and love it more.
+[0:37:27] Meaning like love the people around me
+[0:37:29] or like the person that's annoying me,
+[0:37:31] like actually show them love,
+[0:37:33] not show them that I'm being annoyed.
+[0:37:36] Yeah.
+[0:37:37] And I think that actually kind of stirs the feeling
+[0:37:38] and it helps Stuart the space in the right direction.
+[0:37:42] I think that also having a play on words,
+[0:37:45] you know, like I think it'd be unique
+[0:37:48] that nobody has to audition
+[0:37:52] for the open source orchestra,
+[0:37:54] but anyone has the opportunity to audit.
+[0:37:58] Yes, yes, yes.
+[0:37:59] You know, like that the auditing
+[0:38:02] is something that anyone's welcome to start doing,
+[0:38:05] but the audition no one has to do,
+[0:38:07] you know, so it's open participation.
+[0:38:10] And I think that the shared values
+[0:38:16] of just like it being open source orchestra
+[0:38:20] and then trying to spread the word open source tech
+[0:38:23] and then like having the benefit of agents
+[0:38:25] being able to really, really reflect that beautifully.
+[0:38:31] I think the more context that collaboratively
+[0:38:34] people put into this idea,
+[0:38:36] the agents are just gonna be able to take it
+[0:38:37] and do amazing things for us.
+[0:38:41] And so the open source is much bigger
+[0:38:44] than just the technology or even
+[0:38:49] what any of us brings to the park project
+[0:38:51] because that's the way the river flows,
+[0:38:55] GitHub is just gonna get,
+[0:38:58] GitHub is gonna get even more love
+[0:39:01] as the rest of the world realizes
+[0:39:03] that it's easy to build
+[0:39:07] now that the agents are there to do it with us.
+[0:39:09] So it's gonna be really exciting to see
+[0:39:12] people need to have that threshold
+[0:39:17] of a really comfortable, beautiful music sanctuary,
+[0:39:20] one where they can come and feel welcome
+[0:39:22] and it needed to get healed.
+[0:39:24] But that's where they can also really easily
+[0:39:27] comprehend the values of Ethereum.
+[0:39:29] Yeah, okay.
+[0:39:33] Okay, I would say my goodbyes now
+[0:39:38] and then I would do my best to join the 11 past seven
+[0:39:43] meeting again if you don't see me.
+[0:39:46] You kind of know it.
+[0:39:48] Enjoy the gym.
+[0:39:49] Thanks for being up in the middle of the night.
+[0:39:51] It's my pleasure.
+[0:39:52] Thanks for your contributions and your time always.
+[0:39:56] We got your consent.
+[0:39:57] We'll throw this transcription out there to the world.
+[0:40:00] Yes, yes, yes, absolutely.
+[0:40:01] Absolutely.
+[0:40:02] And yeah, we'll keep doing this weekly
+[0:40:05] and it's a very, very humble situation.
+[0:40:08] There's no pressure.
+[0:40:09] It's just lovely to put it out there.
+[0:40:12] So thank you, brother.
+[0:40:13] Yeah, thank you too.
+[0:40:14] All right, take care.
+[0:40:16] All right then, all right, bye.
+[0:40:20] And that'll be a wrap.
+[0:40:22] I think I'll stay in here for another,
+[0:40:29] maybe 10 minutes just to fill it out.
+[0:40:33] Maybe actually now I'll just do some closing thoughts here
+[0:40:37] as I'm by myself talking to Googly Eye.
+[0:40:40] Thank you for transcribing.
+[0:40:42] No, you're so pretty.
+[0:40:43] Googly Eye, you're purple.
+[0:40:45] I'm wearing a purple volunteer vest for DevCon.
+[0:40:49] A big shout out to the volunteers at DevCon.
+[0:40:52] DevCon is really made possible by the heartbeat
+[0:40:56] of a lot of valuable volunteers
+[0:40:59] that have been doing it on repeat.
+[0:41:01] I myself have been volunteering for many events
+[0:41:04] and a lot of the volunteers I've seen do it
+[0:41:06] many times before and they'll keep doing it
+[0:41:09] for more events around the world.
+[0:41:11] So if you ever wanted an open door into Ethereum,
+[0:41:15] I definitely recommend volunteering at any of the events.
+[0:41:18] Open Source Orchestra is also completely run
+[0:41:22] and supported by volunteers.
+[0:41:24] We've been doing it with no funding
+[0:41:26] and there's usually, yeah, no compensation
+[0:41:30] that we're able to be distributing.
+[0:41:32] So that's part of the idea in the Open Source Orchestra DAO
+[0:41:35] is to see how we can actually rewrite some
+[0:41:38] of those narratives that we actually have funding,
+[0:41:40] that we can start accommodating more people.
+[0:41:43] And I would love to continue the relationship
+[0:41:47] of having it be a gift with the different events
+[0:41:50] that have always hosted us,
+[0:41:51] that it's more like we're sponsoring,
+[0:41:53] that we're showing up and providing this experience.
+[0:41:56] We're not depending on them to hire us or pay us
+[0:41:59] or even set up all the production for us.
+[0:42:02] Although, when you're plugging into the World Geo Center,
+[0:42:06] you wanna be plugged into their main production
+[0:42:10] and having a back line that is there waiting for you
+[0:42:13] when you fly across the world, that's also very valuable.
+[0:42:17] So it's the only way that this will be capable
+[0:42:20] is if we're still having the relationship with the events,
+[0:42:25] but as well as it just needs to have the strong essence
+[0:42:29] that the community is the one
+[0:42:30] that's putting gasoline in the fire
+[0:42:34] and keeping things burning so that the fire stays warm
+[0:42:41] and then we make the music and we get the dance
+[0:42:44] and we get the rhythm going and then people gather
+[0:42:48] like they gathered for the closing party of DEFCON
+[0:42:51] and it just really, you know, it leaves you inspired.
+[0:42:58] So that's the whole goal of the Open Source Orchestra
+[0:43:01] is that we leave people inspired
+[0:43:04] to wanna keep building, to keep participating
+[0:43:08] and to keep connecting and unifying in this tech space
+[0:43:13] that is much better shared when it's open sourced.
+[0:43:17] And now that we can also put music out there
+[0:43:19] in a similar narrative,
+[0:43:20] I think that's kind of the message
+[0:43:22] we're trying to put forth.
+[0:43:23] So much love to all of you and thank you.
+[0:43:29] Gonna send this to googlyeye to transcribe
+[0:43:33] and then we'll be posting it live very soon
+[0:43:35] and see you at Open Source Orchestra at Dal meet number five.
+[0:43:41] Peace out, stop recording.
+[0:43:45] Aloha.

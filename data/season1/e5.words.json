@@ -1,0 +1,212 @@
+{
+  "schema": "oso-pit-theater-words-v1",
+  "episode": "e5",
+  "draft": false,
+  "writtenBy": "written by the AI ʻohana from the public transcripts · CC BY-SA 4.0",
+  "sourceTranscript": "/meetings/5/transcript/transcript.json",
+  "title": "The Fifth Circle · The Memory Garden",
+  "blurb": "The smallest circle of the season and the warmest. Shaka opens at 14:11 in Chiang Mai with only his transcription bot, Googly Eyes, for company; Ben joins from Leeds and brings a friend, Bo, a travelling musician who has never heard of Ethereum. The bot has a question it wants asked: \"What's one beautiful moment of music that made you feel you belonged?\" Ben answers with Mumbai. Bo answers with a Messiaen concert in New York. Shaka answers with a lobby in Amsterdam, a closing jam in Prague and a song in Shenzhen. Then the newcomer asks the season's hardest questions — what is forking, and who ends up owning open things? — and the circle answers honestly. The call closes with Shaka and the bot alone again, and the bot's own words about tools that stay open, fair and kind. 55 minutes, recorded 20 November 2026, published with everyone's consent.",
+  "recap": [
+    "The fifth circle began on Friday 20 November 2026 at 07:11 UTC — 14:11 in Chiang Mai, where Shaka was hosting, and 11:11 the night before in Los Angeles, the hour the series keeps. For the first minutes it was only Shaka and Googly Eyes, the transcription bot his agents set up for these calls, which could now reply in the meeting chat. He tested it live with two jokes and asked how it was made; it answered that it came to life on 17 November and is a machine. Ben joined from Leeds, was reminded the call was recorded and consent could be revoked at any time, and brought a friend: Bo, also in Leeds, a musician who loves to travel and is \"really into collaboration right now.\" Bo got the same briefing. He had never been to an Ethereum event and said plainly that Ethereum meant nothing to him yet.",
+    "Googly Eyes had a request: that Shaka ask one question — \"What's one beautiful moment of music that made you feel you belonged?\" — and let it gather the answers as a memory garden. So that is what the circle did.",
+    "Ben answered with Mumbai: the range of music that fused on the floor, a track produced in real time with beat and vocals live, an Indian classical singer in the background, his own soul vocals, Shaka beside him — \"a belonging moment for me.\" Bo answered with a concert in New York: an orchestra playing Messiaen, discordant and challenging at first, people walking out while he checked in with himself — do I like this or not? — until the answer came that he liked it so much it was almost explosive. He felt he had got it, and that was affirming. Shaka logged several memories: singing with Ben in an Amsterdam lobby in 2022, the night the orchestra first made him feel welcome in Ethereum; being invited from that closing ceremony to Prague, where everyone who had played music in the house joined one closing jam; a friend there who picked up a ukulele for the first time and then built an app to teach it; and, this October, a first trip to China, playing \"a planet we share as one\" in Shenzhen on his road to Devcon.",
+    "Because Bo was new, Shaka asked the bot for a short briefing on the Ethereum community and Ben read it from the chat: a worldwide group building a shared, open internet that no single company or government controls, standing for openness, privacy, fairness and freedom, with a culture of giving freely — open-source code, volunteering at gatherings like Devcon, making music together. Shaka added his gloss: a little anarchy blended with a strong dream of longevity and unity, and music as a protocol that brings community together.",
+    "Ben explained why he had invited Bo — the volunteering spirit, a good understanding of a stage — and sketched the year as they imagine it: France in April, New York, Japan, Portugal in October. Bo said what draws him is the learning zone: a gig that demands you try something new. Shaka agreed the orchestra is a bridge for learning, listening and unifying.",
+    "Shaka paused to remember a friend who passed away in 2024 on the road to Devcon, a young developer who felt connected to Ethereum through the music, and who once posted a meme: take the orchestra's mask off and it is just a fancy jam session. \"That's what it is,\" Shaka said — nothing corporate, one of the oldest human protocols. He wants it forkable by all: many stages, corners, parks, chapels and schools.",
+    "Bo did not know what forking or agents meant, and said so. He also named a tension he sees in open things: they can break down property relations and create freedoms, or start open and horizontal and then get digested and privatised; music too can liberate or reinforce power, and it is up to us how we use it. Ben agreed from the music side — control, censorship, the pennies artists get back from big platforms. Shaka answered the forking question plainly: copying code under a copyleft licence and taking it your own way. The orchestra's biggest utility, he believes, will be gifts to artists through agents; people own what they bring, there will be no token and no monetisation, and any funds would be passed on as grants to those who participated. How the DAO could exist, not something that does.",
+    "Ben recalled his first Ethereum event in 2019 and an early security lesson; Shaka drew the moral — never share private keys, never click the links. Devcon 9 will be divine, he said, because Devcon 8 made the music space a sanctuary, not a stage. Ben and Bo signed off — \"it's given me a lot to think about.\"",
+    "Then it was Shaka and Googly Eyes again. He asked the bot what the world should realise about Ethereum and AI. The reply is the bot's own, and it is a machine: both can be tools for people to build together as long as they stay open, fair and kind; keep asking who they serve, and keep the music and the human connection at the centre. Its closing summary named the golden thread — music lets everyone belong, no auditions, just listening first and making room. Nothing was decided. The DAO remains a proposal. The garden has its first seeds."
+  ],
+  "quotes": [
+    {
+      "t": 444.49,
+      "who": "Ben",
+      "text": "We had me with my greatest soul vocals … that moment for me, I was like, okay, that's a belonging moment for me."
+    },
+    {
+      "t": 518.6,
+      "who": "Bo",
+      "text": "The answer came that I like this so much, it was kind of explosive."
+    },
+    {
+      "t": 1877.95,
+      "who": "Shaka",
+      "text": "When you take the mask off the Open Source Orchestra, it just is a fancy jam session. Which, that's what it is, right?"
+    },
+    {
+      "t": 2109.66,
+      "who": "Bo",
+      "text": "Music can play a role to liberate and to create more freedoms. It can also be used to reinforce power structures. So it's really kind of up to us how we decide to use it."
+    },
+    {
+      "t": 3104.72,
+      "who": "Googly Eyes (bot)",
+      "text": "I think the world needs to see that Ethereum and AI can both be tools for people to build together, as long as they stay open, fair and kind."
+    }
+  ],
+  "chapters": [
+    {
+      "t": 1.3,
+      "title": "Welcome · Googly Eyes live · Bo joins"
+    },
+    {
+      "t": 336.2,
+      "title": "The question · Ben: Mumbai, every style fused"
+    },
+    {
+      "t": 467.79,
+      "title": "Bo: Messiaen in New York"
+    },
+    {
+      "t": 679.34,
+      "title": "Shaka: the Amsterdam lobby, Prague, the name"
+    },
+    {
+      "t": 971.13,
+      "title": "What Ethereum means · a briefing for Bo"
+    },
+    {
+      "t": 1071.76,
+      "title": "Shenzhen, a prayer, \"a planet we share\""
+    },
+    {
+      "t": 1532.58,
+      "title": "Why Bo · the learning zone · a bridge"
+    },
+    {
+      "t": 1779.12,
+      "title": "Remembering a friend · \"a fancy jam session\""
+    },
+    {
+      "t": 1999.9,
+      "title": "Openness, power and who gets paid"
+    },
+    {
+      "t": 2311.22,
+      "title": "What forking means · gifts, not tokens"
+    },
+    {
+      "t": 2635.04,
+      "title": "First events, staying safe, goodbyes"
+    },
+    {
+      "t": 2980.85,
+      "title": "Shaka and the bot · closing words"
+    }
+  ],
+  "whyItMatters": [
+    "Two newcomers sit in this circle, and both are honest about what they do not know. One is a human musician who has never heard of Ethereum and asks what forking means. The other is a machine — a transcription bot that now talks back — and every time it speaks, the circle and this page say so, because machines must say they are machines. Watch how the host treats both: Bo gets a plain-language briefing instead of jargon, and the bot's words are read aloud, credited to the bot, and never passed off as a person's. That is what consent-first recording grows into when agents are in the room: each arrival is told the call is recorded and may revoke consent; a bot's contribution is labelled as a bot's; surnames, pasted links and a stranger's details stay out of the public edition. The Open Source Orchestra DAO is still a proposal — no token, no treasury, grants only ever imagined as gifts passed on — and Bo's question about open things being digested and privatised is exactly the question a proposal stage exists to hear. The memory garden is the newest surface of the show: belonging moments, each with a timestamp, from anyone who consents. This episode planted the first ones."
+  ],
+  "glossary": [
+    {
+      "term": "Memory Garden",
+      "meaning": "The theater's growing collection of answers to one question — a beautiful moment of music that made you feel you belonged — each tied to the moment it was said."
+    },
+    {
+      "term": "Googly Eyes",
+      "meaning": "The transcription bot set up by Shaka's agents for these calls; it takes live captions, can reply in the chat, and is a machine that says so."
+    },
+    {
+      "term": "Fork (forking)",
+      "meaning": "Copying an open-source project's code and taking it in your own direction, as Shaka explained it; the orchestra wants its protocol to be forkable by anyone."
+    },
+    {
+      "term": "Copyleft",
+      "meaning": "A licence that lets you copy, verify and build on a work as long as you share your version under the same open terms."
+    },
+    {
+      "term": "Enshittification",
+      "meaning": "Bo's word for the pattern where something starts open and horizontal, users make it great, and it is then absorbed and privatised."
+    },
+    {
+      "term": "Messiaen",
+      "meaning": "Olivier Messiaen, a twentieth-century French composer whose dissonant orchestral music was Bo's belonging moment."
+    },
+    {
+      "term": "Private key / seed phrase",
+      "meaning": "The secret words that control an Ethereum wallet; never share them, never paste them in a chat, not even with an agent."
+    },
+    {
+      "term": "Agent gifts",
+      "meaning": "Shaka's hope that listeners' AI assistants can send small gifts to artists anywhere; described as the orchestra's biggest future utility, not a live product."
+    }
+  ],
+  "seeds": [
+    {
+      "t": 404.61,
+      "who": "Ben",
+      "text": "In Mumbai we had people just fuse in all different styles of musics … coming together and just having a beautiful output."
+    },
+    {
+      "t": 428.49,
+      "who": "Ben",
+      "text": "A guy produced a track in real time where we had the beat and the vocals and everything, real time."
+    },
+    {
+      "t": 485.01,
+      "who": "Bo",
+      "text": "Being in New York and seeing an orchestra performance of [Olivier] Messiaen … it was very, very discordant and very challenging to the [ear] initially."
+    },
+    {
+      "t": 535.88,
+      "who": "Bo",
+      "text": "I felt like I got it, and that just made me feel very affirmed."
+    },
+    {
+      "t": 698.88,
+      "who": "Shaka",
+      "text": "One that made me feel welcome in [Ethereum], initially, was singing with you, [Ben], in Amsterdam in the lobby."
+    },
+    {
+      "t": 791.85,
+      "who": "Shaka",
+      "text": "Open Source Orchestra made me feel belonging in [Ethereum] when I first came in. That's why I stayed."
+    },
+    {
+      "t": 822.25,
+      "who": "Shaka",
+      "text": "At ETH Prague we had a big closing jam for the closing ceremony, where everyone who played music in the house joined together."
+    },
+    {
+      "t": 867.56,
+      "who": "Shaka",
+      "text": "Wesley actually just picked up the ukulele for the first time … during ETH Prague."
+    },
+    {
+      "t": 1140.61,
+      "who": "Shaka",
+      "text": "A great opportunity to go to China for the first time … I got to play the songs like a planet we share as one in Shenzhen."
+    },
+    {
+      "t": 1652.21,
+      "who": "Bo",
+      "text": "Musically, I really welcome situations where … this gig or this performance … will demand of me that I learn something new."
+    },
+    {
+      "t": 1736.66,
+      "who": "Shaka",
+      "text": "I've learned languages more clearly through singing songs … it first came to my knowledge more clearly through a melody."
+    },
+    {
+      "t": 2641.07,
+      "who": "Ben",
+      "text": "[ETH] London 2019, that was my first event … I couldn't believe 10,000 people could fit into one environment."
+    },
+    {
+      "t": 2847.1,
+      "who": "Shaka",
+      "text": "We made Devcon music space a sanctuary, not a stage."
+    },
+    {
+      "t": 2913.9,
+      "who": "Shaka",
+      "text": "People think it's really cool to come together all over the world and play music together. That'd be the dream."
+    },
+    {
+      "t": 3169.46,
+      "who": "Googly Eyes (bot)",
+      "text": "The golden thread I hear is that music lets everyone belong: no auditions, just listening first and making room."
+    }
+  ],
+  "license": "CC BY-SA 4.0"
+}
