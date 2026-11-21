@@ -84,7 +84,7 @@ section { margin: 28px 0; scroll-margin-top: 16px; }
 .screen.audio-only .audio-face { display: flex; }
 .screen audio { position: absolute; left: 0; right: 0; bottom: 0; height: 44px; display: none; }
 .screen.audio-only audio { display: block; }
-.arriving { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; padding: 18px; gap: 6px; background: linear-gradient(180deg, rgba(12, 8, 18, .25), rgba(12, 8, 18, .86)); color: var(--ivory); }
+.arriving { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; padding: 18px; gap: 6px; background: rgba(12, 8, 18, .84); backdrop-filter: blur(3px); color: var(--ivory); }
 .arriving strong { font: 400 clamp(1.2rem, 3vw, 1.7rem) var(--serif); color: var(--gold-bright); }
 .arriving span { font: .82rem var(--sans); color: var(--muted); max-width: 46ch; }
 .chapters-bar { display: flex; gap: 3px; height: 10px; margin: 0; padding: 0; list-style: none; }
