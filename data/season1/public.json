@@ -666,18 +666,19 @@
     "video": {
      "url": "https://theater.opensourceorchestra.org/oso-dao-meet-5-2026-11-20-720p.mp4",
      "type": "video/mp4",
-     "bytes": null,
-     "sha256": null,
+     "bytes": 326552596,
+     "sha256": "fabcd048af1f4117c6806615d75a92b5b1ccf108c6093a72a5e8d2f8f1c31f0a",
      "host": "Cloudflare R2 · theater.opensourceorchestra.org",
-     "arriving": true,
-     "note": "720p H.264 encode in progress on the ʻohana's box; bytes and SHA-256 land here when the upload is verified"
+     "arriving": false
     },
     "audio": {
-     "url": "/meetings/5/audio/oso-dao-meet-5-2026-11-20.mp3",
+     "url": "https://theater.opensourceorchestra.org/oso-dao-meet-5-2026-11-20.mp3",
      "type": "audio/mpeg",
-     "bytes": null,
-     "sha256": null,
-     "arriving": true
+     "bytes": 26518612,
+     "sha256": "96aa31a0338fd9c6cc9d9932c9233bcfc16669ce5fa93d2146374d90d1bbc272",
+     "durationSeconds": 3314.78,
+     "host": "Cloudflare R2 · theater.opensourceorchestra.org",
+     "arriving": false
     },
     "poster": "/assets/channels/poster-meeting-5.jpg",
     "captions": "/meetings/5/transcript/transcript.vtt",
