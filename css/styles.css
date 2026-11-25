@@ -616,7 +616,7 @@ body.theater-open #hall-shell canvas { filter: saturate(.85) brightness(.75); }
 .theater-header p { margin: 4px 0 0; color: var(--muted); font-size: 12px; max-width: 760px; }
 .channel-dial { grid-area: dial; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px; padding: 8px; border: 1px solid var(--line); border-radius: 16px; background: rgba(15, 10, 21, .78); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
 .channel-dial button { display: flex; align-items: center; gap: 10px; min-height: 58px; padding: 8px 10px; border: 1px solid transparent; border-radius: 11px; background: rgba(255, 255, 255, .025); color: #e9dfd3; text-align: left; }
-.channel-dial button b { flex: 0 0 auto; width: 30px; height: 30px; display: grid; place-items: center; border: 1px solid var(--gold-dim); border-radius: 50%; color: var(--gold); font: 700 13px var(--sans); }
+.channel-dial button b { flex: 0 0 auto; width: 32px; height: 32px; display: grid; place-items: center; border: 1px solid var(--gold-dim); border-radius: 50%; color: var(--gold); font: 700 15px/1 var(--sans); }
 .channel-dial button span { display: flex; flex-direction: column; min-width: 0; }
 .channel-dial button strong { font: 500 12.5px/1.2 var(--serif); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .channel-dial button small { color: #a99bab; font-size: 9.5px; letter-spacing: .06em; margin-top: 3px; }

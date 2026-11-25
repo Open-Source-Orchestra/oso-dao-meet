@@ -23,9 +23,9 @@
   "channels": [
     {
       "id": "weekly-call-2",
-      "number": 1,
+      "number": "🎻",
       "kind": "video",
-      "title": "Weekly call #2 · right before Devcon 8",
+      "title": "Pre Devcon 8 Genesis Meeting (before DAO proposal)",
       "subtitle": "Open Recording #2 · the Music Space family deciding how four days on the floor of Devcon 8 would breathe",
       "lede": "1h37 of musicians, stewards and friends across India, the US and Thailand — the sanctuary, continuous flow, India × the West, the cultural floor, sound check, stewards and the jam.",
       "recordedAt": "2026-10-27T16:06:00Z",
@@ -121,7 +121,7 @@
     },
     {
       "id": "meeting-1",
-      "number": 2,
+      "number": 1,
       "kind": "video",
       "title": "Proposal Meeting #1 · The First Circle",
       "subtitle": "Devcon 8 retro and the road to Lisbon · Session A",
@@ -261,7 +261,7 @@
     },
     {
       "id": "meeting-2",
-      "number": 3,
+      "number": 2,
       "kind": "video",
       "title": "Proposal Meeting #2 · The second circle",
       "subtitle": "From the lobby of 4Seas, Chiang Mai · Session B",
@@ -397,7 +397,7 @@
     },
     {
       "id": "meeting-3",
-      "number": 4,
+      "number": 3,
       "kind": "video",
       "title": "Open Source Orchestra DAO Meet #3 · The third circle",
       "subtitle": "Chiang Mai, Leeds and Barcelona in one room · Episode 3",
@@ -513,7 +513,7 @@
     },
     {
       "id": "meeting-4",
-      "number": 5,
+      "number": 4,
       "kind": "video",
       "title": "Open Source Orchestra DAO Meet #4 · The fourth circle",
       "subtitle": "Shaka and Ben, the morning after · Episode 4",
@@ -628,7 +628,7 @@
     },
     {
       "id": "meeting-5",
-      "number": 6,
+      "number": 5,
       "kind": "video",
       "title": "Open Source Orchestra DAO Meet #5 · The fifth circle · the memory garden",
       "subtitle": "One beautiful moment of music that made you feel you belonged · Episode 5",
@@ -749,7 +749,7 @@
     },
     {
       "id": "deck",
-      "number": 7,
+      "number": 6,
       "kind": "deck",
       "title": "The deck · twelve movements with AI steward narration",
       "subtitle": "The First Circle slides, read by the authorized synthetic Shaka-agent steward voice",
@@ -789,7 +789,7 @@
     },
     {
       "id": "todo-es-posible",
-      "number": 8,
+      "number": 7,
       "kind": "youtube",
       "title": "Todo Es Posible · Música con JAMón",
       "subtitle": "The OSO motto — ‘everything is possible’ · Pinolero demo track 2",
@@ -831,7 +831,7 @@
     },
     {
       "id": "devcon-6",
-      "number": 9,
+      "number": 8,
       "kind": "youtube",
       "title": "Devcon 6 · Chiva Chillout Lounge · Bogotá 2022",
       "subtitle": "Where the first OSO DIP activated the Music Stage",
@@ -880,6 +880,6 @@
     "watch": "/watch/",
     "feed": "/watch/feed.xml",
     "season": "/data/season1/season.json",
-    "note": "Season 1 · The Proposal Circles: every consented circle as an episode, and all six consented films in the projector switcher."
+    "note": "Season 1 · The Proposal Circles: every consented circle as an episode, the 🎻 genesis film plus eight numbered channels in the projector switcher."
   }
 }

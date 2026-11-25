@@ -21,15 +21,15 @@
     { t: 'Island', a: 'Matteo Tambussi', u: 'https://shakaleikaumaka.com/radio-assets/matteo-tambussi--island.mp3' }
   ];
   var FALLBACK_CHANNELS = [
-    { id: 'weekly-call-2', number: 1, title: 'Weekly call #2 · right before Devcon 8' },
-    { id: 'meeting-1', number: 2, title: 'Proposal Meeting #1 · 12 Nov 2026' },
-    { id: 'meeting-2', number: 3, title: 'Proposal Meeting #2 · 13 Nov 2026' },
-    { id: 'meeting-3', number: 4, title: 'DAO Meet #3 · The third circle · 19 Nov 2026' },
-    { id: 'meeting-4', number: 5, title: 'DAO Meet #4 · The fourth circle · 20 Nov 2026' },
-    { id: 'meeting-5', number: 6, title: 'DAO Meet #5 · The fifth circle · the memory garden · 20 Nov 2026' },
-    { id: 'deck', number: 7, title: 'The deck, narrated' },
-    { id: 'todo-es-posible', number: 8, title: 'Todo Es Posible · Pinolero demo' },
-    { id: 'devcon-6', number: 9, title: 'Devcon 6 · Chiva Chillout Lounge 2022' }
+    { id: 'weekly-call-2', number: '🎻', title: 'Pre Devcon 8 Genesis Meeting (before DAO proposal)' },
+    { id: 'meeting-1', number: 1, title: 'Proposal Meeting #1 · 12 Nov 2026' },
+    { id: 'meeting-2', number: 2, title: 'Proposal Meeting #2 · 13 Nov 2026' },
+    { id: 'meeting-3', number: 3, title: 'DAO Meet #3 · The third circle · 19 Nov 2026' },
+    { id: 'meeting-4', number: 4, title: 'DAO Meet #4 · The fourth circle · 20 Nov 2026' },
+    { id: 'meeting-5', number: 5, title: 'DAO Meet #5 · The fifth circle · the memory garden · 20 Nov 2026' },
+    { id: 'deck', number: 6, title: 'The deck, narrated' },
+    { id: 'todo-es-posible', number: 7, title: 'Todo Es Posible · Pinolero demo' },
+    { id: 'devcon-6', number: 8, title: 'Devcon 6 · Chiva Chillout Lounge 2022' }
   ];
 
   var CSS = '' +
@@ -117,7 +117,7 @@
       '<div class="tv-panel" id="oso-tv-panel" role="dialog" aria-label="The OSO Theater" hidden>' +
         '<button type="button" class="tv-x" aria-label="Close">✕</button>' +
         '<h2>📺 The OSO Theater</h2>' +
-        '<p class="sub">one room · the orchestra pit on the floor · the living wall · a six‑channel projector</p>' +
+        '<p class="sub">one room · the orchestra pit on the floor · the living wall · a nine‑channel projector</p>' +
         '<div class="tv-music"><button type="button" class="tv-play" aria-label="Play music from the TV" aria-pressed="false">▶</button>' +
           '<div class="tv-track"><b></b><span></span></div>' +
           '<div class="tv-eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>' +
@@ -147,8 +147,9 @@
   function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
 
   function renderChannels(list) {
-    chList.innerHTML = list.slice(0, 8).map(function (c) {
-      return '<li><a href="' + THEATER + '?channel=' + encodeURIComponent(c.id) + '"><span class="n">' + esc(c.number || '') + '</span><span>' + esc(c.title || c.id) + '</span></a></li>';
+    chList.innerHTML = list.map(function (c) {
+      var mark = (c.number === undefined || c.number === null) ? '' : c.number;
+      return '<li><a href="' + THEATER + '?channel=' + encodeURIComponent(c.id) + '"><span class="n">' + esc(mark) + '</span><span>' + esc(c.title || c.id) + '</span></a></li>';
     }).join('');
   }
 

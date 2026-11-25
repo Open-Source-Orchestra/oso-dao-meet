@@ -195,8 +195,10 @@ const channelsStatic = read('channels/index.html');
 const ledger = read('meetings/index.html');
 const archiveStatus = json('archive/status.json');
 check(channels.schema === 'oso-theater-channels-v1' && channels.channels.length === 9, 'The theater must list exactly nine channels (6 consented films + deck + 2 YouTube).');
-check(channels.channels.map((channel) => channel.number).join(',') === '1,2,3,4,5,6,7,8,9', 'Channels must be numbered 1–9 in order.');
-check(channels.channels.map((channel) => channel.kind).join(',') === 'video,video,video,video,video,video,deck,youtube,youtube', 'Channels 1–6 films, 7 deck, 8–9 YouTube.');
+check(channels.channels[0].id === 'weekly-call-2' && channels.channels[0].number === '🎻' && /Pre Devcon 8 Genesis Meeting/.test(channels.channels[0].title), 'Channel ids stay the same: weekly-call-2 is the 🎻 Pre Devcon 8 Genesis Meeting.');
+check(/channel\.number === Number\(event\.key\)/.test(theaterJS), 'Number keys must jump by channel number, so key 1 opens DAO Meet #1, not the genesis film.');
+check(channels.channels.map((channel) => channel.number).join(',') === '🎻,1,2,3,4,5,6,7,8', 'Genesis film is 🎻 (unnumbered); DAO Meets 1–5, deck 6, Todo Es Posible 7, Devcon 6 8.');
+check(channels.channels.map((channel) => channel.kind).join(',') === 'video,video,video,video,video,video,deck,youtube,youtube', 'Six films (🎻 + Meets 1–5), then deck 6, YouTube 7–8.');
 check(/publicinform\.com\/#consent/.test(channels.protocol.url) && /takedown\//.test(channels.protocol.takedown), 'Theater must link the PIT protocol and the takedown door.');
 for (const channel of channels.channels) {
   const label = `Channel ${channel.number} (${channel.id})`;

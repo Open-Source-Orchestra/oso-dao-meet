@@ -1,8 +1,11 @@
-/* The Theater: the projector as a seven-channel switcher with karaoke transcribers and an infinite garden behind the screen.
+/* The Theater: the projector as a nine-channel switcher with karaoke transcribers and an infinite garden behind the screen.
    The karaoke transcriber runs on the shared media-clock engine (js/watch/karaoke.js): no page scrolling, no fighting the reader.
    Nothing plays until a person presses Play. No autoplay, no trackers, no external request before an explicit choice.
-   Channels 1–3 stream consented recordings (byte ranges), channel 4 hands over to the slide deck + authorized synthetic
-   narration, channels 5–6 are click-to-load youtube-nocookie embeds of Shaka's own published videos. */
+   The first film, weekly-call-2, is the Pre Devcon 8 Genesis Meeting and is marked 🎻 (not a number). Numbered channels
+   then start at DAO Meet #1: keys 1–5 open Meets #1–#5, 6 the deck, 7 Todo Es Posible, 8 Devcon 6. Number keys jump by
+   the channel's number field, never by list position, so key 1 is Meet #1. The genesis film is on the dial, via arrows,
+   or at ?channel=weekly-call-2. Films stream consented recordings (byte ranges); the deck hands over to slides + authorized
+   synthetic narration; the last two channels are click-to-load youtube-nocookie embeds of Shaka's own published videos. */
 
 import { createKaraoke } from './watch/karaoke.js';
 
@@ -80,7 +83,10 @@ export function createTheater({ hall, narration, showToast, onEnter, stopSlidesh
   }
 
   function renderDial() {
-    ui.dial.innerHTML = state.channels.map((channel, index) => `<button type="button" role="tab" id="channel-tab-${escapeHTML(channel.id)}" data-channel="${escapeHTML(channel.id)}" aria-selected="${index === state.index}" aria-controls="screen" tabindex="${index === state.index ? 0 : -1}" title="Channel ${channel.number} · ${escapeHTML(channel.title)}"><b>${channel.number}</b><span><strong>${escapeHTML(channel.title.split(' · ')[0])}</strong><small>${escapeHTML(channel.durationLabel || channel.dateLabel.split(' · ')[0])}</small></span></button>`).join('');
+    ui.dial.innerHTML = state.channels.map((channel, index) => {
+      const shortTitle = channel.title.split(' · ')[0].replace(/\s*\([^)]*\)\s*$/, '');
+      return `<button type="button" role="tab" id="channel-tab-${escapeHTML(channel.id)}" data-channel="${escapeHTML(channel.id)}" aria-selected="${index === state.index}" aria-controls="screen" tabindex="${index === state.index ? 0 : -1}" title="Channel ${channel.number} · ${escapeHTML(channel.title)}"><b>${channel.number}</b><span><strong>${escapeHTML(shortTitle)}</strong><small>${escapeHTML(channel.durationLabel || channel.dateLabel.split(' · ')[0])}</small></span></button>`;
+    }).join('');
   }
 
   function stopMedia() {
@@ -328,7 +334,13 @@ export function createTheater({ hall, narration, showToast, onEnter, stopSlidesh
     const tag = document.activeElement?.tagName;
     if (['INPUT', 'TEXTAREA', 'SELECT', 'VIDEO', 'IFRAME'].includes(tag)) return;
     if (event.key === 'Escape') { event.preventDefault(); event.stopPropagation(); close(); return; }
-    if (/^[1-9]$/.test(event.key) && Number(event.key) <= state.channels.length) { event.preventDefault(); event.stopPropagation(); show(Number(event.key) - 1); return; }
+    // Digit keys jump by the channel number field (key 1 = DAO Meet #1), not by list position.
+    // The genesis film is unnumbered (🎻) and is reached from the dial, arrows, or ?channel=weekly-call-2.
+    if (/^[1-9]$/.test(event.key)) {
+      const idx = state.channels.findIndex((channel) => channel.number === Number(event.key));
+      if (idx >= 0) { event.preventDefault(); event.stopPropagation(); show(idx); }
+      return;
+    }
     if (event.target.closest('#channel-dial')) return;
     if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') { event.preventDefault(); event.stopPropagation(); step(event.key === 'ArrowRight' ? 1 : -1); }
   }, true);
