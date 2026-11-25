@@ -1,7 +1,7 @@
 {
   "schema": "oso-theater-channels-v1",
-  "updated": "2026-11-21",
-  "theater": "Open Source Orchestra DAO Meet · The Theater — one room: the orchestra pit on the floor, the living wall of public memories, and the projector as a seven-channel switcher.",
+  "updated": "2026-11-25",
+  "theater": "Open Source Orchestra DAO Meet · The Theater — one room: the orchestra pit on the floor, the living wall of public memories, and the projector as a nine-channel switcher.",
   "ledger": "/meetings/",
   "protocol": {
     "name": "PIT protocol · publicinform",
@@ -512,8 +512,244 @@
       "ledgerEntry": "/meetings/#meeting-3"
     },
     {
-      "id": "deck",
+      "id": "meeting-4",
       "number": 5,
+      "kind": "video",
+      "title": "Open Source Orchestra DAO Meet #4 · The fourth circle",
+      "subtitle": "Shaka and Ben, the morning after · Episode 4",
+      "lede": "A two-voice circle: Shaka in Chiang Mai and Ben in Leeds pick up the threads of the third circle — keeping competition out, non-speculative participation and appreciation tokens, cultural guides, and three-, six- and nine-month plans toward Lisbon. Still a proposal, not a decision.",
+      "recordedAt": "2026-11-20T02:39:00Z",
+      "dateLabel": "20 November 2026 · 02:39 UTC · 09:39 Bangkok",
+      "durationSeconds": 2627.62,
+      "durationLabel": "43:48",
+      "speakers": [
+        "Shaka",
+        "Ben"
+      ],
+      "speakersNote": "first names only, as addressed in the meeting; Googly Eye (a transcription bot) took live captions",
+      "consent": {
+        "status": "published_with_consent",
+        "line": "Everyone present consented to the public video and transcript; confirmed by Shaka on 21 November 2026 (11:50 Bangkok). First names only; a takedown request always wins.",
+        "confirmedBy": "Shaka",
+        "confirmedAt": "2026-11-21T11:50:00+07:00",
+        "home": "/meetings/4/"
+      },
+      "media": {
+        "video": {
+          "url": "https://theater.opensourceorchestra.org/oso-dao-meet-4-2026-11-20-720p.mp4",
+          "type": "video/mp4",
+          "bytes": 509939690,
+          "sha256": "4b3284fc32553adffadab70069b4cf44406a56f2eef3ce16fa1f0bb4c0e2aa84",
+          "host": "Cloudflare R2 · theater.opensourceorchestra.org",
+          "arriving": false,
+          "mirror": {
+            "item": "https://archive.org/details/oso-dao-meet-4-2026-11-20c",
+            "url": "https://archive.org/download/oso-dao-meet-4-2026-11-20c/oso-dao-meet-4-2026-11-20-720p.mp4",
+            "licence": "CC BY-SA 4.0 (words and performance remain each speaker's own)",
+            "host": "Internet Archive · permanent public-good mirror, same bytes (md5-verified by Archy)"
+          }
+        },
+        "audio": {
+          "url": "https://theater.opensourceorchestra.org/oso-dao-meet-4-2026-11-20.mp3",
+          "bytes": 21021195,
+          "sha256": "9e7f5619a5a96b9701dfd44c5a067eeebf85a2e687f23e9739e3a7a26d71db99",
+          "arriving": false
+        },
+        "poster": "./assets/channels/poster-meeting-4.jpg",
+        "captions": "./meetings/4/transcript/transcript.vtt",
+        "transcript": "./meetings/4/transcript/transcript.json",
+        "wordTiming": "./meetings/4/transcript/words.json"
+      },
+      "chapters": [
+        {
+          "start": 0,
+          "title": "Opening · Meet #4 and morning catch-up"
+        },
+        {
+          "start": 346.19,
+          "title": "Culture first · avoiding competition for stage or funding"
+        },
+        {
+          "start": 541.66,
+          "title": "Mumbai floor schedule and open community slots"
+        },
+        {
+          "start": 881.06,
+          "title": "Participation and appreciation tokens without speculation"
+        },
+        {
+          "start": 1080.52,
+          "title": "A living, decentralized tradition from Devcon 8"
+        },
+        {
+          "start": 1400.34,
+          "title": "Human space, agents and cultural guides"
+        },
+        {
+          "start": 1780.96,
+          "title": "Three-, six- and nine-month plans toward Lisbon"
+        },
+        {
+          "start": 2142.21,
+          "title": "Activators, committees and public auditing"
+        },
+        {
+          "start": 2383.48,
+          "title": "Closing · consent confirmed on the call"
+        }
+      ],
+      "links": [
+        {
+          "label": "Meet #4 · recap",
+          "url": "/meetings/4/"
+        },
+        {
+          "label": "High-level notes",
+          "url": "/meetings/4/notes/"
+        },
+        {
+          "label": "Full transcript",
+          "url": "/meetings/4/transcript/"
+        },
+        {
+          "label": "Audio",
+          "url": "/meetings/4/audio/"
+        },
+        {
+          "label": "Episode 4 in the TV",
+          "url": "/watch/e4/"
+        },
+        {
+          "label": "archive.org mirror",
+          "url": "https://archive.org/details/oso-dao-meet-4-2026-11-20c"
+        }
+      ],
+      "ledgerEntry": "/meetings/#meeting-4"
+    },
+    {
+      "id": "meeting-5",
+      "number": 6,
+      "kind": "video",
+      "title": "Open Source Orchestra DAO Meet #5 · The fifth circle · the memory garden",
+      "subtitle": "One beautiful moment of music that made you feel you belonged · Episode 5",
+      "lede": "Shaka asks Ben, Bo and Food For Riot for one beautiful moment of music that made each of them feel they belonged — the seeds of the Memory Garden, plus what forking and open protocols mean for artists. Still a proposal, not a decision.",
+      "recordedAt": "2026-11-20T07:11:00Z",
+      "dateLabel": "20 November 2026 · 07:11 UTC · 14:11 Bangkok",
+      "durationSeconds": 3314.79,
+      "durationLabel": "55:15",
+      "speakers": [
+        "Shaka",
+        "Ben",
+        "Bo",
+        "Food For Riot"
+      ],
+      "speakersNote": "first names or chosen display names only, as addressed in the meeting; Googly Eye (a transcription bot) took live captions",
+      "consent": {
+        "status": "published_with_consent",
+        "line": "Everyone present consented to the public video and transcript; confirmed by Shaka on 21 November 2026 (11:50 Bangkok). First names or chosen display names only; a takedown request always wins.",
+        "confirmedBy": "Shaka",
+        "confirmedAt": "2026-11-21T11:50:00+07:00",
+        "home": "/meetings/5/"
+      },
+      "media": {
+        "video": {
+          "url": "https://theater.opensourceorchestra.org/oso-dao-meet-5-2026-11-20-720p.mp4",
+          "type": "video/mp4",
+          "bytes": 326552596,
+          "sha256": "fabcd048af1f4117c6806615d75a92b5b1ccf108c6093a72a5e8d2f8f1c31f0a",
+          "host": "Cloudflare R2 · theater.opensourceorchestra.org",
+          "arriving": false,
+          "mirror": {
+            "item": "https://archive.org/details/oso-dao-meet-5-2026-11-20",
+            "url": "https://archive.org/download/oso-dao-meet-5-2026-11-20/oso-dao-meet-5-2026-11-20-720p.mp4",
+            "licence": "CC BY-SA 4.0 (words and performance remain each speaker's own)",
+            "host": "Internet Archive · permanent public-good mirror, same bytes (md5-verified by Archy)"
+          }
+        },
+        "audio": {
+          "url": "https://theater.opensourceorchestra.org/oso-dao-meet-5-2026-11-20.mp3",
+          "bytes": 26518612,
+          "sha256": "96aa31a0338fd9c6cc9d9932c9233bcfc16669ce5fa93d2146374d90d1bbc272",
+          "arriving": false
+        },
+        "poster": "./assets/channels/poster-meeting-5.jpg",
+        "captions": "./meetings/5/transcript/transcript.vtt",
+        "transcript": "./meetings/5/transcript/transcript.json",
+        "wordTiming": "./meetings/5/transcript/words.json"
+      },
+      "chapters": [
+        {
+          "start": 0,
+          "title": "Opening · Shaka and Googly Eyes at 11:11 PM PT"
+        },
+        {
+          "start": 187.4,
+          "title": "Ben, Bo and Food For Riot join · consent briefing"
+        },
+        {
+          "start": 369.08,
+          "title": "The Memory Garden question · moments of belonging"
+        },
+        {
+          "start": 902.1,
+          "title": "Music, AI tools and building Open Source Orchestra"
+        },
+        {
+          "start": 1445.66,
+          "title": "Transparent stewardship, Giveth and the learning zone"
+        },
+        {
+          "start": 1783.04,
+          "title": "Remembering a friend and music as a human protocol"
+        },
+        {
+          "start": 2150.86,
+          "title": "What forking means · openness versus enclosure"
+        },
+        {
+          "start": 2702.3,
+          "title": "Security lessons and Devcon 9 as a sanctuary"
+        },
+        {
+          "start": 3061.06,
+          "title": "Closing · Shaka and Googly Eyes on open, kind tools"
+        }
+      ],
+      "links": [
+        {
+          "label": "Meet #5 · recap",
+          "url": "/meetings/5/"
+        },
+        {
+          "label": "High-level notes",
+          "url": "/meetings/5/notes/"
+        },
+        {
+          "label": "Full transcript",
+          "url": "/meetings/5/transcript/"
+        },
+        {
+          "label": "Audio",
+          "url": "/meetings/5/audio/"
+        },
+        {
+          "label": "Episode 5 in the TV",
+          "url": "/watch/e5/"
+        },
+        {
+          "label": "Memory Garden",
+          "url": "/watch/garden/"
+        },
+        {
+          "label": "archive.org mirror",
+          "url": "https://archive.org/details/oso-dao-meet-5-2026-11-20"
+        }
+      ],
+      "ledgerEntry": "/meetings/#meeting-5"
+    },
+    {
+      "id": "deck",
+      "number": 7,
       "kind": "deck",
       "title": "The deck · twelve movements with AI steward narration",
       "subtitle": "The First Circle slides, read by the authorized synthetic Shaka-agent steward voice",
@@ -553,7 +789,7 @@
     },
     {
       "id": "todo-es-posible",
-      "number": 6,
+      "number": 8,
       "kind": "youtube",
       "title": "Todo Es Posible · Música con JAMón",
       "subtitle": "The OSO motto — ‘everything is possible’ · Pinolero demo track 2",
@@ -595,7 +831,7 @@
     },
     {
       "id": "devcon-6",
-      "number": 7,
+      "number": 9,
       "kind": "youtube",
       "title": "Devcon 6 · Chiva Chillout Lounge · Bogotá 2022",
       "subtitle": "Where the first OSO DIP activated the Music Stage",
@@ -640,63 +876,10 @@
       "ledgerEntry": "/meetings/#devcon-6"
     }
   ],
-  "meet3": {
-    "id": "meeting-3",
-    "title": "Open Source Orchestra DAO Meet #3 · The third circle",
-    "dateLabel": "19 November 2026",
-    "recordedAt": "2026-11-19T17:36:51Z",
-    "durationSeconds": 6422,
-    "durationLabel": "1:47:02",
-    "speakers": [
-      "Shaka",
-      "Ben",
-      "Alaska",
-      "Mary"
-    ],
-    "consent": {
-      "status": "published_with_consent",
-      "confirmedAt": "2026-11-20T02:33:00+07:00",
-      "line": "Everyone present consented to the public video and transcript, confirmed by Shaka on 20 November 2026 (2:33 AM Bangkok)."
-    },
-    "media": {
-      "video": {
-        "status": "coming_soon"
-      },
-      "audio": {
-        "status": "coming_soon"
-      },
-      "captions": "meetings/3/transcript/transcript.vtt",
-      "transcript": "meetings/3/transcript/transcript.json"
-    },
-    "ledgerEntry": "/meetings/#meeting-3",
-    "links": [
-      {
-        "label": "Recap",
-        "url": "/meetings/3/"
-      },
-      {
-        "label": "Transcript",
-        "url": "/meetings/3/transcript/"
-      },
-      {
-        "label": "Notes",
-        "url": "/meetings/3/notes/"
-      },
-      {
-        "label": "Join",
-        "url": "https://opensourceorchestra.org/join/"
-      },
-      {
-        "label": "Takedown",
-        "url": "https://opensourceorchestra.org/takedown/"
-      }
-    ],
-    "note": "Listed here for the ledger and readable edition. Not yet a theater projector channel: the six-channel switcher stays unchanged until the 720p film is hosted."
-  },
   "tv": {
     "watch": "/watch/",
     "feed": "/watch/feed.xml",
     "season": "/data/season1/season.json",
-    "note": "Season 1 · The Proposal Circles: every consented circle as an episode. Episodes 4 and 5 join this switcher once their captions and chapters exist."
+    "note": "Season 1 · The Proposal Circles: every consented circle as an episode, and all six consented films in the projector switcher."
   }
 }

@@ -194,14 +194,14 @@ const theaterJS = read('js/theater.js');
 const channelsStatic = read('channels/index.html');
 const ledger = read('meetings/index.html');
 const archiveStatus = json('archive/status.json');
-check(channels.schema === 'oso-theater-channels-v1' && channels.channels.length === 7, 'The theater must list exactly seven channels (3 films + Meet #3 + deck + 2 YouTube).');
-check(channels.channels.map((channel) => channel.number).join(',') === '1,2,3,4,5,6,7', 'Channels must be numbered 1–7 in order.');
-check(channels.channels.map((channel) => channel.kind).join(',') === 'video,video,video,video,deck,youtube,youtube', 'Channels 1–4 films, 5 deck, 6–7 YouTube.');
+check(channels.schema === 'oso-theater-channels-v1' && channels.channels.length === 9, 'The theater must list exactly nine channels (6 consented films + deck + 2 YouTube).');
+check(channels.channels.map((channel) => channel.number).join(',') === '1,2,3,4,5,6,7,8,9', 'Channels must be numbered 1–9 in order.');
+check(channels.channels.map((channel) => channel.kind).join(',') === 'video,video,video,video,video,video,deck,youtube,youtube', 'Channels 1–6 films, 7 deck, 8–9 YouTube.');
 check(/publicinform\.com\/#consent/.test(channels.protocol.url) && /takedown\//.test(channels.protocol.takedown), 'Theater must link the PIT protocol and the takedown door.');
 for (const channel of channels.channels) {
   const label = `Channel ${channel.number} (${channel.id})`;
   check(/^[a-z0-9-]+$/.test(channel.id) && channel.title && channel.lede && channel.consent?.line && channel.consent?.status, `${label}: id, title, lede and consent line are required.`);
-  check(Array.isArray(channel.speakers) && channel.speakers.length >= 1 && channel.speakers.every((name) => !/\s[A-Z][a-z]+$/.test(name) || /AI steward/.test(name)), `${label}: who spoke must be first names only.`);
+  check(Array.isArray(channel.speakers) && channel.speakers.length >= 1 && channel.speakers.every((name) => !/\s[A-Z][a-z]+$/.test(name) || /AI steward|^Food For Riot$/.test(name)), `${label}: who spoke must be first names only.`);
   check(Array.isArray(channel.links) && channel.links.length >= 2 && channel.links.every((link) => /^(https:\/\/|\/)/.test(link.url)), `${label}: links must be public HTTPS or same-site.`);
   check(channel.media?.poster && existsSync(resolve(root, channel.media.poster)), `${label}: poster must be a local asset.`);
   check(channelsStatic.includes(`id="${channel.id}"`) && ledger.includes(`id="${channel.id}"`), `${label}: must appear in the readable channels edition and the public media files ledger.`);
@@ -244,9 +244,9 @@ check(/id="channels-button"/.test(html) && /id="theater"/.test(html) && /id="cha
 check(/#theater\{display:none!important\}/.test(html) && /\/channels\//.test(html), 'No-JS: the theater hides and the readable channels edition is linked.');
 check(!/<button id="venue-button"[^>]*title="Choose an artistic hall"/.test(html) && /LIGHTING/.test(html) && /ONE THEATER/.test(html), 'One theater: the three halls survive only as a lighting toggle.');
 check(!/<(?:script|img|link)\b[^>]*(?:src|href)="https?:/i.test(channelsStatic.replace(/<link rel="canonical"[^>]*>/, '')) && !/<(?:script|img|link)\b[^>]*(?:src|href)="https?:/i.test(ledger.replace(/<link rel="canonical"[^>]*>/, '')), 'Readable channels edition and ledger must not load external runtime resources.');
-check((channelsStatic.match(/<video\b/g) || []).length === 4 && !/<video[^>]*autoplay/i.test(channelsStatic) && (channelsStatic.match(/preload="none"/g) || []).length === 4 && !/<iframe/i.test(channelsStatic), 'Readable edition: four lazy native films, no iframes.');
+check((channelsStatic.match(/<video\b/g) || []).length === 6 && !/<video[^>]*autoplay/i.test(channelsStatic) && (channelsStatic.match(/preload="none"/g) || []).length === 6 && !/<iframe/i.test(channelsStatic), 'Readable edition: six lazy native films, no iframes.');
 check(/opensourceorchestra\.org\/takedown\//.test(channelsStatic) && /publicinform\.com\/#consent/.test(channelsStatic) && /opensourceorchestra\.org\/takedown\//.test(ledger) && /publicinform\.com\/#consent/.test(ledger), 'Takedown door and PIT protocol on the readable edition and the ledger.');
-check(archiveStatus.status === 'published_with_consent' && ['1', '2', '3', '4', '5', 'weekly-call-2'].every((key) => archiveStatus.meetings[key]?.status === 'published_with_consent') && archiveStatus.items.length === 4, 'Archive status must list every consented circle and the four theater films.');
+check(archiveStatus.status === 'published_with_consent' && ['1', '2', '3', '4', '5', 'weekly-call-2'].every((key) => archiveStatus.meetings[key]?.status === 'published_with_consent') && archiveStatus.items.length === 6, 'Archive status must list every consented circle and the six theater films.');
 const meeting1 = json('meetings/1/status.json');
 const transcript1 = json('meetings/1/transcript/transcript.json');
 check(meeting1.recording.status === 'published_with_consent' && meeting1.recordingConsent.reportedAt === '2026-11-13T05:21:00Z' && meeting1.recording.publicVideo.url === channels.channels[1].media.video.url && meeting1.recording.publicVideo.sha256 === channels.channels[1].media.video.sha256, 'Meeting 1 status must match the channel registry.');
@@ -297,6 +297,6 @@ if (failures.length) {
   console.log(`PASS ${checks}/${checks} structural, editorial, fallback, privacy, and local-asset checks.`);
   console.log('PASS 12 synchronized slide articles; 24 Garden Circle history photos + 4 Mumbai frames; 9 portraits; 14 OG node images; Three.js r169 + local VRButton.');
   console.log('PASS no build step, runtime CDN, private meeting link, email link, or onchain/adoption claim; Meeting #2 audio + transcript published only with confirmed consent.');
-  console.log('PASS the theater: one room, orchestra pit on the floor, 16-photo living wall, seven channels (4 consented films + deck + 2 blessed YouTube ids), karaoke transcribers, no autoplay.');
+  console.log('PASS the theater: one room, orchestra pit on the floor, 16-photo living wall, nine channels (6 consented films + deck + 2 blessed YouTube ids), karaoke transcribers, no autoplay.');
   console.log('PASS /watch/ (Season 1 · The Proposal Circles): run `node scripts/validate-watch.mjs` for the TV gates.');
 }
